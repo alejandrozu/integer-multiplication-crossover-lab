@@ -1,0 +1,2 @@
+# Preserve exact exported artifact bytes on every platform.
+* -text
