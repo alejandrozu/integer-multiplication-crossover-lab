@@ -1,0 +1,88 @@
+{
+  "pr": 2751,
+  "own_head": "4cfbb0cc8314d7fb4e8e754545a49a42eb590a69",
+  "primary_path_candidates": [
+    "research/t74-joint-twelve/CLAIM.json",
+    "research/t74-joint-twelve/PROOF.md",
+    "research/t74-joint-twelve/README.md",
+    "research/t74-joint-twelve/TASK.json",
+    "research/t74-joint-twelve/VERIFY.json",
+    "research/t74-joint-twelve/PROFILE.json",
+    "research/t74-joint-twelve/EVIDENCE.json",
+    "research/t74-joint-twelve/FRESHNESS.json",
+    "research/t74-joint-twelve/INPUT-PINS.json",
+    "research/t74-joint-twelve/REUSE-PINS.json",
+    "research/t74-joint-twelve/OVERLAY-PINS.json",
+    "research/t74-joint-twelve/SOURCE-FILES.json",
+    "research/t74-joint-twelve/GENERATOR-PINS.json",
+    "research/t74-joint-twelve/evidence/OWNERS.json",
+    "research/t74-joint-twelve/evidence/RELEASE.json",
+    "research/t74-joint-twelve/evidence/ADMISSION.json",
+    "research/t74-joint-twelve/evidence/INDEPENDENT.json",
+    "research/t74-joint-twelve/evidence/NATIVE-BASE.json",
+    "research/t74-joint-twelve/evidence/PACKING-CAP.json",
+    "research/t74-joint-twelve/evidence/NATIVE-EXTRA.json",
+    "research/t74-joint-twelve/evidence/PR2733-CLAIM.json",
+    "research/t74-joint-twelve/evidence/PR2745-CLAIM.json",
+    "research/t74-joint-twelve/evidence/PUBLIC-WRAPPER.json",
+    "research/t74-joint-twelve/verify.py",
+    "research/t74-joint-twelve/generate.py",
+    "research/t74-joint-twelve/composition.py",
+    "research/t74-joint-twelve/full_replay.py",
+    "research/t74-joint-twelve/packing_cap.py",
+    "research/t74-joint-twelve/exact_moment.py",
+    "research/t74-joint-twelve/joint_engine.py",
+    "research/t74-joint-twelve/test_integrity.py",
+    "research/t74-joint-twelve/independent_local.py",
+    "research/t74-joint-twelve/independent_owners.py",
+    "research/t74-joint-twelve/workflow/admit.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-joint-twelve/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-joint-twelve/PROOF.md",
+      "file": "remaining-record-audit/artifacts/2751/6ecefda5d853__PROOF.md",
+      "sha256": "6ecefda5d853e3ede1ee06aab08de24dfde960d98178a71844340ed86ae0d9b9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cfbb0cc8314d7fb4e8e754545a49a42eb590a69/research/t74-joint-twelve/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-joint-twelve/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2751/78e99222196f__CLAIM.json",
+      "sha256": "78e99222196fca8b74a895b9e2db40a0e4afd1d69cd4fb52f38bfb157bac2438",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cfbb0cc8314d7fb4e8e754545a49a42eb590a69/research/t74-joint-twelve/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-joint-twelve/verify.py",
+      "file": "remaining-record-audit/artifacts/2751/d97bcc7208ab__verify.py",
+      "sha256": "d97bcc7208abd7e2f6f836c5558dae93e92ebbf6b17b0f413bc6e78ac68d62fc",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cfbb0cc8314d7fb4e8e754545a49a42eb590a69/research/t74-joint-twelve/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-joint-twelve/README.md",
+      "file": "remaining-record-audit/artifacts/2751/d8501fbc11b3__README.md",
+      "sha256": "d8501fbc11b3dc87fc618122c83f10a56cd4457c7abdab792e2f9506bab4666e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cfbb0cc8314d7fb4e8e754545a49a42eb590a69/research/t74-joint-twelve/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 62,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2751,
+      "head": "4cfbb0cc8314d7fb4e8e754545a49a42eb590a69",
+      "path": "research/t74-joint-twelve/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cfbb0cc8314d7fb4e8e754545a49a42eb590a69/research/t74-joint-twelve/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "de164a7df6104503d92556505973f6685089e7c660b705bc9cac7871dfb38e58",
+      "git_blob_sha1": "526a0a86ed2eabdd0cd84ca76dff43e039ef779f",
+      "bytes": 5808,
+      "file": "individual-primary-interface-source/2751/de164a7df610__TASK.json"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Reconciled candidate-record and cost coverage ledger
+
+`reconciled-record-candidates.json` is the authoritative **union of the four saved candidate histories**, with one indexed row per PR and all stream memberships/events retained. It contains576PRs and1160source events. This is deliberately a candidate ledger: it does not assert576valid exponent records,576accepted theorems or576distinct concrete multiplication algorithms.
+
+The former248-PR filter is the reconstructed leaderboard highwater stream. It is preserved as a subset rather than silently treated as exhaustive. The saved observed highwater stream has49PRs, the current-chart frontier286PRs and recovered literal highwater claims502PRs. Their union adds328PRs outside the248filter. Every union candidate appears in the complete4911-PR inventory captured2026-10-23T18:59:50Z. The union contains236merged and340unmerged PRs; merges are publication metadata, not mathematical acceptance.
+
+The streams disagree for substantive reasons: claim edits, later retractions, projections, source-update timing estimates and extraction errors. For example PR468's nine required calls were once extracted as kappa9.0; that row stays visible as a wrong-metric event. Documented event-specific objections and computational-model differences remain attached. The flags do not automatically reject every revision of an entire PR. The primary record value, event date, current title, review date and merge date are separate fields.
+
+`candidate-source-disagreements.json` gives the complete set differences and each stream's IDs. `coverage-summary.json` gives counts and limitations. `record-cost-coverage.csv` is a flat review worksheet. The JSON rows include exact inventory head/status, source event provenance, canonical review scope, checkpoint lead/dependency associations, source quantities, textual native-family clues, bound status, and the explicit obligations preventing a full cost certificate.
+
+## Cost attribution
+
+Only already authenticated cost certificates are joined. PR4470 has a conditional two-sided feasibility interval for the stated literal-core/GMP-fallback family. PR4535 and PR4610 have conditional lower-only intervals in the candidate union. PR4479,4483,4533and4565have additional lower-only certificates but are not in this record-candidate union; they are retained as supplemental compiler/construction rows instead of relabelled as exponent records. Unknown lower/upper values are null. No cutoff is inferred from kappa, merge status or a native-family keyword.
+
+The older certificates reference their frozen degree16-GMP upper modules; those bounds remain valid. The PR4610 certificate separately binds the newer degree8-GMP refinement and retains its degree16 endpoint for comparison. Textual family classification is a search aid, not identity proof or permission to reuse630412scalar additions. Changed native maps, a changed tensor power, a different uniform rank witness or smaller outer slack require their own source bindings.
+
+## Later selection annotation and coverage limits
+
+The4911-PR inventory and old main snapshot are frozen. During this audit the newer main commit `1ec1119972c9aefe42525172d07b332fcff81cb4` was independently read. Its README, selected result, PR4610 proof review and claim are copied under `latest-selection/` with URLs and hashes. They select conditional kappa15108879/5000000000=.0030217758through the PR5241audit. This later selection annotation does not update all frozen PR bodies, edits or review states. The PR4610 raw native maps change. Its new lower-only certificate independently compares the complete scalar lists in both orientations and recounts their dyadic additions, rather than assuming old word-byte identity.
+
+The saved edit coverage has20unrecovered opening bodies and one deleted body edit. Later PRs and edits after the inventory time are not exhaustively fetched by this module. Thus neither the248subset nor this576union can guarantee every record announcement ever made. The ledger explicitly records that limitation and keeps the original source universes auditable.
+
+## Reproduce and extend
+
+Run `build_record_cost_coverage.py` with the bundled Python. It only reads saved JSON/profiles/certificates and writes this audit directory; submitted proof code is not executed. It checks uniqueness, full original-subset inclusion, inventory/profile presence and null unknown bounds. Source SHA-256 values are included in the output. With `sources/input-manifest.json` present, the builder uses the bundled filtered projections: all four candidate histories, complete saved metadata/bodies for the576candidate and four supplemental PRs, compact profiles, and the status/edit-coverage inputs. The manifest distinguishes each original source hash from the separately hashed projection bytes. The small certificate JSONs in the parent operation-audit directory and `latest-selection/` are also required. The complete operation-audit package is sufficient for this rebuild without the original4911-body inventory or network access. `package_offline_sources.py` is the preparation tool that creates those projections from the original collection; it is not needed for offline reproduction. See `offline-reproduction-check.json` for the isolated rebuild receipt.
+
+New candidate streams can be added without dropping old provenance. A new bound should enter only through a source-authenticated certificate with a specified circuit model, family and computational assumptions.

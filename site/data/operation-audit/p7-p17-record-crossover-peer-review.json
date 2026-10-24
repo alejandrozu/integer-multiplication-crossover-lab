@@ -1,0 +1,32 @@
+{
+  "schema": "p7-p17-record-crossover-peer-review/1",
+  "status": "peer_review_pass_conditional",
+  "reviewed_at_utc": "2026-10-24T10:41:32.169545+00:00",
+  "reviewer": "independent AI subagent /root/leaderboard_source; not a human or Lean certification",
+  "reviewed_sha256": {
+    "p7-p17-record-crossover-bounds.md": "0b4a4286f37570cdc5c557f89d9ec7484018a2b2af624f2ac75abe7217ded1bf",
+    "p7-p17-record-crossover-bounds.json": "72783063f213a1aeddb5af05650b005c617e47cbe28875db33eb7f97d96a513e",
+    "p7_p17_record_crossover_bounds.py": "1dfff0be399099bfeecf0afe7f9dacc3279597203da8ba9b6190e08ccfb271a6"
+  },
+  "prs": [
+    4416,
+    4440,
+    4441,
+    4447
+  ],
+  "scope": [
+    "Own-author-head source bindings and explicit winning ranks, controller profiles, tensor powers, floors and cutoffs; no p16-family inference.",
+    "Fresh dyadic real scalar instruction census, at least four distinct-destination complex unit additions, and owned affine/quadratic Clifford grammar with twice-parity cross terms pinned at all four heads.",
+    "Conservative literal-work lower c=8, j=3, degree-eight fixed optimized-GMP comparison; no arbitrary algorithm switch used as a necessary-work lower.",
+    "Own 32HN inventory, stage budget and Clifford-stack guard, physical context footprint, stock log-width; source-specific native quantities used in all four rows.",
+    "Own record schedule and common early schedule re-evaluate all 54 strict inequalities, three p7 or four p17 functional guards, nine saving rows and seven charged outer cost rows.",
+    "Nonreciprocal delta for PR4440 is handled by ceil(1/delta), not a reciprocal-equality assumption."
+  ],
+  "retained_premises": [
+    "Full original native/phase identities, all-column realizations, external spectator restoration and owned-bank compilation interfaces remain source hypotheses; no full native or phase replay is claimed.",
+    "The analytic Gaussian precision, exact recovery, candidate Fermat helper and fixed optimized-GMP finite correctness/halting interfaces remain the separately pinned conditional framework.",
+    "The endpoints bound an explicitly completed source family and a literal retained core; they do not identify an actual first crossover or imply accepted scientific correctness from merge status."
+  ],
+  "exact_checks_reported": 39490,
+  "scientific_conclusion": "No material source, scope or arithmetic issue found in the reviewed conditional bounds."
+}

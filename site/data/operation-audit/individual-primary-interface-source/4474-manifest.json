@@ -1,0 +1,69 @@
+{
+  "pr": 4474,
+  "own_head": "383f4f8825b1bf134206786e71d2a526de338982",
+  "primary_path_candidates": [
+    "research/p17-chain-receipt/README.md",
+    "research/p17-chain-receipt/TASK.json",
+    "research/p17-chain-receipt/VERIFY.json",
+    "research/p17-chain-receipt/RECEIPT.json",
+    "research/p17-chain-receipt/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/p17-chain-receipt/TASK.json",
+    "research/p17-chain-receipt/VERIFY.json",
+    "research/p17-chain-receipt/RECEIPT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p17-chain-receipt/README.md",
+      "file": "remaining-record-audit/artifacts/4474/f9e1653eb1f8__README.md",
+      "sha256": "f9e1653eb1f875abe0860d697b0ffcd7654cca6f8cdd468cbc78084573d4dd9c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/383f4f8825b1bf134206786e71d2a526de338982/research/p17-chain-receipt/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p17-chain-receipt/verify.py",
+      "file": "remaining-record-audit/artifacts/4474/fcb65680b316__verify.py",
+      "sha256": "fcb65680b316eaf3321b734d0ab0d4246c6dda0f2a53e75565933e1fdf60526d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/383f4f8825b1bf134206786e71d2a526de338982/research/p17-chain-receipt/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4474,
+      "head": "383f4f8825b1bf134206786e71d2a526de338982",
+      "path": "research/p17-chain-receipt/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/383f4f8825b1bf134206786e71d2a526de338982/research/p17-chain-receipt/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3a881c0c073ef584f909ba73529ecd34610930bac23c2c18d2b886952996e399",
+      "git_blob_sha1": "a32f3528e0502c9cab7b45c46d445af0788dbe71",
+      "bytes": 2715,
+      "file": "individual-primary-interface-source/4474/3a881c0c073e__TASK.json"
+    },
+    {
+      "pr": 4474,
+      "head": "383f4f8825b1bf134206786e71d2a526de338982",
+      "path": "research/p17-chain-receipt/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/383f4f8825b1bf134206786e71d2a526de338982/research/p17-chain-receipt/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "57003e0cbee8188f717bf7b42c14e4d3030aa3a4372b3bbc138fc8114a3c3265",
+      "git_blob_sha1": "ba8ad0844188ca17e65e158428f3181a9cc0e265",
+      "bytes": 514,
+      "file": "individual-primary-interface-source/4474/57003e0cbee8__VERIFY.json"
+    },
+    {
+      "pr": 4474,
+      "head": "383f4f8825b1bf134206786e71d2a526de338982",
+      "path": "research/p17-chain-receipt/RECEIPT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/383f4f8825b1bf134206786e71d2a526de338982/research/p17-chain-receipt/RECEIPT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "89e9db68fcfb08659e628f57a9fc3ac7e89ffe94a74581cca35404a374f7f5b6",
+      "git_blob_sha1": "513dcdc8691cad55737d25827159d7fe044392da",
+      "bytes": 39437,
+      "file": "individual-primary-interface-source/4474/89e9db68fcfb__RECEIPT.json"
+    }
+  ]
+}

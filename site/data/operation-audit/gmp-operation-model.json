@@ -1,0 +1,411 @@
+{
+  "schema": "gmp-portable-basecase-operation-model-v1",
+  "model": "Explicit XOR/AND circuit family implementing selected GMP 6.3.0 portable basecase; not GMP dispatcher/runtime",
+  "source_manifest": "gmp-source-manifest.json",
+  "source_files": [
+    "gmp-sources/mpn/generic/mul_basecase.c",
+    "gmp-sources/mpn/generic/mul_1.c",
+    "gmp-sources/mpn/generic/addmul_1.c",
+    "gmp-sources/longlong.h"
+  ],
+  "source_archive_url": "https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz",
+  "source_archive_sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+  "source_configuration": {
+    "GMP_LIMB_BITS": 64,
+    "GMP_NAIL_BITS": 0,
+    "NO_ASM": true,
+    "all_HAVE_NATIVE_mpn_mul_2_addmul_2_through_6_umul_ppmm": false,
+    "predefined___umulsidi3_or_alternative_umul_ppmm": false,
+    "dispatcher": "Call mpn_mul_basecase directly for every length; do not apply tuned Toom/FFT thresholds",
+    "input": "Two nonnegative integers in padded little-endian 64-bit limb vectors, longer first; distinct output vector",
+    "arbitrary_n": "m=max(1,ceil(n_a/64)), k=max(1,ceil(n_b/64)); swap lengths if needed; zero allowed; fixed-width 64(m+k)-bit output retains high zero limbs"
+  },
+  "exact_source_census_formulas": {
+    "wide_multiply": "m*k",
+    "limb_add": "4*m*k-2*m",
+    "limb_compare": "2*m*k-m",
+    "array_load": "2*m*k-m+k",
+    "array_store": "m*k+k",
+    "portable_half_multiply": "4*m*k",
+    "portable_limb_add_after_expansion": "8*m*k-2*m+beta, 0<=beta<=m*k",
+    "portable_compare_after_expansion": "3*m*k-m",
+    "portable_macro_shift": "5*m*k",
+    "portable_macro_mask": "3*m*k",
+    "portable_macro_conditional_branches": "m*k",
+    "inner_loop_comparisons_and_branches_each": "m*k",
+    "outer_loop_comparisons_and_branches_each": "k"
+  },
+  "source_census_scope": "Counts the listed source operations, with macro branch-taken beta recorded on actual input. Register allocation, parameter passing, compiler scheduling, ABI prologue, allocation and CPU/cache costs are not estimated. This is not a full CPU instruction census.",
+  "circuit_tariff": {
+    "AND": 1,
+    "XOR": "rho>0",
+    "NOT": "one XOR with 1",
+    "wires_fanout_constants_fixed_shifts_masks": 0
+  },
+  "primitive_circuits": {
+    "modular_add_W": {
+      "AND": "2W",
+      "XOR": "3W",
+      "description": "W unsimplified ripple full-adder cells, unused final carry still evaluated"
+    },
+    "unsigned_compare_W": {
+      "AND": "2W",
+      "XOR": "3W+1",
+      "description": "carry-only ripple a+NOT(b)+1, then NOT carry gives a<b"
+    },
+    "q_by_q_to_2q_schoolbook": {
+      "AND": "5q^2-4q",
+      "XOR": "6q^2-6q",
+      "description": "q^2 AND partial bits; first row direct; q-1 full 2q-bit ripple adds"
+    },
+    "portable_wide_64": {
+      "AND": 20736,
+      "XOR": 24961
+    },
+    "macro_branch_lowering": "if(c) x3+=2^32 becomes one unconditional x3+(c<<32), charged in the fixed circuit"
+  },
+  "complete_circuit_formulas_64": {
+    "AND": "21504*m*k-384*m",
+    "XOR": "26115*m*k-577*m",
+    "work": "(21504*m*k-384*m)+rho*(26115*m*k-577*m)"
+  },
+  "model_caveats": [
+    "A complete explicit arithmetic circuit, with its precise gate costs; not a claim of gate minimality or fastest known multiplication.",
+    "All loops are unrolled by the uniform generator for public input lengths. Source pointer movement and loop control become circuit wiring/generation, not Boolean gates.",
+    "This tariff makes fixed shifts/masks and memory movement wires free. CPU/Turing-machine movement costs require a different model.",
+    "The selected all-size basecase has quadratic gate growth; actual GMP uses size-dependent Toom/FFT dispatch and is not represented by this curve.",
+    "No complete comparable PR4470 circuit with numerical A_j and validity threshold is emitted; no PR4470-vs-GMP or HvH crossover is certified."
+  ],
+  "verification": {
+    "exhaustive_one_limb_gate_evaluations": 272,
+    "rectangular_source_census_and_correctness_checks": 576,
+    "full_64bit_rectangular_gate_evaluations": 8,
+    "all_passed": true
+  },
+  "sample_sizes": [
+    {
+      "input_bits_each": 256,
+      "limbs_each": 4,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": true,
+      "source_census": {
+        "wide_multiply": 16,
+        "limb_add": 56,
+        "limb_compare": 28,
+        "array_load": 32,
+        "array_store": 20,
+        "row_calls": 4,
+        "row_returns": 4,
+        "top_return": 1,
+        "inner_pointer_increment": 32,
+        "inner_counter_decrement": 16,
+        "inner_loop_compare": 16,
+        "inner_loop_branch": 16,
+        "outer_pointer_increment": 8,
+        "outer_counter_decrement": 4,
+        "outer_loop_compare": 4,
+        "outer_loop_branch": 4,
+        "carry_store_address_add": 4,
+        "portable_half_multiply": 64,
+        "portable_macro_shift": 80,
+        "portable_macro_mask": 48,
+        "portable_macro_compare": 16,
+        "portable_macro_branch": 16
+      },
+      "gate_counts": {
+        "AND": 342528,
+        "XOR": 415532
+      },
+      "work_rho_1": 758060
+    },
+    {
+      "input_bits_each": 1024,
+      "limbs_each": 16,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": true,
+      "source_census": {
+        "wide_multiply": 256,
+        "limb_add": 992,
+        "limb_compare": 496,
+        "array_load": 512,
+        "array_store": 272,
+        "row_calls": 16,
+        "row_returns": 16,
+        "top_return": 1,
+        "inner_pointer_increment": 512,
+        "inner_counter_decrement": 256,
+        "inner_loop_compare": 256,
+        "inner_loop_branch": 256,
+        "outer_pointer_increment": 32,
+        "outer_counter_decrement": 16,
+        "outer_loop_compare": 16,
+        "outer_loop_branch": 16,
+        "carry_store_address_add": 16,
+        "portable_half_multiply": 1024,
+        "portable_macro_shift": 1280,
+        "portable_macro_mask": 768,
+        "portable_macro_compare": 256,
+        "portable_macro_branch": 256
+      },
+      "gate_counts": {
+        "AND": 5498880,
+        "XOR": 6676208
+      },
+      "work_rho_1": 12175088
+    },
+    {
+      "input_bits_each": 4096,
+      "limbs_each": 64,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 4096,
+        "limb_add": 16256,
+        "limb_compare": 8128,
+        "array_load": 8192,
+        "array_store": 4160,
+        "row_calls": 64,
+        "row_returns": 64,
+        "top_return": 1,
+        "inner_pointer_increment": 8192,
+        "inner_counter_decrement": 4096,
+        "inner_loop_compare": 4096,
+        "inner_loop_branch": 4096,
+        "outer_pointer_increment": 128,
+        "outer_counter_decrement": 64,
+        "outer_loop_compare": 64,
+        "outer_loop_branch": 64,
+        "carry_store_address_add": 64,
+        "portable_half_multiply": 16384,
+        "portable_macro_shift": 20480,
+        "portable_macro_mask": 12288,
+        "portable_macro_compare": 4096,
+        "portable_macro_branch": 4096
+      },
+      "gate_counts": {
+        "AND": 88055808,
+        "XOR": 106930112
+      },
+      "work_rho_1": 194985920
+    },
+    {
+      "input_bits_each": 16384,
+      "limbs_each": 256,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 65536,
+        "limb_add": 261632,
+        "limb_compare": 130816,
+        "array_load": 131072,
+        "array_store": 65792,
+        "row_calls": 256,
+        "row_returns": 256,
+        "top_return": 1,
+        "inner_pointer_increment": 131072,
+        "inner_counter_decrement": 65536,
+        "inner_loop_compare": 65536,
+        "inner_loop_branch": 65536,
+        "outer_pointer_increment": 512,
+        "outer_counter_decrement": 256,
+        "outer_loop_compare": 256,
+        "outer_loop_branch": 256,
+        "carry_store_address_add": 256,
+        "portable_half_multiply": 262144,
+        "portable_macro_shift": 327680,
+        "portable_macro_mask": 196608,
+        "portable_macro_compare": 65536,
+        "portable_macro_branch": 65536
+      },
+      "gate_counts": {
+        "AND": 1409187840,
+        "XOR": 1711324928
+      },
+      "work_rho_1": 3120512768
+    },
+    {
+      "input_bits_each": 65536,
+      "limbs_each": 1024,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 1048576,
+        "limb_add": 4192256,
+        "limb_compare": 2096128,
+        "array_load": 2097152,
+        "array_store": 1049600,
+        "row_calls": 1024,
+        "row_returns": 1024,
+        "top_return": 1,
+        "inner_pointer_increment": 2097152,
+        "inner_counter_decrement": 1048576,
+        "inner_loop_compare": 1048576,
+        "inner_loop_branch": 1048576,
+        "outer_pointer_increment": 2048,
+        "outer_counter_decrement": 1024,
+        "outer_loop_compare": 1024,
+        "outer_loop_branch": 1024,
+        "carry_store_address_add": 1024,
+        "portable_half_multiply": 4194304,
+        "portable_macro_shift": 5242880,
+        "portable_macro_mask": 3145728,
+        "portable_macro_compare": 1048576,
+        "portable_macro_branch": 1048576
+      },
+      "gate_counts": {
+        "AND": 22548185088,
+        "XOR": 27382971392
+      },
+      "work_rho_1": 49931156480
+    },
+    {
+      "input_bits_each": 262144,
+      "limbs_each": 4096,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 16777216,
+        "limb_add": 67100672,
+        "limb_compare": 33550336,
+        "array_load": 33554432,
+        "array_store": 16781312,
+        "row_calls": 4096,
+        "row_returns": 4096,
+        "top_return": 1,
+        "inner_pointer_increment": 33554432,
+        "inner_counter_decrement": 16777216,
+        "inner_loop_compare": 16777216,
+        "inner_loop_branch": 16777216,
+        "outer_pointer_increment": 8192,
+        "outer_counter_decrement": 4096,
+        "outer_loop_compare": 4096,
+        "outer_loop_branch": 4096,
+        "carry_store_address_add": 4096,
+        "portable_half_multiply": 67108864,
+        "portable_macro_shift": 83886080,
+        "portable_macro_mask": 50331648,
+        "portable_macro_compare": 16777216,
+        "portable_macro_branch": 16777216
+      },
+      "gate_counts": {
+        "AND": 360775680000,
+        "XOR": 438134632448
+      },
+      "work_rho_1": 798910312448
+    },
+    {
+      "input_bits_each": 1048576,
+      "limbs_each": 16384,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 268435456,
+        "limb_add": 1073709056,
+        "limb_compare": 536854528,
+        "array_load": 536870912,
+        "array_store": 268451840,
+        "row_calls": 16384,
+        "row_returns": 16384,
+        "top_return": 1,
+        "inner_pointer_increment": 536870912,
+        "inner_counter_decrement": 268435456,
+        "inner_loop_compare": 268435456,
+        "inner_loop_branch": 268435456,
+        "outer_pointer_increment": 32768,
+        "outer_counter_decrement": 16384,
+        "outer_loop_compare": 16384,
+        "outer_loop_branch": 16384,
+        "carry_store_address_add": 16384,
+        "portable_half_multiply": 1073741824,
+        "portable_macro_shift": 1342177280,
+        "portable_macro_mask": 805306368,
+        "portable_macro_compare": 268435456,
+        "portable_macro_branch": 268435456
+      },
+      "gate_counts": {
+        "AND": 5772429754368,
+        "XOR": 7010182479872
+      },
+      "work_rho_1": 12782612234240
+    },
+    {
+      "input_bits_each": 4194304,
+      "limbs_each": 65536,
+      "within_unoverridden_generic_mul_n_basecase_dispatch": false,
+      "source_census": {
+        "wide_multiply": 4294967296,
+        "limb_add": 17179738112,
+        "limb_compare": 8589869056,
+        "array_load": 8589934592,
+        "array_store": 4295032832,
+        "row_calls": 65536,
+        "row_returns": 65536,
+        "top_return": 1,
+        "inner_pointer_increment": 8589934592,
+        "inner_counter_decrement": 4294967296,
+        "inner_loop_compare": 4294967296,
+        "inner_loop_branch": 4294967296,
+        "outer_pointer_increment": 131072,
+        "outer_counter_decrement": 65536,
+        "outer_loop_compare": 65536,
+        "outer_loop_branch": 65536,
+        "carry_store_address_add": 65536,
+        "portable_half_multiply": 17179869184,
+        "portable_macro_shift": 21474836480,
+        "portable_macro_mask": 12884901888,
+        "portable_macro_compare": 4294967296,
+        "portable_macro_branch": 4294967296
+      },
+      "gate_counts": {
+        "AND": 92358951567360,
+        "XOR": 112163033120768
+      },
+      "work_rho_1": 204521984688128
+    }
+  ],
+  "proof_status": "Manual arithmetic/circuit induction documented in gmp-operation-model.md, with executable gate and census checks; not a Lean formalization.",
+  "generic_equal_size_dispatch_default_limb_ranges": [
+    {
+      "min": 1,
+      "max": 29,
+      "routine": "mpn_mul_basecase",
+      "cost_audited_here": true
+    },
+    {
+      "min": 30,
+      "max": 99,
+      "routine": "mpn_toom22_mul",
+      "cost_audited_here": false
+    },
+    {
+      "min": 100,
+      "max": 299,
+      "routine": "mpn_toom33_mul",
+      "cost_audited_here": false
+    },
+    {
+      "min": 300,
+      "max": 349,
+      "routine": "mpn_toom44_mul",
+      "cost_audited_here": false
+    },
+    {
+      "min": 350,
+      "max": 449,
+      "routine": "mpn_toom6h_mul",
+      "cost_audited_here": false
+    },
+    {
+      "min": 450,
+      "max": 2999,
+      "routine": "mpn_toom8h_mul",
+      "cost_audited_here": false
+    },
+    {
+      "min": 3000,
+      "max": null,
+      "routine": "mpn_fft_mul",
+      "cost_audited_here": false
+    }
+  ],
+  "crossover_vs_pr4470": {
+    "proved": false,
+    "lower_bound": null,
+    "upper_bound": null,
+    "reason": "This completes one selected comparator circuit, not the missing full-cost candidate circuit or tuned GMP dispatcher."
+  },
+  "script_sha256": "53cffed3cba2633ef2da6a11c7daf4669a350455e6da2e0b3a4c0e0b67150d23"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4171,
+    "head": "a3be6becf547c5c7657446843b59fdb50e655eac",
+    "path": "research/unconditional-moment-crosscheck/README.md",
+    "api_sha": "610c057a8e54798e158cd35b0515dcf3c940ee6b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a3be6becf547c5c7657446843b59fdb50e655eac/research%2Funconditional-moment-crosscheck%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/unconditional-moment-crosscheck/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3be6becf547c5c7657446843b59fdb50e655eac/research/unconditional-moment-crosscheck/README.md",
+    "file": "artifacts\\4171\\bb652854d128__README.md",
+    "sha256": "bb652854d1281f6b73efdf777a28fd1414b6e56b461412bdb94555c31da213db",
+    "git_blob_sha1": "610c057a8e54798e158cd35b0515dcf3c940ee6b",
+    "bytes": 5682,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.228883+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4171,
+    "head": "a3be6becf547c5c7657446843b59fdb50e655eac",
+    "path": "research/unconditional-moment-crosscheck/SOURCES.json",
+    "api_sha": "47ce9ec7a50a267281cfa9cef675cdaa2f51f6fa",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a3be6becf547c5c7657446843b59fdb50e655eac/research%2Funconditional-moment-crosscheck%2FSOURCES.json",
+    "priority": 180,
+    "hint_base": "research/unconditional-moment-crosscheck/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3be6becf547c5c7657446843b59fdb50e655eac/research/unconditional-moment-crosscheck/SOURCES.json",
+    "file": "artifacts\\4171\\27bead7c862f__SOURCES.json",
+    "sha256": "27bead7c862f42c9f2e6265b7f8f62cfdad573b5b477c58b25c7f94f4a0f2614",
+    "git_blob_sha1": "47ce9ec7a50a267281cfa9cef675cdaa2f51f6fa",
+    "bytes": 1852,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.243828+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4171,
+    "head": "a3be6becf547c5c7657446843b59fdb50e655eac",
+    "path": "research/unconditional-moment-crosscheck/verify.py",
+    "api_sha": "c50687ae5ace0bf0f2ed82245804e21adb5af811",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a3be6becf547c5c7657446843b59fdb50e655eac/research%2Funconditional-moment-crosscheck%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/unconditional-moment-crosscheck/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3be6becf547c5c7657446843b59fdb50e655eac/research/unconditional-moment-crosscheck/verify.py",
+    "file": "artifacts\\4171\\150fbc3e10f2__verify.py",
+    "sha256": "150fbc3e10f2a8c90d6be026254eaf3222dfacb145fcd8de0c1f56cf14ffc85b",
+    "git_blob_sha1": "c50687ae5ace0bf0f2ed82245804e21adb5af811",
+    "bytes": 11795,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.143374+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

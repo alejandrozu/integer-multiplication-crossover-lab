@@ -1,0 +1,104 @@
+{
+  "pr": 26,
+  "own_head": "f764fb98208506354730f6f108a8c87fb679432e",
+  "primary_path_candidates": [
+    "formal/open-prs/data/pr12/research/batched-followup/certificate.json",
+    "formal/open-prs/data/pr8/research/geometric-complex/certificate.json",
+    "formal/open-prs/data/pr9/research/prime-field-followup/certificate.json",
+    "formal/lean/README.md",
+    "formal/circuit/README.md",
+    "formal/open-prs/README.md",
+    "formal/open-prs/data/pr4/README.md",
+    "formal/open-prs/data/pr11/research/geometric-dimensions/README.md",
+    "formal/lean/lake-manifest.json",
+    "formal/open-prs/data/pr5/certificates/fast-gaussian.json",
+    "formal/open-prs/data/pr6/certificates/fast-gaussian.json",
+    "formal/open-prs/data/pr7/certificates/fast-gaussian.json",
+    "formal/open-prs/data/pr7/certificates/prime-field28.json",
+    "formal/open-prs/data/pr3/certificates/paired-network.json",
+    "formal/open-prs/data/pr4/certificates/paired-network.json",
+    "formal/open-prs/data/pr8/certificates/paired-network.json",
+    "formal/open-prs/data/pr3/certificates/complex-network.json",
+    "formal/open-prs/data/pr5/certificates/complex-network.json",
+    "formal/open-prs/data/pr6/certificates/complex-network.json",
+    "formal/open-prs/data/pr7/certificates/complex-network.json",
+    "formal/open-prs/data/pr10/certificates/batched-network.json",
+    "formal/open-prs/data/pr6/certificates/aligned-bit-network.json",
+    "formal/open-prs/data/pr4/certificates/retained-complex-layer.json",
+    "formal/open-prs/data/pr10/certificates/controlled-bit-rank-moment.json",
+    "formal/open-prs/data/pr11/research/geometric-dimensions/report.json",
+    "tests/test_lean_sources.py",
+    "tests/test_open_pr_lean.py",
+    "tests/test_paired_circuit_check.py",
+    "formal/lean/SOURCES.md",
+    "formal/lean/sources.py",
+    "formal/open-prs/drift_A.py",
+    "formal/open-prs/drift_B.py",
+    "formal/open-prs/drift_C.py",
+    "formal/circuit/check_paired.py",
+    "formal/circuit/export_paired.py",
+    "formal/open-prs/axioms/check_axioms_B.py",
+    "formal/open-prs/data/pr3/notes/complex-circuit-note.tex",
+    "formal/open-prs/data/pr4/notes/compact-control-note.tex",
+    "formal/open-prs/data/pr8/notes/compact-control-note.tex",
+    "formal/open-prs/data/pr4/notes/retained-complex-note.tex",
+    "formal/open-prs/data/pr3/notes/complex-circuit-construction.tex",
+    "formal/open-prs/data/pr4/notes/retained-complex-construction.tex",
+    "formal/open-prs/data/pr3/docs/research/complex-circuit.md",
+    "formal/open-prs/data/pr4/docs/research/shared-retained-complex.md",
+    "formal/open-prs/data/pr8/research/geometric-complex/geometric-note.tex"
+  ],
+  "selected_for_recovery": [
+    "formal/lean/README.md",
+    "tests/test_lean_sources.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "formal/open-prs/data/pr12/research/batched-followup/certificate.json",
+      "file": "remaining-record-audit/artifacts/26/01b8f972b432__certificate.json",
+      "sha256": "01b8f972b432cbe39d9622a29a1fbb8281389120493b475b34a81d0adf68e5fd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f764fb98208506354730f6f108a8c87fb679432e/formal/open-prs/data/pr12/research/batched-followup/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "formal/open-prs/data/pr8/research/geometric-complex/certificate.json",
+      "file": "remaining-record-audit/artifacts/26/bd5ce8e6a846__certificate.json",
+      "sha256": "bd5ce8e6a84662af7c32a410e0196ad24b500445c7a54c761907ec4a77506d7a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f764fb98208506354730f6f108a8c87fb679432e/formal/open-prs/data/pr8/research/geometric-complex/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "formal/open-prs/data/pr9/research/prime-field-followup/certificate.json",
+      "file": "remaining-record-audit/artifacts/26/c03f6dc50618__certificate.json",
+      "sha256": "c03f6dc50618b01cc583e938c40d5c80648ab7e87566786f3545a7c7cf66c43e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f764fb98208506354730f6f108a8c87fb679432e/formal/open-prs/data/pr9/research/prime-field-followup/certificate.json"
+    }
+  ],
+  "github_changed_file_reported_count": 82,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 26,
+      "head": "f764fb98208506354730f6f108a8c87fb679432e",
+      "path": "formal/lean/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f764fb98208506354730f6f108a8c87fb679432e/formal/lean/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9162b62daff084d58a2ad0951b8339c800eb23ec4567ef79e406f627fab0e254",
+      "git_blob_sha1": "39d8af431241fb799fd14c5dc2dd9320c414cb17",
+      "bytes": 3798,
+      "file": "individual-primary-interface-source/26/9162b62daff0__README.md"
+    },
+    {
+      "pr": 26,
+      "head": "f764fb98208506354730f6f108a8c87fb679432e",
+      "path": "tests/test_lean_sources.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f764fb98208506354730f6f108a8c87fb679432e/tests/test_lean_sources.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b5219815172e6fd81c63322ae022a5cc6041fc93de1736e7d3a4b483311beef8",
+      "git_blob_sha1": "0eff4b875ed66c3708af9fed735e612f3134d656",
+      "bytes": 608,
+      "file": "individual-primary-interface-source/26/b5219815172e__test_lean_sources.py"
+    }
+  ]
+}

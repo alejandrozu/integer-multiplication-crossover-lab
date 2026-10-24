@@ -1,0 +1,73 @@
+{
+  "pr": 974,
+  "own_head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+  "primary_path_candidates": [
+    "research/t21-interface-budget/CLAIM.json",
+    "research/t21-interface-budget/README.md",
+    "research/t21-interface-budget/RESULT-BUDGET.json",
+    "research/t21-interface-budget/RESULT-CLASSIFICATION.json",
+    "tests/test_t21_interface_budget.py",
+    "research/t21-interface-budget/budget.py",
+    "research/t21-interface-budget/verify.py",
+    "research/t21-interface-budget/classify.py",
+    "research/t21-interface-budget/independent.py"
+  ],
+  "selected_for_recovery": [
+    "research/t21-interface-budget/RESULT-BUDGET.json",
+    "tests/test_t21_interface_budget.py",
+    "research/t21-interface-budget/RESULT-CLASSIFICATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-interface-budget/README.md",
+      "file": "remaining-record-audit/artifacts/974/726e41ea3f86__README.md",
+      "sha256": "726e41ea3f868008872ec8f0cfd7e7ba23f03a99fff05846af2ee43b989b2dbd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-interface-budget/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/974/25958988c4db__CLAIM.json",
+      "sha256": "25958988c4db6cf0ea87cb52269b802064a542b396ad59830543e591f71c8e0d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 974,
+      "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+      "path": "research/t21-interface-budget/RESULT-BUDGET.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/RESULT-BUDGET.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c6b29fd462f09ac79f64fcc4a651ee56e24d3340e70c51d75821095a3c1061f8",
+      "git_blob_sha1": "92c314767f459e1051bafe120d6dcbedab4337f7",
+      "bytes": 7684,
+      "file": "individual-primary-interface-source/974/c6b29fd462f0__RESULT-BUDGET.json"
+    },
+    {
+      "pr": 974,
+      "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+      "path": "tests/test_t21_interface_budget.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/tests/test_t21_interface_budget.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f43ddf26f0c949809fef8ae968de967e936c4659be0973ef3dfa6cb0de374e61",
+      "git_blob_sha1": "bf6f05bb34ffb868e0414e7a634dd1548ba24c83",
+      "bytes": 3762,
+      "file": "individual-primary-interface-source/974/f43ddf26f0c9__test_t21_interface_budget.py"
+    },
+    {
+      "pr": 974,
+      "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+      "path": "research/t21-interface-budget/RESULT-CLASSIFICATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/RESULT-CLASSIFICATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f0063a42dbbcc38445c08fa61083ae7469c5d96ab15cce40c6cc7d590c40851b",
+      "git_blob_sha1": "74f1b911af5ea6a138cd1d7d86319dd28121e823",
+      "bytes": 3528,
+      "file": "individual-primary-interface-source/974/f0063a42dbbc__RESULT-CLASSIFICATION.json"
+    }
+  ]
+}

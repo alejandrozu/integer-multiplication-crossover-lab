@@ -1,0 +1,111 @@
+{
+  "pr": 3054,
+  "own_head": "4773c3ea67b471415870e38411fae313ec44a675",
+  "primary_path_candidates": [
+    "research/rank7-t740-carrier-skips/README.md",
+    "research/rank7-t740-carrier-skips/TASK.json",
+    "research/rank7-t740-carrier-skips/VENDOR.json",
+    "research/rank7-t740-carrier-skips/VERIFY.json",
+    "research/rank7-t740-carrier-skips/ADAPTED.json",
+    "research/rank7-t740-carrier-skips/GIT-SOURCES.json",
+    "research/rank7-t740-carrier-skips/evidence/FINITE.json",
+    "research/rank7-t740-carrier-skips/evidence/RECIPE.json",
+    "research/rank7-t740-carrier-skips/evidence/STAGES.json",
+    "research/rank7-t740-carrier-skips/evidence/OUTER-B.json",
+    "research/rank7-t740-carrier-skips/evidence/OVERLAP.json",
+    "research/rank7-t740-carrier-skips/evidence/PREFLIGHT.json",
+    "research/rank7-t740-carrier-skips/evidence/VALIDATION.json",
+    "research/rank7-t740-carrier-skips/evidence/ASYNC-AUDIT.json",
+    "research/rank7-t740-carrier-skips/evidence/ENVIRONMENT.json",
+    "research/rank7-t740-carrier-skips/evidence/OUTER-CLAIM.json",
+    "research/rank7-t740-carrier-skips/evidence/MATERIALIZED.json",
+    "research/rank7-t740-carrier-skips/evidence/OUTER-LEDGER.json",
+    "research/rank7-t740-carrier-skips/evidence/VENDOR-CHECK.json",
+    "research/rank7-t740-carrier-skips/evidence/GLOBAL-PREFIX.json",
+    "research/rank7-t740-carrier-skips/evidence/RECEIPT-CHECK.json",
+    "research/rank7-t740-carrier-skips/evidence/NATIVE-RECEIPT.json",
+    "research/rank7-t740-carrier-skips/evidence/INVOICE-PAYLOAD.json",
+    "research/rank7-t740-carrier-skips/evidence/RELEASE-RECEIPT.json",
+    "research/rank7-t740-carrier-skips/evidence/ADMISSION-RESULT.json",
+    "research/rank7-t740-carrier-skips/evidence/ADMISSION-STAGES.json",
+    "research/rank7-t740-carrier-skips/evidence/DISCOVERY-RESULT.json",
+    "research/rank7-t740-carrier-skips/evidence/DISCOVERY-STAGES.json",
+    "research/rank7-t740-carrier-skips/evidence/OUTER-INDEPENDENT.json",
+    "research/rank7-t740-carrier-skips/evidence/ADAPTER-DERIVATION.json",
+    "research/rank7-t740-carrier-skips/evidence/COMPOSITION-RESULT.json",
+    "research/rank7-t740-carrier-skips/evidence/NATIVE-LOCAL-REPLAY-base.json",
+    "research/rank7-t740-carrier-skips/evidence/NATIVE-LOCAL-REPLAY-extra.json",
+    "research/rank7-t740-carrier-skips/verify.py",
+    "research/rank7-t740-carrier-skips/reproduce.py",
+    "research/rank7-t740-carrier-skips/word_check.py",
+    "research/rank7-t740-carrier-skips/ENGINEERING.md",
+    "research/rank7-t740-carrier-skips/materialize.py",
+    "research/rank7-t740-carrier-skips/test_verify.py",
+    "research/rank7-t740-carrier-skips/test_invoice.py",
+    "research/rank7-t740-carrier-skips/invoice_check.py",
+    "research/rank7-t740-carrier-skips/verify_release.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-t740-carrier-skips/TASK.json",
+    "research/rank7-t740-carrier-skips/VENDOR.json",
+    "research/rank7-t740-carrier-skips/verify.py",
+    "research/rank7-t740-carrier-skips/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-t740-carrier-skips/README.md",
+      "file": "remaining-record-audit/artifacts/3054/bc1553112158__README.md",
+      "sha256": "bc1553112158df02a46777ef8d4cb51a4548a736fd155d50f879ac52cabaa487",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4773c3ea67b471415870e38411fae313ec44a675/research/rank7-t740-carrier-skips/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 83,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3054,
+      "head": "4773c3ea67b471415870e38411fae313ec44a675",
+      "path": "research/rank7-t740-carrier-skips/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4773c3ea67b471415870e38411fae313ec44a675/research/rank7-t740-carrier-skips/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5495faebd634298d688c30bbf5a2dad8313753d5bfef12036852e2b3ca68c328",
+      "git_blob_sha1": "a4610190c1e1757a6ca8cd1ddb54e4851298db10",
+      "bytes": 4735,
+      "file": "individual-primary-interface-source/3054/5495faebd634__TASK.json"
+    },
+    {
+      "pr": 3054,
+      "head": "4773c3ea67b471415870e38411fae313ec44a675",
+      "path": "research/rank7-t740-carrier-skips/VENDOR.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4773c3ea67b471415870e38411fae313ec44a675/research/rank7-t740-carrier-skips/VENDOR.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "57ba951de77ccea1731217ee19d88c987ba19859809af5f06e322ca05d4e03fe",
+      "git_blob_sha1": "cf1f910f295bd1021f093c5e640f4da0843bd0f6",
+      "bytes": 5656,
+      "file": "individual-primary-interface-source/3054/57ba951de77c__VENDOR.json"
+    },
+    {
+      "pr": 3054,
+      "head": "4773c3ea67b471415870e38411fae313ec44a675",
+      "path": "research/rank7-t740-carrier-skips/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4773c3ea67b471415870e38411fae313ec44a675/research/rank7-t740-carrier-skips/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4345698b1ae187f3708f9fa01313def62208f3165b799ee86cd9de5db7a9e5dc",
+      "git_blob_sha1": "3bd142311aa5e7134deb2aaf6a09fdc6347e6eaa",
+      "bytes": 7454,
+      "file": "individual-primary-interface-source/3054/4345698b1ae1__verify.py"
+    },
+    {
+      "pr": 3054,
+      "head": "4773c3ea67b471415870e38411fae313ec44a675",
+      "path": "research/rank7-t740-carrier-skips/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4773c3ea67b471415870e38411fae313ec44a675/research/rank7-t740-carrier-skips/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "da6914042474ec3375991ed5441e5c5e695e14cb94504341c4ddf85e28fd5bd6",
+      "git_blob_sha1": "40e275b54d20c97d559174859094089cbf33e7af",
+      "bytes": 2126,
+      "file": "individual-primary-interface-source/3054/da6914042474__VERIFY.json"
+    }
+  ]
+}

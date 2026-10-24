@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4452,
+    "head": "af68f5973a572305af174b3c49c440592172134d",
+    "path": "research/gaussian-delta-exponents/README.md",
+    "api_sha": "6e5f1cc5b77a2ddefaf6f3aba658535e506b3346",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/af68f5973a572305af174b3c49c440592172134d/research%2Fgaussian-delta-exponents%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/af68f5973a572305af174b3c49c440592172134d/research/gaussian-delta-exponents/README.md",
+    "file": "artifacts\\4452\\e7c954e592a3__README.md",
+    "sha256": "e7c954e592a34df777a6e888c72b3fdf6968abf8cf7b3419fa447ee716142989",
+    "git_blob_sha1": "6e5f1cc5b77a2ddefaf6f3aba658535e506b3346",
+    "bytes": 6920,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.013035+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4452,
+    "head": "af68f5973a572305af174b3c49c440592172134d",
+    "path": "research/gaussian-delta-exponents/SOURCES.json",
+    "api_sha": "3c6d0c33f8177ff8ae42f2d8e6ba58c90f46dfe3",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/af68f5973a572305af174b3c49c440592172134d/research%2Fgaussian-delta-exponents%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/af68f5973a572305af174b3c49c440592172134d/research/gaussian-delta-exponents/SOURCES.json",
+    "file": "artifacts\\4452\\d320e0cf1bdf__SOURCES.json",
+    "sha256": "d320e0cf1bdf95bd520f3bf5910d2e7bb2dfef44017fdb9e68e0b07e7ad226a2",
+    "git_blob_sha1": "3c6d0c33f8177ff8ae42f2d8e6ba58c90f46dfe3",
+    "bytes": 1836,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:29.834133+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4452,
+    "head": "af68f5973a572305af174b3c49c440592172134d",
+    "path": "research/gaussian-delta-exponents/verify.py",
+    "api_sha": "017ba68a0875006385d20bf0f04f740429f25113",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/af68f5973a572305af174b3c49c440592172134d/research%2Fgaussian-delta-exponents%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/af68f5973a572305af174b3c49c440592172134d/research/gaussian-delta-exponents/verify.py",
+    "file": "artifacts\\4452\\ddc4dc2f47e4__verify.py",
+    "sha256": "ddc4dc2f47e4d1ba8321a773dbdb686949e041f10f2f17d830e73476e673738f",
+    "git_blob_sha1": "017ba68a0875006385d20bf0f04f740429f25113",
+    "bytes": 7148,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:29.797450+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "schema": "independent-AI-mathematical-review/1",
+  "review_status": "PASS_under_explicit_own_source_and_analytic_contracts",
+  "reviewer": "historical_audit",
+  "reviewed_sha256": {
+    "finite-controller-gate-refinement.md": "704c8684bc86f195e09ab5a4af3b916bae88f48d0bf812988affc0d1d0e92563",
+    "finite_controller_gate_refinement.py": "29e71a1de4c0c9ca333b3943fc2da41e65f05ac863015e2b82522682afce0188",
+    "pr147-finite-gate-refined-upper.json": "ff002893d9f467bf1d310a24c6b8a17a7a68a859d9a271f8766a60985ff1cae2",
+    "pr531-finite-gate-refined-upper.json": "349e6208831e5b8b96004fc873beb7f09bc685350ffc9b81a502cbf66339af11",
+    "pr535-finite-gate-refined-upper.json": "f774fabcbe6f809bf5dab80291e2513cf88bae65d64b404cadc673bc9dc74527",
+    "pr741-finite-gate-refined-upper.json": "5c1a39bf5f5cfeb1b159aa9e37ef57a1d05fc24de28c4367f348d7e67da73cc7",
+    "pr799-finite-gate-refined-upper.json": "fee3247be5198ae6d826c64d67b3a1c5c098dc7a38166e8dea01ccda6eb611c5"
+  },
+  "scope": [
+    "Read complete new integer-gate derivation and evaluator.",
+    "Confirmed B=2^E is dyadic for arbitrary positive integral E; E itself need not be a power of two.",
+    "Reviewed fresh own-source work/semantic/precision/domain/absolute-prime/typed-axis/stock guards and all seven own cost rows for all five controllers.",
+    "Requested and reviewed the explicit per-complex-coefficient normalization: C_e has e binary-axis passes so direct tariff is at most40e times word width per array coefficient; no unnormalized e-by-e matrix tariff is substituted.",
+    "Requested and reviewed strengthened full stopped-stock reserve inequality with each complete reserve degree, plus preserved corrected147 witness and fully priced other own record tails.",
+    "Final compact serialization drops only duplicated inherited parent checks, retaining exact parent certificate SHA and parent_checks_passed; all184 fresh gate checks and science unchanged."
+  ],
+  "material_findings_remaining": [],
+  "limits": [
+    "This is a conditional sufficient gate refinement, not an actual first-crossing estimate or a universal-optimal gate proof.",
+    "Own source arbitrary-column/whole-owner/all-size/semantic and analytic interfaces remain assumptions, as do the fixed repaired unlimited-GMP contracts.",
+    "No Lean proof, independent human verification or hardware runtime prediction."
+  ]
+}

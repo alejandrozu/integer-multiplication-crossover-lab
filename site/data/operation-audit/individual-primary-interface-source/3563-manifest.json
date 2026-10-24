@@ -1,0 +1,65 @@
+{
+  "pr": 3563,
+  "own_head": "d11655a9fd1c7eedc52e0e9720158bd17d29192a",
+  "primary_path_candidates": [
+    "research/historical-1042-link/RESULT.json",
+    "research/historical-1042-link/README.md",
+    "research/historical-1042-link/TASK.json",
+    "research/historical-1042-link/VERIFY.json",
+    "research/historical-1042-link/verify.py",
+    "research/historical-1042-link/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/historical-1042-link/TASK.json",
+    "research/historical-1042-link/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/historical-1042-link/README.md",
+      "file": "remaining-record-audit/artifacts/3563/422805425b35__README.md",
+      "sha256": "422805425b35257bb978169b99be3d570923b10bc53b07b374825160cd24ea3c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d11655a9fd1c7eedc52e0e9720158bd17d29192a/research/historical-1042-link/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/historical-1042-link/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3563/e7eefad724b2__RESULT.json",
+      "sha256": "e7eefad724b24498bae3c922c805386edf744562093f8b1cf14419937f7ff96d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d11655a9fd1c7eedc52e0e9720158bd17d29192a/research/historical-1042-link/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/historical-1042-link/verify.py",
+      "file": "remaining-record-audit/artifacts/3563/bd1aea166fd7__verify.py",
+      "sha256": "bd1aea166fd7fe3b3d040e0477de03aa44bfea712903c2802d66e2133b984622",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d11655a9fd1c7eedc52e0e9720158bd17d29192a/research/historical-1042-link/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3563,
+      "head": "d11655a9fd1c7eedc52e0e9720158bd17d29192a",
+      "path": "research/historical-1042-link/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d11655a9fd1c7eedc52e0e9720158bd17d29192a/research/historical-1042-link/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c1621af819bd4440c6a09643390812eb1549be12861297d76e4cc31381fad5b1",
+      "git_blob_sha1": "436d73d598e4ab9a9934d405c08fd272357d53a0",
+      "bytes": 3041,
+      "file": "individual-primary-interface-source/3563/c1621af819bd__TASK.json"
+    },
+    {
+      "pr": 3563,
+      "head": "d11655a9fd1c7eedc52e0e9720158bd17d29192a",
+      "path": "research/historical-1042-link/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d11655a9fd1c7eedc52e0e9720158bd17d29192a/research/historical-1042-link/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "cd1df2445af70e795e24048b8a86cf9762a518511ab32e1ba422926f1f55e15e",
+      "git_blob_sha1": "5cff7b26c9e7447c4aa9e69557aa82148dafcd3b",
+      "bytes": 638,
+      "file": "individual-primary-interface-source/3563/cd1df2445af7__VERIFY.json"
+    }
+  ]
+}

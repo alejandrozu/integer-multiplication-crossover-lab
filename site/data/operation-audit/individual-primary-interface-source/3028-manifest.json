@@ -1,0 +1,81 @@
+{
+  "pr": 3028,
+  "own_head": "9d10633660a3dff5469f4e7a0a009a6c9994c0d7",
+  "primary_path_candidates": [
+    "research/rank7-t148-restore-release/evidence/RESULT.json",
+    "research/rank7-t148-restore-release/README.md",
+    "research/rank7-t148-restore-release/TASK.json",
+    "research/rank7-t148-restore-release/VENDOR.json",
+    "research/rank7-t148-restore-release/VERIFY.json",
+    "research/rank7-t148-restore-release/GENERAL-CEILING.json",
+    "research/rank7-t148-restore-release/evidence/FINITE.json",
+    "research/rank7-t148-restore-release/evidence/RECIPE.json",
+    "research/rank7-t148-restore-release/evidence/VALIDATION.json",
+    "research/rank7-t148-restore-release/evidence/ENVIRONMENT.json",
+    "research/rank7-t148-restore-release/evidence/OUTER-CLAIM.json",
+    "research/rank7-t148-restore-release/evidence/VERIFY-RESULT.json",
+    "research/rank7-t148-restore-release/evidence/VERIFY-STAGES.json",
+    "research/rank7-t148-restore-release/evidence/NATIVE-RECEIPT.json",
+    "research/rank7-t148-restore-release/evidence/RELEASE-RECEIPT.json",
+    "research/rank7-t148-restore-release/evidence/ADMISSION-RESULT.json",
+    "research/rank7-t148-restore-release/evidence/ADMISSION-STAGES.json",
+    "research/rank7-t148-restore-release/evidence/ADAPTER-DERIVATION.json",
+    "research/rank7-t148-restore-release/verify.py",
+    "research/rank7-t148-restore-release/reproduce.py",
+    "research/rank7-t148-restore-release/test_verify.py",
+    "research/rank7-t148-restore-release/verify_release.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-t148-restore-release/TASK.json",
+    "research/rank7-t148-restore-release/VENDOR.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-t148-restore-release/README.md",
+      "file": "remaining-record-audit/artifacts/3028/6e78aae177c6__README.md",
+      "sha256": "6e78aae177c65ef8d0ce7eb469ab97e4fc9f7d4248e7733d7508f05ec085693a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9d10633660a3dff5469f4e7a0a009a6c9994c0d7/research/rank7-t148-restore-release/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-t148-restore-release/evidence/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3028/9e4af50ce761__RESULT.json",
+      "sha256": "9e4af50ce76114851a967a151d4bad2a7099b55a2e69dd7ebf0ef141ce6c9904",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9d10633660a3dff5469f4e7a0a009a6c9994c0d7/research/rank7-t148-restore-release/evidence/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-t148-restore-release/verify.py",
+      "file": "remaining-record-audit/artifacts/3028/5b28450721ed__verify.py",
+      "sha256": "5b28450721edc925d274a88bb597bdf5814f1ae7e2c009106fccc2daa91b7ccc",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9d10633660a3dff5469f4e7a0a009a6c9994c0d7/research/rank7-t148-restore-release/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 53,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3028,
+      "head": "9d10633660a3dff5469f4e7a0a009a6c9994c0d7",
+      "path": "research/rank7-t148-restore-release/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9d10633660a3dff5469f4e7a0a009a6c9994c0d7/research/rank7-t148-restore-release/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "243c44d722428ecd69b425a03687abe643f5f013dadd7a40f4023340d3afe387",
+      "git_blob_sha1": "855f4a31909755b3c391d640b4ead88cee390941",
+      "bytes": 7032,
+      "file": "individual-primary-interface-source/3028/243c44d72242__TASK.json"
+    },
+    {
+      "pr": 3028,
+      "head": "9d10633660a3dff5469f4e7a0a009a6c9994c0d7",
+      "path": "research/rank7-t148-restore-release/VENDOR.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9d10633660a3dff5469f4e7a0a009a6c9994c0d7/research/rank7-t148-restore-release/VENDOR.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a7b8b34e684575f013cda73e47d06f0da84b4f8cd70bae0195a1a4c9710ffe96",
+      "git_blob_sha1": "00cec56e9caec49f30cee91ce6ee180ee6360657",
+      "bytes": 5192,
+      "file": "individual-primary-interface-source/3028/a7b8b34e6845__VENDOR.json"
+    }
+  ]
+}

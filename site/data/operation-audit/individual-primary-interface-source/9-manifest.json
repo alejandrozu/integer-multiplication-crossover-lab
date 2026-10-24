@@ -1,0 +1,64 @@
+{
+  "pr": 9,
+  "own_head": "cfd6a2baded9dba990b987934474a7721d6ca3fb",
+  "primary_path_candidates": [
+    "research/prime-field-followup/certificate.json",
+    "research/prime-field-followup/README.md",
+    "research/prime-field-followup/provenance.json",
+    "research/prime-field-followup/verify.py",
+    "research/prime-field-followup/star_duality.py"
+  ],
+  "selected_for_recovery": [
+    "research/prime-field-followup/provenance.json",
+    "research/prime-field-followup/star_duality.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/prime-field-followup/README.md",
+      "file": "remaining-record-audit/artifacts/9/e9c17d2227e7__README.md",
+      "sha256": "e9c17d2227e7a25526280dbbc81991eba13c6d7333eb728310768d1d97e3e1d1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cfd6a2baded9dba990b987934474a7721d6ca3fb/research/prime-field-followup/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/prime-field-followup/certificate.json",
+      "file": "remaining-record-audit/artifacts/9/c03f6dc50618__certificate.json",
+      "sha256": "c03f6dc50618b01cc583e938c40d5c80648ab7e87566786f3545a7c7cf66c43e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cfd6a2baded9dba990b987934474a7721d6ca3fb/research/prime-field-followup/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/prime-field-followup/verify.py",
+      "file": "remaining-record-audit/artifacts/9/beeb133ba493__verify.py",
+      "sha256": "beeb133ba4934a5f8d86650c70c8290f237d3f6a7ca2f68f6cbc2a99b0265b3f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cfd6a2baded9dba990b987934474a7721d6ca3fb/research/prime-field-followup/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 9,
+      "head": "cfd6a2baded9dba990b987934474a7721d6ca3fb",
+      "path": "research/prime-field-followup/provenance.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cfd6a2baded9dba990b987934474a7721d6ca3fb/research/prime-field-followup/provenance.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "42f39343163f65f00c7b44ca39e34ba3225ea74822de419cd2bb533538cd9646",
+      "git_blob_sha1": "fadbe01fb19dd42b4d8a45a17290603028faa962",
+      "bytes": 1170,
+      "file": "individual-primary-interface-source/9/42f39343163f__provenance.json"
+    },
+    {
+      "pr": 9,
+      "head": "cfd6a2baded9dba990b987934474a7721d6ca3fb",
+      "path": "research/prime-field-followup/star_duality.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cfd6a2baded9dba990b987934474a7721d6ca3fb/research/prime-field-followup/star_duality.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "66fa4d9860540512f8f6f18f994fb982bc136e0f09d7ebfdf9db9bb088fa2a58",
+      "git_blob_sha1": "b87d8ad5cf6663aa1a81108a4646e0b058793e7f",
+      "bytes": 8004,
+      "file": "individual-primary-interface-source/9/66fa4d986054__star_duality.py"
+    }
+  ]
+}

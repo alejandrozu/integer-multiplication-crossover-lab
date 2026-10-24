@@ -1,0 +1,56 @@
+{
+  "pr": 4094,
+  "own_head": "fd58efb1646ea0d350f1f50057f9a05b4923c99c",
+  "primary_path_candidates": [
+    "research/stock-margin-tieout-independent/README.md",
+    "research/stock-margin-tieout-independent/TASK.json",
+    "research/stock-margin-tieout-independent/VERIFY.json",
+    "research/stock-margin-tieout-independent/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/stock-margin-tieout-independent/TASK.json",
+    "research/stock-margin-tieout-independent/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/stock-margin-tieout-independent/README.md",
+      "file": "remaining-record-audit/artifacts/4094/4a439a09a8ac__README.md",
+      "sha256": "4a439a09a8acdf494d311f9a3fa7d1519806064c03eaa8ec4d2eb4047087224d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd58efb1646ea0d350f1f50057f9a05b4923c99c/research/stock-margin-tieout-independent/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/stock-margin-tieout-independent/verify.py",
+      "file": "remaining-record-audit/artifacts/4094/c16da678cae9__verify.py",
+      "sha256": "c16da678cae9f1d110b1dfa832a2eb8b768f7951b85925bdddc49dc07832c24a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd58efb1646ea0d350f1f50057f9a05b4923c99c/research/stock-margin-tieout-independent/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4094,
+      "head": "fd58efb1646ea0d350f1f50057f9a05b4923c99c",
+      "path": "research/stock-margin-tieout-independent/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd58efb1646ea0d350f1f50057f9a05b4923c99c/research/stock-margin-tieout-independent/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "505951a3a23528ee6fb373b99df25c1d46991bd73d8d1304f1b97340ac7713fd",
+      "git_blob_sha1": "858c440d3d6b13293356dd2241ccaf80ff70bcbc",
+      "bytes": 7443,
+      "file": "individual-primary-interface-source/4094/505951a3a235__TASK.json"
+    },
+    {
+      "pr": 4094,
+      "head": "fd58efb1646ea0d350f1f50057f9a05b4923c99c",
+      "path": "research/stock-margin-tieout-independent/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd58efb1646ea0d350f1f50057f9a05b4923c99c/research/stock-margin-tieout-independent/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "613bb848c7b2331c37c1662ef0759d9391f3e616c7cc6c188b369cc1679d53b9",
+      "git_blob_sha1": "e4f4ff1a88c06f07c87441e435a5a3bf962cb6da",
+      "bytes": 890,
+      "file": "individual-primary-interface-source/4094/613bb848c7b2__VERIFY.json"
+    }
+  ]
+}

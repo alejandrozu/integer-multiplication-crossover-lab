@@ -1,0 +1,93 @@
+{
+  "pr": 1337,
+  "own_head": "c9da5f270d6a10f571a65cb3449230bdcc76df32",
+  "primary_path_candidates": [
+    "research/frontier1305-kernel-census/RESULT.json",
+    "research/frontier1305-kernel-census/README.md",
+    "research/frontier1305-kernel-census/TASK.json",
+    "research/frontier1305-kernel-census/VERIFY.json",
+    "research/frontier1305-kernel-census/evidence/RETIME-base.json",
+    "research/frontier1305-kernel-census/evidence/RETIME-extra.json",
+    "research/frontier1305-kernel-census/evidence/DELETION-base.json",
+    "research/frontier1305-kernel-census/evidence/DELETION-extra.json",
+    "research/frontier1305-kernel-census/evidence/CENSUS-base-tail.json",
+    "research/frontier1305-kernel-census/evidence/DELETION-control.json",
+    "research/frontier1305-kernel-census/evidence/PRICES-base-tail.json",
+    "research/frontier1305-kernel-census/evidence/CENSUS-base-first.json",
+    "research/frontier1305-kernel-census/evidence/CENSUS-extra-tail.json",
+    "research/frontier1305-kernel-census/evidence/IDLE-OPTIMUM-1305.json",
+    "research/frontier1305-kernel-census/evidence/PRICES-base-first.json",
+    "research/frontier1305-kernel-census/evidence/PRICES-extra-tail.json",
+    "research/frontier1305-kernel-census/evidence/CENSUS-extra-first.json",
+    "research/frontier1305-kernel-census/evidence/PRICES-extra-first.json",
+    "research/frontier1305-kernel-census/evidence/CENSUS-control-tail.json",
+    "research/frontier1305-kernel-census/evidence/PRICES-control-tail.json",
+    "research/frontier1305-kernel-census/price.py",
+    "research/frontier1305-kernel-census/NOTICE.md",
+    "research/frontier1305-kernel-census/bounds.py",
+    "research/frontier1305-kernel-census/census.py",
+    "research/frontier1305-kernel-census/retime.py",
+    "research/frontier1305-kernel-census/verify.py",
+    "research/frontier1305-kernel-census/deletion.py",
+    "research/frontier1305-kernel-census/regenerate.py",
+    "research/frontier1305-kernel-census/idle_optimum.py"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1305-kernel-census/TASK.json",
+    "research/frontier1305-kernel-census/price.py",
+    "research/frontier1305-kernel-census/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1305-kernel-census/README.md",
+      "file": "remaining-record-audit/artifacts/1337/c52e2a529922__README.md",
+      "sha256": "c52e2a5299221a4a953b3f01daa1dea12bd2b5a0edfc766f7d2faeea2123a1eb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9da5f270d6a10f571a65cb3449230bdcc76df32/research/frontier1305-kernel-census/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1305-kernel-census/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1337/ef8ea07f59c3__RESULT.json",
+      "sha256": "ef8ea07f59c367f7f87de262d321b0cab411015cecbec54ff7320b65c8584509",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9da5f270d6a10f571a65cb3449230bdcc76df32/research/frontier1305-kernel-census/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 34,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1337,
+      "head": "c9da5f270d6a10f571a65cb3449230bdcc76df32",
+      "path": "research/frontier1305-kernel-census/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9da5f270d6a10f571a65cb3449230bdcc76df32/research/frontier1305-kernel-census/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "66fefaa0205dfd69bb68caf639f3d2f7dd95be35c13a2b1a71234740790c6300",
+      "git_blob_sha1": "b9464e38e591fe9cc67d657e5f7bc0c67d94036a",
+      "bytes": 4723,
+      "file": "individual-primary-interface-source/1337/66fefaa0205d__TASK.json"
+    },
+    {
+      "pr": 1337,
+      "head": "c9da5f270d6a10f571a65cb3449230bdcc76df32",
+      "path": "research/frontier1305-kernel-census/price.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9da5f270d6a10f571a65cb3449230bdcc76df32/research/frontier1305-kernel-census/price.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0f538f82d9e2f5c5cb7814e46e1eafd0fb12d98d251073002bfd732aa428accb",
+      "git_blob_sha1": "388829afb6bbcde5cd5b278090aaff9d515d0744",
+      "bytes": 2393,
+      "file": "individual-primary-interface-source/1337/0f538f82d9e2__price.py"
+    },
+    {
+      "pr": 1337,
+      "head": "c9da5f270d6a10f571a65cb3449230bdcc76df32",
+      "path": "research/frontier1305-kernel-census/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9da5f270d6a10f571a65cb3449230bdcc76df32/research/frontier1305-kernel-census/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9e0e9ff4fa07debcbe6cd6dec228a25b9a6efb2399d5ce66510f6c15fb10cefb",
+      "git_blob_sha1": "8ae7f690a8d62968cb35b736267f5ba12a78c2d7",
+      "bytes": 926,
+      "file": "individual-primary-interface-source/1337/9e0e9ff4fa07__VERIFY.json"
+    }
+  ]
+}

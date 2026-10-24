@@ -1,0 +1,66 @@
+{
+  "pr": 1746,
+  "own_head": "23bae0f8d16246862524581b742c7a922514bfd5",
+  "primary_path_candidates": [
+    "research/selected-p104-port-adapter/CERTIFICATE.json",
+    "research/selected-p104-port-adapter/CLAIM.md",
+    "research/selected-p104-port-adapter/README.md",
+    "research/selected-p104-port-adapter/TASK.json",
+    "research/selected-p104-port-adapter/VERIFY.json",
+    "research/selected-p104-port-adapter/NOTICE.md",
+    "research/selected-p104-port-adapter/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected-p104-port-adapter/CLAIM.md",
+    "research/selected-p104-port-adapter/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-p104-port-adapter/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1746/9c80d5db133d__CERTIFICATE.json",
+      "sha256": "9c80d5db133d6645e571c56e4e93ad3d331c366f088a664359aed444948cbb81",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-p104-port-adapter/verify.py",
+      "file": "remaining-record-audit/artifacts/1746/cbf7f5bfbf14__verify.py",
+      "sha256": "cbf7f5bfbf14cb61e929e8a10ed7b1bc17c4c95cdf03d656321d2982752fa573",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-p104-port-adapter/README.md",
+      "file": "remaining-record-audit/artifacts/1746/eb2b31b6a8b6__README.md",
+      "sha256": "eb2b31b6a8b6a93a2bc3c2d0b7092fb0228bee62d1e0a4c15456b2501c03a987",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1746,
+      "head": "23bae0f8d16246862524581b742c7a922514bfd5",
+      "path": "research/selected-p104-port-adapter/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5e6435dd04849c108e4f0a318a3e38e3e14d8bc3a00daaa59479bfccc1eb0b4a",
+      "git_blob_sha1": "9fc7986f5e77ba02283819aeef8c0dad00605f67",
+      "bytes": 3409,
+      "file": "individual-primary-interface-source/1746/5e6435dd0484__CLAIM.md"
+    },
+    {
+      "pr": 1746,
+      "head": "23bae0f8d16246862524581b742c7a922514bfd5",
+      "path": "research/selected-p104-port-adapter/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bae0f8d16246862524581b742c7a922514bfd5/research/selected-p104-port-adapter/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6c002dcbfc15b9003fe7e0f74e40d31f54f43e718079fc604d5735ba2a596912",
+      "git_blob_sha1": "5fdc0ff30dab6c6b56fef3a499a60eedc2f5ad03",
+      "bytes": 4907,
+      "file": "individual-primary-interface-source/1746/6c002dcbfc15__TASK.json"
+    }
+  ]
+}

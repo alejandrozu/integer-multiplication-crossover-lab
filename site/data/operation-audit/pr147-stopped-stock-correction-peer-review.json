@@ -1,0 +1,22 @@
+{
+  "schema": "independent-AI-mathematical-review/1",
+  "pr": 147,
+  "review_status": "PASS_under_explicit_retained_source_and_analytic_contracts",
+  "reviewer": "historical_audit",
+  "reviewed_sha256": {
+    "pr147-stopped-stock-correction.md": "02e193a4a83b076c9eb4f7d51b189436b5b2d60c60ff6db95522b18f40794ba0",
+    "pr147_stopped_stock_correction.py": "7395fb2d4c98eaf7e72eb27b5f6dcfc821ce52af480cb9ec4638f76631a4195d",
+    "pr147-stopped-stock-corrected-upper.json": "3e684bf76d4ad98d8f7b10afd418b5b14c521387f4c84018eb060d5e3678d2af"
+  },
+  "scope": [
+    "Read entire new stock correction and reproducer.",
+    "Verified d0^(1/Q)>=2^16 u^70000 funds row stock even inside a stopped child, 2^16>2*20445 and 70000>51*20445/25.",
+    "Checked corrected all-size coefficient, all-seven-row log-degree increment, monotonic-tail inequalities, unchanged semantic/exact odd-grid endpoint scope, and independent same-upper arithmetic.",
+    "Confirmed frozen older147 proof remains historical and the current bound must bind this correction; original-record compatibility is explicitly optional and unquantified."
+  ],
+  "material_findings_remaining": [],
+  "limits": [
+    "No full original native/phase identity engine rerun, Lean verification, independent human theorem or hardware first-crossing claim.",
+    "Own native/all-size/semantic and analytic interfaces, and repaired unlimited-GMP assumptions, remain explicit conditions."
+  ]
+}

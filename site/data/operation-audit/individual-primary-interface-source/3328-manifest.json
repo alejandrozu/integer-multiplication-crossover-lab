@@ -1,0 +1,64 @@
+{
+  "pr": 3328,
+  "own_head": "e3ef128540fcce9a325359e55b35ccc3d1587ea9",
+  "primary_path_candidates": [
+    "research/pr3190-distinct-axis-basis-isolation/RESULT.json",
+    "research/pr3190-distinct-axis-basis-isolation/README.md",
+    "research/pr3190-distinct-axis-basis-isolation/TASK.json",
+    "research/pr3190-distinct-axis-basis-isolation/VERIFY.json",
+    "research/pr3190-distinct-axis-basis-isolation/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr3190-distinct-axis-basis-isolation/TASK.json",
+    "research/pr3190-distinct-axis-basis-isolation/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr3190-distinct-axis-basis-isolation/README.md",
+      "file": "remaining-record-audit/artifacts/3328/855540543aad__README.md",
+      "sha256": "855540543aad66b6b44a060f4579e19e1a56ce663e57f1462f6cc69cb3b2ae7d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3ef128540fcce9a325359e55b35ccc3d1587ea9/research/pr3190-distinct-axis-basis-isolation/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr3190-distinct-axis-basis-isolation/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3328/20bcfa0dc62c__RESULT.json",
+      "sha256": "20bcfa0dc62c068feef93d28593bb779defdb4f9e1f96f85ff2be9b9b03c2f8e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3ef128540fcce9a325359e55b35ccc3d1587ea9/research/pr3190-distinct-axis-basis-isolation/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr3190-distinct-axis-basis-isolation/verify.py",
+      "file": "remaining-record-audit/artifacts/3328/935fd4340e65__verify.py",
+      "sha256": "935fd4340e6537437f30c85debf6179c3b9e2c350328ebaa87bb0a5f52c7b0f2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3ef128540fcce9a325359e55b35ccc3d1587ea9/research/pr3190-distinct-axis-basis-isolation/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3328,
+      "head": "e3ef128540fcce9a325359e55b35ccc3d1587ea9",
+      "path": "research/pr3190-distinct-axis-basis-isolation/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3ef128540fcce9a325359e55b35ccc3d1587ea9/research/pr3190-distinct-axis-basis-isolation/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6e098d45580b0cb95b4256651c8706ee6e403c5c5553e69136e82a5b1445af36",
+      "git_blob_sha1": "42a0f9cc13f55cbf260542943be4d739cb169970",
+      "bytes": 4429,
+      "file": "individual-primary-interface-source/3328/6e098d45580b__TASK.json"
+    },
+    {
+      "pr": 3328,
+      "head": "e3ef128540fcce9a325359e55b35ccc3d1587ea9",
+      "path": "research/pr3190-distinct-axis-basis-isolation/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3ef128540fcce9a325359e55b35ccc3d1587ea9/research/pr3190-distinct-axis-basis-isolation/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "656514dba168d1348a00374322b014281f27db79f3280cc8b49e7cb339a7d0eb",
+      "git_blob_sha1": "7ec92eaca7949d03189ad003d278bd8e034ab2b7",
+      "bytes": 1590,
+      "file": "individual-primary-interface-source/3328/656514dba168__VERIFY.json"
+    }
+  ]
+}

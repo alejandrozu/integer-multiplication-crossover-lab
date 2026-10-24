@@ -1,0 +1,72 @@
+{
+  "pr": 587,
+  "own_head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+  "primary_path_candidates": [
+    "research/witness-spec-tools/README.md",
+    "research/witness-spec-tools/examples/pr582/WITNESS.json",
+    "research/witness-spec-tools/spec.py",
+    "research/witness-spec-tools/verify.py",
+    "research/witness-spec-tools/code/witness.py",
+    "research/witness-spec-tools/code/assemble.py",
+    "research/witness-spec-tools/tests/run_tests.py",
+    "research/witness-spec-tools/code/emit_allcold.py",
+    "research/witness-spec-tools/code/audit_allcold.py",
+    "research/witness-spec-tools/code/invoice_allcold.py",
+    "research/witness-spec-tools/code/assembly_controls.py",
+    "research/witness-spec-tools/code/phase_timing_controls.py",
+    "research/witness-spec-tools/code/bind_providers_portable.py"
+  ],
+  "selected_for_recovery": [
+    "research/witness-spec-tools/examples/pr582/WITNESS.json",
+    "research/witness-spec-tools/spec.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/witness-spec-tools/README.md",
+      "file": "remaining-record-audit/artifacts/587/1e879f626bb0__README.md",
+      "sha256": "1e879f626bb054d50776e4f400b5535f79b6881328d268eeebf85aecad5a6400",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/witness-spec-tools/verify.py",
+      "file": "remaining-record-audit/artifacts/587/f5903c72b4bd__verify.py",
+      "sha256": "f5903c72b4bda25a238a7a2f3b647880d1d586d7c06b62e2fdfdfe194e77352d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/witness-spec-tools/code/witness.py",
+      "file": "remaining-record-audit/artifacts/587/81ebbe274b64__witness.py",
+      "sha256": "81ebbe274b64fae6ed7d5895a04c4d22760edc254c0e98a4f45d5e98c9b038a1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/witness.py"
+    }
+  ],
+  "github_changed_file_reported_count": 14,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 587,
+      "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+      "path": "research/witness-spec-tools/examples/pr582/WITNESS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/examples/pr582/WITNESS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "492b823d07ce64808e5307693e103a9ab586a5d7a3c86030ed8f12d94a6627f1",
+      "git_blob_sha1": "609e134f130183481d25a3f8df2832b0566787b0",
+      "bytes": 8248,
+      "file": "individual-primary-interface-source/587/492b823d07ce__WITNESS.json"
+    },
+    {
+      "pr": 587,
+      "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+      "path": "research/witness-spec-tools/spec.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/spec.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e313390c94ff08f6a502effb3285be2ef2b27825c505e0f24ae1f7fa026c7175",
+      "git_blob_sha1": "7618401b8bdc0a66a2d8c1f81fa46228b24dbce5",
+      "bytes": 13023,
+      "file": "individual-primary-interface-source/587/e313390c94ff__spec.py"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "pr4470-crossover-retuned-peer-review/1",
+  "status": "PASS_CONDITIONAL_WRITTEN_PROOF_AND_FRESH_PARAMETER_REVIEW",
+  "reviewer": "leaderboard_source, separate collaborating AI agent; not independent human review or Lean formalization",
+  "reviewed_sha256": {
+    "pr4470-crossover-retuned-upper.md": "804497c30172d544d5ccf708f2ef8e730f3d85c098cf50f105db4e3624db8166",
+    "pr4470-crossover-retuned-upper.json": "bb8d6bfb89eb38dce0d1d4d8dbaae42f67a15d43fec7db99fbf482b4800126dd",
+    "pr4470_crossover_retuned_upper.py": "cd1c0db77d95ea2fd61f746fbdc9b57722a5b0a85bbbe3a9a4c2bdb1f0ecf9e7"
+  },
+  "checks_reviewed": 61,
+  "findings": [],
+  "scope": [
+    "Unchanged fixed supplier rank/native word/actual eta and archived original-record circuit",
+    "Fresh effective kappa1/500 and delta1/10000 source54strict/4functional/9margin evaluation",
+    "New occupied-row/base and protected precision/stock gates with unchanged Clifford guard",
+    "Actual smooth log envelope valid despite E<2^64; all seven fresh row residuals relative to effective kappa",
+    "Own fine-prime/axis capacity and active raw-core invocation inequalities",
+    "Piecewise size-only early retune followed by frozen original-record tail preserves original asymptotic record",
+    "IdenticalGMPinactive and unreducedcoreactive family remains within independent lower scope",
+    "No new exponent record or exact first crossing asserted"
+  ],
+  "retained_assumptions": [
+    "Native/all-column/absolute-phase and owned-erasure interfaces",
+    "Completed Clifford endpoint and whole-word compiler contracts",
+    "Parameterized analytic Gaussian/fine-prime/boundary/recovery lemmas",
+    "Finite native GMP correctness and halting"
+  ],
+  "not_claimed": [
+    "Fresh full native/phase replay",
+    "A complete Lean theorem",
+    "Human theorem verification",
+    "Hardware timing or exact first crossover"
+  ]
+}

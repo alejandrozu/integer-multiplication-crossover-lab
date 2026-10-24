@@ -1,0 +1,147 @@
+{
+  "status": "Later source-bound width results checked; no full physical runtime crossover established",
+  "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "realization": "Only the unchanged #4436 nested divisible-width compiler applied to #4470 product/completion/splitting; not a unique or minimal realization selected by #4470.",
+  "correction_to_earlier_audit": "Exact full width is not emitted, but later merged PRs DO bound its logarithm tightly. The original unknown-width statement must not be read as absence of mathematical width bounds.",
+  "later_contributions": [
+    {
+      "pr": 5026,
+      "type": "Two-sided source-width envelope",
+      "K_over_N_lower": "2943/1000",
+      "K_over_N_upper": "3639/1000",
+      "source_package": "research/selected-complex-width-envelope"
+    },
+    {
+      "pr": 5067,
+      "type": "Truncated source upper envelope",
+      "K_over_N_upper": "307/100",
+      "source_package": "research/selected-truncated-source-envelope"
+    },
+    {
+      "pr": 5109,
+      "type": "Fractional source-moment upper envelope",
+      "K_over_N_upper": "15347/5000",
+      "source_package": "research/fractional-source-width"
+    },
+    {
+      "pr": 5318,
+      "type": "All-height source telescope lower envelope",
+      "K_over_N_lower": "1527/500",
+      "source_package": "research/separated-source-telescope"
+    }
+  ],
+  "combined_width_bound": {
+    "definition": "K=ceil(log2 B_N)/H; H=64215200000000; N=2^H",
+    "strict_K_over_N_lower": "1527/500",
+    "strict_K_over_N_upper": "15347/5000",
+    "endpoint_ratio": "15347/15270",
+    "endpoint_ratio_upper": "10051/10000",
+    "direct_log2_width_lower": "N*(1-1/(21^1024))*196114762616448 > (1527/500)*N*H",
+    "direct_log2_width_upper": "N*197100824008381",
+    "important": "These are mathematical count bounds; the source explicitly leaves physical stock, native routing, owned-storage and supplier admission open."
+  },
+  "conditional_row_reservation": {
+    "source_pr": 5026,
+    "complex_share_log2_upper": 64215200000008,
+    "log2_C_row_upper": 64215200000010,
+    "displayed_sufficient_fit_log2_p": 64473100659036,
+    "assumed_c_row": 1,
+    "assumed_Cw": 232960,
+    "assumed_beta": "69999991/70000000",
+    "selected_4470_beta": "1399999997/1400000000",
+    "meaning": "Combined row-reservation constant and one conditional fit calculation, not semantic precision C0 and not a total runtime coefficient.",
+    "later_upper_effect": "The 3.0694 upper coefficient still implies K<4N, so this displayed coarse H+10 row-constant bound is unchanged unless that outer calculation is sharpened too."
+  },
+  "stronger_precision_recipe_floor_for_this_realization": {
+    "derivation": [
+      "The final productive width W_uniform=B_N. Thus Z>=B_N in the retained precision formula.",
+      "E=64*(Z+N+P+G+1)^3 >64*B_N^3, so C0=32*N*(P+E)^2 >2^17*N*B_N^6.",
+      "The direct later lower proof gives log2 B_N > (1527/500)*N*H.",
+      "Therefore bit_length(4*C0) >= H+20+6*(1527/500)*H*N; its right side is an integer.",
+      "Since 1-epsilon=1/1400000000, t >= 1400000000*(H+20+1176679324800000*2^H).",
+      "The precision prescription uses n_precision=2^(ceil(2^t/6)) bits."
+    ],
+    "exact_t_lower": "1647351054720000000000000*2^64215200000000+89901280000028000000000",
+    "t_lower_N_coefficient": "1647351054720000000000000",
+    "t_lower_additive_term": "89901280000028000000000",
+    "log2_t_lower_leading_offset": "80.4464223071243571125450852696511426401838538246451048434079739418391000894555344736398634",
+    "exact_input_recipe_lower": "2^(2^(1647351054720000000000000*2^64215200000000+89901280000028000000000)/6)",
+    "simple_canonical_strict_lower": "2^(2^(2^64215200000080))",
+    "simple_canonical_proof": "The t coefficient exceeds 2^80 and the additive term exceeds log2(6); hence t-log2(6)>2^(H+80).",
+    "scope": "Lower bound on this conservative precision-cutoff recipe for this named nested realization. NOT a lower bound on true runtime crossover, and NOT a universal bound for alternate smaller batch compilers."
+  },
+  "conditional_rank_mass_observation": {
+    "raw_rank_one_surplus": 752,
+    "identity": "N*B_N-P = 752*sum_raw_instances(column_multiplicity)",
+    "consequence": "For a closed acyclic fully charged realization, every positive integer column multiplicity is >=1, giving U_raw<=(N*B_N-P)/752<=N*B_N/752 and P<=N*B_N.",
+    "basis": "Telescoping rank mass over complete arbitrary-input jobs; completion adds equal paid/productive rank, splitting preserves rank, and each raw unit has surplus752 per column.",
+    "scope": "Own algebraic consequence conditional on the claimed complete realization and accounting. Not independently certified by a full physical word; it does not bound all R route/normalizer records or every scalar coefficient height.",
+    "C0_upper_status": "A sharper full C0 upper near six times log2 B_N would still require an explicit bound on R and all native fixed-program bodies. The earlier very coarse conditional count envelope remains separate."
+  },
+  "fresh_checks": {
+    "lower_integer_comparison": "passed",
+    "upper_fractional_moment_arithmetic": "passed using unchanged source function; inherited source census remains a cited premise",
+    "upper_log_source": 197100824008381,
+    "ratio_below_1_0051": "passed",
+    "precision_floor_algebra_and_tower": "passed",
+    "not_checked": [
+      "full end-to-end native/cold replay",
+      "all-rank source-census theorem independent proof audit",
+      "physical stock/route execution",
+      "full precision constants and every joint condition",
+      "actual multiplication runtime or practical crossover"
+    ]
+  },
+  "sources": [
+    {
+      "path": "research/selected-complex-width-envelope/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/selected-complex-width-envelope/README.md",
+      "sha256": "421842e929b13a2adf3b3071257e36d42c0b1e7001d87be8d8df88a9a4ef7e6b"
+    },
+    {
+      "path": "research/selected-complex-width-envelope/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/selected-complex-width-envelope/RESULT.json",
+      "sha256": "16cb9dab1c346b81f92b6b04c8cacbf1f4111f0968eb321bbf67d2680b9f5d2e"
+    },
+    {
+      "path": "research/selected-truncated-source-envelope/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/selected-truncated-source-envelope/README.md",
+      "sha256": "2f9e6bfa32a529305aaf7a5865215eb37ad0e8290077decc5bc76d02eb48f179"
+    },
+    {
+      "path": "research/selected-truncated-source-envelope/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/selected-truncated-source-envelope/RESULT.json",
+      "sha256": "9d94eb9ec2f559d86b05b211a58f340b9e291753133b12cc01ae3306bd4211f7"
+    },
+    {
+      "path": "research/fractional-source-width/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/fractional-source-width/README.md",
+      "sha256": "1c16e142d1b27154c64f87e3b2adc862be2d97e53d0a6bc1dbd03a6ad5a70eaa"
+    },
+    {
+      "path": "research/fractional-source-width/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/fractional-source-width/verify.py",
+      "sha256": "7917d8ac2ca5de527be8237d95f471b0fec77812184b7980c15bc82787fd7daf"
+    },
+    {
+      "path": "research/separated-source-telescope/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/separated-source-telescope/README.md",
+      "sha256": "c8208fded3483c9719e133c0ad685d52306a572cfd7178afb01ec65c78bf1a06"
+    },
+    {
+      "path": "research/separated-source-telescope/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/separated-source-telescope/RESULT.json",
+      "sha256": "b3d9b373a34f86a6c311813a40c5c5c6a4a5fedbdc33b773b0764cba018c0def"
+    },
+    {
+      "path": "research/joint-helper-lattice/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+      "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+    },
+    {
+      "path": "research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+      "sha256": "3f8508c63862dd83968bd30df91b08ba5afcee1e10db15ca546cdff0caef95d9"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "pr": 3465,
+  "own_head": "52c8434c4b184dbbd3e080aff43b0a9714fe8bf1",
+  "primary_path_candidates": [
+    "research/t16-rank7-provider-composition/EXPECTED.json",
+    "research/t16-rank7-provider-composition/CERTIFICATE.json",
+    "research/t16-rank7-provider-composition/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+    "research/t16-rank7-provider-composition/PROOF.md",
+    "research/t16-rank7-provider-composition/README.md",
+    "research/t16-rank7-provider-composition/TASK.json",
+    "research/t16-rank7-provider-composition/VERIFY.json",
+    "research/t16-rank7-provider-composition/CAP-RATIO.json",
+    "research/t16-rank7-provider-composition/PLAN-3413.json",
+    "research/t16-rank7-provider-composition/INPUT-PINS.json",
+    "research/t16-rank7-provider-composition/LOCAL-PINS.json",
+    "research/t16-rank7-provider-composition/MATERIALIZE.json",
+    "research/t16-rank7-provider-composition/DISPATCH-RULE.json",
+    "research/t16-rank7-provider-composition/SOURCE-ORIGINS.json",
+    "research/t16-rank7-provider-composition/CANONICAL-INPUTS.json",
+    "research/t16-rank7-provider-composition/PREDECESSOR-3457.json",
+    "research/t16-rank7-provider-composition/EXPECTED-PROFILE-PRICE.json",
+    "research/t16-rank7-provider-composition/source-inputs/research/community-k492-audit/pr622/replay/baseline558/complex-global/base/work/complex-nine-native/DATA-PHASES.json",
+    "research/t16-rank7-provider-composition/replay.py",
+    "research/t16-rank7-provider-composition/verify.py",
+    "research/t16-rank7-provider-composition/CREDITS.md",
+    "research/t16-rank7-provider-composition/coloring.py",
+    "research/t16-rank7-provider-composition/materialize.py",
+    "research/t16-rank7-provider-composition/reconstruct.py",
+    "research/t16-rank7-provider-composition/price_profile.py",
+    "research/t16-rank7-provider-composition/BOUNDED-DOMAIN.md",
+    "research/t16-rank7-provider-composition/test_materialize.py",
+    "research/t16-rank7-provider-composition/test_reconstruct.py",
+    "research/t16-rank7-provider-composition/PREDECESSOR-COLORING.py",
+    "research/t16-rank7-provider-composition/source-inputs/research/t16-owner-audit-seed67/verify.py",
+    "research/t16-rank7-provider-composition/source-inputs/research/frontier1094-idle-star-ceiling/analyze.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-rank7-provider-composition/replay.py",
+    "research/t16-rank7-provider-composition/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-rank7-provider-composition/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3465/cb0d97e21620__PROOF.md",
+      "sha256": "cb0d97e2162083ef6295de2d0ee123f3f844d1b2119d34438b5d6eeff1231dcc",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/52c8434c4b184dbbd3e080aff43b0a9714fe8bf1/research/t16-rank7-provider-composition/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-rank7-provider-composition/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/3465/7361db4644ba__EXPECTED.json",
+      "sha256": "7361db4644ba68583fbafb496c4ddac85d84b23a36196bf458c5a8cac0486235",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/52c8434c4b184dbbd3e080aff43b0a9714fe8bf1/research/t16-rank7-provider-composition/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-rank7-provider-composition/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/3465/6dcdc0e171c9__CERTIFICATE.json",
+      "sha256": "6dcdc0e171c9c15a330c57607368f85f59884eeb25e58c24d650403773c93ae8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/52c8434c4b184dbbd3e080aff43b0a9714fe8bf1/research/t16-rank7-provider-composition/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 44,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3465,
+      "head": "52c8434c4b184dbbd3e080aff43b0a9714fe8bf1",
+      "path": "research/t16-rank7-provider-composition/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/52c8434c4b184dbbd3e080aff43b0a9714fe8bf1/research/t16-rank7-provider-composition/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ab62b4fb6f58a89298fac01b75f8b4a7fda266298afb812f75982f2ba1451e6f",
+      "git_blob_sha1": "0853e28841df499b4e2214e62b4a9aad177fdedd",
+      "bytes": 5106,
+      "file": "individual-primary-interface-source/3465/ab62b4fb6f58__replay.py"
+    },
+    {
+      "pr": 3465,
+      "head": "52c8434c4b184dbbd3e080aff43b0a9714fe8bf1",
+      "path": "research/t16-rank7-provider-composition/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/52c8434c4b184dbbd3e080aff43b0a9714fe8bf1/research/t16-rank7-provider-composition/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1122cb3a575f8c788345fc1bf4c108ac7c3250fb81a5988671f5eb04b3ab3045",
+      "git_blob_sha1": "5fd676df060f3b450782fdf5ff5f6beb63a5eeb0",
+      "bytes": 85147,
+      "file": "individual-primary-interface-source/3465/1122cb3a575f__ASSEMBLY.json"
+    }
+  ]
+}

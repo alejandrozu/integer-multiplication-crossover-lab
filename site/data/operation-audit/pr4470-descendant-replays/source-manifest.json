@@ -1,0 +1,40 @@
+{
+  "commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "files": [
+    {
+      "path": "research/rank-convergence/compiler.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/compiler.py",
+      "sha256": "71e8fc45ee3a22f8197fdb023c538f1f55730e389c982b8cab3586ddc8217b5f"
+    },
+    {
+      "path": "research/rank-convergence/intervals.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/intervals.py",
+      "sha256": "91d079f43a082c3c23b76b8eb482066d0aeffe73de9fde0137ee033cf3b32250"
+    },
+    {
+      "path": "research/rank-convergence/BENCHMARKS.json",
+      "sha256": "513efe2fe74af82891c1918e462ba8338b1bbd06403cbfcec284bcf3b4f8f850",
+      "source": "frozen descendant bindings"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/RESULT.json",
+      "sha256": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+      "source": "frozen descendant bindings"
+    },
+    {
+      "path": "research/adaptive-witness-retune/verify.py",
+      "sha256": "5be12f8448d64c32419920b96b290ca2084cf8f7f51a82effb53c50fe03e3618",
+      "source": "frozen descendant bindings"
+    },
+    {
+      "path": "research/adaptive-witness-retune/WITNESS-p16.json",
+      "sha256": "4c8b392e3ea9f9c267249654d868718a0589c156df6f336121dfdd112229af53",
+      "source": "frozen descendant bindings"
+    },
+    {
+      "path": "research/adaptive-witness-retune/SOURCES.json",
+      "sha256": "84790116e228301d1131b8fdf74990a0a106ded484c44bc84abf98648e80e699",
+      "source": "frozen descendant bindings"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schema": "pr4470-global-gaussian-precision-certificate/1",
+  "status": "DERIVED_EXPLICIT_PRECISION_ENVELOPE_WITH_RETAINED_SOURCE_MODULE_CONTRACTS",
+  "formal_status": "AI-assisted written mathematical derivation plus exact rational checks; no independent human review, not Lean formalized and not an executable whole-integer circuit.",
+  "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "periodic_geometry_review_closed": true,
+  "periodic_geometry_review_scope": "AI-assisted skeptical review by the boundary and compiler agents: broad forward needs only nonwrapping interior inverses; narrow periodic inverses use strict row diagonal dominance; cyclic border is held until the final Schur solve. Not independent human review.",
+  "model": "xag-straightline-v1; nonuniform constants, wiring and precomputation free; all input-dependent fixed-point operations charged by the operation ledger.",
+  "geometric_ratio": "rho_shape=t/s=1+theta; distinct from the positive XOR/AND cost slider rho_cost.",
+  "parameters": {
+    "delta": "1/1400000000",
+    "epsilon": "1399999999/1400000000",
+    "beta": "1399999997/1400000000",
+    "theta": "1/(4p^2)<theta<=1/p^2",
+    "alpha": "ceil(sqrt((4/pi)*ln(16p)))",
+    "ell": "ceil(log2(p))",
+    "u": "ell+1",
+    "d": "floor(p^epsilon)",
+    "group_axes": "h<=floor(p^beta)",
+    "cap_length": "B<=p",
+    "coefficient_grid_fractional_bits": "q=32p"
+  },
+  "common_gate": {
+    "H": 64215200000000,
+    "N": "2^64215200000000",
+    "Mbar": "2^(33010*4^N)",
+    "assumed_log2_Mbar_minimum": 128,
+    "p0": "Mbar^1000000000000000",
+    "log2_p0": "33010000000000000000*4^N",
+    "axis_period_condition": "Every source/target axis period is at least p^256; physical period cuts remain phase-cell boundaries."
+  },
+  "spectral_bounds": {
+    "p_minimum_for_local_lemmas": 1048576,
+    "a_upper": "a=pi*alpha^2<=10ell",
+    "alpha_squared_upper": "alpha^2<=4ell",
+    "shifted_gamma_lower": "gamma>=1/(4ell)",
+    "shift_gap_lower": "1-2|s|>=1/(8p^2)",
+    "unrounded_accretivity_lower": "mu>=p^-24",
+    "unrounded_operator_norm_upper": "Lambda<=p",
+    "raw_kernel_radius": "J0=ceil(sqrt(256p*ell))",
+    "physical_augmented_bandwidth": "W=2J0+2<=36sqrt(p*ell)",
+    "strong_gamma_lower_for_raw_tail": "gamma>=1/(2ell) under fine rho<3/2",
+    "raw_kernel_tail_upper": "4exp(-64p)",
+    "rounded_accretivity_lower": "mu_hat>=p^-24/2",
+    "rounded_operator_norm_upper": "Lambda_hat<=2p",
+    "recursive_section_inverse_upper": "p^25",
+    "recursive_Schur_norm_upper": "p^30",
+    "recursive_shear_norm_upper": "p^55",
+    "primitive_gate_and_inverse_gate_entry_upper": "p^64; this does not bound reciprocals of arbitrarily tiny shear entries"
+  },
+  "physical_reference_matrix": {
+    "broad_contiguous_interior_section_inverse_upper": "p^19 before rounding, at mostp^20 after rounding",
+    "broad_required_section_scope": "Only nonwrapping contiguous selected-target interiors inside one physical phase cell. The broad operator uses F only as a matrix application; no broad F inverse or LU-prefix bound is needed.",
+    "narrow_strict_row_gap_after_rounding_lower": "1/(16p^2)",
+    "narrow_all_principal_section_inverse_upper": "16p^2<=p^3; applies to periodic principal sections too",
+    "unrounded_row_and_column_norm_upper": "5",
+    "rounded_Q_norm_upper": "p",
+    "required_eliminated_principal_section_inverse_upper": "p^32, for narrow all required sections and broad interior sections only",
+    "elimination_geometry": "Narrow: all principal sections by inherited strict row diagonal dominance. Broad: only nonwrapping dyadic interiors, W away from physical phase-cell/period boundaries.",
+    "reference_rounding_and_truncation_error_upper": "2^-60p in both induced 1 and infinity norm",
+    "offline_positive_weight_precision": "P_setup=512p+128p^2*(ell+1)",
+    "periodic_warning": "Period length alone does not make the row0/column(t-1) wrap entry small. Narrow periodic inverses use strict row dominance; broad applies the cyclic Schur matrix without inversion. The boundary solver explicitly retains the first/last W coordinates as a border until its final Schur solve."
+  },
+  "interior_circuit": {
+    "local_matching_depth_upper": "D<=1024*(ell+1)^4",
+    "Hadamard_calls_per_group_upper": "6D<=6144*(ell+1)^4",
+    "scalar_diagonal_stages_per_group_upper": "6D+1",
+    "coefficient_and_inverse_after_shear_replacement_upper": "p^144 per axis before the whole-factor p^-100 normalization",
+    "prefix_and_suffix_bits_per_group_upper": "A_group<=2^23*p^beta*(ell+1)^5",
+    "six_H_qualification": "For U(t), |t|<=p^64, split U(t)=U(t+c)U(-c), c=2p^64+1; both six-H denominators have magnitude at least p^64. Merge adjacent diagonal layers. Routing is fixed wiring in this model.",
+    "tensor_synchronization": "At most12 completed factors per axis can be synchronized into12 global tensor rounds by padding with identities. No additional factor d is multiplied after counting ceil(d/g) groups per round."
+  },
+  "deferred_normalization": {
+    "completed_factor_count_per_axis_upper": 12,
+    "normalization_bits_each_whole_factor": "ceil(100ell)",
+    "normalization_rule": "Scale the entire square factor including its identity block; active-block-only normalization changes the operator and is disallowed.",
+    "extra_and_original_gain_bits_per_DFT_upper": "Gamma_DFT<=2048*d*(ell+1)",
+    "three_transform_gain_bits_upper": "Gamma_total<=6144*d*(ell+1)",
+    "common_gate_consequence": "Gamma_total<p/256<p/64",
+    "restoration": "Defer all scalar gains to final integer recovery; the source original Gaussian gain 2^(2alpha^2) is included."
+  },
+  "working_width": {
+    "external_guard_bits": "A_ext=2^23*p^beta*(ell+1)^5+2048*(ell+1)+6144*p^epsilon*(ell+1)+2log2T",
+    "target_FFT_guard": "The raw unnormalized target FFT can grow by T. The extra2log2T covers its prefix/suffix growth and final1/T fractional positions. Round the completed normalized target FFT back to the q-grid, charging at most10w per coordinate; this is included in the FFT twiddle/rounding count row.",
+    "semantic_native_guard_bits": "Delta=C0*d<=Mbar^8*p^epsilon",
+    "common_gate_external_bound": "A_ext<7p/256<p/16, using log2T<=p/128",
+    "common_gate_native_bound": "Delta<p/256",
+    "stored_signed_component_width": "w=q+2A_ext+2Delta+3<=33p",
+    "coefficient_word_width": "A q-fractional-bit complex coefficient also needs its sign and integer-range bits; use at most w.",
+    "product_temporary_warning": "Full scalar product temporaries need up to 2w+O(1) bits (at most 66p+O(1)); their full width must be passed to the HvH product helper. The 33p bound is not a claim about raw multiplication temporaries.",
+    "exact_native_interface": "The supplier's all-size C0*d guard covers child recursion and direct reserved-axis completion. Native C/H calls are exact on the dyadic grid, with no numerical rounding inside them."
+  },
+  "rounding_envelope": {
+    "boundary_contract": "At F>=1024ell, each completed solve has absolute error<=p^1024*(1+X)*2^-F and every data temporary is bounded by p^512*(1+X). This includes an explicitly held cyclic border.",
+    "logical_round_count_upper": "At most100*p^2, hence at most p^3 at the common gate, after identity padding and grouping. A complete banded solve counts as one error module because its local-residual proof already covers its full loop; this is not a bound on the number of individual scalar operations.",
+    "each_transform_error_upper": "e=p^1030*T^2*2^(4A_ext-32p)",
+    "variable_pointwise_product_error": "For |z|,|v|<=1 and each error<=e<=1/8, product error<=2e+e^2+8*2^-q<=4e; completed inverse adds at most2e, hence total<=6e. Four full real variable products and additions/rounding are separately charged.",
+    "three_transform_and_variable_product_unrestored_error_upper": "p^1040*T^2*2^(4A_ext-32p)",
+    "dimension_condition": "log2 T<=p/128",
+    "common_gate_error_upper": "2^-16p",
+    "integer_recovery_scale": "K=S^2*2^(2b+4+Gamma_total), p=256b, log2S<=b+5",
+    "recovery_scale_log2_upper": "log2K<p/32 for the common gate",
+    "consequence": "The final recovered coefficient error is less than 2^-15p, hence less than1/4, subject to the stated encoding, pointwise-product and source factorization contracts."
+  },
+  "retained_interfaces": [
+    "Source all-column native dyadic C/H identities and owned-storage discipline",
+    "Exact Gaussian resampling identity and selected fine-prime encoding, with declared axis-period/domain conditions",
+    "The source shallow Toeplitz displacement compiler identities; their explicit numeric depth is rederived in the companion outer census",
+    "The companion boundary-recovery p^1024 rounding and p^512 temporary bounds under the proved physical Q assumptions",
+    "The all-size occupied-batching supplier's C0*d semantic guard",
+    "The complete outer integer encoding/pointwise product/carry ledger, owned by the whole-integer assembly audit"
+  ],
+  "not_claimed": [
+    "Independent removal of the community's native hypotheses",
+    "A Lean theorem",
+    "A measured hardware precision or runtime",
+    "A complete whole-integer crossover merely from this precision certificate"
+  ],
+  "exact_gate_ratio_exponents": {
+    "body_ratio_M_exponent": "-14999965/7",
+    "polynomial_guard_ratio_M_exponent": "-999999999999999",
+    "deferred_gain_ratio_M_exponent": "-4999993/7",
+    "native_semantic_guard_ratio_M_exponent": "-4999944/7",
+    "tail_weight_ratio_M_exponent": "-999999999999997/2"
+  },
+  "arithmetic_checks": {
+    "pi_squared_less_than_10": true,
+    "broad_gamma_lower_from_alpha_squared": true,
+    "fine_rho_less_than_three_halves": true,
+    "strong_gamma_for_raw_tail": true,
+    "raw_band_tail_exponent": true,
+    "exp_symbol_bound_21": true,
+    "broad_ldu_exp_bound_11": true,
+    "narrow_ldu_exp_bound_8": true,
+    "kernel_eigenvalue_exponent": true,
+    "word_gate_inverse_exponent": true,
+    "six_H_local_layer_bound": true,
+    "body_prefix_constant": true,
+    "phase_and_local_body_absorption": true,
+    "boundary_fraction_guard_exponent": true,
+    "u_at_gate_le_M": true,
+    "all_log_power_ratios_decrease": true,
+    "body_le_p_over_256": true,
+    "polynomial_guard_le_p_over_256": true,
+    "deferred_gain_le_p_over_256": true,
+    "semantic_guard_le_p_over_256": true,
+    "band_weight_amplification_le_p_over_16": true,
+    "boundary_1040ell_le_p_over_16": true,
+    "local_round_count_6145u4_le_p": true,
+    "physical_bandwidth_W_le_p": true,
+    "fractional_grid_32p_ge_1024ell": true,
+    "A_le_p_over_16_including_target_FFT": true,
+    "word_width_le_33p_for_p_ge_2pow20": true,
+    "rounding_error_le_2pow_minus16p": true,
+    "recovery_gain_budget": true,
+    "gamma_three_calls": true,
+    "synchronized_whole_factor_rounds": true,
+    "source_hash_30c0a9ab92a6__FINE-PADDING-COMPOSITION.md": true,
+    "source_hash_bdd5b7310a3d__GAUGEFREE-INTERIORS.md": true,
+    "source_hash_dfa63ba5b246__UNION-SCHEDULE.md": true,
+    "source_hash_5e6881bdf257__TENSOR-COMPILER.md": true,
+    "source_hash_3ac9d7149f68__SHALLOW-TOEPLITZ.md": true,
+    "source_hash_b71933e0d865__SUPPLIER-SUPPORT-AUDIT.md": true,
+    "source_hash_97730a375a7f__SUPPORT-ADVERSARIAL-AUDIT.md": true,
+    "source_hash_adfa38201db0__phase_fusion_note.tex": true,
+    "source_hash_642d8c558d88__CAPPED-INTERIORS.md": true,
+    "source_hash_17a5686a3920__LOG-A-PHASE-SCHUR-AUDIT.md": true,
+    "source_hash_090dcbbe2875__HALO-THEOREM.md": true,
+    "source_hash_e4a744452db6__FORWARD-SMALL-A-AUDIT.md": true,
+    "source_hash_8d17a516e9ea__BILATERAL-LDU.md": true,
+    "source_hash_3d91e58a3733__outer_parameters.py": true,
+    "source_hash_b7a640149c6d__OUTER-PARAMETERS.json": true,
+    "source_hash_71bd3aa03fa7__FINE-PRIME-PADDING.md": true
+  },
+  "sources": [
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+      "sha256": "d20d8e5f84a9e33cc9996f875be06c24c74ea53874cc76564953785ff29c5c6c"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+      "sha256": "ebeb7fa53dca671e45b3a3dedf4603607d19461bbeb977445bf5e17bbdb25db8"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+      "sha256": "bc8e9cf7c178bb39b092ab5aafc4eeb523e72b1f69639bfcb9f27d0f74109357"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+      "sha256": "b384b93f3fb4a8c97da2e617ebc14d55cebb0a739070e7f8dbb66f63e24e9310"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+      "sha256": "bd5b06eca043c5c871227264f6a954473c55cd16ec85bb420ff538fb8ec1d8d6"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPORT-ADVERSARIAL-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPORT-ADVERSARIAL-AUDIT.md",
+      "sha256": "b1290f8720bf075ea2ad58d6070f3e1fc95c0155f8e33b165bc13439bbb9222d"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+      "sha256": "b5957f38c98a68f2584a42cedf91d753180dab438129fdf749b441074f00d4e1"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/CAPPED-INTERIORS.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/CAPPED-INTERIORS.md",
+      "sha256": "983c5cab2d2398f2192a8aec07daecb655f2de136e12a37f75672a14d27172ba"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+      "sha256": "e05d6b8596c80b6e8676569a0ff464a29fa704c3304143f58914f47cdf38b272"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+      "sha256": "e37aaa30b15671a1dff00676b14572213efaaac99df202dbba5e09f57af487c0"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/BILATERAL-LDU.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/BILATERAL-LDU.md",
+      "sha256": "0d65e66d227464dda1a19f781ae0a0be671cbfd347c41e37ec954f3d629d8a77"
+    },
+    {
+      "path": "research/kappa-rebuild/controller/outer_parameters.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/controller/outer_parameters.py",
+      "sha256": "af26f4ffd17733efb7ce721937f12b906970f0aac61f2e38d0953ef7a9e7364f"
+    },
+    {
+      "path": "research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+      "sha256": "15818c10c41ac2ea650e503de830795f6c88830a7f9be9553dd938bb1d76717a"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce"
+    }
+  ]
+}

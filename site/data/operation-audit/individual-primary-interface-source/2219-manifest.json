@@ -1,0 +1,71 @@
+{
+  "pr": 2219,
+  "own_head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+  "primary_path_candidates": [
+    "research/p104-private-descent-reuse-seed915fa969/NATIVE-RESULT.json",
+    "research/p104-private-descent-reuse-seed915fa969/README.md",
+    "research/p104-private-descent-reuse-seed915fa969/TASK.json",
+    "research/p104-private-descent-reuse-seed915fa969/COST-RESULT.json",
+    "research/p104-private-descent-reuse-seed915fa969/FANOUT-RESULT.json",
+    "research/p104-private-descent-reuse-seed915fa969/price_reuse.py",
+    "research/p104-private-descent-reuse-seed915fa969/verify_native.py"
+  ],
+  "selected_for_recovery": [
+    "research/p104-private-descent-reuse-seed915fa969/TASK.json",
+    "research/p104-private-descent-reuse-seed915fa969/price_reuse.py",
+    "research/p104-private-descent-reuse-seed915fa969/COST-RESULT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p104-private-descent-reuse-seed915fa969/README.md",
+      "file": "remaining-record-audit/artifacts/2219/0cdaee8bf0b9__README.md",
+      "sha256": "0cdaee8bf0b9444d5281f1ae13f979face291b9a0c6bf62baf27e7ac20fd77bd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p104-private-descent-reuse-seed915fa969/NATIVE-RESULT.json",
+      "file": "remaining-record-audit/artifacts/2219/688e694aac54__NATIVE-RESULT.json",
+      "sha256": "688e694aac5412d5c9c0b0ed9ed63c956a8407ddfaa9c0322a233a89d8046049",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/NATIVE-RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2219,
+      "head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+      "path": "research/p104-private-descent-reuse-seed915fa969/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7ac1afefd04f780de4f359b513d44c1788736f9b09e8afc61767b252a0824d0e",
+      "git_blob_sha1": "54d2ced1e3ee351c2d9b648ce4f86322e41dcd5c",
+      "bytes": 7205,
+      "file": "individual-primary-interface-source/2219/7ac1afefd04f__TASK.json"
+    },
+    {
+      "pr": 2219,
+      "head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+      "path": "research/p104-private-descent-reuse-seed915fa969/price_reuse.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/price_reuse.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "186bffc169a04f478e7569369bda16a81d19377fde14dd512f4e45e5647403a7",
+      "git_blob_sha1": "cd894fe2a44c018939dcfa4a15110068bc469356",
+      "bytes": 4622,
+      "file": "individual-primary-interface-source/2219/186bffc169a0__price_reuse.py"
+    },
+    {
+      "pr": 2219,
+      "head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+      "path": "research/p104-private-descent-reuse-seed915fa969/COST-RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/COST-RESULT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0ba38e6549418f9930eb61e0d66a2b4e41225f5b1b6a697141550173c7b56f3f",
+      "git_blob_sha1": "46aa9b41f4d83bf451e8f59f02181b4bfa89e331",
+      "bytes": 3381,
+      "file": "individual-primary-interface-source/2219/0ba38e654941__COST-RESULT.json"
+    }
+  ]
+}

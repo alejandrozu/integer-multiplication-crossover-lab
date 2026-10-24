@@ -1,0 +1,193 @@
+{
+  "schema": "pr4470-boundary-recovery-v1",
+  "status": "derived_parameterized_modules_not_whole_multiplier_certificate",
+  "cyclic_border_solver_closed": true,
+  "source_pin": "7c472563474e60185e6ca101a17622133d047e56",
+  "arithmetic_model": "xag-straightline-v1; AND=1, XOR=rho>0; fixed wiring/constants free",
+  "selected_parameters": {
+    "kappa": "0.00302015",
+    "delta": "1/1400000000",
+    "epsilon": "1-delta",
+    "beta": "1-3delta",
+    "matrix_algorithm": "concrete canonical Strassen",
+    "tau": "45/16",
+    "c": "3/32",
+    "parameter_authority": "pr4470-input-mapping-source/research__joint-helper-lattice__RESULT.json",
+    "parameter_authority_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+    "parameter_authority_sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+  },
+  "boundaries": {
+    "symbols": "t axis length; H holes; C<=H+1 phase runs; B dyadic cap; W physical halfbandwidth; m RHS fibers",
+    "carving_interior_count": "I<=floor(t/B)+(H+1)(log2B+2)",
+    "boundary_size": "J<=min(t,H+W[floor(t/B)+(H+1)(log2B+6)])",
+    "active_size": "E<=min(t,H+W[3floor(t/B)+(H+1)(3log2B+10)])",
+    "block_side": "q=2^ceil(log2(2W)); 2W<=q<4W",
+    "periodic_border": "hold the first and last W physical coordinates (at most q in total) until last in the narrow inverse",
+    "matrix_products_forward_plus_compression": "ceil(m/q)[12(ceil(J/q)+1)+20ceil(E/q)] if E>0, else zero",
+    "matrix_additions_forward_plus_compression": "ceil(m/q)[10(ceil(J/q)+1)+20ceil(E/q)] if E>0, else zero",
+    "strassen_complex_scalar_products": "7^log2q",
+    "strassen_complex_scalar_additions": "6(7^log2q-q^2)",
+    "per_gate_cost_per_matrix_product": "7^log2q[4C_HvH w max(1,log2w)+100w]+96w(7^log2q-q^2)",
+    "per_axis_simplified": "2^26 R(ell+2)^2 p^(29/32-xi)[4C_HvH w log2w+212w]",
+    "per_axis_if_w_le_256p": "2^39 C_HvH R p^(61/32-xi)(ell+2)^3",
+    "simplification_conditions": [
+      "p>=2^20",
+      "ell=ceil(log2p)",
+      "W=2ceil(sqrt(256p ell))+2",
+      "B dyadic with p^xi/2<=B<=p^xi and 2W<=B<=p^2",
+      "t>=p^4",
+      "m>=q",
+      "fine-prime theta<=p^-2"
+    ]
+  },
+  "numeric_precision_module": {
+    "premises": [
+      "||Q||_infinity<=p for both broad and narrow reference maps",
+      "broad: every nonwrapping contiguous interior A block inverse norm<=p^32; no full periodic broad inverse is required",
+      "narrow: all periodic/principal sections inherit rowgap>=1/(16p^2), giving inverse norm<=16p^2<=p^32",
+      "p>=2^20",
+      "banded block structure as in source five-factor identity"
+    ],
+    "schur_norm": "p^35",
+    "pivot_inverse_norm": "p^32",
+    "triangular_L_and_inverse_norm": "p^68",
+    "triangular_U_inverse_norm": "p^100",
+    "local_complex_block_product_error": "p^90(1+X)2^-F",
+    "complete_noncyclic_solve_error": "p^512(1+X)2^-F",
+    "complete_boundary_solve_error": "p^1024(1+X)2^-F, including the held periodic border",
+    "complete_boundary_solve_error_including_periodic_border": "p^1024(1+X)2^-F",
+    "working_magnitude_bound": "p^512(1+X)",
+    "condition": "F>=1024ell; fixed coefficient entries and each rounded real result have absolute error<=2^-F",
+    "interpretation": "broad requires only nonwrapping interior inverses; all cyclic/prefix solves are narrow and follow row dominance"
+  },
+  "normalization": {
+    "completed_factors_forward": 5,
+    "completed_factors_compression": 6,
+    "safe_completed_factors_per_axis": 12,
+    "each_whole_factor_normalizer": "2^-ceil(100log2p)",
+    "additional_exact_dyadic_shift": "Gamma_extra<=1200d ceil(log2p)",
+    "scope": "one completed source FFT; integer cyclic convolution uses three source FFTs",
+    "if_all_three_shifts_postponed": "Gamma_extra_total<=3600d ell",
+    "warning": "normalizer applies to the ENTIRE square map, including identity banks; scalar is restored in final recovery"
+  },
+  "halos": {
+    "core": "L=2^ceil(128log2p)",
+    "halo": "A=ceil(p^48)",
+    "copied_input_volume": "M=3R[(1+2A/L)^h-1]",
+    "simple_volume_upper": "M<=12RhA/L if4hA<=L",
+    "successive_one_axis_complex_products": "(2W+1)hM",
+    "successive_one_axis_complex_additions": "2WhM",
+    "per_group_per_gate_upper": "36R h^2 A W/L [4C_HvH wlog2w+212w]",
+    "all_groups_if_w_le_256p": "2^19 C_HvH R d g p^-78 ell, with h<=g and sum_group h=d",
+    "locality_scope": "narrow inverse uses rowgap>=1/(16p^2), norm<2; broad forward uses original truncated band",
+    "warning": "p^48 locality is not inferred from the larger worst-case broad inverse norm"
+  },
+  "integer_pipeline_multiplicity": {
+    "source_ffts": 3,
+    "boundary_and_halo_rows": "multiply the one-source-FFT bounds by three",
+    "inherited_scalar_if_old_identity_retained": "perFFT (2alpha^2+1)d<=17dell; allthree<=51dell",
+    "safe_total_gamma_if_old_identity_retained_and_all_scales_deferred": "Gamma<=4000dell",
+    "scope": "the inherited-scalar identity is an upstream analytic obligation, not proved by this module"
+  },
+  "outer_recovery": {
+    "status": "exact module for parent proposed explicit cyclic-FFT instantiation; not original-source pipeline identity proof",
+    "symbols": "radix=2^b; L=ceil(n/b); source lengthS>=2L; additional dyadic shiftGamma>=0; M=2L-1",
+    "required_analytic_output": "z_j=c_j/[S^2*2^(2b+4+Gamma)] + error",
+    "sufficient_total_error": "|error|<1/[2S^2*2^(2b+4+Gamma)]",
+    "split_error_budget": "analytic error<=1/(8K), output quantization<=1/(8K), K=S^2*2^(2b+4+Gamma)",
+    "fractional_grid_sufficient": "F>=2ceil(log2S)+2b+Gamma+8",
+    "recovery_word_sufficient": "w>=max(F+1,v+1,2ceil(log2S)+1); helper produces a full 2w-bit product",
+    "recovery": "multiply dyadic numerator exactly by integerS^2, fixed dyadic shift, add half and arithmetic-shift to nearest integer",
+    "coefficient_width": "v=2b+ceil(log2L)",
+    "carry_sweep": "2L additions of v-bit nonnegative words; output each low b bits and shift carry by b",
+    "per_gate_upper": "M[U_HvH(w)+12w]+6Lv for w bounding signed fixed-point numerator and integerS^2",
+    "and_upper_refinement": "M[U_HvH_AND(w)+12w]+4Lv",
+    "xor_upper_refinement": "M[U_HvH_XOR(w)+12w]+6Lv",
+    "unknown_upstream": "actual selected-source Gaussian resampling identity and achieved normalized error must be supplied; module alone does not establish it"
+  },
+  "checks": {
+    "carvings": 8192,
+    "halo_geometries": 448,
+    "exact_recoveries": 1728,
+    "strassen_counts": 11,
+    "bandwidth_bounds": 281,
+    "cyclic_border_systems": 24,
+    "cyclic_block_rows": 13520,
+    "source_hashes": 12
+  },
+  "sources": [
+    {
+      "path": "research/kappa-rebuild/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/README.md",
+      "sha256": "129737e291600cbde9f4c2a6f0875ac314f0a11dabbda8ff1ed63353f105f632",
+      "file": "src-d53106c00a-README.md"
+    },
+    {
+      "path": "research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+      "sha256": "15818c10c41ac2ea650e503de830795f6c88830a7f9be9553dd938bb1d76717a",
+      "file": "src-b7a640149c-OUTER-PARAMETERS.json"
+    },
+    {
+      "path": "research/kappa-rebuild/transfer-audit/outer_transfer_audit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/outer_transfer_audit.py",
+      "sha256": "30f14389942464c987024c4c4821f07409258cc9dd2cbfb5fda93248ae51bafc",
+      "file": "src-72e69ba4ec-outer_transfer_audit.py"
+    },
+    {
+      "path": "research/capped-fusion-t74-k554/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-fusion-t74-k554/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+      "file": "src-8578018fb4-FINE-PRIME-PADDING.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/README.md",
+      "sha256": "b794473b965406360e7732f0e86b66fbcf8e91bc16632330ada8e1150f2ddb62",
+      "file": "src-50841269ab-README.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+      "sha256": "d20d8e5f84a9e33cc9996f875be06c24c74ea53874cc76564953785ff29c5c6c",
+      "file": "src-30c0a9ab92-FINE-PADDING-COMPOSITION.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+      "sha256": "ebeb7fa53dca671e45b3a3dedf4603607d19461bbeb977445bf5e17bbdb25db8",
+      "file": "src-bdd5b7310a-GAUGEFREE-INTERIORS.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+      "sha256": "bc8e9cf7c178bb39b092ab5aafc4eeb523e72b1f69639bfcb9f27d0f74109357",
+      "file": "src-dfa63ba5b2-UNION-SCHEDULE.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+      "sha256": "b5957f38c98a68f2584a42cedf91d753180dab438129fdf749b441074f00d4e1",
+      "file": "src-adfa38201d-phase_fusion_note.tex"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058",
+      "file": "src-090dcbbe28-HALO-THEOREM.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "sha256": "54aafc7afd09fe1a5312e69fad09c87422690543ab75c6ae35f6cbcc26b3eb8a",
+      "file": "src-0a305d8e55-PHASE-LAYOUT-AUDIT.md"
+    },
+    {
+      "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+      "file": "src-71bd3aa03f-FINE-PRIME-PADDING.md"
+    }
+  ],
+  "script_sha256": "322d76b3b345f79711fcc87a07394a6c2fa1fc73dd265abf095ba825febd72cf"
+}

@@ -1,0 +1,65 @@
+{
+  "pr": 1272,
+  "own_head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+  "primary_path_candidates": [
+    "docs/research/agent-task-catalog.json",
+    "autoresearch.md",
+    "docs/research/bottleneck-brief.md",
+    "docs/research/research-priority-log.md"
+  ],
+  "selected_for_recovery": [
+    "autoresearch.md",
+    "docs/research/agent-task-catalog.json",
+    "docs/research/bottleneck-brief.md",
+    "docs/research/research-priority-log.md"
+  ],
+  "already_authenticated": [],
+  "github_changed_file_reported_count": 4,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1272,
+      "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+      "path": "autoresearch.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5/autoresearch.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "eb64c790736a45b30c8b9ff21570c107945edb0d3c6a91340ed102e0be8821de",
+      "git_blob_sha1": "83595495fa9af76f0e7c5146cb2f8bab9a06fde2",
+      "bytes": 22007,
+      "file": "individual-primary-interface-source/1272/eb64c790736a__autoresearch.md"
+    },
+    {
+      "pr": 1272,
+      "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+      "path": "docs/research/agent-task-catalog.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5/docs/research/agent-task-catalog.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b4965eaba095caa1f502f3b14e9b6ecc3c1aff59dcdb5eed9fbc3ff2005643bb",
+      "git_blob_sha1": "c52c0c25de3f37b07ed712d16517917a379951d5",
+      "bytes": 36545,
+      "file": "individual-primary-interface-source/1272/b4965eaba095__agent-task-catalog.json"
+    },
+    {
+      "pr": 1272,
+      "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+      "path": "docs/research/bottleneck-brief.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5/docs/research/bottleneck-brief.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5aee08908bd4ff369b04ada70e8c68b635cb74ae5c9e21052dcbf49db0133390",
+      "git_blob_sha1": "7193ccd9562c7716ffa34b79cc64bd8311a9a7db",
+      "bytes": 3898,
+      "file": "individual-primary-interface-source/1272/5aee08908bd4__bottleneck-brief.md"
+    },
+    {
+      "pr": 1272,
+      "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+      "path": "docs/research/research-priority-log.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5/docs/research/research-priority-log.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "87a7106e48c440fcb31a94418194807e6bc72413d9a3dc406d0a23eedade9513",
+      "git_blob_sha1": "0dfd54803744e16192a1c47a7721f6edd2cb91f4",
+      "bytes": 11052,
+      "file": "individual-primary-interface-source/1272/87a7106e48c4__research-priority-log.md"
+    }
+  ]
+}

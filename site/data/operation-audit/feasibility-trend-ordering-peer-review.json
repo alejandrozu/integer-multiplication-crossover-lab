@@ -1,0 +1,55 @@
+{
+  "schema": "feasibility-trend-ordering-peer-review/1",
+  "status": "PASS_CONDITIONAL_MATHEMATICAL_AND_EXACT_MODEL_REVIEW",
+  "reviewed_at_utc": "2026-10-24T10:46:09.450930+00:00",
+  "reviewer": "historical_audit, separate collaborating AI agent; not human review or Lean certification",
+  "reviewed_sha256": {
+    "feasibility-trend-ordering.md": "00fc9ac69ea9e6e250e3035398bbe7f622a406dbc0a51b30b6fb6294ef8aa2f0",
+    "literal-feasibility-refinement-v5.json": "b896b3b84db83072936aa51c5481a3cfe23a8a597177e17d821ae94f2850a53e",
+    "../site/dist/feasibility-history-model.js": "fe4bf89649e05a8a1fe0e5a9ddab2906e4fc3ffd7d8c8ca2330f11b12e85de83",
+    "../site/dist/feasibility-refinement-model.js": "d498a8d7aa4b95c3dead6ec91b5bc40d501ced5918a9e7bdd26fbaf313900fc5"
+  },
+  "checks_passed": 7,
+  "checks": {
+    "exact_separated_pairs": true,
+    "4416_4483_positive_H_gap": true,
+    "4416_4483_strictly_later_merge": true,
+    "4416_4533_positive_H_gap": true,
+    "4416_4533_strictly_later_merge": true,
+    "all_source_uppers_present": true,
+    "all_source_lowers_present": true
+  },
+  "source_bound_separated_pairs": [
+    [
+      4416,
+      4483
+    ],
+    [
+      4416,
+      4533
+    ]
+  ],
+  "date_best_sufficient_upper_envelope_PRs": [
+    4359,
+    4483,
+    4533
+  ],
+  "kappa_best_sufficient_upper_envelope_PRs": [
+    4359,
+    4533
+  ],
+  "fresh_test_command": "node test_feasibility_history.cjs",
+  "fresh_test_result": "PASS with595 merged entries,13 source lowers,12 conditional uppers; exact fractions, merges, tie rejection and unknowns checked. This test also uses the deployment history and its source inventory; the receipt hash checks alone are not a rerun of that entire metadata join.",
+  "resolved_findings": [
+    "V5 validator now pins each own source Klog, precision guard and upper certificate before recomputing E and P.",
+    "Current-title post-snapshot quotes are labelled separately from accepted-at-merge claims; frozen inventory counts are retained."
+  ],
+  "findings": [
+    "For H>73 and q>=0, P<=H-4 strictly implies 2^P<2^(H-3)-2^69+q. Thus U_later<L_earlier is exact and does not depend on floating point.",
+    "Strictly later canonical GitHub merge timestamps are required for temporal ordering; equal merge times are excluded.",
+    "The envelope minimizes exact integer P values; equal kappa fractions are grouped exactly. A falling envelope alone is not asserted to order actual family first crossings.",
+    "Actual own-source Klog/guard tables and fixed-height/native-count checks agree with all13 audited rows."
+  ],
+  "scope": "Comparisons of the earliest attainable strict win in declared unreduced literal-core/identical-GMP-inactive families, conditional on each source native/analytic/recovery and fixed comparator contracts. Not universal PR algorithms, actual implementation first crossings, records known at merge, or hardware timings.",
+  "no_scientific_certificate_mutated": true
+}

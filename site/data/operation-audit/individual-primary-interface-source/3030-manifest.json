@@ -1,0 +1,99 @@
+{
+  "pr": 3030,
+  "own_head": "78e77d820393c6b8648b47af219e991edfcc54e6",
+  "primary_path_candidates": [
+    "research/rank7-t740-release/README.md",
+    "research/rank7-t740-release/TASK.json",
+    "research/rank7-t740-release/VENDOR.json",
+    "research/rank7-t740-release/VERIFY.json",
+    "research/rank7-t740-release/GIT-SOURCES.json",
+    "research/rank7-t740-release/evidence/FINITE.json",
+    "research/rank7-t740-release/evidence/RECIPE.json",
+    "research/rank7-t740-release/evidence/STAGES.json",
+    "research/rank7-t740-release/evidence/BINDINGS.json",
+    "research/rank7-t740-release/evidence/ENVIRONMENT.json",
+    "research/rank7-t740-release/evidence/OUTER-CLAIM.json",
+    "research/rank7-t740-release/evidence/MATERIALIZED.json",
+    "research/rank7-t740-release/evidence/OWNERS-RESULT.json",
+    "research/rank7-t740-release/evidence/NATIVE-RECEIPT.json",
+    "research/rank7-t740-release/evidence/DISCOVERY-AUDIT.json",
+    "research/rank7-t740-release/evidence/INVOICE-PAYLOAD.json",
+    "research/rank7-t740-release/evidence/RELEASE-RECEIPT.json",
+    "research/rank7-t740-release/evidence/ADMISSION-RESULT.json",
+    "research/rank7-t740-release/evidence/ADMISSION-STAGES.json",
+    "research/rank7-t740-release/evidence/DISCOVERY-RESULT.json",
+    "research/rank7-t740-release/evidence/DISCOVERY-STAGES.json",
+    "research/rank7-t740-release/evidence/ADAPTER-DERIVATION.json",
+    "research/rank7-t740-release/evidence/COMPOSITION-RESULT.json",
+    "research/rank7-t740-release/evidence/NATIVE-ENVIRONMENT.json",
+    "research/rank7-t740-release/verify.py",
+    "research/rank7-t740-release/reproduce.py",
+    "research/rank7-t740-release/ENGINEERING.md",
+    "research/rank7-t740-release/materialize.py",
+    "research/rank7-t740-release/test_verify.py",
+    "research/rank7-t740-release/verify_release.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-t740-release/README.md",
+    "research/rank7-t740-release/TASK.json",
+    "research/rank7-t740-release/VENDOR.json",
+    "research/rank7-t740-release/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-t740-release/verify.py",
+      "file": "remaining-record-audit/artifacts/3030/6cbbcf1aa90f__verify.py",
+      "sha256": "6cbbcf1aa90f22baeb1b71cb3ad387c58755d80090e2aef5a748f84365320916",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78e77d820393c6b8648b47af219e991edfcc54e6/research/rank7-t740-release/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 70,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3030,
+      "head": "78e77d820393c6b8648b47af219e991edfcc54e6",
+      "path": "research/rank7-t740-release/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78e77d820393c6b8648b47af219e991edfcc54e6/research/rank7-t740-release/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7fa460b1b63ab60cd430a1dfd44a4703c5153a077e31af7bd258d60f381bc338",
+      "git_blob_sha1": "458c85908505c1531166510b4cae4b9245605eea",
+      "bytes": 9855,
+      "file": "individual-primary-interface-source/3030/7fa460b1b63a__README.md"
+    },
+    {
+      "pr": 3030,
+      "head": "78e77d820393c6b8648b47af219e991edfcc54e6",
+      "path": "research/rank7-t740-release/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78e77d820393c6b8648b47af219e991edfcc54e6/research/rank7-t740-release/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d4287d1512908ceb87b5eb5920ef4f93d7b39e1f04e7d4872c8d43245f40cfdf",
+      "git_blob_sha1": "b2005d587f3cbef4603850af158d59d01b40963b",
+      "bytes": 7986,
+      "file": "individual-primary-interface-source/3030/d4287d151290__TASK.json"
+    },
+    {
+      "pr": 3030,
+      "head": "78e77d820393c6b8648b47af219e991edfcc54e6",
+      "path": "research/rank7-t740-release/VENDOR.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78e77d820393c6b8648b47af219e991edfcc54e6/research/rank7-t740-release/VENDOR.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a75ab6e08a4901b8ea1060d38fbeef9e3670cb3ffe9515ed449cbf313572f181",
+      "git_blob_sha1": "65bf1d7f9344ef9710716071d6845c0be39a9154",
+      "bytes": 5369,
+      "file": "individual-primary-interface-source/3030/a75ab6e08a49__VENDOR.json"
+    },
+    {
+      "pr": 3030,
+      "head": "78e77d820393c6b8648b47af219e991edfcc54e6",
+      "path": "research/rank7-t740-release/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78e77d820393c6b8648b47af219e991edfcc54e6/research/rank7-t740-release/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c7a94bcfa7b8af930c85227aa41824d9cdca012e555d9c971fdb994b6419a2de",
+      "git_blob_sha1": "2558ffdd17340b3d390d3a66c10d728eb3129cca",
+      "bytes": 2167,
+      "file": "individual-primary-interface-source/3030/c7a94bcfa7b8__VERIFY.json"
+    }
+  ]
+}

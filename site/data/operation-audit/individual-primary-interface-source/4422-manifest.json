@@ -1,0 +1,56 @@
+{
+  "pr": 4422,
+  "own_head": "6977b9f52c8632d066b0d649f2a6280c5a96185e",
+  "primary_path_candidates": [
+    "research/pr4412-pr4414-moment-check/README.md",
+    "research/pr4412-pr4414-moment-check/TASK.json",
+    "research/pr4412-pr4414-moment-check/VERIFY.json",
+    "research/pr4412-pr4414-moment-check/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4412-pr4414-moment-check/TASK.json",
+    "research/pr4412-pr4414-moment-check/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4412-pr4414-moment-check/README.md",
+      "file": "remaining-record-audit/artifacts/4422/327ac52b11e7__README.md",
+      "sha256": "327ac52b11e7f058baf0f8df55a8a5d97183c6fcf07526c27cae66893f220299",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6977b9f52c8632d066b0d649f2a6280c5a96185e/research/pr4412-pr4414-moment-check/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4412-pr4414-moment-check/verify.py",
+      "file": "remaining-record-audit/artifacts/4422/92d58eaf2b5a__verify.py",
+      "sha256": "92d58eaf2b5aeac2feee9f2338e7c33b8196ec5714e29536ce1247e6269dc5b1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6977b9f52c8632d066b0d649f2a6280c5a96185e/research/pr4412-pr4414-moment-check/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4422,
+      "head": "6977b9f52c8632d066b0d649f2a6280c5a96185e",
+      "path": "research/pr4412-pr4414-moment-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6977b9f52c8632d066b0d649f2a6280c5a96185e/research/pr4412-pr4414-moment-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5e007fef302ca20aad334fd9269b8e115cb3f2c2d6bc170c124fe1b84caa87eb",
+      "git_blob_sha1": "4a6309e7b327ff56b51675406dd2b97eb135334e",
+      "bytes": 6293,
+      "file": "individual-primary-interface-source/4422/5e007fef302c__TASK.json"
+    },
+    {
+      "pr": 4422,
+      "head": "6977b9f52c8632d066b0d649f2a6280c5a96185e",
+      "path": "research/pr4412-pr4414-moment-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6977b9f52c8632d066b0d649f2a6280c5a96185e/research/pr4412-pr4414-moment-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4d075e70c4d8242852b7539f9db2687d228914b465212bdb45434379d22d0494",
+      "git_blob_sha1": "f1b97919d816a44a1ca14b9e37506e80662a6cd2",
+      "bytes": 563,
+      "file": "individual-primary-interface-source/4422/4d075e70c4d8__VERIFY.json"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "pr": 2827,
+  "own_head": "4dc1286a476874447f76826885c6af99409a1d46",
+  "primary_path_candidates": [
+    "research/superior-replica-kappa/CLAIM.json",
+    "research/superior-replica-kappa/PROOF.md",
+    "research/superior-replica-kappa/README.md",
+    "research/superior-replica-kappa/TASK.json",
+    "research/superior-replica-kappa/VERIFY.json",
+    "research/superior-replica-kappa/MODULES.json",
+    "research/superior-replica-kappa/PORTING.json",
+    "research/superior-replica-kappa/data/ORDER.json",
+    "research/superior-replica-kappa/data/PROFILE.json",
+    "research/superior-replica-kappa/data/DISPATCH.json",
+    "research/superior-replica-kappa/expected/AXIOMS.json",
+    "research/superior-replica-kappa/validation/KERNEL.json",
+    "research/superior-replica-kappa/validation/MOMENT.json",
+    "research/superior-replica-kappa/validation/NATIVE.json",
+    "research/superior-replica-kappa/validation/OWNERS.json",
+    "research/superior-replica-kappa/lean/lake-manifest.json",
+    "research/superior-replica-kappa/validation/COMPLETE.json",
+    "research/superior-replica-kappa/validation/ROOT-ROUTE.json",
+    "research/superior-replica-kappa/provenance/ADMISSION-SOURCES.json",
+    "research/superior-replica-kappa/validation/SHARPENED-PREFIX-REVIEW.json",
+    "research/superior-replica-kappa/provenance/SHARPENED-PREFIX-RESERVE.json",
+    "research/superior-replica-kappa/replay.py",
+    "research/superior-replica-kappa/verify.py",
+    "research/superior-replica-kappa/FRONTIER.md",
+    "research/superior-replica-kappa/PARENT-LIFT.md",
+    "research/superior-replica-kappa/lift_parent.py",
+    "research/superior-replica-kappa/replica_parent.py",
+    "research/superior-replica-kappa/check_candidate.py",
+    "research/superior-replica-kappa/reconstruct_replica.py",
+    "research/superior-replica-kappa/admit_frontier_replica.py",
+    "research/superior-replica-kappa/portable_frontier_cold.py",
+    "research/superior-replica-kappa/portable_prepare_native.py",
+    "research/superior-replica-kappa/independent_candidate_moment_retired7.py",
+    "research/superior-replica-kappa/independent_candidate_owners_retired7.py"
+  ],
+  "selected_for_recovery": [
+    "research/superior-replica-kappa/PROOF.md",
+    "research/superior-replica-kappa/TASK.json",
+    "research/superior-replica-kappa/replay.py",
+    "research/superior-replica-kappa/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/superior-replica-kappa/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2827/f26209f79035__CLAIM.json",
+      "sha256": "f26209f7903557cf3dddd8e6d99b4b2b2f99bbd4b5eb0e6161150830e94b02d0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4dc1286a476874447f76826885c6af99409a1d46/research/superior-replica-kappa/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 178,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2827,
+      "head": "4dc1286a476874447f76826885c6af99409a1d46",
+      "path": "research/superior-replica-kappa/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4dc1286a476874447f76826885c6af99409a1d46/research/superior-replica-kappa/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e9f00cb3738e92e1933fecdeb1029c14aa89cc191b69f61ef113494d757a8424",
+      "git_blob_sha1": "ded2ddce924a6a48aa827bdbf0c22c0740c4652f",
+      "bytes": 3518,
+      "file": "individual-primary-interface-source/2827/e9f00cb3738e__PROOF.md"
+    },
+    {
+      "pr": 2827,
+      "head": "4dc1286a476874447f76826885c6af99409a1d46",
+      "path": "research/superior-replica-kappa/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4dc1286a476874447f76826885c6af99409a1d46/research/superior-replica-kappa/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2acfc2cafb40b83c1e603f281eca8fa2e5dce32b40bc34289a5cac78aeba02ba",
+      "git_blob_sha1": "8bec81927e9f5f689c7d68e63a8944acd59e0066",
+      "bytes": 770,
+      "file": "individual-primary-interface-source/2827/2acfc2cafb40__TASK.json"
+    },
+    {
+      "pr": 2827,
+      "head": "4dc1286a476874447f76826885c6af99409a1d46",
+      "path": "research/superior-replica-kappa/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4dc1286a476874447f76826885c6af99409a1d46/research/superior-replica-kappa/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ff899fcb325139b9322e9ccbfc65508f153956c25ae25f51c257fe1a274c61f9",
+      "git_blob_sha1": "e757ec8a40c4fce68f72463876211ce771bfa6a4",
+      "bytes": 10656,
+      "file": "individual-primary-interface-source/2827/ff899fcb3251__replay.py"
+    },
+    {
+      "pr": 2827,
+      "head": "4dc1286a476874447f76826885c6af99409a1d46",
+      "path": "research/superior-replica-kappa/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4dc1286a476874447f76826885c6af99409a1d46/research/superior-replica-kappa/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1a43b6579031bb6f13025a7f22d68305de82cfeeabc155db9352443473519957",
+      "git_blob_sha1": "925e15e7e921aa4a641fdff80475375e6b89f77b",
+      "bytes": 3398,
+      "file": "individual-primary-interface-source/2827/1a43b6579031__README.md"
+    }
+  ]
+}

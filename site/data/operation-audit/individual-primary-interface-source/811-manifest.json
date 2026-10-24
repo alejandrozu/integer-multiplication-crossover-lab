@@ -1,0 +1,67 @@
+{
+  "pr": 811,
+  "own_head": "b5c244c916dd0b30957332edad7ae7ae22b0eb9d",
+  "primary_path_candidates": [
+    "research/jp8-additive-coefficient-routes/EXPECTED.json",
+    "research/jp8-additive-coefficient-routes/CERTIFICATE.json",
+    "research/jp8-additive-coefficient-routes/CLAIM.md",
+    "research/jp8-additive-coefficient-routes/PROOF.md",
+    "research/jp8-additive-coefficient-routes/README.md",
+    "research/jp8-additive-coefficient-routes/VALIDATION.md",
+    "research/jp8-additive-coefficient-routes/NATIVE.json",
+    "research/jp8-additive-coefficient-routes/INDEPENDENT.json",
+    "research/jp8-additive-coefficient-routes/verify.py",
+    "research/jp8-additive-coefficient-routes/construct.py",
+    "research/jp8-additive-coefficient-routes/independent.py",
+    "research/jp8-additive-coefficient-routes/test_verify.py",
+    "research/jp8-additive-coefficient-routes/native_replay.py"
+  ],
+  "selected_for_recovery": [
+    "research/jp8-additive-coefficient-routes/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/jp8-additive-coefficient-routes/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/811/f686dcd386e7__EXPECTED.json",
+      "sha256": "f686dcd386e76122ebfdb939824be3f6d7b526066e2b5a2fd60fefb0cd9275c1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b5c244c916dd0b30957332edad7ae7ae22b0eb9d/research/jp8-additive-coefficient-routes/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/jp8-additive-coefficient-routes/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/811/34376f963d62__CERTIFICATE.json",
+      "sha256": "34376f963d62549c8a8f317791cae32fabd9bf580e5ec49b3ea6fac298fe1916",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b5c244c916dd0b30957332edad7ae7ae22b0eb9d/research/jp8-additive-coefficient-routes/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/jp8-additive-coefficient-routes/verify.py",
+      "file": "remaining-record-audit/artifacts/811/3a36b1db4490__verify.py",
+      "sha256": "3a36b1db4490d861ff435076343309adfce1ef1746cb50e32b986d6efae6ca9e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b5c244c916dd0b30957332edad7ae7ae22b0eb9d/research/jp8-additive-coefficient-routes/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/jp8-additive-coefficient-routes/PROOF.md",
+      "file": "remaining-record-audit/artifacts/811/b583544e57ee__PROOF.md",
+      "sha256": "b583544e57eeec23cb29f1fa62457cc1c643a57ade01fd8815f912c24ade6306",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b5c244c916dd0b30957332edad7ae7ae22b0eb9d/research/jp8-additive-coefficient-routes/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 14,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 811,
+      "head": "b5c244c916dd0b30957332edad7ae7ae22b0eb9d",
+      "path": "research/jp8-additive-coefficient-routes/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b5c244c916dd0b30957332edad7ae7ae22b0eb9d/research/jp8-additive-coefficient-routes/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "86c02ab4261d6d10c326c92d26012516989cfeca55c5a366053c78a941eb897d",
+      "git_blob_sha1": "7ef6bf1f5523225dc52b74871c40bc505078a98b",
+      "bytes": 3807,
+      "file": "individual-primary-interface-source/811/86c02ab4261d__CLAIM.md"
+    }
+  ]
+}

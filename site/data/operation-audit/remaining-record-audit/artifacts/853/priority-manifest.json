@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 853,
+    "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+    "path": "research/complex-sw4-frame8/verify.py",
+    "api_sha": null,
+    "api_blob_url": null,
+    "priority": 195,
+    "hint_base": "research/complex741-parallel-replay/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/research/complex-sw4-frame8/verify.py",
+    "file": "artifacts\\853\\7706065e3d29__verify.py",
+    "sha256": "7706065e3d2934ea493910638b40e6285348d337507e0fb695d8d1e536926637",
+    "git_blob_sha1": "97d3dc5de5f70706117664535bf35a9a825b636d",
+    "bytes": 9830,
+    "api_own_blob_verified": false,
+    "fetched_at_utc": "2026-10-24T14:22:14.478181+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 853,
+    "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+    "path": "research/complex741-parallel-replay/README.md",
+    "api_sha": "c17ce31c31509ad1738c988539f8a30c92611277",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/9910c23b154e05cca2834f45797455200cadf6e4/research%2Fcomplex741-parallel-replay%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/complex741-parallel-replay/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/research/complex741-parallel-replay/README.md",
+    "file": "artifacts\\853\\aa76aad0367d__README.md",
+    "sha256": "aa76aad0367d1232a5f298097ee225e2a133c016d8959ec1a2ba0fea786482d5",
+    "git_blob_sha1": "c17ce31c31509ad1738c988539f8a30c92611277",
+    "bytes": 8464,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:14.510184+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

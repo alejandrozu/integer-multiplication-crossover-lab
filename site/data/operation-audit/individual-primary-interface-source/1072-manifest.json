@@ -1,0 +1,77 @@
+{
+  "pr": 1072,
+  "own_head": "6c1504cd75aae9b255ba16bf8e28d3f38af34c14",
+  "primary_path_candidates": [
+    "research/u8-e4-gap-fill/CLAIM.json",
+    "research/u8-e4-gap-fill/ASSEMBLY.json",
+    "research/u8-e4-gap-fill/README.md",
+    "research/u8-e4-gap-fill/LOCAL-EDIT.json",
+    "research/u8-e4-gap-fill/VALIDATION.json",
+    "research/u8-e4-gap-fill/OWNER-EDITS.json",
+    "research/u8-e4-gap-fill/INDEPENDENT-PRICE.json",
+    "research/u8-e4-gap-fill/build.py",
+    "research/u8-e4-gap-fill/price.py",
+    "research/u8-e4-gap-fill/native.py",
+    "research/u8-e4-gap-fill/replay.py",
+    "research/u8-e4-gap-fill/verify.py",
+    "research/u8-e4-gap-fill/binding.py",
+    "research/u8-e4-gap-fill/payload.py",
+    "research/u8-e4-gap-fill/prepare.py",
+    "research/u8-e4-gap-fill/support.py",
+    "research/u8-e4-gap-fill/independent.py",
+    "research/u8-e4-gap-fill/freeze_metadata.py"
+  ],
+  "selected_for_recovery": [
+    "research/u8-e4-gap-fill/ASSEMBLY.json",
+    "research/u8-e4-gap-fill/LOCAL-EDIT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-e4-gap-fill/README.md",
+      "file": "remaining-record-audit/artifacts/1072/cbde1d1483b4__README.md",
+      "sha256": "cbde1d1483b451437e9a9cefe939cc5263edfc207ba4441564c5310ad45cca8d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6c1504cd75aae9b255ba16bf8e28d3f38af34c14/research/u8-e4-gap-fill/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-e4-gap-fill/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1072/0d43f783a0a5__CLAIM.json",
+      "sha256": "0d43f783a0a52b507ea588d298b928ec52562bd80b018f2b4921fb40903a93e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6c1504cd75aae9b255ba16bf8e28d3f38af34c14/research/u8-e4-gap-fill/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-e4-gap-fill/build.py",
+      "file": "remaining-record-audit/artifacts/1072/dd4cae813e38__build.py",
+      "sha256": "dd4cae813e3806be5a55c9286573559e614f9078cf95e042426d37cd927f6b22",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6c1504cd75aae9b255ba16bf8e28d3f38af34c14/research/u8-e4-gap-fill/build.py"
+    }
+  ],
+  "github_changed_file_reported_count": 19,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1072,
+      "head": "6c1504cd75aae9b255ba16bf8e28d3f38af34c14",
+      "path": "research/u8-e4-gap-fill/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6c1504cd75aae9b255ba16bf8e28d3f38af34c14/research/u8-e4-gap-fill/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4a8845989134fa221a3761eb04c48e5ea056fda9f6c54b9bf8eb5c501b53cce1",
+      "git_blob_sha1": "95b5216da912f31b1cb414da7ce0549070ff03aa",
+      "bytes": 85987,
+      "file": "individual-primary-interface-source/1072/4a8845989134__ASSEMBLY.json"
+    },
+    {
+      "pr": 1072,
+      "head": "6c1504cd75aae9b255ba16bf8e28d3f38af34c14",
+      "path": "research/u8-e4-gap-fill/LOCAL-EDIT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6c1504cd75aae9b255ba16bf8e28d3f38af34c14/research/u8-e4-gap-fill/LOCAL-EDIT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0202d122857f9e02855f1ea6a7de83d2ff933e888ba1f54e010b89b1ff85f3b4",
+      "git_blob_sha1": "58b52626ebcb58e2d8e4ac00e97d5dec851a7f20",
+      "bytes": 6455,
+      "file": "individual-primary-interface-source/1072/0202d122857f__LOCAL-EDIT.json"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "pr": 3594,
+  "own_head": "e3dc9c1660bfec0501dd7522f44a21746f9b89e2",
+  "primary_path_candidates": [
+    "research/direct584-commuting-retiming-cover/PROOF.md",
+    "research/direct584-commuting-retiming-cover/README.md",
+    "research/direct584-commuting-retiming-cover/TASK.json",
+    "research/direct584-commuting-retiming-cover/VERIFY.json",
+    "research/direct584-commuting-retiming-cover/VALIDATION.json",
+    "research/direct584-commuting-retiming-cover/CONTROL-native-entry-base.json",
+    "research/direct584-commuting-retiming-cover/CONTROL-native-entry-extra.json",
+    "research/direct584-commuting-retiming-cover/verify.py",
+    "research/direct584-commuting-retiming-cover/exact_algebra.py"
+  ],
+  "selected_for_recovery": [
+    "research/direct584-commuting-retiming-cover/TASK.json",
+    "research/direct584-commuting-retiming-cover/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct584-commuting-retiming-cover/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3594/3c4031d205a6__PROOF.md",
+      "sha256": "3c4031d205a6f5d308c51c14ad886addcdce8c4940f8c8d639d22b26fa893491",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3dc9c1660bfec0501dd7522f44a21746f9b89e2/research/direct584-commuting-retiming-cover/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct584-commuting-retiming-cover/verify.py",
+      "file": "remaining-record-audit/artifacts/3594/62b150488560__verify.py",
+      "sha256": "62b150488560a36088a418be52133298b050026481451a46968fa6cb97ce2248",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3dc9c1660bfec0501dd7522f44a21746f9b89e2/research/direct584-commuting-retiming-cover/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct584-commuting-retiming-cover/README.md",
+      "file": "remaining-record-audit/artifacts/3594/6e05368b1f78__README.md",
+      "sha256": "6e05368b1f78c11676a467504bcd8d48d8a4b6633238994fb5575e35014b666a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3dc9c1660bfec0501dd7522f44a21746f9b89e2/research/direct584-commuting-retiming-cover/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3594,
+      "head": "e3dc9c1660bfec0501dd7522f44a21746f9b89e2",
+      "path": "research/direct584-commuting-retiming-cover/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3dc9c1660bfec0501dd7522f44a21746f9b89e2/research/direct584-commuting-retiming-cover/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f4821009e4304fcb0a2e534db1d1edb5ca174c6fd5afd960c476f14e5bf10afb",
+      "git_blob_sha1": "4439f254e2c387102295e5e2eab3942b0222ab5b",
+      "bytes": 5115,
+      "file": "individual-primary-interface-source/3594/f4821009e430__TASK.json"
+    },
+    {
+      "pr": 3594,
+      "head": "e3dc9c1660bfec0501dd7522f44a21746f9b89e2",
+      "path": "research/direct584-commuting-retiming-cover/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e3dc9c1660bfec0501dd7522f44a21746f9b89e2/research/direct584-commuting-retiming-cover/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "97559e7c1aec49a06628924c21e31b79162bee1bff0e91b773ebd444aee2286c",
+      "git_blob_sha1": "a7b6951211c6deb34e88ccd2b0fbe4672c88ccb3",
+      "bytes": 926,
+      "file": "individual-primary-interface-source/3594/97559e7c1aec__VERIFY.json"
+    }
+  ]
+}

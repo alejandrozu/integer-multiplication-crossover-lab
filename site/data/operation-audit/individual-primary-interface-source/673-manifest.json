@@ -1,0 +1,110 @@
+{
+  "pr": 673,
+  "own_head": "0b4f514c60d9bc7786415d7cbc24754f24d6dc3b",
+  "primary_path_candidates": [
+    "research/dirty-echo-integration/CLAIM.json",
+    "research/bit-role-sharing-budget/CLAIM.json",
+    "research/bit-paired-boundary-gate/CLAIM.json",
+    "research/bit-sharing-hosting-gate/CLAIM.json",
+    "research/cyclic-dirty-commutator-audit/CLAIM.json",
+    "research/gauge44-notri-fine-grid/evidence/CERTIFICATE.json",
+    "research/dirty-echo-integration/PROOF.md",
+    "research/bit-role-sharing-budget/PROOF.md",
+    "research/dirty-echo-integration/README.md",
+    "research/bit-paired-boundary-gate/PROOF.md",
+    "research/bit-role-sharing-budget/README.md",
+    "research/bit-sharing-hosting-gate/PROOF.md",
+    "research/gauge44-notri-fine-grid/README.md",
+    "research/bit-paired-boundary-gate/README.md",
+    "research/bit-sharing-hosting-gate/README.md",
+    "research/cyclic-dirty-commutator-audit/README.md",
+    "research/dirty-echo-integration/VALIDATION.json",
+    "research/bit-role-sharing-budget/VALIDATION.json",
+    "research/bit-paired-boundary-gate/VALIDATION.json",
+    "research/bit-sharing-hosting-gate/VALIDATION.json",
+    "research/cyclic-dirty-commutator-audit/SOURCE.json",
+    "research/cyclic-dirty-commutator-audit/VALIDATION.json",
+    "research/dirty-echo-integration/evidence/PRICE.json",
+    "research/bit-role-sharing-budget/evidence/PRICE.json",
+    "research/bit-paired-boundary-gate/evidence/PRICE.json",
+    "research/bit-sharing-hosting-gate/evidence/PRICE.json",
+    "research/gauge44-notri-fine-grid/evidence/REPLAY.json",
+    "research/dirty-echo-integration/evidence/FUNCTIONAL.json",
+    "research/cyclic-dirty-commutator-audit/evidence/ECHO.json",
+    "research/cyclic-dirty-commutator-audit/evidence/ALIAS.json",
+    "research/cyclic-dirty-commutator-audit/evidence/BENCHMARK.json",
+    "research/gauge44-notri-fine-grid/evidence/INDEPENDENT-LOCAL.json",
+    "research/gauge44-notri-fine-grid/evidence/INDEPENDENT-PRICE.json",
+    "research/dirty-echo-integration/price.py",
+    "research/dirty-echo-integration/verify.py",
+    "research/bit-role-sharing-budget/verify.py",
+    "research/dirty-echo-integration/adapter.py",
+    "research/dirty-echo-integration/oracles.py",
+    "research/gauge44-notri-fine-grid/verify.py",
+    "research/bit-paired-boundary-gate/verify.py",
+    "research/bit-sharing-hosting-gate/verify.py",
+    "research/gauge44-notri-fine-grid/certify.py",
+    "research/dirty-echo-integration/transform.py",
+    "research/dirty-echo-integration/boundaries.py",
+    "research/dirty-echo-integration/provenance.py",
+    "research/cyclic-dirty-commutator-audit/echo.py",
+    "research/cyclic-dirty-commutator-audit/verify.py",
+    "research/cyclic-dirty-commutator-audit/benchmark.py",
+    "research/cyclic-dirty-commutator-audit/ECHO-PROOF.md",
+    "research/cyclic-dirty-commutator-audit/verify_echo.py",
+    "research/cyclic-dirty-commutator-audit/integer_model.py"
+  ],
+  "selected_for_recovery": [
+    "research/dirty-echo-integration/PROOF.md",
+    "research/dirty-echo-integration/price.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/dirty-echo-integration/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/673/3b6fde377ca5__CLAIM.json",
+      "sha256": "3b6fde377ca58a15b20c4b13ed50e6a7ee18fb46a7bb536606a37b7c47fec239",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0b4f514c60d9bc7786415d7cbc24754f24d6dc3b/research/dirty-echo-integration/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-role-sharing-budget/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/673/ebadf6851c2b__CLAIM.json",
+      "sha256": "ebadf6851c2b919357a2ef82c5c3a9297f2ada1cb9067ff126681fec80220086",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0b4f514c60d9bc7786415d7cbc24754f24d6dc3b/research/bit-role-sharing-budget/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-paired-boundary-gate/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/673/96ee673240e9__CLAIM.json",
+      "sha256": "96ee673240e982392cf45ffab9f5b6ddb6e5b43026a4a10c4964e660510c62ae",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0b4f514c60d9bc7786415d7cbc24754f24d6dc3b/research/bit-paired-boundary-gate/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 62,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 673,
+      "head": "0b4f514c60d9bc7786415d7cbc24754f24d6dc3b",
+      "path": "research/dirty-echo-integration/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0b4f514c60d9bc7786415d7cbc24754f24d6dc3b/research/dirty-echo-integration/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f25eb16d70f499091908107c5a314e2dab2fb71e956fe6150d7a188f1b90e517",
+      "git_blob_sha1": "9540138bf39d5050bfb3e371640fe752c876523c",
+      "bytes": 12734,
+      "file": "individual-primary-interface-source/673/f25eb16d70f4__PROOF.md"
+    },
+    {
+      "pr": 673,
+      "head": "0b4f514c60d9bc7786415d7cbc24754f24d6dc3b",
+      "path": "research/dirty-echo-integration/price.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0b4f514c60d9bc7786415d7cbc24754f24d6dc3b/research/dirty-echo-integration/price.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a1ad54f549538a8c79bf87407c6d57c631cbb884e7761a295002f910da24cbee",
+      "git_blob_sha1": "2a2375c2985c8bee147a631a7ec310bb5a16c94b",
+      "bytes": 5029,
+      "file": "individual-primary-interface-source/673/a1ad54f54953__price.py"
+    }
+  ]
+}

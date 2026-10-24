@@ -1,0 +1,73 @@
+{
+  "pr": 2286,
+  "own_head": "325601ad64b58f10c6fda659851e3acd43bb10b7",
+  "primary_path_candidates": [
+    "research/t74-side-condition-coverage-audit/README.md",
+    "research/t74-side-condition-coverage-audit/TASK.json",
+    "research/t74-side-condition-coverage-audit/POINTS.json",
+    "research/t74-side-condition-coverage-audit/VERIFY.json",
+    "research/t74-side-condition-coverage-audit/INVENTORY.json",
+    "research/t74-side-condition-coverage-audit/SOURCES-T74.json",
+    "research/t74-side-condition-coverage-audit/verify.py",
+    "research/t74-side-condition-coverage-audit/REVIEW-ITEMS.md",
+    "research/t74-side-condition-coverage-audit/review_items.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-side-condition-coverage-audit/TASK.json",
+    "research/t74-side-condition-coverage-audit/POINTS.json",
+    "research/t74-side-condition-coverage-audit/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-side-condition-coverage-audit/README.md",
+      "file": "remaining-record-audit/artifacts/2286/555d6ee1a058__README.md",
+      "sha256": "555d6ee1a05872c54afbd50eb57ee9ecef88f647da9ca4483630a43268b9a190",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/325601ad64b58f10c6fda659851e3acd43bb10b7/research/t74-side-condition-coverage-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-side-condition-coverage-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/2286/5d5b0f91c385__verify.py",
+      "sha256": "5d5b0f91c385bb0aaa420d3e377355197054207ba8c02605baa4c4bffbc57fdb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/325601ad64b58f10c6fda659851e3acd43bb10b7/research/t74-side-condition-coverage-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2286,
+      "head": "325601ad64b58f10c6fda659851e3acd43bb10b7",
+      "path": "research/t74-side-condition-coverage-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/325601ad64b58f10c6fda659851e3acd43bb10b7/research/t74-side-condition-coverage-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "622b85c438ffd40cd8ce5cfc0d6d842687228bd97c8ea0523248e788659f588e",
+      "git_blob_sha1": "c96d56bc6246c689cc606f89cc88802a8a5022ad",
+      "bytes": 5797,
+      "file": "individual-primary-interface-source/2286/622b85c438ff__TASK.json"
+    },
+    {
+      "pr": 2286,
+      "head": "325601ad64b58f10c6fda659851e3acd43bb10b7",
+      "path": "research/t74-side-condition-coverage-audit/POINTS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/325601ad64b58f10c6fda659851e3acd43bb10b7/research/t74-side-condition-coverage-audit/POINTS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "31b870b4c36fcf63b38c0d5a280f52ca83459b187560bf3ff6bf95888180162e",
+      "git_blob_sha1": "3b815d3fba82ff154c09a56c7f4cbf11eb225b50",
+      "bytes": 39128,
+      "file": "individual-primary-interface-source/2286/31b870b4c36f__POINTS.json"
+    },
+    {
+      "pr": 2286,
+      "head": "325601ad64b58f10c6fda659851e3acd43bb10b7",
+      "path": "research/t74-side-condition-coverage-audit/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/325601ad64b58f10c6fda659851e3acd43bb10b7/research/t74-side-condition-coverage-audit/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7ecec91aad8809af3cf97dfcd1a7663509ecfe3c4f61c3f549eb2c9eb43c7448",
+      "git_blob_sha1": "0c8667cc365e824d370fd670eea3171d531919e0",
+      "bytes": 951,
+      "file": "individual-primary-interface-source/2286/7ecec91aad88__VERIFY.json"
+    }
+  ]
+}

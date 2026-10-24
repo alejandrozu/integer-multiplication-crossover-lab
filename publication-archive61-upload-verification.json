@@ -1,0 +1,11 @@
+{
+  "schema": "public-GitHub-additive-archive-verification/1",
+  "release_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24",
+  "file": "operation-audit-objects-61.zip",
+  "bytes": 7451839,
+  "sha256": "85c4171701faab7ea9c1e19e9f8a5bf08d7f7d32b71ddf055ea1f8c9f2e7aa8a",
+  "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-61.zip",
+  "server_digest_verified": true,
+  "anonymous_download_HTTP_status": 200,
+  "scope": "Authorized exact four-leaf PR2077 provenance refresh and final catalogue aliases; all43\u201360 remain immutable and all196 numerical bounds unchanged."
+}

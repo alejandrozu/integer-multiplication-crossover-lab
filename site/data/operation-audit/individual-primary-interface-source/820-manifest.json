@@ -1,0 +1,68 @@
+{
+  "pr": 820,
+  "own_head": "00f326845c0614366bef11ee6901ae6295af4999",
+  "primary_path_candidates": [
+    "research/radix9-algebraic-audit/EXPECTED.json",
+    "research/radix9-algebraic-audit/CLAIM.md",
+    "research/radix9-algebraic-audit/PROOF.md",
+    "research/radix9-algebraic-audit/README.md",
+    "research/radix9-algebraic-audit/VALIDATION.md",
+    "research/radix9-algebraic-audit/SOURCE.json",
+    "research/radix9-algebraic-audit/NOTICE.md",
+    "research/radix9-algebraic-audit/verify.py",
+    "research/radix9-algebraic-audit/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/radix9-algebraic-audit/CLAIM.md",
+    "research/radix9-algebraic-audit/SOURCE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/radix9-algebraic-audit/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/820/fdeadd1c0c22__EXPECTED.json",
+      "sha256": "fdeadd1c0c22fd8d89f5b5d4a84f49df04c78a4115f0438d6030122bb4320ad0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00f326845c0614366bef11ee6901ae6295af4999/research/radix9-algebraic-audit/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/radix9-algebraic-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/820/251cc22e687e__verify.py",
+      "sha256": "251cc22e687e7cbd3f8d4057160d0b5bf4bc9c5dba11c28dd83ee5c84d09ed7b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00f326845c0614366bef11ee6901ae6295af4999/research/radix9-algebraic-audit/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/radix9-algebraic-audit/PROOF.md",
+      "file": "remaining-record-audit/artifacts/820/78d26b156641__PROOF.md",
+      "sha256": "78d26b156641563cc17e907c37edb1160e11e02db406e87f67a124f6bf5d62c4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00f326845c0614366bef11ee6901ae6295af4999/research/radix9-algebraic-audit/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 14,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 820,
+      "head": "00f326845c0614366bef11ee6901ae6295af4999",
+      "path": "research/radix9-algebraic-audit/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00f326845c0614366bef11ee6901ae6295af4999/research/radix9-algebraic-audit/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "80024024c6734c49fafc92fddc3597ca5b39aff8fc14df413be47a5094a28840",
+      "git_blob_sha1": "90c04565c069455ee130f14fad3017da7e472ef0",
+      "bytes": 4547,
+      "file": "individual-primary-interface-source/820/80024024c673__CLAIM.md"
+    },
+    {
+      "pr": 820,
+      "head": "00f326845c0614366bef11ee6901ae6295af4999",
+      "path": "research/radix9-algebraic-audit/SOURCE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00f326845c0614366bef11ee6901ae6295af4999/research/radix9-algebraic-audit/SOURCE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "05e811248d9345a04e6667d81dab6d337a928039cceeba19ee60208cbaee31ef",
+      "git_blob_sha1": "27efe9e557ad704afec308e0e4dd5b78434e30e9",
+      "bytes": 1498,
+      "file": "individual-primary-interface-source/820/05e811248d93__SOURCE.json"
+    }
+  ]
+}

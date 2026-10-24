@@ -1,0 +1,68 @@
+{
+  "pr": 792,
+  "own_head": "6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3",
+  "primary_path_candidates": [
+    "research/p111-interleaved-mini-nodes/EXPECTED.json",
+    "research/p111-interleaved-mini-nodes/CERTIFICATE.json",
+    "research/p111-interleaved-mini-nodes/CLAIM.md",
+    "research/p111-interleaved-mini-nodes/README.md",
+    "research/p111-interleaved-mini-nodes/NATIVE.json",
+    "research/p111-interleaved-mini-nodes/VALIDATION.json",
+    "research/p111-interleaved-mini-nodes/native.py",
+    "research/p111-interleaved-mini-nodes/search.py",
+    "research/p111-interleaved-mini-nodes/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/p111-interleaved-mini-nodes/CLAIM.md",
+    "research/p111-interleaved-mini-nodes/native.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p111-interleaved-mini-nodes/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/792/c0b9098264b1__EXPECTED.json",
+      "sha256": "c0b9098264b14bb0e6dccc93a9f2da8e37ef358e76dafdca9d249427e2e91425",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3/research/p111-interleaved-mini-nodes/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p111-interleaved-mini-nodes/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/792/c4aabb60fa33__CERTIFICATE.json",
+      "sha256": "c4aabb60fa338f7ab65e0c4f3680c4a9aa0b7f1aad1fe297f3fe11420f671c68",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3/research/p111-interleaved-mini-nodes/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p111-interleaved-mini-nodes/README.md",
+      "file": "remaining-record-audit/artifacts/792/84b92ff0ba97__README.md",
+      "sha256": "84b92ff0ba9752d3fddcdeae95228c0f13e7418bea65b6bf8f232796f9c5b0f8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3/research/p111-interleaved-mini-nodes/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 792,
+      "head": "6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3",
+      "path": "research/p111-interleaved-mini-nodes/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3/research/p111-interleaved-mini-nodes/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "17abb136cc1f6661df4b4480a71ceb8e48571d68e6a0af4b77669b04e17e4808",
+      "git_blob_sha1": "0fd95f1f77c171d9198eb30f88230b0e2e366142",
+      "bytes": 4768,
+      "file": "individual-primary-interface-source/792/17abb136cc1f__CLAIM.md"
+    },
+    {
+      "pr": 792,
+      "head": "6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3",
+      "path": "research/p111-interleaved-mini-nodes/native.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a17fb0925c3d3bce770c90bc5c3ff0295b0f3d3/research/p111-interleaved-mini-nodes/native.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "471ac17b63f4d9ddcd856de163e6e86d2718392eec5a06b1e494ee9ebf8a36aa",
+      "git_blob_sha1": "9cc4277ed3f14b135fb656d26f385d471e5c812c",
+      "bytes": 5799,
+      "file": "individual-primary-interface-source/792/471ac17b63f4__native.py"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pr": 917,
+  "own_head": "085c32a25e2a09b029fa816195b97fa93d6f0788",
+  "primary_path_candidates": [
+    "research/complex-ck-two-sided/EXPECTED.json",
+    "research/complex-ck-two-sided/CLAIM.md",
+    "research/complex-ck-two-sided/PROOF.md",
+    "research/complex-ck-two-sided/README.md",
+    "research/complex-ck-two-sided/VALIDATION.md",
+    "research/complex-ck-two-sided/RECIPE.json",
+    "research/complex-ck-two-sided/NOTICE.md",
+    "research/complex-ck-two-sided/verify.py",
+    "research/complex-ck-two-sided/experiment.py",
+    "research/complex-ck-two-sided/independent.py",
+    "research/complex-ck-two-sided/test_package.py",
+    "research/complex-ck-two-sided/test_independent.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-ck-two-sided/CLAIM.md",
+    "research/complex-ck-two-sided/RECIPE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-two-sided/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/917/e2bcf8f49ec9__EXPECTED.json",
+      "sha256": "e2bcf8f49ec9b0c20c7d653ad9d20fe21ecbc587a72dcb996d11550bf2d57287",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/085c32a25e2a09b029fa816195b97fa93d6f0788/research/complex-ck-two-sided/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-two-sided/verify.py",
+      "file": "remaining-record-audit/artifacts/917/e72528e76852__verify.py",
+      "sha256": "e72528e76852da7c6128a0a7d60f933ed505d9af893e269b8ae6b803877b963b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/085c32a25e2a09b029fa816195b97fa93d6f0788/research/complex-ck-two-sided/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-two-sided/PROOF.md",
+      "file": "remaining-record-audit/artifacts/917/b033bd7d2222__PROOF.md",
+      "sha256": "b033bd7d22229f60223d494665ec1332a27a370c048ea8c587f814dd9ed59a05",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/085c32a25e2a09b029fa816195b97fa93d6f0788/research/complex-ck-two-sided/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 13,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 917,
+      "head": "085c32a25e2a09b029fa816195b97fa93d6f0788",
+      "path": "research/complex-ck-two-sided/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/085c32a25e2a09b029fa816195b97fa93d6f0788/research/complex-ck-two-sided/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "01c853d04b6d6fda0af7154197da785b869fff49b92129b804dfbea71a2b4ae7",
+      "git_blob_sha1": "be693fd39e773cdd8bab477f8bc8c3ff395bf076",
+      "bytes": 2841,
+      "file": "individual-primary-interface-source/917/01c853d04b6d__CLAIM.md"
+    },
+    {
+      "pr": 917,
+      "head": "085c32a25e2a09b029fa816195b97fa93d6f0788",
+      "path": "research/complex-ck-two-sided/RECIPE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/085c32a25e2a09b029fa816195b97fa93d6f0788/research/complex-ck-two-sided/RECIPE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8eae0f1036c2c455dd59017c4b37903e45aeff6d0c66d7a3ce74e9b78e4f4aac",
+      "git_blob_sha1": "17063955a60a635c971c01feaf7cfa90e53dcb81",
+      "bytes": 22408,
+      "file": "individual-primary-interface-source/917/8eae0f1036c2__RECIPE.json"
+    }
+  ]
+}

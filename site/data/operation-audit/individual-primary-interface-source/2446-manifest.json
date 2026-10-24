@@ -1,0 +1,74 @@
+{
+  "pr": 2446,
+  "own_head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+  "primary_path_candidates": [
+    "research/t74-2435-fill-independent-check/README.md",
+    "research/t74-2435-fill-independent-check/TASK.json",
+    "research/t74-2435-fill-independent-check/VERIFY.json",
+    "research/t74-2435-fill-independent-check/check_2435.receipt.json",
+    "research/t74-2435-fill-independent-check/check_2435.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-2435-fill-independent-check/TASK.json",
+    "research/t74-2435-fill-independent-check/VERIFY.json",
+    "research/t74-2435-fill-independent-check/check_2435.py",
+    "research/t74-2435-fill-independent-check/check_2435.receipt.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-2435-fill-independent-check/README.md",
+      "file": "remaining-record-audit/artifacts/2446/f17704b8ebd1__README.md",
+      "sha256": "f17704b8ebd1d3a1374c43687bc974ff32d85728f4bba5e42feaabfa50d0d059",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2446,
+      "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+      "path": "research/t74-2435-fill-independent-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "588ec4fd048674e1899fac1199b78ab13cb5a7d1681cafaf4327492ea860ee7a",
+      "git_blob_sha1": "69310cd522fae209b7c8c9b05c2af07c535f29a3",
+      "bytes": 4691,
+      "file": "individual-primary-interface-source/2446/588ec4fd0486__TASK.json"
+    },
+    {
+      "pr": 2446,
+      "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+      "path": "research/t74-2435-fill-independent-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1fc6c079b1a18a181fff4a0d187f51b489887d2905891e43a2cd8171b830b843",
+      "git_blob_sha1": "63b6409422fc236006b1c96634c0ea8680e7fea0",
+      "bytes": 625,
+      "file": "individual-primary-interface-source/2446/1fc6c079b1a1__VERIFY.json"
+    },
+    {
+      "pr": 2446,
+      "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+      "path": "research/t74-2435-fill-independent-check/check_2435.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/check_2435.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0fed34010633ef9c1fbc78ce331ebd5b2601bc417e36e84304bab49005c25811",
+      "git_blob_sha1": "0b41c42527838870f7f096b48eac94c40ff4b273",
+      "bytes": 20982,
+      "file": "individual-primary-interface-source/2446/0fed34010633__check_2435.py"
+    },
+    {
+      "pr": 2446,
+      "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+      "path": "research/t74-2435-fill-independent-check/check_2435.receipt.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/check_2435.receipt.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5cb067c1e9621523f044d356c3f52d8460d7754ed2a62bff52ae7fcfb3545e62",
+      "git_blob_sha1": "be74060a5a23d7501cee21cad345c276e77c7c45",
+      "bytes": 6832,
+      "file": "individual-primary-interface-source/2446/5cb067c1e962__check_2435.receipt.json"
+    }
+  ]
+}

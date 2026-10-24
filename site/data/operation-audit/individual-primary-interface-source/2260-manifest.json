@@ -1,0 +1,92 @@
+{
+  "pr": 2260,
+  "own_head": "fde6b107e26a14da5bac5b66913c914708ea6901",
+  "primary_path_candidates": [
+    "research/selective-borrowing-kappa/owners/EXPECTED.json",
+    "research/selective-borrowing-kappa/arithmetic/EXPECTED.json",
+    "research/selective-borrowing-kappa/independent/EXPECTED.json",
+    "research/selective-borrowing-kappa/PROOF.md",
+    "research/selective-borrowing-kappa/README.md",
+    "research/selective-borrowing-kappa/lean/README.md",
+    "research/selective-borrowing-kappa/independent/PROOF.md",
+    "research/selective-borrowing-kappa/TASK.json",
+    "research/selective-borrowing-kappa/VERIFY.json",
+    "research/selective-borrowing-kappa/FRONTIER.json",
+    "research/selective-borrowing-kappa/lean/CHECKS.json",
+    "research/selective-borrowing-kappa/local/SOURCE-PINS.json",
+    "research/selective-borrowing-kappa/local/data/forward.json",
+    "research/selective-borrowing-kappa/local/data/backward.json",
+    "research/selective-borrowing-kappa/local/data/postludes.json",
+    "research/selective-borrowing-kappa/local/data/expected-local.json",
+    "research/selective-borrowing-kappa/local/data/finite-invoice.json",
+    "research/selective-borrowing-kappa/local/data/wrappers-forward.json",
+    "research/selective-borrowing-kappa/local/data/precision-forward.json",
+    "research/selective-borrowing-kappa/local/data/wrappers-backward.json",
+    "research/selective-borrowing-kappa/local/data/precision-backward.json",
+    "research/selective-borrowing-kappa/NOTICE.md",
+    "research/selective-borrowing-kappa/verify.py",
+    "research/selective-borrowing-kappa/PROOF-LOCAL.md",
+    "research/selective-borrowing-kappa/PROOF-OWNERS.md",
+    "research/selective-borrowing-kappa/local/native.py",
+    "research/selective-borrowing-kappa/local/verify.py",
+    "research/selective-borrowing-kappa/local/invoice.py",
+    "research/selective-borrowing-kappa/local/rebuild.py",
+    "research/selective-borrowing-kappa/owners/NOTICE.md",
+    "research/selective-borrowing-kappa/owners/verify.py",
+    "research/selective-borrowing-kappa/local/precision.py",
+    "research/selective-borrowing-kappa/arithmetic/verify.py",
+    "research/selective-borrowing-kappa/independent/audit.py",
+    "research/selective-borrowing-kappa/local/check_trace.py",
+    "research/selective-borrowing-kappa/independent/verify.py",
+    "research/selective-borrowing-kappa/owners/notices/PR1005-NOTICE.md",
+    "research/selective-borrowing-kappa/owners/notices/PR1005-UPSTREAM-NOTICE.md"
+  ],
+  "selected_for_recovery": [
+    "research/selective-borrowing-kappa/PROOF.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selective-borrowing-kappa/owners/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/2260/c4ad5debab3f__EXPECTED.json",
+      "sha256": "c4ad5debab3f3bd5cba68b91e28a6a8fa64febcbeb892b1fd1d27e3977a76cb1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa/owners/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selective-borrowing-kappa/arithmetic/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/2260/f7e7548796b8__EXPECTED.json",
+      "sha256": "f7e7548796b8888baea2ede61f95bc383aa32242bf669637fe19fcbe829ad614",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa/arithmetic/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selective-borrowing-kappa/verify.py",
+      "file": "remaining-record-audit/artifacts/2260/6811dd2e3b39__verify.py",
+      "sha256": "6811dd2e3b393ad14181f32556eaedaba45271759e3595e93f30edebac776a9a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selective-borrowing-kappa/independent/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/2260/70c921be4d02__EXPECTED.json",
+      "sha256": "70c921be4d0292c22c045090382d7f08fc84e851dce9969bdc16573c6bc8b1f3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa/independent/EXPECTED.json"
+    }
+  ],
+  "github_changed_file_reported_count": 70,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2260,
+      "head": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "path": "research/selective-borrowing-kappa/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5b166115490a71e9ec406497a4177e4b681e96185d0fcee9ceda69020301b23b",
+      "git_blob_sha1": "aefa25b24f5b6fb56199d98f7c57bbcd8735429c",
+      "bytes": 6350,
+      "file": "individual-primary-interface-source/2260/5b166115490a__PROOF.md"
+    }
+  ]
+}

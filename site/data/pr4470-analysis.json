@@ -1,0 +1,315 @@
+{
+  "status": "Source-grounded construction gates and conditional count-model range; not a full runtime crossover bound",
+  "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "kappa": "60403/20000000",
+  "tiers": {
+    "source_exact": "Numbers and formulas explicitly stated in pinned source",
+    "derived_source_recipe": "Algebraic consequences of the source's specified conservative implementation/guard prescriptions",
+    "conditional_count_model": "Additional generous compiler-record-count envelope; not a source-certified physical Turing-time constant",
+    "unresolved_runtime": "Needs primitive cost constants, final expanded program counts, setup/cutoff and a specified baseline implementation"
+  },
+  "source_exact": {
+    "complex_uniform_rank": "2^64215200000000",
+    "complex_rank_log2": 64215200000000,
+    "bit_uniform_rank_before_cover": "2^25986965159937",
+    "bit_rank_log2": 25986965159937,
+    "epsilon": "1399999999/1400000000",
+    "one_minus_epsilon": "1/1400000000",
+    "stop": "1/1400000000",
+    "atom_exponent": "1/250",
+    "raw_productive_fields": 10928,
+    "raw_paid_jobs": 64620,
+    "raw_nonrecursive_upper_allowance": 181098496,
+    "raw_nonrecursive_budget": 1000000000,
+    "raw_nonrecursive_allowance_per_productive_field": {
+      "exact": "11318656/683",
+      "decimal": "16571.97071742313323572474377745241581259150805270863836017569546120058565153733528550512445095168375"
+    },
+    "limiting_outer_saving": {
+      "exact": "5919498195771787/1960000000000000000",
+      "decimal": "0.003020152140699891326530612244897959183673469387755102040816326530612244897959183673469387755102040816"
+    },
+    "limiting_slack_above_kappa": {
+      "exact": "4195771787/1960000000000000000",
+      "decimal": "2.140699891326530612244897959183673469387755102040816326530612244897959183673469387755102040816326531E-9"
+    },
+    "nine_outer_savings": {
+      "boundary_algebraic_matrix": "5919499595771787/1960000000000000000",
+      "fused_gaussian": "5919499587315361/1960000000000000000",
+      "global_coordinate_router": "2114107/700000000",
+      "group_bit_router": "2959750493657679/980000000000000000",
+      "group_scans": "699999999/700000000",
+      "main_transform": "5919498195771787/1960000000000000000",
+      "microbox_face_corrections": "26950000001/350000000",
+      "polynomial_products": "1399999999/1400000000",
+      "sparse_union_movement": "802169499595771787/1960000000000000000"
+    },
+    "complex_moment_at_relaxed_saving_upper": "2^-45868",
+    "complex_moment_derivation": "P/W < N^(1-uniform); relaxed saving b=uniform-1/1400000000, so normalized child moment < N^(-1/1400000000)=2^-45868",
+    "bit_prime_lower_rule": "odd q > 2^26 * N_BIT^5, also avoiding every fixed denominator and rank witness",
+    "bit_prime_log2_strict_lower": 129934825799711
+  },
+  "mapping": {
+    "input": "n bits in each operand; b_in=ceil(log2 n); p=6*b_in",
+    "dimension": "d=floor(b_in^epsilon), hence d<=p^epsilon with c=1 in the guard prescription",
+    "supplier_rank": "N counts selected coordinate axes. It is not an input bit length or a scalar numeric precision.",
+    "first_compiled_call_gate": "A width e=N*f+r call needs e>=N for f>=1; e<=d gives b_in>=N^(1/epsilon).",
+    "stopped_positive_child_gate": "The source's sufficient stopped-tree gate is d^stop>=2N. This maps to b_in>=2^((H+1)/(epsilon*stop))."
+  },
+  "derived_source_recipe": {
+    "C0_formula": "Z=W+O; G includes the complete expanded scalar and normalizer envelope; E=64*(Z+N+P+G+1)^3; B=P+E; C0=32*N*B^2",
+    "C0_strict_lower": "2^449506400000017",
+    "precision_recipe": "L=bit_length(4*C0); t=max(4,ceil(L/(1-epsilon))); p0=2^t. For p>=p0, guard C0*d<=p/4 and components have width<=2p.",
+    "L_lower": 449506400000020,
+    "t_lower": "629308960000028000000000",
+    "precision_recipe_input_bit_cutoff": "2^(ceil(2^t/6))",
+    "precision_recipe_input_cutoff_lower": "2^(2^629308960000028000000000/6)",
+    "precision_recipe_height_lower": "t-log2(6), with t at least the recorded exact integer",
+    "interpretation": "This is a lower bound on the size of this conservative sufficient cutoff recipe. It is NOT a necessary runtime-crossover bound or a lower bound for every alternative implementation.",
+    "bare_call_input_tower_height": {
+      "exact": "89901280000000000000000/1399999999",
+      "decimal": "64215200045868.00003276285716625918369018513120727509371948220979963014985687867846919905604942789718"
+    },
+    "stopped_gate_input_tower_height": {
+      "exact": "125861792000001960000000000000000/1399999999",
+      "decimal": "89901280064216600045869.00003276357145197397960855284257753774469824124621302946158073532970052523550"
+    },
+    "stopped_gate_interpretation": "A sufficient implementation eligibility condition, not a proof that this is the minimum valid cutoff.",
+    "bit_stock": {
+      "reserve": "W(w)=B*|GL_N(F_q)|*q^(N^2*(w-1)); D>=floor(log_N ceil(e/w))",
+      "borrowed_digits_bound": "k<=D*(N^2*(w-1)+ceil(log_q(B*|GL_N(F_q)|)))+ceil(log_q S_old)+1",
+      "model_high_digit_gate": "When one full fresh cover is exposed, w=ceil(e^(1/250)), e^(1/250)>=2 and k<e/2 require e^(249/250)>N_BIT^2 from its explicit high-matrix reservation alone.",
+      "model_log2_e_lower": {
+        "exact": "4331160859989500/83",
+        "decimal": "52182660963728.91566265060240963855421686746987951807228915662650602409638554216867469879518072289157"
+      },
+      "qualification": "This isolates one reservation term; all lower-type, role and ancestor reserves still have to be added."
+    }
+  },
+  "conditional_count_model": {
+    "model_owner": "Independent leaderboard_source compiler audit; consult its proof before treating this as an established count bound",
+    "K_choice": "K=2^(2^20)",
+    "log2_K": 1048576,
+    "K_reason": "A=10^10 bounds the raw p16 budget, fields, calls and rank. A deliberately generous separated-product record model is K=A^(8*(1024+1))=10^82000 < 2^(2^20), including dense binary normalizers; this is not a physical runtime model.",
+    "expanded_count_upper": "D_N=K^(32*4^N), bounding W,P,raw U and native record/normalizer R in the stated count model",
+    "C0_upper": "C0 < 2^30*N*K^6*D_N^6",
+    "log2_C0_upper": "30+64215200000000+6*2^20+192*2^20*4^(2^64215200000000)",
+    "L_upper": "64215200000000+33+6*2^20+192*2^20*4^(2^64215200000000)",
+    "t_upper": "1400000000*(64215200000000+33+6*2^20+192*2^20*4^(2^64215200000000))",
+    "precision_gate_range": "For this count model only, substitute t_lower<=t<=t_upper into n_precision=2^(ceil(2^t/6)). It bounds the conservative precision recipe, not all eligibility conditions or runtime.",
+    "count_to_precision_check": "D_N>=N, G<=2*K*D_N and Z<=2*D_N imply S=Z+N+P+G+1<=3*K*D_N, E<2^11*K^3*D_N^3, B<2^12*K^3*D_N^3; the stated 2^30 C0 bound is generous."
+  },
+  "runtime_conclusion": {
+    "actual_runtime_crossover": null,
+    "source_grounded_cost_shape": "T_PR(n)<=n*sum_j A_j*(log2 n)^(1-g_j)*(1+log2(log2 n))^r_j+T_setup(n), with the nine exact power savings g_j in CLAIM.json. The template-dependent A_j, retained polylog powers r_j and common validity cutoff are not numerically emitted.",
+    "conditional_sufficient_crossover": "If all nine complete rows including polylogs are each established to be <=A*n*(log2 n)^(1-s) on n>=n_gate, a specified baseline is >=B*n*log2 n, and setup<=B*n*log2 n/2, then n>=max(n_gate,2^((18*A/B)^(1/s))) suffices. One may choose s=kappa only after proving a numeric polylog-absorption gate from the strict g_j-kappa gaps. Actual established A,B and the setup bound are still required.",
+    "missing": [
+      "Exact or source-certified full expanded W,P,U,R and all rational matrix/denominator heights",
+      "Numeric native movement, generic fallback, coefficient arithmetic and fixed-tape primitive time constants",
+      "A complete effective joint cutoff covering precision, role/cover stock, phase grouping, prime setup and analytic recovery",
+      "A concrete comparator machine/implementation and its actual lower time envelope; a Big-O upper bound is insufficient"
+    ],
+    "what_the_new_bounds_change": "They rule out interpreting the tiny equal-constant 1.01x proxy as a full-construction estimate. The explicit guarded implementation has astronomically larger eligibility scales, even before the full counts are substituted."
+  },
+  "hvh_baseline": {
+    "primary_url": "https://www.texmacs.org/joris/nlogn/nlogn.pdf",
+    "primary_pdf_sha256": "7acbf5bea9dd45a2fca79d8b4673df6b8329ba8ad039831a40b44ae70944f813",
+    "primary_locations": "Section 5 pp36-37, final proof pp41-42, introductory constants statement p2",
+    "specified_main_family_d": 1729,
+    "specified_main_family_n0": "2^(1729^12)",
+    "specified_main_family_log2_n0": "713739807325663489766475852620783120641",
+    "proved_global_constant_prescription": "C=max(B,5000*A), where B=max_{2<=n<n0} M(n)/(n log n); A bounds the fixed additive term in the normalized recurrence and is not numerically provided",
+    "optimization_outline": "Section5.4 outlines reducing K from1728 to8+epsilon, permitting d=9; it does not fully cost this implementation or establish a canonical practical baseline constant.",
+    "optimized_outline_n0": "2^(9^12)",
+    "optimized_outline_log2_n0": "282429536481",
+    "qualification": "These are algorithm-family recursion cutoffs, not practical break-even sizes against other multiplication implementations.",
+    "main_log10_n0": "214857091104455254035802532723729912717.6175592338372811240388110374657519951878456589953426789415970",
+    "main_log2_log2_n0": "129.0686658437073811395876167327443195795556471690245460135673597693328949244081980813753470034825064",
+    "optimized_log10_n0": "85019762142.25564879131665175999982174785659365673764988721506817810281172071492992241865094470634599"
+  },
+  "impact_certificate": {
+    "scope": "PR4470 at the pinned source. Source formulas and exact arithmetic have been checked; no new complete multiplication proof or implementation is claimed.",
+    "actual_crossover_status": "Not numerically established for either specified Harvey-van der Hoeven machine family or a practical GMP/computer baseline",
+    "true_runtime_crossover_lower_bits": null,
+    "true_runtime_crossover_upper_bits": null,
+    "precision_C0_is_runtime_constant": false,
+    "template_rank_N_is_input_bit_cutoff": false,
+    "checklist": [
+      {
+        "id": "kappa_and_invoice",
+        "status": "verified_source_exact",
+        "checked": "Pinned CLAIM.json and RESULT.json agree on 60403/20000000, complete local target/paid invoice, and nine outer power savings.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/certificates/frontier4470/CLAIM.json",
+        "remaining": "Acceptance remains under the named all-size interfaces; a finite invoice is not a complete machine-time proof."
+      },
+      {
+        "id": "input_rank_and_stopping_mapping",
+        "status": "derived_source_recipe",
+        "checked": "N is selected-coordinate rank; p=6*ceil(log2 n), d=floor(ceil(log2 n)^epsilon), and the source stopped-child gate d^stop>=2N have been algebraically connected.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+        "remaining": "This maps a sufficient gate, not every condition in the full multiplication algorithm or the least possible gate."
+      },
+      {
+        "id": "semantic_precision",
+        "status": "derived_source_recipe",
+        "checked": "C0=32*N*(P+64*(Z+N+P+G+1)^3)^2 and the source p0 recipe give the exact minimum-recipe height recorded here.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+        "remaining": "Actual full W,P,U,R,G are not emitted; the coefficient guard budget C0 is not the total runtime multiplier."
+      },
+      {
+        "id": "full_template_counts",
+        "status": "conditional_count_model_only",
+        "checked": "A separate generous record-count envelope gives compressed upper bounds for W,P,U,R and hence the precision recipe, under its stated counting assumptions.",
+        "source": "../compiler-audit/COMPILER-AUDIT.md",
+        "remaining": "The source compiler has not emitted its complete numerical word, matrix/denominator heights or a certified complete physical execution tariff."
+      },
+      {
+        "id": "native_and_all_column_realization",
+        "status": "retained_hypothesis",
+        "checked": "The maintainer review checks changed native operators, phases, ownership and source-identical foundations within its explicit scope.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+        "remaining": "The all-column native, whole-job, owned-erasure and uniform compiler contracts remain premises. A finite threshold proof must specify which conditional version is being bounded rather than treat them as discharged."
+      },
+      {
+        "id": "physical_primitive_time",
+        "status": "not_numerically_instantiated",
+        "checked": "The notes charge actual scalar work, normalizers, fixed matrix movement, cover routing and fallback through asymptotic native interfaces.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/bit/DELAYED-COVER-BRIDGE.md",
+        "remaining": "A numeric time bound needs coefficients for bit arithmetic, ordered movement, fixed-tape passes, cover normalizers and generic bad-class fallback in one specified machine cost model."
+      },
+      {
+        "id": "joint_start_threshold_and_setup",
+        "status": "partial_gates_only",
+        "checked": "There are explicit precision, stopped-child, prime-lower and row-reserve formulas. The current epsilon and layout slacks are exactly positive.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/OUTER-TRANSFER-AUDIT.md",
+        "remaining": "A common numeric cutoff must also enforce combined role/cover stock, grouping, descriptor preparation, polylog absorption, prime/denominator exclusions and analytic recovery. The current package does not emit that joint value."
+      },
+      {
+        "id": "analytic_and_recovery_transfer",
+        "status": "retained_hypothesis",
+        "checked": "The exact outer ledger remains strict and identifies the limiting power row and its slack.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/certificates/selected-result.json",
+        "remaining": "Analytic decomposition, fine-prime avoidance, precision/tape interfaces and exact recovery remain inherited. Their implementation constants and effective domains must be part of the same conditional cutoff certificate."
+      },
+      {
+        "id": "hvh_comparator",
+        "status": "explicit_family_cutoff_but_uninstantiated_time_constant",
+        "checked": "The authors' main family fixes d=1729 and n0=2^(1729^12), with C=max(B,5000*A).",
+        "source": "https://www.texmacs.org/joris/nlogn/nlogn.pdf",
+        "remaining": "Select the actual base-case machine and arithmetic conventions and compute A and B; also establish a lower time envelope for that machine if proving that PR4470 runs faster, rather than comparing two upper bounds."
+      },
+      {
+        "id": "practical_comparator",
+        "status": "unimplemented_candidate_prevents_paired_measurement",
+        "checked": "No materialized PR4470 uniform word or end-to-end multiplication implementation is claimed in the source.",
+        "source": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+        "remaining": "Choose the practical software/version, CPU, threads and memory model; benchmark its complete multiplication. PR4470 must be implemented or assigned an independently justified physical cost law before a comparison can be measured. Extrapolated GMP timings are scenarios, not proofs at astronomical input sizes."
+      },
+      {
+        "id": "every_pr_extension",
+        "status": "requires_per_candidate_scope_and_source_closure",
+        "checked": "The history audit separately retains invalid, local-only, wrong-model and provisional proposals instead of treating all PRs as accepted algorithms.",
+        "source": "../../report/source-audit-flags.json",
+        "remaining": "For each genuine global construction, repeat the exact-source count/guard/primitive/baseline audit. A compiler-only improvement may change constants while leaving kappa fixed; a greater kappa may have larger finite constants. Rejected or incomplete claims cannot acquire a proved crossover merely by being listed."
+      }
+    ],
+    "what_would_complete_a_finite_comparison": "Supply a concrete conditional candidate machine or executable with a verified complete upper time envelope on n>=n_gate, a specified comparator with a valid lower time envelope there, and solve their inequality including setup/base cases. Source-derived guard recipes and calibrated timing models are useful intermediate evidence but do not by themselves fulfill those three obligations."
+  },
+  "sources": [
+    {
+      "path": "certificates/frontier4470/CLAIM.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/certificates/frontier4470/CLAIM.json",
+      "local_file": "certificates__frontier4470__CLAIM.json",
+      "sha256": "d962932a6971b8f0054462c59f4ad699dcf3d1fbf886e1f856a6fa9e97491232",
+      "relevance": "Complex and BIT template ranks, kappa and nine outer savings"
+    },
+    {
+      "path": "research/joint-helper-lattice/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+      "local_file": "research__joint-helper-lattice__RESULT.json",
+      "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+      "relevance": "Exact compiler, raw costs, atom exponent and outer parameters"
+    },
+    {
+      "path": "research/joint-helper-lattice/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/PROOF.md",
+      "local_file": "research__joint-helper-lattice__PROOF.md",
+      "sha256": "43ef4251cc300f1b18cbe8cdb060f96f95748e6797d2478b4c04b79a8373ef91",
+      "relevance": "Tensor, completion, finite route/scalar budget and transfer argument"
+    },
+    {
+      "path": "docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+      "local_file": "docs__research__pr-intake-evidence__pr4470__PROOF-REVIEW.md",
+      "sha256": "5c111dd56beb53dc44ab727d96e1af03aaf50f3023d4342e2b0a89ede6cf585b",
+      "relevance": "Maintainer review and inherited hypothesis boundary"
+    },
+    {
+      "path": "research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+      "local_file": "research__kappa-rebuild__transfer-audit__FINITE-TEMPLATE-CLOSURE.md",
+      "sha256": "3f8508c63862dd83968bd30df91b08ba5afcee1e10db15ca546cdff0caef95d9",
+      "relevance": "Explicit C0 and effective p0 prescription, positive-child gate and row stock"
+    },
+    {
+      "path": "research/kappa-rebuild/transfer-audit/OUTER-TRANSFER-AUDIT.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/OUTER-TRANSFER-AUDIT.md",
+      "local_file": "research__kappa-rebuild__transfer-audit__OUTER-TRANSFER-AUDIT.md",
+      "sha256": "67569961d068633c6ff3ac9dfde47a0c17f0da6d20432799dcc920cff92b5779",
+      "relevance": "Support-local wrapper, group stock and nearly critical outer dimension"
+    },
+    {
+      "path": "research/pr4359-p7-padding/TENSOR.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/pr4359-p7-padding/TENSOR.md",
+      "local_file": "research__pr4359-p7-padding__TENSOR.md",
+      "sha256": "b2eba86cb979b4dc2a045f2e74bbd29e4d9e5ec87d6a2bc23ba7b54f1f58e3e3",
+      "relevance": "Full expanded counts and substituted coefficient/precision constants"
+    },
+    {
+      "path": "research/higher-moment-strictification/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/higher-moment-strictification/README.md",
+      "local_file": "research__higher-moment-strictification__README.md",
+      "sha256": "ebe80b68ff026ce90f71f274c31744f4c0b36132d15ebb7e39cf2d5df4df270d",
+      "relevance": "Compiler logarithmic majorant; explicitly uncomputed full-word counts"
+    },
+    {
+      "path": "research/kappa-rebuild/bit/DELAYED-COVER-BRIDGE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/bit/DELAYED-COVER-BRIDGE.md",
+      "local_file": "research__kappa-rebuild__bit__DELAYED-COVER-BRIDGE.md",
+      "sha256": "9731b93026717f5fa15851e3633cbb4bdc76eba2bffb9d6b4a3b69f7dd502443",
+      "relevance": "Full GL cover, prime selection, high-digit reserve and primitive cost scope"
+    },
+    {
+      "path": "research/pr4359-p7-padding/dependencies/compiler-refill/endpoint.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/pr4359-p7-padding/dependencies/compiler-refill/endpoint.py",
+      "local_file": "research__pr4359-p7-padding__dependencies__compiler-refill__endpoint.py",
+      "sha256": "d097e55f06c3f244f2074ffd7c1a0a5f3c4b4b6a6accf9619d1dde5c0ae85e15",
+      "relevance": "Current stop exponent and nine outer exponent formulas"
+    },
+    {
+      "path": "references/semantic-bulk/pr23/semantic-bulk-17-note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/references/semantic-bulk/pr23/semantic-bulk-17-note.tex",
+      "local_file": "references__semantic-bulk__pr23__semantic-bulk-17-note.tex",
+      "sha256": "652242b05174bb776ffc6165af170df9c8cf220dbd0fc26c24d778f320dbabc8",
+      "relevance": "p=6 ceil(log2 n), dimension scale, stopping at e<d^beta"
+    },
+    {
+      "path": "notes/stopped-product-complex.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/notes/stopped-product-complex.tex",
+      "local_file": "notes__stopped-product-complex.tex",
+      "sha256": "4738089103a4b263b3b0ef458f5ef35519c696f1ea871ae79e508d3720f5870a",
+      "relevance": "Inherited explicit d=floor(b_in^epsilon), p=6 b_in mapping"
+    }
+  ],
+  "outer_rows": {
+    "boundary_algebraic_matrix": "5919499595771787/1960000000000000000",
+    "fused_gaussian": "5919499587315361/1960000000000000000",
+    "global_coordinate_router": "2114107/700000000",
+    "group_bit_router": "2959750493657679/980000000000000000",
+    "group_scans": "699999999/700000000",
+    "main_transform": "5919498195771787/1960000000000000000",
+    "microbox_face_corrections": "26950000001/350000000",
+    "polynomial_products": "1399999999/1400000000",
+    "sparse_union_movement": "802169499595771787/1960000000000000000"
+  }
+}

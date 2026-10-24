@@ -1,0 +1,60 @@
+{
+  "pr": 940,
+  "own_head": "fccac36fa9bcc063c4fda733299a22349ce10e56",
+  "primary_path_candidates": [
+    "research/source-permutation-audit/CLAIM.json",
+    "research/source-permutation-audit/EXPECTED.json",
+    "research/source-permutation-audit/README.md",
+    "research/source-permutation-audit/SOURCE.json",
+    "research/source-permutation-audit/verify.py",
+    "research/source-permutation-audit/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/source-permutation-audit/SOURCE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/source-permutation-audit/README.md",
+      "file": "remaining-record-audit/artifacts/940/157a31ee176c__README.md",
+      "sha256": "157a31ee176ceb86243f025cf7fd896bac438a3834a2d49d0be6fb223d78bd0e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fccac36fa9bcc063c4fda733299a22349ce10e56/research/source-permutation-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/source-permutation-audit/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/940/c0d8b7dcb6a4__CLAIM.json",
+      "sha256": "c0d8b7dcb6a44fc0d800f64ee42ebd119b0d413bab7e4922ed8511539d80c822",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fccac36fa9bcc063c4fda733299a22349ce10e56/research/source-permutation-audit/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/source-permutation-audit/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/940/70a76ee8c32e__EXPECTED.json",
+      "sha256": "70a76ee8c32e1e78a63cfbfb80369e7c3ef604de68995778308d1401ee0384b7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fccac36fa9bcc063c4fda733299a22349ce10e56/research/source-permutation-audit/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/source-permutation-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/940/ebb76e7b050e__verify.py",
+      "sha256": "ebb76e7b050e5d552832b2f4ad7296716230164fa3617190a20039405e970ae1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fccac36fa9bcc063c4fda733299a22349ce10e56/research/source-permutation-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 940,
+      "head": "fccac36fa9bcc063c4fda733299a22349ce10e56",
+      "path": "research/source-permutation-audit/SOURCE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fccac36fa9bcc063c4fda733299a22349ce10e56/research/source-permutation-audit/SOURCE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a0a5d1967256b956df537aa36a6422d055c4ed4cda197d4faa923ef4bda74740",
+      "git_blob_sha1": "dc628873d200b76c5caf095259e042dcd977bca5",
+      "bytes": 2060,
+      "file": "individual-primary-interface-source/940/a0a5d1967256__SOURCE.json"
+    }
+  ]
+}

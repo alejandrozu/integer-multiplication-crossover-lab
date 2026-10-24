@@ -1,0 +1,72 @@
+{
+  "pr": 4489,
+  "own_head": "67d1ded63edc604b3d9e6506a4f5d3689bdc9f41",
+  "primary_path_candidates": [
+    "research/owned-query-ports/PROOF.md",
+    "research/owned-query-ports/README.md",
+    "research/owned-query-ports/VALIDATION.md",
+    "research/owned-query-ports/TASK.json",
+    "research/owned-query-ports/FRAMES.json",
+    "research/owned-query-ports/VERIFY.json",
+    "research/owned-query-ports/QUERIES.json",
+    "research/owned-query-ports/SNAPSHOT.json",
+    "research/owned-query-ports/INTEGRITY.json",
+    "research/owned-query-ports/SEARCH-RESULTS.json",
+    "research/owned-query-ports/verify.py",
+    "research/owned-query-ports/run_search.py",
+    "research/owned-query-ports/ATTRIBUTION.md"
+  ],
+  "selected_for_recovery": [
+    "research/owned-query-ports/TASK.json",
+    "research/owned-query-ports/FRAMES.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/owned-query-ports/PROOF.md",
+      "file": "remaining-record-audit/artifacts/4489/2c9eac4e07bd__PROOF.md",
+      "sha256": "2c9eac4e07bd6ec71846bb2ca92c9a14f81bbaefe64035a5274ca697a2354cf6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/67d1ded63edc604b3d9e6506a4f5d3689bdc9f41/research/owned-query-ports/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/owned-query-ports/verify.py",
+      "file": "remaining-record-audit/artifacts/4489/28f9a98160e4__verify.py",
+      "sha256": "28f9a98160e4ef39cd007bca893364f91d25c83a0824f630c2a70bad273f94ee",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/67d1ded63edc604b3d9e6506a4f5d3689bdc9f41/research/owned-query-ports/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/owned-query-ports/README.md",
+      "file": "remaining-record-audit/artifacts/4489/cf5854991d5e__README.md",
+      "sha256": "cf5854991d5e29c0848ba6c09f061f88b8cc4846d7ce900572f34888ae675372",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/67d1ded63edc604b3d9e6506a4f5d3689bdc9f41/research/owned-query-ports/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 20,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4489,
+      "head": "67d1ded63edc604b3d9e6506a4f5d3689bdc9f41",
+      "path": "research/owned-query-ports/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/67d1ded63edc604b3d9e6506a4f5d3689bdc9f41/research/owned-query-ports/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d9cbc75babf6223c88a08876893890581fe383fd20d5c6d78df76a6da8be2d5e",
+      "git_blob_sha1": "3884305e99f59fa5478d105430cfc9a7579bfe66",
+      "bytes": 4783,
+      "file": "individual-primary-interface-source/4489/d9cbc75babf6__TASK.json"
+    },
+    {
+      "pr": 4489,
+      "head": "67d1ded63edc604b3d9e6506a4f5d3689bdc9f41",
+      "path": "research/owned-query-ports/FRAMES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/67d1ded63edc604b3d9e6506a4f5d3689bdc9f41/research/owned-query-ports/FRAMES.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "65f216fe5749084d04dda3dc53d93139f69e80fad4954ca3ffc412c89033f19a",
+      "git_blob_sha1": "9cd5d7027f7dd4c0355e793a5e38da11724d65de",
+      "bytes": 54879,
+      "file": "individual-primary-interface-source/4489/65f216fe5749__FRAMES.json"
+    }
+  ]
+}

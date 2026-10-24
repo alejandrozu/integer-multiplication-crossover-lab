@@ -1,0 +1,92 @@
+[
+  {
+    "path": "research/capped-phase-fusion/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/README.md",
+    "file": "research__capped-phase-fusion__README.md",
+    "sha256": "d3fdbf5642ab684755bdecab12af247244a25b54765d6866bf5af5c342140aba"
+  },
+  {
+    "path": "research/capped-phase-fusion/OUTER-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/OUTER-AUDIT.md",
+    "file": "research__capped-phase-fusion__OUTER-AUDIT.md",
+    "sha256": "0068df9954b58a562e5d148e634e29abc5945ffa2f69919747513b99242cfba6"
+  },
+  {
+    "path": "research/capped-phase-fusion/CAPPED-INTERIORS.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/CAPPED-INTERIORS.md",
+    "file": "research__capped-phase-fusion__CAPPED-INTERIORS.md",
+    "sha256": "983c5cab2d2398f2192a8aec07daecb655f2de136e12a37f75672a14d27172ba"
+  },
+  {
+    "path": "research/capped-phase-fusion/BILATERAL-LDU.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/BILATERAL-LDU.md",
+    "file": "research__capped-phase-fusion__BILATERAL-LDU.md",
+    "sha256": "0d65e66d227464dda1a19f781ae0a0be671cbfd347c41e37ec954f3d629d8a77"
+  },
+  {
+    "path": "research/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+    "file": "research__capped-phase-fusion__SHALLOW-TOEPLITZ.md",
+    "sha256": "b384b93f3fb4a8c97da2e617ebc14d55cebb0a739070e7f8dbb66f63e24e9310"
+  },
+  {
+    "path": "research/capped-phase-fusion/MATRIX-COROLLARY.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/MATRIX-COROLLARY.md",
+    "file": "research__capped-phase-fusion__MATRIX-COROLLARY.md",
+    "sha256": "2d7fb1088e58bb86e574277733e082f135362215a69add71d9090213d32c9221"
+  },
+  {
+    "path": "research/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+    "file": "research__capped-phase-fusion__LOG-A-PHASE-SCHUR-AUDIT.md",
+    "sha256": "e05d6b8596c80b6e8676569a0ff464a29fa704c3304143f58914f47cdf38b272"
+  },
+  {
+    "path": "research/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+    "file": "research__capped-phase-fusion__FORWARD-SMALL-A-AUDIT.md",
+    "sha256": "e37aaa30b15671a1dff00676b14572213efaaac99df202dbba5e09f57af487c0"
+  },
+  {
+    "path": "research/capped-phase-fusion/gaussian_fixed_width_note.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/gaussian_fixed_width_note.tex",
+    "file": "research__capped-phase-fusion__gaussian_fixed_width_note.tex",
+    "sha256": "6f3edb7b238f2b6af4f3e2d98dee90fe6f4ba063a5ccd120422e45c941712aab"
+  },
+  {
+    "path": "research/capped-phase-fusion/phase_fusion_note.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/phase_fusion_note.tex",
+    "file": "research__capped-phase-fusion__phase_fusion_note.tex",
+    "sha256": "afa44dcbff3a9ef3f81021668550ef260820b0156321b74eb7f947f0bddb1bce"
+  },
+  {
+    "path": "research/capped-phase-fusion/TENSOR-COMPILER.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/TENSOR-COMPILER.md",
+    "file": "research__capped-phase-fusion__TENSOR-COMPILER.md",
+    "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15"
+  },
+  {
+    "path": "research/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+    "file": "research__capped-phase-fusion__SUPPLIER-SUPPORT-AUDIT.md",
+    "sha256": "c41a2571b9c4c1d7920633f10c3ed2c74da39ca3bc8d6a910e6ffed380327413"
+  },
+  {
+    "path": "research/capped-phase-fusion/HALO-THEOREM.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/capped-phase-fusion/HALO-THEOREM.md",
+    "file": "research__capped-phase-fusion__HALO-THEOREM.md",
+    "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058"
+  },
+  {
+    "path": "references/semantic-bulk/rad20/reports/review-phase-cell-inverse.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/references/semantic-bulk/rad20/reports/review-phase-cell-inverse.md",
+    "file": "references__semantic-bulk__rad20__reports__review-phase-cell-inverse.md",
+    "sha256": "113927dd4fb77a55a457bd5f6da8cbfc7262d0fbc4e9d708b591a1d632e6caf6"
+  },
+  {
+    "path": "references/semantic-bulk/rad20/reports/review-bulk-resampling.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/references/semantic-bulk/rad20/reports/review-bulk-resampling.md",
+    "file": "references__semantic-bulk__rad20__reports__review-bulk-resampling.md",
+    "sha256": "12aefaa9a0eee367fb71e8f910ed5f0094e1203d2caa29836b0c37887c446c29"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "schema": "pr4470-replication-depth-ai-peer-review/1",
+  "status": "PASS_UNDER_RETAINED_CONDITIONAL_CONTRACTS",
+  "reviewer": "separate leaderboard_source AI worker",
+  "independent_human_review": false,
+  "Lean_verification": false,
+  "native_identities_replayed": false,
+  "proof_and_certificate_sha256": {
+    "pr4470-replication-depth-upper.md": "b1f2678e45edc4d20125551f11eda421e9eafa7e90fb284a00196b0811e1a159",
+    "pr4470-replication-depth-upper.json": "eaeb63b1c99140acf6ceb10b2055693c6049af07fe5312437e7283750e05e125",
+    "pr4470_replication_depth_upper.py": "830eee7aed8e0a0b192ded646e0c3b5166bcf17f28e4f6dbfe736b227d97e30d",
+    "pr4470-replication-depth-peer-review.md": "8bdb28522ddd119085daa6aa404394f29c43b61d41437db25fe9e2e2ee6dfbdb"
+  },
+  "reviewed_certificate_checks": 224,
+  "scientific_review_closed": true,
+  "scope": [
+    "rank contraction on original nonbase compiler edges",
+    "synchronized replica barrier and distinct physical-slot ownership",
+    "weighted scalar-height and paid-stage causal bound",
+    "exact common-grid native precision composition",
+    "normalized work with owned banks retained",
+    "actual-width row-stock reserve and fallback",
+    "seven outer interface substitutions"
+  ],
+  "fixes_reviewed": [
+    "retain original base choices",
+    "collapse fixed monomial adapter to public wiring and constant phase layer",
+    "distinct source/owned-slot invariant",
+    "33p small-base tariff retained"
+  ],
+  "limitations": [
+    "conditional native and outer analytic/recovery interfaces retained",
+    "no source-to-circuit formal verification",
+    "no actual first crossover or practical runtime claim"
+  ]
+}

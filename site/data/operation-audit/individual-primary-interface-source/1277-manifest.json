@@ -1,0 +1,64 @@
+{
+  "pr": 1277,
+  "own_head": "02d279515ff1fc468ab99a19d89461f1b6391507",
+  "primary_path_candidates": [
+    "research/frontier1094-ancestry-binding-seed69/EXPECTED.json",
+    "research/frontier1094-ancestry-binding-seed69/README.md",
+    "research/frontier1094-ancestry-binding-seed69/TASK.json",
+    "research/frontier1094-ancestry-binding-seed69/VERIFY.json",
+    "research/frontier1094-ancestry-binding-seed69/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1094-ancestry-binding-seed69/TASK.json",
+    "research/frontier1094-ancestry-binding-seed69/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-ancestry-binding-seed69/README.md",
+      "file": "remaining-record-audit/artifacts/1277/f783dee0cfef__README.md",
+      "sha256": "f783dee0cfef8234eb748ad10088f6badb9ea46cdbd11a917160c5117e2cbc82",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/02d279515ff1fc468ab99a19d89461f1b6391507/research/frontier1094-ancestry-binding-seed69/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-ancestry-binding-seed69/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1277/a9b84eeca86e__EXPECTED.json",
+      "sha256": "a9b84eeca86e818dcf2fba9ded17de7a697dd273f62b5587b7ade51bfffa3034",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/02d279515ff1fc468ab99a19d89461f1b6391507/research/frontier1094-ancestry-binding-seed69/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-ancestry-binding-seed69/verify.py",
+      "file": "remaining-record-audit/artifacts/1277/91d9dc65da47__verify.py",
+      "sha256": "91d9dc65da472b8a3ecc984229af6447f56cc6dcca960f1d1a583ca4bda68d6e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/02d279515ff1fc468ab99a19d89461f1b6391507/research/frontier1094-ancestry-binding-seed69/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1277,
+      "head": "02d279515ff1fc468ab99a19d89461f1b6391507",
+      "path": "research/frontier1094-ancestry-binding-seed69/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/02d279515ff1fc468ab99a19d89461f1b6391507/research/frontier1094-ancestry-binding-seed69/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4adc5f5d7b747947030ec9f5afd38cdfcb8836ea6859906acbdaeb34cfe2d07b",
+      "git_blob_sha1": "946578de20dcdf0b9e9b61e367fe30a7607a6be4",
+      "bytes": 5674,
+      "file": "individual-primary-interface-source/1277/4adc5f5d7b74__TASK.json"
+    },
+    {
+      "pr": 1277,
+      "head": "02d279515ff1fc468ab99a19d89461f1b6391507",
+      "path": "research/frontier1094-ancestry-binding-seed69/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/02d279515ff1fc468ab99a19d89461f1b6391507/research/frontier1094-ancestry-binding-seed69/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0354284f4680a7ec6cc1d044bc7ed9d9b48870d32c39a05fc7474fb6f13f5ea4",
+      "git_blob_sha1": "3af8a22c73907be1e02407d3aa06144eb33bef42",
+      "bytes": 2772,
+      "file": "individual-primary-interface-source/1277/0354284f4680__VERIFY.json"
+    }
+  ]
+}

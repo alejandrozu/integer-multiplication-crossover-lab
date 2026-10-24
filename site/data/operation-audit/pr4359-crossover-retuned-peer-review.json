@@ -1,0 +1,42 @@
+{
+  "schema": "pr4359-own-p3-upper-peer-review/1",
+  "status": "PASS_CONDITIONAL_OWN_SOURCE_AND_WRITTEN_UPPER_REVIEW",
+  "reviewer": "leaderboard_source, separate collaborating AI agent; not independent human review or Lean formalization",
+  "reviewed_sha256": {
+    "pr4359-fermat-helper-upper.md": "829e34086a61475dc2b4037bd268164403c63b823d89a6951a83e7f765d54622",
+    "pr4359-fermat-helper-upper.json": "a6dbc332312b13568ae71287c88dc06e6325a8eb551016251f8d9057bc06277c",
+    "pr4359-crossover-retuned-upper.md": "c72245e4824b14a14524c55361fe4de7687f3aca24f2305f0178c61776664987",
+    "pr4359-crossover-retuned-upper.json": "616342a1df71fd20778913e258e6492eee81afdb5c4d75156a62ef3a980f13b8",
+    "pr4359_fermat_helper_upper.py": "c893865308d8586f1e06b6f4f132f48cc32f115e7d708ce607e48fccbf013e92"
+  },
+  "checks_reviewed": {
+    "record": 43124,
+    "early": 43125
+  },
+  "findings": [],
+  "resolved_findings": [
+    "Transient73-axis frames were explicitly distinguished from57selected axes; per-contextguard doubled, with existing-array spectator capacity checked so no extra coefficient volume is free.",
+    "Unauthenticated unused optionalBITatom predicate relabelled auxiliary; no optionalBITwrapper used."
+  ],
+  "scope": [
+    "Own p3 rawword/controller/affine-cover and exactH/saving bindings",
+    "3136contact inverses,265owner bases,672typed endpoints and2856helper axis type checks",
+    "Source-specificp3finitebudgetKlog128, rank-mass normalized work, compiler depth57H and stock width",
+    "Completed Clifford stack with physical context dimension at most2n and explicit2e\u2264existingarraycapacity",
+    "Own \u03ba.0023 recordtail and common \u03baeff.002 early branch with disclosed own auxiliariesa.002301/b.002302",
+    "Fresh source strict predicates, three applicable functionalguards plus unusedauxiliary check, seven costrows, precision/prime/capacity and scalarhelper pricing",
+    "Ownrecordtailpreserved and same unreduced-core/unchangedGMPinactive family lower scope"
+  ],
+  "retained_assumptions": [
+    "Own arbitrary-column operator and absolute-phase identities",
+    "Complete spectators/rolepartition/owned erasure/compiler and Clifford normal-form contracts",
+    "Parameterized Gaussian/fine-prime/boundary/precision/recovery analytic branch",
+    "Finite native optimizedGMP correctness/halting"
+  ],
+  "not_claimed": [
+    "Fresh full native noncommutative identity replay",
+    "New exponent record",
+    "Complete Lean proof or human theorem verification",
+    "Measured physical speedup or exact individual first crossover"
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 3111,
+    "head": "fcba8eab38c51f4cdb685559be505222d44f8ddc",
+    "path": "research/kappa010-rank-cap-floor/README.md",
+    "api_sha": "0d1c55595793e9406cab5b5f57ae8b05e375bc2c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fcba8eab38c51f4cdb685559be505222d44f8ddc/research%2Fkappa010-rank-cap-floor%2FREADME.md",
+    "priority": 240,
+    "hint_base": "research/kappa010-rank-cap-floor/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fcba8eab38c51f4cdb685559be505222d44f8ddc/research/kappa010-rank-cap-floor/README.md",
+    "file": "artifacts\\3111\\475fb65d1bf5__README.md",
+    "sha256": "475fb65d1bf5256a4c9d2a31f4bfccd857984ccab824d034bf660fa88cdc039d",
+    "git_blob_sha1": "0d1c55595793e9406cab5b5f57ae8b05e375bc2c",
+    "bytes": 9492,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:15.362409+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 3111,
+    "head": "fcba8eab38c51f4cdb685559be505222d44f8ddc",
+    "path": "research/kappa010-rank-cap-floor/RESULT.json",
+    "api_sha": "56fb37958a5555d33e6278e864ce0352a4243e78",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fcba8eab38c51f4cdb685559be505222d44f8ddc/research%2Fkappa010-rank-cap-floor%2FRESULT.json",
+    "priority": 210,
+    "hint_base": "research/kappa010-rank-cap-floor/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fcba8eab38c51f4cdb685559be505222d44f8ddc/research/kappa010-rank-cap-floor/RESULT.json",
+    "file": "artifacts\\3111\\e3241b79db63__RESULT.json",
+    "sha256": "e3241b79db63215b395fbbf4ec5130cd0588e5df716361163322ff5c1d60cf55",
+    "git_blob_sha1": "56fb37958a5555d33e6278e864ce0352a4243e78",
+    "bytes": 11701,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:15.598654+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 3111,
+    "head": "fcba8eab38c51f4cdb685559be505222d44f8ddc",
+    "path": "research/kappa010-rank-cap-floor/verify.py",
+    "api_sha": "4d7ed9c2e50f67640b506c326befae0ddca4baea",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fcba8eab38c51f4cdb685559be505222d44f8ddc/research%2Fkappa010-rank-cap-floor%2Fverify.py",
+    "priority": 155,
+    "hint_base": "research/kappa010-rank-cap-floor/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fcba8eab38c51f4cdb685559be505222d44f8ddc/research/kappa010-rank-cap-floor/verify.py",
+    "file": "artifacts\\3111\\2ec71f22db74__verify.py",
+    "sha256": "2ec71f22db7475353444eeeabd19f1842ceb565d6199b8acbfce124576efcfed",
+    "git_blob_sha1": "4d7ed9c2e50f67640b506c326befae0ddca4baea",
+    "bytes": 15416,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:15.597656+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

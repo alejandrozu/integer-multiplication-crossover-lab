@@ -1,0 +1,546 @@
+{
+  "schema": "authenticated-pr4470-descendant-bindings-v1",
+  "main_source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "status": "source-bindings-and-4479-fresh-arithmetic-pass; no runtime-bound transfer asserted",
+  "descendants": [
+    {
+      "pr": 4479,
+      "title": "Reduce #4470 local compiler rank 115\u00d7 at unchanged conditional \u03ba",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4479",
+      "head_commit": "035008ddc2cea4949829d309770e67479e696d9e",
+      "created_at": "2026-10-22T00:15:51Z",
+      "merged_at": "2026-10-22T02:49:06Z",
+      "state": "MERGED",
+      "date_scope": "GitHub mergedAt; not proof-assistant or independent-human mathematical acceptance.",
+      "kappa": "60403/20000000",
+      "new_kappa_claimed": false,
+      "raw_profile": "PR4470 p16 joint-helper lattice",
+      "raw_ambient": 145,
+      "raw_productive_fields": 10928,
+      "raw_paid_calls": 64620,
+      "raw_rank_surplus": 752,
+      "raw_program_identity": "Source-bound original native word/controller retained; all five compact source pins match and controller bytes identical.",
+      "uniform_saving": "471898442219/156250001562500",
+      "strict_uniform_statement": "P_N/W_N < N^(1-uniform_saving) < N",
+      "uniform_statement_scope": "Conditional finite compiler theorem and source-certified rank witness; expanded word not materialized.",
+      "same_4470_outer_delta": false,
+      "outer_delta": "1/60000000600000000",
+      "outer_parameters": {
+        "a": "90604500906047/30000000300000000",
+        "b": "36241800362419/12000000120000000",
+        "beta": "20000000199999999/20000000200000000",
+        "bit_saving": "17/5000",
+        "cap_xi": "363708067274161256350671866465323/400000008000000040000000000000000",
+        "complex_uniform_saving": "471898442219/156250001562500",
+        "d": "1/60000000600000000",
+        "epsilon": "60000000599999999/60000000600000000",
+        "kappa": "60403/20000000",
+        "lambda_": "119637583196375813/120000001200000000",
+        "lambda_prime": "19939597199395969/20000000200000000",
+        "layout": "1/60000000600000000",
+        "q": "60403000604031/20000000200000000",
+        "r0": "1/600000006000000000",
+        "stop": "1/60000000600000000",
+        "tested_saving": "4719/1562500"
+      },
+      "native_all_column_owned_matching_hypotheses": "Retained from PR4470; not discharged by arithmetic replay.",
+      "H": 558100005581,
+      "N": "2^558100005581",
+      "tensor_power": 682,
+      "paid_cutoff_base": 17,
+      "productive_floor_base": 21,
+      "tail_offset": "1/8",
+      "compiler_log_power": 143,
+      "compiler_theta": "94/101",
+      "compiler_gap": "1/100000001",
+      "compiler_contraction_eta_interval": {
+        "lower": "0.000035221718023643756209805039",
+        "upper": "0.000035221718023643756209805040"
+      },
+      "compiler_family": "Retained logarithmic majorant after changed paid completion/splitting and slack allocation",
+      "strict_rank_witness": "(100000001*5581+1)^143 < 2^5581; preceding integer fails",
+      "source_result": "sources/research/compact-joint-compiler/arithmetic/RESULT.json",
+      "fresh_arithmetic_replay": true,
+      "fresh_native_replay": false,
+      "eligible_for_H_only_upper_substitution": false,
+      "reason_upper_not_transferred": "v,cutoff,majorant and outer slack differ from4470.",
+      "raw_scalar_lower_reuse_candidate": true
+    },
+    {
+      "pr": 4483,
+      "title": "Remove tensor padding (199.32\u00d7 smaller uniform-rank exponent)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4483",
+      "head_commit": "fb0c208864e6b24e3473318a058aa5b2dbd5764b",
+      "created_at": "2026-10-22T00:57:47Z",
+      "merged_at": "2026-10-22T02:49:06Z",
+      "state": "MERGED",
+      "date_scope": "GitHub mergedAt; not proof-assistant or independent-human mathematical acceptance.",
+      "kappa": "60403/20000000",
+      "new_kappa_claimed": false,
+      "raw_profile": "PR4470 p16 joint-helper lattice",
+      "raw_ambient": 145,
+      "raw_productive_fields": 10928,
+      "raw_paid_calls": 64620,
+      "raw_rank_surplus": 752,
+      "raw_program_identity": "Source-bound original native word/controller retained; all five compact source pins match and controller bytes identical.",
+      "uniform_saving": "471898442219/156250001562500",
+      "strict_uniform_statement": "P_N/W_N < N^(1-uniform_saving) < N",
+      "uniform_statement_scope": "Conditional finite compiler theorem and source-certified rank witness; expanded word not materialized.",
+      "same_4470_outer_delta": false,
+      "outer_delta": "1/60000000600000000",
+      "outer_parameters": {
+        "a": "90604500906047/30000000300000000",
+        "b": "36241800362419/12000000120000000",
+        "beta": "20000000199999999/20000000200000000",
+        "bit_saving": "17/5000",
+        "cap_xi": "363708067274161256350671866465323/400000008000000040000000000000000",
+        "complex_uniform_saving": "471898442219/156250001562500",
+        "d": "1/60000000600000000",
+        "epsilon": "60000000599999999/60000000600000000",
+        "kappa": "60403/20000000",
+        "lambda_": "119637583196375813/120000001200000000",
+        "lambda_prime": "19939597199395969/20000000200000000",
+        "layout": "1/60000000600000000",
+        "q": "60403000604031/20000000200000000",
+        "r0": "1/600000006000000000",
+        "stop": "1/60000000600000000",
+        "tested_saving": "4719/1562500"
+      },
+      "native_all_column_owned_matching_hypotheses": "Retained from PR4470; not discharged by arithmetic replay.",
+      "H": 2800000000,
+      "N": "2^2800000000",
+      "tensor_power": 1,
+      "paid_cutoff_base": null,
+      "productive_floor_base": null,
+      "compiler_family": "Padding-free adaptive-height direct finite compiler",
+      "strict_rank_witness": "Source RESULT p16 final_logarithmic_margin lower >0 and positive uniform saving; ordinary base fully funded",
+      "source_result": "sources/research/rank-convergence/RESULT.json#/examples/p16",
+      "fresh_arithmetic_replay": false,
+      "fresh_native_replay": false,
+      "eligible_for_H_only_upper_substitution": false,
+      "reason_upper_not_transferred": "Removes tensor/completion/splitting; different finite compiler and4479outerpoint.",
+      "raw_scalar_lower_reuse_candidate": true
+    },
+    {
+      "pr": 4533,
+      "title": "Sharper #4483 witnesses: p16 2^1587000000, native4453 2^713000000, p7 2^2253000000, same \u03ba (compiler improvement, no new \u03ba)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4533",
+      "head_commit": "e9e9f244108ab4c21f0293cbfca9cfc3206e772a",
+      "created_at": "2026-10-22T04:10:54Z",
+      "merged_at": "2026-10-22T19:19:24Z",
+      "state": "MERGED",
+      "date_scope": "GitHub mergedAt; not proof-assistant or independent-human mathematical acceptance.",
+      "kappa": "60403/20000000",
+      "new_kappa_claimed": false,
+      "raw_profile": "PR4470 p16 joint-helper lattice",
+      "raw_ambient": 145,
+      "raw_productive_fields": 10928,
+      "raw_paid_calls": 64620,
+      "raw_rank_surplus": 752,
+      "raw_program_identity": "Source-bound original native word/controller retained; all five compact source pins match and controller bytes identical.",
+      "uniform_saving": "471898442219/156250001562500",
+      "strict_uniform_statement": "P_N/W_N < N^(1-uniform_saving) < N",
+      "uniform_statement_scope": "Conditional finite compiler theorem and source-certified rank witness; expanded word not materialized.",
+      "same_4470_outer_delta": false,
+      "outer_delta": "1/60000000600000000",
+      "outer_parameters": {
+        "a": "90604500906047/30000000300000000",
+        "b": "36241800362419/12000000120000000",
+        "beta": "20000000199999999/20000000200000000",
+        "bit_saving": "17/5000",
+        "cap_xi": "363708067274161256350671866465323/400000008000000040000000000000000",
+        "complex_uniform_saving": "471898442219/156250001562500",
+        "d": "1/60000000600000000",
+        "epsilon": "60000000599999999/60000000600000000",
+        "kappa": "60403/20000000",
+        "lambda_": "119637583196375813/120000001200000000",
+        "lambda_prime": "19939597199395969/20000000200000000",
+        "layout": "1/60000000600000000",
+        "q": "60403000604031/20000000200000000",
+        "r0": "1/600000006000000000",
+        "stop": "1/60000000600000000",
+        "tested_saving": "4719/1562500"
+      },
+      "native_all_column_owned_matching_hypotheses": "Retained from PR4470; not discharged by arithmetic replay.",
+      "H": 1587000000,
+      "N": "2^1587000000",
+      "tensor_power": 1,
+      "paid_cutoff_base": null,
+      "productive_floor_base": null,
+      "compiler_family": "Same4483 direct compiler, retuned finite geometry",
+      "strict_rank_witness": "Pinned WITNESS-p16 H1587000000; inherited exact checker/funding theorem, source README margin>0.00297292",
+      "source_result": "sources/research/adaptive-witness-retune/WITNESS-p16.json",
+      "fresh_arithmetic_replay": false,
+      "fresh_native_replay": false,
+      "eligible_for_H_only_upper_substitution": false,
+      "reason_upper_not_transferred": "Different direct-compiler geometry; full4470upper constants not proved for this realization.",
+      "raw_scalar_lower_reuse_candidate": true
+    }
+  ],
+  "excluded_examples": [
+    {
+      "pr": 4480,
+      "title": "Reduce sufficient uniform-rank exponent 18.28\u00d7 with net taxes and log moments",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4480",
+      "head_commit": "4cf054a50c5718616594ec4ca2c9114278120a8b",
+      "created_at": "2026-10-22T00:17:50Z",
+      "merged_at": "2026-10-22T02:49:06Z",
+      "state": "MERGED",
+      "date_scope": "GitHub mergedAt; not proof-assistant or independent-human mathematical acceptance.",
+      "eligible_same_p16_family": false,
+      "reason": "Different native4453 raw profile and retained\u03ba; not a4470same-\u03barank-only descendant.",
+      "H": 125790000000,
+      "kappa": "7503/2500000",
+      "tensor_power": 260,
+      "raw_ambient": 153,
+      "raw_productive_fields": 11560
+    }
+  ],
+  "shared_raw_source_pins": [
+    {
+      "path": "research/joint-helper-lattice/CONTROLLER.json",
+      "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f"
+    },
+    {
+      "path": "research/joint-helper-lattice/NATIVE.json.gz",
+      "sha256": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6"
+    },
+    {
+      "path": "research/joint-helper-lattice/PATCH.json",
+      "sha256": "296d0e8c58cc70febe042c681ef30d6bb469818c0835fbcaac8aa8d330f5b727"
+    },
+    {
+      "path": "research/joint-helper-lattice/RESULT.json",
+      "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+    },
+    {
+      "path": "research/joint-helper-lattice/native_joint.py",
+      "sha256": "50869b1bcad7493e6b4cb2a4cd5d2fd9a193a5921100483fa2c3f2c999ddfd46"
+    }
+  ],
+  "historical_head_byte_comparisons": [
+    {
+      "pr": 4479,
+      "head_commit": "035008ddc2cea4949829d309770e67479e696d9e",
+      "path": "research/compact-joint-compiler/arithmetic/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/035008ddc2cea4949829d309770e67479e696d9e/research/compact-joint-compiler/arithmetic/RESULT.json",
+      "local_path": "pr-heads/4479/research/compact-joint-compiler/arithmetic/RESULT.json",
+      "sha256": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+      "same_as_pinned_main_bytes": true
+    },
+    {
+      "pr": 4479,
+      "head_commit": "035008ddc2cea4949829d309770e67479e696d9e",
+      "path": "research/compact-joint-compiler/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/035008ddc2cea4949829d309770e67479e696d9e/research/compact-joint-compiler/PROOF.md",
+      "local_path": "pr-heads/4479/research/compact-joint-compiler/PROOF.md",
+      "sha256": "3f337fba12288d3b5e51af9541e2a645f79c8668fabf48b212672285fe6150b4",
+      "same_as_pinned_main_bytes": true
+    },
+    {
+      "pr": 4480,
+      "head_commit": "4cf054a50c5718616594ec4ca2c9114278120a8b",
+      "path": "research/net-tax-rank-compiler/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4cf054a50c5718616594ec4ca2c9114278120a8b/research/net-tax-rank-compiler/RESULT.json",
+      "local_path": "pr-heads/4480/research/net-tax-rank-compiler/RESULT.json",
+      "sha256": "5e0c333d1279fc07add5776db6483dcc251128aeda73791472d6b9cab05186f5",
+      "same_as_pinned_main_bytes": true
+    },
+    {
+      "pr": 4483,
+      "head_commit": "fb0c208864e6b24e3473318a058aa5b2dbd5764b",
+      "path": "research/rank-convergence/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb0c208864e6b24e3473318a058aa5b2dbd5764b/research/rank-convergence/RESULT.json",
+      "local_path": "pr-heads/4483/research/rank-convergence/RESULT.json",
+      "sha256": "82d787ad49d78d74a3945911b8a023ec075bb3208cbec98200002e85f92498d1",
+      "same_as_pinned_main_bytes": true
+    },
+    {
+      "pr": 4533,
+      "head_commit": "e9e9f244108ab4c21f0293cbfca9cfc3206e772a",
+      "path": "research/adaptive-witness-retune/WITNESS-p16.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e9e9f244108ab4c21f0293cbfca9cfc3206e772a/research/adaptive-witness-retune/WITNESS-p16.json",
+      "local_path": "pr-heads/4533/research/adaptive-witness-retune/WITNESS-p16.json",
+      "sha256": "4c8b392e3ea9f9c267249654d868718a0589c156df6f336121dfdd112229af53",
+      "same_as_pinned_main_bytes": true
+    },
+    {
+      "pr": 4479,
+      "head_commit": "035008ddc2cea4949829d309770e67479e696d9e",
+      "path": "research/compact-joint-compiler/SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/035008ddc2cea4949829d309770e67479e696d9e/research/compact-joint-compiler/SOURCES.json",
+      "local_path": "pr-heads/4479/research/compact-joint-compiler/SOURCES.json",
+      "sha256": "e6c818e4d920e90728daef72180143146d4750655afb48aff735714ee5f73cca",
+      "same_as_pinned_main_bytes": true
+    }
+  ],
+  "4479_arithmetic_replay": {
+    "status": "PASS",
+    "command": "python -B sources/research/compact-joint-compiler/arithmetic/verify.py",
+    "exit_code": 0,
+    "stdout": "{\"kappa\": \"0.00302015\", \"outer_predicates\": \"54 strict + 4 functional + 63 legacy\", \"paid_calls\": 64620, \"status\": \"PASS_COMPLETE_CONDITIONAL_ARITHMETIC\", \"uniform_rank\": \"2^558100005581\"}",
+    "script_sha256": "4ad2d95bee6e6fe2ae4462e5dd0921c64677fc86a5da1f38a198546c28c7f1b1",
+    "result_sha256": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+    "fresh_scope": "Eight owned source hashes, complete p16 arithmetic, tails, compiler test,54strict+4functional+63legacy predicates. Not a fresh native/operator/physical replay."
+  },
+  "primitive_census_reuse_scope": "Unchanged raw program bytes permit reuse of a separately certified raw scalar census (630412 realADD/353492NEG). Any whole-uniform lower must additionally use the finite compiler physical-retention/rank-mass argument and same circuit model; source binding alone is not that proof.",
+  "rank_mass_nonempty_argument": "For a complete charged realization, strictP_N<NW_N and rawsurplus752 imply at least one positive-column raw unit occurrence; complement/splitting/base operations preserve rank mass. This implication remains conditional on the stated chronological whole-job/native realization contracts.",
+  "no_blind_upper_transfer": true,
+  "no_new_kappa_points": true,
+  "all_columns_freshly_replayed": false,
+  "source_manifest": [
+    {
+      "path": "research/compact-joint-compiler/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/README.md",
+      "sha256": "0ebbdd9b1d3d253c65e9bcabf832fa5be0ee120d6b755465d6714a71b1df48bc",
+      "bytes": 2614,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/PROOF.md",
+      "sha256": "3f337fba12288d3b5e51af9541e2a645f79c8668fabf48b212672285fe6150b4",
+      "bytes": 3714,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/SOURCES.json",
+      "sha256": "e6c818e4d920e90728daef72180143146d4750655afb48aff735714ee5f73cca",
+      "bytes": 17298,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/verify.py",
+      "sha256": "d621c267d2e36db96d75db5e1295fc74d11a08b35c29e86ccbc6cf65fba98d7b",
+      "bytes": 2353,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/REUSE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/REUSE.md",
+      "sha256": "ebff2e30edfb2fa34de2e1442f993f2ca2ca91645b90e2685e36af72f3d36a58",
+      "bytes": 4387,
+      "status": "saved"
+    },
+    {
+      "path": "research/net-tax-rank-compiler/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/net-tax-rank-compiler/README.md",
+      "sha256": "cb11f1a8279ae3c97551e7bbe382e16dfb8113bcf173fa153c5d6ef8ab558545",
+      "bytes": 9064,
+      "status": "saved"
+    },
+    {
+      "path": "research/net-tax-rank-compiler/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/net-tax-rank-compiler/PROOF.md",
+      "sha256": "b4a730f4891144984350f9e3ed602c2c1358cce8a10dc90aa7190bf86549f56f",
+      "bytes": 12190,
+      "status": "saved"
+    },
+    {
+      "path": "research/net-tax-rank-compiler/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/net-tax-rank-compiler/RESULT.json",
+      "sha256": "5e0c333d1279fc07add5776db6483dcc251128aeda73791472d6b9cab05186f5",
+      "bytes": 68188,
+      "status": "saved"
+    },
+    {
+      "path": "research/net-tax-rank-compiler/SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/net-tax-rank-compiler/SOURCES.json",
+      "sha256": "1bab3c4f65b07c4920fc62a1ccff65ceec07ac399048c04dc9b327226ae2446f",
+      "bytes": 3590,
+      "status": "saved"
+    },
+    {
+      "path": "research/net-tax-rank-compiler/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/net-tax-rank-compiler/verify.py",
+      "sha256": "f012a330877f7774ecb48aad8c47e61674e2c0eec1f79aa99be05862c643b8b8",
+      "bytes": 9374,
+      "status": "saved"
+    },
+    {
+      "path": "research/rank-convergence/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/README.md",
+      "sha256": "e77af882d3f02a9d3f2dd19dce889052f63892a1c8f39fdbe0813ff5fab5e8c1",
+      "bytes": 10321,
+      "status": "saved"
+    },
+    {
+      "path": "research/rank-convergence/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/PROOF.md",
+      "sha256": "3c971c5670669cb36312815b111e64c83e1490a10ee82f5412bd9aee01e9c376",
+      "bytes": 16539,
+      "status": "saved"
+    },
+    {
+      "path": "research/rank-convergence/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/RESULT.json",
+      "sha256": "82d787ad49d78d74a3945911b8a023ec075bb3208cbec98200002e85f92498d1",
+      "bytes": 16756,
+      "status": "saved"
+    },
+    {
+      "path": "research/rank-convergence/SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/SOURCES.json",
+      "sha256": "aa1c76dc8939c41a61ac047c86a6099c90c81dc2d69a902823b16d4428ca2a00",
+      "bytes": 4295,
+      "status": "saved"
+    },
+    {
+      "path": "research/rank-convergence/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/verify.py",
+      "sha256": "d3844d7d0099a51f2cd2f2007122cfc396e0ad685285d09f5ff11c370e0c495b",
+      "bytes": 8779,
+      "status": "saved"
+    },
+    {
+      "path": "research/adaptive-witness-retune/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/adaptive-witness-retune/README.md",
+      "sha256": "9c9de571e1452a917612d6b7c018a6852428aa36f5db78af4f5e90e471188358",
+      "bytes": 4523,
+      "status": "saved"
+    },
+    {
+      "path": "research/adaptive-witness-retune/SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/adaptive-witness-retune/SOURCES.json",
+      "sha256": "84790116e228301d1131b8fdf74990a0a106ded484c44bc84abf98648e80e699",
+      "bytes": 1804,
+      "status": "saved"
+    },
+    {
+      "path": "research/adaptive-witness-retune/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/adaptive-witness-retune/verify.py",
+      "sha256": "5be12f8448d64c32419920b96b290ca2084cf8f7f51a82effb53c50fe03e3618",
+      "bytes": 10166,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/RESULT.json",
+      "sha256": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+      "bytes": 24808,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/verify.py",
+      "sha256": "4ad2d95bee6e6fe2ae4462e5dd0921c64677fc86a5da1f38a198546c28c7f1b1",
+      "bytes": 8496,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/PROOF.txt",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/PROOF.txt",
+      "sha256": "273598588316e29a45e3940c6f5070d973b1998fe5b9c582b23bfe87502724cc",
+      "bytes": 4244,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/controller.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/controller.json",
+      "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+      "bytes": 57924,
+      "status": "saved"
+    },
+    {
+      "path": "research/adaptive-witness-retune/WITNESS-p16.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/adaptive-witness-retune/WITNESS-p16.json",
+      "sha256": "4c8b392e3ea9f9c267249654d868718a0589c156df6f336121dfdd112229af53",
+      "bytes": 418,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/INPUTS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/INPUTS.json",
+      "sha256": "65e2517e1aa87d2313d922c7684037d15389e995f096746003358bf2317f59ac",
+      "bytes": 1751,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/intervals.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/intervals.py",
+      "sha256": "6dcf8ed644b84bea85bf52671b9124436a6eaa0f811a724a35b12edbc24624bc",
+      "bytes": 2910,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/outer_ledger.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/outer_ledger.py",
+      "sha256": "754364e295b6566de9a3e543c1e935433aad47eebcf14475f65b83568446ba54",
+      "bytes": 3986,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/legacy.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/legacy.py",
+      "sha256": "43cd70c98a133015f40fd695e18035254cb3bd303f2da45bf46607f211506a87",
+      "bytes": 1475,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/legacy-source.txt",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/legacy-source.txt",
+      "sha256": "d4495bc3d3f6ae741e405478cde7e7b1e6b76a221e230a603ff62d8657545895",
+      "bytes": 8657,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/ordinary-bit.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/ordinary-bit.json",
+      "sha256": "7d3ef7711fef1033a49f7ac9847bccf24145c0ba2cf248b3802114c172fb0249",
+      "bytes": 254,
+      "status": "saved"
+    },
+    {
+      "path": "research/compact-joint-compiler/arithmetic/profile.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/compact-joint-compiler/arithmetic/profile.json",
+      "sha256": "6e937237c22b3b6d4821ecc253e579b852731a5c665ce488d42f2f7bddb291f5",
+      "bytes": 188,
+      "status": "saved"
+    },
+    {
+      "path": "research/joint-helper-lattice/CONTROLLER.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/CONTROLLER.json",
+      "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+      "bytes": 57924,
+      "status": "saved-from-pinned-original-4470-cache"
+    },
+    {
+      "path": "research/joint-helper-lattice/NATIVE.json.gz",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/NATIVE.json.gz",
+      "sha256": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6",
+      "bytes": 35042,
+      "status": "saved-from-pinned-original-4470-cache"
+    },
+    {
+      "path": "research/joint-helper-lattice/PATCH.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/PATCH.json",
+      "sha256": "296d0e8c58cc70febe042c681ef30d6bb469818c0835fbcaac8aa8d330f5b727",
+      "bytes": 112792,
+      "status": "saved-from-pinned-original-4470-cache"
+    },
+    {
+      "path": "research/joint-helper-lattice/RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+      "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+      "bytes": 9199,
+      "status": "saved-from-pinned-original-4470-cache"
+    },
+    {
+      "path": "research/joint-helper-lattice/native_joint.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/native_joint.py",
+      "sha256": "50869b1bcad7493e6b4cb2a4cd5d2fd9a193a5921100483fa2c3f2c999ddfd46",
+      "bytes": 6886,
+      "status": "saved-from-pinned-original-4470-cache"
+    },
+    {
+      "path": "research/rank-convergence/BENCHMARKS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/rank-convergence/BENCHMARKS.json",
+      "sha256": "513efe2fe74af82891c1918e462ba8338b1bbd06403cbfcec284bcf3b4f8f850",
+      "bytes": 3827,
+      "status": "saved"
+    }
+  ],
+  "script_sha256": "b18e2afda3b51f696892b7631593a96f51b0744982044560ba48a4c1c684492f"
+}

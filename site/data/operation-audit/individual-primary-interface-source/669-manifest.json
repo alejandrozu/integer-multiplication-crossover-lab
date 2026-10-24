@@ -1,0 +1,98 @@
+{
+  "pr": 669,
+  "own_head": "8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad",
+  "primary_path_candidates": [
+    "research/asymmetric-hypercube-decoder/CLAIM.json",
+    "research/asymmetric-hypercube-decoder/README.md",
+    "research/asymmetric-hypercube-decoder/results.json",
+    "research/asymmetric-hypercube-decoder/CAMPAIGN-18H.json",
+    "research/asymmetric-hypercube-decoder/CUBE-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/HIGHER-CLAIM.json",
+    "research/asymmetric-hypercube-decoder/BLOCK-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/GLOBAL-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/HIGHER-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/EXTENSION-CLAIM.json",
+    "research/asymmetric-hypercube-decoder/BOUNDARY-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/OPTIMIZER-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/SHORTENING-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/GRAPH-TARGETS-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/CORE-SHORTENING-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/COPY-OBSTRUCTION-RESULTS.json",
+    "research/asymmetric-hypercube-decoder/verify.py",
+    "research/asymmetric-hypercube-decoder/HIGHER-COST.md",
+    "research/asymmetric-hypercube-decoder/cube_verify.py",
+    "research/asymmetric-hypercube-decoder/FIFTH-WEIGHT.md",
+    "research/asymmetric-hypercube-decoder/HIGHER-GRAPH.md",
+    "research/asymmetric-hypercube-decoder/block_verify.py",
+    "research/asymmetric-hypercube-decoder/EQUALITY-PAIR.md",
+    "research/asymmetric-hypercube-decoder/FOURTH-WEIGHT.md",
+    "research/asymmetric-hypercube-decoder/GRAPH-TARGETS.md",
+    "research/asymmetric-hypercube-decoder/MINIMUM-WORDS.md",
+    "research/asymmetric-hypercube-decoder/global_verify.py",
+    "research/asymmetric-hypercube-decoder/higher_verify.py",
+    "research/asymmetric-hypercube-decoder/HIGHER-WEIGHTS.md",
+    "research/asymmetric-hypercube-decoder/CORE-SHORTENING.md",
+    "research/asymmetric-hypercube-decoder/CUBE-OPTIMIZERS.md",
+    "research/asymmetric-hypercube-decoder/ODD-NATIVE-COST.md",
+    "research/asymmetric-hypercube-decoder/boundary_verify.py",
+    "research/asymmetric-hypercube-decoder/COPY-OBSTRUCTION.md",
+    "research/asymmetric-hypercube-decoder/optimizer_verify.py",
+    "research/asymmetric-hypercube-decoder/shortening_verify.py",
+    "research/asymmetric-hypercube-decoder/graph_targets_verify.py",
+    "research/asymmetric-hypercube-decoder/core_shortening_verify.py",
+    "research/asymmetric-hypercube-decoder/copy_obstruction_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/asymmetric-hypercube-decoder/results.json",
+    "research/asymmetric-hypercube-decoder/CAMPAIGN-18H.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/asymmetric-hypercube-decoder/README.md",
+      "file": "remaining-record-audit/artifacts/669/15530b1bbae9__README.md",
+      "sha256": "15530b1bbae90ef3c69ac00fde6076423ed2b93821e6ed62d7f66d3f64bca039",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad/research/asymmetric-hypercube-decoder/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/asymmetric-hypercube-decoder/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/669/282c772418c5__CLAIM.json",
+      "sha256": "282c772418c5596b4d5fea58400a749330cdd49e3879734b58c4ebf36a8bdd39",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad/research/asymmetric-hypercube-decoder/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/asymmetric-hypercube-decoder/verify.py",
+      "file": "remaining-record-audit/artifacts/669/fda9ee6f2025__verify.py",
+      "sha256": "fda9ee6f20254c6444f1945aa2421e464fdab4ada98a44c24de7dba3c0545c74",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad/research/asymmetric-hypercube-decoder/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 40,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 669,
+      "head": "8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad",
+      "path": "research/asymmetric-hypercube-decoder/results.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad/research/asymmetric-hypercube-decoder/results.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "124c8b7b6dd776882078867d2f84b3e0f0376c154ecc0985fe6543428070d8b8",
+      "git_blob_sha1": "b10204b8c873081709103a7293b6ce25fa1027da",
+      "bytes": 8813,
+      "file": "individual-primary-interface-source/669/124c8b7b6dd7__results.json"
+    },
+    {
+      "pr": 669,
+      "head": "8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad",
+      "path": "research/asymmetric-hypercube-decoder/CAMPAIGN-18H.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8f4600b41bf1f0f5d07f209e5d3950eb22ef5cad/research/asymmetric-hypercube-decoder/CAMPAIGN-18H.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "328561f762a5dd5fb29cf2490e316b9733425bc98871dcaeb5acf64c8a829afb",
+      "git_blob_sha1": "1f712a3fea03f31d4c1cab71c158f02a988bc76b",
+      "bytes": 11618,
+      "file": "individual-primary-interface-source/669/328561f762a5__CAMPAIGN-18H.json"
+    }
+  ]
+}

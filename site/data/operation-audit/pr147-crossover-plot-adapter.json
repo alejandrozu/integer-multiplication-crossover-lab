@@ -1,0 +1,18 @@
+{
+  "schema": "source-bound-finite-controller-plot-extension/1",
+  "pr": 147,
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "E": "2199023255552",
+  "A": "10001",
+  "P": "21992431578775544",
+  "native_rank": 72,
+  "effective_kappa": "1/5000",
+  "certificate_file": "pr147-finite-controller-upper.json",
+  "certificate_sha256": "862140fafaa51a94de19069fbebe5f01b99ef7c6038002fe7a20f3157a4424a0",
+  "proof_file": "pr147-finite-controller-upper.md",
+  "exact_first_crossing_known": false,
+  "original_record_tail_quantified": false,
+  "original_record_same_XAG_contract_extra": true,
+  "scope": "Own PR147 finite-controller weaker branch. Optional record preservation additionally retains original same-XAG realization; no quantified original tail, meaningful lower or actual crossing."
+}

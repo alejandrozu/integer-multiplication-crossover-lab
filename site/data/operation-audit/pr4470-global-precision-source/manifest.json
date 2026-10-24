@@ -1,0 +1,98 @@
+[
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/FINE-PADDING-COMPOSITION.md",
+    "file": "30c0a9ab92a6__FINE-PADDING-COMPOSITION.md",
+    "sha256": "d20d8e5f84a9e33cc9996f875be06c24c74ea53874cc76564953785ff29c5c6c"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/GAUGEFREE-INTERIORS.md",
+    "file": "bdd5b7310a3d__GAUGEFREE-INTERIORS.md",
+    "sha256": "ebeb7fa53dca671e45b3a3dedf4603607d19461bbeb977445bf5e17bbdb25db8"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/outer/UNION-SCHEDULE.md",
+    "file": "dfa63ba5b246__UNION-SCHEDULE.md",
+    "sha256": "bc8e9cf7c178bb39b092ab5aafc4eeb523e72b1f69639bfcb9f27d0f74109357"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+    "file": "5e6881bdf257__TENSOR-COMPILER.md",
+    "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+    "file": "3ac9d7149f68__SHALLOW-TOEPLITZ.md",
+    "sha256": "b384b93f3fb4a8c97da2e617ebc14d55cebb0a739070e7f8dbb66f63e24e9310"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+    "file": "b71933e0d865__SUPPLIER-SUPPORT-AUDIT.md",
+    "sha256": "bd5b06eca043c5c871227264f6a954473c55cd16ec85bb420ff538fb8ec1d8d6"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPORT-ADVERSARIAL-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/SUPPORT-ADVERSARIAL-AUDIT.md",
+    "file": "97730a375a7f__SUPPORT-ADVERSARIAL-AUDIT.md",
+    "sha256": "b1290f8720bf075ea2ad58d6070f3e1fc95c0155f8e33b165bc13439bbb9222d"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/phase_fusion_note.tex",
+    "file": "adfa38201db0__phase_fusion_note.tex",
+    "sha256": "b5957f38c98a68f2584a42cedf91d753180dab438129fdf749b441074f00d4e1"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/CAPPED-INTERIORS.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/CAPPED-INTERIORS.md",
+    "file": "642d8c558d88__CAPPED-INTERIORS.md",
+    "sha256": "983c5cab2d2398f2192a8aec07daecb655f2de136e12a37f75672a14d27172ba"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/LOG-A-PHASE-SCHUR-AUDIT.md",
+    "file": "17a5686a3920__LOG-A-PHASE-SCHUR-AUDIT.md",
+    "sha256": "e05d6b8596c80b6e8676569a0ff464a29fa704c3304143f58914f47cdf38b272"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+    "file": "090dcbbe2875__HALO-THEOREM.md",
+    "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/FORWARD-SMALL-A-AUDIT.md",
+    "file": "e4a744452db6__FORWARD-SMALL-A-AUDIT.md",
+    "sha256": "e37aaa30b15671a1dff00676b14572213efaaac99df202dbba5e09f57af487c0"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/BILATERAL-LDU.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1673/capped-phase-fusion/BILATERAL-LDU.md",
+    "file": "8d17a516e9ea__BILATERAL-LDU.md",
+    "sha256": "0d65e66d227464dda1a19f781ae0a0be671cbfd347c41e37ec954f3d629d8a77"
+  },
+  {
+    "path": "research/kappa-rebuild/controller/outer_parameters.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/controller/outer_parameters.py",
+    "file": "3d91e58a3733__outer_parameters.py",
+    "sha256": "af26f4ffd17733efb7ce721937f12b906970f0aac61f2e38d0953ef7a9e7364f"
+  },
+  {
+    "path": "research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/controller/OUTER-PARAMETERS.json",
+    "file": "b7a640149c6d__OUTER-PARAMETERS.json",
+    "sha256": "15818c10c41ac2ea650e503de830795f6c88830a7f9be9553dd938bb1d76717a"
+  },
+  {
+    "path": "research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-observation-integration/release-work/current/package/vendor/pr1786/FINE-PRIME-PADDING.md",
+    "file": "71bd3aa03fa7__FINE-PRIME-PADDING.md",
+    "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce"
+  }
+]

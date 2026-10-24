@@ -1,0 +1,76 @@
+{
+  "pr": 955,
+  "own_head": "df668be6f75e76e12d25da5e03eb22ff656aaf86",
+  "primary_path_candidates": [
+    "research/endpoint-matching-obstructions/EXPECTED.json",
+    "research/endpoint-matching-obstructions/PROOF.md",
+    "research/endpoint-matching-obstructions/README.md",
+    "research/endpoint-matching-obstructions/ORIGINS.json",
+    "research/endpoint-matching-obstructions/VALIDATION.json",
+    "research/endpoint-matching-obstructions/dense.py",
+    "research/endpoint-matching-obstructions/model.py",
+    "research/endpoint-matching-obstructions/NOTICE.md",
+    "research/endpoint-matching-obstructions/screen.py",
+    "research/endpoint-matching-obstructions/verify.py",
+    "research/endpoint-matching-obstructions/boolean.py",
+    "research/endpoint-matching-obstructions/validate.py",
+    "research/endpoint-matching-obstructions/valuation.py",
+    "research/endpoint-matching-obstructions/polynomial.py",
+    "research/endpoint-matching-obstructions/PR705-PROOF.md",
+    "research/endpoint-matching-obstructions/PR800-PROOF.md",
+    "research/endpoint-matching-obstructions/PR800-NOTICE.md"
+  ],
+  "selected_for_recovery": [
+    "research/endpoint-matching-obstructions/ORIGINS.json",
+    "research/endpoint-matching-obstructions/dense.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/endpoint-matching-obstructions/PROOF.md",
+      "file": "remaining-record-audit/artifacts/955/9ea70696b172__PROOF.md",
+      "sha256": "9ea70696b1726cd379b0f40456c2d48bbbd663701ad14792b8db55bd7d988a87",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df668be6f75e76e12d25da5e03eb22ff656aaf86/research/endpoint-matching-obstructions/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/endpoint-matching-obstructions/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/955/511176000884__EXPECTED.json",
+      "sha256": "51117600088411a1774fe880c77f437ddae213c309f5ffb7a63448014f733e49",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df668be6f75e76e12d25da5e03eb22ff656aaf86/research/endpoint-matching-obstructions/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/endpoint-matching-obstructions/README.md",
+      "file": "remaining-record-audit/artifacts/955/686b4259dd26__README.md",
+      "sha256": "686b4259dd267f6dbac623d0c999a64bf7c0e95e67da769a3bb9f20fadaf2b8d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df668be6f75e76e12d25da5e03eb22ff656aaf86/research/endpoint-matching-obstructions/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 21,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 955,
+      "head": "df668be6f75e76e12d25da5e03eb22ff656aaf86",
+      "path": "research/endpoint-matching-obstructions/ORIGINS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df668be6f75e76e12d25da5e03eb22ff656aaf86/research/endpoint-matching-obstructions/ORIGINS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "42eef620eb1ae274258fde17e3e074059fc66d27e680cca3a5399bfdf307ea37",
+      "git_blob_sha1": "c637b153a960b20ac8ea3502f96a42ac6397353c",
+      "bytes": 974,
+      "file": "individual-primary-interface-source/955/42eef620eb1a__ORIGINS.json"
+    },
+    {
+      "pr": 955,
+      "head": "df668be6f75e76e12d25da5e03eb22ff656aaf86",
+      "path": "research/endpoint-matching-obstructions/dense.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df668be6f75e76e12d25da5e03eb22ff656aaf86/research/endpoint-matching-obstructions/dense.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "760df8621caaa81ab841df39667f910b45b40d9167c02747db346e80649632af",
+      "git_blob_sha1": "6bef093135d2539a79b76703efe9faab50c60e2f",
+      "bytes": 4172,
+      "file": "individual-primary-interface-source/955/760df8621caa__dense.py"
+    }
+  ]
+}

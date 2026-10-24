@@ -1,0 +1,170 @@
+[
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/.gitattributes",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/.gitattributes",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__.gitattributes",
+    "sha256": "a84c42c4f9b88fb7e60477b379390cc855b0d5e69be833040987e1ba492877c6",
+    "git_blob_sha1": "c1d01eaff4db6ea033753f7a940319b810931c68",
+    "bytes": 25
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/PR4535-RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/PR4535-RESULT.json",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__PR4535-RESULT.json",
+    "sha256": "e830f4cab30e70ab02d2ecca283969bd97f3a6925948b61d0eb15df3be831b14",
+    "git_blob_sha1": "1c7af6e35051bb9be923001f5e0cc474b16fecd0",
+    "bytes": 14922
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/README.md",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__README.md",
+    "sha256": "6983ca1fc4ae436e78573e8a5da9f10d40a90289067136b5a6c6d7b99cf94192",
+    "git_blob_sha1": "bca15858fe79cd915c181cc829672aa68e134880",
+    "bytes": 3862
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/SOURCES.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/SOURCES.json",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__SOURCES.json",
+    "sha256": "baaa2a1ae72216f8e2e2b40ff30170d15a0473f0d7d6b40f6f23856c221b4dfb",
+    "git_blob_sha1": "b58b96ca8e69391c290f09d5722abdf64d5720d9",
+    "bytes": 1105
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/TASK.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/TASK.json",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__TASK.json",
+    "sha256": "6fa35eb5dce759f6f90f578f371e020730296a78d9780f546a4c2192909ef9bf",
+    "git_blob_sha1": "ac5dd8cd5975e455816c9aa76d73debf1bed1ad5",
+    "bytes": 5813
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/VERIFY.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/VERIFY.json",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__VERIFY.json",
+    "sha256": "3f5bf147002de98f4721ab8549afa3dd4fbf821403290a96645cb97120797c59",
+    "git_blob_sha1": "1566a9db5c8636c16eaa7c1308f3ac39cd18f5a4",
+    "bytes": 637
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/verify.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/verify.py",
+    "file": "artifacts\\4564\\research__pr4535-outer-slack-rank__verify.py",
+    "sha256": "e2fa98fb8403f7acd4c4d15828119deed0ff928aa3090a89e6ac181af7f2c1a3",
+    "git_blob_sha1": "21880e3d109de914f173194bb573bdaa8c0089e1",
+    "bytes": 6439
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/joint-helper-lattice/CONTROLLER.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/joint-helper-lattice/CONTROLLER.json",
+    "file": "artifacts\\4564\\research__joint-helper-lattice__CONTROLLER.json",
+    "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+    "bytes": 57924,
+    "identical_to_own_4535_cached_source": true
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/joint-helper-lattice/NATIVE.json.gz",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/joint-helper-lattice/NATIVE.json.gz",
+    "file": "artifacts\\4564\\research__joint-helper-lattice__NATIVE.json.gz",
+    "sha256": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6",
+    "bytes": 35042,
+    "identical_to_own_4535_cached_source": true
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/joint-helper-lattice/PATCH.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/joint-helper-lattice/PATCH.json",
+    "file": "artifacts\\4564\\research__joint-helper-lattice__PATCH.json",
+    "sha256": "296d0e8c58cc70febe042c681ef30d6bb469818c0835fbcaac8aa8d330f5b727",
+    "bytes": 112792,
+    "identical_to_own_4535_cached_source": true
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/joint-helper-lattice/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/joint-helper-lattice/RESULT.json",
+    "file": "artifacts\\4564\\research__joint-helper-lattice__RESULT.json",
+    "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+    "bytes": 9199,
+    "identical_to_own_4535_cached_source": true
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/joint-helper-lattice/native_joint.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/joint-helper-lattice/native_joint.py",
+    "file": "artifacts\\4564\\research__joint-helper-lattice__native_joint.py",
+    "sha256": "50869b1bcad7493e6b4cb2a4cd5d2fd9a193a5921100483fa2c3f2c999ddfd46",
+    "bytes": 6886,
+    "identical_to_own_4535_cached_source": true
+  },
+  {
+    "pr": 4564,
+    "path": "research/critical-root-multiplication/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/critical-root-multiplication/README.md",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pr": 4564,
+    "path": "research/critical-root-multiplication/PROOF.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/critical-root-multiplication/PROOF.md",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pr": 4564,
+    "path": "research/critical-root-multiplication/SOURCES.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/critical-root-multiplication/SOURCES.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pr": 4564,
+    "path": "research/critical-root-multiplication/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/critical-root-multiplication/RESULT.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pr": 4564,
+    "path": "research/critical-root-multiplication/verify.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/critical-root-multiplication/verify.py",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/compact-joint-compiler/arithmetic/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/compact-joint-compiler/arithmetic/RESULT.json",
+    "file": "artifacts\\4564\\research__compact-joint-compiler__arithmetic__RESULT.json",
+    "sha256": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+    "bytes": 24808
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4359-p7-padding/dependencies/compiler-refill/endpoint.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4359-p7-padding/dependencies/compiler-refill/endpoint.py",
+    "file": "artifacts\\4564\\research__pr4359-p7-padding__dependencies__compiler-refill__endpoint.py",
+    "sha256": "d097e55f06c3f244f2074ffd7c1a0a5f3c4b4b6a6accf9619d1dde5c0ae85e15",
+    "bytes": 11603
+  }
+]

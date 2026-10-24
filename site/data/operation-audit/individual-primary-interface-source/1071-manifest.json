@@ -1,0 +1,69 @@
+{
+  "pr": 1071,
+  "own_head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+  "primary_path_candidates": [
+    "research/biframe-decoder-ladder/CLAIM.md",
+    "research/biframe-decoder-ladder/README.md",
+    "research/biframe-decoder-ladder/RESULTS.json",
+    "research/biframe-decoder-ladder/NOTICE.md",
+    "research/biframe-decoder-ladder/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/biframe-decoder-ladder/CLAIM.md",
+    "research/biframe-decoder-ladder/RESULTS.json",
+    "research/biframe-decoder-ladder/NOTICE.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/biframe-decoder-ladder/verify.py",
+      "file": "remaining-record-audit/artifacts/1071/20d7ad2839a3__verify.py",
+      "sha256": "20d7ad2839a3d882adccf43b3619db317ad3b4a9dafa4dea6a3b566518844c7a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/biframe-decoder-ladder/README.md",
+      "file": "remaining-record-audit/artifacts/1071/95b71fb2e519__README.md",
+      "sha256": "95b71fb2e519e258811882d8d06359090da7a697aa77ba4c326c25a66d00bd36",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 17,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1071,
+      "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+      "path": "research/biframe-decoder-ladder/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c7e2d50f063eee2d7515c9b0fec7a42df69461325e39e589a8cb54cac0daa79c",
+      "git_blob_sha1": "03ddac692f164175162a6b2e184fc81559010546",
+      "bytes": 2474,
+      "file": "individual-primary-interface-source/1071/c7e2d50f063e__CLAIM.md"
+    },
+    {
+      "pr": 1071,
+      "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+      "path": "research/biframe-decoder-ladder/RESULTS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/RESULTS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "516c06f6ec3cb84be588c546108de897650288576dd5fbf5fe44b9c5546ad8a4",
+      "git_blob_sha1": "2e16f99b295bb386fd13bd8fbd57b42ef54143a9",
+      "bytes": 22381,
+      "file": "individual-primary-interface-source/1071/516c06f6ec3c__RESULTS.json"
+    },
+    {
+      "pr": 1071,
+      "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+      "path": "research/biframe-decoder-ladder/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/NOTICE.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8172dfb6fe13d88fe3bade04e3492d3cae31fcf2a7d75914f2809b77f9a59310",
+      "git_blob_sha1": "5130cb78b0fcd333dd13f34f7625455f69dd66b1",
+      "bytes": 1708,
+      "file": "individual-primary-interface-source/1071/8172dfb6fe13__NOTICE.md"
+    }
+  ]
+}

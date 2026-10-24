@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4455,
+    "head": "f848f014d4ca9dfc3beef0d4b615b572a7301605",
+    "path": "research/p17-b480-check/README.md",
+    "api_sha": "ecf85bd2b6f1e2e83b9439b0348ce12212989c31",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f848f014d4ca9dfc3beef0d4b615b572a7301605/research%2Fp17-b480-check%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f848f014d4ca9dfc3beef0d4b615b572a7301605/research/p17-b480-check/README.md",
+    "file": "artifacts\\4455\\f8e825ef7600__README.md",
+    "sha256": "f8e825ef76006c0ea0c487a522c198cf4117b88737d8c1dcc77661bab61a003a",
+    "git_blob_sha1": "ecf85bd2b6f1e2e83b9439b0348ce12212989c31",
+    "bytes": 7330,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.389081+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4455,
+    "head": "f848f014d4ca9dfc3beef0d4b615b572a7301605",
+    "path": "research/p17-b480-check/SOURCES.json",
+    "api_sha": "9124bb10fe889a583982b0f5228776c779f092bf",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f848f014d4ca9dfc3beef0d4b615b572a7301605/research%2Fp17-b480-check%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f848f014d4ca9dfc3beef0d4b615b572a7301605/research/p17-b480-check/SOURCES.json",
+    "file": "artifacts\\4455\\0b2b3bebb675__SOURCES.json",
+    "sha256": "0b2b3bebb675855bb87d2cf6318fcc45c46d2c3f23064a9e765847991bf4ce5f",
+    "git_blob_sha1": "9124bb10fe889a583982b0f5228776c779f092bf",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.381081+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4455,
+    "head": "f848f014d4ca9dfc3beef0d4b615b572a7301605",
+    "path": "research/p17-b480-check/verify.py",
+    "api_sha": "e115efbe36240481db7fdfbee8f66b1686e58c61",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f848f014d4ca9dfc3beef0d4b615b572a7301605/research%2Fp17-b480-check%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f848f014d4ca9dfc3beef0d4b615b572a7301605/research/p17-b480-check/verify.py",
+    "file": "artifacts\\4455\\5df2a48935ca__verify.py",
+    "sha256": "5df2a48935ca406cf20fbad05bd5b64d2b967621c92c016879d83ecaa8cabad1",
+    "git_blob_sha1": "e115efbe36240481db7fdfbee8f66b1686e58c61",
+    "bytes": 21188,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.390080+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

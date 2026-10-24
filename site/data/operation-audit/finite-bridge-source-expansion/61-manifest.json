@@ -1,0 +1,86 @@
+[
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/arithmetic-verification.json",
+    "expected_git_blob": "65093fa88971f9dbca8ba27d1d268d50108b6c2e",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/arithmetic-verification.json",
+    "file": "61/986182232438__arithmetic-verification.json",
+    "sha256": "98618223243840f6728ded937108227ee01b51a0493b148004f78c1ae92ea678",
+    "git_blob_sha1": "65093fa88971f9dbca8ba27d1d268d50108b6c2e",
+    "bytes": 710
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/arithmetic.json",
+    "expected_git_blob": "f2fe2550ca73987999940ad1536a8e4133fe739c",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/arithmetic.json",
+    "file": "61/8e7d434743c4__arithmetic.json",
+    "sha256": "8e7d434743c41ff26f6d9625510dea4e1cdb0becace33137e5f1c86078d7f5ec",
+    "git_blob_sha1": "f2fe2550ca73987999940ad1536a8e4133fe739c",
+    "bytes": 44726
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/generate_frontier_case.py",
+    "expected_git_blob": "b59e6409a12b3fcf0a6fc1045db879f1e727f9d4",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/generate_frontier_case.py",
+    "file": "61/cdce9af6b541__generate_frontier_case.py",
+    "sha256": "cdce9af6b541069194036971f0f0bba1e37175fa44d5a1e834d52c3506cd30a4",
+    "git_blob_sha1": "b59e6409a12b3fcf0a6fc1045db879f1e727f9d4",
+    "bytes": 6541
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/refined62-lean-receipt.json",
+    "expected_git_blob": "576b1cf7554debbe0ec7e22a808c9f1932d005dc",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/refined62-lean-receipt.json",
+    "file": "61/d2fdbc371f1f__refined62-lean-receipt.json",
+    "sha256": "d2fdbc371f1f3718dbdbf1415fc56a3f7606ef8e06fbc3956de31d7e71870eba",
+    "git_blob_sha1": "576b1cf7554debbe0ec7e22a808c9f1932d005dc",
+    "bytes": 2207
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/weighted-lean-input.json",
+    "expected_git_blob": "77d80c01f895c2b1c0530b1ff92e255b3a3d3a44",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/weighted-lean-input.json",
+    "file": "61/1824ba95a3dc__weighted-lean-input.json",
+    "sha256": "1824ba95a3dc34d09f637de588ff0be4eb0c88c36f27538db015b9cb9275d88b",
+    "git_blob_sha1": "77d80c01f895c2b1c0530b1ff92e255b3a3d3a44",
+    "bytes": 28750
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/verify_refinement.py",
+    "expected_git_blob": "c2bde7a6347b72e2b6c201b395a2cd1452b3cd8f",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/verify_refinement.py",
+    "file": "61/dfd7ef0cb9f6__verify_refinement.py",
+    "sha256": "dfd7ef0cb9f694e3f367fa6967ed0cda11ae2cf2dc592844d65646da94b3128e",
+    "git_blob_sha1": "c2bde7a6347b72e2b6c201b395a2cd1452b3cd8f",
+    "bytes": 3665
+  },
+  {
+    "pr": 61,
+    "head": "afb7cb67d1858641315cfbf4ac768ee64a8eff3a",
+    "path": "research/matrix-exponent-synthesis/candidate/README.md",
+    "expected_git_blob": "ee76923fb959acc2ad4fc578d79d6be4fea74113",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afb7cb67d1858641315cfbf4ac768ee64a8eff3a/research/matrix-exponent-synthesis/candidate/README.md",
+    "file": "61/ff6c1e6c6ef1__README.md",
+    "sha256": "ff6c1e6c6ef1e6bfbe097e6cf00f0d29f4a3ece52b1906b56eac4976b6b947ff",
+    "git_blob_sha1": "ee76923fb959acc2ad4fc578d79d6be4fea74113",
+    "bytes": 1853
+  }
+]

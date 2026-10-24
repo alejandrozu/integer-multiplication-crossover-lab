@@ -1,0 +1,36 @@
+{
+  "schema": "pr4479-fermat-helper-upper-peer-review/1",
+  "status": "PASS_CONDITIONAL_WRITTEN_PROOF_AND_SOURCE_PARAMETER_REVIEW",
+  "reviewer": "leaderboard_source, a separate collaborating AI agent; not independent human review or Lean formalization",
+  "reviewed_sha256": {
+    "pr4479-fermat-helper-upper.md": "a0217102fe9f9ac709b00458879e125cc3b288e7253b29473696f893fdb6f41d",
+    "pr4479-fermat-helper-upper.json": "9e93a75ba1aa915bd5b582f37d8439457e9651497f5833eccd9b4a4db4687c99",
+    "pr4479_fermat_helper_upper.py": "64fafe783a84256fccf7327ada1d588b282f478f8257cb22d4bb9dab92693530"
+  },
+  "reviewed_checks": 167,
+  "findings": [],
+  "scope": [
+    "Own compact compiler head source bindings and unchanged raw p16 native words",
+    "Actual tensor power682, productive floor21 and paid cutoff17; no old1024rank substitution",
+    "Own 17^101<21^94 capacity, strict complete moment/majorant and uniformrankH",
+    "Own finite record budgetKlog21988 and geometric rank depth/Clifford stack guard",
+    "Own normalized work telescope and source-specific row-stock width accounting",
+    "Uniform eta=C-gap distinguished from compiler concavity eta",
+    "Own delta1/60000000600000000 and fresh seven-row/helper/prime calculations",
+    "Actual bitlength(A)+3 log envelope handles A>2^50",
+    "Same fixed unbounded optimizedGMP comparator and retained family scope"
+  ],
+  "retained_assumptions": [
+    "Own all-column/native/absolute-phase and whole-job identities",
+    "Complete spectators, separate roles, restored owned banks",
+    "Native compiler and analytic Gaussian/fine-prime/boundary/recovery lemmas",
+    "Finite native GMP correctness and halting"
+  ],
+  "not_claimed": [
+    "A fresh full native or phase replay",
+    "A complete Lean theorem",
+    "Hardware crossover",
+    "An exact individual first crossing",
+    "An unconditional multiplier"
+  ]
+}

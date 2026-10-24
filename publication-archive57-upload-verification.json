@@ -1,0 +1,11 @@
+{
+  "schema": "public-GitHub-additive-archive-verification/1",
+  "release_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24",
+  "file": "operation-audit-objects-57.zip",
+  "bytes": 6883720,
+  "sha256": "ccea2337c4d13c7e4e194c47ad36aeea9eb886a2076611f4ec22314d7b4f84a2",
+  "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-57.zip",
+  "server_digest_verified": true,
+  "anonymous_download_HTTP_status": 200,
+  "scope": "Transport-only additive source packaging repair; immutable43\u201356 unchanged. No new mathematical endpoint."
+}

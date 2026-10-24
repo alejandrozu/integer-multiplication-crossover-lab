@@ -1,0 +1,73 @@
+{
+  "pr": 908,
+  "own_head": "7deb3ca8ee112249b5eec22acd24e214383078bd",
+  "primary_path_candidates": [
+    "research/r439-frame519-seed02/CERTIFICATE.json",
+    "research/r439-frame519-seed02/CLAIM.md",
+    "research/r439-frame519-seed02/README.md",
+    "research/r439-frame519-seed02/VALIDATION.md",
+    "research/r439-frame519-seed02/CANDIDATE.json",
+    "research/r439-frame519-seed02/NATIVE-CERTIFICATE.json",
+    "research/r439-frame519-seed02/native.py",
+    "research/r439-frame519-seed02/search.py",
+    "research/r439-frame519-seed02/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r439-frame519-seed02/CLAIM.md",
+    "research/r439-frame519-seed02/CANDIDATE.json",
+    "research/r439-frame519-seed02/native.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-frame519-seed02/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/908/7fcc76022822__CERTIFICATE.json",
+      "sha256": "7fcc760228226e4b3581e9221a831e343cea5c4bc7a5dae4202ef2e0634e493d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7deb3ca8ee112249b5eec22acd24e214383078bd/research/r439-frame519-seed02/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-frame519-seed02/README.md",
+      "file": "remaining-record-audit/artifacts/908/e87df3f9666e__README.md",
+      "sha256": "e87df3f9666efbbb77fc1575d8b8f9bee9e319b57e319cf5553c2909834cdb76",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7deb3ca8ee112249b5eec22acd24e214383078bd/research/r439-frame519-seed02/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 908,
+      "head": "7deb3ca8ee112249b5eec22acd24e214383078bd",
+      "path": "research/r439-frame519-seed02/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7deb3ca8ee112249b5eec22acd24e214383078bd/research/r439-frame519-seed02/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1952561d7120b35003c45a9632f5a1225cd7d89036508fb54af90a07315012d8",
+      "git_blob_sha1": "9e02afdf8944d9ac275b950156d14eeafcb4bb76",
+      "bytes": 2845,
+      "file": "individual-primary-interface-source/908/1952561d7120__CLAIM.md"
+    },
+    {
+      "pr": 908,
+      "head": "7deb3ca8ee112249b5eec22acd24e214383078bd",
+      "path": "research/r439-frame519-seed02/CANDIDATE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7deb3ca8ee112249b5eec22acd24e214383078bd/research/r439-frame519-seed02/CANDIDATE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "dbc98e37719ff3a034c164a44a141346146ddd70f0276766e5ee7554ff515821",
+      "git_blob_sha1": "a1ea48a5b39675c12ed2448ba153f8e2003cb33c",
+      "bytes": 8220,
+      "file": "individual-primary-interface-source/908/dbc98e37719f__CANDIDATE.json"
+    },
+    {
+      "pr": 908,
+      "head": "7deb3ca8ee112249b5eec22acd24e214383078bd",
+      "path": "research/r439-frame519-seed02/native.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7deb3ca8ee112249b5eec22acd24e214383078bd/research/r439-frame519-seed02/native.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3056036d4248b1074bae2150c813756b40973846dfff229a61cdf89ac08ae28e",
+      "git_blob_sha1": "0f8f46067b424bce91d16a1bfd6391998bc21998",
+      "bytes": 7121,
+      "file": "individual-primary-interface-source/908/3056036d4248__native.py"
+    }
+  ]
+}

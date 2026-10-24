@@ -1,0 +1,113 @@
+{
+  "pr": 2969,
+  "own_head": "e2ca469b08385d3d5e29a918d66dbefaf889e9f3",
+  "primary_path_candidates": [
+    "research/paired-swap-normal45/CLAIM.json",
+    "research/paired-swap-normal45/evidence/NATIVE-RESULT.json",
+    "research/paired-swap-normal45/PROOF.md",
+    "research/paired-swap-normal45/README.md",
+    "research/paired-swap-normal45/VALIDATION.md",
+    "research/paired-swap-normal45/TASK.json",
+    "research/paired-swap-normal45/FRONTIER.json",
+    "research/paired-swap-normal45/data/REWRITES.json",
+    "research/paired-swap-normal45/allocation/ORDER.json",
+    "research/paired-swap-normal45/allocation/PROFILE.json",
+    "research/paired-swap-normal45/evidence/ABLATIONS.json",
+    "research/paired-swap-normal45/allocation/DISPATCH.json",
+    "research/paired-swap-normal45/allocation/PROVIDERS.json",
+    "research/paired-swap-normal45/evidence/NATIVE-STAGES.json",
+    "research/paired-swap-normal45/evidence/NATIVE-RECEIPT.json",
+    "research/paired-swap-normal45/comparators/PR2942-CLAIM.json",
+    "research/paired-swap-normal45/comparators/PR2948-CLAIM.json",
+    "research/paired-swap-normal45/comparators/PR2957-CLAIM.json",
+    "research/paired-swap-normal45/construction/B-DELETIONS.json",
+    "research/paired-swap-normal45/evidence/COMBINED-CONTROLS.json",
+    "research/paired-swap-normal45/evidence/SOURCE-DERIVATION.json",
+    "research/paired-swap-normal45/evidence/ADAPTER-DERIVATION.json",
+    "research/paired-swap-normal45/evidence/ALLOCATION-ADAPTER.json",
+    "research/paired-swap-normal45/evidence/COMPOSITION-RESULT.json",
+    "research/paired-swap-normal45/evidence/FIVE-SWAP-MARGINAL.json",
+    "research/paired-swap-normal45/evidence/NATIVE-ENVIRONMENT.json",
+    "research/paired-swap-normal45/evidence/PUBLIC-FINITE-RESULT.json",
+    "research/paired-swap-normal45/evidence/ALLOCATION-SOURCE-PINS.json",
+    "research/paired-swap-normal45/evidence/INDEPENDENT-ARITHMETIC.json",
+    "research/paired-swap-normal45/evidence/INDEPENDENT-SOURCE-REVIEW.json",
+    "research/paired-swap-normal45/PR.md",
+    "research/paired-swap-normal45/verify.py",
+    "research/paired-swap-normal45/CREDITS.md",
+    "research/paired-swap-normal45/FRONTIER.md",
+    "research/paired-swap-normal45/reproduce.py",
+    "research/paired-swap-normal45/TECHNIQUES.md",
+    "research/paired-swap-normal45/UPSTREAM-CREDITS.md",
+    "research/paired-swap-normal45/COMPOSITION-PROOF.md",
+    "research/paired-swap-normal45/INDEPENDENT-ARITHMETIC.md",
+    "research/paired-swap-normal45/techniques/root.md",
+    "research/paired-swap-normal45/techniques/product.md",
+    "research/paired-swap-normal45/techniques/compiler.md",
+    "research/paired-swap-normal45/techniques/physical.md",
+    "research/paired-swap-normal45/tools/source_review.py",
+    "research/paired-swap-normal45/construction/compose.py",
+    "research/paired-swap-normal45/reviews/PRODUCT-COST.md",
+    "research/paired-swap-normal45/tools/append_overlay.py",
+    "research/paired-swap-normal45/tools/create_runtime.py",
+    "research/paired-swap-normal45/tools/derive_adapters.py",
+    "research/paired-swap-normal45/reviews/COMPILER-PROOF.md",
+    "research/paired-swap-normal45/reviews/PHYSICAL-SOURCE.md",
+    "research/paired-swap-normal45/tools/semantic_controls.py",
+    "research/paired-swap-normal45/tools/independent_moment.py",
+    "research/paired-swap-normal45/construction/lift_allocation.py"
+  ],
+  "selected_for_recovery": [
+    "research/paired-swap-normal45/verify.py",
+    "research/paired-swap-normal45/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-swap-normal45/PROOF.md",
+      "file": "remaining-record-audit/artifacts/2969/1a8d04a617fc__PROOF.md",
+      "sha256": "1a8d04a617fca896b002726a1f9ea08e1d04836f72d8a20eef77534c061f507b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e2ca469b08385d3d5e29a918d66dbefaf889e9f3/research/paired-swap-normal45/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-swap-normal45/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2969/656a4c93411b__CLAIM.json",
+      "sha256": "656a4c93411b078753783513e2e71b1722a56e7b70120264a38118811982fa77",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e2ca469b08385d3d5e29a918d66dbefaf889e9f3/research/paired-swap-normal45/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-swap-normal45/evidence/NATIVE-RESULT.json",
+      "file": "remaining-record-audit/artifacts/2969/8b1543a44ed0__NATIVE-RESULT.json",
+      "sha256": "8b1543a44ed0f3fb5c207570ad45ac5b667180609b09e86a72076c70cc62ba96",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e2ca469b08385d3d5e29a918d66dbefaf889e9f3/research/paired-swap-normal45/evidence/NATIVE-RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 73,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2969,
+      "head": "e2ca469b08385d3d5e29a918d66dbefaf889e9f3",
+      "path": "research/paired-swap-normal45/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e2ca469b08385d3d5e29a918d66dbefaf889e9f3/research/paired-swap-normal45/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ac784cfcf0979e1636b31ac2851aebcafd003bf9c6917187a4aab7c6d41fb4d8",
+      "git_blob_sha1": "403880d27ac6d1b55587819e038fd5b1c0ae0cf0",
+      "bytes": 9696,
+      "file": "individual-primary-interface-source/2969/ac784cfcf097__verify.py"
+    },
+    {
+      "pr": 2969,
+      "head": "e2ca469b08385d3d5e29a918d66dbefaf889e9f3",
+      "path": "research/paired-swap-normal45/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e2ca469b08385d3d5e29a918d66dbefaf889e9f3/research/paired-swap-normal45/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d9653f723f74eaa78e20d86daff4121d6ff0e00bf7f6bf6b10ef2c63cd5b74eb",
+      "git_blob_sha1": "0dd8568a259e18d5f68fa635ce3e3412aeb93f54",
+      "bytes": 4726,
+      "file": "individual-primary-interface-source/2969/d9653f723f74__README.md"
+    }
+  ]
+}

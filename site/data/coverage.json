@@ -1,0 +1,16 @@
+{
+  "snapshot": "2026-10-23",
+  "inventory_observed_at": "2026-10-23T18:59:50.224946+00:00",
+  "pr_count": 4911,
+  "main_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "deep_construction_investigations": [
+    4470
+  ],
+  "source_indexed_prs": 4911,
+  "selected_literal_kappa_mentions": 1165,
+  "pr_with_resource_excerpts": 3247,
+  "pr_with_input_condition_excerpts": 180,
+  "runtime_crossover_proofs_completed_in_this_audit": 0,
+  "scope": "All PRs searchable; full constant/threshold investigation completed only for the documented parts of PR4470. Other entries are an evidence index, not complete cost audits.",
+  "history_limits": "Twenty opening bodies unavailable; one deleted body edit. Historical \u03ba revisions and review scope remain distinguished."
+}

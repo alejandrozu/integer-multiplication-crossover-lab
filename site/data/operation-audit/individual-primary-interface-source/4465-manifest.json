@@ -1,0 +1,69 @@
+{
+  "pr": 4465,
+  "own_head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+  "primary_path_candidates": [
+    "research/direct-flow-log-gap/README.md",
+    "research/direct-flow-log-gap/TASK.json",
+    "research/direct-flow-log-gap/VERIFY.json",
+    "research/direct-flow-log-gap/verify.py",
+    "research/direct-flow-log-gap/evidence/gap_large.py"
+  ],
+  "selected_for_recovery": [
+    "research/direct-flow-log-gap/TASK.json",
+    "research/direct-flow-log-gap/VERIFY.json",
+    "research/direct-flow-log-gap/evidence/gap_large.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct-flow-log-gap/README.md",
+      "file": "remaining-record-audit/artifacts/4465/2548c934a788__README.md",
+      "sha256": "2548c934a7889a1ee1e6873f1d0916f8f1e973486c0dda334762757bbf81119b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct-flow-log-gap/verify.py",
+      "file": "remaining-record-audit/artifacts/4465/cc585a0ef02f__verify.py",
+      "sha256": "cc585a0ef02fe6dd24b166ec2534649dba9bb0087f72e71c335fd5399ff49a34",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4465,
+      "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+      "path": "research/direct-flow-log-gap/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "abc3044c648b480c110d4b9cbb610e8bf4f3b863e8da79904d5c1f95041c8436",
+      "git_blob_sha1": "51276fd201392a05da98050683b39dbdd84dc6b8",
+      "bytes": 5993,
+      "file": "individual-primary-interface-source/4465/abc3044c648b__TASK.json"
+    },
+    {
+      "pr": 4465,
+      "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+      "path": "research/direct-flow-log-gap/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7e4cf99061135a84972ba721821afb7c98170551778ab9e4ed5bd47ee765a5b3",
+      "git_blob_sha1": "45b34b1178ff1763e5986a618ca2c6b9548a7966",
+      "bytes": 624,
+      "file": "individual-primary-interface-source/4465/7e4cf9906113__VERIFY.json"
+    },
+    {
+      "pr": 4465,
+      "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+      "path": "research/direct-flow-log-gap/evidence/gap_large.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/evidence/gap_large.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2077249b79739cfe21a49336126cb2272acc54936e90cede73e338f209a69468",
+      "git_blob_sha1": "0dd296ecc72b6786c4e577d3c29f55b49e344ecc",
+      "bytes": 1103,
+      "file": "individual-primary-interface-source/4465/2077249b7973__gap_large.py"
+    }
+  ]
+}

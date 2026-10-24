@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4465,
+    "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+    "path": "research/direct-flow-log-gap/README.md",
+    "api_sha": "3b71834adb961327da05c602b2ead7d98857dfa2",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research%2Fdirect-flow-log-gap%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/README.md",
+    "file": "artifacts\\4465\\2548c934a788__README.md",
+    "sha256": "2548c934a7889a1ee1e6873f1d0916f8f1e973486c0dda334762757bbf81119b",
+    "git_blob_sha1": "3b71834adb961327da05c602b2ead7d98857dfa2",
+    "bytes": 5290,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.481516+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4465,
+    "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+    "path": "research/direct-flow-log-gap/SOURCES.json",
+    "api_sha": "9124bb10fe889a583982b0f5228776c779f092bf",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research%2Fdirect-flow-log-gap%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/SOURCES.json",
+    "file": "artifacts\\4465\\0b2b3bebb675__SOURCES.json",
+    "sha256": "0b2b3bebb675855bb87d2cf6318fcc45c46d2c3f23064a9e765847991bf4ce5f",
+    "git_blob_sha1": "9124bb10fe889a583982b0f5228776c779f092bf",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.446505+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4465,
+    "head": "36d9c475d4bbc99e93952e0ad86a802e1bc581e8",
+    "path": "research/direct-flow-log-gap/verify.py",
+    "api_sha": "563548374264d24260dacd845c0a017d2b04cb7b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research%2Fdirect-flow-log-gap%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/36d9c475d4bbc99e93952e0ad86a802e1bc581e8/research/direct-flow-log-gap/verify.py",
+    "file": "artifacts\\4465\\cc585a0ef02f__verify.py",
+    "sha256": "cc585a0ef02fe6dd24b166ec2534649dba9bb0087f72e71c335fd5399ff49a34",
+    "git_blob_sha1": "563548374264d24260dacd845c0a017d2b04cb7b",
+    "bytes": 7169,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.390080+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

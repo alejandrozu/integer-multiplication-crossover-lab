@@ -1,0 +1,63 @@
+{
+  "pr": 1088,
+  "own_head": "b0396aad724fec58630fbd4d13a809c562f18d9e",
+  "primary_path_candidates": [
+    "research/weighted-signed-connector-seed58/EXPECTED.json",
+    "research/weighted-signed-connector-seed58/CERTIFICATE.json",
+    "research/weighted-signed-connector-seed58/CLAIM.md",
+    "research/weighted-signed-connector-seed58/README.md",
+    "research/weighted-signed-connector-seed58/VALIDATION.md",
+    "research/weighted-signed-connector-seed58/NOTICE.md",
+    "research/weighted-signed-connector-seed58/verify.py",
+    "research/weighted-signed-connector-seed58/generate.py",
+    "research/weighted-signed-connector-seed58/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/weighted-signed-connector-seed58/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/weighted-signed-connector-seed58/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1088/223cd39501fb__EXPECTED.json",
+      "sha256": "223cd39501fb3e548267a8b23281db142e5b69ecc892868586f7834c6b5f26ec",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b0396aad724fec58630fbd4d13a809c562f18d9e/research/weighted-signed-connector-seed58/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/weighted-signed-connector-seed58/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1088/30291599faca__CERTIFICATE.json",
+      "sha256": "30291599facabc902e85bda418e587d7af37760875b86f88607dbf2c9f38cbeb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b0396aad724fec58630fbd4d13a809c562f18d9e/research/weighted-signed-connector-seed58/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/weighted-signed-connector-seed58/verify.py",
+      "file": "remaining-record-audit/artifacts/1088/02819295d61a__verify.py",
+      "sha256": "02819295d61ae5bfc2255dc8d0b17dadbc0e024bf3add8a033babb543e61a200",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b0396aad724fec58630fbd4d13a809c562f18d9e/research/weighted-signed-connector-seed58/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/weighted-signed-connector-seed58/README.md",
+      "file": "remaining-record-audit/artifacts/1088/53cfd7805b48__README.md",
+      "sha256": "53cfd7805b48ddf8143e1120de74845d287e4806be9669e61989c0ad45b985ec",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b0396aad724fec58630fbd4d13a809c562f18d9e/research/weighted-signed-connector-seed58/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1088,
+      "head": "b0396aad724fec58630fbd4d13a809c562f18d9e",
+      "path": "research/weighted-signed-connector-seed58/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b0396aad724fec58630fbd4d13a809c562f18d9e/research/weighted-signed-connector-seed58/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "14218657bcc8a8a5b998da1ddec465131b3d3e9f6f111acfa3e17d1f3dcdc4d1",
+      "git_blob_sha1": "6f26dc34614efd7075d3118d61162b8b71a5f0ad",
+      "bytes": 3665,
+      "file": "individual-primary-interface-source/1088/14218657bcc8__CLAIM.md"
+    }
+  ]
+}

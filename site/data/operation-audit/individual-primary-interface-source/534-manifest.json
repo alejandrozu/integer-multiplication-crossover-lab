@@ -1,0 +1,113 @@
+{
+  "pr": 534,
+  "own_head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+  "primary_path_candidates": [
+    "research/frame-sa504/EXPECTED.json",
+    "research/frame-sa504/README.md",
+    "research/frame-sa504/evidence/COALESCING.json",
+    "research/frame-sa504/evidence/FAST-REPLAY.json",
+    "research/frame-sa504/evidence/FRAME-LIFTS.json",
+    "research/frame-sa504/evidence/FRAME-SEARCH.json",
+    "research/frame-sa504/evidence/PUBLIC-SNAPSHOT.json",
+    "research/frame-sa504/evidence/DISCOVERY-MOMENT.json",
+    "research/frame-sa504/evidence/VERIFICATION-SCOPE.json",
+    "research/frame-sa504/evidence/LINE-GAUGE-SELECTION.json",
+    "research/frame-sa504/evidence/SAME-PARTITION-FRONTIER.json",
+    "research/frame-sa504/evidence/PR523-FIXED-WORD-CEILING.json",
+    "research/frame-sa504/evidence/ENTRANCE-SELECTION-SCREEN.json",
+    "research/frame-sa504/evidence/hosted/HOSTED.json",
+    "research/frame-sa504/evidence/local/LEMMA-A.json",
+    "research/frame-sa504/evidence/audit/ASYNC-AUDIT.json",
+    "research/frame-sa504/evidence/local/LOCAL-CHECKS.json",
+    "research/frame-sa504/evidence/audit/GLOBAL-PREFIX.json",
+    "research/frame-sa504/evidence/audit/EXACT-ASSEMBLY.json",
+    "research/frame-sa504/evidence/local/CLIFFORD-REVIEW.json",
+    "research/frame-sa504/evidence/local/CLIFFORD-RECIPES.json",
+    "research/frame-sa504/evidence/local/RESIDUAL-ADAPTERS.json",
+    "research/frame-sa504/evidence/audit/OWNERS-AND-PROFILE.json",
+    "research/frame-sa504/evidence/audit/PREFIX-AND-INVOICE.json",
+    "research/frame-sa504/evidence/local/SCALAR-FRAME-AUDIT.json",
+    "research/frame-sa504/evidence/audit/IDLE-REMAINDER-FRAMES.json",
+    "research/frame-sa504/evidence/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/frame-sa504/NOTICE.md",
+    "research/frame-sa504/verify_fast.py",
+    "research/frame-sa504/PR531-README.md",
+    "research/frame-sa504/code/assemble.py",
+    "research/frame-sa504/code/emit_local.py",
+    "research/frame-sa504/code/audit_local.py",
+    "research/frame-sa504/code/phases_delta.py",
+    "research/frame-sa504/code/construct_504.py",
+    "research/frame-sa504/code/invoice_final.py",
+    "research/frame-sa504/code/adapters_local.py",
+    "research/frame-sa504/code/build_selected.py",
+    "research/frame-sa504/code/coalesce_frames.py",
+    "research/frame-sa504/proof/GLOBAL-HOSTING.md",
+    "research/frame-sa504/code/check_frame_lifts.py",
+    "research/frame-sa504/code/frame_chain_search.py",
+    "research/frame-sa504/code/audit_and_transport.py",
+    "research/frame-sa504/proof/LOCAL-CONSTRUCTION.md",
+    "research/frame-sa504/code/emit_supplier_hosted.py",
+    "research/frame-sa504/code/audit_supplier_hosted.py",
+    "research/frame-sa504/code/prepare_supplier_base.py",
+    "research/frame-sa504/proof/DELIVERY-AND-COALESCING.md",
+    "research/frame-sa504/code/audit_same_partition_frontier.py"
+  ],
+  "selected_for_recovery": [
+    "research/frame-sa504/evidence/COALESCING.json",
+    "research/frame-sa504/verify_fast.py",
+    "research/frame-sa504/evidence/FAST-REPLAY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frame-sa504/README.md",
+      "file": "remaining-record-audit/artifacts/534/eaedaa4b4986__README.md",
+      "sha256": "eaedaa4b498669d1af3429b7ac5c9c4d58addbd067413cc43a32d6dcacd57fde",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3e148183cbf124fcaba4d3c2d609133ff2edd518/research/frame-sa504/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frame-sa504/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/534/cd3c7540b2e5__EXPECTED.json",
+      "sha256": "cd3c7540b2e5b6c3f0b6cd3cd59fa8e0c24f1585f2fc3819dfc484747fae84a6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3e148183cbf124fcaba4d3c2d609133ff2edd518/research/frame-sa504/EXPECTED.json"
+    }
+  ],
+  "github_changed_file_reported_count": 82,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 534,
+      "head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+      "path": "research/frame-sa504/evidence/COALESCING.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3e148183cbf124fcaba4d3c2d609133ff2edd518/research/frame-sa504/evidence/COALESCING.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f9175c204c084e083ba2f8f4bc66dc71feb75d90b1b57b36dfacbffe89568ae0",
+      "git_blob_sha1": "005eb7c7b709242b073e5b125f9a21d3e2e6eacc",
+      "bytes": 102222,
+      "file": "individual-primary-interface-source/534/f9175c204c08__COALESCING.json"
+    },
+    {
+      "pr": 534,
+      "head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+      "path": "research/frame-sa504/verify_fast.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3e148183cbf124fcaba4d3c2d609133ff2edd518/research/frame-sa504/verify_fast.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "66d0767e056c279e10ce0181789a0a638f006a48a07fe66527377166426c29c2",
+      "git_blob_sha1": "7e5f8627c117f8a0f7f86a6896a8990b8ce5e40e",
+      "bytes": 7132,
+      "file": "individual-primary-interface-source/534/66d0767e056c__verify_fast.py"
+    },
+    {
+      "pr": 534,
+      "head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+      "path": "research/frame-sa504/evidence/FAST-REPLAY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3e148183cbf124fcaba4d3c2d609133ff2edd518/research/frame-sa504/evidence/FAST-REPLAY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "130f26d84e5b88616ec0d84bae1e0b6d62ef2bfffa5f978eb021390b91a91948",
+      "git_blob_sha1": "4ac259fff8e5f4cd167f620f38278024b8506f52",
+      "bytes": 1854,
+      "file": "individual-primary-interface-source/534/130f26d84e5b__FAST-REPLAY.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 894,
+    "head": "144e7e21c4f6ab4afda1338fe25eaab5a53b4431",
+    "path": "research/audit-kappa-floor-seed67/AUDIT.md",
+    "api_sha": "1ea4adada147332c49ec46363bdaa00b91a55a53",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research%2Faudit-kappa-floor-seed67%2FAUDIT.md",
+    "priority": -1,
+    "hint_base": "research/audit-kappa-floor-seed67/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research/audit-kappa-floor-seed67/AUDIT.md",
+    "file": "artifacts\\894\\bc1f9cd39b36__AUDIT.md",
+    "sha256": "bc1f9cd39b36c38f23b0e61c37bec039f56d633aeffc03ea4cc00db53b2c348f",
+    "git_blob_sha1": "1ea4adada147332c49ec46363bdaa00b91a55a53",
+    "bytes": 9227,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:18.815745+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 894,
+    "head": "144e7e21c4f6ab4afda1338fe25eaab5a53b4431",
+    "path": "research/audit-kappa-floor-seed67/CLAIM.md",
+    "api_sha": "d4352e7f2cd914d2faa00dff89074b4889917abd",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research%2Faudit-kappa-floor-seed67%2FCLAIM.md",
+    "priority": -1,
+    "hint_base": "research/audit-kappa-floor-seed67/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research/audit-kappa-floor-seed67/CLAIM.md",
+    "file": "artifacts\\894\\513b52ed0b68__CLAIM.md",
+    "sha256": "513b52ed0b687e33eb8596cadd9c88d5ce3f59aa97ef6d8706df2a9faae4391e",
+    "git_blob_sha1": "d4352e7f2cd914d2faa00dff89074b4889917abd",
+    "bytes": 2100,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:18.806962+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 894,
+    "head": "144e7e21c4f6ab4afda1338fe25eaab5a53b4431",
+    "path": "research/audit-kappa-floor-seed67/audit_kappa_reduction.py",
+    "api_sha": "b8a6e8b7d6da0ef95542a1adc25d3f6de9e7e339",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research%2Faudit-kappa-floor-seed67%2Faudit_kappa_reduction.py",
+    "priority": -1,
+    "hint_base": "research/audit-kappa-floor-seed67/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/144e7e21c4f6ab4afda1338fe25eaab5a53b4431/research/audit-kappa-floor-seed67/audit_kappa_reduction.py",
+    "file": "artifacts\\894\\a79fe69a4d39__audit_kappa_reduction.py",
+    "sha256": "a79fe69a4d391150c9e7147bf05647f7eb40b545b0a81209e4e9ea571193ba35",
+    "git_blob_sha1": "b8a6e8b7d6da0ef95542a1adc25d3f6de9e7e339",
+    "bytes": 12313,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:18.813961+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

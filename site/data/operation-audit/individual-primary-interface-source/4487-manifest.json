@@ -1,0 +1,56 @@
+{
+  "pr": 4487,
+  "own_head": "a6794beea17c43ac66e7bc6af6d45488b9813761",
+  "primary_path_candidates": [
+    "research/gaussian-tensor-faces/README.md",
+    "research/gaussian-tensor-faces/TASK.json",
+    "research/gaussian-tensor-faces/VERIFY.json",
+    "research/gaussian-tensor-faces/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gaussian-tensor-faces/TASK.json",
+    "research/gaussian-tensor-faces/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-faces/README.md",
+      "file": "remaining-record-audit/artifacts/4487/61838d5ee0f1__README.md",
+      "sha256": "61838d5ee0f125b782b9b500027b0710d76bc13ca3efa1abd8448b90b135c97c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a6794beea17c43ac66e7bc6af6d45488b9813761/research/gaussian-tensor-faces/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-faces/verify.py",
+      "file": "remaining-record-audit/artifacts/4487/671c84069317__verify.py",
+      "sha256": "671c8406931794eb8d350920d80657758038ed83c67fbbd53ddee2084fdc10b3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a6794beea17c43ac66e7bc6af6d45488b9813761/research/gaussian-tensor-faces/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4487,
+      "head": "a6794beea17c43ac66e7bc6af6d45488b9813761",
+      "path": "research/gaussian-tensor-faces/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a6794beea17c43ac66e7bc6af6d45488b9813761/research/gaussian-tensor-faces/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6b37dcdc36410aff1a8e26e5270cb07df2651db6a756216315c6d490ce021bfd",
+      "git_blob_sha1": "de00a83da9222d9f18bb484d1be96f1278ef8292",
+      "bytes": 4609,
+      "file": "individual-primary-interface-source/4487/6b37dcdc3641__TASK.json"
+    },
+    {
+      "pr": 4487,
+      "head": "a6794beea17c43ac66e7bc6af6d45488b9813761",
+      "path": "research/gaussian-tensor-faces/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a6794beea17c43ac66e7bc6af6d45488b9813761/research/gaussian-tensor-faces/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f917d2b6555137867f45e773af459c2f67df7b61cf8cf3a941117fc57eed2cf4",
+      "git_blob_sha1": "f7bf7355f202cac2b867c5e3382d3f9c012d8eff",
+      "bytes": 549,
+      "file": "individual-primary-interface-source/4487/f917d2b65551__VERIFY.json"
+    }
+  ]
+}

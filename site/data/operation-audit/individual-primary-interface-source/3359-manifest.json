@@ -1,0 +1,70 @@
+{
+  "pr": 3359,
+  "own_head": "3bdc260e996fd3a94dcb7560b68f2c61d2253d80",
+  "primary_path_candidates": [
+    "research/t16-composed-cycles/RESULT.json",
+    "research/t16-composed-cycles/PROOF.md",
+    "research/t16-composed-cycles/README.md",
+    "research/t16-composed-cycles/TASK.json",
+    "research/t16-composed-cycles/VERIFY.json",
+    "research/t16-composed-cycles/VALIDATION.json",
+    "research/t16-composed-cycles/SOURCE-EXPORT.json",
+    "research/t16-composed-cycles/predecessor.patch.json",
+    "research/t16-composed-cycles/replay.py",
+    "research/t16-composed-cycles/verify.py",
+    "research/t16-composed-cycles/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-composed-cycles/TASK.json",
+    "research/t16-composed-cycles/replay.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-composed-cycles/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3359/83969dd97360__PROOF.md",
+      "sha256": "83969dd97360dfb0634427deb19dc22fea5c9bd6cfd6cf304843edd175e4364d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3bdc260e996fd3a94dcb7560b68f2c61d2253d80/research/t16-composed-cycles/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-composed-cycles/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3359/7324f9534268__RESULT.json",
+      "sha256": "7324f95342680976dfae26b8a59567658910ac18a511239c28c42f7a3e907e62",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3bdc260e996fd3a94dcb7560b68f2c61d2253d80/research/t16-composed-cycles/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-composed-cycles/README.md",
+      "file": "remaining-record-audit/artifacts/3359/af3131f6039a__README.md",
+      "sha256": "af3131f6039afb590ae932323c3e2dc75edbb0cb68717a850809bafdc7af6883",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3bdc260e996fd3a94dcb7560b68f2c61d2253d80/research/t16-composed-cycles/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 18,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3359,
+      "head": "3bdc260e996fd3a94dcb7560b68f2c61d2253d80",
+      "path": "research/t16-composed-cycles/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3bdc260e996fd3a94dcb7560b68f2c61d2253d80/research/t16-composed-cycles/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5f053c1006c6b4b657c712e1e911ba8c3a0bc7613fe9f94c6140884ea6243aae",
+      "git_blob_sha1": "f5dd6b7deb0c2bc0ef38c197bf61649ae807c4a4",
+      "bytes": 4822,
+      "file": "individual-primary-interface-source/3359/5f053c1006c6__TASK.json"
+    },
+    {
+      "pr": 3359,
+      "head": "3bdc260e996fd3a94dcb7560b68f2c61d2253d80",
+      "path": "research/t16-composed-cycles/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3bdc260e996fd3a94dcb7560b68f2c61d2253d80/research/t16-composed-cycles/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a7d79c93c8e45614dc6855bbcef3cd687cae5f48051bb06389d1cdb71d6969a2",
+      "git_blob_sha1": "d2d73ec4f09dbfdcc615544ef025c34b6249ceae",
+      "bytes": 5732,
+      "file": "individual-primary-interface-source/3359/a7d79c93c8e4__replay.py"
+    }
+  ]
+}

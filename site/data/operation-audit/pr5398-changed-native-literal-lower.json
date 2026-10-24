@@ -1,0 +1,142 @@
+{
+  "schema": "own-changed-p16-literal-lower/1",
+  "status": "closed_conditional_literal_family_lower_bound",
+  "pr": 5398,
+  "own_head": "174fb211493b43a42210434083e9702b4fb7a2ce",
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "H": "38569300000000000",
+  "N": "2^38569300000000000",
+  "tensor_power": 1024,
+  "kappa": "302728823/100000000000",
+  "eta_uniform": "2119101767/700000000000",
+  "raw_rank": 145,
+  "raw_productive_fields": 10784,
+  "raw_paid_jobs": 64116,
+  "rank_surplus": 752,
+  "selected_result_file": "late-uniform-source-extraction/files/5398/14b75e8c91d9d298__RESULT.json",
+  "selected_result_sha256": "9b65013f63f616f12f4bb4d96ac75429452fad8680cada4bfd570e001fcd9a34",
+  "selected_literal_file": "late-uniform-source-extraction/files/5398/a8f98ffa56ae6112__CONTROLLER.json",
+  "selected_literal_sha256": "60cc512b39cdb9ea2c2ac6c6634c8d3f9627d96ace08ffa659a9d9472444122b",
+  "selected_word_canonical_sha256": "2aee5e997df99726fc763e510d9cb69fbe4f86114dc8d2cd33ad26c6c462a21d",
+  "used_boundary_complex_ADD_count": 4,
+  "available_literal_complex_ADD_count": 81,
+  "selected_literal_ADDs": [
+    {
+      "event_index": 16,
+      "instruction": [
+        "ADD",
+        12,
+        14,
+        "1"
+      ]
+    },
+    {
+      "event_index": 17,
+      "instruction": [
+        "ADD",
+        10,
+        14,
+        "-1"
+      ]
+    },
+    {
+      "event_index": 18,
+      "instruction": [
+        "ADD",
+        8,
+        14,
+        "1"
+      ]
+    },
+    {
+      "event_index": 19,
+      "instruction": [
+        "ADD",
+        6,
+        14,
+        "-1"
+      ]
+    }
+  ],
+  "literal_ADD_scope": "Four distinct-source unit-coefficient additions in the own complete raw controller boundary.",
+  "active_AND_lower": "8*2^N",
+  "active_XOR_lower": "24*2^N",
+  "j": 3,
+  "q": 0,
+  "input_bits": "2^(2^38569299999999997-2^69)",
+  "plot_triple_log": {
+    "log2_of_integer": "38569299999999997",
+    "negligible_negative_correction": true
+  },
+  "upper": null,
+  "whole_sufficient_upper_derived": false,
+  "native_full_engine_replayed_here": false,
+  "scope": "Own complete unreduced raw controller/native word, complete field and spectators when active, stored width at least two; identical repaired optimized GMP when inactive.",
+  "statistic": "Earliest input width at which a correct member of the declared own-source literal enhancement family strictly beats the reference",
+  "all_PR_implementations": false,
+  "exact_individual_crossing": false,
+  "arbitrary_switch_used_as_lower": false,
+  "precision_gate_used_as_lower": false,
+  "retained_contracts": [
+    "Own source changed-native arbitrary-input, absolute-phase, all-column, required-output-frame, clean owned-bank and complete spectator interfaces. Stored source receipts are authenticated, not a fresh full native-engine replay here.",
+    "Own compiler physically realizes its strict positive uniform-saving supplier at the selected stated H, with all base cases and complete raw native occurrences retained. No claim of an emitted uniform word.",
+    "Prescribed unreduced ADD macro retains the selected scalar instructions on every complete field coordinate; fixed public wiring and constant synthesis are free, scalar macros are not cancelled by cross-instruction simplification.",
+    "Same fixed XAG and repaired optimized-GMP opcode, source-correctness and finite-leaf halting/allocation contracts used in the hash-bound degree8 upper."
+  ],
+  "source_hashes": {
+    "late-uniform-source-extraction/files/5398/a8f98ffa56ae6112__CONTROLLER.json": "60cc512b39cdb9ea2c2ac6c6634c8d3f9627d96ace08ffa659a9d9472444122b",
+    "late-uniform-source-extraction/files/5398/5b1e735dfb60db1b__README.md": "e67cc6eb8f4bea9b1e83faeab9fb53ab91c427ea2fabd3cb1f746326e4c0b3c3",
+    "late-uniform-source-extraction/files/5398/14b75e8c91d9d298__RESULT.json": "9b65013f63f616f12f4bb4d96ac75429452fad8680cada4bfd570e001fcd9a34",
+    "late-uniform-source-extraction/files/5398/5b06c0bbcba9c0d2__SOURCES.json": "cdca320708afb6906093883686e1162edd7895189396dcce54f5bbbfb92d6cfc",
+    "late-uniform-source-extraction/files/5398/767bf00fee0b4b78__TASK.json": "379ebcf47ca05ea9663cf2b29c04f2c91f58aeb3725b1fa94a32b8260e61a683",
+    "late-uniform-source-extraction/files/5398/7c5f41e2e4978d9d__VERIFY.json": "f68e5d854b43c6ab745cdec3e498be70fa5fa8669806bdfb83756d10bbcf9464",
+    "late-uniform-source-extraction/files/5398/8eda1a619013a8cc__WITNESS.json": "24599011da06325e1012619b2b84a4dd3aceb90ab42d3caaf6414879e7d16591",
+    "late-uniform-source-extraction/files/5398/b8c77137fbb52949__controller.py": "3af89e0c1fdca5bad89d8b51a9235ca6a44b117a7e9284cfbf3b3acf8c149f76",
+    "late-uniform-source-extraction/files/5398/6fd52d606a15fdc5__native.py": "3c8efab1f830868c054d33391ee2f8bc74f9bae9c134edf5b455790eb674c1c4",
+    "late-uniform-source-extraction/files/5398/5b4c25d36418da29__price.py": "2f5c78ee2bf9e92db0abacfbd7e64a43e30f0e86a72fe4cb9a5e8085a6f8f09c",
+    "late-uniform-source-extraction/files/5398/cba83cf365cff9ae__verify.py": "d0d59450cd457c3ee740375ba407dc2eab19ef0fac5f7cf80a50ad450edf3bca"
+  },
+  "dependency_hashes": {
+    "changed-native-p16-boundary-lowers.md": "702528363382907ea16e6a3e491ce843389603dab12dad923714df8fdb70efad",
+    "optimized-gmp-degree8-upper.md": "178a7e8854e0401ea03e2b2391646d2f1dd1fc73e12264a5e0dc32e725877f12",
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1",
+    "pr4433-literal-boundary-lower.md": "bc8c10ea2ee2b54a6f909f8fbebfa9d2143973e28cb786d987cf0ea75adbdc45",
+    "late-uniform-source-extraction/source-manifest.json": "2568014b4044e15a207aaffcfda6c0952b7dbf67937de4fd85cb7681ac8610ae"
+  },
+  "proof_file": "changed-native-p16-boundary-lowers.md",
+  "script_sha256": "ae299dab2e7aacf56d30878688c9c5f40d96b77133392c01588d208fe77b9a7b",
+  "checks_passed": 30,
+  "checks": {
+    "own_primary_0": true,
+    "own_git_blob_0": true,
+    "own_primary_1": true,
+    "own_git_blob_1": true,
+    "own_primary_2": true,
+    "own_git_blob_2": true,
+    "own_primary_3": true,
+    "own_git_blob_3": true,
+    "own_primary_4": true,
+    "own_git_blob_4": true,
+    "own_primary_5": true,
+    "own_git_blob_5": true,
+    "own_primary_6": true,
+    "own_git_blob_6": true,
+    "own_primary_7": true,
+    "own_git_blob_7": true,
+    "own_primary_8": true,
+    "own_git_blob_8": true,
+    "own_primary_9": true,
+    "own_git_blob_9": true,
+    "own_primary_10": true,
+    "own_git_blob_10": true,
+    "own_exact_selected_uniform_rank": true,
+    "own_positive_uniform_saving": true,
+    "own_actual_record_funded": true,
+    "own_complete_rank_mass": true,
+    "own_whole_raw_counts": true,
+    "own_all_backward_controller_interface": true,
+    "four_actual_literal_complex_ADDs": true,
+    "strict_nonwin_exponent_positive": true
+  }
+}

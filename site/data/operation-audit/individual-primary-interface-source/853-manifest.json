@@ -1,0 +1,76 @@
+{
+  "pr": 853,
+  "own_head": "9910c23b154e05cca2834f45797455200cadf6e4",
+  "primary_path_candidates": [
+    "research/complex741-parallel-replay/README.md",
+    "research/complex741-parallel-replay/ACCESS.json",
+    "research/complex741-parallel-replay/EVIDENCE.json",
+    "tests/test_complex741_parallel.py",
+    "scripts/verify_complex741_parallel.py",
+    "research/complex741-parallel-replay/record_access.py",
+    "research/complex741-parallel-replay/compare_replays.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex741-parallel-replay/ACCESS.json",
+    "research/complex741-parallel-replay/EVIDENCE.json",
+    "tests/test_complex741_parallel.py",
+    "scripts/verify_complex741_parallel.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex741-parallel-replay/README.md",
+      "file": "remaining-record-audit/artifacts/853/aa76aad0367d__README.md",
+      "sha256": "aa76aad0367d1232a5f298097ee225e2a133c016d8959ec1a2ba0fea786482d5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/research/complex741-parallel-replay/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 853,
+      "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+      "path": "research/complex741-parallel-replay/ACCESS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/research/complex741-parallel-replay/ACCESS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "43bb25f367b2c8946e1ba60205e1b84efe8969dc09e24a5441ff48f00945713a",
+      "git_blob_sha1": "acaea4ec0bbd792077766d770a477e661646ad38",
+      "bytes": 31174,
+      "file": "individual-primary-interface-source/853/43bb25f367b2__ACCESS.json"
+    },
+    {
+      "pr": 853,
+      "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+      "path": "research/complex741-parallel-replay/EVIDENCE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/research/complex741-parallel-replay/EVIDENCE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "eeb5c079eb286a2096b53ab65bd70942b5d0b2ea96ed7d70a9d18ba2c40eb72a",
+      "git_blob_sha1": "ddc174ff5fdea892de050a96ad63c4cfeaa771dd",
+      "bytes": 4820,
+      "file": "individual-primary-interface-source/853/eeb5c079eb28__EVIDENCE.json"
+    },
+    {
+      "pr": 853,
+      "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+      "path": "tests/test_complex741_parallel.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/tests/test_complex741_parallel.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "50093db03906844a738b6bb087e7cbbf0d73977c6ba0fad4ce5da00f0c251e75",
+      "git_blob_sha1": "0e759e8432b6f68abab933797f1ff5ad8a387a08",
+      "bytes": 7406,
+      "file": "individual-primary-interface-source/853/50093db03906__test_complex741_parallel.py"
+    },
+    {
+      "pr": 853,
+      "head": "9910c23b154e05cca2834f45797455200cadf6e4",
+      "path": "scripts/verify_complex741_parallel.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9910c23b154e05cca2834f45797455200cadf6e4/scripts/verify_complex741_parallel.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "616cff67233958647dd1e6f33dcc5ffc6132df68e0e1230dc768e820d00155a1",
+      "git_blob_sha1": "56d59c3e16399c188822b7dab48ea38ce64bf747",
+      "bytes": 8352,
+      "file": "individual-primary-interface-source/853/616cff672339__verify_complex741_parallel.py"
+    }
+  ]
+}

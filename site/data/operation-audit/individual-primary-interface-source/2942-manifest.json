@@ -1,0 +1,106 @@
+{
+  "pr": 2942,
+  "own_head": "a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf",
+  "primary_path_candidates": [
+    "research/paired-extension-normal45/CLAIM.json",
+    "research/paired-extension-normal45/allocation/baseline/CLAIM.json",
+    "research/paired-extension-normal45/README.md",
+    "research/paired-extension-normal45/TASK.json",
+    "research/paired-extension-normal45/VERIFY.json",
+    "research/paired-extension-normal45/ALLOCATION-PINS.json",
+    "research/paired-extension-normal45/allocation/ORDER.json",
+    "research/paired-extension-normal45/allocation/SEARCH.json",
+    "research/paired-extension-normal45/allocation/PROFILE.json",
+    "research/paired-extension-normal45/data/TRANSFORM-249.json",
+    "research/paired-extension-normal45/data/TRANSFORM-251.json",
+    "research/paired-extension-normal45/data/TRANSFORM-265.json",
+    "research/paired-extension-normal45/data/TRANSFORM-267.json",
+    "research/paired-extension-normal45/allocation/DISPATCH.json",
+    "research/paired-extension-normal45/allocation/PROVIDERS.json",
+    "research/paired-extension-normal45/evidence/ENVIRONMENT.json",
+    "research/paired-extension-normal45/certificates/RELAX-CAP.json",
+    "research/paired-extension-normal45/construction/T74-MODEL.json",
+    "research/paired-extension-normal45/construction/T74-SOLVER.json",
+    "research/paired-extension-normal45/evidence/RELEASE-RECEIPT.json",
+    "research/paired-extension-normal45/evidence/RUNTIME-PATCHES.json",
+    "research/paired-extension-normal45/construction/T74-PATTERNS.json",
+    "research/paired-extension-normal45/evidence/ADMISSION-RESULT.json",
+    "research/paired-extension-normal45/evidence/ADMISSION-STAGES.json",
+    "research/paired-extension-normal45/evidence/ADAPTER-DERIVATION.json",
+    "research/paired-extension-normal45/evidence/FULL-NATIVE-RESULT.json",
+    "research/paired-extension-normal45/evidence/FULL-REPLAY-RESULT.json",
+    "research/paired-extension-normal45/evidence/FULL-REPLAY-STAGES.json",
+    "research/paired-extension-normal45/evidence/OVERLAY-DERIVATION.json",
+    "research/paired-extension-normal45/evidence/FULL-NATIVE-RECEIPT.json",
+    "research/paired-extension-normal45/construction/EXTRACTION-STEPS.json",
+    "research/paired-extension-normal45/evidence/RETAINED-BOOTSTRAP-RECEIPT.json",
+    "research/paired-extension-normal45/allocation/baseline/ORDER.json",
+    "research/paired-extension-normal45/allocation/baseline/PROFILE.json",
+    "research/paired-extension-normal45/verify.py",
+    "research/paired-extension-normal45/CREDITS.md",
+    "research/paired-extension-normal45/producer.py",
+    "research/paired-extension-normal45/check_cap.py",
+    "research/paired-extension-normal45/reproduce.py",
+    "research/paired-extension-normal45/structure.py",
+    "research/paired-extension-normal45/run_registered.py",
+    "research/paired-extension-normal45/check_allocation.py",
+    "research/paired-extension-normal45/tools/root.py",
+    "research/paired-extension-normal45/tools/relax.py",
+    "research/paired-extension-normal45/tools/wordedit.py",
+    "research/paired-extension-normal45/tools/relax_exact.py",
+    "research/paired-extension-normal45/construction/fill17.py",
+    "research/paired-extension-normal45/tools/build_overlay.py",
+    "research/paired-extension-normal45/construction/controls.py",
+    "research/paired-extension-normal45/tools/derive_adapters.py",
+    "research/paired-extension-normal45/tools/audit_allocation_moment.py",
+    "research/paired-extension-normal45/construction/providers_from_words.py"
+  ],
+  "selected_for_recovery": [
+    "research/paired-extension-normal45/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-normal45/README.md",
+      "file": "remaining-record-audit/artifacts/2942/d5389ef968ac__README.md",
+      "sha256": "d5389ef968acb5d72c889939cb6f8617520ff8c0589cb953d1cecd66fc3c715d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf/research/paired-extension-normal45/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-normal45/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2942/011aaac80ad7__CLAIM.json",
+      "sha256": "011aaac80ad79f7f29dc429a672441bb6b3c21a68bbcb34c7a0d5f943c3c3c2e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf/research/paired-extension-normal45/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-normal45/allocation/baseline/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2942/9c2c14158780__CLAIM.json",
+      "sha256": "9c2c14158780a677b3661623d7476acc4f535ac9e0481addfa1d6c4c7633b74b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf/research/paired-extension-normal45/allocation/baseline/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-normal45/verify.py",
+      "file": "remaining-record-audit/artifacts/2942/cbe977ee8498__verify.py",
+      "sha256": "cbe977ee84987236323b01a7f64714b66a62919cb153094b022b80881277b3ff",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf/research/paired-extension-normal45/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 86,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2942,
+      "head": "a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf",
+      "path": "research/paired-extension-normal45/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a027b0f6fdb0ab2b42ba10fc31b53960166bf2bf/research/paired-extension-normal45/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6d120a39c053dba8e5264396d00f96543790d6ee325a116f76bd41057059b3d7",
+      "git_blob_sha1": "9d60c13e37ea3a117332d93a500763933169118d",
+      "bytes": 8365,
+      "file": "individual-primary-interface-source/2942/6d120a39c053__TASK.json"
+    }
+  ]
+}

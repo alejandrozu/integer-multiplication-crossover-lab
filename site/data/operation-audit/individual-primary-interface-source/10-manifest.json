@@ -1,0 +1,106 @@
+{
+  "pr": 10,
+  "own_head": "62691e395a0458ce089a1c7b5d89e74291e95e29",
+  "primary_path_candidates": [
+    "README.md",
+    "certificates/fast-gaussian.json",
+    "certificates/prime-field28.json",
+    "certificates/batched-network.json",
+    "certificates/complex-network.json",
+    "certificates/controlled-bit-rank-moment.json",
+    "PATCHING.md",
+    "CONTRIBUTING.md",
+    "docs/reproducibility.md",
+    "scripts/fast_gaussian.py",
+    "notes/batched-23-note.tex",
+    "scripts/paired_complex.py",
+    "notes/batched-assembly.tex",
+    "notes/batched-bit-rows.tex",
+    "scripts/batched_network.py",
+    "scripts/complex_circuit.py",
+    "scripts/complex_network.py",
+    "notes/batched-algorithms.tex",
+    "notes/bulk-complex-guard.tex",
+    "notes/projector-batching.tex",
+    "notes/batched-path-budget.tex",
+    "scripts/bulk_complex_guard.py",
+    "scripts/make_batched_patch.py",
+    "scripts/prime_field_checks.py",
+    "tests/test_batched_network.py",
+    "notes/batched-complex-rows.tex",
+    "scripts/prime_field_circuit.py",
+    "scripts/prime_field_network.py",
+    "scripts/paired_triple_circuit.py",
+    "scripts/make_prime_field_patch.py",
+    "notes/chirp-scaling-correction.tex",
+    "notes/fast-gaussian-resampling.tex",
+    "scripts/batched_bit_rank_moment.py",
+    "scripts/make_fast_gaussian_patch.py",
+    "notes/controlled-projector-basis.tex",
+    "notes/prime-field28-construction.tex",
+    "notes/batched-bit-rank-accounting.tex",
+    "scripts/controlled_bit_rank_moment.py",
+    "scripts/make_complex_circuit_patch.py",
+    "notes/complex-circuit-construction.tex",
+    "docs/research/batched-review.md",
+    "docs/research/current-status.md"
+  ],
+  "selected_for_recovery": [
+    "certificates/fast-gaussian.json",
+    "certificates/prime-field28.json",
+    "scripts/fast_gaussian.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "README.md",
+      "file": "remaining-record-audit/artifacts/10/be67c69a992e__README.md",
+      "sha256": "be67c69a992e08ac8062defc29055e656674e5205865826088b8de29bfc44a29",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/62691e395a0458ce089a1c7b5d89e74291e95e29/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "certificates/batched-network.json",
+      "file": "remaining-record-audit/artifacts/10/c68bdf70d73f__batched-network.json",
+      "sha256": "c68bdf70d73f326e4767a1d9ab50073baac0733dd9d39a896c71b5302277c99c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/62691e395a0458ce089a1c7b5d89e74291e95e29/certificates/batched-network.json"
+    }
+  ],
+  "github_changed_file_reported_count": 49,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 10,
+      "head": "62691e395a0458ce089a1c7b5d89e74291e95e29",
+      "path": "certificates/fast-gaussian.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/62691e395a0458ce089a1c7b5d89e74291e95e29/certificates/fast-gaussian.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8112a624e74ae179230ae2a3576e45066b3516f83e03b8f7f61e129785d08c4f",
+      "git_blob_sha1": "23190c54a060cf4bc4c3ec35e72a74af3d2ca500",
+      "bytes": 4231,
+      "file": "individual-primary-interface-source/10/8112a624e74a__fast-gaussian.json"
+    },
+    {
+      "pr": 10,
+      "head": "62691e395a0458ce089a1c7b5d89e74291e95e29",
+      "path": "certificates/prime-field28.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/62691e395a0458ce089a1c7b5d89e74291e95e29/certificates/prime-field28.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c4629647b662463a86887e8caa0c439324748ff8dd56a9ee51d60ae3b1995b83",
+      "git_blob_sha1": "0c505954e25362226d116c2c2e5299d02005f85f",
+      "bytes": 7770,
+      "file": "individual-primary-interface-source/10/c4629647b662__prime-field28.json"
+    },
+    {
+      "pr": 10,
+      "head": "62691e395a0458ce089a1c7b5d89e74291e95e29",
+      "path": "scripts/fast_gaussian.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/62691e395a0458ce089a1c7b5d89e74291e95e29/scripts/fast_gaussian.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "11430c2df0783b933dc91080595bb7514bb052b8c7b12107e27a1ef701e31e43",
+      "git_blob_sha1": "f534b9e894381ddf301d8dda9d4a0f3cb9a2e249",
+      "bytes": 8369,
+      "file": "individual-primary-interface-source/10/11430c2df078__fast_gaussian.py"
+    }
+  ]
+}

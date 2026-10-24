@@ -1,0 +1,19 @@
+[
+  {
+    "pr": 881,
+    "head": "2730da199c4dad53b52b32b6be8ed6328f014648",
+    "path": "research/u8-independent-xcheck/README.md",
+    "api_sha": "45176bea7dd4e3830b981105a0ad7947af879469",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2730da199c4dad53b52b32b6be8ed6328f014648/research%2Fu8-independent-xcheck%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2730da199c4dad53b52b32b6be8ed6328f014648/research/u8-independent-xcheck/README.md",
+    "file": "artifacts\\881\\1467081fe414__README.md",
+    "sha256": "1467081fe41482080637327d9f643c57c0582244fcfbaa4aab15eaf9c416efa5",
+    "git_blob_sha1": "45176bea7dd4e3830b981105a0ad7947af879469",
+    "bytes": 4624,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:14.157408+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

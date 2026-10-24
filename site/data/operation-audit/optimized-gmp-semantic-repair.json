@@ -1,0 +1,40 @@
+{
+  "status": "PASS_LOCAL_EXACT_UNBOUNDED_FFT_SEMANTIC_REPAIR",
+  "extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "source": {
+    "file": "optimized-gmp-unbounded-source/mpn/generic/mul_fft.c",
+    "sha256": "c1aa6ad5544be3694d50076c4937b30affdcd73c7c9d9b7cb11b5690cb3f5518",
+    "archive_url": "https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz",
+    "archive_sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+  },
+  "old_index_only_extension_incomplete_for_unbounded_sizes": true,
+  "repair": {
+    "public_sizes_and_indices": "Exact unbounded public integers, including fft_l permutation indices; free construction arithmetic.",
+    "threshold_constant": "In every recomposition iteration encode the complete public integer i+1 into T[2*l ... nprime-1], zero padded; T[nprime]=0. This replaces the single-limb T[2*l]=i+1 store.",
+    "carry_accumulator": "Use exact signed two-complement width w_cc=2*k+128, implemented as64-bit chunks, solely for recomposition cc; native limb data and kernelADD/ADC remain64-bit.",
+    "final_sign": "Compare signed cc to integer-1,0,1 exactly. On the normalized source domain the completed-prefix invariant proves cc is-1or0. Convert carry results returned by add_1 to exact0or1.",
+    "mandatory_native_addition_lower_unchanged": true,
+    "FFT_child_geometry_and_termination_unchanged": true,
+    "source_file_mutated": false
+  },
+  "capacity_proof": {
+    "premise": "M=64*l, Nprime>2*M+k+2, nprime=Nprime/64",
+    "conclusion": "64*(nprime-2*l)>k+2; every i+1<=2^k fits its full k+1bits below limb nprime."
+  },
+  "carry_proof": {
+    "elementary_increment_range": "Each reconstruction iteration changes cc by one carry minus two borrows, each0or1; conservative|cc|<=2K+2 at all elementary updates.",
+    "normalized_coefficient_range": "0<=V_j<=B^nprime, B=2^64",
+    "complete_signed_prefix": "X=sum_i [V_j-e_i*(B^nprime+1)]*B^(l*i)",
+    "prefix_bound": "|X| < ((B+1)/(B-1))*B^(pla-1) < B^pla, pla=l*(K-1)+nprime+1",
+    "invariant": "X=R+cc*B^pla,0<=R<B^pla; hence cc in{-1,0} after each complete iteration.",
+    "retained_positive_carry_loop": "If defensive cc=1branch is retained, the add_1carry loop executes at most twice: a carry1clears its entire target, then a second add1cannotcarry."
+  },
+  "additional_gate_charge": {
+    "wide_cc_updates": "At most3K signed-bit updates on w_cc bits; explicit ripple add/sub-by-one-bit uses <=2w_cc AND and<=4w_cc XOR per update.",
+    "comparison": "Three constant equalities: each<=w_cc AND and<=3w_cc XOR.",
+    "public_constant": "Fixed bit constants and routing are free inxag-straightline-v1; any separately counted store/clear instructions remain in the source upper census.",
+    "coarse_for_p_ge400": "k<=p, w_cc<=3p: additional updates+comparisons <=18Kp+9p AND and<=36Kp+27p XOR, absorbed only when the full upper ledger explicitly includes them."
+  },
+  "scope": "Local semantic extension and gate charge. Does not close the global source-helper loop census, formal verification, full GMP upper or physical execution.",
+  "checks": 45493
+}

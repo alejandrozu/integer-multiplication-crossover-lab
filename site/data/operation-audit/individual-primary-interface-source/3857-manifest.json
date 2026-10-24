@@ -1,0 +1,83 @@
+{
+  "pr": 3857,
+  "own_head": "ef4315b8caa605e47a2515004845eb2d2ed71a86",
+  "primary_path_candidates": [
+    "research/staged544-certified-endpoint/CLAIM.json",
+    "research/staged544-certified-endpoint/RESULT.json",
+    "research/staged544-certified-endpoint/PROOF.md",
+    "research/staged544-certified-endpoint/README.md",
+    "research/staged544-certified-endpoint/TASK.json",
+    "research/staged544-certified-endpoint/VENDOR.json",
+    "research/staged544-certified-endpoint/VERIFY.json",
+    "research/staged544-certified-endpoint/VALIDATION.json",
+    "research/staged544-certified-endpoint/FORMAL-DATA.json",
+    "research/staged544-certified-endpoint/SEARCH-HASHES.json",
+    "research/staged544-certified-endpoint/FRONTIER-COMPARISON.json",
+    "research/staged544-certified-endpoint/lean/lake-manifest.json",
+    "research/staged544-certified-endpoint/SEARCH.md",
+    "research/staged544-certified-endpoint/verify.py",
+    "research/staged544-certified-endpoint/OVERLAP.md",
+    "research/staged544-certified-endpoint/test_cli.py",
+    "research/staged544-certified-endpoint/PRECEDENTS.md",
+    "research/staged544-certified-endpoint/dyadic_moment.py",
+    "research/staged544-certified-endpoint/test_arithmetic.py"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-certified-endpoint/PROOF.md",
+    "research/staged544-certified-endpoint/verify.py",
+    "research/staged544-certified-endpoint/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-certified-endpoint/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3857/2b3a4ede0d77__CLAIM.json",
+      "sha256": "2b3a4ede0d77e4d9908f50f756559fa4a5f371f9d04a185a308641b601c8857a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef4315b8caa605e47a2515004845eb2d2ed71a86/research/staged544-certified-endpoint/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-certified-endpoint/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3857/1bfeabb2fb62__RESULT.json",
+      "sha256": "1bfeabb2fb625e030b4c19803c4fcf12febcd1d8df40b29a79d57f16fbb401e1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef4315b8caa605e47a2515004845eb2d2ed71a86/research/staged544-certified-endpoint/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 59,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3857,
+      "head": "ef4315b8caa605e47a2515004845eb2d2ed71a86",
+      "path": "research/staged544-certified-endpoint/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef4315b8caa605e47a2515004845eb2d2ed71a86/research/staged544-certified-endpoint/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5817158d8a52188ff9c224625e269c33f22d7da16cedbeb2d648c2d9f527113a",
+      "git_blob_sha1": "752ebecd3701caab4cf76cef27d9f3ca97f629be",
+      "bytes": 6995,
+      "file": "individual-primary-interface-source/3857/5817158d8a52__PROOF.md"
+    },
+    {
+      "pr": 3857,
+      "head": "ef4315b8caa605e47a2515004845eb2d2ed71a86",
+      "path": "research/staged544-certified-endpoint/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef4315b8caa605e47a2515004845eb2d2ed71a86/research/staged544-certified-endpoint/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f1418705f1fe62ef12577e14a2b804d673f71a27a432be73beea7d00ba75e4d8",
+      "git_blob_sha1": "ccf3cc3b71e328fb71838849683f08ce3d3207be",
+      "bytes": 10906,
+      "file": "individual-primary-interface-source/3857/f1418705f1fe__verify.py"
+    },
+    {
+      "pr": 3857,
+      "head": "ef4315b8caa605e47a2515004845eb2d2ed71a86",
+      "path": "research/staged544-certified-endpoint/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef4315b8caa605e47a2515004845eb2d2ed71a86/research/staged544-certified-endpoint/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a10b7b08a81b237f2e5fd5091d92e2b2bd5b52f61064c717559494fd58671c27",
+      "git_blob_sha1": "2e7bd785d2dcb4bf7c48876f4227fb8fd1811292",
+      "bytes": 6291,
+      "file": "individual-primary-interface-source/3857/a10b7b08a81b__README.md"
+    }
+  ]
+}

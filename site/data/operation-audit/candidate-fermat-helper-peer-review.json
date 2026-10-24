@@ -1,0 +1,28 @@
+{
+  "schema": "candidate-fermat-helper-ai-peer-review/1",
+  "status": "PASS_IN_STATED_NONUNIFORM_XAG_MODEL",
+  "reviewer": "separate leaderboard_source AI worker",
+  "independent_human_review": false,
+  "Lean_verification": false,
+  "proof_and_certificate_sha256": {
+    "candidate-fermat-helper.json": "f55910966ed0fae37e5406d338922114262371702a0867995b6a1bd7695a7b75",
+    "candidate-fermat-helper.md": "e2ecbf0ac14835f92fbee9425b2468733b3210c23e39beaaa01a4f13bd0d7051",
+    "candidate_fermat_helper.py": "567a2ab35cae0cb44144c5d60d1424d84b4df6973d30dde4c5e507869e5ad657",
+    "candidate-fermat-helper-peer-review.md": "97f6f7e29f126ab2d941b6a30ee95d291aeeda2756484be40fc4f8f95f0a8031"
+  },
+  "reviewed_source_receipt_checks": 146891,
+  "candidate_helper_only": true,
+  "optimized_GMP_comparator_changed": false,
+  "each_gate_type_upper": "2^48*n*(1+log2(n))^8",
+  "scope": [
+    "principal root and inverse DFT over composite odd modulus",
+    "canonical top-bit corrections and signed reducer",
+    "centered coefficient uniqueness and signed 3b capacity",
+    "three chunk arrays and sign-mask linear recomposition",
+    "explicit local arithmetic and width census",
+    "schoolbook base and recursive cost induction",
+    "ordinary input padding and coefficient conversion"
+  ],
+  "whole_candidate_upper_closed_by_this_receipt": false,
+  "formal_status": "AI mathematical peer review of explicit construction; not human or proof-kernel verification"
+}

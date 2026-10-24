@@ -1,0 +1,78 @@
+{
+  "pr": 3115,
+  "own_head": "400bc83669f86917f69b6249cd0356d3a913293c",
+  "primary_path_candidates": [
+    "research/t740-six-skip-precision30/PROOF.md",
+    "research/t740-six-skip-precision30/README.md",
+    "research/t740-six-skip-precision30/TASK.json",
+    "research/t740-six-skip-precision30/VERIFY.json",
+    "research/t740-six-skip-precision30/PRECISION-EDITS.json",
+    "research/t740-six-skip-precision30/evidence/DERIVATION.json",
+    "research/t740-six-skip-precision30/evidence/VALIDATION.json",
+    "research/t740-six-skip-precision30/evidence/OUTER-LEDGER.json",
+    "research/t740-six-skip-precision30/seal.py",
+    "research/t740-six-skip-precision30/verify.py",
+    "research/t740-six-skip-precision30/baseline.py",
+    "research/t740-six-skip-precision30/reproduce.py",
+    "research/t740-six-skip-precision30/checkpoint.py",
+    "research/t740-six-skip-precision30/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t740-six-skip-precision30/TASK.json",
+    "research/t740-six-skip-precision30/VERIFY.json",
+    "research/t740-six-skip-precision30/seal.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t740-six-skip-precision30/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3115/d949f11cacb1__PROOF.md",
+      "sha256": "d949f11cacb1ffd0cde92b07248612096e9e90151e836244393c5babdf975ada",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/400bc83669f86917f69b6249cd0356d3a913293c/research/t740-six-skip-precision30/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t740-six-skip-precision30/README.md",
+      "file": "remaining-record-audit/artifacts/3115/2e89da91d90d__README.md",
+      "sha256": "2e89da91d90df043fc45eae22811ef57763befde0726be0fb13baa3fb0579d5f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/400bc83669f86917f69b6249cd0356d3a913293c/research/t740-six-skip-precision30/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 16,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3115,
+      "head": "400bc83669f86917f69b6249cd0356d3a913293c",
+      "path": "research/t740-six-skip-precision30/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/400bc83669f86917f69b6249cd0356d3a913293c/research/t740-six-skip-precision30/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "664f41fec943abd7676ace541bbbf29cc816f323bbaef579f7f1a8b1c10440b5",
+      "git_blob_sha1": "0cf2c05d805dc2979794a88b7f4156f9aef5d91d",
+      "bytes": 4430,
+      "file": "individual-primary-interface-source/3115/664f41fec943__TASK.json"
+    },
+    {
+      "pr": 3115,
+      "head": "400bc83669f86917f69b6249cd0356d3a913293c",
+      "path": "research/t740-six-skip-precision30/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/400bc83669f86917f69b6249cd0356d3a913293c/research/t740-six-skip-precision30/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "22fd5d466e3256c48446a7a00e350e7f257d49040d2a4c2e2ef10b149eb97a5d",
+      "git_blob_sha1": "063707acdbca3eeb514bbe8c0e8e3edaae84fdd6",
+      "bytes": 7517,
+      "file": "individual-primary-interface-source/3115/22fd5d466e32__VERIFY.json"
+    },
+    {
+      "pr": 3115,
+      "head": "400bc83669f86917f69b6249cd0356d3a913293c",
+      "path": "research/t740-six-skip-precision30/seal.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/400bc83669f86917f69b6249cd0356d3a913293c/research/t740-six-skip-precision30/seal.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4a8d9a5445b61239d8855a954e35f8fc36666ebf3aa418f165e47e59b3b9655d",
+      "git_blob_sha1": "e4638d2fc1b38c3cfc32e4a0034f25a1e8937b88",
+      "bytes": 6359,
+      "file": "individual-primary-interface-source/3115/4a8d9a5445b6__seal.py"
+    }
+  ]
+}

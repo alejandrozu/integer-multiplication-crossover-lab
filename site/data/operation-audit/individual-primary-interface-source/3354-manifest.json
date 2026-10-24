@@ -1,0 +1,72 @@
+{
+  "pr": 3354,
+  "own_head": "2007d0d1efe82b341e51a32d8b68ebaf8218b394",
+  "primary_path_candidates": [
+    "research/t16-three-helper-cycle/RESULT.json",
+    "research/t16-three-helper-cycle/PROOF.md",
+    "research/t16-three-helper-cycle/README.md",
+    "research/t16-three-helper-cycle/TASK.json",
+    "research/t16-three-helper-cycle/VERIFY.json",
+    "research/t16-three-helper-cycle/VALIDATION.json",
+    "research/t16-three-helper-cycle/SOURCE-EXPORT.json",
+    "research/t16-three-helper-cycle/predecessor.patch.json",
+    "research/t16-three-helper-cycle/evidence/STRICT-REPLAY.json",
+    "research/t16-three-helper-cycle/evidence/PREFIX-AND-INVOICE.json",
+    "research/t16-three-helper-cycle/replay.py",
+    "research/t16-three-helper-cycle/verify.py",
+    "research/t16-three-helper-cycle/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-three-helper-cycle/TASK.json",
+    "research/t16-three-helper-cycle/replay.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-three-helper-cycle/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3354/e89f4ba47dfe__PROOF.md",
+      "sha256": "e89f4ba47dfe98754c6401928a1c999a2dff977385e2e95737eec73c4f963387",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2007d0d1efe82b341e51a32d8b68ebaf8218b394/research/t16-three-helper-cycle/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-three-helper-cycle/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3354/ae7486992b3b__RESULT.json",
+      "sha256": "ae7486992b3b2de1a442d73bcc8ae40bc49bde3aa5cc12a8b60961555c5d2dab",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2007d0d1efe82b341e51a32d8b68ebaf8218b394/research/t16-three-helper-cycle/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-three-helper-cycle/README.md",
+      "file": "remaining-record-audit/artifacts/3354/ca45c8df87c4__README.md",
+      "sha256": "ca45c8df87c45b22330f3a3ef5a6d6d4f04d4d87d61d906c77c0cbfb37f9f44a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2007d0d1efe82b341e51a32d8b68ebaf8218b394/research/t16-three-helper-cycle/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 14,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3354,
+      "head": "2007d0d1efe82b341e51a32d8b68ebaf8218b394",
+      "path": "research/t16-three-helper-cycle/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2007d0d1efe82b341e51a32d8b68ebaf8218b394/research/t16-three-helper-cycle/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2ccfcfb0278871614870068ee8d785d74947594d8438c96a1da7b779e9b65db0",
+      "git_blob_sha1": "df0d12ad64e3d071a10a8097e9e2a041f3e33be8",
+      "bytes": 4548,
+      "file": "individual-primary-interface-source/3354/2ccfcfb02788__TASK.json"
+    },
+    {
+      "pr": 3354,
+      "head": "2007d0d1efe82b341e51a32d8b68ebaf8218b394",
+      "path": "research/t16-three-helper-cycle/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2007d0d1efe82b341e51a32d8b68ebaf8218b394/research/t16-three-helper-cycle/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a7d79c93c8e45614dc6855bbcef3cd687cae5f48051bb06389d1cdb71d6969a2",
+      "git_blob_sha1": "d2d73ec4f09dbfdcc615544ef025c34b6249ceae",
+      "bytes": 5732,
+      "file": "individual-primary-interface-source/3354/a7d79c93c8e4__replay.py"
+    }
+  ]
+}

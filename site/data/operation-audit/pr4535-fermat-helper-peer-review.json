@@ -1,0 +1,35 @@
+{
+  "schema": "pr4535-fermat-helper-upper-peer-review/1",
+  "status": "PASS_CONDITIONAL_WRITTEN_PROOF_AND_SOURCE_PARAMETER_REVIEW",
+  "reviewer": "leaderboard_source, a separate collaborating AI agent; not independent human review or Lean formalization",
+  "reviewed_sha256": {
+    "pr4535-fermat-helper-upper.md": "3fffd57597686a484c6b3d23163277e1b9fe39fa788a1ace2ddf0f70935afc5c",
+    "pr4535-fermat-helper-upper.json": "a17711efa45f58bc6e502966eeb87c34a5090ade45dd91e1fa9da663954fcba2",
+    "pr4535_fermat_helper_upper.py": "dad46dc994e57a8665caa09eab1bb9263a723b1413a9f09c155c13f20c07868d"
+  },
+  "reviewed_checks": 97,
+  "findings": [],
+  "scope": [
+    "Own head raw p16 byte identity and critical compiler source parameters",
+    "Strict integer child descent gives at most N compiler nesting levels, without old v1024 productive-floor assumption",
+    "Source class-heightG bounds suspended contexts; completed per-role Clifford/owned endpoints fund guard",
+    "Own rank-mass telescope and width envelope fund normalized work and occupied stock",
+    "Fresh exact outer54strict/4functional/9saving checks and correct uniform eta",
+    "Own signedFermat-helper pricing and fresh seven-row residual bounds",
+    "Own fine-prime/target-capacity and protected33p width gates",
+    "Same fixed unbounded optimizedGMP comparator, no inactive-policy or source supplier transfer"
+  ],
+  "retained_assumptions": [
+    "Own source native/all-column/absolute-phase and owned-erasure contracts",
+    "Critical-root finite compiler and class-height/width theorems",
+    "Parameterized Gaussian/fine-prime/boundary/recovery analytic lemmas",
+    "Finite native GMP correctness and halting"
+  ],
+  "not_claimed": [
+    "Fresh full native/phase replay",
+    "A complete Lean theorem",
+    "Hardware crossover",
+    "An exact individual first crossing",
+    "An unconditional multiplier"
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4413,
+    "head": "c2cf40086db273d7e0fcdd647fa63e2cc187550e",
+    "path": "research/pr4359-ledger-rebalance/README.md",
+    "api_sha": "ec3f808b4236bff3103b6224f795e8feeac15205",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research%2Fpr4359-ledger-rebalance%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research/pr4359-ledger-rebalance/README.md",
+    "file": "artifacts\\4413\\180993161e63__README.md",
+    "sha256": "180993161e636be1e4b821aab94807b507998f5b37bf96c8820dcc8d0e7fa331",
+    "git_blob_sha1": "ec3f808b4236bff3103b6224f795e8feeac15205",
+    "bytes": 4795,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.792467+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4413,
+    "head": "c2cf40086db273d7e0fcdd647fa63e2cc187550e",
+    "path": "research/pr4359-ledger-rebalance/SOURCES.json",
+    "api_sha": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research%2Fpr4359-ledger-rebalance%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research/pr4359-ledger-rebalance/SOURCES.json",
+    "file": "artifacts\\4413\\49fb3e2b5f89__SOURCES.json",
+    "sha256": "49fb3e2b5f8909ccb5edc2f2193aeacdc88bf8d1c63b2b1d25f2dd008f39ed93",
+    "git_blob_sha1": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.777855+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4413,
+    "head": "c2cf40086db273d7e0fcdd647fa63e2cc187550e",
+    "path": "research/pr4359-ledger-rebalance/verify.py",
+    "api_sha": "f54b1c5f4698bf34c5934d2b5b262f1ca1a3c187",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research%2Fpr4359-ledger-rebalance%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2cf40086db273d7e0fcdd647fa63e2cc187550e/research/pr4359-ledger-rebalance/verify.py",
+    "file": "artifacts\\4413\\c8bad790b0b6__verify.py",
+    "sha256": "c8bad790b0b64231fb729b7da14af2c15e5425ba011b6f7e8bd81d232874f089",
+    "git_blob_sha1": "f54b1c5f4698bf34c5934d2b5b262f1ca1a3c187",
+    "bytes": 11818,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.791467+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

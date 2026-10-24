@@ -1,0 +1,416 @@
+{
+  "status": "PASS_EXACT_LOCAL_PROGRAM_CENSUS_AND_RECEIPT_CROSSCHECK",
+  "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "local_native": {
+    "backward": {
+      "event_counts": {
+        "phase": 10,
+        "warp": 240,
+        "scalar": 17453,
+        "adapter": 448,
+        "climb": 3302,
+        "center": 8
+      },
+      "scalar_op_counts": {
+        "add": 16273,
+        "scale": 1164,
+        "clear": 16
+      },
+      "add_coefficients": {
+        "-8": 1,
+        "-4": 9,
+        "-2": 307,
+        "-7/4": 1,
+        "-3/2": 10,
+        "-1": 3854,
+        "-7/8": 1,
+        "-3/4": 15,
+        "-5/8": 9,
+        "-1/2": 2266,
+        "-3/8": 12,
+        "-1/4": 1608,
+        "-1/8": 37,
+        "1/8": 41,
+        "1/4": 1566,
+        "3/8": 10,
+        "1/2": 2532,
+        "5/8": 3,
+        "3/4": 5,
+        "7/8": 1,
+        "1": 3605,
+        "3/2": 10,
+        "7/4": 1,
+        "2": 359,
+        "4": 9,
+        "8": 1
+      },
+      "scale_coefficients": {
+        "-4": 5,
+        "-2": 182,
+        "-1": 608,
+        "-1/2": 182,
+        "-1/4": 5,
+        "1/4": 3,
+        "1/2": 81,
+        "1": 14,
+        "2": 81,
+        "4": 3
+      },
+      "source_conservative_real_primitive_allowance": 158168,
+      "literal_dyadic_lowering_per_coordinate": {
+        "real_modular_additions": 32710,
+        "real_additions_or_subtractions": 32710,
+        "real_negations_upper": 18224,
+        "variable_by_variable_real_multiplications": 0,
+        "integer_constant_shift_adds_included": 164,
+        "copy_real_words": 0,
+        "clear_real_words": 32,
+        "dyadic_scalings_are_fixed_shifts_with_binary_point_tracking": true,
+        "assumption": "No truncation; word width includes required integer/fractional guard bits. Apply this per complex coefficient coordinate. It excludes paid transforms, monomial phases, address work and outer multiplication."
+      },
+      "program_sha256": "4dddc576b064f16c1df3bbe9c30c4524bdac9c652436cd7c89d05b68d4fa1a74"
+    },
+    "forward": {
+      "event_counts": {
+        "phase": 10,
+        "warp": 240,
+        "scalar": 17453,
+        "adapter": 448,
+        "climb": 3302,
+        "center": 8
+      },
+      "scalar_op_counts": {
+        "add": 16265,
+        "scale": 1164,
+        "clear": 16,
+        "copy": 8
+      },
+      "add_coefficients": {
+        "-8": 1,
+        "-4": 9,
+        "-2": 359,
+        "-7/4": 1,
+        "-3/2": 10,
+        "-1": 3605,
+        "-7/8": 1,
+        "-3/4": 5,
+        "-5/8": 3,
+        "-1/2": 2532,
+        "-3/8": 10,
+        "-1/4": 1478,
+        "-1/8": 41,
+        "1/8": 37,
+        "1/4": 1696,
+        "3/8": 12,
+        "1/2": 2266,
+        "5/8": 9,
+        "3/4": 15,
+        "7/8": 1,
+        "1": 3846,
+        "3/2": 10,
+        "7/4": 1,
+        "2": 307,
+        "4": 9,
+        "8": 1
+      },
+      "scale_coefficients": {
+        "-4": 5,
+        "-2": 182,
+        "-1": 608,
+        "-1/2": 182,
+        "-1/4": 5,
+        "1/4": 3,
+        "1/2": 81,
+        "1": 14,
+        "2": 81,
+        "4": 3
+      },
+      "source_conservative_real_primitive_allowance": 158120,
+      "literal_dyadic_lowering_per_coordinate": {
+        "real_modular_additions": 32694,
+        "real_additions_or_subtractions": 32694,
+        "real_negations_upper": 18074,
+        "variable_by_variable_real_multiplications": 0,
+        "integer_constant_shift_adds_included": 164,
+        "copy_real_words": 16,
+        "clear_real_words": 32,
+        "dyadic_scalings_are_fixed_shifts_with_binary_point_tracking": true,
+        "assumption": "No truncation; word width includes required integer/fractional guard bits. Apply this per complex coefficient coordinate. It excludes paid transforms, monomial phases, address work and outer multiplication."
+      },
+      "program_sha256": "028ee4e0e66d0606a534e2f6ed05cafa82f8412451ef616090259ea654661b7b"
+    }
+  },
+  "controller": {
+    "physical_events": {
+      "LOCAL": 18,
+      "IDLE": 15,
+      "ADD": 90,
+      "QUERY_SHEAR": 15,
+      "SIGNED_SWAP": 16
+    },
+    "local_orientation_counts": {
+      "forward": 2,
+      "backward": 16
+    },
+    "boundary_program_ops": {
+      "SWAP": 57,
+      "SCALE": 7,
+      "ADD": 81
+    },
+    "boundary_coefficients": {
+      "-1": 54,
+      "1": 34
+    },
+    "boundary_matrix_order": 32,
+    "controller_scalar_coefficient_coordinate_multiplicity": 112,
+    "source_full_controller_scalar_budget_bound": 1000000000,
+    "paid_recursive_jobs": 64620,
+    "productive_fields": 10928,
+    "local_scalar_allowance_sum": 2846928,
+    "scalar_core_literal_lowering_per_coordinate": {
+      "local_real_modular_additions": 588748,
+      "controller_and_boundary_and_query_real_additions": 41664,
+      "total_real_modular_additions": 630412,
+      "total_real_modular_negations_upper": 353492,
+      "variable_by_variable_real_multiplications": 0,
+      "controller_add_signs": {
+        "1": 45,
+        "-1": 45
+      },
+      "boundary_add_signs": {
+        "1": 34,
+        "-1": 47
+      },
+      "boundary_scale_signs": {
+        "-1": 7
+      },
+      "query_directions": {
+        "forward": 15
+      },
+      "excluded": [
+        "Paid transforms",
+        "Unit phases and native warp lowering",
+        "Fixed address/index circuit generation",
+        "Every integer-multiplication outer stage"
+      ],
+      "meaning": "One execution of the un-tensored p16 raw controller scalar core, per common complex coefficient coordinate, using fixed-shift plus real-add plus real-negate macros. Copied query recipe is from PROOF.md section 1."
+    }
+  },
+  "paid_profile": {
+    "1": 41946,
+    "16": 448,
+    "2": 6984,
+    "24": 448,
+    "3": 8892,
+    "32": 448,
+    "4": 2646,
+    "40": 448,
+    "48": 448,
+    "5": 648,
+    "56": 448,
+    "64": 448,
+    "72": 224,
+    "8": 144
+  },
+  "target_profile": {
+    "145": 224,
+    "17": 448,
+    "25": 448,
+    "33": 448,
+    "4": 504,
+    "41": 448,
+    "49": 448,
+    "57": 448,
+    "65": 448,
+    "7": 126,
+    "73": 224,
+    "8": 846,
+    "9": 5868
+  },
+  "tensor_count_file": "pr4470-tensor-counts.json",
+  "parent_comparison": {
+    "parent_pr": 4447,
+    "parent_head": "322e0ec764aa7ef7801383feb1f656e460dd8bed",
+    "parent_raw_paid_calls": 69273,
+    "new_raw_paid_calls": 64620,
+    "parent_productive_fields": 11560,
+    "new_productive_fields": 10928,
+    "parent_local_scalar_census": {
+      "backward": {
+        "event_counts": {
+          "phase": 10,
+          "warp": 240,
+          "scalar": 17453,
+          "adapter": 448,
+          "climb": 3355,
+          "center": 8
+        },
+        "scalar_op_counts": {
+          "add": 16273,
+          "scale": 1164,
+          "clear": 16
+        },
+        "add_coefficients": {
+          "-8": 1,
+          "-4": 9,
+          "-2": 307,
+          "-7/4": 1,
+          "-3/2": 10,
+          "-1": 3854,
+          "-7/8": 1,
+          "-3/4": 15,
+          "-5/8": 9,
+          "-1/2": 2266,
+          "-3/8": 12,
+          "-1/4": 1608,
+          "-1/8": 37,
+          "1/8": 41,
+          "1/4": 1566,
+          "3/8": 10,
+          "1/2": 2532,
+          "5/8": 3,
+          "3/4": 5,
+          "7/8": 1,
+          "1": 3605,
+          "3/2": 10,
+          "7/4": 1,
+          "2": 359,
+          "4": 9,
+          "8": 1
+        },
+        "scale_coefficients": {
+          "-4": 5,
+          "-2": 182,
+          "-1": 608,
+          "-1/2": 182,
+          "-1/4": 5,
+          "1/4": 3,
+          "1/2": 81,
+          "1": 14,
+          "2": 81,
+          "4": 3
+        },
+        "source_conservative_real_primitive_allowance": 158168,
+        "literal_dyadic_lowering_per_coordinate": {
+          "real_modular_additions": 32710,
+          "real_additions_or_subtractions": 32710,
+          "real_negations_upper": 18224,
+          "variable_by_variable_real_multiplications": 0,
+          "integer_constant_shift_adds_included": 164,
+          "copy_real_words": 0,
+          "clear_real_words": 32,
+          "dyadic_scalings_are_fixed_shifts_with_binary_point_tracking": true,
+          "assumption": "No truncation; word width includes required integer/fractional guard bits. Apply this per complex coefficient coordinate. It excludes paid transforms, monomial phases, address work and outer multiplication."
+        },
+        "program_sha256": "4a344ba3ba7ef8a7d050781727233f1d4d9c3aac60a6b91b579de1255349f6e2"
+      },
+      "forward": {
+        "event_counts": {
+          "phase": 10,
+          "warp": 240,
+          "scalar": 17453,
+          "adapter": 448,
+          "climb": 3355,
+          "center": 8
+        },
+        "scalar_op_counts": {
+          "add": 16265,
+          "scale": 1164,
+          "clear": 16,
+          "copy": 8
+        },
+        "add_coefficients": {
+          "-8": 1,
+          "-4": 9,
+          "-2": 359,
+          "-7/4": 1,
+          "-3/2": 10,
+          "-1": 3605,
+          "-7/8": 1,
+          "-3/4": 5,
+          "-5/8": 3,
+          "-1/2": 2532,
+          "-3/8": 10,
+          "-1/4": 1478,
+          "-1/8": 41,
+          "1/8": 37,
+          "1/4": 1696,
+          "3/8": 12,
+          "1/2": 2266,
+          "5/8": 9,
+          "3/4": 15,
+          "7/8": 1,
+          "1": 3846,
+          "3/2": 10,
+          "7/4": 1,
+          "2": 307,
+          "4": 9,
+          "8": 1
+        },
+        "scale_coefficients": {
+          "-4": 5,
+          "-2": 182,
+          "-1": 608,
+          "-1/2": 182,
+          "-1/4": 5,
+          "1/4": 3,
+          "1/2": 81,
+          "1": 14,
+          "2": 81,
+          "4": 3
+        },
+        "source_conservative_real_primitive_allowance": 158120,
+        "literal_dyadic_lowering_per_coordinate": {
+          "real_modular_additions": 32694,
+          "real_additions_or_subtractions": 32694,
+          "real_negations_upper": 18074,
+          "variable_by_variable_real_multiplications": 0,
+          "integer_constant_shift_adds_included": 164,
+          "copy_real_words": 16,
+          "clear_real_words": 32,
+          "dyadic_scalings_are_fixed_shifts_with_binary_point_tracking": true,
+          "assumption": "No truncation; word width includes required integer/fractional guard bits. Apply this per complex coefficient coordinate. It excludes paid transforms, monomial phases, address work and outer multiplication."
+        },
+        "program_sha256": "35b5f967bd0eda147b82ec730f3e471a37a9144635984f20fb217a44e32f75e2"
+      }
+    },
+    "scalar_core_counts_unchanged": true,
+    "parent_local_paid_jobs": 3363,
+    "new_local_paid_jobs": 3310,
+    "raw_recursive_jobs_removed": 4653,
+    "parent_full_calls": 19,
+    "new_full_calls": 18,
+    "counterfactual_old_local_tariff_in_new_p16_paid_calls": 65574,
+    "counterfactual_scope": "65574 compares only local-tariff replacement on the new p16 controller. The published parent is p17 with 69273 paid calls and 11560 productive fields."
+  },
+  "full_uniform_compiler": {
+    "rank": "2^64215200000000",
+    "tensor_power": 1024,
+    "raw_productive_width": "10928^1024",
+    "raw_paid_rounds_before_split": "64620^1024",
+    "exact_batch_width_and_final_full_word_not_materialized": true
+  },
+  "scope": "Exact finite local scalar/program census. These field-level counts are not a Boolean multiplication cost or complete integer algorithm.",
+  "source_sha256": {
+    "CONTROLLER.json": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+    "NATIVE.json.gz": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6",
+    "native_joint.py": "50869b1bcad7493e6b4cb2a4cd5d2fd9a193a5921100483fa2c3f2c999ddfd46",
+    "PATCH.json": "296d0e8c58cc70febe042c681ef30d6bb469818c0835fbcaac8aa8d330f5b727",
+    "research__fresh-helper-boundary__CHANGES.json": "cde73b8ff5b3c0d06e69e2293b991b24fd14a16dd4ccab7ff6b3439074a94624",
+    "research__fresh-helper-boundary__native.py": "9b55a2d3c3972148fae9d112e745d9244968166bd89bd900c938f429fc76ab29",
+    "research__higher-moment-strictification__vendor__FINITE-TEMPLATE-CLOSURE.md": "3f8508c63862dd83968bd30df91b08ba5afcee1e10db15ca546cdff0caef95d9",
+    "research__kappa-causal-continuation__buffer-borrowing__verify_buffers.py": "106b4d5e052427230df452f0c901d5390a0583782960b80a8af94d9a984022c7",
+    "research__kappa-rebuild__complex__full-identity-certificates__THREE-base-FULL-IDENTITY-CANONICAL.json.gz": "6418ec3da24d548a57f5c3fe5b9062c26c9478e638504a61c387f5cfb5f4ed61",
+    "research__kappa-rebuild__complex__full-identity-certificates__THREE-base-FULL-IDENTITY-NATIVE.json.gz": "c54b0a3e129d28e6dbf74fa731fc3bb70fe3c6705f07256750fbecddcc842d39",
+    "research__kappa-rebuild__complex__native_extensions.py": "50ad007d9c386393657e86c99a96ae0a63a8fbc52872579b185002cc626e88e3",
+    "research__kappa-rebuild__complex__rebuild_native.py": "f94c527cc02215de49350d477618188c4c0da48bc8fb05b4e37b24c482cad7d5",
+    "research__kappa-rebuild__transfer-audit__AUDIT.md": "032488343667d19613cab84df5dad554cfd2a283fb4fc0d4c9b4d165cfa04669",
+    "research__missing-join-frame__PATCH.json": "9ab5328245ff02c9d0be21d39bcc375f50bc5d7909e9f7b9a3a9a6f812f5bd6e",
+    "research__missing-join-frame__RESULT.json": "25f2cbcde988847ff86f44e804982069863ec99ff68097f16e9bb7a1a17c4cd0",
+    "research__pr4359-p7-padding__native_inventory.py": "65539acaf45bdfe8c5aee6830f9c9b3d1107c442a60842ef803fdd7688de8f32",
+    "research__query-thinned-controllers__controller.py": "8b462d660487b1be4940357c4c7522967b1bfaede3c02b1c66109b85acae0fd2",
+    "research__query-thinned-controllers__PROOF.md": "5ade59641f2ed70d045d6f60e89db7d979b1d1e9967f3acbe5c56eac81312841",
+    "research__t74-native-fast__vendor__native__new__code__borrow__vendor__clifford__clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "RESULT.json": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+  }
+}

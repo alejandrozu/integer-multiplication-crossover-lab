@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4486,
+    "head": "dfc477842771516c48c4c144e42b5ef1309ca536",
+    "path": "research/gaussian-tensor-approximant/README.md",
+    "api_sha": "0bce954741a3b78cc177cf16e90067483b5488a6",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/dfc477842771516c48c4c144e42b5ef1309ca536/research%2Fgaussian-tensor-approximant%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/dfc477842771516c48c4c144e42b5ef1309ca536/research/gaussian-tensor-approximant/README.md",
+    "file": "artifacts\\4486\\10e80f33c9b7__README.md",
+    "sha256": "10e80f33c9b78e145b83a173f00ccdd1fab1ab2dfdad26f54f388a5336842428",
+    "git_blob_sha1": "0bce954741a3b78cc177cf16e90067483b5488a6",
+    "bytes": 6044,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.284186+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4486,
+    "head": "dfc477842771516c48c4c144e42b5ef1309ca536",
+    "path": "research/gaussian-tensor-approximant/SOURCES.json",
+    "api_sha": "b6dd82035cab2bdb4f498a34016c3826663519e4",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/dfc477842771516c48c4c144e42b5ef1309ca536/research%2Fgaussian-tensor-approximant%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/dfc477842771516c48c4c144e42b5ef1309ca536/research/gaussian-tensor-approximant/SOURCES.json",
+    "file": "artifacts\\4486\\cf3851b666f6__SOURCES.json",
+    "sha256": "cf3851b666f6b07bf57c114b8f8bf4d2822769645a1d90c1781cf24c4c0c277c",
+    "git_blob_sha1": "b6dd82035cab2bdb4f498a34016c3826663519e4",
+    "bytes": 826,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.290566+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4486,
+    "head": "dfc477842771516c48c4c144e42b5ef1309ca536",
+    "path": "research/gaussian-tensor-approximant/verify.py",
+    "api_sha": "30918e4700e92316d3bcb3e21d33e53827cb8388",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/dfc477842771516c48c4c144e42b5ef1309ca536/research%2Fgaussian-tensor-approximant%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/dfc477842771516c48c4c144e42b5ef1309ca536/research/gaussian-tensor-approximant/verify.py",
+    "file": "artifacts\\4486\\ae388f1241f8__verify.py",
+    "sha256": "ae388f1241f8ea63f7979ebb822e91a8d72037634f311618f5f899219e9ef90b",
+    "git_blob_sha1": "30918e4700e92316d3bcb3e21d33e53827cb8388",
+    "bytes": 3420,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.288183+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

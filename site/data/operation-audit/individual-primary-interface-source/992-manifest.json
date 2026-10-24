@@ -1,0 +1,61 @@
+{
+  "pr": 992,
+  "own_head": "0efdfc28b1eb71c91c012ca1e1945baeeebce7bb",
+  "primary_path_candidates": [
+    "research/t37-integrality-audit/EXPECTED.json",
+    "research/t37-integrality-audit/CLAIM.md",
+    "research/t37-integrality-audit/PROOF.md",
+    "research/t37-integrality-audit/README.md",
+    "research/t37-integrality-audit/VALIDATION.md",
+    "research/t37-integrality-audit/verify.py",
+    "research/t37-integrality-audit/independent_check.py"
+  ],
+  "selected_for_recovery": [
+    "research/t37-integrality-audit/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-integrality-audit/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/992/17ffdeffab4a__EXPECTED.json",
+      "sha256": "17ffdeffab4ae2a843381ea1e87305608e4caac27cc15293b590c6313a2dd095",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0efdfc28b1eb71c91c012ca1e1945baeeebce7bb/research/t37-integrality-audit/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-integrality-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/992/e0fe049c969a__verify.py",
+      "sha256": "e0fe049c969a42608cc687f939cdc6b9766fadc18c4dce1d972def6773ab860a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0efdfc28b1eb71c91c012ca1e1945baeeebce7bb/research/t37-integrality-audit/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-integrality-audit/PROOF.md",
+      "file": "remaining-record-audit/artifacts/992/0dd18b2b486b__PROOF.md",
+      "sha256": "0dd18b2b486b98dc06e67b0b64e21dc18b6282af483f975e551b1f36dbc5d7ca",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0efdfc28b1eb71c91c012ca1e1945baeeebce7bb/research/t37-integrality-audit/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-integrality-audit/README.md",
+      "file": "remaining-record-audit/artifacts/992/5e90726de406__README.md",
+      "sha256": "5e90726de4069d8d19c1f3cf49e636578f46c1d150f1b8d7a7ca64c90b78ea1c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0efdfc28b1eb71c91c012ca1e1945baeeebce7bb/research/t37-integrality-audit/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 992,
+      "head": "0efdfc28b1eb71c91c012ca1e1945baeeebce7bb",
+      "path": "research/t37-integrality-audit/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0efdfc28b1eb71c91c012ca1e1945baeeebce7bb/research/t37-integrality-audit/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "732094e444aa40f9f5f229c88cce9a00476dbd01923bb62a4a137ff9efbe0779",
+      "git_blob_sha1": "394def32fee361fd6cb137534f5b9d60dece12b1",
+      "bytes": 3129,
+      "file": "individual-primary-interface-source/992/732094e444aa__CLAIM.md"
+    }
+  ]
+}

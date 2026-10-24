@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 587,
+    "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+    "path": "research/witness-spec-tools/README.md",
+    "api_sha": "4b06bd55324d8e91027138b033e7a666fd3d277d",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research%2Fwitness-spec-tools%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/README.md",
+    "file": "artifacts\\587\\1e879f626bb0__README.md",
+    "sha256": "1e879f626bb054d50776e4f400b5535f79b6881328d268eeebf85aecad5a6400",
+    "git_blob_sha1": "4b06bd55324d8e91027138b033e7a666fd3d277d",
+    "bytes": 7927,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:00.697362+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 587,
+    "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+    "path": "research/witness-spec-tools/code/witness.py",
+    "api_sha": "99cbc0a5ecd60e6b11c7504f98c62e606a0fa4b2",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research%2Fwitness-spec-tools%2Fcode%2Fwitness.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/code/witness.py",
+    "file": "artifacts\\587\\81ebbe274b64__witness.py",
+    "sha256": "81ebbe274b64fae6ed7d5895a04c4d22760edc254c0e98a4f45d5e98c9b038a1",
+    "git_blob_sha1": "99cbc0a5ecd60e6b11c7504f98c62e606a0fa4b2",
+    "bytes": 2153,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:00.669363+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 587,
+    "head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+    "path": "research/witness-spec-tools/verify.py",
+    "api_sha": "f51b838f72189793db78612f9c7fe0e82f966801",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research%2Fwitness-spec-tools%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9bf577d56312f7491e4bb39b5fa7d844f318cde9/research/witness-spec-tools/verify.py",
+    "file": "artifacts\\587\\f5903c72b4bd__verify.py",
+    "sha256": "f5903c72b4bda25a238a7a2f3b647880d1d586d7c06b62e2fdfdfe194e77352d",
+    "git_blob_sha1": "f51b838f72189793db78612f9c7fe0e82f966801",
+    "bytes": 24560,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:00.683362+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

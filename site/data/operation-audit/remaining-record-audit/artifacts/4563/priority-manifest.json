@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4563,
+    "head": "7db8ee8d97d456f120cb534d8cf356a1b8b02ca8",
+    "path": "research/pr4535-smaller-rank/README.md",
+    "api_sha": "1dec76e1da0deef1b6729c8d7742464a25ffc6ae",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research%2Fpr4535-smaller-rank%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research/pr4535-smaller-rank/README.md",
+    "file": "artifacts\\4563\\58e3741336a0__README.md",
+    "sha256": "58e3741336a0d344657787104afc9da4fb0b316ebd4a081dd3473a0c2050c003",
+    "git_blob_sha1": "1dec76e1da0deef1b6729c8d7742464a25ffc6ae",
+    "bytes": 3790,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.950757+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4563,
+    "head": "7db8ee8d97d456f120cb534d8cf356a1b8b02ca8",
+    "path": "research/pr4535-smaller-rank/SOURCES.json",
+    "api_sha": "a2a5ea8bbd4244e665f3bbf1d19bed4b04c1c270",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research%2Fpr4535-smaller-rank%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research/pr4535-smaller-rank/SOURCES.json",
+    "file": "artifacts\\4563\\c7050d7b52c6__SOURCES.json",
+    "sha256": "c7050d7b52c6c262c6172dc1f01e9a249a4d104ca84c1c2bf780fa1cbb080630",
+    "git_blob_sha1": "a2a5ea8bbd4244e665f3bbf1d19bed4b04c1c270",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.875198+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4563,
+    "head": "7db8ee8d97d456f120cb534d8cf356a1b8b02ca8",
+    "path": "research/pr4535-smaller-rank/verify.py",
+    "api_sha": "430885de4c8985b26938be4c5a0ccc873be41024",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research%2Fpr4535-smaller-rank%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7db8ee8d97d456f120cb534d8cf356a1b8b02ca8/research/pr4535-smaller-rank/verify.py",
+    "file": "artifacts\\4563\\2a9ee4b194c0__verify.py",
+    "sha256": "2a9ee4b194c09dc4111d3dc81e753db1c5e83125f6b95f5d3997a79b2f5ab64f",
+    "git_blob_sha1": "430885de4c8985b26938be4c5a0ccc873be41024",
+    "bytes": 6671,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.917689+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

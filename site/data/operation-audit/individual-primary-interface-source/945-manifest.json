@@ -1,0 +1,64 @@
+{
+  "pr": 945,
+  "own_head": "a3245bf22fa2a2eb778b11128cbc605b130d737f",
+  "primary_path_candidates": [
+    "research/x4-joint-horner-seed29/CLAIM.json",
+    "research/x4-joint-horner-seed29/EXPECTED.json",
+    "research/x4-joint-horner-seed29/PROOF.md",
+    "research/x4-joint-horner-seed29/README.md",
+    "research/x4-joint-horner-seed29/VALIDATION.md",
+    "research/x4-joint-horner-seed29/OVERLAP.json",
+    "research/x4-joint-horner-seed29/joint.py",
+    "research/x4-joint-horner-seed29/verify.py",
+    "research/x4-joint-horner-seed29/independent.py",
+    "research/x4-joint-horner-seed29/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/x4-joint-horner-seed29/joint.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-joint-horner-seed29/PROOF.md",
+      "file": "remaining-record-audit/artifacts/945/c1e9374f7231__PROOF.md",
+      "sha256": "c1e9374f723162bfb791e684c32a5abf7cadd3737174091f1e6c9e59ef055ae4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3245bf22fa2a2eb778b11128cbc605b130d737f/research/x4-joint-horner-seed29/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-joint-horner-seed29/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/945/f1054e48b5a0__CLAIM.json",
+      "sha256": "f1054e48b5a0874639ac6653968872a737ad1702527ead33a4f070a2b7de01c7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3245bf22fa2a2eb778b11128cbc605b130d737f/research/x4-joint-horner-seed29/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-joint-horner-seed29/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/945/ea89a0042f7b__EXPECTED.json",
+      "sha256": "ea89a0042f7b36a5f6e1d99d86cbe3b8e027bacbaf99333ed1153866c937ca52",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3245bf22fa2a2eb778b11128cbc605b130d737f/research/x4-joint-horner-seed29/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-joint-horner-seed29/README.md",
+      "file": "remaining-record-audit/artifacts/945/d87574bd648a__README.md",
+      "sha256": "d87574bd648af0c6d86a1f397d2ee68bb81154e6cb3edb0433767c1a87080c26",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3245bf22fa2a2eb778b11128cbc605b130d737f/research/x4-joint-horner-seed29/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 945,
+      "head": "a3245bf22fa2a2eb778b11128cbc605b130d737f",
+      "path": "research/x4-joint-horner-seed29/joint.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3245bf22fa2a2eb778b11128cbc605b130d737f/research/x4-joint-horner-seed29/joint.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "71a5b581184b03aca1c0b4944146e53b5d6463ccbe27bcc87e7fd272a07283a6",
+      "git_blob_sha1": "4623688552e1ab541971dc2ebbc27e2e0be10f32",
+      "bytes": 3889,
+      "file": "individual-primary-interface-source/945/71a5b581184b__joint.py"
+    }
+  ]
+}

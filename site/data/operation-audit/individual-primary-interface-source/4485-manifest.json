@@ -1,0 +1,56 @@
+{
+  "pr": 4485,
+  "own_head": "1dc102830b6e13238b0cd3b8f7dc2e3a102838a9",
+  "primary_path_candidates": [
+    "research/gaussian-tensor-fold/README.md",
+    "research/gaussian-tensor-fold/TASK.json",
+    "research/gaussian-tensor-fold/VERIFY.json",
+    "research/gaussian-tensor-fold/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gaussian-tensor-fold/TASK.json",
+    "research/gaussian-tensor-fold/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-fold/README.md",
+      "file": "remaining-record-audit/artifacts/4485/313384833216__README.md",
+      "sha256": "3133848332167075833aea27a8b9172a4c7c98c92a0b7b594c0332646c7212ca",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1dc102830b6e13238b0cd3b8f7dc2e3a102838a9/research/gaussian-tensor-fold/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-fold/verify.py",
+      "file": "remaining-record-audit/artifacts/4485/ab82ae08dcf0__verify.py",
+      "sha256": "ab82ae08dcf0a14e94d08c660db25d847ca88983203aa4aee22565889f0bd418",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1dc102830b6e13238b0cd3b8f7dc2e3a102838a9/research/gaussian-tensor-fold/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4485,
+      "head": "1dc102830b6e13238b0cd3b8f7dc2e3a102838a9",
+      "path": "research/gaussian-tensor-fold/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1dc102830b6e13238b0cd3b8f7dc2e3a102838a9/research/gaussian-tensor-fold/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "08d66a8bf7659e10cdfb7d62bfe6d7696690fe42661c46219d0b7008a8430015",
+      "git_blob_sha1": "c1cd836f4fc028f38eacbb876394ed2857fbcc50",
+      "bytes": 4627,
+      "file": "individual-primary-interface-source/4485/08d66a8bf765__TASK.json"
+    },
+    {
+      "pr": 4485,
+      "head": "1dc102830b6e13238b0cd3b8f7dc2e3a102838a9",
+      "path": "research/gaussian-tensor-fold/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1dc102830b6e13238b0cd3b8f7dc2e3a102838a9/research/gaussian-tensor-fold/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0e4882986b5eda2956599cb9531be98883a2529a14a6da19e824353be3c50575",
+      "git_blob_sha1": "f5c64282dfdffb7e86dc8ef9a95eb21fa748c8ff",
+      "bytes": 510,
+      "file": "individual-primary-interface-source/4485/0e4882986b5e__VERIFY.json"
+    }
+  ]
+}

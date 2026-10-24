@@ -1,0 +1,67 @@
+{
+  "pr": 3337,
+  "own_head": "7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7",
+  "primary_path_candidates": [
+    "research/selected1094-release-grid/CERTIFICATE.json",
+    "research/selected1094-release-grid/README.md",
+    "research/selected1094-release-grid/TASK.json",
+    "research/selected1094-release-grid/CHECKS.json",
+    "research/selected1094-release-grid/REVIEW.json",
+    "research/selected1094-release-grid/VERIFY.json",
+    "research/selected1094-release-grid/BINDINGS.json",
+    "research/selected1094-release-grid/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected1094-release-grid/TASK.json",
+    "research/selected1094-release-grid/CHECKS.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected1094-release-grid/README.md",
+      "file": "remaining-record-audit/artifacts/3337/0501ab34d883__README.md",
+      "sha256": "0501ab34d8834cb232547cba7fb34624eba11ff0bcc110ca7c49f3ea4320abab",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7/research/selected1094-release-grid/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected1094-release-grid/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/3337/4bef30d845ba__CERTIFICATE.json",
+      "sha256": "4bef30d845ba941d8a811fddf3df4456d79b25470591e41edaaa31be7ab1ed21",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7/research/selected1094-release-grid/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected1094-release-grid/verify.py",
+      "file": "remaining-record-audit/artifacts/3337/5d84730deb34__verify.py",
+      "sha256": "5d84730deb345de741955ae2d4416119aad7f249ad865f30c3e3d299739b0905",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7/research/selected1094-release-grid/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 18,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3337,
+      "head": "7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7",
+      "path": "research/selected1094-release-grid/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7/research/selected1094-release-grid/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "256330653e96fc7802cf14a52519ed1763467ba6cc34a8120bd8931796b3b2bd",
+      "git_blob_sha1": "4b4400d859c7301a6625672e86f0f706280ba701",
+      "bytes": 4274,
+      "file": "individual-primary-interface-source/3337/256330653e96__TASK.json"
+    },
+    {
+      "pr": 3337,
+      "head": "7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7",
+      "path": "research/selected1094-release-grid/CHECKS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7ed071d5ba741ffd05f1b68c6fd7f8dcc6a12ad7/research/selected1094-release-grid/CHECKS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d944bc90a8bf9b37b1251ba8d51b9892bea7f8367cfa5898e10f4d650f9de702",
+      "git_blob_sha1": "6edfc3164e9ccb3631dda451c9dd913366acf8ed",
+      "bytes": 1760,
+      "file": "individual-primary-interface-source/3337/d944bc90a8bf__CHECKS.json"
+    }
+  ]
+}

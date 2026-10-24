@@ -1,0 +1,183 @@
+{
+  "gmp_dll_sha256": "525f5681dc5fb40ef86b1bcb0ee5c40142aec689e0a1ba8c8e40199173366f6a",
+  "gmp_version": "6.3.0",
+  "official_source_archive_sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+  "official_archive_url": "https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz",
+  "sources_sha256": {
+    "gmp-impl.h": "7e10f925e81176a7f5e2c7af5c86b050449f949b49f8c258f00dbbe52b6d18dc",
+    "gmp-h.in": "3e09f57d413e03cbf4c967317748ae83bbae58b9860f150b7c913eaeee0d0542",
+    "configure.ac": "38b226f22ec77282a758f72831da9faf0efd1473a6abdfad5bcb90a0b0a3fd5a",
+    "mpz/mul.c": "743b070fb0edeb35581aec7d440e486b8d4dfebb4b5fc0f492df2fd494af44f9",
+    "mpn/generic/mul_n.c": "042149c7e1be083ad3a7c01ede62a9b51e83cd156ed7d5ac6d09ec065f8f402b",
+    "mpn/x86_64/fat/fat.c": "859d9f8060383f0d5655e1f2e574e3e30d35df53d10438efbf1f6f16184a0b3f",
+    "mpn/x86_64/fat/fat_entry.asm": "1185cf32ab58544905cb2805a90811b16e46210cf70d2b8a739b91bc87193276",
+    "mpn/x86_64/fat/gmp-mparam.h": "1e9ba3d596f7422ade5d3fae56cc82d57b0dd2cf6d5b6b5b11eacbd09edbcb58",
+    "mpn/x86_64/coreihwl/gmp-mparam.h": "4377e76c7b56b9ca6bf00b415272cf56401c1d3fa0a88e6f6c0bbf9310e4c449",
+    "mpn/x86_64/coreibwl/gmp-mparam.h": "00b7758a00e8ce0e460a667cd574e4c2aa2108499d63b12b7eff0e3845515fe2",
+    "mpn/x86_64/skylake/gmp-mparam.h": "d57ee9dd2b6ee6dafa49f0f0e348391069f982da9d0ab5e2abbb0571ce5ac395"
+  },
+  "embedded_compiler_strings": [
+    "GCC: (Rev4, Built by MSYS2 project) 16.2.0"
+  ],
+  "full_compiler_flags": "Not distributed with wheel; unavailable from __gmp_cc/__gmp_cflags exports.",
+  "fat_dispatch_present": true,
+  "default_dispatch": {
+    "selected_function_symbols": {
+      "add_n": [
+        "__gmpn_add_n_x86_64"
+      ],
+      "addlsh1_n": [
+        "__gmpn_addlsh1_n_x86_64"
+      ],
+      "addlsh2_n": [
+        "__gmpn_addlsh2_n_x86_64"
+      ],
+      "addmul_1": [
+        "__gmpn_addmul_1_x86_64"
+      ],
+      "addmul_2": [
+        "__gmpn_addmul_2_fat"
+      ],
+      "bdiv_dbm1c": [
+        "__gmpn_bdiv_dbm1c_x86_64"
+      ],
+      "cnd_add_n": [
+        "__gmpn_cnd_add_n_x86_64"
+      ],
+      "cnd_sub_n": [
+        "__gmpn_cnd_sub_n_x86_64"
+      ],
+      "com": [
+        "__gmpn_com_x86_64"
+      ],
+      "copyd": [
+        "__gmpn_copyd_x86_64"
+      ],
+      "copyi": [
+        "__gmpn_copyi_x86_64"
+      ],
+      "divexact_1": [
+        "__gmpn_divexact_1_x86_64"
+      ],
+      "divrem_1": [
+        "__gmpn_divrem_1_x86_64"
+      ],
+      "gcd_11": [
+        "__gmpn_gcd_11_x86_64"
+      ],
+      "lshift": [
+        "__gmpn_lshift_x86_64"
+      ],
+      "lshiftc": [
+        "__gmpn_lshiftc_x86_64"
+      ],
+      "mod_1": [
+        "__gmpn_mod_1_fat"
+      ],
+      "mod_1_1p": [
+        "__gmpn_mod_1_1p_x86_64"
+      ],
+      "mod_1_1p_cps": [
+        "__gmpn_mod_1_1p_cps_x86_64"
+      ],
+      "mod_1s_2p": [
+        "__gmpn_mod_1s_2p_x86_64"
+      ],
+      "mod_1s_2p_cps": [
+        "__gmpn_mod_1s_2p_cps_x86_64"
+      ],
+      "mod_1s_4p": [
+        "__gmpn_mod_1s_4p_x86_64"
+      ],
+      "mod_1s_4p_cps": [
+        "__gmpn_mod_1s_4p_cps_x86_64"
+      ],
+      "mod_34lsub1": [
+        "__gmpn_mod_34lsub1_x86_64"
+      ],
+      "modexact_1c_odd": [
+        "__gmpn_modexact_1c_odd_x86_64"
+      ],
+      "mul_1": [
+        "__gmpn_mul_1_x86_64"
+      ],
+      "mul_basecase": [
+        "__gmpn_mul_basecase_fat"
+      ],
+      "mullo_basecase": [
+        "__gmpn_mullo_basecase_fat"
+      ],
+      "preinv_divrem_1": [
+        "__gmpn_preinv_divrem_1_x86_64"
+      ],
+      "preinv_mod_1": [
+        "__gmpn_mod_1_fat"
+      ],
+      "redc_1": [
+        "__gmpn_redc_1_fat"
+      ],
+      "redc_2": [
+        "__gmpn_redc_2_fat"
+      ],
+      "rshift": [
+        "__gmpn_rshift_x86_64"
+      ],
+      "sqr_basecase": [
+        "__gmpn_sqr_basecase_fat"
+      ],
+      "sub_n": [
+        "__gmpn_sub_n_x86_64"
+      ],
+      "sublsh1_n": [
+        "__gmpn_sublsh1_n_x86_64"
+      ],
+      "submul_1": [
+        "__gmpn_submul_1_x86_64"
+      ]
+    },
+    "dynamic_thresholds_limbs": {
+      "mul_toom22_threshold": 20,
+      "mul_toom33_threshold": 130,
+      "sqr_toom2_threshold": 30,
+      "sqr_toom3_threshold": 200,
+      "bmod_1_to_mod_1_threshold": 20
+    },
+    "mp_size_t_bits": 32,
+    "source_struct_field_count": 37
+  },
+  "abi": {
+    "mp_limb_t_bits": 64,
+    "C_int_bits": 32,
+    "C_long_bits": 32,
+    "pointer_bits": 64,
+    "mp_size_t_bits": 32,
+    "mp_bitcnt_t_bits": 32,
+    "mpz_struct_bytes": 16,
+    "mpz_alloc_offset": 0,
+    "mpz_size_offset": 4,
+    "mpz_limb_pointer_offset": 8,
+    "positive_mpz_representation_ceiling_bits": 137438953408,
+    "equal_input_bits_necessary_output_size_ceiling": 68719476704,
+    "ceiling_interpretation": "Necessary representation ceiling only, not a guaranteed allocatable or supported size; installation/ABI-specific. Full product output must also fit. mpn length is Windows long32 here, not universal ptrdiff_t64.",
+    "runtime_struct_checks": [
+      {
+        "input_bits": 1,
+        "observed_alloc_limbs": 1,
+        "observed_size_limbs": 1,
+        "full_value_matches": true
+      },
+      {
+        "input_bits": 65,
+        "observed_alloc_limbs": 2,
+        "observed_size_limbs": 2,
+        "full_value_matches": true
+      },
+      {
+        "input_bits": 1024,
+        "observed_alloc_limbs": 16,
+        "observed_size_limbs": 16,
+        "full_value_matches": true
+      }
+    ]
+  }
+}

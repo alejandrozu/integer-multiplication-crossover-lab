@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 528,
+    "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+    "path": "research/lean-complete-bank-endpoint/CHECKED_BOUNDARY.json",
+    "api_sha": "3a7a8a2f5951fc987a266112bce91ee81c3a7d96",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/df5bbdbf837df908ce2324ed880141918a19db5d/research%2Flean-complete-bank-endpoint%2FCHECKED_BOUNDARY.json",
+    "priority": 190,
+    "hint_base": "research/lean-complete-bank-endpoint/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/research/lean-complete-bank-endpoint/CHECKED_BOUNDARY.json",
+    "file": "artifacts\\528\\5278b55c88b8__CHECKED_BOUNDARY.json",
+    "sha256": "5278b55c88b82372d5da8d93b293bb1cb3cdecab195edd6db248a63cb39f519c",
+    "git_blob_sha1": "3a7a8a2f5951fc987a266112bce91ee81c3a7d96",
+    "bytes": 1691,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:59.483819+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 528,
+    "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+    "path": "research/lean-complete-bank-endpoint/MANIFEST.json",
+    "api_sha": "5f3712e3e718318ec7b087ec62ec289f978a5177",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/df5bbdbf837df908ce2324ed880141918a19db5d/research%2Flean-complete-bank-endpoint%2FMANIFEST.json",
+    "priority": 180,
+    "hint_base": "research/lean-complete-bank-endpoint/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/research/lean-complete-bank-endpoint/MANIFEST.json",
+    "file": "artifacts\\528\\d6cdc40a1bf7__MANIFEST.json",
+    "sha256": "d6cdc40a1bf770b6ab547cd86f26aee676fb49ff9301078a0ecbe10180a1258d",
+    "git_blob_sha1": "5f3712e3e718318ec7b087ec62ec289f978a5177",
+    "bytes": 16761,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:59.495819+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 528,
+    "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+    "path": "research/lean-complete-bank-endpoint/README.md",
+    "api_sha": "76dfed61da193c598f6b2dfc2cb74b6ab610c70c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/df5bbdbf837df908ce2324ed880141918a19db5d/research%2Flean-complete-bank-endpoint%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/lean-complete-bank-endpoint/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/research/lean-complete-bank-endpoint/README.md",
+    "file": "artifacts\\528\\4da4ba61654d__README.md",
+    "sha256": "4da4ba61654db43bd4e0128adc5fac2e366f0ccd50c1ffbaf0f6db58dc3bc320",
+    "git_blob_sha1": "76dfed61da193c598f6b2dfc2cb74b6ab610c70c",
+    "bytes": 6349,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:59.495819+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

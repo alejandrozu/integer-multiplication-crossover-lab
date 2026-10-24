@@ -1,0 +1,71 @@
+{
+  "pr": 2865,
+  "own_head": "867d8add1c3be9a1a50a447789c46256d81bb790",
+  "primary_path_candidates": [
+    "research/t74-2751-joint-twelve-audit/RESULT.json",
+    "research/t74-2751-joint-twelve-audit/README.md",
+    "research/t74-2751-joint-twelve-audit/TASK.json",
+    "research/t74-2751-joint-twelve-audit/VERIFY.json",
+    "research/t74-2751-joint-twelve-audit/verify.py",
+    "research/t74-2751-joint-twelve-audit/audit_lib.py",
+    "research/t74-2751-joint-twelve-audit/audit_diff.py",
+    "research/t74-2751-joint-twelve-audit/audit_words.py",
+    "research/t74-2751-joint-twelve-audit/audit_others.py",
+    "research/t74-2751-joint-twelve-audit/audit_pricing.py",
+    "research/t74-2751-joint-twelve-audit/audit_controls.py",
+    "research/t74-2751-joint-twelve-audit/audit_reconcile.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-2751-joint-twelve-audit/TASK.json",
+    "research/t74-2751-joint-twelve-audit/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-2751-joint-twelve-audit/README.md",
+      "file": "remaining-record-audit/artifacts/2865/7adb9073d600__README.md",
+      "sha256": "7adb9073d6009c81c8beb2598fdd04b1dc418780e5fbc4980f28b9b68ebc84ae",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/867d8add1c3be9a1a50a447789c46256d81bb790/research/t74-2751-joint-twelve-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-2751-joint-twelve-audit/RESULT.json",
+      "file": "remaining-record-audit/artifacts/2865/2997bdae2381__RESULT.json",
+      "sha256": "2997bdae238166e2f10e6d4109aebdc6a64bd354acbd112cf3e1071fb11ed7a2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/867d8add1c3be9a1a50a447789c46256d81bb790/research/t74-2751-joint-twelve-audit/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-2751-joint-twelve-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/2865/b9507c12501a__verify.py",
+      "sha256": "b9507c12501a7dc52be1c5a065a4a2c3ecfb6b2b8d8107352cce076dad2f9b85",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/867d8add1c3be9a1a50a447789c46256d81bb790/research/t74-2751-joint-twelve-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 21,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2865,
+      "head": "867d8add1c3be9a1a50a447789c46256d81bb790",
+      "path": "research/t74-2751-joint-twelve-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/867d8add1c3be9a1a50a447789c46256d81bb790/research/t74-2751-joint-twelve-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "93996b588e09937508b73f0c60d032d244396b6bd18e18131230dd7e6642a0c2",
+      "git_blob_sha1": "c35f3127d08aaaa011ca1192187f8e79c20043e3",
+      "bytes": 8650,
+      "file": "individual-primary-interface-source/2865/93996b588e09__TASK.json"
+    },
+    {
+      "pr": 2865,
+      "head": "867d8add1c3be9a1a50a447789c46256d81bb790",
+      "path": "research/t74-2751-joint-twelve-audit/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/867d8add1c3be9a1a50a447789c46256d81bb790/research/t74-2751-joint-twelve-audit/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "dc1f034b62dc13c15b94bef5e4b0891864f39e7b233a43b9ef122af6969b2d7b",
+      "git_blob_sha1": "0f2386dc6531dc6d04640cb3611f988ec7266cc8",
+      "bytes": 2293,
+      "file": "individual-primary-interface-source/2865/dc1f034b62dc__VERIFY.json"
+    }
+  ]
+}

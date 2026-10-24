@@ -1,0 +1,76 @@
+{
+  "pr": 1030,
+  "own_head": "d71857cd0ae7824e935aac17327e4ec27f66322b",
+  "primary_path_candidates": [
+    "research/complex-rank7-end-pair/data/EXPECTED.json",
+    "research/complex-rank7-end-pair/PROOF.md",
+    "research/complex-rank7-end-pair/README.md",
+    "research/complex-rank7-end-pair/SEARCH.json",
+    "research/complex-rank7-end-pair/data/END-RECIPE.json",
+    "research/complex-rank7-end-pair/evidence/VALIDATION.json",
+    "research/complex-rank7-end-pair/evidence/POINT-AUDIT.json",
+    "research/complex-rank7-end-pair/evidence/END-CONTROLS.json",
+    "research/complex-rank7-end-pair/NOTICE.md",
+    "research/complex-rank7-end-pair/reproduce.py",
+    "research/complex-rank7-end-pair/build_word.py",
+    "research/complex-rank7-end-pair/audit_points.py",
+    "research/complex-rank7-end-pair/build_owners.py",
+    "research/complex-rank7-end-pair/end_controls.py",
+    "research/complex-rank7-end-pair/code/replay_native.py",
+    "research/complex-rank7-end-pair/code/admit_candidate.py",
+    "research/complex-rank7-end-pair/code/prepare_candidate.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-rank7-end-pair/SEARCH.json",
+    "research/complex-rank7-end-pair/reproduce.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank7-end-pair/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1030/f9a1a6e02cff__PROOF.md",
+      "sha256": "f9a1a6e02cff554823846f89a4ea10c8dc08ea54d40b0ef1d587cac268d9c76a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d71857cd0ae7824e935aac17327e4ec27f66322b/research/complex-rank7-end-pair/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank7-end-pair/data/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1030/a17d14248362__EXPECTED.json",
+      "sha256": "a17d142483622b27402ec899859477b2d54d82fec2fac032416622f53339922c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d71857cd0ae7824e935aac17327e4ec27f66322b/research/complex-rank7-end-pair/data/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank7-end-pair/README.md",
+      "file": "remaining-record-audit/artifacts/1030/3c32f336cc5d__README.md",
+      "sha256": "3c32f336cc5d5221a92cfbbd8701cde902c747bfbd90a1f33c6ee1ac6e1e0faf",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d71857cd0ae7824e935aac17327e4ec27f66322b/research/complex-rank7-end-pair/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 21,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1030,
+      "head": "d71857cd0ae7824e935aac17327e4ec27f66322b",
+      "path": "research/complex-rank7-end-pair/SEARCH.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d71857cd0ae7824e935aac17327e4ec27f66322b/research/complex-rank7-end-pair/SEARCH.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c90beb67dfdc37a8f5f2807d077a4f71b8618d0b02f7c2ba8d39353a35acf08a",
+      "git_blob_sha1": "32d2ce2fac3f14f5a5aaec2a3358cb8f64411ca9",
+      "bytes": 5742,
+      "file": "individual-primary-interface-source/1030/c90beb67dfdc__SEARCH.json"
+    },
+    {
+      "pr": 1030,
+      "head": "d71857cd0ae7824e935aac17327e4ec27f66322b",
+      "path": "research/complex-rank7-end-pair/reproduce.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d71857cd0ae7824e935aac17327e4ec27f66322b/research/complex-rank7-end-pair/reproduce.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bc364a91c488e50eb4f0c06b9e88ae586fb77a54bebdc421aa696c7b50b38524",
+      "git_blob_sha1": "bf0d70ff3c72f2b26ff8c60d4fb99ca8c266129d",
+      "bytes": 12558,
+      "file": "individual-primary-interface-source/1030/bc364a91c488__reproduce.py"
+    }
+  ]
+}

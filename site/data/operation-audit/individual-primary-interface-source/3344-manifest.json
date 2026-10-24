@@ -1,0 +1,64 @@
+{
+  "pr": 3344,
+  "own_head": "c574f2e48d21679cd9994894a5e44d84bbbd2c91",
+  "primary_path_candidates": [
+    "research/complex-multi-unpaid-copy-budgets/RESULT.json",
+    "research/complex-multi-unpaid-copy-budgets/README.md",
+    "research/complex-multi-unpaid-copy-budgets/TASK.json",
+    "research/complex-multi-unpaid-copy-budgets/VERIFY.json",
+    "research/complex-multi-unpaid-copy-budgets/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-multi-unpaid-copy-budgets/TASK.json",
+    "research/complex-multi-unpaid-copy-budgets/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-multi-unpaid-copy-budgets/README.md",
+      "file": "remaining-record-audit/artifacts/3344/01311f58d873__README.md",
+      "sha256": "01311f58d873edc5b6fc8cbc9cad9baacf96492f91f670abbe283173b3a6c0e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c574f2e48d21679cd9994894a5e44d84bbbd2c91/research/complex-multi-unpaid-copy-budgets/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-multi-unpaid-copy-budgets/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3344/b643f319ef2a__RESULT.json",
+      "sha256": "b643f319ef2a1efc1df5804b312941367e41f7277d46d341582d1bee9f5ca30a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c574f2e48d21679cd9994894a5e44d84bbbd2c91/research/complex-multi-unpaid-copy-budgets/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-multi-unpaid-copy-budgets/verify.py",
+      "file": "remaining-record-audit/artifacts/3344/aeb462b4745c__verify.py",
+      "sha256": "aeb462b4745c44d9c6379c22138ef70a04b957b36e15974272d3afaeaf75c5d3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c574f2e48d21679cd9994894a5e44d84bbbd2c91/research/complex-multi-unpaid-copy-budgets/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3344,
+      "head": "c574f2e48d21679cd9994894a5e44d84bbbd2c91",
+      "path": "research/complex-multi-unpaid-copy-budgets/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c574f2e48d21679cd9994894a5e44d84bbbd2c91/research/complex-multi-unpaid-copy-budgets/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bff824b2aad83df0ee0057f38a9b3776031f049cb02bca00c1600bd276b83385",
+      "git_blob_sha1": "8498f9d0eb8f3e17edd752f6380308d00823ede1",
+      "bytes": 4810,
+      "file": "individual-primary-interface-source/3344/bff824b2aad8__TASK.json"
+    },
+    {
+      "pr": 3344,
+      "head": "c574f2e48d21679cd9994894a5e44d84bbbd2c91",
+      "path": "research/complex-multi-unpaid-copy-budgets/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c574f2e48d21679cd9994894a5e44d84bbbd2c91/research/complex-multi-unpaid-copy-budgets/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ebe228c046eef28f64e441e3c6fd5677c2a6dd88ecf026a1868da54921a82b82",
+      "git_blob_sha1": "b50df9a07f3e2731f7573988b871959eaefa34e0",
+      "bytes": 581,
+      "file": "individual-primary-interface-source/3344/ebe228c046ee__VERIFY.json"
+    }
+  ]
+}

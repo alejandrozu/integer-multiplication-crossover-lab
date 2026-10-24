@@ -1,0 +1,69 @@
+{
+  "pr": 1824,
+  "own_head": "ad5b1248f25a71983b20617e2f3a80be22f03990",
+  "primary_path_candidates": [
+    "research/selected-final-stage-portability/README.md",
+    "research/selected-final-stage-portability/TASK.json",
+    "research/selected-final-stage-portability/VERIFY.json",
+    "research/selected-final-stage-portability/verify.py",
+    "research/selected-final-stage-portability/compare_payloads.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected-final-stage-portability/TASK.json",
+    "research/selected-final-stage-portability/VERIFY.json",
+    "research/selected-final-stage-portability/compare_payloads.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-final-stage-portability/README.md",
+      "file": "remaining-record-audit/artifacts/1824/13b6ada37c59__README.md",
+      "sha256": "13b6ada37c593b172fb73fac58fb615993d8f5c10c7508f9e895c6bb9006e127",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ad5b1248f25a71983b20617e2f3a80be22f03990/research/selected-final-stage-portability/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-final-stage-portability/verify.py",
+      "file": "remaining-record-audit/artifacts/1824/f49775ec5d1e__verify.py",
+      "sha256": "f49775ec5d1ebca45e6db15de8ac8fb4e9044bb43d9fc561fbaf0a387e8f1695",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ad5b1248f25a71983b20617e2f3a80be22f03990/research/selected-final-stage-portability/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1824,
+      "head": "ad5b1248f25a71983b20617e2f3a80be22f03990",
+      "path": "research/selected-final-stage-portability/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ad5b1248f25a71983b20617e2f3a80be22f03990/research/selected-final-stage-portability/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9208461100aa0ce35a2deb0dac97695a0ecefb91160a21f712e188688f7dd652",
+      "git_blob_sha1": "34be033cacd1f3545f9cc18c4d703ffc9e06c2ce",
+      "bytes": 5048,
+      "file": "individual-primary-interface-source/1824/9208461100aa__TASK.json"
+    },
+    {
+      "pr": 1824,
+      "head": "ad5b1248f25a71983b20617e2f3a80be22f03990",
+      "path": "research/selected-final-stage-portability/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ad5b1248f25a71983b20617e2f3a80be22f03990/research/selected-final-stage-portability/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "eeccd6e76da5a9b84fe6599e8806cf7f6e8bc570ee70cc647f312211a5da719a",
+      "git_blob_sha1": "91583a6c0c2480eaa20a71c2b1e552663708c073",
+      "bytes": 1245,
+      "file": "individual-primary-interface-source/1824/eeccd6e76da5__VERIFY.json"
+    },
+    {
+      "pr": 1824,
+      "head": "ad5b1248f25a71983b20617e2f3a80be22f03990",
+      "path": "research/selected-final-stage-portability/compare_payloads.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ad5b1248f25a71983b20617e2f3a80be22f03990/research/selected-final-stage-portability/compare_payloads.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3aa3459404265188e51a4a74a57f6c01d9ea7cad205edb962e5d51c5a45a50cb",
+      "git_blob_sha1": "a2a2aea73bda06c2358065388a30fd4cbc7d423f",
+      "bytes": 6371,
+      "file": "individual-primary-interface-source/1824/3aa345940426__compare_payloads.py"
+    }
+  ]
+}

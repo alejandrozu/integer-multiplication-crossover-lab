@@ -1,0 +1,102 @@
+{
+  "pr": 542,
+  "own_head": "fceff375b8308e793afbc684690341fab5affc39",
+  "primary_path_candidates": [
+    "research/r480-sliced-minimal-frames/EXPECTED.json",
+    "research/r480-sliced-minimal-frames/README.md",
+    "research/r480-sliced-minimal-frames/evidence/SLICE.json",
+    "research/r480-sliced-minimal-frames/evidence/PHYSICAL311.json",
+    "research/r480-sliced-minimal-frames/evidence/PHYSICAL314.json",
+    "research/r480-sliced-minimal-frames/evidence/INTERFACE311.json",
+    "research/r480-sliced-minimal-frames/evidence/BIT-INVOICE311.json",
+    "research/r480-sliced-minimal-frames/evidence/BIT-INVOICE314.json",
+    "research/r480-sliced-minimal-frames/evidence/FRAME-TRANSFER.json",
+    "research/r480-sliced-minimal-frames/evidence/MINIMUM-FRAMES.json",
+    "research/r480-sliced-minimal-frames/evidence/HOSTED-AUDIT314.json",
+    "research/r480-sliced-minimal-frames/evidence/NINE-COLUMNS314.json",
+    "research/r480-sliced-minimal-frames/evidence/PARENT-AUDIT314.json",
+    "research/r480-sliced-minimal-frames/evidence/BASE-BIT-INVOICE.json",
+    "research/r480-sliced-minimal-frames/evidence/BASE-PACKAGED314.json",
+    "research/r480-sliced-minimal-frames/evidence/COMBINED-PROFILE.json",
+    "research/r480-sliced-minimal-frames/evidence/FINAL-ARITHMETIC.json",
+    "research/r480-sliced-minimal-frames/evidence/PACKAGED-FULL311.json",
+    "research/r480-sliced-minimal-frames/evidence/NATIVE-LEGALITY314.json",
+    "research/r480-sliced-minimal-frames/evidence/BASE-PHYSICAL-ADMISSION.json",
+    "research/r480-sliced-minimal-frames/evidence/FULL311-TESTED-MANIFEST.json",
+    "research/r480-sliced-minimal-frames/evidence/CROSS-VERSION-COMPARISON.json",
+    "research/r480-sliced-minimal-frames/evidence/INITIAL-311-DIAGNOSTIC-MISMATCH.json",
+    "research/r480-sliced-minimal-frames/NOTICE.md",
+    "research/r480-sliced-minimal-frames/verify.py",
+    "research/r480-sliced-minimal-frames/engines/outer.py",
+    "research/r480-sliced-minimal-frames/scripts/price.py",
+    "research/r480-sliced-minimal-frames/scripts/slice.py",
+    "research/r480-sliced-minimal-frames/engines/moment.py",
+    "research/r480-sliced-minimal-frames/scripts/minimum.py",
+    "research/r480-sliced-minimal-frames/scripts/profile.py",
+    "research/r480-sliced-minimal-frames/scripts/physical.py",
+    "research/r480-sliced-minimal-frames/scripts/transfer.py",
+    "research/r480-sliced-minimal-frames/scripts/preload60.py",
+    "research/r480-sliced-minimal-frames/scripts/trace_price.py",
+    "research/r480-sliced-minimal-frames/scripts/trace_slice.py",
+    "research/r480-sliced-minimal-frames/engines/base_two_moment.py",
+    "research/r480-sliced-minimal-frames/scripts/final_arithmetic.py"
+  ],
+  "selected_for_recovery": [
+    "research/r480-sliced-minimal-frames/README.md",
+    "research/r480-sliced-minimal-frames/evidence/SLICE.json",
+    "research/r480-sliced-minimal-frames/evidence/PHYSICAL311.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r480-sliced-minimal-frames/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/542/29e445acd36f__EXPECTED.json",
+      "sha256": "29e445acd36fd8bbe899e556e1ba9dfcb4d78ebbd65ee6c48611685196e5cac1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fceff375b8308e793afbc684690341fab5affc39/research/r480-sliced-minimal-frames/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r480-sliced-minimal-frames/verify.py",
+      "file": "remaining-record-audit/artifacts/542/9457acc9386a__verify.py",
+      "sha256": "9457acc9386aea6cf3a8dbd40d382b4a1e41641e5bb56ce90ae3032a95e1172d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fceff375b8308e793afbc684690341fab5affc39/research/r480-sliced-minimal-frames/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 58,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 542,
+      "head": "fceff375b8308e793afbc684690341fab5affc39",
+      "path": "research/r480-sliced-minimal-frames/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fceff375b8308e793afbc684690341fab5affc39/research/r480-sliced-minimal-frames/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bd1389bc500c355ecabefc8525f9948796ea3e48c86e70c7bef14d087a9d8073",
+      "git_blob_sha1": "785b3174e1350422993c11596bbc1a1992d8bfde",
+      "bytes": 5457,
+      "file": "individual-primary-interface-source/542/bd1389bc500c__README.md"
+    },
+    {
+      "pr": 542,
+      "head": "fceff375b8308e793afbc684690341fab5affc39",
+      "path": "research/r480-sliced-minimal-frames/evidence/SLICE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fceff375b8308e793afbc684690341fab5affc39/research/r480-sliced-minimal-frames/evidence/SLICE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "de878adca9979b59a707867425b9c1450250f3a54bffa57ccde355e109a8c517",
+      "git_blob_sha1": "ad1c0bccabb4374d7cb786eab3a7941354e8d23d",
+      "bytes": 16554,
+      "file": "individual-primary-interface-source/542/de878adca997__SLICE.json"
+    },
+    {
+      "pr": 542,
+      "head": "fceff375b8308e793afbc684690341fab5affc39",
+      "path": "research/r480-sliced-minimal-frames/evidence/PHYSICAL311.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fceff375b8308e793afbc684690341fab5affc39/research/r480-sliced-minimal-frames/evidence/PHYSICAL311.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c17231dbca3da3300e1f9a521e52da748e582aca1fd479a79a487a3f0cca718f",
+      "git_blob_sha1": "6f1be6e1262d2fcf8f693f44114a05748db5d587",
+      "bytes": 1159,
+      "file": "individual-primary-interface-source/542/c17231dbca3d__PHYSICAL311.json"
+    }
+  ]
+}

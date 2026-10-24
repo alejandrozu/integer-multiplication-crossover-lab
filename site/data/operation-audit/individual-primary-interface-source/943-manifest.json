@@ -1,0 +1,65 @@
+{
+  "pr": 943,
+  "own_head": "cf360b4b09b7d0419decdd6ac85421fefed55bdd",
+  "primary_path_candidates": [
+    "research/universal-connector-boundary/EXPECTED.json",
+    "research/universal-connector-boundary/CERTIFICATE.json",
+    "research/universal-connector-boundary/CLAIM.md",
+    "research/universal-connector-boundary/README.md",
+    "research/universal-connector-boundary/VALIDATION.md",
+    "research/universal-connector-boundary/NOTICE.md",
+    "research/universal-connector-boundary/verify.py",
+    "research/universal-connector-boundary/generate.py",
+    "research/universal-connector-boundary/independent.py",
+    "research/universal-connector-boundary/dense_checks.py",
+    "research/universal-connector-boundary/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/universal-connector-boundary/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/universal-connector-boundary/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/943/658924c2940c__EXPECTED.json",
+      "sha256": "658924c2940cbe193378d5ef09f4d62500fc7b385c16c0ea33846be836c429d2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cf360b4b09b7d0419decdd6ac85421fefed55bdd/research/universal-connector-boundary/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/universal-connector-boundary/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/943/e733746ba3e5__CERTIFICATE.json",
+      "sha256": "e733746ba3e5151c829b4e8728bfff5ae3ed24d8d203eb77c735d20758e8266a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cf360b4b09b7d0419decdd6ac85421fefed55bdd/research/universal-connector-boundary/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/universal-connector-boundary/verify.py",
+      "file": "remaining-record-audit/artifacts/943/e4fa4700f9e1__verify.py",
+      "sha256": "e4fa4700f9e1ae6ca09c3c76ebc569e8361b89b699425a67839d999d8812e42d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cf360b4b09b7d0419decdd6ac85421fefed55bdd/research/universal-connector-boundary/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/universal-connector-boundary/README.md",
+      "file": "remaining-record-audit/artifacts/943/23415f7829ab__README.md",
+      "sha256": "23415f7829ab8d80a783142f10f7d31abbce84579362769984680af3df954476",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cf360b4b09b7d0419decdd6ac85421fefed55bdd/research/universal-connector-boundary/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 943,
+      "head": "cf360b4b09b7d0419decdd6ac85421fefed55bdd",
+      "path": "research/universal-connector-boundary/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cf360b4b09b7d0419decdd6ac85421fefed55bdd/research/universal-connector-boundary/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5b4f1881e46222f18729ed7b25c4331898f5d120a9c69157cbc49bde22df5609",
+      "git_blob_sha1": "2937c22686ad02419d88de1825d501091de166ac",
+      "bytes": 4261,
+      "file": "individual-primary-interface-source/943/5b4f1881e462__CLAIM.md"
+    }
+  ]
+}

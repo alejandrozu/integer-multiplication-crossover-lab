@@ -1,0 +1,56 @@
+{
+  "pr": 3974,
+  "own_head": "23bb4de61d629e3f103a65baa7882b34042ab10f",
+  "primary_path_candidates": [
+    "research/complex-toom3-five-product-screen/README.md",
+    "research/complex-toom3-five-product-screen/TASK.json",
+    "research/complex-toom3-five-product-screen/VERIFY.json",
+    "research/complex-toom3-five-product-screen/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-toom3-five-product-screen/TASK.json",
+    "research/complex-toom3-five-product-screen/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-toom3-five-product-screen/README.md",
+      "file": "remaining-record-audit/artifacts/3974/a41ce2de2bb1__README.md",
+      "sha256": "a41ce2de2bb1f6087383da64f0e71fe84e11526eb748ac734fc669533bb05f41",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bb4de61d629e3f103a65baa7882b34042ab10f/research/complex-toom3-five-product-screen/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-toom3-five-product-screen/verify.py",
+      "file": "remaining-record-audit/artifacts/3974/75005b8e343c__verify.py",
+      "sha256": "75005b8e343c2054f156e906025e8dc36ebffd9b314f8939b18b0e8d93d1de20",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bb4de61d629e3f103a65baa7882b34042ab10f/research/complex-toom3-five-product-screen/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3974,
+      "head": "23bb4de61d629e3f103a65baa7882b34042ab10f",
+      "path": "research/complex-toom3-five-product-screen/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bb4de61d629e3f103a65baa7882b34042ab10f/research/complex-toom3-five-product-screen/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3f4e55efe7e290a1ee1508c0e605f5e8511780755c209d4d78d2e02d3453cf15",
+      "git_blob_sha1": "55146ff1e127483a5d9df13f07098c40a8a1c8a6",
+      "bytes": 7458,
+      "file": "individual-primary-interface-source/3974/3f4e55efe7e2__TASK.json"
+    },
+    {
+      "pr": 3974,
+      "head": "23bb4de61d629e3f103a65baa7882b34042ab10f",
+      "path": "research/complex-toom3-five-product-screen/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/23bb4de61d629e3f103a65baa7882b34042ab10f/research/complex-toom3-five-product-screen/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0baca7154013c8b5e0c5122b868c5cc3a1c4dc495c478bbf32e70ea24764eb1c",
+      "git_blob_sha1": "4b8d07f165b633595b17bdc099aec500ad07729c",
+      "bytes": 1253,
+      "file": "individual-primary-interface-source/3974/0baca7154013__VERIFY.json"
+    }
+  ]
+}

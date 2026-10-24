@@ -1,0 +1,196 @@
+{
+  "schema": "pr4470-conditional-mixed-layer-xor-and-model/1",
+  "status": "PASS_EXACT_CENSUS_ARITHMETIC_AND_SMALL_WORD_CIRCUIT_CHECKS",
+  "circuit_exhaustive_add_pairs_checked": 87376,
+  "word_model": {
+    "AND_cost": 1,
+    "XOR_cost": "rho >= 0",
+    "copy_fanout_fixed_wiring_and_constant_bits": "free",
+    "minimum_working_width": 2,
+    "addition": {
+      "XOR": "3*w-3",
+      "AND": "2*w-3"
+    },
+    "negation": {
+      "XOR": "2*w-3",
+      "AND": "w-2"
+    },
+    "arithmetic_semantics": "The tested circuits compute modulo 2^w. For the intended rational transforms w must include every integer and fractional guard, so no overflow or input-dependent truncation occurs. This guard precondition is not proved by the gate-count check."
+  },
+  "isolated_layer_sufficient_exact_grid": {
+    "status": "DERIVED_CONSERVATIVE_BOUND_UNDER_DECLARED_DYADIC_GAUSSIAN_AND_MONOMIAL_LOWERING",
+    "input_condition": "Every original real component is an integer multiple of 2^-q with absolute value <2^b; b>=1, q>=0. Owned-zero fields are exact zero.",
+    "scalar_denominator_exponent_sum": 212958,
+    "complex_scalar_add_count_before_integer_constant_lowering": 313730,
+    "complex_scalar_scale_count": 21736,
+    "scalar_magnitude_growth_bits_upper": 1298392,
+    "fractional_grid_bits_sufficient": "q+212958+239134*f",
+    "magnitude_growth_bits_sufficient_including_temporaries": "1298392+478268*f",
+    "total_signed_working_width_sufficient": "w >= b+q+1511351+717402*f",
+    "at_f271_width_sufficient": "w >= b+q+195927293",
+    "proof": "Each native dyadic ADD denominator contributes at most its exponent to a common grid, and at most4 magnitude bits cover its coefficient numerator (<=8) and addition; each SCALE contributes at most2 magnitude bits. Controller coefficients are0 or+-1. Each paid Gaussian rank-one axis per column contributes one denominator bit and at most two magnitude bits, including numerator temporaries. Fixed monomial phases preserve magnitude and denominator. Sum all events, then add one sign bit. This conservative bound prices the literal chosen circuit and is not an outer multiplication precision bound."
+  },
+  "scalar_core": {
+    "real_additions_per_coordinate": 630412,
+    "real_negations_chosen_lowering": 353492,
+    "variable_by_variable_real_multiplications": 0,
+    "XOR_upper": "2598220*w-2951712",
+    "AND_upper": "1614316*w-2598220",
+    "scope": "Scalar core only, before paid transforms and monomial unit phases."
+  },
+  "mixed_layer": {
+    "productive_fields": 10928,
+    "raw_ambient_rank": 145,
+    "paid_jobs": 64620,
+    "target_rank_mass": 239886,
+    "paid_rank_mass": 239134,
+    "rank_mass_surplus": 752,
+    "Gaussian_axis_per_complex_coordinate": {
+      "real_additions": 4,
+      "real_negations": 2,
+      "fixed_division_by_two": "free wiring only when the exact dyadic grid and width guards justify it"
+    },
+    "monomial_phase_real_negation_upper": 330320,
+    "extra_phase_formula": "4*(64620+10928)+2*(18*(240+448)+1680)",
+    "total_nonrecursive_real_additions_upper": 630412,
+    "total_nonrecursive_real_negations_upper": 683812,
+    "baseline_work": "239886*f*(4*A_w+2*N_w)*L",
+    "new_work_upper": "[239134*f*(4*A_w+2*N_w)+630412*A_w+683812*N_w]*L",
+    "L_meaning": "Common number of complex coefficient coordinates per field, with complete spectators. For the literal binary ambient lift, L=2^(145*f).",
+    "threshold_formula": "floor((630412*A_w+683812*N_w)/(752*(4*A_w+2*N_w)))+1",
+    "uniform_in_width_threshold_formula": "floor((3258860*rho+1944636)/(12032*rho+7520))+1",
+    "uniform_in_width_threshold_proof": "N_w/A_w increases with w; its derivative has positive numerator 3*rho^2+3*rho+1, and its limit is (2*rho+1)/(3*rho+2). The threshold fraction is increasing in N_w/A_w.",
+    "uniform_in_width_examples": [
+      {
+        "rho": "1/1000",
+        "sufficient_f": 259
+      },
+      {
+        "rho": "1",
+        "sufficient_f": 267
+      },
+      {
+        "rho": "1000",
+        "sufficient_f": 271
+      }
+    ],
+    "uniform_in_width_work_ratio_upper": "239134/239886+(3258860*rho+1944636)/(239886*f*(16*rho+10))",
+    "universal_sufficient_f": 271,
+    "upper_f_ratio_exact": "814715/3008",
+    "upper_f_ratio_decimal": 270.84940159574467,
+    "proof_inequality": "N_w/A_w<=2/3; at f=271 the saving is >=604*A_w*L>0.",
+    "ambient_axes_at_f271": 39295,
+    "examples": [
+      {
+        "w": 8,
+        "rho": "0",
+        "sufficient_f": 256
+      },
+      {
+        "w": 8,
+        "rho": "1/10",
+        "sufficient_f": 258
+      },
+      {
+        "w": 8,
+        "rho": "1",
+        "sufficient_f": 264
+      },
+      {
+        "w": 8,
+        "rho": "10",
+        "sufficient_f": 267
+      },
+      {
+        "w": 32,
+        "rho": "0",
+        "sufficient_f": 258
+      },
+      {
+        "w": 32,
+        "rho": "1/10",
+        "sufficient_f": 260
+      },
+      {
+        "w": 32,
+        "rho": "1",
+        "sufficient_f": 266
+      },
+      {
+        "w": 32,
+        "rho": "10",
+        "sufficient_f": 270
+      },
+      {
+        "w": 64,
+        "rho": "0",
+        "sufficient_f": 259
+      },
+      {
+        "w": 64,
+        "rho": "1/10",
+        "sufficient_f": 260
+      },
+      {
+        "w": 64,
+        "rho": "1",
+        "sufficient_f": 266
+      },
+      {
+        "w": 64,
+        "rho": "10",
+        "sufficient_f": 270
+      },
+      {
+        "w": 128,
+        "rho": "0",
+        "sufficient_f": 259
+      },
+      {
+        "w": 128,
+        "rho": "1/10",
+        "sufficient_f": 261
+      },
+      {
+        "w": 128,
+        "rho": "1",
+        "sufficient_f": 266
+      },
+      {
+        "w": 128,
+        "rho": "10",
+        "sufficient_f": 270
+      }
+    ],
+    "conditional_assumptions": [
+      "Retained all-column native/operator identity",
+      "All counted fixed adapters and warp maps are binary monomials with fourth-root phases",
+      "Uniform working word width sufficient for exact dyadic arithmetic, including paid Gaussian operations",
+      "No tape or memory-traffic charge: this is nonuniform Boolean circuit work",
+      "Independent arbitrary productive fields and explicit owned-zero storage are available with the declared boundaries"
+    ],
+    "not_claimed": [
+      "Integer multiplication crossover",
+      "HvH or GMP runtime comparison",
+      "End-to-end multiplication correctness proof",
+      "A complete rank-N uniform template census",
+      "A measured implementation"
+    ]
+  },
+  "parent_comparison": {
+    "parent_pr": 4447,
+    "parent_head": "322e0ec764aa7ef7801383feb1f656e460dd8bed",
+    "parent_raw_paid_calls": 69273,
+    "new_raw_paid_calls": 64620,
+    "parent_productive_fields": 11560,
+    "new_productive_fields": 10928,
+    "scalar_core_counts_unchanged": true,
+    "parent_local_paid_jobs": 3363,
+    "new_local_paid_jobs": 3310,
+    "raw_recursive_jobs_removed": 4653,
+    "parent_full_calls": 19,
+    "new_full_calls": 18,
+    "counterfactual_old_local_tariff_in_new_p16_paid_calls": 65574,
+    "counterfactual_scope": "65574 compares only local-tariff replacement on the new p16 controller. The published parent is p17 with 69273 paid calls and 11560 productive fields."
+  }
+}

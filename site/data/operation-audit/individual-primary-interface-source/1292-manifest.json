@@ -1,0 +1,56 @@
+{
+  "pr": 1292,
+  "own_head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+  "primary_path_candidates": [
+    "research/complex-p104-masked-local-rigidity/README.md",
+    "research/complex-p104-masked-local-rigidity/TASK.json",
+    "research/complex-p104-masked-local-rigidity/VERIFY.json",
+    "research/complex-p104-masked-local-rigidity/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-p104-masked-local-rigidity/TASK.json",
+    "research/complex-p104-masked-local-rigidity/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-p104-masked-local-rigidity/README.md",
+      "file": "remaining-record-audit/artifacts/1292/b354a75fcf96__README.md",
+      "sha256": "b354a75fcf965ced73a29693b8b1ef150447d016659f6d44fddee4d3fed0aaa6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-p104-masked-local-rigidity/verify.py",
+      "file": "remaining-record-audit/artifacts/1292/61580e621ae2__verify.py",
+      "sha256": "61580e621ae2ba0bbb1722fd91172ac5a92292d8332fcb07d33c46fa93a37755",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1292,
+      "head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+      "path": "research/complex-p104-masked-local-rigidity/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9f268d1aa3b2554baf355593b14f19d6505620a25cbf2978bbd4acfd136a6bcf",
+      "git_blob_sha1": "87c5d29fd28a2a7a362a725ef0f502b9598be18f",
+      "bytes": 5080,
+      "file": "individual-primary-interface-source/1292/9f268d1aa3b2__TASK.json"
+    },
+    {
+      "pr": 1292,
+      "head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+      "path": "research/complex-p104-masked-local-rigidity/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2ef4a905676d1d6bf452ab8b7f51427e1730888d194e25a742dda90ff71e11f2",
+      "git_blob_sha1": "662178796b3505b3cad21ed030b5670852fa2b72",
+      "bytes": 508,
+      "file": "individual-primary-interface-source/1292/2ef4a905676d__VERIFY.json"
+    }
+  ]
+}

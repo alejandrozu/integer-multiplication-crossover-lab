@@ -1,0 +1,86 @@
+{
+  "pr": 547,
+  "own_head": "eecca20a24258cb6d9f698b1984a95029bac0a1c",
+  "primary_path_candidates": [
+    "research/r420-static44-composition/EXPECTED.json",
+    "research/r420-static44-composition/README.md",
+    "research/r420-static44-composition/evidence/PR544-RESULT.json",
+    "research/r420-static44-composition/evidence/PR548-PHASES.json",
+    "research/r420-static44-composition/evidence/PR543-MUTANTS.json",
+    "research/r420-static44-composition/evidence/PR544-RECEIPT.json",
+    "research/r420-static44-composition/evidence/PR543-COMPLETED.json",
+    "research/r420-static44-composition/evidence/PR548-COMPONENT.json",
+    "research/r420-static44-composition/evidence/PR543-NINE-HOSTED.json",
+    "research/r420-static44-composition/evidence/PR543-NINE-RESULT.json",
+    "research/r420-static44-composition/evidence/PR543-PATH-REPAIRS.json",
+    "research/r420-static44-composition/evidence/PR548-LOCAL-SCALAR.json",
+    "research/r420-static44-composition/evidence/PR544-COMPLEX-OWNERS.json",
+    "research/r420-static44-composition/evidence/PR544-COMPLEX-PHASES.json",
+    "research/r420-static44-composition/evidence/PR548-OWNER-CONTROLS.json",
+    "research/r420-static44-composition/evidence/PR544-COMPLEX-INVOICE.json",
+    "research/r420-static44-composition/history/PR547-initial-EXPECTED.json",
+    "research/r420-static44-composition/evidence/PR543-INDEPENDENT-INTERFACE.json",
+    "research/r420-static44-composition/evidence/PUBLICATION-PREPARATION-FAILURE.json",
+    "research/r420-static44-composition/verify.py",
+    "research/r420-static44-composition/engines/outer.py",
+    "research/r420-static44-composition/engines/moment.py",
+    "research/r420-static44-composition/engines/base_two_moment.py",
+    "research/r420-static44-composition/evidence/PR543-RESUME-DRIVER.py",
+    "research/r420-static44-composition/evidence/PR548-REPLAY-DRIVER.py",
+    "research/r420-static44-composition/history/PR547-initial-README.md",
+    "research/r420-static44-composition/history/PR547-initial-verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r420-static44-composition/evidence/PR544-RESULT.json",
+    "research/r420-static44-composition/evidence/PR548-PHASES.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-static44-composition/README.md",
+      "file": "remaining-record-audit/artifacts/547/7b0277097a12__README.md",
+      "sha256": "7b0277097a121f9d66244283e591945fd724f1e7fb50bee65d672daed4590063",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eecca20a24258cb6d9f698b1984a95029bac0a1c/research/r420-static44-composition/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-static44-composition/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/547/9b0c9375fc5d__EXPECTED.json",
+      "sha256": "9b0c9375fc5db1ddda35f14c9f18bffd47067e4a7284940759adabc52c9b3382",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eecca20a24258cb6d9f698b1984a95029bac0a1c/research/r420-static44-composition/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-static44-composition/verify.py",
+      "file": "remaining-record-audit/artifacts/547/f86755c2ed74__verify.py",
+      "sha256": "f86755c2ed74ae5dfdc52561af232b9d14940aa7a8e3ee7dfb6521d1d0bcf3ef",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eecca20a24258cb6d9f698b1984a95029bac0a1c/research/r420-static44-composition/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 50,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 547,
+      "head": "eecca20a24258cb6d9f698b1984a95029bac0a1c",
+      "path": "research/r420-static44-composition/evidence/PR544-RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eecca20a24258cb6d9f698b1984a95029bac0a1c/research/r420-static44-composition/evidence/PR544-RESULT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "fd8356f4e2dde0b0472404a9ce8b8dff4a4de87718b3bdbb1d4ea29cf84faf4c",
+      "git_blob_sha1": "980e9dc0b8518e459006ea0456a2b33264582292",
+      "bytes": 2526,
+      "file": "individual-primary-interface-source/547/fd8356f4e2dd__PR544-RESULT.json"
+    },
+    {
+      "pr": 547,
+      "head": "eecca20a24258cb6d9f698b1984a95029bac0a1c",
+      "path": "research/r420-static44-composition/evidence/PR548-PHASES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eecca20a24258cb6d9f698b1984a95029bac0a1c/research/r420-static44-composition/evidence/PR548-PHASES.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c167df1cbbf568c0d7741f5554cf9e726b9f8455d9301e37ecf77e696bef46a9",
+      "git_blob_sha1": "cfdbdb4c682714c472f272f26bed2a35fb85f7c3",
+      "bytes": 36584,
+      "file": "individual-primary-interface-source/547/c167df1cbbf5__PR548-PHASES.json"
+    }
+  ]
+}

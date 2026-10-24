@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 2847,
+    "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+    "path": "research/t74-retired7-increment-audit/README.md",
+    "api_sha": "94c6111df823d57b0a10998ed5054fca5b32f5cf",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research%2Ft74-retired7-increment-audit%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/t74-retired7-increment-audit/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/README.md",
+    "file": "artifacts\\2847\\f20a36617af9__README.md",
+    "sha256": "f20a36617af967ab3a34d86187b0852f939c6e5cb451a990792028d10085e1dd",
+    "git_blob_sha1": "94c6111df823d57b0a10998ed5054fca5b32f5cf",
+    "bytes": 37879,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.077891+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2847,
+    "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+    "path": "research/t74-retired7-increment-audit/SOURCES.json",
+    "api_sha": "5b1dfb144bf8c73b37e1f3bb027742cb736d0545",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research%2Ft74-retired7-increment-audit%2FSOURCES.json",
+    "priority": 180,
+    "hint_base": "research/t74-retired7-increment-audit/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/SOURCES.json",
+    "file": "artifacts\\2847\\6f212633c917__SOURCES.json",
+    "sha256": "6f212633c9173003c7f665dcb5be909725aef7e4d3feb76afa066a699b56ac32",
+    "git_blob_sha1": "5b1dfb144bf8c73b37e1f3bb027742cb736d0545",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:38.940259+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2847,
+    "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+    "path": "research/t74-retired7-increment-audit/verify.py",
+    "api_sha": "4f20454da7904635b273aedeada1146419b97970",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research%2Ft74-retired7-increment-audit%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/t74-retired7-increment-audit/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/verify.py",
+    "file": "artifacts\\2847\\4ad539b134d1__verify.py",
+    "sha256": "4ad539b134d134b5368904ea456caa0c509b8be17f039269de3d761070a4f6ad",
+    "git_blob_sha1": "4f20454da7904635b273aedeada1146419b97970",
+    "bytes": 4221,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:38.949562+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

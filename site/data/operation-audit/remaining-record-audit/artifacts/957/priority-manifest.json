@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 957,
+    "head": "65c931415587c444a7a1f48939842c4cf0aa0411",
+    "path": "research/audit-frontier890-endpoint-seed73/AUDIT.md",
+    "api_sha": "f1176fa8fad2bb9bc7c13ef62533d260c1a32670",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/65c931415587c444a7a1f48939842c4cf0aa0411/research%2Faudit-frontier890-endpoint-seed73%2FAUDIT.md",
+    "priority": -1,
+    "hint_base": "research/audit-frontier890-endpoint-seed73/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65c931415587c444a7a1f48939842c4cf0aa0411/research/audit-frontier890-endpoint-seed73/AUDIT.md",
+    "file": "artifacts\\957\\dd65d7a85853__AUDIT.md",
+    "sha256": "dd65d7a8585373a9b154bb61a3e60e9fb7fd121e38af67f02eaf796916cd6b81",
+    "git_blob_sha1": "f1176fa8fad2bb9bc7c13ef62533d260c1a32670",
+    "bytes": 13148,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:18.821384+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 957,
+    "head": "65c931415587c444a7a1f48939842c4cf0aa0411",
+    "path": "research/audit-frontier890-endpoint-seed73/audit_endpoint_reduction.py",
+    "api_sha": "2307bcdb4d4babcb1f3c599c35119a4519beca7b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/65c931415587c444a7a1f48939842c4cf0aa0411/research%2Faudit-frontier890-endpoint-seed73%2Faudit_endpoint_reduction.py",
+    "priority": -1,
+    "hint_base": "research/audit-frontier890-endpoint-seed73/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65c931415587c444a7a1f48939842c4cf0aa0411/research/audit-frontier890-endpoint-seed73/audit_endpoint_reduction.py",
+    "file": "artifacts\\957\\67b95bd181ae__audit_endpoint_reduction.py",
+    "sha256": "67b95bd181aebd704fa9724ecb874f8eaf4ee269829f18a2c015a6653e391959",
+    "git_blob_sha1": "2307bcdb4d4babcb1f3c599c35119a4519beca7b",
+    "bytes": 20227,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:18.829394+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

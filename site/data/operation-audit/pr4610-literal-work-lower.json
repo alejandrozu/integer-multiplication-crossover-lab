@@ -1,0 +1,379 @@
+{
+  "schema": "pr4610-literal-work-lower/1",
+  "status": "closed_conditional_selected4610_literal_family_lower_only",
+  "pr": 4610,
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4610",
+  "kappa": "15108879/5000000000",
+  "H": "38569300000000000",
+  "N": "2^38569300000000000",
+  "uniform_saving": "1057621533/350000000000",
+  "source_rank_scope": "Sufficient frozen compiler rank from selected source, not the least possible rank or an intrinsic requirement of the exponent.",
+  "selected_main_commit": "1ec1119972c9aefe42525172d07b332fcff81cb4",
+  "audited_author_head": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+  "audit_head": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+  "raw_real_ADD_factor": 630412,
+  "raw_factor_log2_floor": 19,
+  "local_fresh_census": {
+    "backward": {
+      "scalar_records": 17453,
+      "complex_adds": 16273,
+      "real_adds": 32710,
+      "scalar_sequence_sha256": "5d60851163dd88abca1ea2284002c38ebea98cd1e4c8fc46ed231a1e5e1f53b0"
+    },
+    "forward": {
+      "scalar_records": 17453,
+      "complex_adds": 16265,
+      "real_adds": 32694,
+      "scalar_sequence_sha256": "600a24256280900633bc2cce304d63962a9bd335378300bd0880ebbdb2f15f15"
+    }
+  },
+  "raw_scalar_counts": {
+    "local_real_adds": 588748,
+    "controller_query_boundary_real_adds": 41664,
+    "total": 630412
+  },
+  "source_transfer": "Fresh equality of entire scalar opcode/role/coefficient sequences against pinned retained THREE-base data in both orientations, direct independent JSON census, and byte-identical complete controller; not an inference from helper frames or controller alone.",
+  "tensor_power_used_for_lower": 1,
+  "actual_selected_tensor_power": 1024,
+  "positive_occurrence_reason": "A strict normalized winning supplier has P_leaf/W<N. A composition containing no raw mixed unit would retain only ordinary sequential kernels with normalized costN. Thus at least one raw unit is present; no complete tensor-power count is needed for this conservative floor.",
+  "AND_active_lower": "630412*2^N",
+  "XOR_active_lower": "3*630412*2^N",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "lower_degree16": "2^(2^38569299999999996-2^69+1)",
+  "lower_degree8": "2^(2^38569299999999997-2^69+2)",
+  "lower": "2^(2^38569299999999997-2^69+2)",
+  "upper": null,
+  "family": "Identical repaired optimized GMP when inactive; selected sufficient-rank unreduced complete dense native word when active, working word width>=2.",
+  "statistic": "Earliest strict improvement attainable in this declared literal family; also a lower for any member eventual threshold.",
+  "all_positive_XOR_tariffs": true,
+  "full_sufficient_upper_transferred": false,
+  "all_operator_implementations_covered": false,
+  "actual_first_crossing_known": false,
+  "arbitrary_switch_used_as_lower": false,
+  "precision_gate_used_as_lower": false,
+  "fresh_scalar_sequence_and_count_replay": true,
+  "fresh_full_PR5241_native_or_phase_replay": false,
+  "retained_assumptions": [
+    {
+      "id": "native_all_columns",
+      "statement": "Retained native operators, phase conventions, spectators and whole-job adapters work at every positive column multiplicity."
+    },
+    {
+      "id": "owned_erasure",
+      "statement": "Owned streams and suspended centers obey the retained allocation, erasure and ownership contracts."
+    },
+    {
+      "id": "compiler",
+      "statement": "The finite mixed-target compiler and chronological product, completion and splitting satisfy the retained uniform closure contract."
+    },
+    {
+      "id": "precision_tape",
+      "statement": "Retained fixed-tape movement and precision/storage prescriptions apply to the new fixed finite template."
+    },
+    {
+      "id": "analytic_recovery",
+      "statement": "Analytic decomposition, fine-prime avoidance and exact integer recovery follow the retained upstream/outer framework."
+    }
+  ],
+  "proof_inputs_sha256": {
+    "manifest.json": "1b8250cfcc74670e32019e7d701f0419cc075bb379965b02d24df134acff05a5",
+    "pr4470-census.json": "8f75d5677d31fde0f3298f569affd76cf640f9a07e915e3082c4aba80b331b8b",
+    "optimized-gmp-upper-recurrence.json": "0ae22a2306d99ee19391082bf0902dad6008c182c71cd1e489ab29adb28226ff",
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1"
+  },
+  "source_files": [
+    {
+      "path": "research/final4610-independent-admission/FIRST-COLD-REPLAY.json",
+      "file": "research__final4610-independent-admission__FIRST-COLD-REPLAY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/FIRST-COLD-REPLAY.json",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "0b37e1741af786144e1eb78a752bee65424437107c5065181d8a28e05ec30122",
+      "git_blob_sha": "7b46f38ceee3152f753a13157852fdaaf60c31aa",
+      "bytes": 282091
+    },
+    {
+      "path": "research/final4610-independent-admission/PROOF.md",
+      "file": "research__final4610-independent-admission__PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/PROOF.md",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "e573cbbe6fa5481c0533e773de404e10f4dc7907b5ebfe404bdcd02dcf9844d8",
+      "git_blob_sha": "cc71e69b34835eff261b6073606dd585355e442c",
+      "bytes": 14291
+    },
+    {
+      "path": "research/final4610-independent-admission/SOURCES.json",
+      "file": "research__final4610-independent-admission__SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/SOURCES.json",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "25fed1fae88cffefc64cdecf8114718f4f4bcff1ef11e69e7556b8f40110e9a6",
+      "git_blob_sha": "cf40c4d94f11f1058cfd2d04388dbba72051c1fe",
+      "bytes": 13513
+    },
+    {
+      "path": "research/final4610-independent-admission/SPECIALIZATION.md",
+      "file": "research__final4610-independent-admission__SPECIALIZATION.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/SPECIALIZATION.md",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "70430114f744108223bc1d44b98bc25b696c4b408b7b044c2a8bbdfdb434ac5c",
+      "git_blob_sha": "7ee84b30892f7354e1c36611f1a5e9b082dc6147",
+      "bytes": 19802
+    },
+    {
+      "path": "research/final4610-independent-admission/VERIFY.json",
+      "file": "research__final4610-independent-admission__VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/VERIFY.json",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "3beda8479a0db2a01732a860b7299e05aecc35235943eacd494f179270f3cfc0",
+      "git_blob_sha": "8f4e95ea81bfd210d79ef2312247e92d0ecc7837",
+      "bytes": 3583
+    },
+    {
+      "path": "research/final4610-independent-admission/verify.py",
+      "file": "research__final4610-independent-admission__verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/verify.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "94ae718a0b5db7f91550c352a4b573edbf62d16aaa925cf250f01b4b8c15edeb",
+      "git_blob_sha": "1879aeffa158e5efa74e920fb3d326eb573b1f4e",
+      "bytes": 3687
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/__init__.py",
+      "file": "research__final4610-independent-admission__checks____init__.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/__init__.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "0af9ca16983533aa5fcb9dbcfbbd6f91c6200c93f69515703c9d340f24fed748",
+      "git_blob_sha": "b8e75050ef87853ca5950ff8a9ff9b6b36d4cc3c",
+      "bytes": 142
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/all_helpers.py",
+      "file": "research__final4610-independent-admission__checks__all_helpers.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/all_helpers.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "7bc813bbd400f851dcb0137ad31d53e7044f33d3a6cb729c60b070fddab0d1ef",
+      "git_blob_sha": "04d5a7427a55761a25a915d38b3e92e6ba9a14cc",
+      "bytes": 9219
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/arithmetic.py",
+      "file": "research__final4610-independent-admission__checks__arithmetic.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/arithmetic.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "d67b2f665d4cc9ee49ca20af88a06ac2c971923b6a3a7d2b22bfc19c296ca8b5",
+      "git_blob_sha": "407d9389ff973ff3900dea8b8ed3439cc8630edc",
+      "bytes": 3109
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/census_controls.py",
+      "file": "research__final4610-independent-admission__checks__census_controls.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/census_controls.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "35fb546ef060a56539be3ac0eaba9d36405bd10803a7829933bd45699c2873ea",
+      "git_blob_sha": "dc76e295f2504df68d26428b3aee2af0527c3302",
+      "bytes": 1371
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/claim.py",
+      "file": "research__final4610-independent-admission__checks__claim.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/claim.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "86bf973f21b6bb1fe54b5dc83b89264e0b406d0ff1a6f686133c055a9752f39a",
+      "git_blob_sha": "43daf7c305f1fe62ef99f3920b2cb7ed1d83aac6",
+      "bytes": 3509
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/compiler.py",
+      "file": "research__final4610-independent-admission__checks__compiler.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/compiler.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "4ec862afb1b0c18cecebec9b04d692be37083da64814da79ad692da96fd62bb5",
+      "git_blob_sha": "6a6f9373fe33d20e6aa7588ddcf86dde6a33a26a",
+      "bytes": 10669
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/frame.py",
+      "file": "research__final4610-independent-admission__checks__frame.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/frame.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "0ef2fa6794ccdc5895a7b72ff318b1f0b56da933ef829705f98ac6d35ee17bcf",
+      "git_blob_sha": "80a91d0a31bb64f662a7bed1eca90096e3b2cd69",
+      "bytes": 2019
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/helpers.py",
+      "file": "research__final4610-independent-admission__checks__helpers.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/helpers.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "a6516b310c41a07db9a83f1444c9ae63295286acdb5a5e3eb561bef46cdb22ce",
+      "git_blob_sha": "57e54de4a09f6d4e7aba96856a6c29c4b131a13d",
+      "bytes": 11245
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/independent_clifford.py",
+      "file": "research__final4610-independent-admission__checks__independent_clifford.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/independent_clifford.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "4953e06bd3837fa414372a62f2de57711854353e3a6ac6cea94e4c18ae42ea87",
+      "git_blob_sha": "f33ac0d326d20b8b8422ded0fdae49acff16fbe9",
+      "bytes": 3946
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/invoice.py",
+      "file": "research__final4610-independent-admission__checks__invoice.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/invoice.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "c0a9f90dfbbacec2d6d065986fad3c2b985361b9601d941ceb8296361311a60a",
+      "git_blob_sha": "142f3db7796f9be8d58a0c14db747614f8b8b4ff",
+      "bytes": 9584
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/lift.py",
+      "file": "research__final4610-independent-admission__checks__lift.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/lift.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "5ca85c008be87d6b49ba24f7928f3f6cc9558d5342119a5e715abf28326ac9fa",
+      "git_blob_sha": "ebe89f02c41853dd695d84629954d699f97b0cc9",
+      "bytes": 4513
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/lineage.py",
+      "file": "research__final4610-independent-admission__checks__lineage.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/lineage.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "7eb01f6125dd65fad0aa404055b0ed3f0609cce01e3d407f5089e4d5f0ac9dbb",
+      "git_blob_sha": "9ad2be9453dda7cb1f4cb2483a17c190272a9ec8",
+      "bytes": 3561
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/moments.py",
+      "file": "research__final4610-independent-admission__checks__moments.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/moments.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "4de41cb8cff88de815f47b634709ef819f822544a03a66ae35c0bea76e5d94c9",
+      "git_blob_sha": "21abd93594516dad073e40b658c6c37084db2c5f",
+      "bytes": 6502
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/native.py",
+      "file": "research__final4610-independent-admission__checks__native.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/native.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "49b3560fd1baefd3ac986854844d399f1d180f8fd96724b0c3b2065e98a44523",
+      "git_blob_sha": "0545a57fc35f6109cbb3bc06e0934d40777c2890",
+      "bytes": 10090
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/outer.py",
+      "file": "research__final4610-independent-admission__checks__outer.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/outer.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "196be1bc2329500f2c7c995deaf5a82aecc5e27f0fef7805470cb65d187bb1c0",
+      "git_blob_sha": "39e62cac780b662903582cb5f8684990fa779bb3",
+      "bytes": 3468
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/paid.py",
+      "file": "research__final4610-independent-admission__checks__paid.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/paid.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "4c6ff3312440ec3ef0c3e2649a1d2dae0f81ef09a8c65b46866775b56be79907",
+      "git_blob_sha": "b9740fa217e545f67e289ae89c75a2a6b492692e",
+      "bytes": 9184
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/source.py",
+      "file": "research__final4610-independent-admission__checks__source.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/source.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "7b519f0d9326b630c142630fec55a6a8b03a7b2dee7f4fcb2ca68564c4e04e53",
+      "git_blob_sha": "d17583cd64d9e8c4d1ab2e61cd557bd0bd5037c9",
+      "bytes": 4545
+    },
+    {
+      "path": "research/final4610-independent-admission/checks/specialization.py",
+      "file": "research__final4610-independent-admission__checks__specialization.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2/research/final4610-independent-admission/checks/specialization.py",
+      "commit": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+      "sha256": "a4baf55b462bff8a1f4b9d49d928ff88018792710a1c36b87f859093969921d6",
+      "git_blob_sha": "4fe827ec0ea0b30c8749e8e476b5257fd292c1b1",
+      "bytes": 13855
+    },
+    {
+      "path": "research/joint-helper-lattice/CONTROLLER.json",
+      "file": "research__joint-helper-lattice__CONTROLLER.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/joint-helper-lattice/CONTROLLER.json",
+      "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+      "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+      "git_blob_sha": "49a2f0675819f9deeea27ed77be2c2b6ff2e87e5",
+      "bytes": 57924
+    },
+    {
+      "path": "research/joint-helper-lattice/NATIVE.json.gz",
+      "file": "research__joint-helper-lattice__NATIVE.json.gz",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/joint-helper-lattice/NATIVE.json.gz",
+      "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+      "sha256": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6",
+      "git_blob_sha": "0910f74138decf498e7fc445cc2daff4390169d6",
+      "bytes": 35042
+    },
+    {
+      "path": "research/kappa-rebuild/complex/full-identity-certificates/THREE-base-FULL-IDENTITY-NATIVE.json.gz",
+      "file": "research__kappa-rebuild__complex__full-identity-certificates__THREE-base-FULL-IDENTITY-NATIVE.json.gz",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/kappa-rebuild/complex/full-identity-certificates/THREE-base-FULL-IDENTITY-NATIVE.json.gz",
+      "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+      "sha256": "c54b0a3e129d28e6dbf74fa731fc3bb70fe3c6705f07256750fbecddcc842d39",
+      "git_blob_sha": "b46d44c6ee624968dd57be928b0c15d9d45f3b2c",
+      "bytes": 198063
+    },
+    {
+      "path": "research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+      "file": "research__kappa-round3-warp-20261022__ACTUAL-WORD.json.gz",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+      "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+      "sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+      "git_blob_sha": "46d929df83817b85a5387bcdb9745e0627d6366e",
+      "bytes": 207673
+    },
+    {
+      "path": "research/kappa-round6-compiler-tightening-20261022/ARITHMETIC.json",
+      "file": "research__kappa-round6-compiler-tightening-20261022__ARITHMETIC.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/kappa-round6-compiler-tightening-20261022/ARITHMETIC.json",
+      "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+      "sha256": "b4f720a7ccbb5b46e472eaf85dc8739a40598986f19b37d26c4f9ecfbd31f0de",
+      "git_blob_sha": "0fdb65f946d557c13d8e2781b9151e2a8ddee5c3",
+      "bytes": 10555
+    }
+  ],
+  "selected_source_files": [
+    {
+      "path": "README.md",
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ec1119972c9aefe42525172d07b332fcff81cb4/README.md",
+      "sha256": "f0db8601c14a7ec902fc93650e0521a31726af48c68614ffabada83fbf2300a0",
+      "bytes": 32309
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "file": "certificates__selected-result.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ec1119972c9aefe42525172d07b332fcff81cb4/certificates/selected-result.json",
+      "sha256": "f9ed52bb642cd1e1486cf2743557ac5fa23cf1514a3277d786a644e39a565038",
+      "bytes": 5495
+    },
+    {
+      "path": "docs/research/pr-intake-evidence/pr4610/PROOF-REVIEW.md",
+      "file": "docs__research__pr-intake-evidence__pr4610__PROOF-REVIEW.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ec1119972c9aefe42525172d07b332fcff81cb4/docs/research/pr-intake-evidence/pr4610/PROOF-REVIEW.md",
+      "sha256": "b84f833e3072cbab372fbda2ece98fbc031c15e590cf73003ddea35a5222e148",
+      "bytes": 8277
+    },
+    {
+      "path": "certificates/frontier4610/CLAIM.json",
+      "file": "certificates__frontier4610__CLAIM.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ec1119972c9aefe42525172d07b332fcff81cb4/certificates/frontier4610/CLAIM.json",
+      "sha256": "c48376a8365a4c7b67adb368bafa128bede4cd5589a41fa276f96a350d45606c",
+      "bytes": 1540
+    }
+  ],
+  "checks_passed": 32703,
+  "formal_status": "Written conditional proof plus exact JSON/hash/count checks; not Lean, independent human proof or a physical runtime forecast."
+}

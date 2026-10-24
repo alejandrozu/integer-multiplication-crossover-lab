@@ -1,0 +1,69 @@
+{
+  "pr": 1348,
+  "own_head": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+  "primary_path_candidates": [
+    "research/complex-coverage-law-relief/README.md",
+    "research/complex-coverage-law-relief/TASK.json",
+    "research/complex-coverage-law-relief/VERIFY.json",
+    "research/complex-coverage-law-relief/verify.py",
+    "research/complex-coverage-law-relief/TASK-CARD.md"
+  ],
+  "selected_for_recovery": [
+    "research/complex-coverage-law-relief/TASK.json",
+    "research/complex-coverage-law-relief/VERIFY.json",
+    "research/complex-coverage-law-relief/TASK-CARD.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-coverage-law-relief/README.md",
+      "file": "remaining-record-audit/artifacts/1348/0a953e7bad7d__README.md",
+      "sha256": "0a953e7bad7d343efca12d957c7c9c248276d35f05fb0e5ba178e1b37bd73375",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/74768ab408b1ae2ce2c7094b49457a86fcb06e94/research/complex-coverage-law-relief/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-coverage-law-relief/verify.py",
+      "file": "remaining-record-audit/artifacts/1348/102b7e0cd5b2__verify.py",
+      "sha256": "102b7e0cd5b29fc5dcee533027fec2d9e3812b629a02ac8469790153a701b017",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/74768ab408b1ae2ce2c7094b49457a86fcb06e94/research/complex-coverage-law-relief/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1348,
+      "head": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+      "path": "research/complex-coverage-law-relief/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/74768ab408b1ae2ce2c7094b49457a86fcb06e94/research/complex-coverage-law-relief/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "246c4d4d305b60983da6b0478e9f72fd98d3898a98615543d35b75343ebd4260",
+      "git_blob_sha1": "3ddb52815d70d63b603926e501d9416beaad830a",
+      "bytes": 7803,
+      "file": "individual-primary-interface-source/1348/246c4d4d305b__TASK.json"
+    },
+    {
+      "pr": 1348,
+      "head": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+      "path": "research/complex-coverage-law-relief/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/74768ab408b1ae2ce2c7094b49457a86fcb06e94/research/complex-coverage-law-relief/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b2508a2e439e6a1ebff2c773be215f24a734a712f302183720679b9704dbafc1",
+      "git_blob_sha1": "fc104c42cb684842d64dd6509e673397130fe26b",
+      "bytes": 1162,
+      "file": "individual-primary-interface-source/1348/b2508a2e439e__VERIFY.json"
+    },
+    {
+      "pr": 1348,
+      "head": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+      "path": "research/complex-coverage-law-relief/TASK-CARD.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/74768ab408b1ae2ce2c7094b49457a86fcb06e94/research/complex-coverage-law-relief/TASK-CARD.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "39b3a68b4628db1f90f91688e6a2961ad76009de2c7a65d193a3826648193f18",
+      "git_blob_sha1": "4dca2ad5c9880f409b9c474255dd77ffc08bbb0b",
+      "bytes": 5624,
+      "file": "individual-primary-interface-source/1348/39b3a68b4628__TASK-CARD.md"
+    }
+  ]
+}

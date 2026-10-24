@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 828,
+    "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+    "path": "research/pr279-target-prefix-reconciliation/README.md",
+    "api_sha": "900bf1343b0d692821ed234a0ac6125dcba2da85",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research%2Fpr279-target-prefix-reconciliation%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/pr279-target-prefix-reconciliation/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/README.md",
+    "file": "artifacts\\828\\8c98f3b8d6d4__README.md",
+    "sha256": "8c98f3b8d6d4e3512c244a6a4f59f36409f5a6d30b536ef60912402eb074e9d0",
+    "git_blob_sha1": "900bf1343b0d692821ed234a0ac6125dcba2da85",
+    "bytes": 10977,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:18.211505+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 828,
+    "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+    "path": "research/pr279-target-prefix-reconciliation/VALIDATION.md",
+    "api_sha": "1f45252c928b1252b738c0ae914c833fe01f4177",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research%2Fpr279-target-prefix-reconciliation%2FVALIDATION.md",
+    "priority": 165,
+    "hint_base": "research/pr279-target-prefix-reconciliation/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/VALIDATION.md",
+    "file": "artifacts\\828\\042e9a99a5f4__VALIDATION.md",
+    "sha256": "042e9a99a5f4c42131a584d79b2b92e00371a8f0262cde1008663842445c8438",
+    "git_blob_sha1": "1f45252c928b1252b738c0ae914c833fe01f4177",
+    "bytes": 2271,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:18.193503+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 828,
+    "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+    "path": "research/pr279-target-prefix-reconciliation/verify.py",
+    "api_sha": "9c992d8972922d61c0ef1df7bbf3e86756d98dab",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research%2Fpr279-target-prefix-reconciliation%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/pr279-target-prefix-reconciliation/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/verify.py",
+    "file": "artifacts\\828\\8af5b16b17f5__verify.py",
+    "sha256": "8af5b16b17f586b9971b9ce4d5b5beb2ab113c2f3c6b96e180fb9d1e0b9e53a4",
+    "git_blob_sha1": "9c992d8972922d61c0ef1df7bbf3e86756d98dab",
+    "bytes": 15106,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:18.197504+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

@@ -1,0 +1,239 @@
+{
+  "compiler": {
+    "H": 64215200000000,
+    "N": "2^64215200000000",
+    "eta": {
+      "lower": "0.000000192557170968526505534920",
+      "upper": "0.000000192557170968526505534921"
+    },
+    "gap": "1/1400000000",
+    "integer_test_exponent": 45868,
+    "logarithm_power": 1000,
+    "theta": "63/64",
+    "uniform_saving": "16413/5468750",
+    "word_materialized": false
+  },
+  "fixed_profile_ceiling": {
+    "decreasing_through_C": "1/20",
+    "headroom": [
+      "11271/1250000000000",
+      "45087/5000000000000"
+    ],
+    "negative_derivative_upper": {
+      "lower": "-209301.782605318359625249435167662296",
+      "upper": "-209301.782605318359625249435167662295"
+    },
+    "remaining_interval_moment_upper": {
+      "lower": "-7186.870720093328630176033740826593",
+      "upper": "-7186.870720093328630176033740826592"
+    },
+    "root": [
+      "3751548771/1250000000000",
+      "15006195087/5000000000000"
+    ]
+  },
+  "full_calls": 19,
+  "gain_over_PR4416": "7869/25000000",
+  "gain_over_PR4440": "4123/100000000",
+  "gain_over_PR4441": "9/50000000",
+  "kappa": "300123/100000000",
+  "kappa_decimal": "0.00300123",
+  "negative_controls": {
+    "closed_epsilon": [
+      "epsilon_below_one",
+      "global_gamma_power_slack",
+      "actual_logarithmic_gamma_guard",
+      "source_axis_superpolynomial",
+      "gaussian_above_main",
+      "new_semantic_guard_with_C1_one"
+    ],
+    "closed_uniform": [
+      "new_complex_uniform_saving_above_b"
+    ],
+    "old_BIT": [
+      "actual_bit_above_effective"
+    ],
+    "unfunded_endpoint": [
+      "main_transform_above_kappa",
+      "global_coordinate_router_above_kappa",
+      "fused_gaussian_above_kappa",
+      "group_bit_router_above_kappa",
+      "boundary_algebraic_matrix_above_kappa"
+    ]
+  },
+  "nonrecursive": {
+    "local_route_bound": 4867000,
+    "local_scalar_allowance": 158168,
+    "raw_budget": 1000000000,
+    "raw_upper": 191193472
+  },
+  "ordinary_BIT": {
+    "admitted": "17/5000",
+    "after_cover": "69/20000",
+    "atom": "1/250",
+    "before_cover": "3459/1000000",
+    "ordinary_saving": "8590884599/2500000000000",
+    "prime_rule": "odd q > 2^26*N^5 avoiding all fixed denominators and rank witnesses"
+  },
+  "outer": {
+    "functional_checks": {
+      "actual_new_BIT_stock_sublinear": "348599999253/350000000000",
+      "fixed_halo_explicit_metadata_branch": "26950000001/350000000",
+      "new_BIT_row_stock_sublinear_in_active_group": "1395799997009/1400000000000",
+      "new_semantic_group_guard": "3/1400000000"
+    },
+    "margins": {
+      "boundary_algebraic_matrix": "235296655831931/78400000000000000",
+      "fused_gaussian": "235296655495793/78400000000000000",
+      "global_coordinate_router": "2100863/700000000",
+      "group_bit_router": "2941208893697411/980000000000000000",
+      "group_scans": "699999999/700000000",
+      "main_transform": "235296599831931/78400000000000000",
+      "microbox_face_corrections": "26950000001/350000000",
+      "polynomial_products": "1399999999/1400000000",
+      "sparse_union_movement": "32085296655831931/78400000000000000"
+    },
+    "parameters": {
+      "a": "2100863/700000000",
+      "b": "4201727/1400000000",
+      "beta": "1399999997/1400000000",
+      "bit_saving": "17/5000",
+      "cap_xi": "71285296599831931/78400000000000000",
+      "complex_uniform_saving": "16413/5468750",
+      "d": "1/1400000000",
+      "epsilon": "1399999999/1400000000",
+      "kappa": "300123/100000000",
+      "lambda_": "398799507/400000000",
+      "lambda_prime": "55831931/56000000",
+      "layout": "1/1400000000",
+      "q": "168069/56000000",
+      "r0": "1/14000000000",
+      "stop": "1/1400000000",
+      "tested_saving": "600247/200000000"
+    },
+    "strict_checks": {
+      "actual_bit_above_effective": "279137/700000000",
+      "actual_logarithmic_gamma_guard": "1/1400000000",
+      "actual_logarithmic_group_guard": "7114703484168069/39200000000000000",
+      "alpha_logarithm_absorption": "1/14000000000",
+      "boundary_algebraic_matrix_above_kappa": "223831931/78400000000000000",
+      "cap_above_band": "32085296599831931/78400000000000000",
+      "cap_below_cell": "7114703344168069/78400000000000000",
+      "cap_below_phase_cell_power": "85514703400168069/78400000000000000",
+      "complex_above_effective": "1/1400000000",
+      "complex_below_one_over_32": "39548273/1400000000",
+      "complex_endpoint": "1/700000000",
+      "epsilon_below_one": "1/1400000000",
+      "epsilon_positive": "1399999999/1400000000",
+      "fine_prime_halo_umbrella": "7/2",
+      "fused_gaussian_above_kappa": "223495793/78400000000000000",
+      "gaussian_above_main": "27831931/39200000000000000",
+      "global_coordinate_router_above_kappa": "1/350000000",
+      "global_gamma_power_slack": "9/14000000000",
+      "group_below_dimension": "1/700000000",
+      "group_bit_router_above_kappa": "3493697411/980000000000000000",
+      "group_gauge_power_slack": "7114703481368069/39200000000000000",
+      "group_key_fits_record": "1/700000000",
+      "group_positive": "1399999997/1400000000",
+      "group_scans_above_kappa": "348949569/350000000",
+      "halo_covers_generic_inverse_radius": "5",
+      "improvement_over_user_baseline": "635129790400418148631/500000000000000000000000",
+      "lambda_above_internal": "1/2800000000",
+      "lambda_above_sigma": "3/2800000000",
+      "lambda_above_tau": "1/2800000000",
+      "lambda_prime_above_lambda": "1/2800000000",
+      "lambda_prime_above_leaf": "2795798273/1960000000000000000",
+      "leaf_saving_above_effective": "1395798273/1960000000000000000",
+      "main_transform_above_kappa": "167831931/78400000000000000",
+      "membership_arithmetic_fits_record": "1/1400000000",
+      "microbox_face_corrections_above_kappa": "53897899141/700000000",
+      "microbox_halo_volume": "110600000003/1400000000",
+      "new_complex_uniform_saving_above_b": "1/1400000000",
+      "new_semantic_guard_with_C1_one": "1/1400000000",
+      "polynomial_products_above_kappa": "1395798277/1400000000",
+      "positive_layout_slack": "1/1400000000",
+      "q_below_effective": "1/1400000000",
+      "q_below_internal": "1/1400000000",
+      "q_below_leaf": "2795798273/1960000000000000000",
+      "q_positive": "168069/56000000",
+      "short_record_fallback": "1395798273/1400000000",
+      "source_axis_superpolynomial": "1/1400000000",
+      "sparse_union_movement_above_kappa": "31850000223831931/78400000000000000",
+      "stop_below_one": "1399999999/1400000000",
+      "stop_positive": "1/1400000000",
+      "strassen_integer_power_gap": "1951441519231",
+      "support_router_span": "3/1400000000",
+      "theta_positive_polynomial_power": "2",
+      "union_header_fits_record": "3/1400000000",
+      "union_tag_work_per_visit_fits_record": "3/1400000000"
+    }
+  },
+  "paid": {
+    "1": 44618,
+    "16": 448,
+    "2": 9766,
+    "24": 448,
+    "3": 8436,
+    "32": 448,
+    "4": 1957,
+    "40": 448,
+    "48": 448,
+    "5": 760,
+    "56": 448,
+    "64": 448,
+    "72": 448,
+    "8": 152
+  },
+  "paid_calls": 69273,
+  "productive_fields": 11560,
+  "query_shears": 16,
+  "scope": "Author-checked conditional construction; retained native/all-column, owned-erasure, whole-job, analytic, precision, tape, prime and recovery contracts. No selected promotion or formal/human acceptance.",
+  "source_heads": {
+    "PR4440": "40e22a83ed660d3d6074c4f2dbf14bfb621eee51",
+    "PR4441_combination": "5f9d871c6bd1b9e34db5a7ea5ef08a908e94db39",
+    "helper_retiming": "ccdae89b2ab9ced24ee3e7adfdb670ef80d223d9"
+  },
+  "source_inputs": 46,
+  "status": "PASS_CONDITIONAL_MISSING_JOIN_KAPPA_00300123",
+  "strictification": {
+    "alpha": {
+      "lower": "0.999999995876754782344502280335",
+      "upper": "0.999999995876754782344502280336"
+    },
+    "cutoff": 20,
+    "delta": {
+      "lower": "0.932537504513523310068879094384",
+      "upper": "0.932537504513523310068879094385"
+    },
+    "floor": 21,
+    "gamma": {
+      "lower": "0.969136675521053502676120887993",
+      "upper": "0.969136675521053502676120887994"
+    },
+    "limits": [
+      "999999999/1000000000",
+      "97/100",
+      "19/20"
+    ],
+    "normalized_paid_upper": "2097152001953127/2097154147483648",
+    "power": 1024,
+    "tail_offset": "1/5",
+    "tested": "600247/200000000"
+  },
+  "targets": {
+    "153": 224,
+    "17": 448,
+    "25": 448,
+    "33": 448,
+    "4": 494,
+    "41": 448,
+    "49": 448,
+    "5": 38,
+    "57": 448,
+    "65": 448,
+    "7": 551,
+    "73": 448,
+    "8": 798,
+    "9": 5871
+  }
+}

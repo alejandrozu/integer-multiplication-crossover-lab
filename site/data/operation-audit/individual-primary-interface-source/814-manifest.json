@@ -1,0 +1,64 @@
+{
+  "pr": 814,
+  "own_head": "d91c5152b314391406b0ec792b6765a5cf0af2f1",
+  "primary_path_candidates": [
+    "research/eisenstein-message-copy-bound/certificate.json",
+    "research/eisenstein-message-copy-bound/CLAIM.md",
+    "research/eisenstein-message-copy-bound/PROOF.md",
+    "research/eisenstein-message-copy-bound/README.md",
+    "research/eisenstein-message-copy-bound/VALIDATION.md",
+    "research/eisenstein-message-copy-bound/NOTICE.md",
+    "research/eisenstein-message-copy-bound/verify.py",
+    "research/eisenstein-message-copy-bound/geometry.py",
+    "research/eisenstein-message-copy-bound/crosscheck.py",
+    "research/eisenstein-message-copy-bound/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/eisenstein-message-copy-bound/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/eisenstein-message-copy-bound/certificate.json",
+      "file": "remaining-record-audit/artifacts/814/37b041ad7a9c__certificate.json",
+      "sha256": "37b041ad7a9c84961e6468cf59ec97f2f80ae68a2fc2670eab931b9ad131ad4e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d91c5152b314391406b0ec792b6765a5cf0af2f1/research/eisenstein-message-copy-bound/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/eisenstein-message-copy-bound/verify.py",
+      "file": "remaining-record-audit/artifacts/814/8b1e164ce3cb__verify.py",
+      "sha256": "8b1e164ce3cb15ceabdd7138fee75f940b3d7e86d9ae800ef1cbad31d5926b59",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d91c5152b314391406b0ec792b6765a5cf0af2f1/research/eisenstein-message-copy-bound/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/eisenstein-message-copy-bound/PROOF.md",
+      "file": "remaining-record-audit/artifacts/814/dd8c7890d661__PROOF.md",
+      "sha256": "dd8c7890d661ae87167d038d12356845470a2822733c45bd9ab4c9208e381311",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d91c5152b314391406b0ec792b6765a5cf0af2f1/research/eisenstein-message-copy-bound/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/eisenstein-message-copy-bound/README.md",
+      "file": "remaining-record-audit/artifacts/814/a68af297fb83__README.md",
+      "sha256": "a68af297fb8340107d3fa0e24995c4df0b3b097b54a039fe2fcaaa1c39502a35",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d91c5152b314391406b0ec792b6765a5cf0af2f1/research/eisenstein-message-copy-bound/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 13,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 814,
+      "head": "d91c5152b314391406b0ec792b6765a5cf0af2f1",
+      "path": "research/eisenstein-message-copy-bound/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d91c5152b314391406b0ec792b6765a5cf0af2f1/research/eisenstein-message-copy-bound/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f0eff83e86318339f9e52f8ae9f63cb86c0250e34f1262ac1a6cfcfea21e2199",
+      "git_blob_sha1": "7d3514805db0061542a151f48a38f1493b085bf0",
+      "bytes": 5398,
+      "file": "individual-primary-interface-source/814/f0eff83e8631__CLAIM.md"
+    }
+  ]
+}

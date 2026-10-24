@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 1252,
+    "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+    "path": "README.md",
+    "api_sha": "f8c5f54b600c012751b9a9e8003c02d3be898eda",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/README.md",
+    "priority": 60,
+    "hint_base": "research/frontier1094-idle-exchanges/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/README.md",
+    "file": "artifacts\\1252\\f1f2aa2bbd39__README.md",
+    "sha256": "f1f2aa2bbd391ab0ac843abe2d2573c4a11abfdef7db47a6116d9db2f9559264",
+    "git_blob_sha1": "f8c5f54b600c012751b9a9e8003c02d3be898eda",
+    "bytes": 30675,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:11.939147+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1252,
+    "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+    "path": "research/frontier1094-idle-exchanges/README.md",
+    "api_sha": "9a510dfc5abd1d7c963ad97fc7d57a9249eabcd7",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research%2Ffrontier1094-idle-exchanges%2FREADME.md",
+    "priority": 240,
+    "hint_base": "research/frontier1094-idle-exchanges/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/README.md",
+    "file": "artifacts\\1252\\1550a31818b1__README.md",
+    "sha256": "1550a31818b19b45e041485717953567b56433be0ff879e2aee47af0ee9dcb36",
+    "git_blob_sha1": "9a510dfc5abd1d7c963ad97fc7d57a9249eabcd7",
+    "bytes": 6140,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:11.904147+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1252,
+    "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+    "path": "research/frontier1094-idle-exchanges/replay/audit/PREFIX-AND-INVOICE.json",
+    "api_sha": "6c8dedf1a4334f8857046952e2dc75cd8212d90d",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research%2Ffrontier1094-idle-exchanges%2Freplay%2Faudit%2FPREFIX-AND-INVOICE.json",
+    "priority": 200,
+    "hint_base": "research/frontier1094-idle-exchanges/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/replay/audit/PREFIX-AND-INVOICE.json",
+    "file": "artifacts\\1252\\d0f2e543bac6__PREFIX-AND-INVOICE.json",
+    "sha256": "d0f2e543bac6ba392a0e651aebcd20c9e26ba9bf1cbae92e90170bd2bdbcfffe",
+    "git_blob_sha1": "6c8dedf1a4334f8857046952e2dc75cd8212d90d",
+    "bytes": 78165,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:11.945149+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

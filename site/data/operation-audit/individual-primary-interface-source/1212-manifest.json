@@ -1,0 +1,65 @@
+{
+  "pr": 1212,
+  "own_head": "57099cb5684f38877f31d149d598801671a633db",
+  "primary_path_candidates": [
+    "research/complex-rank8-decoder-rigidity/CLAIM.md",
+    "research/complex-rank8-decoder-rigidity/PROOF.md",
+    "research/complex-rank8-decoder-rigidity/README.md",
+    "research/complex-rank8-decoder-rigidity/verify.py",
+    "research/complex-rank8-decoder-rigidity/make_proof.py",
+    "research/complex-rank8-decoder-rigidity/probe_numeric.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-rank8-decoder-rigidity/CLAIM.md",
+    "research/complex-rank8-decoder-rigidity/make_proof.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank8-decoder-rigidity/verify.py",
+      "file": "remaining-record-audit/artifacts/1212/7dd78f3deacf__verify.py",
+      "sha256": "7dd78f3deacf6067a30d6f195ca09dd98db7d9e4f68eda7cad9868f407608edd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/57099cb5684f38877f31d149d598801671a633db/research/complex-rank8-decoder-rigidity/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank8-decoder-rigidity/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1212/bccab452803c__PROOF.md",
+      "sha256": "bccab452803cb0094685c298fe4fba5ceeddf9d6158a6af0b584712391db14c9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/57099cb5684f38877f31d149d598801671a633db/research/complex-rank8-decoder-rigidity/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank8-decoder-rigidity/README.md",
+      "file": "remaining-record-audit/artifacts/1212/2904cd26666d__README.md",
+      "sha256": "2904cd26666d9dd386084ad0912fa41ef0abb48fbd3d1f749f862ccf6f177269",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/57099cb5684f38877f31d149d598801671a633db/research/complex-rank8-decoder-rigidity/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1212,
+      "head": "57099cb5684f38877f31d149d598801671a633db",
+      "path": "research/complex-rank8-decoder-rigidity/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/57099cb5684f38877f31d149d598801671a633db/research/complex-rank8-decoder-rigidity/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e1bdb57e8507bdfa82bcdb6fdad92188113a9b3e1c3e8fc049710a36027428cd",
+      "git_blob_sha1": "7d813bf2df7bb1935d005f20206925a2f2704ed5",
+      "bytes": 3139,
+      "file": "individual-primary-interface-source/1212/e1bdb57e8507__CLAIM.md"
+    },
+    {
+      "pr": 1212,
+      "head": "57099cb5684f38877f31d149d598801671a633db",
+      "path": "research/complex-rank8-decoder-rigidity/make_proof.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/57099cb5684f38877f31d149d598801671a633db/research/complex-rank8-decoder-rigidity/make_proof.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ea97a611d8336cd59453f64d09ee958654af697a9e99093c0562824c18c80e2b",
+      "git_blob_sha1": "a8cdfe6cd453f1690a5c50e6f88d620f81cd8926",
+      "bytes": 2427,
+      "file": "individual-primary-interface-source/1212/ea97a611d833__make_proof.py"
+    }
+  ]
+}

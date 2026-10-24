@@ -1,0 +1,67 @@
+{
+  "pr": 4181,
+  "own_head": "4ed92bed95dd483f5662e98ef246b258c3cfe64f",
+  "primary_path_candidates": [
+    "research/staged544-pooled-ceiling-fill/RESULT.json",
+    "research/staged544-pooled-ceiling-fill/README.md",
+    "research/staged544-pooled-ceiling-fill/TASK.json",
+    "research/staged544-pooled-ceiling-fill/VERIFY.json",
+    "research/staged544-pooled-ceiling-fill/owner/MIXED-DISPATCH.json",
+    "research/staged544-pooled-ceiling-fill/verify.py",
+    "research/staged544-pooled-ceiling-fill/construction/hall_mixed.py",
+    "research/staged544-pooled-ceiling-fill/construction/build_mixed.py"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-pooled-ceiling-fill/TASK.json",
+    "research/staged544-pooled-ceiling-fill/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-pooled-ceiling-fill/README.md",
+      "file": "remaining-record-audit/artifacts/4181/1a9b633b0f11__README.md",
+      "sha256": "1a9b633b0f11d5a351dc39382992e84bf38408cd3491d06480029d6c0ab85171",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ed92bed95dd483f5662e98ef246b258c3cfe64f/research/staged544-pooled-ceiling-fill/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-pooled-ceiling-fill/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4181/d823509ea38e__RESULT.json",
+      "sha256": "d823509ea38e545db6c287a85c00bc4257825fb2710728dfc776c8801d2becd9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ed92bed95dd483f5662e98ef246b258c3cfe64f/research/staged544-pooled-ceiling-fill/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-pooled-ceiling-fill/verify.py",
+      "file": "remaining-record-audit/artifacts/4181/e89870761dde__verify.py",
+      "sha256": "e89870761ddefe0a7f983512c6ae884ccff26235085238624e00f75a31cd6e76",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ed92bed95dd483f5662e98ef246b258c3cfe64f/research/staged544-pooled-ceiling-fill/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4181,
+      "head": "4ed92bed95dd483f5662e98ef246b258c3cfe64f",
+      "path": "research/staged544-pooled-ceiling-fill/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ed92bed95dd483f5662e98ef246b258c3cfe64f/research/staged544-pooled-ceiling-fill/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4b753e9ab52638e04b89bc79315e8bc8fab408daec9ecb78c11399fcfa7f2467",
+      "git_blob_sha1": "6927c123364b35e4fe25b3f0d7fd61a702d34cdb",
+      "bytes": 5455,
+      "file": "individual-primary-interface-source/4181/4b753e9ab526__TASK.json"
+    },
+    {
+      "pr": 4181,
+      "head": "4ed92bed95dd483f5662e98ef246b258c3cfe64f",
+      "path": "research/staged544-pooled-ceiling-fill/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ed92bed95dd483f5662e98ef246b258c3cfe64f/research/staged544-pooled-ceiling-fill/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "51910d1d36b23b49cc954a6a8e00fc2440f6ed12fc7ba933d124952024fb22a4",
+      "git_blob_sha1": "938dd6ea071fc75e46f8c9250054d667c3639a3a",
+      "bytes": 1522,
+      "file": "individual-primary-interface-source/4181/51910d1d36b2__VERIFY.json"
+    }
+  ]
+}

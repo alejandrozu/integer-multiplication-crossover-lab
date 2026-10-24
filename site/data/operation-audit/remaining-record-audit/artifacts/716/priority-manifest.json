@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 716,
+    "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+    "path": "research/r420-target-pairs/README.md",
+    "api_sha": "0f87a399d9fee6061657ad28990e008d38dc26b5",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/afeb452f58ff0cbf109172335e2ba282aac3dcde/research%2Fr420-target-pairs%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/r420-target-pairs/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/README.md",
+    "file": "artifacts\\716\\991f852f4b14__README.md",
+    "sha256": "991f852f4b1456c00c53d6733a53378e6ace9151b10a534d522d460417d24e19",
+    "git_blob_sha1": "0f87a399d9fee6061657ad28990e008d38dc26b5",
+    "bytes": 13221,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:26.550617+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 716,
+    "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+    "path": "research/r420-target-pairs/certificate.json",
+    "api_sha": "0dc3f294f556be52a172ac65f5acc2a60ee2a03c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/afeb452f58ff0cbf109172335e2ba282aac3dcde/research%2Fr420-target-pairs%2Fcertificate.json",
+    "priority": 200,
+    "hint_base": "research/r420-target-pairs/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/certificate.json",
+    "file": "artifacts\\716\\19258735e742__certificate.json",
+    "sha256": "19258735e74233613f9242414cba9ca926510a7119d6701a6997d722d67d2289",
+    "git_blob_sha1": "0dc3f294f556be52a172ac65f5acc2a60ee2a03c",
+    "bytes": 1660,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:27.654646+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 716,
+    "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+    "path": "research/r420-target-pairs/verify.py",
+    "api_sha": "f74a614c9c122eae1438fd5d946c3b138cff1c9e",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/afeb452f58ff0cbf109172335e2ba282aac3dcde/research%2Fr420-target-pairs%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/r420-target-pairs/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/verify.py",
+    "file": "artifacts\\716\\b88e7f5d28e0__verify.py",
+    "sha256": "b88e7f5d28e07d29f16a8249603932cca95869ac3533086a9263c14777b8a531",
+    "git_blob_sha1": "f74a614c9c122eae1438fd5d946c3b138cff1c9e",
+    "bytes": 14477,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:26.468869+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

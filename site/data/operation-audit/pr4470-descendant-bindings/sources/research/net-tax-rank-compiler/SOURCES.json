@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "base_commit": "de6869e2e4d9c6f630bac5de4a919d99a2cb884b",
+  "files": [
+    {
+      "path": "research/native-lattice-retiming/RESULT.json",
+      "usage": "input",
+      "sha256": "1ac2e581ea51e6448503a68caf4bf44aeb32470c2e2674c91f007af4a3abd2e3",
+      "git_blob": "93defc5ececebd542332fc42d6a78f0af222cd1c"
+    },
+    {
+      "path": "research/native-lattice-retiming/NATIVE-RESULT.json",
+      "usage": "input",
+      "sha256": "a2e7a8f9eba6712dc92c47e6d86aaf18b8400f1ae5fe13ca19bbb65e76a25018",
+      "git_blob": "b5c0af78f1c2aa07e921898b48862bb6e8d9569c"
+    },
+    {
+      "path": "research/native-lattice-retiming/README.md",
+      "usage": "input",
+      "sha256": "c2ef9c38cfd1d9ea8b2a3de3910471001a0592ea334d1e364e6ca41a8e322ee2",
+      "git_blob": "22cb2378eedf42895126b19ad22aa609774876ce"
+    },
+    {
+      "path": "research/native-lattice-retiming/PROOF.md",
+      "usage": "input",
+      "sha256": "d137119bd238304295498d85186e6c0d36915002f7fcca4d75605f76a339edfc",
+      "git_blob": "5ed2cacea7e8e4ceeace5bc21745bfae6d41c4a1"
+    },
+    {
+      "path": "research/higher-moment-strictification/RESULT.json",
+      "usage": "input",
+      "sha256": "ad79e3c0459e7b495a0ca34010553b12147779a007389e1695cc1336f123c156",
+      "git_blob": "e66b39c674028adfd22f0de3170555dccda52f6a"
+    },
+    {
+      "path": "research/higher-moment-strictification/README.md",
+      "usage": "input",
+      "sha256": "ebe80b68ff026ce90f71f274c31744f4c0b36132d15ebb7e39cf2d5df4df270d",
+      "git_blob": "0a736ca89e1eafb73a30e1f2589cc45e6b5f76c3"
+    },
+    {
+      "path": "research/higher-moment-strictification/verify.py",
+      "usage": "input",
+      "sha256": "0ce7e7137422d5ffeda22085c81fa88471bbe963100fdad62e659f1e3bf89326",
+      "git_blob": "4b24a5096154736ce060474eb8c72dc64c303699"
+    },
+    {
+      "path": "research/higher-moment-strictification/vendor/p7-TENSOR.md",
+      "usage": "input",
+      "sha256": "b2eba86cb979b4dc2a045f2e74bbd29e4d9e5ec87d6a2bc23ba7b54f1f58e3e3",
+      "git_blob": "8ecfd3e4d0bcb449ecb1e150c4f1f4fbb39ca656"
+    },
+    {
+      "path": "research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+      "usage": "input",
+      "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+      "git_blob": "4badb40f0919c515823cb07e44c6470d4d6469ca"
+    },
+    {
+      "path": "research/kappa-rebuild/architecture/sources/Sussman-563b4e6/research/record-track/programs/theorem-1g/tree_flow.py",
+      "usage": "input",
+      "sha256": "750782f6d1cc0a9fff8a768899f3f4c62a7efdf0696d8b5a5d640b1836f5ab72",
+      "git_blob": "31a9c1ae4d116b12e8db7d8e06f723f10425068d"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "sha256": "352a6184713b8843d96fd2c2071eb7aeaa655906b7c51d45ad444912666c8a96",
+      "git_blob": "64bfc5af6709ed9811171e0a2108f05e1219cb65"
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "sha256": "5732707cc1e460b090b53f2463162749ad860de878a18f7408938671d295a9d9",
+      "git_blob": "ed33caef5c5827693e9572d252a66f99cbb73d40"
+    },
+    {
+      "path": "autoresearch.md",
+      "usage": "provenance",
+      "sha256": "d16f0d3bb4d4b213d06c128db6d6460b0fe9ec1ac5a6c1ea1febf1db40e7b60d",
+      "git_blob": "2fe84a7b30b1e26e60ce0ec4775894eb1831c5d6"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "usage": "provenance",
+      "sha256": "8a49fe97e2ad088a2b2e0c5b222aaab08752783b1f9c1260790d7dd13011d215",
+      "git_blob": "fe54f23f19b082a9f8df3da9b2e205f7e230acf3"
+    }
+  ]
+}

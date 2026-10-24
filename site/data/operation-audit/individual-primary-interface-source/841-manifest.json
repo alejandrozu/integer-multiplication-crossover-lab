@@ -1,0 +1,66 @@
+{
+  "pr": 841,
+  "own_head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+  "primary_path_candidates": [
+    "research/selected-proof-binding/CLAIM.json",
+    "research/selected-proof-binding/EXPECTED.json",
+    "research/selected-proof-binding/README.md",
+    "research/selected-proof-binding/REFERENCE-COVERAGE.json",
+    "scripts/verify_selected_result.py",
+    "tests/test_selected_proof_binding.py",
+    "research/selected-proof-binding/reproduce.py"
+  ],
+  "selected_for_recovery": [
+    "scripts/verify_selected_result.py",
+    "research/selected-proof-binding/REFERENCE-COVERAGE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-proof-binding/README.md",
+      "file": "remaining-record-audit/artifacts/841/b992eaccaf88__README.md",
+      "sha256": "b992eaccaf8854e6f2db6709d847d75f83e2ace64f7539fe3d34fb86397d4c42",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-proof-binding/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/841/2480acc622a3__CLAIM.json",
+      "sha256": "2480acc622a3c07e7f5dcfe50797526e866b268b41c8284ff4b14f98d800040d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-proof-binding/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/841/d4f70f52052e__EXPECTED.json",
+      "sha256": "d4f70f52052ed40df5114f4115ce7c4a0afd63e9ea0ba5a5b374b7cb3f5b7138",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/EXPECTED.json"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 841,
+      "head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+      "path": "scripts/verify_selected_result.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/scripts/verify_selected_result.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "300b039d43be0832a405b20d38e57441e91caf85cba5afa9ce826bfb770fad22",
+      "git_blob_sha1": "5fdefc0b128ebf2f35745a9ebe7d12edda1fd923",
+      "bytes": 4358,
+      "file": "individual-primary-interface-source/841/300b039d43be__verify_selected_result.py"
+    },
+    {
+      "pr": 841,
+      "head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+      "path": "research/selected-proof-binding/REFERENCE-COVERAGE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/REFERENCE-COVERAGE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8d8fbe3def651deb0935e1d34244b2f9f58fc7b9a65bcdce5f4cadeec5f52d8a",
+      "git_blob_sha1": "38abc2a7958e073b85df144ca4556804d02496ec",
+      "bytes": 4807,
+      "file": "individual-primary-interface-source/841/8d8fbe3def65__REFERENCE-COVERAGE.json"
+    }
+  ]
+}

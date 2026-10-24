@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 1292,
+    "head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+    "path": "research/complex-p104-masked-local-rigidity/README.md",
+    "api_sha": "2e2c7fdfc5f79fc086cbab1876515717120d1f09",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7a8325f6c8e5a6830ce919965a2959ac459e010a/research%2Fcomplex-p104-masked-local-rigidity%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/complex-p104-masked-local-rigidity/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/README.md",
+    "file": "artifacts\\1292\\b354a75fcf96__README.md",
+    "sha256": "b354a75fcf965ced73a29693b8b1ef150447d016659f6d44fddee4d3fed0aaa6",
+    "git_blob_sha1": "2e2c7fdfc5f79fc086cbab1876515717120d1f09",
+    "bytes": 8560,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:32.152283+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1292,
+    "head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+    "path": "research/complex-p104-masked-local-rigidity/SOURCES.json",
+    "api_sha": "35b6e45c02b2f07b1bab824f8a1507414690ff50",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7a8325f6c8e5a6830ce919965a2959ac459e010a/research%2Fcomplex-p104-masked-local-rigidity%2FSOURCES.json",
+    "priority": 180,
+    "hint_base": "research/complex-p104-masked-local-rigidity/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/SOURCES.json",
+    "file": "artifacts\\1292\\22186f083f87__SOURCES.json",
+    "sha256": "22186f083f877bdfd1318d88d21a6750b551815a899fda70c72163803201158d",
+    "git_blob_sha1": "35b6e45c02b2f07b1bab824f8a1507414690ff50",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:32.143022+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1292,
+    "head": "7a8325f6c8e5a6830ce919965a2959ac459e010a",
+    "path": "research/complex-p104-masked-local-rigidity/verify.py",
+    "api_sha": "5b881f92fc9050556870c62ebf1e0893b8ae71d2",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/7a8325f6c8e5a6830ce919965a2959ac459e010a/research%2Fcomplex-p104-masked-local-rigidity%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/complex-p104-masked-local-rigidity/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7a8325f6c8e5a6830ce919965a2959ac459e010a/research/complex-p104-masked-local-rigidity/verify.py",
+    "file": "artifacts\\1292\\61580e621ae2__verify.py",
+    "sha256": "61580e621ae2ba0bbb1722fd91172ac5a92292d8332fcb07d33c46fa93a37755",
+    "git_blob_sha1": "5b881f92fc9050556870c62ebf1e0893b8ae71d2",
+    "bytes": 11584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:32.150023+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

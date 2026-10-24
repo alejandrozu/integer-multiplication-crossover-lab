@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 1186,
+    "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+    "path": "research/exact-frame-toolkit/MANIFEST.json",
+    "api_sha": "c40c7742bc2600aa6832c1817660598ceba26401",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research%2Fexact-frame-toolkit%2FMANIFEST.json",
+    "priority": 180,
+    "hint_base": "research/exact-frame-toolkit/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/MANIFEST.json",
+    "file": "artifacts\\1186\\658331a6f03d__MANIFEST.json",
+    "sha256": "658331a6f03d1ca4eb0ae7f186b0da2aa694d70619af3c83a77e051cca85fd8e",
+    "git_blob_sha1": "c40c7742bc2600aa6832c1817660598ceba26401",
+    "bytes": 2369,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:48.241664+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1186,
+    "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+    "path": "research/exact-frame-toolkit/README.md",
+    "api_sha": "d6639a0f69fbed6255a651ae7f1d08fd9cd12998",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research%2Fexact-frame-toolkit%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/exact-frame-toolkit/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/README.md",
+    "file": "artifacts\\1186\\c59e3a7661ce__README.md",
+    "sha256": "c59e3a7661cea426e1ebcc48b727e82ef5942319432d884c7ff167bd830f5ba0",
+    "git_blob_sha1": "d6639a0f69fbed6255a651ae7f1d08fd9cd12998",
+    "bytes": 18130,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:48.240665+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

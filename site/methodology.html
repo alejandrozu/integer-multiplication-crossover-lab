@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="How to read Crossover Lab: the Boolean cost model, source-specific bounds, historical coverage, giant input sizes and reproducibility limits.">
+  <title>How to read the results · Crossover Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body.methodology{--ink:#1d2837;--muted:#687586;--line:#e3e9f0;--paper:#fafbfc;--green:#1478d4;--mint:#edf5fd;--sand:#f6f8fb;background:var(--paper)}
+    .methodology .topbar{gap:20px}.method-nav{display:flex;gap:19px;align-items:center;font-size:12px}.method-nav a{text-decoration:none}.methodology .mark{border-color:#c4d9ed}.method-page{max-width:1100px;margin:auto;padding:48px 30px 70px}.method-hero{max-width:850px;margin-bottom:30px}.method-hero h1{font-size:clamp(31px,4vw,48px);font-weight:550;letter-spacing:-1.6px;line-height:1.15;margin:13px 0 21px}.method-lead{font-size:17px;line-height:1.8;color:#596a7e;max-width:800px}.method-checkpoint{padding:17px 21px;border:1px solid #cee2f5;border-radius:12px;background:#edf5fd;color:#315a7d;font-size:13px;line-height:1.8}.method-checkpoint p{margin:0}.method-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:24px 0 15px}.method-stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px}.method-stat b{display:block;font:500 30px/1.2 var(--mono);letter-spacing:-1px;color:#1478d4}.method-stat strong{display:block;font-size:13px;font-weight:550;margin:9px 0 5px}.method-stat p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}.method-contents{display:flex;flex-wrap:wrap;gap:9px 18px;padding:20px 0 25px;margin-bottom:10px;border-bottom:1px solid var(--line);font-size:12px}.method-contents a{text-decoration:none}.method-section{scroll-margin-top:24px;max-width:900px;padding:28px 0 4px}.method-section h2{font-size:26px;line-height:1.35;letter-spacing:-.6px;margin:0 0 19px}.method-question{padding:23px 26px;background:#fff;border:1px solid var(--line);border-radius:14px;margin:0 0 15px}.method-question h3{font-size:17px;line-height:1.45;letter-spacing:-.2px;font-weight:550;margin:0 0 12px}.method-question p,.method-question li{font-size:14px;line-height:1.85;color:#536378}.method-question p{margin:11px 0}.method-question p:first-of-type{margin-top:0}.method-question p:last-child{margin-bottom:0}.method-question strong{color:#2c4057;font-weight:600}.method-question ol,.method-question ul{padding-left:22px;margin:13px 0}.method-question li{padding-left:4px;margin:8px 0}.method-equation{font:13px/1.9 var(--mono);background:#f2f7fc;border:1px solid #e3edf7;border-radius:8px;padding:13px 16px;margin:15px 0;overflow-wrap:anywhere}.method-table{width:100%;border-collapse:collapse;font-size:13px;margin:15px 0}.method-table th,.method-table td{text-align:left;border-bottom:1px solid #e8edf3;padding:12px 9px;vertical-align:top;color:#536378}.method-table th{font-size:11px;font-weight:550;color:#60748b}.method-table code{font:12px var(--mono);overflow-wrap:anywhere}.method-small{font-size:12px!important;color:#768394!important}.method-supplement{border-left:3px solid #87add0;padding-left:16px}.method-footer{max-width:900px;border-top:1px solid var(--line);margin-top:36px;padding-top:22px;font-size:12px;line-height:1.8;color:var(--muted)}.method-footer p{margin:8px 0}.methodology a:focus-visible{outline-color:#8ebde7}.method-skip{position:absolute;left:15px;top:-60px;background:#fff;padding:10px;z-index:5}.method-skip:focus{top:12px}
+    @media(max-width:700px){.methodology .topbar{padding:0 18px;height:78px}.methodology .brand{font-size:17px;gap:9px}.methodology .brand small{font-size:8px;letter-spacing:1px}.method-nav{gap:12px;font-size:11px}.method-nav .method-home{display:none}.method-page{padding:31px 18px 45px}.method-lead{font-size:15px}.method-stats{grid-template-columns:1fr;gap:9px}.method-stat{padding:16px 19px;display:grid;grid-template-columns:64px 1fr;gap:0 12px}.method-stat b{grid-row:1/3;font-size:25px;align-self:center}.method-stat strong{margin:0 0 4px}.method-stat p{font-size:11px}.method-section{padding-top:24px}.method-section h2{font-size:23px}.method-question{padding:20px 19px;border-radius:12px}.method-question h3{font-size:16px}.method-question p,.method-question li{font-size:13px}.method-equation{font-size:11px;padding:12px}.method-table th,.method-table td{padding:10px 6px;font-size:12px}}
+    @media print{.methodology .topbar,.method-contents{display:none}.method-page{padding:0;max-width:none}.method-question{break-inside:avoid;box-shadow:none}.methodology a{color:inherit}.method-hero h1{font-size:30px}}
+  </style>
+</head>
+<body class="methodology">
+<a class="method-skip" href="#guide">Skip to the guide</a>
+<header class="topbar">
+  <a class="brand" href="index.html#pr=147&amp;tab=frontier"><span class="mark" aria-hidden="true">×</span><span>Crossover <b>Lab</b><small>INTEGER MULTIPLICATION</small></span></a>
+  <nav class="method-nav" aria-label="Main navigation"><a class="method-home" href="index.html#pr=147&amp;tab=frontier">Explore the graphs</a><a href="reproduction.html">Reproduce the audit ↗</a></nav>
+</header>
+<main class="method-page" id="guide">
+  <div class="method-hero">
+    <div class="eyebrow">METHOD · READING GUIDE · 24 OCTOBER 2026</div>
+    <h1>What does a crossover bound actually tell us?</h1>
+    <p class="method-lead">Crossover Lab asks when a fully counted integer multiplication construction can beat a specified reference. It follows source code, constants, recursion, precision and implementation costs. The graphs show conditional mathematical bounds on input size, not CPU benchmarks or measured first crossovers.</p>
+  </div>
+  <div class="method-checkpoint"><p><strong>This guide describes an immutable 24 October 2026 snapshot, at the frozen 196-entry numerical checkpoint.</strong> It is not a live leaderboard. The audit contains 595 historical candidate and variant source entries. The original request concerned 577 entries that lacked cost analysis. Source discovery reached all 577; completing discovery did not resolve every mathematical cost obligation.</p></div>
+  <div class="method-stats" aria-label="Coverage at this checkpoint">
+    <div class="method-stat"><b>196</b><strong>Entries with numerical bounds</strong><p>At least one conditional lower or sufficient upper. The graph has 183 uppers, 42 lowers and 29 entries with both.</p></div>
+    <div class="method-stat"><b>185</b><strong>Completed source-scope outcomes</strong><p>Supporting audits, restricted components or other contributions without a separately supplied whole multiplier to price here.</p></div>
+    <div class="method-stat"><b>214</b><strong>Open cost obligations</strong><p>Source evidence exists, but a needed selection, native, physical, invoice or whole-cost argument remains unresolved.</p></div>
+  </div>
+  <p class="method-small">196 + 185 + 214 = 595. These are source-entry outcomes, not a claim of 595 independent algorithms or 595 valid exponent records. The original 577 missing analyses are <strong>not all solved</strong>.</p>
+  <nav class="method-contents" aria-label="On this page"><a href="#read">Read the graphs</a><a href="#bounds">Understand the bounds</a><a href="#model">The cost model</a><a href="#reference">The references</a><a href="#sources">Source and coverage</a><a href="#verification">Verification</a><a href="#credits">Credits and links</a></nav>
+
+  <section class="method-section" id="read" aria-labelledby="read-heading">
+    <h2 id="read-heading">Read the graphs</h2>
+    <article class="method-question">
+      <h3>What are the two charts comparing?</h3>
+      <p>The time chart places each source at its GitHub merge date. The 595 source rows are a history of merged candidates and costed variants, not a list of 595 validated records. Its bounds were derived retrospectively: the date does not mean those cost constants were known then, or that a merge certified the mathematics. The second chart places each source against its reported exponent saving κ. A larger κ describes a stronger asymptotic saving in the stated source model; it does not determine its finite constants.</p>
+      <p>The wider reconciled historical streams also contain unmerged, disputed or announcement-only candidates. They remain identifiable in the downloadable source ledger; an unavailable or pending acceptance date is not replaced with an invented merge date. The page does not poll for new results or reconstruct every intervening title edit.</p>
+      <p>The vertical coordinate in both charts measures input size. Here <strong>n is the number of bits in each operand</strong>, not the product's length, bytes, a compiler rank or a count of group vertices.</p>
+      <p><a href="index.html#pr=147&amp;tab=frontier">Open the historical graphs ↗</a></p>
+    </article>
+    <article class="method-question">
+      <h3>Why use three logarithms?</h3>
+      <p>Many certified sizes are too large even for ordinary scientific notation. The chart stores exact expressions and plots their compressed coordinate:</p>
+      <div class="method-equation">Y = log₂(log₂(log₂ n))<br>n = 2^(2^(2^Y)) bits per operand</div>
+      <div class="tablewrap"><table class="method-table"><caption class="method-small">Examples of the scale; these are not crossover results.</caption><thead><tr><th>Chart height Y</th><th>Input bits n</th></tr></thead><tbody><tr><td>2</td><td>65,536</td></tr><tr><td>3</td><td><code>2^256</code></td></tr><tr><td>4</td><td><code>2^65536</code></td></tr></tbody></table></div>
+      <p>For an upper written <code>U = 2^(2^P)</code>, its plotted height is <code>log₂ P</code>. Lower on the chart means fewer input bits. The “linear” and “logarithmic spacing” controls change the spacing of Y, not the underlying certified sizes. No operand of these enormous sizes is constructed.</p>
+    </article>
+    <article class="method-question">
+      <h3>What do the marks, lines and empty entries mean?</h3>
+      <p>A blue upper mark is a sufficient bound. A lower mark is a necessary bound for its declared family. A vertical segment joins compatible lower and upper endpoints; it is a mathematical range, <strong>not a statistical confidence interval</strong>. An entry with only one endpoint does not have a hidden second endpoint.</p>
+      <p>Individual mode connects audited uppers as a visual guide and can rise or fall. It does not interpolate costs for the missing entries. Running-best mode keeps only the smallest certified upper encountered so far; that step curve necessarily cannot rise. Equal uppers may result from a shared conservative proof gate, rather than equal actual performance. Uncosted activity ticks have no numerical vertical value.</p>
+      <p>Hover or focus a mark, then open its source card. Read the counted realization, effective saving, retained assumptions and certificate before comparing it with another point.</p>
+    </article>
+  </section>
+
+  <section class="method-section" id="bounds" aria-labelledby="bounds-heading">
+    <h2 id="bounds-heading">Understand the bounds</h2>
+    <article class="method-question">
+      <h3>Is a sufficient upper the actual first crossover?</h3>
+      <p>No. A sufficient upper U provides a particular, explicitly counted construction that wins for every input size at or above its verified domain, under its listed contracts. The same construction may win much earlier. The upper also need not be close to the best possible proof of that construction.</p>
+      <p>A necessary lower L proves that no allowed member of the <em>declared family</em> strictly wins below L. Such a proof needs compulsory work in that family. A very large template, an activation rule or the threshold where an upper-bound proof starts working does not by itself establish a lower.</p>
+      <p>A range combines those two statements only when the lower family includes the counted upper witness. It does not locate the exact first win or the smallest eventual-domination threshold.</p>
+    </article>
+    <article class="method-question">
+      <h3>Why do the policy and family qualifications matter?</h3>
+      <p>Some lower proofs concern a literal, unreduced source realization: its native word, prescribed group sweep and paid operations remain present. Pruning, compression, aggregation, a smaller supplier or a different synthesis may fall outside that family. The source card states those restrictions.</p>
+      <p>Where a comparison family permits an inactive branch, the proof may explicitly require that branch to return the <strong>identical GMP reference</strong>. That is an added family rule when stated as such; it is not silently treated as an original source fact.</p>
+      <p>The quantifiers differ: a lower can cover <strong>all valid switching policies within its narrow family</strong>, while a sufficient upper establishes <strong>one particular counted schedule</strong>. A policy that chooses GMP forever has no strict crossover, so an existential upper is not an upper for every policy.</p>
+    </article>
+    <article class="method-question">
+      <h3>Can a better exponent have a worse crossover?</h3>
+      <p>Yes. An asymptotic saving does not pay for its finite setup, native word, group cover, precision or recursion constants. A compiler or native-constant improvement at unchanged κ can also improve feasibility and belongs in this history. The individual sequence is therefore primary; the running best is an optional summary.</p>
+      <p>There is even a checked separated-endpoint example: the declared PR531 family's sufficient upper lies below the declared PR4416 family's necessary lower, although PR4416 was merged later and reports a larger κ. This orders those two restricted families under their assumptions. It does not prove a trend across the history or order every possible implementation of either idea.</p>
+      <p><a href="index.html#pr=531&amp;tab=frontier">Inspect the comparison in the tracker ↗</a> · <a href="https://github.com/CrocSwap/integer-mult-bounds/pull/531" target="_blank" rel="noopener">PR531 primary source ↗</a> · <a href="https://github.com/CrocSwap/integer-mult-bounds/pull/4416" target="_blank" rel="noopener">PR4416 primary source ↗</a></p>
+    </article>
+  </section>
+
+  <section class="method-section" id="model" aria-labelledby="model-heading">
+    <h2 id="model-heading">The cost model</h2>
+    <article class="method-question">
+      <h3>What does the XOR/AND slider measure?</h3>
+      <p>The operation-count model is a fixed, nonuniform Boolean circuit model. Its paid basis is AND and XOR. If a circuit uses A AND gates and X XOR gates, the selected tariff is:</p>
+      <div class="method-equation">Cρ(n) = A(n) + ρ · X(n), with ρ &gt; 0</div>
+      <p>The slider changes the relative XOR price ρ. It does not set CPU frequency, nanoseconds per gate, SIMD width, a memory bandwidth or a hardware benchmark. Bounds advertised as valid for every positive tariff are proved with the needed separate gate-type inequalities; they are not fitted at one slider setting.</p>
+      <p>Circuit generation, coefficients determined only by public input length, and fixed wiring are free in this model. Input-dependent arithmetic, carries, signs, clears, data selection, required movement and recovery are charged through the stipulated Boolean lowering. A “free wire” does not make arbitrary data processing free.</p>
+      <p><a href="index.html#pr=4470&amp;tab=operations">Open operation counts and the tariff control ↗</a></p>
+    </article>
+    <article class="method-question">
+      <h3>Does this show when an implementation will beat GMP on my computer?</h3>
+      <p>No. Cache behavior, allocation, instruction throughput, parallelism, memory limits and engineering choices require a physical runtime model and measurements. An astronomical Boolean upper is a mathematical guarantee in its stated model, not a feasible experiment or a recommended implementation.</p>
+      <p>The common model makes its conditional comparisons meaningful. It does not make different machine models interchangeable: a historical Word-RAM improvement, for example, is not automatically an improvement in this Boolean model.</p>
+    </article>
+  </section>
+
+  <section class="method-section" id="reference" aria-labelledby="reference-heading">
+    <h2 id="reference-heading">The reference algorithms</h2>
+    <article class="method-question">
+      <h3>What does “optimized GMP” mean at impossible input sizes?</h3>
+      <p>The reference is a declared, source-derived circuit family based on GMP 6.3.0, its selected 64-bit native Skylake routines, actual algorithm thresholds and the stated continuation of the TABLE3 selector. The audit includes source cases for recursive products, Toom and interpolation, FFT and modular branches, native routines, carry corrections and memory/cursor operations.</p>
+      <p>At lengths beyond a physical machine's address space, this is an <strong>explicit mathematical continuation</strong> of that reference under the documented public-size, valid-array, correctness and compilation contracts. It is not a claim that an ordinary GMP binary can allocate those inputs. Unbounded public sizes and the continuation are part of the comparator's definition.</p>
+      <p>Its proved cost envelopes are conservative upper bounds, not exact GMP counts. A tighter proof of the same envelope can strengthen a necessary lower calculation without changing the reference algorithm. Historical certificates keep their original bytes and assumptions; a new endpoint needs its own checked source-specific argument.</p>
+    </article>
+    <article class="method-question">
+      <h3>Where does Harvey–van der Hoeven fit?</h3>
+      <p>The project also investigates Harvey–van der Hoeven's asymptotically fast multiplication. The published asymptotic result and its stated base-case split do not supply all numerical constants needed for an exact full-runtime crossover in the same model.</p>
+      <p><strong>The 196-entry historical feasibility graph is admitted against the specified optimized GMP reference.</strong> It is not a graph of numerically established crossovers against the original HvH algorithm. Separate HvH envelopes, component calculations or exploratory scenarios shown elsewhere must be read with their own labels; missing constants are not silently set to one.</p>
+      <p><a href="https://www.texmacs.org/joris/nlogn/nlogn.pdf" target="_blank" rel="noopener">Read the Harvey–van der Hoeven paper ↗</a> · <a href="index.html#pr=4470&amp;tab=estimate">Open the comparator investigation ↗</a></p>
+    </article>
+  </section>
+
+  <section class="method-section" id="sources" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">Source selection and unfinished coverage</h2>
+    <article class="method-question">
+      <h3>Are these the original PR algorithms?</h3>
+      <p>Each certificate identifies what was actually counted. Some concern a literal original source family. Others construct a <strong>new Gaussian/Fermat Boolean realization of a native complex core explicitly selected by that PR</strong>. That can give a legitimate bound without pricing the PR's original changed BIT circuit, bootstrap method, phase-fusion outer algorithm or Word-RAM runtime.</p>
+      <p>Those distinctions are substantive. Reusing the selected native theorem is not permission to transfer an ancestor's upper, invoice, owner assignment or cutoff. The audit binds immutable source heads, manifests, selected programs and their orientations, required frames, complete owner/physical schedules, invoices and parameters as needed. Exact byte identity may justify importing a named component; equal κ, a family tag or a matching profile alone does not.</p>
+      <p>Some initial parser quotes belonged to referenced or predecessor results. Where primary source and merge evidence establish the actual selected target, both values are preserved and the correction is disclosed. A source correction is not a new historical-record adjudication.</p>
+    </article>
+    <article class="method-question">
+      <h3>Why are 185 entries scoped but not given a number?</h3>
+      <p>A source can contribute a validation, obstruction, local identity, decoder bound, restricted interface or useful tooling without supplying a separately selected complete integer multiplier. Its own contribution can be classified honestly without inventing a crossover. That classification does not deny the existence or value of the algorithms it examines.</p>
+      <p>An unchanged κ is not a reason to exclude an actual implementation: constant improvements and independently bound source-identical realizations can still matter. Conversely, a title, announcement, merged status or numerical exponent is not enough to establish an implementation and its full costs.</p>
+      <p>The remaining <strong>214 open entries</strong> retain specific obligations. Examples include recovering a selected native word, resolving a source selector, binding a complete owner schedule, pricing a fresh invoice, or proving the needed all-size/precision interface. “Open” does not mean disproved; “source fetched” does not mean numerically solved.</p>
+      <p><a href="index.html#pr=147&amp;tab=frontier">Browse construction coverage in the tracker ↗</a> · <a href="data/feasibility-history.json" target="_blank">Inspect the chart data and coverage summary ↗</a></p>
+    </article>
+  </section>
+
+  <section class="method-section" id="verification" aria-labelledby="verification-heading">
+    <h2 id="verification-heading">What has been verified?</h2>
+    <article class="method-question">
+      <h3>What do the scripts and peer receipts establish?</h3>
+      <p>The package preserves primary source bytes, hashes, written arguments, exact rational/integer evaluators and separate AI review receipts. Depending on the case, checks include selected program identities, finite scalar or frame replays, full owner/window censuses, negative controls, complete invoices, moment enclosures, precision/stock reserves and every outer cost row.</p>
+      <p>Each receipt states what was actually rerun. Authenticating an earlier replay is not the same as rerunning it. A scalar specialization or a finite GF(2) frame check does not prove an arbitrary-input operator endpoint, spectator restoration or absolute phase. Such native, all-size compiler and analytic statements remain explicit hypotheses where not separately established.</p>
+      <p><strong>“Closed” means the declared conditional certificate and review checks have closed.</strong> It does not mean a complete Lean proof, formal verification of every source translation, independent human endorsement, an unconditional theorem about every implementation, or an exact first crossover.</p>
+      <p>Publication note: the final replay exposed a stale proof-document reference in PR2077. A separately reviewed refresh changed four provenance hashes while preserving every mathematical value, source selection, invoice and contract. <a href="data/operation-audit/pr2077-v16-document-provenance-rebind.md">Read the exact correction audit ↗</a>.</p>
+    </article>
+    <article class="method-question">
+      <h3>How can I reproduce or challenge a result?</h3>
+      <ol>
+        <li>Open a point's source card and identify its exact counted realization, model, lower/upper scope and retained premises.</li>
+        <li>Download every required archive part, the package manifest and restore tool from the reproduction page. Restore the complete folder offline with hash checking.</li>
+        <li>Read the written derivation and both review receipts, then run the advertised per-case reproduction commands. Compare the frozen certificate bytes and exact hashes.</li>
+        <li>When reporting a problem, name the PR, source commit, certificate, disputed step and counterexample or failed command. Keep a source-selection error separate from an arithmetic error or a missing universal premise.</li>
+      </ol>
+      <p>Content-addressed storage keeps identical bytes once while preserving every original path. All required parts matter: downloading only one ZIP does not reconstruct the whole research collection.</p>
+      <p><a href="reproduction.html">Download and restore the complete reproduction package ↗</a></p>
+    </article>
+  </section>
+
+  <section class="method-section" id="credits" aria-labelledby="credits-heading">
+    <h2 id="credits-heading">Credits and further reading</h2>
+    <article class="method-question">
+      <p><strong>Crossover Lab is a project by Alejandro Zarzuelo Urdiales, with AI-assisted research, source auditing, mathematical derivations and implementation.</strong> The original constructions, source packages, reviews and community discussions belong to their credited authors. This explorer does not claim authorship of those upstream results.</p>
+      <p>Credits and source links are retained per entry, including the underlying <a href="https://github.com/CrocSwap/integer-mult-bounds" target="_blank" rel="noopener">integer-multiplication research repository and community ↗</a>, the GMP project, and the work of David Harvey and Joris van der Hoeven. Please cite the relevant primary construction and its authors alongside the specific audit certificate when discussing a result.</p>
+      <p><a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab" target="_blank" rel="noopener">Public Crossover Lab repository ↗</a></p>
+      <p><a href="index.html#pr=147&amp;tab=frontier">Explore the bounds ↗</a> · <a href="reproduction.html">Reproduction instructions ↗</a> · <a href="index.html#pr=147&amp;tab=evidence">Inspect primary evidence ↗</a></p>
+    </article>
+  </section>
+  <footer class="method-footer"><p>Checkpoint: 196 numerical source entries · 185 completed source-scope outcomes · 214 open cost obligations · 595 total. Retrospective conditional analysis, not a claim that all original 577 missing cost analyses were completed.</p><p>Share this guide with the source cards and assumptions intact. Giant certified input sizes describe a mathematical comparison; they do not imply practical feasibility.</p></footer>
+</main>
+</body>
+</html>

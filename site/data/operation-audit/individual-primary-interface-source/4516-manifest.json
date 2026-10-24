@@ -1,0 +1,56 @@
+{
+  "pr": 4516,
+  "own_head": "0a63873be8bb6a6e1ee682f46fb48be97447b2db",
+  "primary_path_candidates": [
+    "research/pr4470-controller-replay/README.md",
+    "research/pr4470-controller-replay/TASK.json",
+    "research/pr4470-controller-replay/VERIFY.json",
+    "research/pr4470-controller-replay/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4470-controller-replay/TASK.json",
+    "research/pr4470-controller-replay/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4470-controller-replay/README.md",
+      "file": "remaining-record-audit/artifacts/4516/3450b209cc0d__README.md",
+      "sha256": "3450b209cc0d7f13d956921706285399c627b451d0a5ae2750cc8bdcf154ee9f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a63873be8bb6a6e1ee682f46fb48be97447b2db/research/pr4470-controller-replay/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4470-controller-replay/verify.py",
+      "file": "remaining-record-audit/artifacts/4516/8a59db4ac9ff__verify.py",
+      "sha256": "8a59db4ac9ff578bb98c3f2b7da202443ec1ec2bc2bca4851f103b395b458e62",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a63873be8bb6a6e1ee682f46fb48be97447b2db/research/pr4470-controller-replay/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4516,
+      "head": "0a63873be8bb6a6e1ee682f46fb48be97447b2db",
+      "path": "research/pr4470-controller-replay/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a63873be8bb6a6e1ee682f46fb48be97447b2db/research/pr4470-controller-replay/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "faf734dbf7acc714cc1702336ccd514bb5349dff70caf4174ba1522e43dfa2f3",
+      "git_blob_sha1": "0219bd7ded9a3d3bffb00a0da7432eea69719358",
+      "bytes": 5754,
+      "file": "individual-primary-interface-source/4516/faf734dbf7ac__TASK.json"
+    },
+    {
+      "pr": 4516,
+      "head": "0a63873be8bb6a6e1ee682f46fb48be97447b2db",
+      "path": "research/pr4470-controller-replay/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a63873be8bb6a6e1ee682f46fb48be97447b2db/research/pr4470-controller-replay/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bca3444c444e4e4c647a1c5f747ca13f69d47f19297d3947015b2a05ee29ed9a",
+      "git_blob_sha1": "c09e3dfae09e8d43bf2409008a8aed564ed7d1e3",
+      "bytes": 544,
+      "file": "individual-primary-interface-source/4516/bca3444c444e__VERIFY.json"
+    }
+  ]
+}

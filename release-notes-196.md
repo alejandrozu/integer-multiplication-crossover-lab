@@ -1,15 +1,17 @@
-Public reproduction archives for the frozen 196-entry numerical audit checkpoint.
+Public reproduction and website for the frozen 196-entry numerical audit checkpoint.
 
-The tracked history has196 entries with conditional numerical bounds,185 reviewed
-scope/component dispositions and214 entries with unresolved cost obligations.
-There is no claimed exact first crossover or measured hardware crossover.
-Individual source/native/compiler/analytic assumptions remain in each certificate.
+- [Interactive website](https://alejandrozu.github.io/integer-multiplication-crossover-lab/)
+- [Methods, model and assumptions](https://alejandrozu.github.io/integer-multiplication-crossover-lab/methodology.html)
+- [Reproduction guide](https://alejandrozu.github.io/integer-multiplication-crossover-lab/reproduction.html)
 
-The fourteen ZIP parts43–56 are immutable content-addressed source/proof objects,
-212,028,854 bytes in total. The final `reproduction-package.json`, exact
-`restore_reproduction.py` and offline verification receipt will be added after
-the final release checks. They are required to authenticate and restore the tree.
+The tracked history has 196 entries with conditional numerical bounds, 185 reviewed scope/component dispositions and 214 entries with unresolved cost obligations. There is no claimed exact first crossover or measured hardware crossover. Individual source/native/compiler/analytic assumptions remain in each certificate.
 
-The archive download URLs are public and do not require access to a private Site.
-Original source authorship, provenance, notices and licenses remain in the
-restored paths. Publication does not relicense those upstream artifacts.
+The twenty immutable ZIP parts 43–62 total 244,174,330 bytes. Download all twenty plus `reproduction-package.json` and `restore_reproduction.py` into one directory, then run:
+
+```sh
+python restore_reproduction.py --package-dir . --output restored-audit
+```
+
+The manifest authenticates every archive and restored path. The public offline receipt reports 103 checks, 20,096 restored paths and 470 compared certificate files. It explicitly retains verified published inheritance and a separately reviewed four-field PR2077 provenance refresh. Every final certificate and both chart checks pass; the receipt does not claim a fresh rerun of every unchanged job after the hash refresh.
+
+All archive download URLs are public and require no private service. Original source authorship, provenance, notices and licenses remain in the restored paths. Publication does not relicense upstream artifacts.

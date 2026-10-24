@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 513,
+    "head": "d558ca6cbc23957163db81e23071d336ab761a12",
+    "path": "research/lean-sequential-bank-bindings/MANIFEST.json",
+    "api_sha": "2bee27a88380b5477e298d59fb62a9c3c7e38412",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/d558ca6cbc23957163db81e23071d336ab761a12/research%2Flean-sequential-bank-bindings%2FMANIFEST.json",
+    "priority": 90,
+    "hint_base": "research/five-stage-gen4-banks/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d558ca6cbc23957163db81e23071d336ab761a12/research/lean-sequential-bank-bindings/MANIFEST.json",
+    "file": "artifacts\\513\\d5776c94c116__MANIFEST.json",
+    "sha256": "d5776c94c1166a4c10db877cfc49f13c6b35c157d0527acaf6e06c7cee90ca01",
+    "git_blob_sha1": "2bee27a88380b5477e298d59fb62a9c3c7e38412",
+    "bytes": 2385,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:59.389538+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 513,
+    "head": "d558ca6cbc23957163db81e23071d336ab761a12",
+    "path": "research/lean-sequential-bank-bindings/README.md",
+    "api_sha": "77a0ec850fea57d65e6f2efeeb4519405b78c6bb",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/d558ca6cbc23957163db81e23071d336ab761a12/research%2Flean-sequential-bank-bindings%2FREADME.md",
+    "priority": 60,
+    "hint_base": "research/five-stage-gen4-banks/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d558ca6cbc23957163db81e23071d336ab761a12/research/lean-sequential-bank-bindings/README.md",
+    "file": "artifacts\\513\\40104467d4d0__README.md",
+    "sha256": "40104467d4d0976f117c6ec424ff624e6884aed440041dab57bd59d001389bfd",
+    "git_blob_sha1": "77a0ec850fea57d65e6f2efeeb4519405b78c6bb",
+    "bytes": 6645,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:59.439819+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

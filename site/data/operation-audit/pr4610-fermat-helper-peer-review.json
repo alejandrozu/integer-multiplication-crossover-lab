@@ -1,0 +1,39 @@
+{
+  "schema": "pr4610-fermat-helper-whole-ai-peer-review/1",
+  "status": "PASS_UNDER_RETAINED_CONDITIONAL_CONTRACTS",
+  "reviewer": "separate leaderboard_source AI worker",
+  "independent_human_review": false,
+  "Lean_verification": false,
+  "native_absolute_phase_audit_replayed": false,
+  "reviewed_upper_checks": 118,
+  "proof_and_certificate_sha256": {
+    "pr4610-fermat-helper-upper.json": "b5850849d0d42c67d8dc9c0983dcdea826017e329246d578c5a36ba3e1ca6fcc",
+    "pr4610-fermat-helper-upper.md": "4fcd48fe77faeaaeb693acec275b574a3571e924a78879cb397b18266a2b4e9a",
+    "pr4610_fermat_helper_upper.py": "a829f1c7986f2f9ed5abd11da8d2fbd3f8a86661f685d1b23fea703b3a892b16",
+    "pr4610-upper-parameters.json": "91f5ad3f351115a867336b67b522e68d472cdaa92a9fd30be6985b0e8aafce7c",
+    "pr4610-fermat-helper-peer-review.md": "8fcd2983828d578cf090fa321f31e4e0437004574453a162a14850ecbb20b53c",
+    "pr4470-fermat-helper-peer-review.json": "b998588eb18f887864177efd763603b053bb7f429adc2d5a8fd2ef1311a41707",
+    "candidate-fermat-helper-peer-review.json": "98b657b99bc3e50f3748e2632284c6108f159b390df46b6cff174cd893aa0376",
+    "pr4610-literal-work-lower.json": "52edba802e1d0f99d193a85dd354347ac900f4404f9ac072ed72151f005afbd5"
+  },
+  "scientific_review_closed": true,
+  "fresh_source_parameter_instantiation": true,
+  "automatic_upper_transfer": false,
+  "reviewed_scope": [
+    "own native and compiler source bindings",
+    "recomputed finite budget and exact Clifford primitive class",
+    "actual H row-stock bit length",
+    "own seven full cost rows and helper factors",
+    "own delta prime/target capacity and absolute Dudek gate",
+    "direct Gaussian Boolean branch without BIT field exclusions",
+    "exact recovery and comparison input domains"
+  ],
+  "scope_clarifications": [
+    "nine savings recomputed;54strict+4functional recorded source checks authenticated rather than freshly reexecuted",
+    "no unsupported determinant-prime exclusion census inferred from inventory",
+    "old9H50bit estimate not reused"
+  ],
+  "actual_first_crossing_known": false,
+  "practical_runtime_claimed": false,
+  "formal_status": "AI mathematical peer review, not human or formal-kernel verification"
+}

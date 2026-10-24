@@ -1,0 +1,75 @@
+{
+  "pr": 2466,
+  "own_head": "0804003fadf7779176d95f0da2c08a118b8884f0",
+  "primary_path_candidates": [
+    "research/t74-2435-optimal-owner-map/README.md",
+    "research/t74-2435-optimal-owner-map/TASK.json",
+    "research/t74-2435-optimal-owner-map/MOVES.json",
+    "research/t74-2435-optimal-owner-map/VERIFY.json",
+    "research/t74-2435-optimal-owner-map/optimal_map.receipt.json",
+    "research/t74-2435-optimal-owner-map/optimal_map.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-2435-optimal-owner-map/TASK.json",
+    "research/t74-2435-optimal-owner-map/MOVES.json",
+    "research/t74-2435-optimal-owner-map/optimal_map.py",
+    "research/t74-2435-optimal-owner-map/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-2435-optimal-owner-map/README.md",
+      "file": "remaining-record-audit/artifacts/2466/849c91875df1__README.md",
+      "sha256": "849c91875df1323c79bac68519e01c4fcae5e81a9964d464edf8f02b67d3f4c1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0804003fadf7779176d95f0da2c08a118b8884f0/research/t74-2435-optimal-owner-map/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2466,
+      "head": "0804003fadf7779176d95f0da2c08a118b8884f0",
+      "path": "research/t74-2435-optimal-owner-map/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0804003fadf7779176d95f0da2c08a118b8884f0/research/t74-2435-optimal-owner-map/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "db76b055112de9986b3feb2bc9ad404f0869fffc10257710aa9bc9af670b5964",
+      "git_blob_sha1": "216b0d2f31d1af861d56616da51e998ce870f47e",
+      "bytes": 4002,
+      "file": "individual-primary-interface-source/2466/db76b055112d__TASK.json"
+    },
+    {
+      "pr": 2466,
+      "head": "0804003fadf7779176d95f0da2c08a118b8884f0",
+      "path": "research/t74-2435-optimal-owner-map/MOVES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0804003fadf7779176d95f0da2c08a118b8884f0/research/t74-2435-optimal-owner-map/MOVES.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c53ad7e0b8e9567681d143de850aec8beb78a5b728c9c511d2954408ffeab3ff",
+      "git_blob_sha1": "8d2fa72cc60dd06ca91cd6beb2ab6a13fe8dc416",
+      "bytes": 847,
+      "file": "individual-primary-interface-source/2466/c53ad7e0b8e9__MOVES.json"
+    },
+    {
+      "pr": 2466,
+      "head": "0804003fadf7779176d95f0da2c08a118b8884f0",
+      "path": "research/t74-2435-optimal-owner-map/optimal_map.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0804003fadf7779176d95f0da2c08a118b8884f0/research/t74-2435-optimal-owner-map/optimal_map.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c27a6601ff6d5e2505d29b149c6b59b51308d2c88a54633a92cefa2d78dafb02",
+      "git_blob_sha1": "ac8febbccb5fd8f830fb1ad009384361700e3fe8",
+      "bytes": 19531,
+      "file": "individual-primary-interface-source/2466/c27a6601ff6d__optimal_map.py"
+    },
+    {
+      "pr": 2466,
+      "head": "0804003fadf7779176d95f0da2c08a118b8884f0",
+      "path": "research/t74-2435-optimal-owner-map/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0804003fadf7779176d95f0da2c08a118b8884f0/research/t74-2435-optimal-owner-map/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6017b11b4a1bec1e94eb833c370f1947a9206d7ca14a19f3199a66f216d83a0e",
+      "git_blob_sha1": "e0cc1d7a619de1338f8f3e5f4753445c836828fc",
+      "bytes": 618,
+      "file": "individual-primary-interface-source/2466/6017b11b4a1b__VERIFY.json"
+    }
+  ]
+}

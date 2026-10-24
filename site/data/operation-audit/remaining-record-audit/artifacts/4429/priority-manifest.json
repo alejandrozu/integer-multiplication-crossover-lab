@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4429,
+    "head": "40f675338b7102ec38d858355a1db6cc051778e7",
+    "path": "research/pr4412-pr4414-tensor-check/README.md",
+    "api_sha": "7001b79cdda72c48271c33e0eb0fcb303c43643c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/40f675338b7102ec38d858355a1db6cc051778e7/research%2Fpr4412-pr4414-tensor-check%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40f675338b7102ec38d858355a1db6cc051778e7/research/pr4412-pr4414-tensor-check/README.md",
+    "file": "artifacts\\4429\\78ed59bb2432__README.md",
+    "sha256": "78ed59bb24328431dcedc15df24818577f5fe2be64942bba0bb9c1809889a26e",
+    "git_blob_sha1": "7001b79cdda72c48271c33e0eb0fcb303c43643c",
+    "bytes": 3490,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.155505+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4429,
+    "head": "40f675338b7102ec38d858355a1db6cc051778e7",
+    "path": "research/pr4412-pr4414-tensor-check/SOURCES.json",
+    "api_sha": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/40f675338b7102ec38d858355a1db6cc051778e7/research%2Fpr4412-pr4414-tensor-check%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40f675338b7102ec38d858355a1db6cc051778e7/research/pr4412-pr4414-tensor-check/SOURCES.json",
+    "file": "artifacts\\4429\\49fb3e2b5f89__SOURCES.json",
+    "sha256": "49fb3e2b5f8909ccb5edc2f2193aeacdc88bf8d1c63b2b1d25f2dd008f39ed93",
+    "git_blob_sha1": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.061233+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4429,
+    "head": "40f675338b7102ec38d858355a1db6cc051778e7",
+    "path": "research/pr4412-pr4414-tensor-check/verify.py",
+    "api_sha": "680fcb96817d5084a61b6957a3c27106707f60fe",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/40f675338b7102ec38d858355a1db6cc051778e7/research%2Fpr4412-pr4414-tensor-check%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40f675338b7102ec38d858355a1db6cc051778e7/research/pr4412-pr4414-tensor-check/verify.py",
+    "file": "artifacts\\4429\\15afb7fa1ba7__verify.py",
+    "sha256": "15afb7fa1ba79e18201be2b5fb7988c06e8b70718adb46909279cce466e902c0",
+    "git_blob_sha1": "680fcb96817d5084a61b6957a3c27106707f60fe",
+    "bytes": 6743,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.091504+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

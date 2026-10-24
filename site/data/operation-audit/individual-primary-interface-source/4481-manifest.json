@@ -1,0 +1,56 @@
+{
+  "pr": 4481,
+  "own_head": "99df7cf237f7fdc801501afea3347f5ef9f74704",
+  "primary_path_candidates": [
+    "research/gaussian-schur-gap/README.md",
+    "research/gaussian-schur-gap/TASK.json",
+    "research/gaussian-schur-gap/VERIFY.json",
+    "research/gaussian-schur-gap/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gaussian-schur-gap/TASK.json",
+    "research/gaussian-schur-gap/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-schur-gap/README.md",
+      "file": "remaining-record-audit/artifacts/4481/1ca8d85206b9__README.md",
+      "sha256": "1ca8d85206b9c4177109fab5c5769c7110f5f37ff6973fa87b8075ea2771c851",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/99df7cf237f7fdc801501afea3347f5ef9f74704/research/gaussian-schur-gap/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-schur-gap/verify.py",
+      "file": "remaining-record-audit/artifacts/4481/2faa0d5a920d__verify.py",
+      "sha256": "2faa0d5a920ddbf5fbad0e524adfe0caa1626448c0a18d6b34b0a7ea948a4f88",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/99df7cf237f7fdc801501afea3347f5ef9f74704/research/gaussian-schur-gap/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4481,
+      "head": "99df7cf237f7fdc801501afea3347f5ef9f74704",
+      "path": "research/gaussian-schur-gap/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/99df7cf237f7fdc801501afea3347f5ef9f74704/research/gaussian-schur-gap/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c7f086ff86cd5538f683c0b5967e8872bfdb065a03ed940e418e963cd03979e9",
+      "git_blob_sha1": "73bf966c7eb08f48d325d5c0d116a099195a9b3a",
+      "bytes": 4810,
+      "file": "individual-primary-interface-source/4481/c7f086ff86cd__TASK.json"
+    },
+    {
+      "pr": 4481,
+      "head": "99df7cf237f7fdc801501afea3347f5ef9f74704",
+      "path": "research/gaussian-schur-gap/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/99df7cf237f7fdc801501afea3347f5ef9f74704/research/gaussian-schur-gap/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b5386e7bf159afb8e859c6bcdfb7d42de960145267df7608899644ddcdbb24c4",
+      "git_blob_sha1": "70fb619f6beff1b6ce0702812ab7d054d2e2d6c1",
+      "bytes": 718,
+      "file": "individual-primary-interface-source/4481/b5386e7bf159__VERIFY.json"
+    }
+  ]
+}

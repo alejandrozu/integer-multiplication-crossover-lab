@@ -1,0 +1,188 @@
+{
+  "schema": "pr4470-whole-integer-conditional-sufficient-crossover/1",
+  "status": "closed_conditional_sufficient_upper_bound",
+  "subject": "whole_integer_multiplication",
+  "model": "xag-straightline-v1",
+  "construction": "New explicit outer instantiation using selected PR4470 supplier and parameters",
+  "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "kappa": "60403/20000000",
+  "complete_candidate_upper": true,
+  "crossover_established": true,
+  "unconditional_crossover_established": false,
+  "exact_first_crossover_known": false,
+  "informative_numerical_lower_bound_known": false,
+  "extension_to_other_PRs_performed": false,
+  "input_bound": {
+    "A": "1000000000000000",
+    "H": 64215200000000,
+    "N": "2^64215200000000",
+    "Mbar": "2^(33010*4^N)",
+    "U": "2^(Mbar^1000000000000000)",
+    "U_expanded_compressed": "2^(2^(33010000000000000000*2^(2*2^64215200000000)))",
+    "log2_log2_U": "33010000000000000000*2^(2*2^64215200000000)",
+    "meaning": "bits in each unsigned input operand; exact 2n-bit product",
+    "forall_tariffs": "Every rho>0; common validity gate dominates this sufficient bound",
+    "forall_larger_input_sizes": true,
+    "not_a_realistic_or_exact_first_crossover": true
+  },
+  "candidate_upper": {
+    "AND": "Mbar^100*n*p^(1-kappa)",
+    "XOR": "Mbar^100*n*p^(1-kappa)",
+    "weighted": "Mbar^100*(1+rho)*n*p^(1-kappa)",
+    "precision": "p=256ceil(log2 n)",
+    "count_rows": [
+      {
+        "work": "target_FFT_H",
+        "saving": "1035912918520124400528527/343000000000000000000000000",
+        "saving_above_kappa": "1468520124400528527/343000000000000000000000000",
+        "coefficient": "2^60*Mbar^2",
+        "polylog": "(ceil(log2 p)+2)^0"
+      },
+      {
+        "work": "target_FFT_twiddles",
+        "saving": "1399999999/1400000000",
+        "saving_above_kappa": "1395771789/1400000000",
+        "coefficient": "2^70*Mbar^1",
+        "polylog": "(ceil(log2 p)+2)^2"
+      },
+      {
+        "work": "dense_Gaussian_H",
+        "saving": "1035913162040248801585581/343000000000000000000000000",
+        "saving_above_kappa": "1712040248801585581/343000000000000000000000000",
+        "coefficient": "2^90*Mbar^2",
+        "polylog": "(ceil(log2 p)+2)^4"
+      },
+      {
+        "work": "dense_diagonals",
+        "saving": "699999999/700000000",
+        "saving_above_kappa": "348942947/350000000",
+        "coefficient": "2^90*Mbar^1",
+        "polylog": "(ceil(log2 p)+2)^5"
+      },
+      {
+        "work": "Strassen_boundaries",
+        "saving": "5919499595771787/1960000000000000000",
+        "saving_above_kappa": "5595771787/1960000000000000000",
+        "coefficient": "2^60*Mbar^1",
+        "polylog": "(ceil(log2 p)+2)^3"
+      },
+      {
+        "work": "halos",
+        "saving": "27300000001/350000000",
+        "saving_above_kappa": "54597885897/700000000",
+        "coefficient": "2^50*Mbar^1",
+        "polylog": "(ceil(log2 p)+2)^2"
+      },
+      {
+        "work": "pointwise_recovery_carries",
+        "saving": "1",
+        "saving_above_kappa": "19939597/20000000",
+        "coefficient": "2^70*Mbar^1",
+        "polylog": "(ceil(log2 p)+2)^2"
+      }
+    ]
+  },
+  "comparison_references": {
+    "hvh": {
+      "lower": "(216+378rho)*n*log2 n",
+      "ratio_upper": "512(1+rho)/(216+378rho)*Mbar^100*p^(-kappa)",
+      "eventual_cutoff_upper": "U",
+      "scope": "Specified canonical unoptimized circuit; not every realization of HvH"
+    },
+    "gmp": {
+      "lower": "(1+3rho/2)*n*log2 n",
+      "ratio_upper": "512(1+rho)/(1+3rho/2)*Mbar^100*p^(-kappa)",
+      "eventual_cutoff_upper": "U",
+      "scope": "GMP6.3.0 fixed generic64-bit C, no assembly/native, noTABLE3,WANT_ADDSUB undefined, unbounded public indices; not tuned hardware GMP"
+    }
+  },
+  "tariff_examples": {
+    "1/1000": {
+      "hvh_ratio_factor": "256256/108189",
+      "generic_GMP_ratio_factor": "1025024/2003",
+      "input_upper_is_U": true
+    },
+    "1/10": {
+      "hvh_ratio_factor": "2816/1269",
+      "generic_GMP_ratio_factor": "11264/23",
+      "input_upper_is_U": true
+    },
+    "1": {
+      "hvh_ratio_factor": "512/297",
+      "generic_GMP_ratio_factor": "2048/5",
+      "input_upper_is_U": true
+    },
+    "10": {
+      "hvh_ratio_factor": "1408/999",
+      "generic_GMP_ratio_factor": "352",
+      "input_upper_is_U": true
+    },
+    "1000": {
+      "hvh_ratio_factor": "64064/47277",
+      "generic_GMP_ratio_factor": "512512/1501",
+      "input_upper_is_U": true
+    }
+  },
+  "retained_mathematical_premises": [
+    "Source all-column native C/H endpoint identities",
+    "Whole-job binary monomial and complete spectator interpretation",
+    "Arbitrary-input owned-bank implementation and compiler algebra"
+  ],
+  "verification": "AI-assisted written proofs, separate skeptical module reviews and executable exact arithmetic/hash checks. Not independent human review or Lean formalization.",
+  "checks": {
+    "selected_source_kappa": true,
+    "selected_source_outer_parameters": true,
+    "occupied_single_array_batch_checks": true,
+    "independent_assembly_counting_audit": true,
+    "exact_Kronecker_and_H_conversion": true,
+    "precision_exact_arithmetic_and_source_hash_checks": true,
+    "precision_common_gate_matches": true,
+    "global_recovery_scale": true,
+    "effective_fine_prime_gate": true,
+    "exact_integer_recovery_checks": true,
+    "periodic_geometry_review_closed": true,
+    "cyclic_border_solver_closed": true,
+    "target_FFT_H_exponent_gap": true,
+    "target_FFT_H_coefficient_and_log_ceiling": true,
+    "target_FFT_twiddles_exponent_gap": true,
+    "target_FFT_twiddles_coefficient_and_log_ceiling": true,
+    "dense_Gaussian_H_exponent_gap": true,
+    "dense_Gaussian_H_coefficient_and_log_ceiling": true,
+    "dense_diagonals_exponent_gap": true,
+    "dense_diagonals_coefficient_and_log_ceiling": true,
+    "Strassen_boundaries_exponent_gap": true,
+    "Strassen_boundaries_coefficient_and_log_ceiling": true,
+    "halos_exponent_gap": true,
+    "halos_coefficient_and_log_ceiling": true,
+    "pointwise_recovery_carries_exponent_gap": true,
+    "pointwise_recovery_carries_coefficient_and_log_ceiling": true,
+    "sum_seven_rows_below_Mbar_power_100": true,
+    "whole_cost_ratio_below_one_at_common_gate": true,
+    "universal_positive_tariff_factor": true,
+    "tariff_1/1000": true,
+    "tariff_1/10": true,
+    "tariff_1": true,
+    "tariff_10": true,
+    "tariff_1000": true
+  },
+  "checks_passed": 34,
+  "bound_inputs_sha256": {
+    "pr4470-whole-integer-bound.md": "ea78760ad376ebde83a66febb25837bc2a358a59b686cd3df4fabcb83503af9b",
+    "pr4470_common_gate.py": "759fb5ce3e49e9315515121a0d56ec7bfb2b6c4af58e0d046926452027b24100",
+    "pr4470-batching-closure.md": "7c87ccc5a576d0519cc24e8fea6bcdf4561d2f52ef6a6b5455524f7a3f023e4d",
+    "pr4470-batching-closure.json": "ec347e986cf30ce3d69ee9a5ccbbb965a4c9606c1964e3b9806cc48458a47149",
+    "pr4470-batching-closure-assembly-audit.json": "baad6fa455227aecf16d631eea173f2a5220a93afe67c5715ac0e93cb7eb6223",
+    "pr4470-global-precision.md": "994b42769d452d29884a64d41143ead699a8da8a8cdc0f7cb1cf8f2923f75495",
+    "pr4470-global-precision.json": "b04c660ac6eecb44ea6516601c02f4dfa57aed43235a37bf1f499d70af2ee6bf",
+    "pr4470-boundary-recovery.md": "5e5f762f34a3f75a0f223664f93d893007d33c5a765599f4710ddb1964e018cc",
+    "pr4470-boundary-recovery.json": "70906e74962d05efdfcbe07ba6f4f1064f5cb75d1838e4dd33622aa1b0735ece",
+    "pr4470-fine-prime-gate.md": "d3d88b0ae7eb775e7fbc294896c70434db5337cfe0b2dbbd05cb9fa565715bcf",
+    "pr4470-fine-prime-gate.json": "89a7d752ea518dbe7eaf8138613751d9602e42883b9983cdea58af96cab47d65",
+    "pr4470-kronecker-stage-grouping.json": "50ba483b65ceb7e4ef18fa0f216fb35af37addbcebad6877535e558c3e8841ca",
+    "pr4470-compiler-bound.json": "3ebf864e2891ce54a490409994c342e659c634acecb6a93f50029538ed19be88",
+    "hvh-operation-census.json": "7df4123ae9ee6e05f213bbd78e74068425ad41f817492bb4e730603bf75f80e5",
+    "gmp-fft-lower.json": "9390c62157ffa2750f5d098be25f23a9f6915ef40842fc7e383b58dde423a69a",
+    "pr4470-input-mapping-source/research__joint-helper-lattice__RESULT.json": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+  },
+  "script_sha256": "118ea654ef5392ce0adf2438630b074d5ffbe320e6ade74afa7121fdc2b6498e"
+}

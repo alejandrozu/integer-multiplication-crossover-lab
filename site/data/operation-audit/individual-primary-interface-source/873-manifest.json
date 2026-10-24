@@ -1,0 +1,67 @@
+{
+  "pr": 873,
+  "own_head": "117c48527dd4f066dad103121761154cf1bb39cd",
+  "primary_path_candidates": [
+    "research/r439-block508-schedule/EXPECTED.json",
+    "research/r439-block508-schedule/CERTIFICATE.json",
+    "research/r439-block508-schedule/CLAIM.md",
+    "research/r439-block508-schedule/README.md",
+    "research/r439-block508-schedule/VALIDATION.md",
+    "research/r439-block508-schedule/CANDIDATE.json",
+    "research/r439-block508-schedule/search.py",
+    "research/r439-block508-schedule/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r439-block508-schedule/CLAIM.md",
+    "research/r439-block508-schedule/search.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-block508-schedule/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/873/7781103a1941__EXPECTED.json",
+      "sha256": "7781103a1941dbde1f76b76bcd5fb36a96ebf9c81c29676dfa917c7f47f38acc",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/117c48527dd4f066dad103121761154cf1bb39cd/research/r439-block508-schedule/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-block508-schedule/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/873/9ea4fe5868c9__CERTIFICATE.json",
+      "sha256": "9ea4fe5868c94c8a43de2f7c0fd9cb466192071d8d96a2bab099f67214d4dd31",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/117c48527dd4f066dad103121761154cf1bb39cd/research/r439-block508-schedule/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-block508-schedule/README.md",
+      "file": "remaining-record-audit/artifacts/873/11eee02aa0e3__README.md",
+      "sha256": "11eee02aa0e3c82939c5aac140c65023899e05eedbc7763958237101eee982c0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/117c48527dd4f066dad103121761154cf1bb39cd/research/r439-block508-schedule/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 873,
+      "head": "117c48527dd4f066dad103121761154cf1bb39cd",
+      "path": "research/r439-block508-schedule/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/117c48527dd4f066dad103121761154cf1bb39cd/research/r439-block508-schedule/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "007c16826050c403322bbbdddb4a7a674dbe9cfa6e847a5a125a07a0a3195419",
+      "git_blob_sha1": "ba511497854e512fd61743e8f4ce1852ed1f8734",
+      "bytes": 2404,
+      "file": "individual-primary-interface-source/873/007c16826050__CLAIM.md"
+    },
+    {
+      "pr": 873,
+      "head": "117c48527dd4f066dad103121761154cf1bb39cd",
+      "path": "research/r439-block508-schedule/search.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/117c48527dd4f066dad103121761154cf1bb39cd/research/r439-block508-schedule/search.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9f94bf3fa2c4a29246dd927cb54ea84f3122536d49d2b71cedab6ee537ee6426",
+      "git_blob_sha1": "9af8efbabab8e7ea7e85fd3a8b5596961e627f7b",
+      "bytes": 5092,
+      "file": "individual-primary-interface-source/873/9f94bf3fa2c4__search.py"
+    }
+  ]
+}

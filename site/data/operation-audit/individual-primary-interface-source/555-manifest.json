@@ -1,0 +1,89 @@
+{
+  "pr": 555,
+  "own_head": "65a6bc19f820c8b1873f65a517bcf70cd6887223",
+  "primary_path_candidates": [
+    "research/e8-bit-p111/EXPECTED.json",
+    "research/e8-bit-p111/data/complex/pr535/EXPECTED.json",
+    "research/e8-bit-p111/data/complex/pr544/EXPECTED.json",
+    "research/e8-bit-p111/data/complex/pr548/EXPECTED.json",
+    "research/e8-bit-p111/README.md",
+    "research/e8-bit-p111/DEPENDS.json",
+    "research/e8-bit-p111/SOURCE-pr510.json",
+    "research/e8-bit-p111/SOURCE-pr535.json",
+    "research/e8-bit-p111/SOURCE-pr544.json",
+    "research/e8-bit-p111/SOURCE-pr545.json",
+    "research/e8-bit-p111/SOURCE-pr548.json",
+    "research/e8-bit-p111/data/punct.json",
+    "research/e8-bit-p111/data/plan-l3.json",
+    "research/e8-bit-p111/data/complex-b.json",
+    "research/e8-bit-p111/data/hosting11-p111.json",
+    "research/e8-bit-p111/data/selection9-p111.json",
+    "research/e8-bit-p111/data/complex/pr544/EXACT-ASSEMBLY.json",
+    "research/e8-bit-p111/data/complex/pr548/EXACT-ASSEMBLY.json",
+    "research/e8-bit-p111/data/complex/pr535/EXACT-ASSEMBLY-PR493.json",
+    "research/e8-bit-p111/NOTICE.md",
+    "research/e8-bit-p111/code/cited.py",
+    "research/e8-bit-p111/code/gen_p3.py",
+    "research/e8-bit-p111/code/planio.py",
+    "research/e8-bit-p111/code/pwordl.py",
+    "research/e8-bit-p111/code/adapt9p.py",
+    "research/e8-bit-p111/code/mutants.py",
+    "research/e8-bit-p111/code/nodeopt.py",
+    "research/e8-bit-p111/code/summary.py",
+    "research/e8-bit-p111/code/mutrec_b.py",
+    "research/e8-bit-p111/code/xcheck_p.py",
+    "research/e8-bit-p111/code/mutants_p.py",
+    "research/e8-bit-p111/code/provenance.py",
+    "research/e8-bit-p111/discovery/choose.py",
+    "research/e8-bit-p111/discovery/search.py",
+    "research/e8-bit-p111/code/receipt_kappa.py"
+  ],
+  "selected_for_recovery": [
+    "research/e8-bit-p111/code/cited.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-bit-p111/README.md",
+      "file": "remaining-record-audit/artifacts/555/481431e35bd8__README.md",
+      "sha256": "481431e35bd831ec3d0bb8edc01abdfa49d5caeabebab67ac839a35053e9ef85",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65a6bc19f820c8b1873f65a517bcf70cd6887223/research/e8-bit-p111/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-bit-p111/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/555/7c2675fd49af__EXPECTED.json",
+      "sha256": "7c2675fd49afd7e328606399a4421fd49c43fe8a6c5b57154cc908c00588abe2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65a6bc19f820c8b1873f65a517bcf70cd6887223/research/e8-bit-p111/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-bit-p111/data/complex/pr535/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/555/cb734055c366__EXPECTED.json",
+      "sha256": "cb734055c36681d38cf431a6926b7713351a94073cfba37d70a5384a9ef0d178",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65a6bc19f820c8b1873f65a517bcf70cd6887223/research/e8-bit-p111/data/complex/pr535/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-bit-p111/data/complex/pr544/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/555/8f48531cb1cc__EXPECTED.json",
+      "sha256": "8f48531cb1ccc6c1fe7c80ba5990f8aea4278dbe9394bcc4d3f471a3e8d75f1c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65a6bc19f820c8b1873f65a517bcf70cd6887223/research/e8-bit-p111/data/complex/pr544/EXPECTED.json"
+    }
+  ],
+  "github_changed_file_reported_count": 66,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 555,
+      "head": "65a6bc19f820c8b1873f65a517bcf70cd6887223",
+      "path": "research/e8-bit-p111/code/cited.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/65a6bc19f820c8b1873f65a517bcf70cd6887223/research/e8-bit-p111/code/cited.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8f7852571a897e131cf964d4b7826dc7bb2b7a42e81892d436f8ea092b26ef7d",
+      "git_blob_sha1": "3a23130b8f9b4c7ed83e7b8c186921d268f6807d",
+      "bytes": 2239,
+      "file": "individual-primary-interface-source/555/8f7852571a89__cited.py"
+    }
+  ]
+}

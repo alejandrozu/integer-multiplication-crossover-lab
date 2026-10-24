@@ -1,0 +1,131 @@
+{
+  "fetched_at": "2026-10-24T13:08:20.940936+00:00",
+  "files": [
+    {
+      "pr": 104,
+      "head": "948ce1510df750f4c18b96bdaef436a86f8bf834",
+      "path": "certificates/stopped-product-network.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/948ce1510df750f4c18b96bdaef436a86f8bf834/certificates/stopped-product-network.json",
+      "file": "104__certificates__stopped-product-network.json",
+      "sha256": "43ddb7ee033d316375102cf2d97bb2cf47f879f36a005d3726fa6647a2cbecc5",
+      "bytes": 19387
+    },
+    {
+      "pr": 104,
+      "head": "948ce1510df750f4c18b96bdaef436a86f8bf834",
+      "path": "scripts/stopped_product_producer.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/948ce1510df750f4c18b96bdaef436a86f8bf834/scripts/stopped_product_producer.py",
+      "file": "104__scripts__stopped_product_producer.py",
+      "sha256": "2c5c71399136ebcfebb8e5277317d5f334eb8df5716ad287391d0996fcc1492c",
+      "bytes": 4201
+    },
+    {
+      "pr": 104,
+      "head": "948ce1510df750f4c18b96bdaef436a86f8bf834",
+      "path": "notes/stopped-product-note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/948ce1510df750f4c18b96bdaef436a86f8bf834/notes/stopped-product-note.tex",
+      "file": "104__notes__stopped-product-note.tex",
+      "sha256": "486d14c599f4c2551c019f3358898f72e6ecafeb04ad590726ea69ed987fe025",
+      "bytes": 4108
+    },
+    {
+      "pr": 104,
+      "head": "948ce1510df750f4c18b96bdaef436a86f8bf834",
+      "path": "SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/948ce1510df750f4c18b96bdaef436a86f8bf834/SOURCES.json",
+      "file": "104__SOURCES.json",
+      "sha256": "22ea21b56e1d11f3061b183206694bd26fc875dd223e7a9f0ae2ee72b6747a9e",
+      "bytes": 12427
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "certificates/three-stage-cover-network.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/certificates/three-stage-cover-network.json",
+      "file": "130__certificates__three-stage-cover-network.json",
+      "sha256": "bfca1f225394c8b50f3360b71920652baf9bd885ce84f9c0a9184c3ba7dd35ab",
+      "bytes": 78904
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "scripts/three_stage_cover_network.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/scripts/three_stage_cover_network.py",
+      "file": "130__scripts__three_stage_cover_network.py",
+      "sha256": "7e0ad6fd1921b6905a53ce1eeaa03d3bb3a8a8bbaa0382516ea98b636f46335e",
+      "bytes": 10959
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "scripts/three_stage_cover_producer.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/scripts/three_stage_cover_producer.py",
+      "file": "130__scripts__three_stage_cover_producer.py",
+      "sha256": "ea6dd4f06173304bbcb74b8e5bcc02357b7bb162a6d26b4a6f7a9e886158123f",
+      "bytes": 3969
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "notes/three-stage-cover-note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/notes/three-stage-cover-note.tex",
+      "file": "130__notes__three-stage-cover-note.tex",
+      "sha256": "db8078687825bcd43c6cc2fb69712ebb12840057b77cd5af8f67f53e4ffffa92",
+      "bytes": 3023
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "notes/general-clifford-frames.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/notes/general-clifford-frames.tex",
+      "file": "130__notes__general-clifford-frames.tex",
+      "sha256": "c9bb9655b594583c6b4bab8cb485233f1d1e588f83858cf1e4c3530cee8fed54",
+      "bytes": 4464
+    },
+    {
+      "pr": 130,
+      "head": "6a9970a530119174507904e23592fd59ede19a5d",
+      "path": "SOURCES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a9970a530119174507904e23592fd59ede19a5d/SOURCES.json",
+      "file": "130__SOURCES.json",
+      "sha256": "52aa2871fb4ef6244d9f4ec4c8587cc54d3ef3756a86f1eaff11232c822bda35",
+      "bytes": 17897
+    },
+    {
+      "pr": 144,
+      "head": "c8b22bc5c10dba497ac25804e27d9647d818e2ff",
+      "path": "certificates/paired-cube-network.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c8b22bc5c10dba497ac25804e27d9647d818e2ff/certificates/paired-cube-network.json",
+      "file": "144__certificates__paired-cube-network.json",
+      "sha256": "1fbd118f02a66f388744bbaa85128a5046bf1fc06569735523daecf97501eb93",
+      "bytes": 98528
+    },
+    {
+      "pr": 144,
+      "head": "c8b22bc5c10dba497ac25804e27d9647d818e2ff",
+      "path": "scripts/paired_cube_network.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c8b22bc5c10dba497ac25804e27d9647d818e2ff/scripts/paired_cube_network.py",
+      "file": "144__scripts__paired_cube_network.py",
+      "sha256": "293662b7f8772dd398399a1c19966faf7d155f024543d0c06601eabb800f35cf",
+      "bytes": 10586
+    },
+    {
+      "pr": 144,
+      "head": "c8b22bc5c10dba497ac25804e27d9647d818e2ff",
+      "path": "scripts/paired_cube_producer.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c8b22bc5c10dba497ac25804e27d9647d818e2ff/scripts/paired_cube_producer.py",
+      "file": "144__scripts__paired_cube_producer.py",
+      "sha256": "c84ea3e3ce3eb9563906b6ee4b7411d93dcddfed4bdbc2d4e39936642261cab2",
+      "bytes": 3684
+    },
+    {
+      "pr": 144,
+      "head": "c8b22bc5c10dba497ac25804e27d9647d818e2ff",
+      "path": "notes/paired-cube-note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c8b22bc5c10dba497ac25804e27d9647d818e2ff/notes/paired-cube-note.tex",
+      "file": "144__notes__paired-cube-note.tex",
+      "sha256": "3c1752c769cf3e14418639892b1356e1b0b1a3271e1e197709572c7beae6f1a1",
+      "bytes": 3115
+    }
+  ]
+}

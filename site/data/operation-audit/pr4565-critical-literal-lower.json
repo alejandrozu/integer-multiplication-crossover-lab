@@ -1,0 +1,52 @@
+{
+  "schema": "own-raw-p16-critical-literal-lower/1",
+  "status": "closed_conditional_literal_family_lower_bound",
+  "pr": 4565,
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "own_head": "d6a9a75bf48b047927bc4103def6f821909bb835",
+  "H": "11825387808",
+  "N": "2^11825387808",
+  "native_real_ADD_floor": 630412,
+  "c_log2_floor": 19,
+  "q": 2,
+  "active_AND_lower": "630412*2^N",
+  "active_XOR_lower": "3*630412*2^N",
+  "input_bits": "2^(2^11825387805-2^69+2)",
+  "plot_triple_log": {
+    "log2_of_integer": "11825387805",
+    "negligible_negative_correction": true
+  },
+  "scope": "Identical repaired optimized GMP when inactive; unreduced complete dense raw p16 scalar word when active, under own strict-winning supplier and all-column/spectator contracts.",
+  "statistic": "Earliest input width at which some correct member of this literal enhancement family strictly beats the reference",
+  "no_win_for_every_integer_n_strictly_below_endpoint": true,
+  "all_positive_XOR_tariffs": true,
+  "arbitrary_switch_threshold_used": false,
+  "actual_first_crossing_known": false,
+  "all_PR_implementations": false,
+  "precision_gate_used_as_lower": false,
+  "native_parameter_certificate": "pr4565-critical-native-parameters.json",
+  "native_parameter_certificate_sha256": "9f0ae1b7916746cab98dc73930efae7501d368d999df0f7d0ae29cfd6aac5846",
+  "dependency_hashes": {
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1",
+    "optimized-gmp-degree8-upper.md": "178a7e8854e0401ea03e2b2391646d2f1dd1fc73e12264a5e0dc32e725877f12",
+    "pr4470-native-work-lower.json": "c3abdd9106d5a4da6c43d537c949bb5fb04b2f414a1cf594d32fa9d78675f764",
+    "pr4470-native-work-lower.md": "9319eb8bfcc0e522af3e76fd36749c214b50bd4409351f8620a41bb49149907a",
+    "uniform-critical-p16-batch.md": "d68f5fcc62c053cb27c968361a944c26f6c88e04d1ee0149d3154d7a65c9de51"
+  },
+  "checks_passed": 11,
+  "checks": {
+    "source_native_floor": true,
+    "own_power_one": true,
+    "source_full_field_floor_not_width_divided": true,
+    "source_lower_width_ge_two": true,
+    "baseline_closed": true,
+    "baseline_exact_degree8": true,
+    "same_baseline": true,
+    "coefficient_exact_dyadic_floor": true,
+    "lower_endpoint_positive": true,
+    "constant_exponent_cancellation": true,
+    "N_coefficient_and_constant_identity": true
+  },
+  "script_sha256": "4320337038f0cf008e97449acf92e6821d140a63fe25372aeb2e2b6ad46998dd"
+}

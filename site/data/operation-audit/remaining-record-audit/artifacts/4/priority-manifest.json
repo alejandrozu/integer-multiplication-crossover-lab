@@ -1,0 +1,19 @@
+[
+  {
+    "pr": 4,
+    "head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+    "path": "README.md",
+    "api_sha": "55eee198fff4b9a79f3852fdba4bc89ffad6c80f",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/8c225e619168c0141dcfcba3b68a65bbed6a8729/README.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/README.md",
+    "file": "artifacts\\4\\db1e8e750e6f__README.md",
+    "sha256": "db1e8e750e6ff092a193e5bc657b869432fd0035db3f91fec5decff6b9a30564",
+    "git_blob_sha1": "55eee198fff4b9a79f3852fdba4bc89ffad6c80f",
+    "bytes": 7942,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:25.933742+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

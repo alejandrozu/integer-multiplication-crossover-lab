@@ -1,0 +1,56 @@
+{
+  "pr": 4459,
+  "own_head": "488a75a9e95e14448b6301719249f876f3999931",
+  "primary_path_candidates": [
+    "research/direct-flow-boundary-share/README.md",
+    "research/direct-flow-boundary-share/TASK.json",
+    "research/direct-flow-boundary-share/VERIFY.json",
+    "research/direct-flow-boundary-share/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/direct-flow-boundary-share/TASK.json",
+    "research/direct-flow-boundary-share/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct-flow-boundary-share/README.md",
+      "file": "remaining-record-audit/artifacts/4459/6a65b3a8a88a__README.md",
+      "sha256": "6a65b3a8a88a8250bc13b7bf8733c0338c92754c0b300207f8fa7870ba39d8a7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/488a75a9e95e14448b6301719249f876f3999931/research/direct-flow-boundary-share/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct-flow-boundary-share/verify.py",
+      "file": "remaining-record-audit/artifacts/4459/c24951e6dc90__verify.py",
+      "sha256": "c24951e6dc90e2b808babc2d42cd512987a64b98e9143eda3ae510ac5daa3f09",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/488a75a9e95e14448b6301719249f876f3999931/research/direct-flow-boundary-share/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4459,
+      "head": "488a75a9e95e14448b6301719249f876f3999931",
+      "path": "research/direct-flow-boundary-share/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/488a75a9e95e14448b6301719249f876f3999931/research/direct-flow-boundary-share/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e6dec52f579142610c2320f7c8257041d8919f5f6167da6f9039d02ae68fc98a",
+      "git_blob_sha1": "4b41ba78d6a74cb6808420ca9ee4e73caa5f2e21",
+      "bytes": 5896,
+      "file": "individual-primary-interface-source/4459/e6dec52f5791__TASK.json"
+    },
+    {
+      "pr": 4459,
+      "head": "488a75a9e95e14448b6301719249f876f3999931",
+      "path": "research/direct-flow-boundary-share/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/488a75a9e95e14448b6301719249f876f3999931/research/direct-flow-boundary-share/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f922b983331b65f4e2ecafcf006b9205f6318d6195afb194264a838c39464866",
+      "git_blob_sha1": "b2b4795ff570219d963644e932996ad9844f8f63",
+      "bytes": 593,
+      "file": "individual-primary-interface-source/4459/f922b983331b__VERIFY.json"
+    }
+  ]
+}

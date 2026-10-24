@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4332,
+    "head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+    "path": "research/pr4270-outer-exponent-check/README.md",
+    "api_sha": "819330c44b45f3d7a15eb73f2243891354477788",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research%2Fpr4270-outer-exponent-check%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/README.md",
+    "file": "artifacts\\4332\\a8383c9ca3c0__README.md",
+    "sha256": "a8383c9ca3c05398b6d6a543980728eaaf2dc34f4a8265a1c2f9d017def90736",
+    "git_blob_sha1": "819330c44b45f3d7a15eb73f2243891354477788",
+    "bytes": 3804,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.319721+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4332,
+    "head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+    "path": "research/pr4270-outer-exponent-check/SOURCES.json",
+    "api_sha": "4ad162d174fbb74ff4c5df64e04da6a21d104dd8",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research%2Fpr4270-outer-exponent-check%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/SOURCES.json",
+    "file": "artifacts\\4332\\7cffbd15b6c1__SOURCES.json",
+    "sha256": "7cffbd15b6c11096f207c068ce05e4ffff5c97cd9fbea7ce97a6a7195deb6ffe",
+    "git_blob_sha1": "4ad162d174fbb74ff4c5df64e04da6a21d104dd8",
+    "bytes": 579,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.256832+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4332,
+    "head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+    "path": "research/pr4270-outer-exponent-check/verify.py",
+    "api_sha": "fa2b2908b856ed2b41d0b2b0cb579d2c59d5a5fe",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research%2Fpr4270-outer-exponent-check%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/verify.py",
+    "file": "artifacts\\4332\\d2dfe4b1d6b5__verify.py",
+    "sha256": "d2dfe4b1d6b5f0efce67868bc027431ff39230c1318040cdb0430a64c7638d5c",
+    "git_blob_sha1": "fa2b2908b856ed2b41d0b2b0cb579d2c59d5a5fe",
+    "bytes": 5757,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.299069+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

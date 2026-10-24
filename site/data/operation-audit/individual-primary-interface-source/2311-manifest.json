@@ -1,0 +1,65 @@
+{
+  "pr": 2311,
+  "own_head": "00de1b48c3155846ee340993eeb9e9d7daf157af",
+  "primary_path_candidates": [
+    "research/pr2265-supplier-admission-audit/EXPECTED.json",
+    "research/pr2265-supplier-admission-audit/README.md",
+    "research/pr2265-supplier-admission-audit/TASK.json",
+    "research/pr2265-supplier-admission-audit/VERIFY.json",
+    "research/pr2265-supplier-admission-audit/INVENTORY.json",
+    "research/pr2265-supplier-admission-audit/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr2265-supplier-admission-audit/TASK.json",
+    "research/pr2265-supplier-admission-audit/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr2265-supplier-admission-audit/README.md",
+      "file": "remaining-record-audit/artifacts/2311/31651c2a019d__README.md",
+      "sha256": "31651c2a019d2ad0d057c819d46569e94774874d3417264b30eb6e18921f9293",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00de1b48c3155846ee340993eeb9e9d7daf157af/research/pr2265-supplier-admission-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr2265-supplier-admission-audit/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/2311/d6cdb1e74e9c__EXPECTED.json",
+      "sha256": "d6cdb1e74e9c5451d378affc81e4c2f235cdb8e2623a6ed130fc12329c7960f5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00de1b48c3155846ee340993eeb9e9d7daf157af/research/pr2265-supplier-admission-audit/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr2265-supplier-admission-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/2311/43accabec754__verify.py",
+      "sha256": "43accabec7543ba93f5f20c47ce50dc07a39de6460b43158417626c0d437e0e7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00de1b48c3155846ee340993eeb9e9d7daf157af/research/pr2265-supplier-admission-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2311,
+      "head": "00de1b48c3155846ee340993eeb9e9d7daf157af",
+      "path": "research/pr2265-supplier-admission-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00de1b48c3155846ee340993eeb9e9d7daf157af/research/pr2265-supplier-admission-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "fbf65b4d89842b2c82f89f5343eaf67608706e2bd815bbe3bdfe726029b7e784",
+      "git_blob_sha1": "6f652629d05a1df81e0b0aebe4457b0378657ca1",
+      "bytes": 5937,
+      "file": "individual-primary-interface-source/2311/fbf65b4d8984__TASK.json"
+    },
+    {
+      "pr": 2311,
+      "head": "00de1b48c3155846ee340993eeb9e9d7daf157af",
+      "path": "research/pr2265-supplier-admission-audit/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/00de1b48c3155846ee340993eeb9e9d7daf157af/research/pr2265-supplier-admission-audit/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5bd5d978145f8fe7839564246845510ebea23566d6573219bacb0e409c722148",
+      "git_blob_sha1": "6d223fc195675eac5c261b2c4ff06be2ece4f2e0",
+      "bytes": 987,
+      "file": "individual-primary-interface-source/2311/5bd5d978145f__VERIFY.json"
+    }
+  ]
+}

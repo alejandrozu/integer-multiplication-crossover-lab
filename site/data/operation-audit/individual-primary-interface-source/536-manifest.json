@@ -1,0 +1,95 @@
+{
+  "pr": 536,
+  "own_head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+  "primary_path_candidates": [
+    "research/kernel92-frame-composition/EXPECTED.json",
+    "research/kernel92-frame-composition/data/PLAN.json",
+    "research/kernel92-frame-composition/evidence/composition/RESULT.json",
+    "research/kernel92-frame-composition/README.md",
+    "research/kernel92-frame-composition/PR533-EXPECTED.json",
+    "research/kernel92-frame-composition/data/SELECTION.json",
+    "research/kernel92-frame-composition/data/DELIVERY-FRAMES.json",
+    "research/kernel92-frame-composition/evidence/composition/RECEIPT.json",
+    "research/kernel92-frame-composition/evidence/composition/KERNEL-SCALAR.json",
+    "research/kernel92-frame-composition/evidence/composition/search-seed533.json",
+    "research/kernel92-frame-composition/evidence/composition/search-seed534.json",
+    "research/kernel92-frame-composition/evidence/composition/SOURCE-FRONTIER.json",
+    "research/kernel92-frame-composition/evidence/composition/TESTED-PACKAGE-MANIFEST.json",
+    "research/kernel92-frame-composition/evidence/composition/local/LEMMA-A.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/ASYNC-AUDIT.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/GLOBAL-PREFIX.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/EXACT-ASSEMBLY.json",
+    "research/kernel92-frame-composition/evidence/composition/local/CLIFFORD-REVIEW.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/OWNERS-AND-PROFILE.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/PREFIX-AND-INVOICE.json",
+    "research/kernel92-frame-composition/evidence/composition/construction/FRAME-LIFTS.json",
+    "research/kernel92-frame-composition/evidence/composition/local/SCALAR-FRAME-AUDIT.json",
+    "research/kernel92-frame-composition/evidence/composition/audit/IDLE-REMAINDER-FRAMES.json",
+    "research/kernel92-frame-composition/evidence/composition/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/kernel92-frame-composition/NOTICE.md",
+    "research/kernel92-frame-composition/verify.py",
+    "research/kernel92-frame-composition/PR533-NOTICE.md",
+    "research/kernel92-frame-composition/PR533-README.md",
+    "research/kernel92-frame-composition/code/run.py",
+    "research/kernel92-frame-composition/code/construct.py",
+    "research/kernel92-frame-composition/code/phases_full.py",
+    "research/kernel92-frame-composition/proof/CONSTRUCTION.md",
+    "research/kernel92-frame-composition/code/construct_pr533.py",
+    "research/kernel92-frame-composition/code/check_frame_lifts.py",
+    "research/kernel92-frame-composition/code/frame_chain_search.py",
+    "research/kernel92-frame-composition/code/audit_kernel_scalar.py"
+  ],
+  "selected_for_recovery": [
+    "research/kernel92-frame-composition/README.md",
+    "research/kernel92-frame-composition/data/PLAN.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kernel92-frame-composition/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/536/4f5be82173a6__EXPECTED.json",
+      "sha256": "4f5be82173a633b2e870728197b577b33f98e908fff5cd70bd96061f7d7b149e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/71a7ed7a95776810fede6f583885b7faf5d5ff2a/research/kernel92-frame-composition/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kernel92-frame-composition/verify.py",
+      "file": "remaining-record-audit/artifacts/536/e62c40ff7514__verify.py",
+      "sha256": "e62c40ff7514e714ab6f1a4a2d8ca9e27f46be91e17b3a9fbf73dbb96e2f4930",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/71a7ed7a95776810fede6f583885b7faf5d5ff2a/research/kernel92-frame-composition/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kernel92-frame-composition/evidence/composition/RESULT.json",
+      "file": "remaining-record-audit/artifacts/536/324454e7239c__RESULT.json",
+      "sha256": "324454e7239c347dc4be2d0bf07c059a13cacccc120beb733d1f7a001eb3ad75",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/71a7ed7a95776810fede6f583885b7faf5d5ff2a/research/kernel92-frame-composition/evidence/composition/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 122,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 536,
+      "head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+      "path": "research/kernel92-frame-composition/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/71a7ed7a95776810fede6f583885b7faf5d5ff2a/research/kernel92-frame-composition/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a350908959371d5361082827abcf6d088fdbbde601d50fa905acb9d513bd3c36",
+      "git_blob_sha1": "706988d8d0b1aeb172e2eb3d796112c769407a9c",
+      "bytes": 3776,
+      "file": "individual-primary-interface-source/536/a35090895937__README.md"
+    },
+    {
+      "pr": 536,
+      "head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+      "path": "research/kernel92-frame-composition/data/PLAN.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/71a7ed7a95776810fede6f583885b7faf5d5ff2a/research/kernel92-frame-composition/data/PLAN.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5544d90f19799a7a3e39160231b4246784c0b86399664fd3dfd4898531aa7142",
+      "git_blob_sha1": "595b27338e940f3984e6bd6c00560be9b993d759",
+      "bytes": 48519,
+      "file": "individual-primary-interface-source/536/5544d90f1979__PLAN.json"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "pr": 949,
+  "own_head": "102ddfb47d11c8ad66121350907d4a2cc04cea8c",
+  "primary_path_candidates": [
+    "research/complex-factory-scale-frontier27/CLAIM.json",
+    "research/complex-factory-scale-frontier27/EXPECTED.json",
+    "research/complex-factory-scale-frontier27/PROOF.md",
+    "research/complex-factory-scale-frontier27/README.md",
+    "research/complex-factory-scale-frontier27/VALIDATION.md",
+    "research/complex-factory-scale-frontier27/check.py",
+    "research/complex-factory-scale-frontier27/oracle.py",
+    "research/complex-factory-scale-frontier27/verify.py",
+    "research/complex-factory-scale-frontier27/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-factory-scale-frontier27/check.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-factory-scale-frontier27/PROOF.md",
+      "file": "remaining-record-audit/artifacts/949/aed94a93df67__PROOF.md",
+      "sha256": "aed94a93df6709a6281442eccaef2e3f41a2e76aa02475d5df552a0b94a9ebe6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/102ddfb47d11c8ad66121350907d4a2cc04cea8c/research/complex-factory-scale-frontier27/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-factory-scale-frontier27/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/949/6325229a86e0__CLAIM.json",
+      "sha256": "6325229a86e070913b5d1d8e4c81c9842a4b9fa20f276d9d116f43a98b30a133",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/102ddfb47d11c8ad66121350907d4a2cc04cea8c/research/complex-factory-scale-frontier27/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-factory-scale-frontier27/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/949/e2972512b6f9__EXPECTED.json",
+      "sha256": "e2972512b6f9cf41229a16773e66c21cada1f8d57c8005a858fa3889c68cc4d3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/102ddfb47d11c8ad66121350907d4a2cc04cea8c/research/complex-factory-scale-frontier27/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-factory-scale-frontier27/README.md",
+      "file": "remaining-record-audit/artifacts/949/aacd03b6155d__README.md",
+      "sha256": "aacd03b6155d0fb86183a08867832357cd12e9bd2e143ff82d07bf76512eabc8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/102ddfb47d11c8ad66121350907d4a2cc04cea8c/research/complex-factory-scale-frontier27/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 949,
+      "head": "102ddfb47d11c8ad66121350907d4a2cc04cea8c",
+      "path": "research/complex-factory-scale-frontier27/check.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/102ddfb47d11c8ad66121350907d4a2cc04cea8c/research/complex-factory-scale-frontier27/check.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9b3296ffd68b2334adf9b04800ed388efa2023a80fb48e8592724250ba3f4cc3",
+      "git_blob_sha1": "eaa21848c44391496816834be21da6f6bfd6fa68",
+      "bytes": 679,
+      "file": "individual-primary-interface-source/949/9b3296ffd68b__check.py"
+    }
+  ]
+}

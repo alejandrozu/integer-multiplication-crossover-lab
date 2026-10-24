@@ -1,0 +1,106 @@
+{
+  "pr": 987,
+  "own_head": "5142511af0437572aca71b35d1987cd2b47bb5e3",
+  "primary_path_candidates": [
+    "research/complex-u10-t37/CLAIM.json",
+    "research/complex-u10-t37/evidence/strict/RESULT.json",
+    "research/complex-u10-t37/evidence/strict/ASSEMBLY.json",
+    "research/complex-u10-t37/PROOF.md",
+    "research/complex-u10-t37/README.md",
+    "research/complex-u10-t37/evidence/README.md",
+    "research/complex-u10-t37/EDITS.json",
+    "research/complex-u10-t37/ORDER.json",
+    "research/complex-u10-t37/PREDECESSOR.json",
+    "research/complex-u10-t37/DEPENDENCY-PINS.json",
+    "research/complex-u10-t37/evidence/ALL-T-BOUND.json",
+    "research/complex-u10-t37/evidence/u10/STEPS.json",
+    "research/complex-u10-t37/evidence/strict/STAGES.json",
+    "research/complex-u10-t37/evidence/u10/LOCAL-CHECKS.json",
+    "research/complex-u10-t37/evidence/u10/U10-CONTROLS.json",
+    "research/complex-u10-t37/construction/u10/RECIPE-U10.json",
+    "research/complex-u10-t37/evidence/u10/LOCAL-AUDIT-U10.json",
+    "research/complex-u10-t37/construction/u10/PROVIDER-U10.json",
+    "research/complex-u10-t37/evidence/strict/FINAL-BINDING.json",
+    "research/complex-u10-t37/evidence/strict/STRICT-STAGES.json",
+    "research/complex-u10-t37/evidence/u10/COLD-END-CONTROLS.json",
+    "research/complex-u10-t37/construction/u10/LOCAL-PINS-U10.json",
+    "research/complex-u10-t37/evidence/strict/DISCOVERY-STAGES.json",
+    "research/complex-u10-t37/evidence/strict/PAYLOAD-CONTROLS.json",
+    "research/complex-u10-t37/evidence/strict/INDEPENDENT-OWNERS.json",
+    "research/complex-u10-t37/construction/u10/discovery/m2.json",
+    "research/complex-u10-t37/NOTICE.md",
+    "research/complex-u10-t37/common.py",
+    "research/complex-u10-t37/replay.py",
+    "research/complex-u10-t37/verify.py",
+    "research/complex-u10-t37/package.py",
+    "research/complex-u10-t37/prepare.py",
+    "research/complex-u10-t37/ALL-T-PROOF.md",
+    "research/complex-u10-t37/final_binding.py",
+    "research/complex-u10-t37/binding_controls.py",
+    "research/complex-u10-t37/package_controls.py",
+    "research/complex-u10-t37/independent/check_t37.py",
+    "research/complex-u10-t37/independent/all_t_bound.py",
+    "research/complex-u10-t37/independent/verify_construct.py",
+    "research/complex-u10-t37/independent/check_payload_controls.py",
+    "research/complex-u10-t37/construction/u10/reproduce_u10.py",
+    "research/complex-u10-t37/construction/u10/discovery/slot.py",
+    "research/complex-u10-t37/construction/u10/discovery/mover.py",
+    "research/complex-u10-t37/construction/u10/discovery/compose.py",
+    "research/complex-u10-t37/construction/u10/discovery/search2.py",
+    "research/complex-u10-t37/construction/u10/discovery/frameopt.py",
+    "research/complex-u10-t37/construction/u10/discovery/make_recipe.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-u10-t37/common.py",
+    "research/complex-u10-t37/evidence/strict/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-u10-t37/PROOF.md",
+      "file": "remaining-record-audit/artifacts/987/6cdcc0db7e39__PROOF.md",
+      "sha256": "6cdcc0db7e390da8b98f690c5c3ebbd7f7e233d219f174408a60e42d04a340f5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5142511af0437572aca71b35d1987cd2b47bb5e3/research/complex-u10-t37/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-u10-t37/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/987/da1760f08bb4__CLAIM.json",
+      "sha256": "da1760f08bb411f74dfdde42e92db853712677bea9ad4f4b8e93dbae2919f704",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5142511af0437572aca71b35d1987cd2b47bb5e3/research/complex-u10-t37/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-u10-t37/evidence/strict/RESULT.json",
+      "file": "remaining-record-audit/artifacts/987/a838ac7caf61__RESULT.json",
+      "sha256": "a838ac7caf61f6663075aac141188f8e718a996b57c4858e120be4652c19586c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5142511af0437572aca71b35d1987cd2b47bb5e3/research/complex-u10-t37/evidence/strict/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 51,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 987,
+      "head": "5142511af0437572aca71b35d1987cd2b47bb5e3",
+      "path": "research/complex-u10-t37/common.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5142511af0437572aca71b35d1987cd2b47bb5e3/research/complex-u10-t37/common.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b85769c7c29429da7ce9eed55f0ed5f672e2bedc0d894ae02bf9be8c86a638e1",
+      "git_blob_sha1": "a79240e1066113dc5b55432e46a94ff5376e0cd2",
+      "bytes": 1084,
+      "file": "individual-primary-interface-source/987/b85769c7c294__common.py"
+    },
+    {
+      "pr": 987,
+      "head": "5142511af0437572aca71b35d1987cd2b47bb5e3",
+      "path": "research/complex-u10-t37/evidence/strict/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5142511af0437572aca71b35d1987cd2b47bb5e3/research/complex-u10-t37/evidence/strict/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f016a13711a02fa66cba77f8942cc6e2e2a11fedce53cda7b59f7ef5ea3302f7",
+      "git_blob_sha1": "62f88a4d9c5fa043346cde7961d124649f53f709",
+      "bytes": 84936,
+      "file": "individual-primary-interface-source/987/f016a13711a0__ASSEMBLY.json"
+    }
+  ]
+}

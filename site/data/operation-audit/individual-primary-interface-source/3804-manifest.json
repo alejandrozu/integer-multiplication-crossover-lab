@@ -1,0 +1,65 @@
+{
+  "pr": 3804,
+  "own_head": "d074ed59cd6c8f194d5cb6eb226607b0c2e254ff",
+  "primary_path_candidates": [
+    "research/batched-moment-threshold/RESULT.json",
+    "research/batched-moment-threshold/README.md",
+    "research/batched-moment-threshold/TASK.json",
+    "research/batched-moment-threshold/VERIFY.json",
+    "research/batched-moment-threshold/verify.py",
+    "research/batched-moment-threshold/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/batched-moment-threshold/TASK.json",
+    "research/batched-moment-threshold/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/batched-moment-threshold/README.md",
+      "file": "remaining-record-audit/artifacts/3804/7273ad72ebde__README.md",
+      "sha256": "7273ad72ebde7402cf8c758135c15e680c3b82473ff0e71b09ec9d37c16fe894",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d074ed59cd6c8f194d5cb6eb226607b0c2e254ff/research/batched-moment-threshold/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/batched-moment-threshold/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3804/dee6e5168dea__RESULT.json",
+      "sha256": "dee6e5168dea29f805a7d3df19c6662fd14f90d35378b67467e5437ee5c780a1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d074ed59cd6c8f194d5cb6eb226607b0c2e254ff/research/batched-moment-threshold/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/batched-moment-threshold/verify.py",
+      "file": "remaining-record-audit/artifacts/3804/b023a7adc34e__verify.py",
+      "sha256": "b023a7adc34e34c3cb205f317ffb2ba01ee3a7f5f234313282722ad9f62e22ac",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d074ed59cd6c8f194d5cb6eb226607b0c2e254ff/research/batched-moment-threshold/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3804,
+      "head": "d074ed59cd6c8f194d5cb6eb226607b0c2e254ff",
+      "path": "research/batched-moment-threshold/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d074ed59cd6c8f194d5cb6eb226607b0c2e254ff/research/batched-moment-threshold/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a581236a5996918b07af6cb2f88bf3cacf5966f1c3db6b49987b4618a03183fa",
+      "git_blob_sha1": "e7c82af2d6d111c6acc9030a8bb590b266343671",
+      "bytes": 4706,
+      "file": "individual-primary-interface-source/3804/a581236a5996__TASK.json"
+    },
+    {
+      "pr": 3804,
+      "head": "d074ed59cd6c8f194d5cb6eb226607b0c2e254ff",
+      "path": "research/batched-moment-threshold/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d074ed59cd6c8f194d5cb6eb226607b0c2e254ff/research/batched-moment-threshold/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "51abeb6896366f79c69fc2f157264f4f3518fa74a6e26409d9d3998c74f61027",
+      "git_blob_sha1": "dddaad143531cfc8a2f427ae39c8f45a532ad268",
+      "bytes": 980,
+      "file": "individual-primary-interface-source/3804/51abeb689636__VERIFY.json"
+    }
+  ]
+}

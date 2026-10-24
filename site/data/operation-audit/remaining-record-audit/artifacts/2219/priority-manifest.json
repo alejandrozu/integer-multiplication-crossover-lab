@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 2219,
+    "head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+    "path": "research/p104-private-descent-reuse-seed915fa969/NATIVE-RESULT.json",
+    "api_sha": "e2d1280dfad6c16833aebc3a74ba526d5d77cb34",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research%2Fp104-private-descent-reuse-seed915fa969%2FNATIVE-RESULT.json",
+    "priority": 200,
+    "hint_base": "research/p104-private-descent-reuse-seed915fa969/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/NATIVE-RESULT.json",
+    "file": "artifacts\\2219\\688e694aac54__NATIVE-RESULT.json",
+    "sha256": "688e694aac5412d5c9c0b0ed9ed63c956a8407ddfaa9c0322a233a89d8046049",
+    "git_blob_sha1": "e2d1280dfad6c16833aebc3a74ba526d5d77cb34",
+    "bytes": 783,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.252409+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2219,
+    "head": "3f913bc17276b68f0c9008a1202b6ce588e77ff6",
+    "path": "research/p104-private-descent-reuse-seed915fa969/README.md",
+    "api_sha": "0c584025a39b30622a47361b7b2735203450a873",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research%2Fp104-private-descent-reuse-seed915fa969%2FREADME.md",
+    "priority": 240,
+    "hint_base": "research/p104-private-descent-reuse-seed915fa969/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3f913bc17276b68f0c9008a1202b6ce588e77ff6/research/p104-private-descent-reuse-seed915fa969/README.md",
+    "file": "artifacts\\2219\\0cdaee8bf0b9__README.md",
+    "sha256": "0cdaee8bf0b9444d5281f1ae13f979face291b9a0c6bf62baf27e7ac20fd77bd",
+    "git_blob_sha1": "0c584025a39b30622a47361b7b2735203450a873",
+    "bytes": 8350,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.224427+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

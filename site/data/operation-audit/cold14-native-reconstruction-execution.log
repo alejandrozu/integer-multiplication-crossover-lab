@@ -1,0 +1,9 @@
+RUN frozen558-full-replay
+PASS frozen558-full-replay
+RUN atm3-step0-promote-construction
+PASS atm3-step0-promote-construction
+RUN atm3-step1-greedy_kernels-construction
+PASS atm3-step1-greedy_kernels-construction
+RUN atm3-step1-greedy_kernels-omissions
+PASS atm3-step1-greedy_kernels-omissions
+RUN atm3-step2-frame_coalesce-construction

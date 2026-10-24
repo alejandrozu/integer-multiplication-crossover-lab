@@ -1,0 +1,112 @@
+{
+  "pr": 558,
+  "own_head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+  "primary_path_candidates": [
+    "research/complex-rank5-pivots8/data/PLAN.json",
+    "research/complex-rank5-pivots8-validation/python314/RESULT.json",
+    "research/complex-rank5-pivots8-validation/python314/ASSEMBLY.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/RESULT.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/ASSEMBLY.json",
+    "research/complex-rank5-pivots8/README.md",
+    "research/complex-rank5-pivots8-validation/README.md",
+    "research/complex-rank5-pivots8/SOURCE-PINS.json",
+    "research/complex-rank5-pivots8-validation/COMPARISON.json",
+    "research/complex-rank5-pivots8/data/PROMOTION.json",
+    "research/complex-rank5-pivots8/proof/RANK5-CAPS.json",
+    "research/complex-rank5-pivots8/proof/ASSEMBLY-PROVENANCE.json",
+    "research/complex-rank5-pivots8-validation/python314/STAGES.json",
+    "research/complex-rank5-pivots8-validation/python314/RECEIPT.json",
+    "research/complex-rank5-pivots8/proof/EXPLORATORY-SCALAR-8-CONTROLS.json",
+    "research/complex-rank5-pivots8-validation/python314/ASSEMBLY-CONTROLS.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/STAGES.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/RECEIPT.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/ASSEMBLY-CONTROLS.json",
+    "research/complex-rank5-pivots8-validation/python314/complex-local/CLIFFORD-REVIEW.json",
+    "research/complex-rank5-pivots8-validation/python314/complex-local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/complex-local/CLIFFORD-REVIEW.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/complex-local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/complex-rank5-pivots8-validation/python314/complex-global/audit/ASYNC-AUDIT.json",
+    "research/complex-rank5-pivots8-validation/python314/reconstruction/promoted/PROMOTION.json",
+    "research/complex-rank5-pivots8-validation/python314/complex-global/audit/OWNERS-AND-PROFILE.json",
+    "research/complex-rank5-pivots8-validation/python314/complex-global/audit/PREFIX-AND-INVOICE.json",
+    "research/complex-rank5-pivots8-validation/python314/reconstruction/promoted/STATIC44-SCALAR-AUDIT.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/complex-global/audit/ASYNC-AUDIT.json",
+    "research/complex-rank5-pivots8-validation/python314/reconstruction/promoted/PROMOTED8-SCALAR-AUDIT.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/reconstruction/promoted/PROMOTION.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/complex-global/audit/OWNERS-AND-PROFILE.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/complex-global/audit/PREFIX-AND-INVOICE.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/reconstruction/promoted/STATIC44-SCALAR-AUDIT.json",
+    "research/complex-rank5-pivots8-validation/python312-clean-archive/reconstruction/promoted/PROMOTED8-SCALAR-AUDIT.json",
+    "research/complex-rank5-pivots8/NOTICE.md",
+    "research/complex-rank5-pivots8/verify.py",
+    "research/complex-rank5-pivots8/code/promote.py",
+    "research/complex-rank5-pivots8/code/assemble.py",
+    "research/complex-rank5-pivots8/engines/outer.py",
+    "research/complex-rank5-pivots8/engines/moment.py",
+    "research/complex-rank5-pivots8/code/phases_full.py",
+    "research/complex-rank5-pivots8/code/reconstruct.py",
+    "research/complex-rank5-pivots8/code/run_portable.py",
+    "research/complex-rank5-pivots8/proof/CONSTRUCTION.md",
+    "research/complex-rank5-pivots8/code/assembly_controls.py",
+    "research/complex-rank5-pivots8/engines/base_two_moment.py",
+    "research/complex-rank5-pivots8/code/audit_promoted_scalar.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-rank5-pivots8/README.md",
+    "research/complex-rank5-pivots8/data/PLAN.json",
+    "research/complex-rank5-pivots8-validation/python314/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank5-pivots8-validation/python314/RESULT.json",
+      "file": "remaining-record-audit/artifacts/558/81618cefc1df__RESULT.json",
+      "sha256": "81618cefc1df42f827d0a7da838b13b9167d3500ca5cd598963c3e09e62ceb4e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/060b137c8a6f9d73fd7864c7f8cf2736d6441774/research/complex-rank5-pivots8-validation/python314/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-rank5-pivots8/verify.py",
+      "file": "remaining-record-audit/artifacts/558/66a20adaaac6__verify.py",
+      "sha256": "66a20adaaac6850d3c8649f7ccc959cae19ba5bb17ee88a2b41fb1ceff68e431",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/060b137c8a6f9d73fd7864c7f8cf2736d6441774/research/complex-rank5-pivots8/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 158,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 558,
+      "head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+      "path": "research/complex-rank5-pivots8/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/060b137c8a6f9d73fd7864c7f8cf2736d6441774/research/complex-rank5-pivots8/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "02181c5ff31cd1c2899608e5ab598b405df92ad5814df35f329d117956f7ee10",
+      "git_blob_sha1": "422d13cf25b31b9a6d8fbf6ff7cbfdadd6808a93",
+      "bytes": 3463,
+      "file": "individual-primary-interface-source/558/02181c5ff31c__README.md"
+    },
+    {
+      "pr": 558,
+      "head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+      "path": "research/complex-rank5-pivots8/data/PLAN.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/060b137c8a6f9d73fd7864c7f8cf2736d6441774/research/complex-rank5-pivots8/data/PLAN.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8e64bb8a1a8f87998479316f4111801cb3eb1e64f898b7e577eebd72a460f844",
+      "git_blob_sha1": "f48def86c4e92fec1011cb747106f701a5cf3e52",
+      "bytes": 119420,
+      "file": "individual-primary-interface-source/558/8e64bb8a1a8f__PLAN.json"
+    },
+    {
+      "pr": 558,
+      "head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+      "path": "research/complex-rank5-pivots8-validation/python314/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/060b137c8a6f9d73fd7864c7f8cf2736d6441774/research/complex-rank5-pivots8-validation/python314/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9f5e050486c3c337793d09e4ce96769336a3653de0a3a84a77c39431cf062f16",
+      "git_blob_sha1": "3f005b6df649d4d02f519426b7b821d1f600502e",
+      "bytes": 43262,
+      "file": "individual-primary-interface-source/558/9f5e050486c3__ASSEMBLY.json"
+    }
+  ]
+}

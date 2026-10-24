@@ -1,0 +1,60 @@
+{
+  "pr": 1108,
+  "own_head": "b76bb2853be4e7001508582b10913e32ad7aba9f",
+  "primary_path_candidates": [
+    "research/compact-boundary-cancellation-seed51/CLAIM.json",
+    "research/compact-boundary-cancellation-seed51/RESULT.json",
+    "research/compact-boundary-cancellation-seed51/README.md",
+    "research/compact-boundary-cancellation-seed51/VALIDATION.json",
+    "research/compact-boundary-cancellation-seed51/verify.py",
+    "research/compact-boundary-cancellation-seed51/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/compact-boundary-cancellation-seed51/VALIDATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/compact-boundary-cancellation-seed51/README.md",
+      "file": "remaining-record-audit/artifacts/1108/e8e67acd4aff__README.md",
+      "sha256": "e8e67acd4aff3d8523e3a72f649556831993da9f66eeac0d2971daa63e92bdd9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b76bb2853be4e7001508582b10913e32ad7aba9f/research/compact-boundary-cancellation-seed51/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/compact-boundary-cancellation-seed51/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1108/9f3f2d75ad17__CLAIM.json",
+      "sha256": "9f3f2d75ad1777f71d2bbea7d2683397312d54d3e68428b0f428fec87f66e71b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b76bb2853be4e7001508582b10913e32ad7aba9f/research/compact-boundary-cancellation-seed51/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/compact-boundary-cancellation-seed51/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1108/a057978bfcd7__RESULT.json",
+      "sha256": "a057978bfcd788bf0d021f940e64a63598d869055fffb9a0569c507bc98a1a6b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b76bb2853be4e7001508582b10913e32ad7aba9f/research/compact-boundary-cancellation-seed51/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/compact-boundary-cancellation-seed51/verify.py",
+      "file": "remaining-record-audit/artifacts/1108/4e9358ba6114__verify.py",
+      "sha256": "4e9358ba61143a7aad92d1dfb5106a8f07185d44959b93844b77feab8ac094e1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b76bb2853be4e7001508582b10913e32ad7aba9f/research/compact-boundary-cancellation-seed51/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1108,
+      "head": "b76bb2853be4e7001508582b10913e32ad7aba9f",
+      "path": "research/compact-boundary-cancellation-seed51/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b76bb2853be4e7001508582b10913e32ad7aba9f/research/compact-boundary-cancellation-seed51/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ae0abab5fd15e7f190c579834938adfb55107b56a6606be179d6c450e8e915ab",
+      "git_blob_sha1": "85cca10c19889536be6ca9e87fb272aaedb9cf29",
+      "bytes": 1475,
+      "file": "individual-primary-interface-source/1108/ae0abab5fd15__VALIDATION.json"
+    }
+  ]
+}

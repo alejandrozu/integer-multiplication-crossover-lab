@@ -1,0 +1,155 @@
+{
+  "schema": "finite-controller-history-incremental-offline-reproduction/1",
+  "passed": true,
+  "offline": true,
+  "previous_successful_PR147_zip_sha256": "4a09248559e1a94d6d49f1269e45b1f184df7bf1af79eb73ddd32d3c65572f0a",
+  "previous_successful_offline_receipt_sha256": "817b98ac83cd618b0f52877a08a75358e9479da18e9cd451125688389f94a1d0",
+  "old_scientific_jobs_rerun": false,
+  "unchanged_prior_archive_entries": 1054,
+  "preserved_archive_hash_map_sha256": "ea59d303401b7554613d21504ddb144ab7fdc1f15b45e09f933a9c81307d5071",
+  "explicit_changed_existing_members": {
+    "operation-audit/manifest.json": "Generated source manifest grows.",
+    "operation-audit/progress.json": "Generated progress and coverage grow.",
+    "site/dist/data/feasibility-history.json": "Generated history gains own-controller bounds.",
+    "site/dist/feasibility-history-early-model.js": "Explicitly generalized finite-controller adapter; old semantics checked with the frozen prior data and new test."
+  },
+  "old_test_filename_only_adapter": true,
+  "new_certificate_bytes_identical": {
+    "pr531-finite-controller-native.json": "a31829aa1268c377e9efe0ceefca293393dbbbb2db37b6558f495ec89f0504d5",
+    "pr531-finite-controller-early-upper.json": "f6c2b79ef14b58663855b6742edc8f51144806316c64734c7656c24fab4b7aad",
+    "pr531-finite-controller-record-upper.json": "764c808b1f658b9e8090ac03f677c7d704f394756c20cd82f7f6c8416a6be863",
+    "pr535-finite-controller-native.json": "d6f5e8f5998206d651216517e1da1e454b38a03b2f641fb36827314786082435",
+    "pr535-finite-controller-early-upper.json": "8335a918697eaf0d5cf2e9741478313ff38e47a9195d5294f069057501795038",
+    "pr535-finite-controller-record-upper.json": "b2942f495013179b4c709e13ca530d317619b21018bac2520d26759a6a43fbaf",
+    "pr741-finite-controller-native.json": "82b1a4356843e9e350c07428207a15698e56537b5a27a56f5769373570d58a25",
+    "pr741-finite-controller-early-upper.json": "6002d723f233de7082638535df2f015706203ee4098995d524d5149bef39c16e",
+    "pr741-finite-controller-record-upper.json": "bac466bac8282df9b443fccbd963773752d7deb75f64f88e004727b9d7826124",
+    "pr799-finite-controller-native.json": "abfbeed67a6bc6e04f1075ca453d1d527fb7d2d3015bb42304ea99b52d13875b",
+    "pr799-finite-controller-early-upper.json": "61926af0cbcd2b8c4cccb4f515004e5805fc7348916889f6505dcd97bed11e84",
+    "pr799-finite-controller-record-upper.json": "a91748cf43810cd6fcf6dcfcd0d9e04501e7e3b16e587aabf869a380a0f15d6e",
+    "older-reviewed-finite-controllers.json": "e4c0b2624f5032c6fc97108600c6f8554be5b796fefc3df1f48506f2d678dc9d",
+    "pr147-stopped-stock-corrected-upper.json": "3e684bf76d4ad98d8f7b10afd418b5b14c521387f4c84018eb060d5e3678d2af",
+    "pr147-finite-gate-refined-upper.json": "ff002893d9f467bf1d310a24c6b8a17a7a68a859d9a271f8766a60985ff1cae2",
+    "pr531-finite-gate-refined-upper.json": "349e6208831e5b8b96004fc873beb7f09bc685350ffc9b81a502cbf66339af11",
+    "pr535-finite-gate-refined-upper.json": "f774fabcbe6f809bf5dab80291e2513cf88bae65d64b404cadc673bc9dc74527",
+    "pr741-finite-gate-refined-upper.json": "5c1a39bf5f5cfeb1b159aa9e37ef57a1d05fc24de28c4367f348d7e67da73cc7",
+    "pr799-finite-gate-refined-upper.json": "fee3247be5198ae6d826c64d67b3a1c5c098dc7a38166e8dea01ccda6eb611c5",
+    "u8-selected-native-recovery.json": "0eeebade7a918bd0b428e67560ba46a3fa005340ee819c9552b5ee580692afc6"
+  },
+  "new_peer_bytes_identical": {
+    "pr531-finite-controller-peer-review.json": "aded685679200f1b3cb8b0007a278647f85477faea00e4aea925fc31756e68d6",
+    "pr535-finite-controller-peer-review.json": "677b816e0aeca6d05adac21188dd0b6ea512a581a473c6a69b594e3e1a315f67",
+    "pr741-finite-controller-peer-review.json": "ba9622f3c9a808fee3acc155fb2ed823051a34b7b7ac8aabe0d8750997e3894b",
+    "pr799-finite-controller-peer-review.json": "b402b1ffb813072c333beed017d0adac6070d3c45f0122632abffd8eef2d90da",
+    "pr147-stopped-stock-correction-peer-review.json": "b5e717ba13e4d6220137ad338a1bf9fe9a4b457f080170f7c8c4a97b95b3b498",
+    "finite-controller-gate-refinement-peer-review.json": "5a4c9cb312ee2ef37eb3c3ea774e827b3da0a866ab91df6e218a5a4f22369053",
+    "finite-controller-gate-refinement-source-peer-review.json": "68e362f923b02dcb0aed911823abd5c612c26af8d53e437c03443ca31032ca33",
+    "pr147-stopped-stock-correction-source-peer-review.json": "fe89e9f5c5def1bd9a3b91f3d5efb0dfde20354be11c29ff109e1f118ee3e59d",
+    "pr535-finite-controller-source-peer-review.json": "2633c64792d3d6af96eb7ad5e25bc6e35cdd2b243dc9b82b4a5910392bbc3d70",
+    "pr741-finite-controller-source-peer-review.json": "2fda5f8eac9fa31edabe668970dcfbdc094c583530dfe77214f17b936b2cdd58",
+    "pr799-finite-controller-source-peer-review.json": "a51a82d116e9fc7bb4d70358194bd715396da12dc69881c1921530f47f7b2160",
+    "u8-selected-native-recovery-peer-review.json": "f28581de2fac76f3e4eaf28330455b8474d4993f548be64cd8f8783c39f4198c"
+  },
+  "new_source_links_verified": 680,
+  "new_peer_links_verified": 71,
+  "python_network_connections_and_DNS_disabled": true,
+  "checks": [
+    {
+      "test": "explicit_baseline_plus_delta_composition",
+      "passed": true,
+      "layout": {
+        "kind": "verified_baseline_plus_delta",
+        "public_delta_sha256": "4fe4519fa57d5f49a97b6f3a6a2974fd7278ccc4661f4255d569c67b86fc5802",
+        "baseline_asset": "operation-audit-reproduction-pr147-baseline.zip",
+        "baseline_sha256": "4a09248559e1a94d6d49f1269e45b1f184df7bf1af79eb73ddd32d3c65572f0a",
+        "declared_complete_archive_sha256": "edce035dd50157bbcb04145f24a19298a7311a53f50095ea4c692ca01139cf21",
+        "overlay_members": 264,
+        "logical_members": 1318,
+        "logical_payload_hash_map_sha256": "bb561ee498bd6403ccc71b4966be1224f1b984b1ad3a2b1918d4788d0e98f5e1",
+        "composed_zip_is_logically_identical": true,
+        "composed_zip_byte_identity_not_claimed": true
+      }
+    },
+    {
+      "test": "published_PR147_baseline_bytes_retained",
+      "passed": true,
+      "unchanged_entries": 1054,
+      "explicit_exceptions": {
+        "operation-audit/manifest.json": "Generated source manifest grows.",
+        "operation-audit/progress.json": "Generated progress and coverage grow.",
+        "site/dist/data/feasibility-history.json": "Generated history gains own-controller bounds.",
+        "site/dist/feasibility-history-early-model.js": "Explicitly generalized finite-controller adapter; old semantics checked with the frozen prior data and new test."
+      }
+    },
+    {
+      "test": "old_adapter_test_filename_only_and_prior_history_snapshot_exact",
+      "passed": true
+    },
+    {
+      "test": "pr531_finite_controller_upper.py",
+      "passed": true,
+      "output": "{\n  \"status\": \"closed_conditional_upper_only\",\n  \"checks\": 70489,\n  \"early_upper\": \"2^(2^21992431578775544)\",\n  \"record_upper\": \"2^(2^230584301497830147503423480)\",\n  \"native_scalar_recount\": {\n    \"backward\": {\n      \"events\": 22937,\n      \"scalar_macros\": 17872,\n      \"real_component_primitives\": 177740,\n      \"coefficient_work_primitives\": 88098,\n      \"prefix_l1\": \"1014379823310\",\n      \"max_numerator_bits\": 3,\n      \"max_denominator_bits\": 3,\n      \"dyadic\": true\n    },\n    \"forward\": {\n      \"events\": 22937,\n      \"scalar_macros\": 17872,\n      \"real_component_primitives\": 177692,\n      \"coefficient_work_primitives\": 88066,\n      \"prefix_l1\": \"86491024246\",\n      \"max_numerator_bits\": 3,\n      \"max_denominator_bits\": 3,\n      \"dyadic\": true\n    }\n  }\n}"
+    },
+    {
+      "test": "older_reviewed_finite_controllers.py",
+      "passed": true,
+      "output": "d\": \"8b758a103915179322766bed5798f9b6e7198011\",\n      \"kappa_record\": \"1584931111785787/1000000000000000000\",\n      \"early_upper\": \"2^(2^21992431578775544)\",\n      \"record_upper\": \"2^(2^230584301497830147503423480)\",\n      \"early_upper_certificate\": \"pr535-finite-controller-early-upper.json\",\n      \"record_upper_certificate\": \"pr535-finite-controller-record-upper.json\",\n      \"native_certificate\": \"pr535-finite-controller-native.json\",\n      \"meaningful_lower\": null\n    },\n    {\n      \"pr\": 741,\n      \"source_head\": \"e516b1463606840a15f80aac1995d64ce0092e89\",\n      \"kappa_record\": \"1661202643272239/1000000000000000000\",\n      \"early_upper\": \"2^(2^21992431578775544)\",\n      \"record_upper\": \"2^(2^230584301497830147503423480)\",\n      \"early_upper_certificate\": \"pr741-finite-controller-early-upper.json\",\n      \"record_upper_certificate\": \"pr741-finite-controller-record-upper.json\",\n      \"native_certificate\": \"pr741-finite-controller-native.json\",\n      \"meaningful_lower\": null\n    }\n  ]\n}"
+    },
+    {
+      "test": "pr799_recovered_finite_controller.py",
+      "passed": true,
+      "output": "{\n  \"status\": \"closed_conditional_upper_only\",\n  \"checks\": 139,\n  \"early_upper\": \"2^(2^21992431578775544)\",\n  \"record_upper\": \"2^(2^230584301497830147503423480)\",\n  \"fresh_parent\": 1990104276165128,\n  \"source_selected_native\": {\n    \"backward\": {\n      \"events\": 24399,\n      \"scalar_macros\": 19197,\n      \"real_component_primitives\": 193210,\n      \"coefficient_work_primitives\": 95441,\n      \"prefix_l1\": \"48299247699832632898063/16\",\n      \"all_scalar_coefficients_dyadic\": true\n    },\n    \"forward\": {\n      \"events\": 24399,\n      \"scalar_macros\": 19197,\n      \"real_component_primitives\": 193162,\n      \"coefficient_work_primitives\": 95409,\n      \"prefix_l1\": \"6812058044968180837/256\",\n      \"all_scalar_coefficients_dyadic\": true\n    }\n  }\n}"
+    },
+    {
+      "test": "pr147_stopped_stock_correction.py",
+      "passed": true,
+      "output": "{\n  \"status\": \"closed_conditional_upper_only\",\n  \"checks\": 29,\n  \"upper\": \"2^(2^21992431578775544)\",\n  \"lower\": null\n}"
+    },
+    {
+      "test": "finite_controller_gate_refinement.py",
+      "passed": true,
+      "output": "{\n  \"status\": \"closed_conditional_upper_only\",\n  \"checks\": 184,\n  \"E\": \"1801259724976\",\n  \"A\": \"10001\",\n  \"P\": \"18014398509484968\",\n  \"upper\": \"2^(2^18014398509484968)\",\n  \"prs\": [\n    147,\n    531,\n    535,\n    741,\n    799\n  ]\n}"
+    },
+    {
+      "test": "u8_selected_native_recovery.py",
+      "passed": true,
+      "output": "{\n  \"status\": \"fresh_source_native_recovery_only_no_whole_runtime_bound\",\n  \"checks_passed\": 34,\n  \"selected_raw_content_sha256\": \"090fd574747fbf9628e70cb9beb792732914cfa52e1df147579fe4dbccc68c5a\",\n  \"selected_canonical_content_sha256\": \"24db880b7dab31e6af4eec8a1aba1bbbae29cd50d9a7b77cf0e9b571b3e5ae7c\",\n  \"selected_program_semantic_sha256\": \"a073d8d6a561cf5c8148d8b29ae2800bbe3978377c016b549edd7523eb3cf7e5\"\n}"
+    },
+    {
+      "test": "all_new_certificate_bytes_reproduced",
+      "passed": true,
+      "count": 20
+    },
+    {
+      "test": "new_own_source_and_peer_bindings",
+      "passed": true,
+      "source_links": 680,
+      "peer_files": 12,
+      "peer_links": 71
+    },
+    {
+      "test": "test-feasibility-history-early-model.cjs",
+      "passed": true,
+      "output": "{\"passed\":true,\"entries\":595,\"lower\":13,\"upper\":13,\"intervals\":12,\"upper_only\":147,\"best_audited_upper\":147,\"unchanged_strict_pairs\":2,\"original_tail_quantified\":false}"
+    },
+    {
+      "test": "test-feasibility-history-finite-model.cjs",
+      "passed": true,
+      "output": "{\"passed\":true,\"entries\":595,\"finite_upper_only\":[147,531,535,741,799],\"lower\":13,\"upper\":17,\"intervals\":12,\"actual_crossings\":0,\"old_metadata_and_bounds_preserved\":true}"
+    }
+  ],
+  "zip_sha256": "4fe4519fa57d5f49a97b6f3a6a2974fd7278ccc4661f4255d569c67b86fc5802",
+  "public_archive_layout": {
+    "kind": "verified_baseline_plus_delta",
+    "public_delta_sha256": "4fe4519fa57d5f49a97b6f3a6a2974fd7278ccc4661f4255d569c67b86fc5802",
+    "baseline_asset": "operation-audit-reproduction-pr147-baseline.zip",
+    "baseline_sha256": "4a09248559e1a94d6d49f1269e45b1f184df7bf1af79eb73ddd32d3c65572f0a",
+    "declared_complete_archive_sha256": "edce035dd50157bbcb04145f24a19298a7311a53f50095ea4c692ca01139cf21",
+    "overlay_members": 264,
+    "logical_members": 1318,
+    "logical_payload_hash_map_sha256": "bb561ee498bd6403ccc71b4966be1224f1b984b1ad3a2b1918d4788d0e98f5e1",
+    "composed_zip_is_logically_identical": true,
+    "composed_zip_byte_identity_not_claimed": true
+  },
+  "scope": "New own PR531/535/741/799 finite-controller and separate PR147 stopped-stock correction reproduction. All older scientific input/certificate/peer bytes are retained from the separately verified published PR147 baseline; older jobs were not rerun."
+}

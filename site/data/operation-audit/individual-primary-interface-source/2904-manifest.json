@@ -1,0 +1,75 @@
+{
+  "pr": 2904,
+  "own_head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+  "primary_path_candidates": [
+    "research/t185-dirty-entry-frame-screens/README.md",
+    "research/t185-dirty-entry-frame-screens/TASK.json",
+    "research/t185-dirty-entry-frame-screens/VERIFY.json",
+    "research/t185-dirty-entry-frame-screens/evidence/T185-REPLAY.json",
+    "research/t185-dirty-entry-frame-screens/evidence/RELAXED-CENSUS.json",
+    "research/t185-dirty-entry-frame-screens/evidence/VERIFY-RECEIPT-local.json",
+    "research/t185-dirty-entry-frame-screens/verify.py",
+    "research/t185-dirty-entry-frame-screens/tools/wordlib.py",
+    "research/t185-dirty-entry-frame-screens/tools/dual_screen.py",
+    "research/t185-dirty-entry-frame-screens/tools/entry_screen.py",
+    "research/t185-dirty-entry-frame-screens/tools/refit_screens.py"
+  ],
+  "selected_for_recovery": [
+    "research/t185-dirty-entry-frame-screens/TASK.json",
+    "research/t185-dirty-entry-frame-screens/VERIFY.json",
+    "research/t185-dirty-entry-frame-screens/evidence/T185-REPLAY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t185-dirty-entry-frame-screens/README.md",
+      "file": "remaining-record-audit/artifacts/2904/b1622aea2946__README.md",
+      "sha256": "b1622aea2946be30351f2784b44e7a8d81e3ba2b8f29f0ab0bfd09a90a2b6109",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t185-dirty-entry-frame-screens/verify.py",
+      "file": "remaining-record-audit/artifacts/2904/ee4a13fbc890__verify.py",
+      "sha256": "ee4a13fbc8904c2510b5b8f4f7c5aed0dde5e093e4d80a5490c3a360ad46ec4c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 24,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2904,
+      "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+      "path": "research/t185-dirty-entry-frame-screens/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c0b79a96d9a9d43fd90bce48bd62013adf0fb2a301c296b32fc52ec5377fbbf3",
+      "git_blob_sha1": "06570c3de8322ece701ea5ca9754f087815cf943",
+      "bytes": 8725,
+      "file": "individual-primary-interface-source/2904/c0b79a96d9a9__TASK.json"
+    },
+    {
+      "pr": 2904,
+      "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+      "path": "research/t185-dirty-entry-frame-screens/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e86dfa5c98be15fb132c3dc1dacbac595823902b22e3f7f5469104d8c68f9dc6",
+      "git_blob_sha1": "e84f7b1c13fbe838249a845dca5e983c627fa521",
+      "bytes": 1580,
+      "file": "individual-primary-interface-source/2904/e86dfa5c98be__VERIFY.json"
+    },
+    {
+      "pr": 2904,
+      "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+      "path": "research/t185-dirty-entry-frame-screens/evidence/T185-REPLAY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/evidence/T185-REPLAY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "86458d537ae92da27121fec9e520176b24d32ac91388b2138d1e69593b453735",
+      "git_blob_sha1": "70ecebb31b095f393ec97cec201096054efaebbe",
+      "bytes": 2791,
+      "file": "individual-primary-interface-source/2904/86458d537ae9__T185-REPLAY.json"
+    }
+  ]
+}

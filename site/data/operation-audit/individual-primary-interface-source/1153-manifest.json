@@ -1,0 +1,66 @@
+{
+  "pr": 1153,
+  "own_head": "c744b52d839c52312bc70f90c0530543a5fb205f",
+  "primary_path_candidates": [
+    "research/selected-k8-sign-seed38/CLAIM.json",
+    "research/selected-k8-sign-seed38/EXPECTED.json",
+    "research/selected-k8-sign-seed38/PROOF.md",
+    "research/selected-k8-sign-seed38/README.md",
+    "research/selected-k8-sign-seed38/VALIDATION.md",
+    "research/selected-k8-sign-seed38/SOURCE-PINS.json",
+    "research/selected-k8-sign-seed38/BASE-SELECTED.json",
+    "research/selected-k8-sign-seed38/check.py",
+    "research/selected-k8-sign-seed38/verify.py",
+    "research/selected-k8-sign-seed38/controls.py",
+    "research/selected-k8-sign-seed38/independent.py",
+    "research/selected-k8-sign-seed38/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected-k8-sign-seed38/check.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-k8-sign-seed38/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1153/be420ccebb90__PROOF.md",
+      "sha256": "be420ccebb90f511bf9d7e40a7053f3c6ee7b5b38c99a6cc5ed97eb950de6416",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c744b52d839c52312bc70f90c0530543a5fb205f/research/selected-k8-sign-seed38/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-k8-sign-seed38/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1153/f17189df7c14__CLAIM.json",
+      "sha256": "f17189df7c14d28010b5aa5c195ce38dbf58ae0f79c6afdaa2a346575a82361d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c744b52d839c52312bc70f90c0530543a5fb205f/research/selected-k8-sign-seed38/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-k8-sign-seed38/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1153/decd84ca4597__EXPECTED.json",
+      "sha256": "decd84ca45974c811688bad10d6eff624f145d6ac033d0984e816640ea2931e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c744b52d839c52312bc70f90c0530543a5fb205f/research/selected-k8-sign-seed38/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-k8-sign-seed38/README.md",
+      "file": "remaining-record-audit/artifacts/1153/3506a025dbee__README.md",
+      "sha256": "3506a025dbee05a25cf4e2894fcc5d53dbbb980efbdb83127eb1a47f3ea2f1b1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c744b52d839c52312bc70f90c0530543a5fb205f/research/selected-k8-sign-seed38/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1153,
+      "head": "c744b52d839c52312bc70f90c0530543a5fb205f",
+      "path": "research/selected-k8-sign-seed38/check.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c744b52d839c52312bc70f90c0530543a5fb205f/research/selected-k8-sign-seed38/check.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "82dbf3e61514a5662adb181a07f8d801d067fb0ad20b708b518c6ab9ed0e599e",
+      "git_blob_sha1": "bb621d15845b0d9c4f20dd9cd73aca23d96ed423",
+      "bytes": 1198,
+      "file": "individual-primary-interface-source/1153/82dbf3e61514__check.py"
+    }
+  ]
+}

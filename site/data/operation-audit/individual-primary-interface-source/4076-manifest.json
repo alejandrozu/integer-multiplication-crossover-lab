@@ -1,0 +1,104 @@
+{
+  "pr": 4076,
+  "own_head": "9744f9df268590295a9872b1952c695a678192b9",
+  "primary_path_candidates": [
+    "research/staged544-triple-entry-fill/RESULT.json",
+    "research/staged544-triple-entry-fill/PROOF.md",
+    "research/staged544-triple-entry-fill/README.md",
+    "research/staged544-triple-entry-fill/TASK.json",
+    "research/staged544-triple-entry-fill/INPUTS.json",
+    "research/staged544-triple-entry-fill/VERIFY.json",
+    "research/staged544-triple-entry-fill/VERIFICATION.json",
+    "research/staged544-triple-entry-fill/owner/PROFILE.json",
+    "research/staged544-triple-entry-fill/recipe/ENTRIES.json",
+    "research/staged544-triple-entry-fill/recipe/RECORD-base.json",
+    "research/staged544-triple-entry-fill/recipe/RECORD-extra.json",
+    "research/staged544-triple-entry-fill/evidence/NATIVE-base.json",
+    "research/staged544-triple-entry-fill/evidence/NATIVE-extra.json",
+    "research/staged544-triple-entry-fill/native/SOURCE-PROVENANCE.json",
+    "research/staged544-triple-entry-fill/admission/pr3945/PREDECESSOR.json",
+    "research/staged544-triple-entry-fill/admission/pr3945/PR3682-CLAIM.json",
+    "research/staged544-triple-entry-fill/admission/pr3945/SOURCE-PATCHES.json",
+    "research/staged544-triple-entry-fill/NOTICE.md",
+    "research/staged544-triple-entry-fill/verify.py",
+    "research/staged544-triple-entry-fill/test_verify.py",
+    "research/staged544-triple-entry-fill/native/stage.py",
+    "research/staged544-triple-entry-fill/owner/verify.py",
+    "research/staged544-triple-entry-fill/native/common.py",
+    "research/staged544-triple-entry-fill/checks/__init__.py",
+    "research/staged544-triple-entry-fill/owner/build_fill.py",
+    "research/staged544-triple-entry-fill/checks/exact_root.py",
+    "research/staged544-triple-entry-fill/native/run_native.py",
+    "research/staged544-triple-entry-fill/recipe/make_record.py",
+    "research/staged544-triple-entry-fill/admission/full_replay.py",
+    "research/staged544-triple-entry-fill/admission/authenticate.py",
+    "research/staged544-triple-entry-fill/checks/independent_frames.py",
+    "research/staged544-triple-entry-fill/recipe/staged_entries_review.py",
+    "research/staged544-triple-entry-fill/recipe/staged_entries_applier.py",
+    "research/staged544-triple-entry-fill/admission/pr3945/terminal_review.py",
+    "research/staged544-triple-entry-fill/admission/pr3945/terminal_applier.py"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-triple-entry-fill/PROOF.md",
+    "research/staged544-triple-entry-fill/TASK.json",
+    "research/staged544-triple-entry-fill/verify.py",
+    "research/staged544-triple-entry-fill/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-triple-entry-fill/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4076/b00f1665c709__RESULT.json",
+      "sha256": "b00f1665c7096ca292079668bac86e25ca7552c57cbe62c8c45ea40aa8708ecf",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9744f9df268590295a9872b1952c695a678192b9/research/staged544-triple-entry-fill/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 81,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4076,
+      "head": "9744f9df268590295a9872b1952c695a678192b9",
+      "path": "research/staged544-triple-entry-fill/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9744f9df268590295a9872b1952c695a678192b9/research/staged544-triple-entry-fill/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9ebc183172a290f8b7f1527df9d56c3123f80e1a21485bf44c4cc5ecd56108cc",
+      "git_blob_sha1": "5965718abd3157ae497b624dfd12cf599e54b636",
+      "bytes": 6458,
+      "file": "individual-primary-interface-source/4076/9ebc183172a2__PROOF.md"
+    },
+    {
+      "pr": 4076,
+      "head": "9744f9df268590295a9872b1952c695a678192b9",
+      "path": "research/staged544-triple-entry-fill/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9744f9df268590295a9872b1952c695a678192b9/research/staged544-triple-entry-fill/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "97b0f7c8bf83a52dc325b3eadc0adeeb9ca13c0d44197dd7d42fdfb32f6f160e",
+      "git_blob_sha1": "84b178983e1f03ab0e35c9e6b5716aa437289bc1",
+      "bytes": 6017,
+      "file": "individual-primary-interface-source/4076/97b0f7c8bf83__TASK.json"
+    },
+    {
+      "pr": 4076,
+      "head": "9744f9df268590295a9872b1952c695a678192b9",
+      "path": "research/staged544-triple-entry-fill/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9744f9df268590295a9872b1952c695a678192b9/research/staged544-triple-entry-fill/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "84b6f8dba716e57a163abbd5331330e0dec197798be6780b90b61399292dc157",
+      "git_blob_sha1": "041ea02f471eaf1e598302e0ce3fe37126e110d0",
+      "bytes": 4390,
+      "file": "individual-primary-interface-source/4076/84b6f8dba716__verify.py"
+    },
+    {
+      "pr": 4076,
+      "head": "9744f9df268590295a9872b1952c695a678192b9",
+      "path": "research/staged544-triple-entry-fill/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9744f9df268590295a9872b1952c695a678192b9/research/staged544-triple-entry-fill/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9978f1a22b8911a26ce700d8150cde4d66368e0ff74316ca5c580cbd1040b11e",
+      "git_blob_sha1": "cabbfcfa386ff3a8c6edf3cd19fdeeed674d12aa",
+      "bytes": 8573,
+      "file": "individual-primary-interface-source/4076/9978f1a22b89__README.md"
+    }
+  ]
+}

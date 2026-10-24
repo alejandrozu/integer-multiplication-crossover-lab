@@ -1,0 +1,88 @@
+{
+  "pr": 1252,
+  "own_head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+  "primary_path_candidates": [
+    "research/frontier1094-idle-exchanges/replay/ASSEMBLY.json",
+    "README.md",
+    "research/frontier1094-idle-exchanges/README.md",
+    "research/frontier1094-idle-exchanges/HOSTED.json",
+    "research/frontier1094-idle-exchanges/CANDIDATE.json",
+    "research/frontier1094-idle-exchanges/OVERLAY-AUDIT.json",
+    "research/frontier1094-idle-exchanges/IDLE-PAIR-OVERLAY.json",
+    "research/frontier1094-idle-exchanges/BASE-EMITTER-REPLAY.json",
+    "research/frontier1094-idle-exchanges/replay/SPEC-candidate.json",
+    "research/frontier1094-idle-exchanges/replay/ADMISSION-RECEIPT.json",
+    "research/frontier1094-idle-exchanges/replay/ASSEMBLY-CONTROLS.json",
+    "research/frontier1094-idle-exchanges/replay/BASELINE-ASSEMBLY.json",
+    "research/frontier1094-idle-exchanges/replay/BIT-SUPPLIER-CONTROLS.json",
+    "research/frontier1094-idle-exchanges/replay/audit/ASYNC-AUDIT.json",
+    "research/frontier1094-idle-exchanges/replay/audit/GLOBAL-PREFIX.json",
+    "research/frontier1094-idle-exchanges/replay/audit/OWNERS-AND-PROFILE.json",
+    "research/frontier1094-idle-exchanges/replay/audit/PREFIX-AND-INVOICE.json",
+    "research/frontier1094-idle-exchanges/replay/audit/IDLE-REMAINDER-FRAMES.json",
+    "research/frontier1094-idle-exchanges/math_support.py",
+    "research/frontier1094-idle-exchanges/verify_overlay.py",
+    "research/frontier1094-idle-exchanges/build_candidate.py",
+    "research/frontier1094-idle-exchanges/assemble_candidate.py",
+    "research/frontier1094-idle-exchanges/audit_allcold_idle_overlay.py",
+    "research/frontier1094-idle-exchanges/replay/INTEGRATION-METHOD.md"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1094-idle-exchanges/replay/ASSEMBLY.json",
+    "research/frontier1094-idle-exchanges/HOSTED.json",
+    "research/frontier1094-idle-exchanges/math_support.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "README.md",
+      "file": "remaining-record-audit/artifacts/1252/f1f2aa2bbd39__README.md",
+      "sha256": "f1f2aa2bbd391ab0ac843abe2d2573c4a11abfdef7db47a6116d9db2f9559264",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-idle-exchanges/README.md",
+      "file": "remaining-record-audit/artifacts/1252/1550a31818b1__README.md",
+      "sha256": "1550a31818b19b45e041485717953567b56433be0ff879e2aee47af0ee9dcb36",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 27,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1252,
+      "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+      "path": "research/frontier1094-idle-exchanges/replay/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/replay/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1491257e60fd81f453c5bb5e1f6ddb5441e819abf6aca8319baf5b2f0d8360b8",
+      "git_blob_sha1": "d90a5da5d9b2410ab589b922a7e0b8429979232b",
+      "bytes": 85344,
+      "file": "individual-primary-interface-source/1252/1491257e60fd__ASSEMBLY.json"
+    },
+    {
+      "pr": 1252,
+      "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+      "path": "research/frontier1094-idle-exchanges/HOSTED.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/HOSTED.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "65f462f1b8652ecd8b2077f5fe3395a017301ef0bf2210f087555cc0f4377b61",
+      "git_blob_sha1": "8b2d936b0420e3009cc394e153f1d9d35cd34f74",
+      "bytes": 2341,
+      "file": "individual-primary-interface-source/1252/65f462f1b865__HOSTED.json"
+    },
+    {
+      "pr": 1252,
+      "head": "1b9db2faf82b8866b0bb0164501c9a627c7dca9b",
+      "path": "research/frontier1094-idle-exchanges/math_support.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1b9db2faf82b8866b0bb0164501c9a627c7dca9b/research/frontier1094-idle-exchanges/math_support.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9607f1f7791341b15558fc757616b8125b97cacf04ab7c15bac77b579ff3cc16",
+      "git_blob_sha1": "5e2a7da315111fe1b82925f1353852a0ebc6b2b6",
+      "bytes": 4355,
+      "file": "individual-primary-interface-source/1252/9607f1f77913__math_support.py"
+    }
+  ]
+}

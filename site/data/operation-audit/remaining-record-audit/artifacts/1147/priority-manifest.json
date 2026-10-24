@@ -1,0 +1,19 @@
+[
+  {
+    "pr": 1147,
+    "head": "0ffb3c804c44150153edd4a377d57685448d944d",
+    "path": "research/x4-fifth-joint-exchange-seed32/README.md",
+    "api_sha": "f5513685252f29718d9786a67519e3c0fbfc3f45",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/0ffb3c804c44150153edd4a377d57685448d944d/research%2Fx4-fifth-joint-exchange-seed32%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/x4-fifth-joint-exchange-seed32/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/README.md",
+    "file": "artifacts\\1147\\fca1d55f9242__README.md",
+    "sha256": "fca1d55f9242dbbf068b80aa983e4d87f7c538fb099580910b10df54a8a106f1",
+    "git_blob_sha1": "f5513685252f29718d9786a67519e3c0fbfc3f45",
+    "bytes": 2881,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:47.429628+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

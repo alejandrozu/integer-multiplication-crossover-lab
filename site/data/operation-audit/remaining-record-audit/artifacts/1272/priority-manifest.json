@@ -1,0 +1,19 @@
+[
+  {
+    "pr": 1272,
+    "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5",
+    "path": "research/complex-local-word-ceiling/verify.py",
+    "api_sha": null,
+    "api_blob_url": null,
+    "priority": 245,
+    "hint_base": "research/complex-local-word-ceiling/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5/research/complex-local-word-ceiling/verify.py",
+    "file": "artifacts\\1272\\06b59955c69a__verify.py",
+    "sha256": "06b59955c69a2e7f49aa031d2ebaac2f39dbe107f4087122704f2a37ce9806d5",
+    "git_blob_sha1": "069f09de381a52ac91ec3edb372bd4536a051d91",
+    "bytes": 8512,
+    "api_own_blob_verified": false,
+    "fetched_at_utc": "2026-10-24T14:22:26.434356+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

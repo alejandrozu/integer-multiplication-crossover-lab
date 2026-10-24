@@ -1,0 +1,94 @@
+{
+  "pr": 4088,
+  "own_head": "72d7efc181edb21806a878f174847c96dd410ab0",
+  "primary_path_candidates": [
+    "research/staged544-mixed-fourth-entry/RESULT.json",
+    "research/staged544-mixed-fourth-entry/PROOF.md",
+    "research/staged544-mixed-fourth-entry/README.md",
+    "research/staged544-mixed-fourth-entry/TASK.json",
+    "research/staged544-mixed-fourth-entry/INPUTS.json",
+    "research/staged544-mixed-fourth-entry/VERIFY.json",
+    "research/staged544-mixed-fourth-entry/EXPORTED-SOURCES.json",
+    "research/staged544-mixed-fourth-entry/owner/ORDER.json",
+    "research/staged544-mixed-fourth-entry/owner/DISPATCH.json",
+    "research/staged544-mixed-fourth-entry/recipe/RECORD-base.json",
+    "research/staged544-mixed-fourth-entry/recipe/RECORD-extra.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-base.json",
+    "research/staged544-mixed-fourth-entry/owner/MIXED-DISPATCH.json",
+    "research/staged544-mixed-fourth-entry/owner/PR4085-PROFILE.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-extra.json",
+    "research/staged544-mixed-fourth-entry/native/SOURCE-PROVENANCE.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-LOCAL-base.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-LOCAL-base.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-LOCAL-extra.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-NATIVE-base.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-PHASES-base.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-LOCAL-extra.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-PHASES-base.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-NATIVE-extra.json",
+    "research/staged544-mixed-fourth-entry/evidence/THREE-PHASES-extra.json",
+    "research/staged544-mixed-fourth-entry/evidence/NATIVE-PHASES-extra.json",
+    "research/staged544-mixed-fourth-entry/price.py",
+    "research/staged544-mixed-fourth-entry/NOTICE.md",
+    "research/staged544-mixed-fourth-entry/verify.py",
+    "research/staged544-mixed-fourth-entry/owner_verify.py",
+    "research/staged544-mixed-fourth-entry/operator_verify.py",
+    "research/staged544-mixed-fourth-entry/native/stage.py",
+    "research/staged544-mixed-fourth-entry/native/common.py",
+    "research/staged544-mixed-fourth-entry/native/run_native.py",
+    "research/staged544-mixed-fourth-entry/checks/inherited_frames.py"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-mixed-fourth-entry/TASK.json",
+    "research/staged544-mixed-fourth-entry/price.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-mixed-fourth-entry/PROOF.md",
+      "file": "remaining-record-audit/artifacts/4088/3aa03a9ba644__PROOF.md",
+      "sha256": "3aa03a9ba64422474890c137d2b10ef830464712830fd469fe1b0e9538b24ebb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/72d7efc181edb21806a878f174847c96dd410ab0/research/staged544-mixed-fourth-entry/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-mixed-fourth-entry/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4088/6346ee768637__RESULT.json",
+      "sha256": "6346ee768637aa9a1891d1d61d800d640235420b320fb7e659d1bf664ec42b3d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/72d7efc181edb21806a878f174847c96dd410ab0/research/staged544-mixed-fourth-entry/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-mixed-fourth-entry/README.md",
+      "file": "remaining-record-audit/artifacts/4088/98b53ad6e6ee__README.md",
+      "sha256": "98b53ad6e6ee7ef7ba106e68e7a2a77d8f5a9823202cb3725cf101f5901e2d6f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/72d7efc181edb21806a878f174847c96dd410ab0/research/staged544-mixed-fourth-entry/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 86,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4088,
+      "head": "72d7efc181edb21806a878f174847c96dd410ab0",
+      "path": "research/staged544-mixed-fourth-entry/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/72d7efc181edb21806a878f174847c96dd410ab0/research/staged544-mixed-fourth-entry/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8c34b11a10f0317dd4a4dc765b036a2231cee55cb44fc0e1e59fb64e11326a13",
+      "git_blob_sha1": "77f24f0c846cb00a702cb7aa06c31c02a29198fd",
+      "bytes": 5761,
+      "file": "individual-primary-interface-source/4088/8c34b11a10f0__TASK.json"
+    },
+    {
+      "pr": 4088,
+      "head": "72d7efc181edb21806a878f174847c96dd410ab0",
+      "path": "research/staged544-mixed-fourth-entry/price.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/72d7efc181edb21806a878f174847c96dd410ab0/research/staged544-mixed-fourth-entry/price.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "89b7c623befd880a163baabc52f8ca576281ad0d8b71685e2ee37c9709edb335",
+      "git_blob_sha1": "5b702b6fd94327f502fd9ef58594e1031dfa9db9",
+      "bytes": 2693,
+      "file": "individual-primary-interface-source/4088/89b7c623befd__price.py"
+    }
+  ]
+}

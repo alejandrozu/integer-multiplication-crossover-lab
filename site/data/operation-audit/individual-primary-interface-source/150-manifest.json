@@ -1,0 +1,64 @@
+{
+  "pr": 150,
+  "own_head": "40d4038760ebb6d6d3d702ce88fa3645de29f0c1",
+  "primary_path_candidates": [
+    "research/bit-reuse-147/plan.json",
+    "research/bit-reuse-147/expected.json",
+    "research/bit-reuse-147/PROOF.md",
+    "research/bit-reuse-147/README.md",
+    "research/bit-reuse-147/row.json",
+    "research/bit-reuse-147/verify.py",
+    "research/bit-reuse-147/word147.py",
+    "research/bit-reuse-147/price147.py",
+    "research/bit-reuse-147/frames147.py",
+    "research/bit-reuse-147/make_plan.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-reuse-147/plan.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-reuse-147/PROOF.md",
+      "file": "remaining-record-audit/artifacts/150/fe192a2b5413__PROOF.md",
+      "sha256": "fe192a2b5413b0f421b9e72fc5957c66710f0a37826fe878d4073fbe046007fe",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40d4038760ebb6d6d3d702ce88fa3645de29f0c1/research/bit-reuse-147/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-reuse-147/expected.json",
+      "file": "remaining-record-audit/artifacts/150/ff0b92dd643f__expected.json",
+      "sha256": "ff0b92dd643f40c2a391452f930920441af82e46a0e482287b407defa6d233d5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40d4038760ebb6d6d3d702ce88fa3645de29f0c1/research/bit-reuse-147/expected.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-reuse-147/verify.py",
+      "file": "remaining-record-audit/artifacts/150/2e4c2eaf276e__verify.py",
+      "sha256": "2e4c2eaf276e9f3210c8ec386b96bb2efddc297a450918367cff9a41b908aa2d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40d4038760ebb6d6d3d702ce88fa3645de29f0c1/research/bit-reuse-147/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-reuse-147/README.md",
+      "file": "remaining-record-audit/artifacts/150/60afc7b19da4__README.md",
+      "sha256": "60afc7b19da465ff08a7b45f61f3ac50d6d1974b2f18d51239d38ba1c2577ad6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40d4038760ebb6d6d3d702ce88fa3645de29f0c1/research/bit-reuse-147/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 150,
+      "head": "40d4038760ebb6d6d3d702ce88fa3645de29f0c1",
+      "path": "research/bit-reuse-147/plan.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/40d4038760ebb6d6d3d702ce88fa3645de29f0c1/research/bit-reuse-147/plan.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0d139f703057ede52ac43dc32ea55d5dee2fcb91df7fada42e70d240500fd62d",
+      "git_blob_sha1": "6384777f51fd5571a6c848e743a96ebfdb23b647",
+      "bytes": 77672,
+      "file": "individual-primary-interface-source/150/0d139f703057__plan.json"
+    }
+  ]
+}

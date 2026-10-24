@@ -1,0 +1,184 @@
+{
+  "schema": "own-changed-p16-literal-lower/1",
+  "status": "closed_conditional_literal_family_lower_bound",
+  "pr": 5383,
+  "own_head": "4bd6efa51a495a7c7b7754915cf0244e7e60969e",
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "H": "31385200000000",
+  "N": "2^31385200000000",
+  "tensor_power": 1024,
+  "kappa": "151333/50000000",
+  "eta_uniform": "529667/175000000",
+  "raw_rank": 145,
+  "raw_productive_fields": 10800,
+  "raw_paid_jobs": 64148,
+  "rank_surplus": 752,
+  "selected_result_file": "late-uniform-source-extraction/files/5383/a0b489352d5ad1a1__RESULT.json",
+  "selected_result_sha256": "d6a99bd75c6b7a2146b0fc4cfa038890aaf1d4adcdef42d767fdb40b687e61aa",
+  "selected_literal_file": "late-uniform-source-extraction/files/5383/86d1af25d9e39854__WORD.json.gz",
+  "selected_literal_sha256": "7883ba0faefc96505bb61ca7312d588fa22dfe2164050c817c1718b8fa28693a",
+  "selected_word_canonical_sha256": "2aee5e997df99726fc763e510d9cb69fbe4f86114dc8d2cd33ad26c6c462a21d",
+  "used_boundary_complex_ADD_count": 4,
+  "available_literal_complex_ADD_count": 716,
+  "selected_literal_ADDs": [
+    {
+      "event_index": 173,
+      "instruction": [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            119
+          ],
+          [
+            "L",
+            169
+          ],
+          1,
+          1
+        ],
+        0
+      ]
+    },
+    {
+      "event_index": 176,
+      "instruction": [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            139
+          ],
+          [
+            "L",
+            112
+          ],
+          1,
+          1
+        ],
+        0
+      ]
+    },
+    {
+      "event_index": 179,
+      "instruction": [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            193
+          ],
+          [
+            "L",
+            204
+          ],
+          1,
+          1
+        ],
+        0
+      ]
+    },
+    {
+      "event_index": 182,
+      "instruction": [
+        "scalar",
+        [
+          "add",
+          [
+            "L",
+            199
+          ],
+          [
+            "L",
+            188
+          ],
+          1,
+          1
+        ],
+        0
+      ]
+    }
+  ],
+  "literal_ADD_scope": "Four public-field scalar additions retained in the own selected backward local word, called by the complete raw controller.",
+  "active_AND_lower": "8*2^N",
+  "active_XOR_lower": "24*2^N",
+  "j": 3,
+  "q": 0,
+  "input_bits": "2^(2^31385199999997-2^69)",
+  "plot_triple_log": {
+    "log2_of_integer": "31385199999997",
+    "negligible_negative_correction": true
+  },
+  "upper": null,
+  "whole_sufficient_upper_derived": false,
+  "native_full_engine_replayed_here": false,
+  "scope": "Own complete unreduced raw controller/native word, complete field and spectators when active, stored width at least two; identical repaired optimized GMP when inactive.",
+  "statistic": "Earliest input width at which a correct member of the declared own-source literal enhancement family strictly beats the reference",
+  "all_PR_implementations": false,
+  "exact_individual_crossing": false,
+  "arbitrary_switch_used_as_lower": false,
+  "precision_gate_used_as_lower": false,
+  "retained_contracts": [
+    "Own source changed-native arbitrary-input, absolute-phase, all-column, required-output-frame, clean owned-bank and complete spectator interfaces. Stored source receipts are authenticated, not a fresh full native-engine replay here.",
+    "Own compiler physically realizes its strict positive uniform-saving supplier at the selected stated H, with all base cases and complete raw native occurrences retained. No claim of an emitted uniform word.",
+    "Prescribed unreduced ADD macro retains the selected scalar instructions on every complete field coordinate; fixed public wiring and constant synthesis are free, scalar macros are not cancelled by cross-instruction simplification.",
+    "Same fixed XAG and repaired optimized-GMP opcode, source-correctness and finite-leaf halting/allocation contracts used in the hash-bound degree8 upper."
+  ],
+  "source_hashes": {
+    "late-uniform-source-extraction/files/5383/75faebd6b0eb3a96__README.md": "899027b74219ece1832d711e27def50eb49994cd28ede4fedcdd0bd0f2574c64",
+    "late-uniform-source-extraction/files/5383/a0b489352d5ad1a1__RESULT.json": "d6a99bd75c6b7a2146b0fc4cfa038890aaf1d4adcdef42d767fdb40b687e61aa",
+    "late-uniform-source-extraction/files/5383/7f8876592c06a92f__SOURCES.json": "3b1536861c5b6990966ad5107f3a619f5d9da548f3c4eaa454ec32341e640dd3",
+    "late-uniform-source-extraction/files/5383/fe15b8f9c12db6bb__TASK.json": "4d536a9bd6162b64ecf7bba20bec35fa0ca8fe61abf8e1404cd010b58de07a3d",
+    "late-uniform-source-extraction/files/5383/8a09885b74f074f0__VERIFY.json": "1fc62a3afd087aa63f8d993beb1cba944b9b441824cd14e9135e792fcd45bab8",
+    "late-uniform-source-extraction/files/5383/635b75213db6f660__WITNESS.json": "24599011da06325e1012619b2b84a4dd3aceb90ab42d3caaf6414879e7d16591",
+    "late-uniform-source-extraction/files/5383/86d1af25d9e39854__WORD.json.gz": "7883ba0faefc96505bb61ca7312d588fa22dfe2164050c817c1718b8fa28693a",
+    "late-uniform-source-extraction/files/5383/9d4a4f7d06c360b4__native.py": "3c8efab1f830868c054d33391ee2f8bc74f9bae9c134edf5b455790eb674c1c4",
+    "late-uniform-source-extraction/files/5383/5a5f08904ae8b42c__price.py": "6ec03cda9ab6cb27c4a281c12646bbbc232cc57b8ec179969c59b0072c4b59ba",
+    "late-uniform-source-extraction/files/5383/b98059ee89fd5120__verify.py": "43fb20a4ef18fb17f168c9e3c1608898551a04fb64496405d3682983dbf47828"
+  },
+  "dependency_hashes": {
+    "changed-native-p16-boundary-lowers.md": "702528363382907ea16e6a3e491ce843389603dab12dad923714df8fdb70efad",
+    "optimized-gmp-degree8-upper.md": "178a7e8854e0401ea03e2b2391646d2f1dd1fc73e12264a5e0dc32e725877f12",
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1",
+    "pr4433-literal-boundary-lower.md": "bc8c10ea2ee2b54a6f909f8fbebfa9d2143973e28cb786d987cf0ea75adbdc45",
+    "late-uniform-source-extraction/source-manifest.json": "2568014b4044e15a207aaffcfda6c0952b7dbf67937de4fd85cb7681ac8610ae"
+  },
+  "proof_file": "changed-native-p16-boundary-lowers.md",
+  "script_sha256": "ae299dab2e7aacf56d30878688c9c5f40d96b77133392c01588d208fe77b9a7b",
+  "checks_passed": 29,
+  "checks": {
+    "own_primary_0": true,
+    "own_git_blob_0": true,
+    "own_primary_1": true,
+    "own_git_blob_1": true,
+    "own_primary_2": true,
+    "own_git_blob_2": true,
+    "own_primary_3": true,
+    "own_git_blob_3": true,
+    "own_primary_4": true,
+    "own_git_blob_4": true,
+    "own_primary_5": true,
+    "own_git_blob_5": true,
+    "own_primary_6": true,
+    "own_git_blob_6": true,
+    "own_primary_7": true,
+    "own_git_blob_7": true,
+    "own_primary_8": true,
+    "own_git_blob_8": true,
+    "own_primary_9": true,
+    "own_git_blob_9": true,
+    "own_exact_selected_uniform_rank": true,
+    "own_positive_uniform_saving": true,
+    "own_actual_record_funded": true,
+    "own_complete_rank_mass": true,
+    "own_whole_raw_counts": true,
+    "own_selected_word_digest": true,
+    "own_backward_called_in_complete_raw_unit": true,
+    "four_actual_literal_complex_ADDs": true,
+    "strict_nonwin_exponent_positive": true
+  }
+}

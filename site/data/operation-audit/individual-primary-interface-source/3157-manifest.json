@@ -1,0 +1,77 @@
+{
+  "pr": 3157,
+  "own_head": "313ede7cfd0002b3884e235730a564e8ec7c2e05",
+  "primary_path_candidates": [
+    "research/rank7-r1-t740-cap/CLAIM.json",
+    "research/rank7-r1-t740-cap/allocation/EXPECTED.json",
+    "research/rank7-r1-t740-cap/README.md",
+    "research/rank7-r1-t740-cap/TASK.json",
+    "research/rank7-r1-t740-cap/VENDOR.json",
+    "research/rank7-r1-t740-cap/VERIFY.json",
+    "research/rank7-r1-t740-cap/allocation/PROFILE.json",
+    "research/rank7-r1-t740-cap/construction/CHAINS.json",
+    "research/rank7-r1-t740-cap/allocation/RELOCATIONS.json",
+    "research/rank7-r1-t740-cap/comparators/PR3015-CLAIM.json",
+    "research/rank7-r1-t740-cap/certificates/R1-RELAX-CAP.json",
+    "research/rank7-r1-t740-cap/comparators/PR3015-PROFILE.json",
+    "research/rank7-r1-t740-cap/comparators/PR3021-OUTER-CLAIM.json",
+    "research/rank7-r1-t740-cap/lift.py",
+    "research/rank7-r1-t740-cap/verify.py",
+    "research/rank7-r1-t740-cap/controls.py",
+    "research/rank7-r1-t740-cap/construction/plan_t740.py",
+    "research/rank7-r1-t740-cap/tools/audit_allocation_moment.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-r1-t740-cap/lift.py",
+    "research/rank7-r1-t740-cap/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-r1-t740-cap/README.md",
+      "file": "remaining-record-audit/artifacts/3157/c2b1b6851f51__README.md",
+      "sha256": "c2b1b6851f5156fcb8e8ba14f27fcbd70242f7b6d57fc37969df80ce9b1b055a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/313ede7cfd0002b3884e235730a564e8ec7c2e05/research/rank7-r1-t740-cap/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-r1-t740-cap/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3157/eef7e237721f__CLAIM.json",
+      "sha256": "eef7e237721f7be376c9d69e07a919028f850bfa06a7a0f446df6007d092c963",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/313ede7cfd0002b3884e235730a564e8ec7c2e05/research/rank7-r1-t740-cap/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-r1-t740-cap/allocation/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/3157/36216a8d41e3__EXPECTED.json",
+      "sha256": "36216a8d41e36efb46a70364a33b170ef41ad1a9a587b06314e17395d37fc0c4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/313ede7cfd0002b3884e235730a564e8ec7c2e05/research/rank7-r1-t740-cap/allocation/EXPECTED.json"
+    }
+  ],
+  "github_changed_file_reported_count": 21,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3157,
+      "head": "313ede7cfd0002b3884e235730a564e8ec7c2e05",
+      "path": "research/rank7-r1-t740-cap/lift.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/313ede7cfd0002b3884e235730a564e8ec7c2e05/research/rank7-r1-t740-cap/lift.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "257e1ec13d25f0e8f2ca42a0f2772afeff2590beb8ea7c6dace40d019920fb95",
+      "git_blob_sha1": "445c0b660c434d1cea540a44a9dc86c0a95c8717",
+      "bytes": 4832,
+      "file": "individual-primary-interface-source/3157/257e1ec13d25__lift.py"
+    },
+    {
+      "pr": 3157,
+      "head": "313ede7cfd0002b3884e235730a564e8ec7c2e05",
+      "path": "research/rank7-r1-t740-cap/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/313ede7cfd0002b3884e235730a564e8ec7c2e05/research/rank7-r1-t740-cap/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9ef212c6b91aef6d4c77c87ad87a378ce432a60b070d2c4dc2ae875659147dba",
+      "git_blob_sha1": "c5c441ddac3125deb084a4eb1fc9ef8113f8096f",
+      "bytes": 6174,
+      "file": "individual-primary-interface-source/3157/9ef212c6b91a__TASK.json"
+    }
+  ]
+}

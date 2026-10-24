@@ -1,0 +1,73 @@
+{
+  "pr": 4412,
+  "own_head": "9f0df9bf6f49942faf5f31389e7e387fdfe511b3",
+  "primary_path_candidates": [
+    "research/pr4359-tensor-strictification/RESULT.json",
+    "research/pr4359-tensor-strictification/README.md",
+    "research/pr4359-tensor-strictification/TASK.json",
+    "research/pr4359-tensor-strictification/VERIFY.json",
+    "research/pr4359-tensor-strictification/EXPORTED-SOURCES.json",
+    "research/pr4359-tensor-strictification/NATIVE.md",
+    "research/pr4359-tensor-strictification/TENSOR.md",
+    "research/pr4359-tensor-strictification/verify.py",
+    "research/pr4359-tensor-strictification/ENDPOINT.md",
+    "research/pr4359-tensor-strictification/endpoint.py",
+    "research/pr4359-tensor-strictification/strictification.py",
+    "research/pr4359-tensor-strictification/native_inventory.py",
+    "research/pr4359-tensor-strictification/dependencies/compiler-refill/endpoint.py",
+    "research/pr4359-tensor-strictification/dependencies/compiler-refill/template_bound.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4359-tensor-strictification/TASK.json",
+    "research/pr4359-tensor-strictification/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4359-tensor-strictification/README.md",
+      "file": "remaining-record-audit/artifacts/4412/a85a7a9002c4__README.md",
+      "sha256": "a85a7a9002c4efd36172cb79ab8461397ad8a45ff5706c17ba25913883aa338b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9f0df9bf6f49942faf5f31389e7e387fdfe511b3/research/pr4359-tensor-strictification/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4359-tensor-strictification/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4412/4b0bbf35d51e__RESULT.json",
+      "sha256": "4b0bbf35d51e25c167327ceba9f969eba2a80bd359d5a92964e1c47ba5bce15d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9f0df9bf6f49942faf5f31389e7e387fdfe511b3/research/pr4359-tensor-strictification/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4359-tensor-strictification/verify.py",
+      "file": "remaining-record-audit/artifacts/4412/d9791031deed__verify.py",
+      "sha256": "d9791031deed192cfab8fcd8b031c623e254081ddfcfc6cfe398077442827b7c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9f0df9bf6f49942faf5f31389e7e387fdfe511b3/research/pr4359-tensor-strictification/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 31,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4412,
+      "head": "9f0df9bf6f49942faf5f31389e7e387fdfe511b3",
+      "path": "research/pr4359-tensor-strictification/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9f0df9bf6f49942faf5f31389e7e387fdfe511b3/research/pr4359-tensor-strictification/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "84487a18a01f7bc2f74fdb2cfa0afcac46b7c36c90b25896db0342f1d9c51792",
+      "git_blob_sha1": "8c7ec1849e02cbcae2f147ccad576864b91873d8",
+      "bytes": 6351,
+      "file": "individual-primary-interface-source/4412/84487a18a01f__TASK.json"
+    },
+    {
+      "pr": 4412,
+      "head": "9f0df9bf6f49942faf5f31389e7e387fdfe511b3",
+      "path": "research/pr4359-tensor-strictification/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9f0df9bf6f49942faf5f31389e7e387fdfe511b3/research/pr4359-tensor-strictification/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0b8267f399234c597c547e1e12b89dd80f6a4d8123be70856e5cb79ce9eeb14b",
+      "git_blob_sha1": "0edea8eacd59188c9fcb8fa550072d3baf6854df",
+      "bytes": 526,
+      "file": "individual-primary-interface-source/4412/0b8267f39923__VERIFY.json"
+    }
+  ]
+}

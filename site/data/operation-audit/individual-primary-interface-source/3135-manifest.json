@@ -1,0 +1,77 @@
+{
+  "pr": 3135,
+  "own_head": "776ae75d640e6a5672e8ea798677a2cd3ae2d53c",
+  "primary_path_candidates": [
+    "research/t740-six-skip-precision35/PROOF.md",
+    "research/t740-six-skip-precision35/README.md",
+    "research/t740-six-skip-precision35/TASK.json",
+    "research/t740-six-skip-precision35/VERIFY.json",
+    "research/t740-six-skip-precision35/PRECISION-EDITS.json",
+    "research/t740-six-skip-precision35/evidence/DERIVATION.json",
+    "research/t740-six-skip-precision35/evidence/VALIDATION.json",
+    "research/t740-six-skip-precision35/evidence/OUTER-LEDGER.json",
+    "research/t740-six-skip-precision35/seal.py",
+    "research/t740-six-skip-precision35/verify.py",
+    "research/t740-six-skip-precision35/baseline.py",
+    "research/t740-six-skip-precision35/reproduce.py",
+    "research/t740-six-skip-precision35/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t740-six-skip-precision35/TASK.json",
+    "research/t740-six-skip-precision35/VERIFY.json",
+    "research/t740-six-skip-precision35/seal.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t740-six-skip-precision35/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3135/9d89c0bb03ea__PROOF.md",
+      "sha256": "9d89c0bb03eaeb9f0648e6a661bdd0c77c7f98191788e4a6e90d2343460e509e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/776ae75d640e6a5672e8ea798677a2cd3ae2d53c/research/t740-six-skip-precision35/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t740-six-skip-precision35/README.md",
+      "file": "remaining-record-audit/artifacts/3135/654ce0f4da20__README.md",
+      "sha256": "654ce0f4da202694159d3711483f311022d3890044090e7e9ac69e687b6d38a0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/776ae75d640e6a5672e8ea798677a2cd3ae2d53c/research/t740-six-skip-precision35/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3135,
+      "head": "776ae75d640e6a5672e8ea798677a2cd3ae2d53c",
+      "path": "research/t740-six-skip-precision35/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/776ae75d640e6a5672e8ea798677a2cd3ae2d53c/research/t740-six-skip-precision35/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0efe89ab9b23bb8d4125c31226ee9a4049a1d4ce8d4fa4e3f0b16a763d8807e1",
+      "git_blob_sha1": "9dbec110bc48bc61a8e3095aebf85b7feb5bc2c2",
+      "bytes": 4364,
+      "file": "individual-primary-interface-source/3135/0efe89ab9b23__TASK.json"
+    },
+    {
+      "pr": 3135,
+      "head": "776ae75d640e6a5672e8ea798677a2cd3ae2d53c",
+      "path": "research/t740-six-skip-precision35/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/776ae75d640e6a5672e8ea798677a2cd3ae2d53c/research/t740-six-skip-precision35/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2ba4145ff08ba843dc76094209aa2025ff4428af49edb1ae8335b7a5b76b99d3",
+      "git_blob_sha1": "a8b0ac183f04f11738a6d9e3f427dbb93fb6545c",
+      "bytes": 7538,
+      "file": "individual-primary-interface-source/3135/2ba4145ff08b__VERIFY.json"
+    },
+    {
+      "pr": 3135,
+      "head": "776ae75d640e6a5672e8ea798677a2cd3ae2d53c",
+      "path": "research/t740-six-skip-precision35/seal.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/776ae75d640e6a5672e8ea798677a2cd3ae2d53c/research/t740-six-skip-precision35/seal.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "455824249fa9bcbf4d60735a58043fd0c200048fddf456c9f58d628e321ea688",
+      "git_blob_sha1": "427d5ca152def52de2ce5910f9ec9ea5b612c8e7",
+      "bytes": 6389,
+      "file": "individual-primary-interface-source/3135/455824249fa9__seal.py"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "pr": 3485,
+  "own_head": "1ee2ac4be28f284d75eac0869f2049025f94b94b",
+  "primary_path_candidates": [
+    "research/t8-rank7-dual-swap/EXPECTED.json",
+    "research/t8-rank7-dual-swap/CERTIFICATE.json",
+    "research/t8-rank7-dual-swap/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+    "research/t8-rank7-dual-swap/PROOF.md",
+    "research/t8-rank7-dual-swap/README.md",
+    "research/t8-rank7-dual-swap/TASK.json",
+    "research/t8-rank7-dual-swap/VERIFY.json",
+    "research/t8-rank7-dual-swap/PLAN-T8.json",
+    "research/t8-rank7-dual-swap/CAP-RATIO.json",
+    "research/t8-rank7-dual-swap/PLAN-3413.json",
+    "research/t8-rank7-dual-swap/PLAN-3468.json",
+    "research/t8-rank7-dual-swap/INPUT-PINS.json",
+    "research/t8-rank7-dual-swap/LOCAL-PINS.json",
+    "research/t8-rank7-dual-swap/MATERIALIZE.json",
+    "research/t8-rank7-dual-swap/ORDER-RECIPE.json",
+    "research/t8-rank7-dual-swap/DISPATCH-RULE.json",
+    "research/t8-rank7-dual-swap/SOURCE-ORIGINS.json",
+    "research/t8-rank7-dual-swap/CANONICAL-INPUTS.json",
+    "research/t8-rank7-dual-swap/PREDECESSOR-3457.json",
+    "research/t8-rank7-dual-swap/PREDECESSOR-3465.json",
+    "research/t8-rank7-dual-swap/PREDECESSOR-3468.json",
+    "research/t8-rank7-dual-swap/EXPECTED-PROFILE-PRICE.json",
+    "research/t8-rank7-dual-swap/source-inputs/research/community-k492-audit/pr622/replay/baseline558/complex-global/base/work/complex-nine-native/DATA-PHASES.json",
+    "research/t8-rank7-dual-swap/replay.py",
+    "research/t8-rank7-dual-swap/verify.py",
+    "research/t8-rank7-dual-swap/CREDITS.md",
+    "research/t8-rank7-dual-swap/coloring.py",
+    "research/t8-rank7-dual-swap/materialize.py",
+    "research/t8-rank7-dual-swap/reconstruct.py",
+    "research/t8-rank7-dual-swap/price_profile.py",
+    "research/t8-rank7-dual-swap/BOUNDED-DOMAIN.md",
+    "research/t8-rank7-dual-swap/test_materialize.py",
+    "research/t8-rank7-dual-swap/test_reconstruct.py",
+    "research/t8-rank7-dual-swap/PREDECESSOR-COLORING.py",
+    "research/t8-rank7-dual-swap/source-inputs/research/t16-owner-audit-seed67/verify.py",
+    "research/t8-rank7-dual-swap/source-inputs/research/frontier1094-idle-star-ceiling/analyze.py"
+  ],
+  "selected_for_recovery": [
+    "research/t8-rank7-dual-swap/replay.py",
+    "research/t8-rank7-dual-swap/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t8-rank7-dual-swap/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3485/b761920cea02__PROOF.md",
+      "sha256": "b761920cea024ddafcf5dfcf6b5519c4db6372ed6a22101e1ffcf94ab53ce0c2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ee2ac4be28f284d75eac0869f2049025f94b94b/research/t8-rank7-dual-swap/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t8-rank7-dual-swap/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/3485/f9028b7a63df__EXPECTED.json",
+      "sha256": "f9028b7a63dfbbdc185611eae41126ece3020c08bd9a1c85fe1d8de6af8cb1f4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ee2ac4be28f284d75eac0869f2049025f94b94b/research/t8-rank7-dual-swap/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t8-rank7-dual-swap/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/3485/c761c114822e__CERTIFICATE.json",
+      "sha256": "c761c114822eb334b2901d410b3527b3ac60c65ada75cc9d80270548bb0bf0e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ee2ac4be28f284d75eac0869f2049025f94b94b/research/t8-rank7-dual-swap/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 49,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3485,
+      "head": "1ee2ac4be28f284d75eac0869f2049025f94b94b",
+      "path": "research/t8-rank7-dual-swap/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ee2ac4be28f284d75eac0869f2049025f94b94b/research/t8-rank7-dual-swap/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1835571267ed67d19f5010ba3f97531754465fb60ff0422841607f34fb5491e3",
+      "git_blob_sha1": "5a670af392b9bbeff52bf419a0031525090b6235",
+      "bytes": 5117,
+      "file": "individual-primary-interface-source/3485/1835571267ed__replay.py"
+    },
+    {
+      "pr": 3485,
+      "head": "1ee2ac4be28f284d75eac0869f2049025f94b94b",
+      "path": "research/t8-rank7-dual-swap/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1ee2ac4be28f284d75eac0869f2049025f94b94b/research/t8-rank7-dual-swap/source-inputs/research/community-frontier1094-audit/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1122cb3a575f8c788345fc1bf4c108ac7c3250fb81a5988671f5eb04b3ab3045",
+      "git_blob_sha1": "5fd676df060f3b450782fdf5ff5f6beb63a5eeb0",
+      "bytes": 85147,
+      "file": "individual-primary-interface-source/3485/1122cb3a575f__ASSEMBLY.json"
+    }
+  ]
+}

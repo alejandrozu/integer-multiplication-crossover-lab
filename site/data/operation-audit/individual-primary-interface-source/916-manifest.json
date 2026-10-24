@@ -1,0 +1,73 @@
+{
+  "pr": 916,
+  "own_head": "1f0cd934f83ddf2f14f20275ecca072c5b85a7b9",
+  "primary_path_candidates": [
+    "research/x4-primitive-admission/EXPECTED.json",
+    "research/x4-primitive-admission/CLAIM.md",
+    "research/x4-primitive-admission/PROOF.md",
+    "research/x4-primitive-admission/README.md",
+    "research/x4-primitive-admission/VALIDATION.md",
+    "research/x4-primitive-admission/FRESH-REPLAY.json",
+    "research/x4-primitive-admission/admit.py",
+    "research/x4-primitive-admission/lowering.py",
+    "research/x4-primitive-admission/test_controls.py"
+  ],
+  "selected_for_recovery": [
+    "research/x4-primitive-admission/CLAIM.md",
+    "research/x4-primitive-admission/FRESH-REPLAY.json",
+    "research/x4-primitive-admission/admit.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-primitive-admission/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/916/d05f4b075202__EXPECTED.json",
+      "sha256": "d05f4b075202262aa1680ac3362ca9cfcc89edb757eaf7103028fb464b52da44",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1f0cd934f83ddf2f14f20275ecca072c5b85a7b9/research/x4-primitive-admission/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-primitive-admission/PROOF.md",
+      "file": "remaining-record-audit/artifacts/916/c349a12986eb__PROOF.md",
+      "sha256": "c349a12986eb073364b3dfa573a37f2f453b65735ffacdeda506308c0fa2cd4c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1f0cd934f83ddf2f14f20275ecca072c5b85a7b9/research/x4-primitive-admission/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 24,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 916,
+      "head": "1f0cd934f83ddf2f14f20275ecca072c5b85a7b9",
+      "path": "research/x4-primitive-admission/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1f0cd934f83ddf2f14f20275ecca072c5b85a7b9/research/x4-primitive-admission/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "db4fde25e9c8b04e31d0b3a2c31d2de040425980c85217cc7316d6aa8d2f819e",
+      "git_blob_sha1": "cc884340fd44ee1d1e2ca1a9a1683b7593356f11",
+      "bytes": 1066,
+      "file": "individual-primary-interface-source/916/db4fde25e9c8__CLAIM.md"
+    },
+    {
+      "pr": 916,
+      "head": "1f0cd934f83ddf2f14f20275ecca072c5b85a7b9",
+      "path": "research/x4-primitive-admission/FRESH-REPLAY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1f0cd934f83ddf2f14f20275ecca072c5b85a7b9/research/x4-primitive-admission/FRESH-REPLAY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e132f19044b1aeb375965f96e94788a7d5c6dc5f080f967d4479a945a2d8abca",
+      "git_blob_sha1": "9512ea39babb689d72062570a0395bdc7da0f87b",
+      "bytes": 7658,
+      "file": "individual-primary-interface-source/916/e132f19044b1__FRESH-REPLAY.json"
+    },
+    {
+      "pr": 916,
+      "head": "1f0cd934f83ddf2f14f20275ecca072c5b85a7b9",
+      "path": "research/x4-primitive-admission/admit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1f0cd934f83ddf2f14f20275ecca072c5b85a7b9/research/x4-primitive-admission/admit.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6bc6b7d0fca4e99dca20d4e1a67316c2a7b23fb93a57fe8a851ab2cb2cb322d5",
+      "git_blob_sha1": "5f9acccf4e7c3c2d5e8d38c4ceb92dab946e7aad",
+      "bytes": 9321,
+      "file": "individual-primary-interface-source/916/6bc6b7d0fca4__admit.py"
+    }
+  ]
+}

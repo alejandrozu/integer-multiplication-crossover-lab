@@ -1,0 +1,61 @@
+{
+  "pr": 1206,
+  "own_head": "3c0a3240035f1c71ef09251b7be7c4791da8157d",
+  "primary_path_candidates": [
+    "research/r420-decoder-chain/CLAIM.json",
+    "research/r420-decoder-chain/CERTIFICATE.json",
+    "research/r420-decoder-chain/README.md",
+    "research/r420-decoder-chain/NATIVE.json",
+    "research/r420-decoder-chain/VALIDATION.json",
+    "research/r420-decoder-chain/native.py",
+    "research/r420-decoder-chain/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r420-decoder-chain/native.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-decoder-chain/README.md",
+      "file": "remaining-record-audit/artifacts/1206/14b6b258e604__README.md",
+      "sha256": "14b6b258e604f1e4b49e586c50a4e687e94286981305e9a572c752131154e071",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3c0a3240035f1c71ef09251b7be7c4791da8157d/research/r420-decoder-chain/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-decoder-chain/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1206/8fbd7f3a4de1__CLAIM.json",
+      "sha256": "8fbd7f3a4de1d85d710a75272ba48168efef372ff650d3f345da97d77cac9c0b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3c0a3240035f1c71ef09251b7be7c4791da8157d/research/r420-decoder-chain/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-decoder-chain/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1206/188d4a283122__CERTIFICATE.json",
+      "sha256": "188d4a2831229bd5d4245c35037bd956104d08ef7c03a119f602c94caf427980",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3c0a3240035f1c71ef09251b7be7c4791da8157d/research/r420-decoder-chain/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-decoder-chain/NATIVE.json",
+      "file": "remaining-record-audit/artifacts/1206/69ea669b6895__NATIVE.json",
+      "sha256": "69ea669b689534631f65ae8d40552a876f19c94616fc265d1fd75d6045812375",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3c0a3240035f1c71ef09251b7be7c4791da8157d/research/r420-decoder-chain/NATIVE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1206,
+      "head": "3c0a3240035f1c71ef09251b7be7c4791da8157d",
+      "path": "research/r420-decoder-chain/native.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3c0a3240035f1c71ef09251b7be7c4791da8157d/research/r420-decoder-chain/native.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bad8f36bed93e0adff5cdf56736edeb4f2526ad34115f3c811c84e247af155a3",
+      "git_blob_sha1": "770bfc5f8ef57f8f16baef121d88e1066f5b1e0e",
+      "bytes": 5353,
+      "file": "individual-primary-interface-source/1206/bad8f36bed93__native.py"
+    }
+  ]
+}

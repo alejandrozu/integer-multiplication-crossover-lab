@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 1749,
+    "head": "90405b9498e4abfdd7d0eececcf11c7e83c6d13b",
+    "path": "research/s4-noncommuting-threecycle-r4-seeda27b/README.md",
+    "api_sha": "5af621bac9e1f05e92bcb436781a781d9764eb5b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research%2Fs4-noncommuting-threecycle-r4-seeda27b%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research/s4-noncommuting-threecycle-r4-seeda27b/README.md",
+    "file": "artifacts\\1749\\c52c66784a66__README.md",
+    "sha256": "c52c66784a662ef63854a2944ed56f8540e288e1fb1674a0d4e7fa0fd51ce430",
+    "git_blob_sha1": "5af621bac9e1f05e92bcb436781a781d9764eb5b",
+    "bytes": 6978,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.330462+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1749,
+    "head": "90405b9498e4abfdd7d0eececcf11c7e83c6d13b",
+    "path": "research/s4-noncommuting-threecycle-r4-seeda27b/SOURCES.json",
+    "api_sha": "23135e92b930ddb69357821e1f019c81ccb70297",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research%2Fs4-noncommuting-threecycle-r4-seeda27b%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research/s4-noncommuting-threecycle-r4-seeda27b/SOURCES.json",
+    "file": "artifacts\\1749\\00aa6fd3bdb8__SOURCES.json",
+    "sha256": "00aa6fd3bdb8c94aa540e92c7a8c61d7eff112ab6c1e1bd38aaadbbc40564b9a",
+    "git_blob_sha1": "23135e92b930ddb69357821e1f019c81ccb70297",
+    "bytes": 1605,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.299165+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1749,
+    "head": "90405b9498e4abfdd7d0eececcf11c7e83c6d13b",
+    "path": "research/s4-noncommuting-threecycle-r4-seeda27b/verify.py",
+    "api_sha": "1c23d0b793bba3ac73ff1215d65bef008ec4b148",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research%2Fs4-noncommuting-threecycle-r4-seeda27b%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/90405b9498e4abfdd7d0eececcf11c7e83c6d13b/research/s4-noncommuting-threecycle-r4-seeda27b/verify.py",
+    "file": "artifacts\\1749\\78119d1f413a__verify.py",
+    "sha256": "78119d1f413a307c456a25096b4732ef41805839fa0214ba25a77265041ff964",
+    "git_blob_sha1": "1c23d0b793bba3ac73ff1215d65bef008ec4b148",
+    "bytes": 7317,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.302483+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

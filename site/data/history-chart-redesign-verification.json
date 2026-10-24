@@ -1,0 +1,116 @@
+{
+  "schema": "history-chart-reference-redesign-browser-review/1",
+  "observed_at": "2026-10-24T13:19:32.990176+00:00",
+  "reference_url": "https://app.getsupers.com/auto-research",
+  "preview_url": "http://127.0.0.1:8791/",
+  "browser": "Chrome via CUA",
+  "reference_style": [
+    "White rounded plot in soft gray panel",
+    "Blue steps and small markers",
+    "Fine gray horizontal grid",
+    "Hover/focus detail, sparse persistent labels",
+    "Zoom, recent-detail and reset controls"
+  ],
+  "scope": "Presentation and browser interaction review only; no scientific endpoint, model or data claims are independently certified here.",
+  "observed_data": {
+    "entries": 595,
+    "costed": 18,
+    "upper": 17,
+    "lower": 13,
+    "intervals": 12,
+    "best_upper_log2log2_integer": "18014398509484968",
+    "equal_best_sources": 5
+  },
+  "checks": {
+    "actual_reference_visually_inspected": true,
+    "date_and_kappa_charts_render": true,
+    "lower_only_13_endpoints_no_upper_or_best_step": true,
+    "linear_and_log_spacing_preserve_bounds": true,
+    "no_permanent_PR_label_forest": true,
+    "no_fabricated_unknown_Y": true,
+    "uncosted_PR10_search_shows_unknown_source_card_zero_markers": true,
+    "grouped_popup_exposes_PR531_535_741_individually": true,
+    "PR741_own_record_certificate_visible": true,
+    "keyboard_enter_pins_popup": true,
+    "pointer_click_pins_popup": true,
+    "zoom_in_and_reset": true,
+    "recent_detail_zoom": true,
+    "desktop_1265px_no_horizontal_overflow": true,
+    "mobile_375px_no_horizontal_overflow": true,
+    "mobile_tooltip_within_viewport": true,
+    "viewport_override_reset": true,
+    "browser_console_errors_empty": true,
+    "all_bounds_30_endpoints_per_plot": true,
+    "equal_best_metric_reports_five_sources": true,
+    "all_five_equal_bound_sources_keyboard_accessible": true,
+    "PR799_own_record_certificate_visible": true,
+    "horizontal_drag_pans_zoomed_range": true,
+    "corrected147_current_witness_notice_visible": true,
+    "refined_gate_and_own_finite_provenance_links_distinct": true,
+    "uncosted_activity_collapsed_by_default": true,
+    "uncosted_activity_223_source_ticks_in_default_filter": true,
+    "uncosted_activity_has_no_numeric_cost_ordinate": true,
+    "activity_arrow_keys_and_enter_inspect_own_unknown_source": true,
+    "activity_strip_mobile_no_overflow": true,
+    "interactive_chart_group_roles": true
+  },
+  "tested_sizes": [
+    {
+      "viewport_css_width": 1265,
+      "horizontal_overflow": 0
+    },
+    {
+      "viewport_css_width": 375,
+      "horizontal_overflow": 0
+    }
+  ],
+  "javascript_css_sha256": {
+    "feasibility-history-view.js": "70ac9289a9bd33f8de202b5593a70d3b57a349860f1b8f5bc4a7b134302e9ca4",
+    "feasibility-history-early-view.js": "7a008c68b1bd9591316611804cd0079b363503cef4aa5200b4158703cd435a15",
+    "history-chart.js": "eab2dbd87f5383896fa2a6ecdd9d6543144d475d2f55d9baf04411e1644ea068",
+    "history-chart.css": "00dde4c3b62368c8bae7ac08b6e862dfb3b85e2a6de6cd6c57ccf29b71edc4c5"
+  },
+  "status": "PASS",
+  "limitations": [
+    "Ctrl/Meta-wheel interaction is implemented but was not directly exercised in this browser pass.",
+    "The latest selected source and source counts can change only after explicit dataset rebuild; this page does not poll."
+  ],
+  "packaging_page_review": {
+    "observed_at": "2026-10-24T13:24:34.694361+00:00",
+    "status": "PASS",
+    "page": "reproduction.html",
+    "both_archives_required_visible": true,
+    "ordered_overlay_instructions": true,
+    "metadata_and_proof_inputs_distinguished": true,
+    "example_scripts_match_packaged_files": true,
+    "desktop_and_mobile_no_overflow": true,
+    "console_errors_empty": true,
+    "viewport_override_reset": true,
+    "live_manifest_hashes_and_sizes_match_actual_download_bytes": true,
+    "archive_http_HEAD_status": 200,
+    "archives": {
+      "baseline": {
+        "file": "operation-audit-reproduction-pr147-baseline.zip",
+        "bytes": 20594009,
+        "sha256": "4a09248559e1a94d6d49f1269e45b1f184df7bf1af79eb73ddd32d3c65572f0a"
+      },
+      "overlay": {
+        "file": "operation-audit-reproduction.zip",
+        "bytes": 6234620,
+        "sha256": "4fe4519fa57d5f49a97b6f3a6a2974fd7278ccc4661f4255d569c67b86fc5802"
+      }
+    },
+    "payload_members": 1318,
+    "tracker_download_link_to_package_page_verified": true,
+    "offline_reconstruction_receipt_link_present_HTTP200": true,
+    "legacy_view_git_HEAD_LF_preserved": true
+  },
+  "packaging_ui_sha256": {
+    "reproduction.html": "6a9c0df13aed9d90e779983a4e7896b75583c73586075eaf35553c0290d7794c",
+    "operations-view.js": "5247ed407df4cb9ec15712f4794a668167ec6c3b97f98c8387c0472e5eca90a3",
+    "unbounded-optimized-view.js": "c02f789e954911ead5805e86cfe02f0ba841f484872f7515d5402ba199b6ba62",
+    "full-comparison-view.js": "a0ad0db30ff10a026686714a275b9163a406ec9627e7acfeb1cbaa0c8b4e318a",
+    "data/reproduction-package.json": "aef2fada93ab7304c9c71a79b345870c0ca66e0fcb6f4e00fc1ba7415876e23b",
+    "data/finite-controller-history-extension-reproduction-verification.json": "d9857fb2795870c7190bad815b36f5d30cb5527d786d7f7802ab6bd296bd9d27"
+  }
+}

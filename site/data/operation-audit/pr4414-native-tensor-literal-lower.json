@@ -1,0 +1,103 @@
+{
+  "schema": "own-native-tensor-literal-lower/1",
+  "status": "closed_conditional_literal_family_lower_bound",
+  "pr": 4414,
+  "own_head": "90da4b0ab894350ca12cac9110cc6da2225d18af",
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "H": "473129651134046950001",
+  "N": "2^473129651134046950001",
+  "kappa": "267987/100000000",
+  "tensor_power": 150000,
+  "selected_native_program_file": "p3-p6-tensor-own-source/4414/files/b46d44c6ee62__THREE-base-FULL-IDENTITY-NATIVE.json.gz",
+  "selected_native_program_sha256": "c54b0a3e129d28e6dbf74fa731fc3bb70fe3c6705f07256750fbecddcc842d39",
+  "selected_unit_complex_ADDs": [
+    {
+      "orientation": "backward",
+      "event": 5,
+      "destination": [
+        "L",
+        273
+      ],
+      "source": [
+        "L",
+        158
+      ]
+    },
+    {
+      "orientation": "backward",
+      "event": 8,
+      "destination": [
+        "L",
+        273
+      ],
+      "source": [
+        "L",
+        159
+      ]
+    },
+    {
+      "orientation": "backward",
+      "event": 11,
+      "destination": [
+        "L",
+        273
+      ],
+      "source": [
+        "L",
+        179
+      ]
+    },
+    {
+      "orientation": "backward",
+      "event": 14,
+      "destination": [
+        "L",
+        273
+      ],
+      "source": [
+        "L",
+        222
+      ]
+    }
+  ],
+  "active_AND_lower": "8*2^N",
+  "active_XOR_lower": "24*2^N",
+  "input_bits": "2^(2^473129651134046949998-2^69)",
+  "plot_triple_log": {
+    "log2_of_integer": "473129651134046949998",
+    "negligible_negative_correction": true
+  },
+  "scope": "Own complete unreduced native tensor/controller boundary on full fields/spectators at positive column multiplicity when active, width at least two; identical optimized GMP when inactive.",
+  "statistic": "Earliest possible strict win in the declared literal enhancement family",
+  "all_PR_implementations": false,
+  "exact_individual_crossing": false,
+  "arbitrary_switch_used_as_lower": false,
+  "precision_gate_used_as_lower": false,
+  "source_binding_file": "p3-p6-tensor-own-source/4414-manifest.json",
+  "source_binding_sha256": "1d0524aebc0e6ccd4b0f0fd9b6d5ae5a55dcb52e18d9883f02b5bfed6cc710e7",
+  "dependency_hashes": {
+    "native-tensor-circuit-costs.md": "073ee83e25a7d96b843267fe8371355897f5d58596a902e0a22b32388048ef41",
+    "p3-p6-tensor-own-source/4414-manifest.json": "1d0524aebc0e6ccd4b0f0fd9b6d5ae5a55dcb52e18d9883f02b5bfed6cc710e7",
+    "p3-p6-tensor-own-source/4414-fresh-replay.json": "31ed84914bf8ec545448e677d03c9593972ca269f7147e896e995a9332ba7398",
+    "p3_p6_tensor_source_bindings.py": "06c3e676bb53bf3e87e35f94ac5eacc50b098a3a62df4306429bb11fc1f238f0",
+    "pr4470-clifford-stack-upper.md": "773df80dc21fcc7130ba9f9c68ccb07084f46b924f4019b4d90a4cc5156226af",
+    "pr4470-batching-closure.md": "7c87ccc5a576d0519cc24e8fea6bcdf4561d2f52ef6a6b5455524f7a3f023e4d",
+    "pr4470-global-precision.md": "994b42769d452d29884a64d41143ead699a8da8a8cdc0f7cb1cf8f2923f75495",
+    "pr4470-boundary-recovery.md": "5e5f762f34a3f75a0f223664f93d893007d33c5a765599f4710ddb1964e018cc",
+    "pr4470-whole-integer-bound.md": "ea78760ad376ebde83a66febb25837bc2a358a59b686cd3df4fabcb83503af9b",
+    "candidate-fermat-helper.json": "f55910966ed0fae37e5406d338922114262371702a0867995b6a1bd7695a7b75",
+    "gaussian-only-parameter-ledger.md": "6d8c662b60f684385bec3cbe2c7a5948be424ee1f86f15a98527360fb1b33fcb",
+    "gaussian-only-parameter-ledger.json": "8834f6f251af9b0a276767ddbbc574f91bf9f36e1276908be6476e3249afffc1",
+    "gaussian_only_parameter_ledger.py": "4cfdcf09325d0827a759431519751b89474cb4ed667ceb20887cf3c98a57febb",
+    "gaussian-only-parameter-ledger-peer-review.json": "b66bd625cec6b2ed4683500f06138f93801c1f64956c915f96b49f6c5ed9310f",
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1",
+    "optimized-gmp-semantic-repair.json": "2b73d391602c370c8849c677e438846f87eef20f78e22d53a7f9e8710f5c2478"
+  },
+  "script_sha256": "a717e485e8f74217b496f177d70240f67750df90f225f201b686e01993bf9428",
+  "retained_contracts": [
+    "Own exact all-fresh native and chronological tensor product with arbitrary-input required-boundary/all-column/absolute-phase/Clifford identities and clean-owned/full-spectator semantics; own raw native inventory/main phase replay is bound, full all-column base operator closure remains explicit.",
+    "Own new uniform-rank theorem and complete chronological integer compiler with ready barriers, separate role arrays and actual child/complement endpoints.",
+    "Concrete normalized Gaussian/finite-LDU/narrow-gap/cyclic-border/fine-prime/exact-recovery interfaces and fixed repaired reference correctness/finite-kernel halting."
+  ]
+}

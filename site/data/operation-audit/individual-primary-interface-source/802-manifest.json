@@ -1,0 +1,35 @@
+{
+  "pr": 802,
+  "own_head": "0957b70fc2ed1ac7592467e7a24d6d0788ff6758",
+  "primary_path_candidates": [
+    "research/community-pr681-audit/README.md",
+    "research/community-pr681-audit/replay.py"
+  ],
+  "selected_for_recovery": [
+    "research/community-pr681-audit/replay.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/community-pr681-audit/README.md",
+      "file": "remaining-record-audit/artifacts/802/b1983fb9db03__README.md",
+      "sha256": "b1983fb9db03e856cc6812337670c05e451c73d35281d0456a49890a2ab7c03e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0957b70fc2ed1ac7592467e7a24d6d0788ff6758/research/community-pr681-audit/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 2,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 802,
+      "head": "0957b70fc2ed1ac7592467e7a24d6d0788ff6758",
+      "path": "research/community-pr681-audit/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0957b70fc2ed1ac7592467e7a24d6d0788ff6758/research/community-pr681-audit/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9925650bfa37f3d8be7dee9bfe31d7ed9dcc588e1f83e2d4c9ff985ba21a41a8",
+      "git_blob_sha1": "ac4bc5a78b90d21921be90565a1c5a40bec73767",
+      "bytes": 14825,
+      "file": "individual-primary-interface-source/802/9925650bfa37__replay.py"
+    }
+  ]
+}

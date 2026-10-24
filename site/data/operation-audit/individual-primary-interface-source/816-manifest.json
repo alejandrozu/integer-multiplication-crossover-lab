@@ -1,0 +1,67 @@
+{
+  "pr": 816,
+  "own_head": "133735a2cc2319c12ba5d786214b2217e083e7da",
+  "primary_path_candidates": [
+    "research/complex-ck-target-forest/EXPECTED.json",
+    "research/complex-ck-target-forest/CLAIM.md",
+    "research/complex-ck-target-forest/PROOF.md",
+    "research/complex-ck-target-forest/README.md",
+    "research/complex-ck-target-forest/VALIDATION.md",
+    "research/complex-ck-target-forest/RECIPE.json",
+    "research/complex-ck-target-forest/verify.py",
+    "research/complex-ck-target-forest/independent.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-ck-target-forest/CLAIM.md",
+    "research/complex-ck-target-forest/RECIPE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-target-forest/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/816/1aff64a4f772__EXPECTED.json",
+      "sha256": "1aff64a4f77277d182322c2f2aa21d02e9f48f28c6052e027f79a07b194dd57c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/133735a2cc2319c12ba5d786214b2217e083e7da/research/complex-ck-target-forest/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-target-forest/verify.py",
+      "file": "remaining-record-audit/artifacts/816/bf794f1a7105__verify.py",
+      "sha256": "bf794f1a71058f7abe4db83415a51508703dac0340ee7bf2a2c4d07ce3ab64f2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/133735a2cc2319c12ba5d786214b2217e083e7da/research/complex-ck-target-forest/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-ck-target-forest/PROOF.md",
+      "file": "remaining-record-audit/artifacts/816/b3dc11f1517e__PROOF.md",
+      "sha256": "b3dc11f1517e5cfef1e6caad954587d751e93c395b6424b00b5979e73bea0731",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/133735a2cc2319c12ba5d786214b2217e083e7da/research/complex-ck-target-forest/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 816,
+      "head": "133735a2cc2319c12ba5d786214b2217e083e7da",
+      "path": "research/complex-ck-target-forest/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/133735a2cc2319c12ba5d786214b2217e083e7da/research/complex-ck-target-forest/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b891ce12b52b481faba493b55d2a64482aa3c1d73c7fecf229e9163126a9fa79",
+      "git_blob_sha1": "de5dc1d6c4ce0f11dff69e519ef5d0f142d47195",
+      "bytes": 4324,
+      "file": "individual-primary-interface-source/816/b891ce12b52b__CLAIM.md"
+    },
+    {
+      "pr": 816,
+      "head": "133735a2cc2319c12ba5d786214b2217e083e7da",
+      "path": "research/complex-ck-target-forest/RECIPE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/133735a2cc2319c12ba5d786214b2217e083e7da/research/complex-ck-target-forest/RECIPE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a6f5ad8d774d9ec563b7bf6e68e481b4bee46253050eb2ef6ed6364c175ac809",
+      "git_blob_sha1": "352d83f73da00cb843d21dec88f10432985fffd8",
+      "bytes": 77012,
+      "file": "individual-primary-interface-source/816/a6f5ad8d774d__RECIPE.json"
+    }
+  ]
+}

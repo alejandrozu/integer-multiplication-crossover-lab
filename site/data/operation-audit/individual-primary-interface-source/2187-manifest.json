@@ -1,0 +1,69 @@
+{
+  "pr": 2187,
+  "own_head": "46ea5b300f334993972ccf9d9d4f9c19ac8d719d",
+  "primary_path_candidates": [
+    "research/bit-c4-root-lift-seedca46bc/CLAIM.md",
+    "research/bit-c4-root-lift-seedca46bc/README.md",
+    "research/bit-c4-root-lift-seedca46bc/TASK.json",
+    "research/bit-c4-root-lift-seedca46bc/VERIFY.json",
+    "research/bit-c4-root-lift-seedca46bc/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-c4-root-lift-seedca46bc/CLAIM.md",
+    "research/bit-c4-root-lift-seedca46bc/TASK.json",
+    "research/bit-c4-root-lift-seedca46bc/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-c4-root-lift-seedca46bc/verify.py",
+      "file": "remaining-record-audit/artifacts/2187/0d56923a7668__verify.py",
+      "sha256": "0d56923a7668f5bf75744772f329b22c52134831e859a601244f8836b545e01f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/46ea5b300f334993972ccf9d9d4f9c19ac8d719d/research/bit-c4-root-lift-seedca46bc/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-c4-root-lift-seedca46bc/README.md",
+      "file": "remaining-record-audit/artifacts/2187/16a4ccea8415__README.md",
+      "sha256": "16a4ccea8415c6a1717d3468a7e8f570aa2c1572a682bf84f446ae85e0cd4bf5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/46ea5b300f334993972ccf9d9d4f9c19ac8d719d/research/bit-c4-root-lift-seedca46bc/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2187,
+      "head": "46ea5b300f334993972ccf9d9d4f9c19ac8d719d",
+      "path": "research/bit-c4-root-lift-seedca46bc/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/46ea5b300f334993972ccf9d9d4f9c19ac8d719d/research/bit-c4-root-lift-seedca46bc/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "513858a2d69ae17e782d310ee6ca72eedcdfb7c42b4189b1a3a840dd3b5299e1",
+      "git_blob_sha1": "10e3d51d12955418e9a8a95cf7084d303bba9b6e",
+      "bytes": 3083,
+      "file": "individual-primary-interface-source/2187/513858a2d69a__CLAIM.md"
+    },
+    {
+      "pr": 2187,
+      "head": "46ea5b300f334993972ccf9d9d4f9c19ac8d719d",
+      "path": "research/bit-c4-root-lift-seedca46bc/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/46ea5b300f334993972ccf9d9d4f9c19ac8d719d/research/bit-c4-root-lift-seedca46bc/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "046177fcc6d1816aea9e1a85c5f3ccad3defc439d5e7317f36f574ac31dadda8",
+      "git_blob_sha1": "6770a32a818d7914961d4b9d1576b0f5b9ded17d",
+      "bytes": 6845,
+      "file": "individual-primary-interface-source/2187/046177fcc6d1__TASK.json"
+    },
+    {
+      "pr": 2187,
+      "head": "46ea5b300f334993972ccf9d9d4f9c19ac8d719d",
+      "path": "research/bit-c4-root-lift-seedca46bc/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/46ea5b300f334993972ccf9d9d4f9c19ac8d719d/research/bit-c4-root-lift-seedca46bc/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1f90b8c5e60e8c6ac8cc399e5091d6c6d82baffabc28320dad2b2f23b56bc85b",
+      "git_blob_sha1": "aa263ea5e46c74e5f397c586efa872bfbfa3586e",
+      "bytes": 504,
+      "file": "individual-primary-interface-source/2187/1f90b8c5e60e__VERIFY.json"
+    }
+  ]
+}

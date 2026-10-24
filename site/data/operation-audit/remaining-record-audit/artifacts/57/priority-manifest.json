@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 57,
+    "head": "47916b3bf2895c117f8b53ffff4732f67178a132",
+    "path": "references/frame-compiler/pr48/research/copied-fixed/certificate.json",
+    "api_sha": "fa4b29c06df8e317c4074db4b8385622e9e27261",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/47916b3bf2895c117f8b53ffff4732f67178a132/references%2Fframe-compiler%2Fpr48%2Fresearch%2Fcopied-fixed%2Fcertificate.json",
+    "priority": 110,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/47916b3bf2895c117f8b53ffff4732f67178a132/references/frame-compiler/pr48/research/copied-fixed/certificate.json",
+    "file": "artifacts\\57\\33b3373c04e1__certificate.json",
+    "sha256": "33b3373c04e18a7f4cee33ba68da6ed71934acc3e0179cca6197696be4befa22",
+    "git_blob_sha1": "fa4b29c06df8e317c4074db4b8385622e9e27261",
+    "bytes": 308516,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:55.812901+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 57,
+    "head": "47916b3bf2895c117f8b53ffff4732f67178a132",
+    "path": "references/frame-compiler/pr48/research/copied-fixed/verify.py",
+    "api_sha": "353de0374c868501f441e1c653b2c96b3bbfd2d2",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/47916b3bf2895c117f8b53ffff4732f67178a132/references%2Fframe-compiler%2Fpr48%2Fresearch%2Fcopied-fixed%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/47916b3bf2895c117f8b53ffff4732f67178a132/references/frame-compiler/pr48/research/copied-fixed/verify.py",
+    "file": "artifacts\\57\\44932182ce6c__verify.py",
+    "sha256": "44932182ce6c4d39776650311262ef0ac1ea9b5da7220bc0f728e2789881f84a",
+    "git_blob_sha1": "353de0374c868501f441e1c653b2c96b3bbfd2d2",
+    "bytes": 17580,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:55.817416+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

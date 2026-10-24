@@ -1,0 +1,26 @@
+[
+  {
+    "path": "research/kappa-round3-warp-20261022/PHASE-VALIDATION.json.gz",
+    "file": "research__kappa-round3-warp-20261022__PHASE-VALIDATION.json.gz",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/kappa-round3-warp-20261022/PHASE-VALIDATION.json.gz",
+    "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+    "sha256": "6eae66ed3cfa8a1533e89b9660a57276908e6646640a12f8b1e3489f4ea1354b",
+    "bytes": 23356
+  },
+  {
+    "path": "research/kappa-round3-warp-20261022/NATIVE-VALIDATION.json",
+    "file": "research__kappa-round3-warp-20261022__NATIVE-VALIDATION.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/20bb93cd990d2ff683e4d0fc56b87a42cd5d3296/research/kappa-round3-warp-20261022/NATIVE-VALIDATION.json",
+    "commit": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+    "sha256": "eec3b14241430b6c9f5de3cbf0e3d45a172d8071d2dccd2b59d56a1fbac3d428",
+    "bytes": 3772
+  },
+  {
+    "path": "notes/general-clifford-frames.tex",
+    "file": "notes__general-clifford-frames.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ec2780e8aeb1c88acaf5e9e470ef8c68e7fbbb6c/notes/general-clifford-frames.tex",
+    "commit": "ec2780e8aeb1c88acaf5e9e470ef8c68e7fbbb6c",
+    "sha256": "c9bb9655b594583c6b4bab8cb485233f1d1e588f83858cf1e4c3530cee8fed54",
+    "bytes": 4464
+  }
+]

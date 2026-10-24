@@ -1,0 +1,94 @@
+{
+  "pr": 2766,
+  "own_head": "e6df920cd0110e4b629e2ad84eddcb539001e174",
+  "primary_path_candidates": [
+    "research/complex-routing-leaf-fusion/CLAIM.json",
+    "research/complex-routing-leaf-fusion/RESULT.json",
+    "research/complex-routing-leaf-fusion/PROOF.md",
+    "research/complex-routing-leaf-fusion/README.md",
+    "research/complex-routing-leaf-fusion/VALIDATION.md",
+    "research/complex-routing-leaf-fusion/TASK.json",
+    "research/complex-routing-leaf-fusion/PATCH.json",
+    "research/complex-routing-leaf-fusion/VERIFY.json",
+    "research/complex-routing-leaf-fusion/OVERLAP.json",
+    "research/complex-routing-leaf-fusion/PROFILE.json",
+    "research/complex-routing-leaf-fusion/CAP-SOURCE.json",
+    "research/complex-routing-leaf-fusion/CREDIT-PINS.json",
+    "research/complex-routing-leaf-fusion/PACKING-CAP.json",
+    "research/complex-routing-leaf-fusion/PREDECESSOR.json",
+    "research/complex-routing-leaf-fusion/FULL-REPLAY-PINS.json",
+    "research/complex-routing-leaf-fusion/evidence/NATIVE-RECEIPT.json",
+    "research/complex-routing-leaf-fusion/evidence/RELEASE-RECEIPT.json",
+    "research/complex-routing-leaf-fusion/evidence/STRICT-ASSEMBLY.json",
+    "research/complex-routing-leaf-fusion/evidence/SUPPLIER-RESULT.json",
+    "research/complex-routing-leaf-fusion/evidence/ADMISSION-RESULT.json",
+    "research/complex-routing-leaf-fusion/evidence/REBUILD-CONTROLS.json",
+    "research/complex-routing-leaf-fusion/evidence/REGISTERED-REPLAY.json",
+    "research/complex-routing-leaf-fusion/evidence/FULL-REPLAY-RESULT.json",
+    "research/complex-routing-leaf-fusion/evidence/FRESH-NATIVE-STAGES.json",
+    "research/complex-routing-leaf-fusion/evidence/FULL-REPLAY-COMMAND.json",
+    "research/complex-routing-leaf-fusion/evidence/FINAL-PORTABLE-REVIEW.json",
+    "research/complex-routing-leaf-fusion/evidence/FULL-REPLAY-DERIVATION.json",
+    "research/complex-routing-leaf-fusion/verify.py",
+    "research/complex-routing-leaf-fusion/generate.py",
+    "research/complex-routing-leaf-fusion/full_replay.py",
+    "research/complex-routing-leaf-fusion/packing_cap.py",
+    "research/complex-routing-leaf-fusion/derive_runtime.py",
+    "research/complex-routing-leaf-fusion/test_integrity.py",
+    "research/complex-routing-leaf-fusion/independent_check.py",
+    "research/complex-routing-leaf-fusion/exact_moment_checker.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-routing-leaf-fusion/verify.py",
+    "research/complex-routing-leaf-fusion/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-routing-leaf-fusion/PROOF.md",
+      "file": "remaining-record-audit/artifacts/2766/ffdde6010edd__PROOF.md",
+      "sha256": "ffdde6010edd1dd25c2187cfa9980f42603a3d03296e8e69fe23c74169feaa60",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e6df920cd0110e4b629e2ad84eddcb539001e174/research/complex-routing-leaf-fusion/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-routing-leaf-fusion/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2766/399e20ffb8ba__CLAIM.json",
+      "sha256": "399e20ffb8bac62363f7d48c59021d5afef5f62bb6c51986ca847b02ec1e73a8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e6df920cd0110e4b629e2ad84eddcb539001e174/research/complex-routing-leaf-fusion/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-routing-leaf-fusion/RESULT.json",
+      "file": "remaining-record-audit/artifacts/2766/fc76a920e7e8__RESULT.json",
+      "sha256": "fc76a920e7e85ed196fadf38645277e2d4b8b3f1476a99d8e8af73ac59c193d6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e6df920cd0110e4b629e2ad84eddcb539001e174/research/complex-routing-leaf-fusion/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 66,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2766,
+      "head": "e6df920cd0110e4b629e2ad84eddcb539001e174",
+      "path": "research/complex-routing-leaf-fusion/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e6df920cd0110e4b629e2ad84eddcb539001e174/research/complex-routing-leaf-fusion/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "73b8d8174a28b272b8fbb0427835a127e53d1690f8bed89bc2862f9149b9dbec",
+      "git_blob_sha1": "2cc11d37f9b6104f58a841b8a50917ed8f05f601",
+      "bytes": 7714,
+      "file": "individual-primary-interface-source/2766/73b8d8174a28__verify.py"
+    },
+    {
+      "pr": 2766,
+      "head": "e6df920cd0110e4b629e2ad84eddcb539001e174",
+      "path": "research/complex-routing-leaf-fusion/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e6df920cd0110e4b629e2ad84eddcb539001e174/research/complex-routing-leaf-fusion/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "894fe76ab46f1521c0d97c0af1e4d051449a4746a789c3d67b5c9301dd030739",
+      "git_blob_sha1": "a26b09c2a1b2e91584aaff39e2144466f66fcf49",
+      "bytes": 7964,
+      "file": "individual-primary-interface-source/2766/894fe76ab46f__README.md"
+    }
+  ]
+}

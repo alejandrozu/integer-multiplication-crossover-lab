@@ -1,0 +1,124 @@
+{
+  "selected_function_symbols": {
+    "add_n": [
+      "__gmpn_add_n_x86_64"
+    ],
+    "addlsh1_n": [
+      "__gmpn_addlsh1_n_x86_64"
+    ],
+    "addlsh2_n": [
+      "__gmpn_addlsh2_n_x86_64"
+    ],
+    "addmul_1": [
+      "__gmpn_addmul_1_x86_64"
+    ],
+    "addmul_2": [
+      "__gmpn_addmul_2_fat"
+    ],
+    "bdiv_dbm1c": [
+      "__gmpn_bdiv_dbm1c_x86_64"
+    ],
+    "cnd_add_n": [
+      "__gmpn_cnd_add_n_x86_64"
+    ],
+    "cnd_sub_n": [
+      "__gmpn_cnd_sub_n_x86_64"
+    ],
+    "com": [
+      "__gmpn_com_x86_64"
+    ],
+    "copyd": [
+      "__gmpn_copyd_x86_64"
+    ],
+    "copyi": [
+      "__gmpn_copyi_x86_64"
+    ],
+    "divexact_1": [
+      "__gmpn_divexact_1_x86_64"
+    ],
+    "divrem_1": [
+      "__gmpn_divrem_1_x86_64"
+    ],
+    "gcd_11": [
+      "__gmpn_gcd_11_x86_64"
+    ],
+    "lshift": [
+      "__gmpn_lshift_x86_64"
+    ],
+    "lshiftc": [
+      "__gmpn_lshiftc_x86_64"
+    ],
+    "mod_1": [
+      "__gmpn_mod_1_fat"
+    ],
+    "mod_1_1p": [
+      "__gmpn_mod_1_1p_x86_64"
+    ],
+    "mod_1_1p_cps": [
+      "__gmpn_mod_1_1p_cps_x86_64"
+    ],
+    "mod_1s_2p": [
+      "__gmpn_mod_1s_2p_x86_64"
+    ],
+    "mod_1s_2p_cps": [
+      "__gmpn_mod_1s_2p_cps_x86_64"
+    ],
+    "mod_1s_4p": [
+      "__gmpn_mod_1s_4p_x86_64"
+    ],
+    "mod_1s_4p_cps": [
+      "__gmpn_mod_1s_4p_cps_x86_64"
+    ],
+    "mod_34lsub1": [
+      "__gmpn_mod_34lsub1_x86_64"
+    ],
+    "modexact_1c_odd": [
+      "__gmpn_modexact_1c_odd_x86_64"
+    ],
+    "mul_1": [
+      "__gmpn_mul_1_x86_64"
+    ],
+    "mul_basecase": [
+      "__gmpn_mul_basecase_fat"
+    ],
+    "mullo_basecase": [
+      "__gmpn_mullo_basecase_fat"
+    ],
+    "preinv_divrem_1": [
+      "__gmpn_preinv_divrem_1_x86_64"
+    ],
+    "preinv_mod_1": [
+      "__gmpn_mod_1_fat"
+    ],
+    "redc_1": [
+      "__gmpn_redc_1_fat"
+    ],
+    "redc_2": [
+      "__gmpn_redc_2_fat"
+    ],
+    "rshift": [
+      "__gmpn_rshift_x86_64"
+    ],
+    "sqr_basecase": [
+      "__gmpn_sqr_basecase_fat"
+    ],
+    "sub_n": [
+      "__gmpn_sub_n_x86_64"
+    ],
+    "sublsh1_n": [
+      "__gmpn_sublsh1_n_x86_64"
+    ],
+    "submul_1": [
+      "__gmpn_submul_1_x86_64"
+    ]
+  },
+  "dynamic_thresholds_limbs": {
+    "mul_toom22_threshold": 20,
+    "mul_toom33_threshold": 130,
+    "sqr_toom2_threshold": 30,
+    "sqr_toom3_threshold": 200,
+    "bmod_1_to_mod_1_threshold": 20
+  },
+  "mp_size_t_bits": 32,
+  "source_struct_field_count": 37
+}

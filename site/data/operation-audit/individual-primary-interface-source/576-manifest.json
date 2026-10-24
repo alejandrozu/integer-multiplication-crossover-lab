@@ -1,0 +1,82 @@
+{
+  "pr": 576,
+  "own_head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+  "primary_path_candidates": [
+    "research/complex-571-three-provider/data/PLAN.json",
+    "research/complex-571-three-provider/data/WITNESS-SPEC.json",
+    "research/complex-571-three-provider/data/P571K-MULTICOLD.json",
+    "research/complex-571-three-provider/NOTICE.md",
+    "research/complex-571-three-provider/verify.py",
+    "research/complex-571-three-provider/code/witness.py",
+    "research/complex-571-three-provider/code/assemble.py",
+    "research/complex-571-three-provider/code/emit_allcold.py",
+    "research/complex-571-three-provider/code/audit_allcold.py",
+    "research/complex-571-three-provider/code/invoice_allcold.py",
+    "research/complex-571-three-provider/code/assembly_controls.py",
+    "research/complex-571-three-provider/code/phase_timing_controls.py",
+    "research/complex-571-three-provider/code/bind_providers_portable.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-571-three-provider/NOTICE.md",
+    "research/complex-571-three-provider/data/PLAN.json",
+    "research/complex-571-three-provider/data/WITNESS-SPEC.json",
+    "research/complex-571-three-provider/data/P571K-MULTICOLD.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-571-three-provider/verify.py",
+      "file": "remaining-record-audit/artifacts/576/21857d5aea37__verify.py",
+      "sha256": "21857d5aea3763fb1b1c3abdf5d84204c783318f8d41fb1fa6076501f4b53f8e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 17,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 576,
+      "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+      "path": "research/complex-571-three-provider/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/NOTICE.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0fb9f292f903f2d453dac51bdca676e0266e9b91b8e03786f6ed9538c00ce057",
+      "git_blob_sha1": "331ea5c95edabd560508c36e9591e1b74497e9e7",
+      "bytes": 2497,
+      "file": "individual-primary-interface-source/576/0fb9f292f903__NOTICE.md"
+    },
+    {
+      "pr": 576,
+      "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+      "path": "research/complex-571-three-provider/data/PLAN.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/data/PLAN.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4707d897d24e85d24897618264da0687634ffc5e1463926e790475d6be1d9b96",
+      "git_blob_sha1": "a0308e6e4a03245c7c8c93b48d51f36053b804ba",
+      "bytes": 491455,
+      "file": "individual-primary-interface-source/576/4707d897d24e__PLAN.json"
+    },
+    {
+      "pr": 576,
+      "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+      "path": "research/complex-571-three-provider/data/WITNESS-SPEC.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/data/WITNESS-SPEC.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8d55d3e7b7a0348a0bb982474f8aa3c9cd9aaa70adb1f14f90ae14b4de08e6a5",
+      "git_blob_sha1": "118b36385699ef0bb70ec5de8b6a6f3c38c6f5f8",
+      "bytes": 11715,
+      "file": "individual-primary-interface-source/576/8d55d3e7b7a0__WITNESS-SPEC.json"
+    },
+    {
+      "pr": 576,
+      "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+      "path": "research/complex-571-three-provider/data/P571K-MULTICOLD.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/data/P571K-MULTICOLD.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c839199d0e6f8e976978fe97bc0c5579a65ba69dfb6864585b448cccc1113056",
+      "git_blob_sha1": "89a4677766af35fa6779a475d635420256f5038e",
+      "bytes": 7766,
+      "file": "individual-primary-interface-source/576/c839199d0e6f__P571K-MULTICOLD.json"
+    }
+  ]
+}

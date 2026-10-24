@@ -1,0 +1,36 @@
+{
+  "schema": "own-finite-controller-independent-math-peer/1",
+  "pr": 741,
+  "status": "independent_AI_peer_review_pass_conditional",
+  "review_status": "PASS_under_explicit_own_native_allsize_semantic_stock_analytic_contracts",
+  "reviewer": "AI subagent /root/crossover_math; not a human or Lean review",
+  "reviewed_at_utc": "2026-10-24T13:02:13.966793+00:00",
+  "reviewed_sha256": {
+    "older-reviewed-finite-controllers.md": "42d9e11b8a8962696941dac26b39bfce761e752bf7e647f5545ca83cce242213",
+    "older_reviewed_finite_controllers.py": "94e2b38d320ddb58b877225ea010725a5a552a67e9036ddca64e75d67b4657af",
+    "older-reviewed-finite-controllers.json": "e4c0b2624f5032c6fc97108600c6f8554be5b796fefc3df1f48506f2d678dc9d",
+    "pr531-finite-controller-upper.md": "4963e4f05942973912ec1fc32751ab9808e429b89d5a512d1a2e1ad02fc54824",
+    "pr531_finite_controller_upper.py": "57dd370a84f0b7597c028318585b518bc44c7f7ee663389e7cf9780758f41a4a",
+    "pr741-finite-controller-native.json": "82b1a4356843e9e350c07428207a15698e56537b5a27a56f5769373570d58a25",
+    "pr741-finite-controller-early-upper.json": "6002d723f233de7082638535df2f015706203ee4098995d524d5149bef39c16e",
+    "pr741-finite-controller-record-upper.json": "bac466bac8282df9b443fccbd963773752d7deb75f64f88e004727b9d7826124"
+  },
+  "fresh_reproduction": {
+    "shared_script_passed": true,
+    "checks": 297,
+    "old531_script_not_executed_by_shared_script": true
+  },
+  "scientific_findings": [
+    "Own selected native programs and published invoice/profile bindings are used; no PR531 native word or later uniform2^H supplier is substituted.",
+    "Own dyadic scalar/Horner and prefix counts, dirty-helper/private-work contract, full literal finite bridge and semantic C0 inequalities are independently checked.",
+    "Pure interval arithmetic and parameterized branch evaluator are reused through AST only; fresh own interior native saving moments pass.",
+    "Conservative stopped-child stock reserve is u^(1000000Q), all seven cost rows explicitly include it, both own early and quantified record schedules pass.",
+    "53 correctness predicates and three functional/nine savings checks pass; historical later-baseline record-admission predicate remains explicitly failed.",
+    "Piecewise early/own-record tail retains each published exponent with a fully priced tail; meaningful lower remains null, no first-crossing or hardware claim."
+  ],
+  "remaining_premises": [
+    "Own full native/frame/absolute-phase and common-label realization contracts, allsize normalized LemmaA, restored stock and completed semantic norm-one endpoint.",
+    "Parameterized Gaussian/precision/boundary/recovery analytic branch and unchanged repaired optimized-GMP correctness/halting."
+  ],
+  "conclusion": "No material mathematical issue found in the explicit conditional source-specific upper-only instantiation."
+}

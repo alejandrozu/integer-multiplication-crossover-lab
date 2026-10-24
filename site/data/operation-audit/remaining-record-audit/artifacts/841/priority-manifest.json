@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 841,
+    "head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+    "path": "research/selected-proof-binding/CLAIM.json",
+    "api_sha": "537e0e704de53ca60e5da97a388df8c3560294fc",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research%2Fselected-proof-binding%2FCLAIM.json",
+    "priority": 210,
+    "hint_base": "research/selected-proof-binding/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/CLAIM.json",
+    "file": "artifacts\\841\\2480acc622a3__CLAIM.json",
+    "sha256": "2480acc622a3c07e7f5dcfe50797526e866b268b41c8284ff4b14f98d800040d",
+    "git_blob_sha1": "537e0e704de53ca60e5da97a388df8c3560294fc",
+    "bytes": 2164,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:14.414450+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 841,
+    "head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+    "path": "research/selected-proof-binding/EXPECTED.json",
+    "api_sha": "c199f4dcd748bc58d5bff1f65802d72691fbb8de",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research%2Fselected-proof-binding%2FEXPECTED.json",
+    "priority": 210,
+    "hint_base": "research/selected-proof-binding/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/EXPECTED.json",
+    "file": "artifacts\\841\\d4f70f52052e__EXPECTED.json",
+    "sha256": "d4f70f52052ed40df5114f4115ce7c4a0afd63e9ea0ba5a5b374b7cb3f5b7138",
+    "git_blob_sha1": "c199f4dcd748bc58d5bff1f65802d72691fbb8de",
+    "bytes": 282,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:14.447982+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 841,
+    "head": "2fedd468c0bb69722fbc402be01daa7701f0c7d6",
+    "path": "research/selected-proof-binding/README.md",
+    "api_sha": "0fddd95f253e224cea97ba2de3833927e7cb622b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research%2Fselected-proof-binding%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/selected-proof-binding/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fedd468c0bb69722fbc402be01daa7701f0c7d6/research/selected-proof-binding/README.md",
+    "file": "artifacts\\841\\b992eaccaf88__README.md",
+    "sha256": "b992eaccaf8854e6f2db6709d847d75f83e2ace64f7539fe3d34fb86397d4c42",
+    "git_blob_sha1": "0fddd95f253e224cea97ba2de3833927e7cb622b",
+    "bytes": 7573,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:14.449983+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

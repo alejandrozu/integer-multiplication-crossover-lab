@@ -1,0 +1,72 @@
+{
+  "pr": 3381,
+  "own_head": "ef1f7b1f9cb582767e448dc047b2359ded28076f",
+  "primary_path_candidates": [
+    "research/t16-reordered-augmenting-chain/RESULT.json",
+    "research/t16-reordered-augmenting-chain/PROOF.md",
+    "research/t16-reordered-augmenting-chain/README.md",
+    "research/t16-reordered-augmenting-chain/TASK.json",
+    "research/t16-reordered-augmenting-chain/VERIFY.json",
+    "research/t16-reordered-augmenting-chain/REPAIRS.json",
+    "research/t16-reordered-augmenting-chain/VALIDATION.json",
+    "research/t16-reordered-augmenting-chain/SOURCE-EXPORT.json",
+    "research/t16-reordered-augmenting-chain/predecessor.patch.json",
+    "research/t16-reordered-augmenting-chain/lift16.py",
+    "research/t16-reordered-augmenting-chain/replay.py",
+    "research/t16-reordered-augmenting-chain/verify.py",
+    "research/t16-reordered-augmenting-chain/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-reordered-augmenting-chain/TASK.json",
+    "research/t16-reordered-augmenting-chain/lift16.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-reordered-augmenting-chain/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3381/7ad91fb6dc62__PROOF.md",
+      "sha256": "7ad91fb6dc627d71e411f9808df7d7928a8a5084ee3dd50bdad5afe2a4a07933",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef1f7b1f9cb582767e448dc047b2359ded28076f/research/t16-reordered-augmenting-chain/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-reordered-augmenting-chain/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3381/d55bb275b3de__RESULT.json",
+      "sha256": "d55bb275b3deb795bdf2b6a3d80b7d9842cfebdeb790d3691b6c6dd2f19d966e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef1f7b1f9cb582767e448dc047b2359ded28076f/research/t16-reordered-augmenting-chain/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-reordered-augmenting-chain/README.md",
+      "file": "remaining-record-audit/artifacts/3381/c17c55ab7bbe__README.md",
+      "sha256": "c17c55ab7bbe0967a53838a589701b8ac3eecbc7d969d12847b6cf9c739dec35",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef1f7b1f9cb582767e448dc047b2359ded28076f/research/t16-reordered-augmenting-chain/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 20,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3381,
+      "head": "ef1f7b1f9cb582767e448dc047b2359ded28076f",
+      "path": "research/t16-reordered-augmenting-chain/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef1f7b1f9cb582767e448dc047b2359ded28076f/research/t16-reordered-augmenting-chain/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "08d0bfc0b316bfa1899a73c041463a4b255a9a43e420920fd253aa676adc0a50",
+      "git_blob_sha1": "6513931cca3f4b3fc1e95a13acb62f0b2957a717",
+      "bytes": 4792,
+      "file": "individual-primary-interface-source/3381/08d0bfc0b316__TASK.json"
+    },
+    {
+      "pr": 3381,
+      "head": "ef1f7b1f9cb582767e448dc047b2359ded28076f",
+      "path": "research/t16-reordered-augmenting-chain/lift16.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ef1f7b1f9cb582767e448dc047b2359ded28076f/research/t16-reordered-augmenting-chain/lift16.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "690ffb874240a45e393e15c7e10052ce33b73ad07105b50eb246583bc372a2b0",
+      "git_blob_sha1": "3d62478fce4b3572f698faef9114538db837d7c2",
+      "bytes": 6022,
+      "file": "individual-primary-interface-source/3381/690ffb874240__lift16.py"
+    }
+  ]
+}

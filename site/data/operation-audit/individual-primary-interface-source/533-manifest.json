@@ -1,0 +1,103 @@
+{
+  "pr": 533,
+  "own_head": "6ad231bea07da57e94dbe4062bd045941db3287e",
+  "primary_path_candidates": [
+    "research/direct504-kernel92/EXPECTED.json",
+    "research/direct504-kernel92/data/PLAN.json",
+    "research/direct504-kernel92-validation/linux311/RESULT.json",
+    "research/direct504-kernel92-validation/macos314/RESULT.json",
+    "research/direct504-kernel92/README.md",
+    "research/direct504-kernel92-validation/GZIP-REPRO.json",
+    "research/direct504-kernel92-validation/VALIDATION.json",
+    "research/direct504-kernel92-validation/INPUT-CONTROLS.json",
+    "research/direct504-kernel92/data/SELECTION.json",
+    "research/direct504-kernel92-validation/linux311/STEPS.json",
+    "research/direct504-kernel92-validation/macos314/STEPS.json",
+    "research/direct504-kernel92-validation/linux311/RECEIPT.json",
+    "research/direct504-kernel92-validation/macos314/RECEIPT.json",
+    "research/direct504-kernel92-validation/linux311/KERNEL-SCALAR.json",
+    "research/direct504-kernel92-validation/macos314/KERNEL-SCALAR.json",
+    "research/direct504-kernel92-validation/linux311/SOURCE-FRONTIER.json",
+    "research/direct504-kernel92-validation/macos314/SOURCE-FRONTIER.json",
+    "research/direct504-kernel92-validation/linux311/local/LEMMA-A.json",
+    "research/direct504-kernel92-validation/macos314/local/LEMMA-A.json",
+    "research/direct504-kernel92-validation/linux311/audit/ASYNC-AUDIT.json",
+    "research/direct504-kernel92-validation/macos314/audit/ASYNC-AUDIT.json",
+    "research/direct504-kernel92-validation/linux311/audit/GLOBAL-PREFIX.json",
+    "research/direct504-kernel92-validation/macos314/audit/GLOBAL-PREFIX.json",
+    "research/direct504-kernel92-validation/linux311/audit/EXACT-ASSEMBLY.json",
+    "research/direct504-kernel92-validation/macos314/audit/EXACT-ASSEMBLY.json",
+    "research/direct504-kernel92-validation/linux311/local/CLIFFORD-REVIEW.json",
+    "research/direct504-kernel92-validation/macos314/local/CLIFFORD-REVIEW.json",
+    "research/direct504-kernel92-validation/linux311/audit/OWNERS-AND-PROFILE.json",
+    "research/direct504-kernel92-validation/linux311/audit/PREFIX-AND-INVOICE.json",
+    "research/direct504-kernel92-validation/linux311/local/SCALAR-FRAME-AUDIT.json",
+    "research/direct504-kernel92-validation/macos314/audit/OWNERS-AND-PROFILE.json",
+    "research/direct504-kernel92-validation/macos314/audit/PREFIX-AND-INVOICE.json",
+    "research/direct504-kernel92-validation/macos314/local/SCALAR-FRAME-AUDIT.json",
+    "research/direct504-kernel92-validation/linux311/audit/IDLE-REMAINDER-FRAMES.json",
+    "research/direct504-kernel92-validation/macos314/audit/IDLE-REMAINDER-FRAMES.json",
+    "research/direct504-kernel92-validation/linux311/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/direct504-kernel92-validation/macos314/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/direct504-kernel92/NOTICE.md",
+    "research/direct504-kernel92/verify.py",
+    "research/direct504-kernel92/code/run.py",
+    "research/direct504-kernel92/code/construct.py",
+    "research/direct504-kernel92/code/phases_full.py",
+    "research/direct504-kernel92/proof/CONSTRUCTION.md",
+    "research/direct504-kernel92/code/audit_kernel_scalar.py"
+  ],
+  "selected_for_recovery": [
+    "research/direct504-kernel92/README.md",
+    "research/direct504-kernel92/data/PLAN.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct504-kernel92/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/533/286a6477ebca__EXPECTED.json",
+      "sha256": "286a6477ebcabc24885419131b0e65500ce487450e5c810cebd7267c314dab80",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6ad231bea07da57e94dbe4062bd045941db3287e/research/direct504-kernel92/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct504-kernel92/verify.py",
+      "file": "remaining-record-audit/artifacts/533/38d308983ec8__verify.py",
+      "sha256": "38d308983ec83aea6ef88e644506f8a4c5dafc8f01d0e2eb34c05bdc97120f95",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6ad231bea07da57e94dbe4062bd045941db3287e/research/direct504-kernel92/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/direct504-kernel92-validation/linux311/RESULT.json",
+      "file": "remaining-record-audit/artifacts/533/ca36b7d94f94__RESULT.json",
+      "sha256": "ca36b7d94f947c28085c47f1d16f36ab4e97aa6af16085d7433542b05f1766ef",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6ad231bea07da57e94dbe4062bd045941db3287e/research/direct504-kernel92-validation/linux311/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 128,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 533,
+      "head": "6ad231bea07da57e94dbe4062bd045941db3287e",
+      "path": "research/direct504-kernel92/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6ad231bea07da57e94dbe4062bd045941db3287e/research/direct504-kernel92/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "15e8f1dd7a5e3fee12bc503a17f26daa362537691253d47096adca624e6b9f3b",
+      "git_blob_sha1": "fc74dec3aea4c030c747837ed952e0ef5ffd3157",
+      "bytes": 3374,
+      "file": "individual-primary-interface-source/533/15e8f1dd7a5e__README.md"
+    },
+    {
+      "pr": 533,
+      "head": "6ad231bea07da57e94dbe4062bd045941db3287e",
+      "path": "research/direct504-kernel92/data/PLAN.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6ad231bea07da57e94dbe4062bd045941db3287e/research/direct504-kernel92/data/PLAN.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6c1907930ee5e3b90c77af0301b65ac3a70a00473dd836b741fe21926e6e3c9f",
+      "git_blob_sha1": "badf64f89ffaaeec8a21842b94f949dbe8c272ff",
+      "bytes": 48518,
+      "file": "individual-primary-interface-source/533/6c1907930ee5__PLAN.json"
+    }
+  ]
+}

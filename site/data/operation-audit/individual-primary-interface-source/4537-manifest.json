@@ -1,0 +1,56 @@
+{
+  "pr": 4537,
+  "own_head": "530a5b6d2ae7ee0a1eccc88975a170cf39b60b94",
+  "primary_path_candidates": [
+    "research/gate-existence-check/README.md",
+    "research/gate-existence-check/TASK.json",
+    "research/gate-existence-check/VERIFY.json",
+    "research/gate-existence-check/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gate-existence-check/TASK.json",
+    "research/gate-existence-check/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gate-existence-check/README.md",
+      "file": "remaining-record-audit/artifacts/4537/124bb30bf47f__README.md",
+      "sha256": "124bb30bf47ff3719b04ce6b9853d3b2041df8a29c73ee0451b527f145cc0b02",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/530a5b6d2ae7ee0a1eccc88975a170cf39b60b94/research/gate-existence-check/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gate-existence-check/verify.py",
+      "file": "remaining-record-audit/artifacts/4537/31f7714e06b1__verify.py",
+      "sha256": "31f7714e06b1d3312dd773474ce478f18534ac2f836af9236e4750d3698c58e2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/530a5b6d2ae7ee0a1eccc88975a170cf39b60b94/research/gate-existence-check/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4537,
+      "head": "530a5b6d2ae7ee0a1eccc88975a170cf39b60b94",
+      "path": "research/gate-existence-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/530a5b6d2ae7ee0a1eccc88975a170cf39b60b94/research/gate-existence-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2d78b33e822a0b867e9d61ebbca2c80bb4a2f5c2886a4fcef87ebd74b07af997",
+      "git_blob_sha1": "162108ed63e485d7df23a7b7155d22c83a1e8308",
+      "bytes": 5658,
+      "file": "individual-primary-interface-source/4537/2d78b33e822a__TASK.json"
+    },
+    {
+      "pr": 4537,
+      "head": "530a5b6d2ae7ee0a1eccc88975a170cf39b60b94",
+      "path": "research/gate-existence-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/530a5b6d2ae7ee0a1eccc88975a170cf39b60b94/research/gate-existence-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "65e18b1c1c7d92635a7dd211d03a41727019b6b806e18571112c8b39fc9d6e4b",
+      "git_blob_sha1": "660c9bee6c83c158330ebfccc6a4f618f9f178d2",
+      "bytes": 698,
+      "file": "individual-primary-interface-source/4537/65e18b1c1c7d__VERIFY.json"
+    }
+  ]
+}

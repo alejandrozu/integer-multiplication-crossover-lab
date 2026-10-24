@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 576,
+    "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+    "path": "research/complex-571-three-provider/MANIFEST.json",
+    "api_sha": "ed831c1952548d08d7a2092b59c9fd9f58624cfc",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research%2Fcomplex-571-three-provider%2FMANIFEST.json",
+    "priority": 180,
+    "hint_base": "research/complex-571-three-provider/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/MANIFEST.json",
+    "file": "artifacts\\576\\841c32cc1e9f__MANIFEST.json",
+    "sha256": "841c32cc1e9f0e9686df185c41036b20289095d350fffcf3cf76baec021b3755",
+    "git_blob_sha1": "ed831c1952548d08d7a2092b59c9fd9f58624cfc",
+    "bytes": 1486,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:06.912297+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 576,
+    "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+    "path": "research/complex-571-three-provider/code/witness.py",
+    "api_sha": "84eff298c4b7fde6ef00eaa076d76b0fa0e1a01c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research%2Fcomplex-571-three-provider%2Fcode%2Fwitness.py",
+    "priority": 155,
+    "hint_base": "research/complex-571-three-provider/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/code/witness.py",
+    "file": "artifacts\\576\\4f6d445f4796__witness.py",
+    "sha256": "4f6d445f4796e9e7c0ef388370020119d4fdb929c006b2101aecb203ece8ab61",
+    "git_blob_sha1": "84eff298c4b7fde6ef00eaa076d76b0fa0e1a01c",
+    "bytes": 1625,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:06.913295+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 576,
+    "head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+    "path": "research/complex-571-three-provider/verify.py",
+    "api_sha": "e433d0ef90d0950a5a1d444957f1d61b93cfb6a7",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research%2Fcomplex-571-three-provider%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/complex-571-three-provider/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e/research/complex-571-three-provider/verify.py",
+    "file": "artifacts\\576\\21857d5aea37__verify.py",
+    "sha256": "21857d5aea3763fb1b1c3abdf5d84204c783318f8d41fb1fa6076501f4b53f8e",
+    "git_blob_sha1": "e433d0ef90d0950a5a1d444957f1d61b93cfb6a7",
+    "bytes": 11474,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:07.768269+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

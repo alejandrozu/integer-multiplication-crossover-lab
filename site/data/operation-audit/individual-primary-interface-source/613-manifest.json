@@ -1,0 +1,76 @@
+{
+  "pr": 613,
+  "own_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+  "primary_path_candidates": [
+    "certificates/pr610-independent-replay/RESULT.json",
+    "certificates/pr610-independent-replay/ASSEMBLY.json",
+    "certificates/pr610-independent-replay/README.md",
+    "certificates/pr610-independent-replay/RECEIPT.json",
+    "certificates/pr610-independent-replay/SOURCE-BLOBS.json",
+    "certificates/pr610-independent-replay/ASSEMBLY-CONTROLS.json",
+    "certificates/pr610-independent-replay/OWNERS-AND-PROFILE.json",
+    "certificates/pr610-independent-replay/PREFIX-AND-INVOICE.json",
+    "certificates/pr610-independent-replay/PHASE-TIMING-CONTROLS.json",
+    "certificates/pr610-independent-replay/pr610-independent-audit.json",
+    "certificates/pr610-independent-replay/GENERATED-IDENTITY-CONTROLS.json",
+    "certificates/pr610-independent-replay/audit_replay.py"
+  ],
+  "selected_for_recovery": [
+    "certificates/pr610-independent-replay/ASSEMBLY.json",
+    "certificates/pr610-independent-replay/audit_replay.py",
+    "certificates/pr610-independent-replay/RECEIPT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "certificates/pr610-independent-replay/README.md",
+      "file": "remaining-record-audit/artifacts/613/6f52c1080080__README.md",
+      "sha256": "6f52c108008014edf0a71b7077ae355959ac1abbef0256a9b3956deda831ab74",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/be939d7014b6244ada9cf6a9697db31e3886b1d9/certificates/pr610-independent-replay/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "certificates/pr610-independent-replay/RESULT.json",
+      "file": "remaining-record-audit/artifacts/613/e047b05a0556__RESULT.json",
+      "sha256": "e047b05a0556bf05632d9b8e239d88db2b6b17a79ed2b6e5b0acd0097170ca89",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/be939d7014b6244ada9cf6a9697db31e3886b1d9/certificates/pr610-independent-replay/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 13,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 613,
+      "head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+      "path": "certificates/pr610-independent-replay/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/be939d7014b6244ada9cf6a9697db31e3886b1d9/certificates/pr610-independent-replay/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "847f19daed3c5df080c9baac8f4c91c4969cea6eef72422caba1580a11abc01b",
+      "git_blob_sha1": "89f7a56186b99eb8e7f10c81a5328df854e3396d",
+      "bytes": 85195,
+      "file": "individual-primary-interface-source/613/847f19daed3c__ASSEMBLY.json"
+    },
+    {
+      "pr": 613,
+      "head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+      "path": "certificates/pr610-independent-replay/audit_replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/be939d7014b6244ada9cf6a9697db31e3886b1d9/certificates/pr610-independent-replay/audit_replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ba541d0b705ffa1c155f7a2a9f2fdb1c20a58355c6a8313419551dc260ef572d",
+      "git_blob_sha1": "aca73e3c0ca3efa2bd9e2bfc333bdf0706df9ee5",
+      "bytes": 6390,
+      "file": "individual-primary-interface-source/613/ba541d0b705f__audit_replay.py"
+    },
+    {
+      "pr": 613,
+      "head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+      "path": "certificates/pr610-independent-replay/RECEIPT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/be939d7014b6244ada9cf6a9697db31e3886b1d9/certificates/pr610-independent-replay/RECEIPT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "67f4b1f23dce3bf6da0f149a0b3f51f428f421a29c693ce9adae545285f8f3e5",
+      "git_blob_sha1": "35cd33340657fff6b1d9253dc520307213f1a47b",
+      "bytes": 13370,
+      "file": "individual-primary-interface-source/613/67f4b1f23dce__RECEIPT.json"
+    }
+  ]
+}

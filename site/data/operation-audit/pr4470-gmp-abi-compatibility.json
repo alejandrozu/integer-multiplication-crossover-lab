@@ -1,0 +1,368 @@
+{
+  "schema": "pr4470-pinned-gmp-abi-compatibility/1",
+  "status": "empty_literal_fast_template_activation_domain_for_this_ABI_and_packing",
+  "subject": "Actual installed GMP6.3.0 mpz ABI versus selected PR4470 literal template activation",
+  "installed_reference": {
+    "version": "6.3.0",
+    "gmp_dll_sha256": "525f5681dc5fb40ef86b1bcb0ee5c40142aec689e0a1ba8c8e40199173366f6a",
+    "gmp_dll_hash_rechecked_now": true,
+    "abi": {
+      "mp_limb_t_bits": 64,
+      "C_int_bits": 32,
+      "C_long_bits": 32,
+      "pointer_bits": 64,
+      "mp_size_t_bits": 32,
+      "mp_bitcnt_t_bits": 32,
+      "mpz_struct_bytes": 16,
+      "mpz_alloc_offset": 0,
+      "mpz_size_offset": 4,
+      "mpz_limb_pointer_offset": 8,
+      "positive_mpz_representation_ceiling_bits": 137438953408,
+      "equal_input_bits_necessary_output_size_ceiling": 68719476704,
+      "ceiling_interpretation": "Necessary representation ceiling only, not a guaranteed allocatable or supported size; installation/ABI-specific. Full product output must also fit. mpn length is Windows long32 here, not universal ptrdiff_t64.",
+      "runtime_struct_checks": [
+        {
+          "input_bits": 1,
+          "observed_alloc_limbs": 1,
+          "observed_size_limbs": 1,
+          "full_value_matches": true
+        },
+        {
+          "input_bits": 65,
+          "observed_alloc_limbs": 2,
+          "observed_size_limbs": 2,
+          "full_value_matches": true
+        },
+        {
+          "input_bits": 1024,
+          "observed_alloc_limbs": 16,
+          "observed_size_limbs": 16,
+          "full_value_matches": true
+        }
+      ]
+    },
+    "official_source_archive_url": "https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz",
+    "official_source_archive_sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+    "header_sha256": "3e09f57d413e03cbf4c967317748ae83bbae58b9860f150b7c913eaeee0d0542"
+  },
+  "representation_proof": {
+    "source_layout": "__mpz_struct has int _mp_alloc, int _mp_size, mp_limb_t *_mp_d; gmp-h.in lines151-159",
+    "observed_integer_width": 32,
+    "observed_limb_bits": 64,
+    "nonnegative_size_field_max_limbs": 2147483647,
+    "positive_value_necessary_bit_ceiling": 137438953408,
+    "positive_value_ceiling_identity": "64(2^31-1)=2^37-64",
+    "necessary_full_product_domain": "A full mpz result must also fit; all products of two n-bit unsigned operands require n<=68719476704.",
+    "not_guaranteed_allocatable_or_supported": true
+  },
+  "literal_PR4470_packing": {
+    "source_commit": "7c472563474e60185e6ca101a17622133d047e56",
+    "H": 64215200000000,
+    "selected_uniform_rank": "N=2^64215200000000",
+    "b": "ceil(log2n)",
+    "p": "256b",
+    "d": "floor(p^epsilon), 0<epsilon<1",
+    "L": "ceil(n/b)",
+    "T": "leastpower2>=8L",
+    "n1_scope": "n=1 takes the elementary/fallback branch; b-based packing is stated for n>=2",
+    "b_upper_for_any_representable_unsigned_operand": 37,
+    "p_upper_for_any_representable_unsigned_operand": 9472,
+    "selected_dimension_integer_upper": 9471,
+    "N_strictly_exceeds_dimension_upper": "N>=2^14=16384>9472>d",
+    "exact_maximum_target_coefficient_slots": 34359738368,
+    "exact_maximum_target_binary_address_bits": 35,
+    "selected_uniform_template_fits": false,
+    "raw_145_axis_controller_fits": false,
+    "raw_f271_39295_axis_component_fits": false
+  },
+  "conclusion": {
+    "literal_fast_branch_common_input_domain_empty": true,
+    "meaning": "Within this installed mpz ABI and the current bounded-padding rule, no representable unsigned operand width can activate the literal selected rank-N fast supplier. This is stronger than an unknown timing crossover for that unchanged literal branch.",
+    "not_a_timing_crossover": true,
+    "not_a_general_GMP_or_PR4470_lower_bound": true,
+    "does_not_rule_out": [
+      "A changed/smaller compiler",
+      "A different outer packing or deliberately huge padding",
+      "Streaming/distributed/custom arithmetic representations",
+      "Another GMP ABI or an idealized unbounded implementation",
+      "A future practical algorithm inspired by the construction"
+    ],
+    "scope_warning": "The source ABI ceiling is necessary only. Actual physical memory and supported API limits can be smaller. This receipt does not claim performance or allocation at the ceiling, and does not assert all GMP variants share it."
+  },
+  "checks": {
+    "runtime_struct_import_receipts": 3,
+    "exact_b_intervals": 37,
+    "header_and_receipt_hashes_verified": true,
+    "cap_and_pmax_arithmetic": true,
+    "target_Tmax_exact": true,
+    "native_rank_activation_impossible": true
+  },
+  "interval_receipts": [
+    {
+      "ceil_log2_n": 1,
+      "n_min": 2,
+      "n_max": 2,
+      "max_L": 2,
+      "max_T": 16
+    },
+    {
+      "ceil_log2_n": 2,
+      "n_min": 3,
+      "n_max": 4,
+      "max_L": 2,
+      "max_T": 16
+    },
+    {
+      "ceil_log2_n": 3,
+      "n_min": 5,
+      "n_max": 8,
+      "max_L": 3,
+      "max_T": 32
+    },
+    {
+      "ceil_log2_n": 4,
+      "n_min": 9,
+      "n_max": 16,
+      "max_L": 4,
+      "max_T": 32
+    },
+    {
+      "ceil_log2_n": 5,
+      "n_min": 17,
+      "n_max": 32,
+      "max_L": 7,
+      "max_T": 64
+    },
+    {
+      "ceil_log2_n": 6,
+      "n_min": 33,
+      "n_max": 64,
+      "max_L": 11,
+      "max_T": 128
+    },
+    {
+      "ceil_log2_n": 7,
+      "n_min": 65,
+      "n_max": 128,
+      "max_L": 19,
+      "max_T": 256
+    },
+    {
+      "ceil_log2_n": 8,
+      "n_min": 129,
+      "n_max": 256,
+      "max_L": 32,
+      "max_T": 256
+    },
+    {
+      "ceil_log2_n": 9,
+      "n_min": 257,
+      "n_max": 512,
+      "max_L": 57,
+      "max_T": 512
+    },
+    {
+      "ceil_log2_n": 10,
+      "n_min": 513,
+      "n_max": 1024,
+      "max_L": 103,
+      "max_T": 1024
+    },
+    {
+      "ceil_log2_n": 11,
+      "n_min": 1025,
+      "n_max": 2048,
+      "max_L": 187,
+      "max_T": 2048
+    },
+    {
+      "ceil_log2_n": 12,
+      "n_min": 2049,
+      "n_max": 4096,
+      "max_L": 342,
+      "max_T": 4096
+    },
+    {
+      "ceil_log2_n": 13,
+      "n_min": 4097,
+      "n_max": 8192,
+      "max_L": 631,
+      "max_T": 8192
+    },
+    {
+      "ceil_log2_n": 14,
+      "n_min": 8193,
+      "n_max": 16384,
+      "max_L": 1171,
+      "max_T": 16384
+    },
+    {
+      "ceil_log2_n": 15,
+      "n_min": 16385,
+      "n_max": 32768,
+      "max_L": 2185,
+      "max_T": 32768
+    },
+    {
+      "ceil_log2_n": 16,
+      "n_min": 32769,
+      "n_max": 65536,
+      "max_L": 4096,
+      "max_T": 32768
+    },
+    {
+      "ceil_log2_n": 17,
+      "n_min": 65537,
+      "n_max": 131072,
+      "max_L": 7711,
+      "max_T": 65536
+    },
+    {
+      "ceil_log2_n": 18,
+      "n_min": 131073,
+      "n_max": 262144,
+      "max_L": 14564,
+      "max_T": 131072
+    },
+    {
+      "ceil_log2_n": 19,
+      "n_min": 262145,
+      "n_max": 524288,
+      "max_L": 27595,
+      "max_T": 262144
+    },
+    {
+      "ceil_log2_n": 20,
+      "n_min": 524289,
+      "n_max": 1048576,
+      "max_L": 52429,
+      "max_T": 524288
+    },
+    {
+      "ceil_log2_n": 21,
+      "n_min": 1048577,
+      "n_max": 2097152,
+      "max_L": 99865,
+      "max_T": 1048576
+    },
+    {
+      "ceil_log2_n": 22,
+      "n_min": 2097153,
+      "n_max": 4194304,
+      "max_L": 190651,
+      "max_T": 2097152
+    },
+    {
+      "ceil_log2_n": 23,
+      "n_min": 4194305,
+      "n_max": 8388608,
+      "max_L": 364723,
+      "max_T": 4194304
+    },
+    {
+      "ceil_log2_n": 24,
+      "n_min": 8388609,
+      "n_max": 16777216,
+      "max_L": 699051,
+      "max_T": 8388608
+    },
+    {
+      "ceil_log2_n": 25,
+      "n_min": 16777217,
+      "n_max": 33554432,
+      "max_L": 1342178,
+      "max_T": 16777216
+    },
+    {
+      "ceil_log2_n": 26,
+      "n_min": 33554433,
+      "n_max": 67108864,
+      "max_L": 2581111,
+      "max_T": 33554432
+    },
+    {
+      "ceil_log2_n": 27,
+      "n_min": 67108865,
+      "n_max": 134217728,
+      "max_L": 4971027,
+      "max_T": 67108864
+    },
+    {
+      "ceil_log2_n": 28,
+      "n_min": 134217729,
+      "n_max": 268435456,
+      "max_L": 9586981,
+      "max_T": 134217728
+    },
+    {
+      "ceil_log2_n": 29,
+      "n_min": 268435457,
+      "n_max": 536870912,
+      "max_L": 18512791,
+      "max_T": 268435456
+    },
+    {
+      "ceil_log2_n": 30,
+      "n_min": 536870913,
+      "n_max": 1073741824,
+      "max_L": 35791395,
+      "max_T": 536870912
+    },
+    {
+      "ceil_log2_n": 31,
+      "n_min": 1073741825,
+      "n_max": 2147483648,
+      "max_L": 69273667,
+      "max_T": 1073741824
+    },
+    {
+      "ceil_log2_n": 32,
+      "n_min": 2147483649,
+      "n_max": 4294967296,
+      "max_L": 134217728,
+      "max_T": 1073741824
+    },
+    {
+      "ceil_log2_n": 33,
+      "n_min": 4294967297,
+      "n_max": 8589934592,
+      "max_L": 260301049,
+      "max_T": 2147483648
+    },
+    {
+      "ceil_log2_n": 34,
+      "n_min": 8589934593,
+      "n_max": 17179869184,
+      "max_L": 505290271,
+      "max_T": 4294967296
+    },
+    {
+      "ceil_log2_n": 35,
+      "n_min": 17179869185,
+      "n_max": 34359738368,
+      "max_L": 981706811,
+      "max_T": 8589934592
+    },
+    {
+      "ceil_log2_n": 36,
+      "n_min": 34359738369,
+      "n_max": 68719476736,
+      "max_L": 1908874354,
+      "max_T": 17179869184
+    },
+    {
+      "ceil_log2_n": 37,
+      "n_min": 68719476737,
+      "n_max": 137438953408,
+      "max_L": 3714566309,
+      "max_T": 34359738368
+    }
+  ],
+  "local_source_sha256": {
+    "gmp-h.in": "3e09f57d413e03cbf4c967317748ae83bbae58b9860f150b7c913eaeee0d0542",
+    "tuned-inspect.py": "d46eec64fb8937bc27b785de6828be35d0c0785b74270999601441fd18daf7cb",
+    "tuned-installation-audit.json": "47deee62d84cbd167e1adff203b6e758cefb94443c27dbc42a1ba162dc69e4a2"
+  },
+  "source_headers_included": "pr4470-gmp-abi-source/",
+  "script_sha256": "a6926f61bc71d080c758099f9d7bbecdec03de054289ab6ff78f3962d0ca870f"
+}

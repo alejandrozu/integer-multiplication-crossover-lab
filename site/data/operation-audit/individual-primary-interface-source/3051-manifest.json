@@ -1,0 +1,94 @@
+{
+  "pr": 3051,
+  "own_head": "10a45bd361554709840becb5bc26016ca49944c3",
+  "primary_path_candidates": [
+    "research/rank7-six-skip-cap-release/CLAIM.json",
+    "research/rank7-six-skip-cap-release/README.md",
+    "research/rank7-six-skip-cap-release/TASK.json",
+    "research/rank7-six-skip-cap-release/VENDOR.json",
+    "research/rank7-six-skip-cap-release/VERIFY.json",
+    "research/rank7-six-skip-cap-release/SOURCE-PINS.json",
+    "research/rank7-six-skip-cap-release/evidence/RUN.json",
+    "research/rank7-six-skip-cap-release/evidence/FINITE.json",
+    "research/rank7-six-skip-cap-release/evidence/RECIPE.json",
+    "research/rank7-six-skip-cap-release/evidence/ENVIRONMENT.json",
+    "research/rank7-six-skip-cap-release/evidence/OUTER-CLAIM.json",
+    "research/rank7-six-skip-cap-release/evidence/MATERIALIZED.json",
+    "research/rank7-six-skip-cap-release/evidence/NATIVE-RECEIPT.json",
+    "research/rank7-six-skip-cap-release/evidence/INVOICE-PAYLOAD.json",
+    "research/rank7-six-skip-cap-release/evidence/RELEASE-RECEIPT.json",
+    "research/rank7-six-skip-cap-release/evidence/ADMISSION-RESULT.json",
+    "research/rank7-six-skip-cap-release/evidence/NATIVE-base-STEPS.json",
+    "research/rank7-six-skip-cap-release/evidence/COMPOSITION-RESULT.json",
+    "research/rank7-six-skip-cap-release/evidence/NATIVE-extra-STEPS.json",
+    "research/rank7-six-skip-cap-release/evidence/RETAINED-REUSE-RECEIPT.json",
+    "research/rank7-six-skip-cap-release/verify.py",
+    "research/rank7-six-skip-cap-release/reproduce.py",
+    "research/rank7-six-skip-cap-release/run_release.py",
+    "research/rank7-six-skip-cap-release/test_bindings.py",
+    "research/rank7-six-skip-cap-release/verify_release.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-six-skip-cap-release/README.md",
+    "research/rank7-six-skip-cap-release/TASK.json",
+    "research/rank7-six-skip-cap-release/verify.py",
+    "research/rank7-six-skip-cap-release/VENDOR.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-six-skip-cap-release/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3051/f59914dd2687__CLAIM.json",
+      "sha256": "f59914dd2687d9c47c1b9ca8ec95ff5b20d4a17eed7dc150b439f0b9bc8c6298",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/10a45bd361554709840becb5bc26016ca49944c3/research/rank7-six-skip-cap-release/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 57,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3051,
+      "head": "10a45bd361554709840becb5bc26016ca49944c3",
+      "path": "research/rank7-six-skip-cap-release/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/10a45bd361554709840becb5bc26016ca49944c3/research/rank7-six-skip-cap-release/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a80db73700dfdcc23467964bea90e73aa499197e04efbc027fa57dc531cc0e51",
+      "git_blob_sha1": "5275a015f57733ef15f751d3b28d2f8d54f803f8",
+      "bytes": 8327,
+      "file": "individual-primary-interface-source/3051/a80db73700df__README.md"
+    },
+    {
+      "pr": 3051,
+      "head": "10a45bd361554709840becb5bc26016ca49944c3",
+      "path": "research/rank7-six-skip-cap-release/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/10a45bd361554709840becb5bc26016ca49944c3/research/rank7-six-skip-cap-release/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "290ac6146f592e746df5f69fa93f650093440d663323238d78a861ac74b0480c",
+      "git_blob_sha1": "d36b512199d05a2560ce3ab22b6d6706c142d8bf",
+      "bytes": 5788,
+      "file": "individual-primary-interface-source/3051/290ac6146f59__TASK.json"
+    },
+    {
+      "pr": 3051,
+      "head": "10a45bd361554709840becb5bc26016ca49944c3",
+      "path": "research/rank7-six-skip-cap-release/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/10a45bd361554709840becb5bc26016ca49944c3/research/rank7-six-skip-cap-release/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "418fde9282e72946e48e40944a1b68da36112f520fb9d4d5eef6f9aabeb3ba6e",
+      "git_blob_sha1": "9ef285b96074598f73133f33c9570d11b69f177c",
+      "bytes": 10643,
+      "file": "individual-primary-interface-source/3051/418fde9282e7__verify.py"
+    },
+    {
+      "pr": 3051,
+      "head": "10a45bd361554709840becb5bc26016ca49944c3",
+      "path": "research/rank7-six-skip-cap-release/VENDOR.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/10a45bd361554709840becb5bc26016ca49944c3/research/rank7-six-skip-cap-release/VENDOR.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2cbe373cf57d546729979fb29e85d148d378d3c87b94c6675a326556a7c3727f",
+      "git_blob_sha1": "64d6c2dc173229b3685d2234f41a515deefb14a2",
+      "bytes": 4221,
+      "file": "individual-primary-interface-source/3051/2cbe373cf57d__VENDOR.json"
+    }
+  ]
+}

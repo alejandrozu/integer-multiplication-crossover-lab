@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Source evidence · Multiplication Crossover Lab</title>
+<style>
+:root{color-scheme:light;font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#15263d;background:#fafbfd}*{box-sizing:border-box}body{margin:0}main{max-width:1160px;padding:36px 24px;margin:auto}a{color:#205bd6;text-decoration:none}a:hover{text-decoration:underline}h1{font-size:32px;letter-spacing:-1px;margin:26px 0 10px}p{line-height:1.6;color:#56657a;max-width:850px}.controls{display:flex;gap:16px;flex-wrap:wrap;margin:28px 0 18px}label{display:grid;gap:7px;font-size:13px;color:#56657a}select,input,button,.download{font:inherit;padding:10px 13px;border:1px solid #dbe2ec;border-radius:7px;background:white;color:#15263d}input{min-width:250px}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}.status{color:#31644c;font-size:13px}.downloads{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:18px 0}.download{font-size:13px;color:#205bd6}.paging{display:flex;gap:12px;align-items:center;font-size:13px;color:#56657a;margin:18px 0}pre{font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;border:1px solid #dbe2ec;border-radius:10px;background:#fff;padding:22px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;min-height:240px}.error{color:#a72d37}footer{font-size:12px;color:#6b7b90;margin:24px 0}
+</style></head><body><main>
+<a href="index.html#tab=frontier">← Multiplication Crossover Lab</a>
+<h1>Inspect the source evidence</h1><p>Browse the pinned audit and historical-source ledgers. The viewer verifies the original JSON after decompression. The complete files are also included in the offline reproduction package.</p>
+<div class="controls"><label>Evidence ledger<select id="ledgerSelect"></select></label><label>Find a PR or phrase<input id="evidenceSearch" placeholder="PR number or text" type="search"></label></div>
+<div id="evidenceStatus" class="status" role="status">Loading evidence…</div>
+<div class="downloads"><a class="download" id="originalDownload" hidden>Download original JSON</a><a class="download" id="compressedDownload" hidden>Download compressed JSON</a><a href="reproduction.html">Offline reproduction package ↗</a></div>
+<div class="paging"><button id="previousPage" disabled>Previous</button><span id="pageStatus"></span><button id="nextPage" disabled>Next</button></div>
+<pre id="evidenceContent" aria-label="Source evidence"></pre>
+<footer>Bounds are conditional statements for the declared circuit model. A source-scope audit does not certify an exact first crossover or a complete multiplication theorem.</footer>
+</main><script src="evidence.js"></script></body></html>

@@ -1,0 +1,62 @@
+{
+  "pr": 837,
+  "own_head": "0a2977195efc8fb2a918fbfb694ec8d294387f08",
+  "primary_path_candidates": [
+    "research/dyadic-horner-direction/CLAIM.json",
+    "research/dyadic-horner-direction/EXPECTED.json",
+    "research/dyadic-horner-direction/README.md",
+    "research/dyadic-horner-direction/VALIDATION.md",
+    "research/dyadic-horner-direction/lower.py",
+    "research/dyadic-horner-direction/verify.py",
+    "research/dyadic-horner-direction/crosscheck.py",
+    "research/dyadic-horner-direction/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/dyadic-horner-direction/lower.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/dyadic-horner-direction/README.md",
+      "file": "remaining-record-audit/artifacts/837/9b33aa9a8ffe__README.md",
+      "sha256": "9b33aa9a8ffef769037fe946a1dbb0efc3d3662f43520b5af5f863007fb06b32",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a2977195efc8fb2a918fbfb694ec8d294387f08/research/dyadic-horner-direction/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/dyadic-horner-direction/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/837/ae4a62ed8ae5__CLAIM.json",
+      "sha256": "ae4a62ed8ae573a94579d47bd648960a6a1923f4b61c54d77557f95c97c2b81a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a2977195efc8fb2a918fbfb694ec8d294387f08/research/dyadic-horner-direction/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/dyadic-horner-direction/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/837/a495a9bd8897__EXPECTED.json",
+      "sha256": "a495a9bd889799cbce387e1b6ebf689b118a0263a1d39394e018328bbe3f6ce3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a2977195efc8fb2a918fbfb694ec8d294387f08/research/dyadic-horner-direction/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/dyadic-horner-direction/VALIDATION.md",
+      "file": "remaining-record-audit/artifacts/837/879591838f1d__VALIDATION.md",
+      "sha256": "879591838f1d326106bc851155cbde2989c170b582f436e6bda95fdb2da1ef3f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a2977195efc8fb2a918fbfb694ec8d294387f08/research/dyadic-horner-direction/VALIDATION.md"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 837,
+      "head": "0a2977195efc8fb2a918fbfb694ec8d294387f08",
+      "path": "research/dyadic-horner-direction/lower.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0a2977195efc8fb2a918fbfb694ec8d294387f08/research/dyadic-horner-direction/lower.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6a7ae3f2aff61077ce4b3f179f7ccc2024f5176b5894547250eb14105b14f5e2",
+      "git_blob_sha1": "a7855d2a87b77913bac097e1ece8ee35119bae28",
+      "bytes": 3158,
+      "file": "individual-primary-interface-source/837/6a7ae3f2aff6__lower.py"
+    }
+  ]
+}

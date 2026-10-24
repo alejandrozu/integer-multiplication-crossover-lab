@@ -1,0 +1,42 @@
+{
+  "schema": "pr4470-nested-comparison/1",
+  "model": "xag-straightline-v1",
+  "status": "closed_conditional_sufficient_upper_bound",
+  "A": "1400000001",
+  "kappa": "60403/20000000",
+  "N": "2^64215200000000",
+  "H": "64215200000000",
+  "M_N": "2^(9HN)",
+  "inputUpper": "2^(M_N^1400000001/256)",
+  "log2log2U": "809111520577936800000000N-8",
+  "input_unit": "bits in each unsigned operand",
+  "coefficient_each_gate_type": 1,
+  "candidate_upper": "(1+rho_cost)*n*p^(1-kappa), p=256ceil(log2n)",
+  "native_contracts_retained": true,
+  "linear_guard_review_closed": true,
+  "hw_runtime_crossover": false,
+  "exact_first_crossover_known": false,
+  "rigorous_reference_comparisons": [
+    "hvh",
+    "generic_gmp"
+  ],
+  "reference_ratio_upper": {
+    "hvh": "512*(1+rho_cost)/(216+378rho_cost)*p^(-kappa)",
+    "generic_gmp": "512*(1+rho_cost)/(1+3rho_cost/2)*p^(-kappa)",
+    "every_positive_tariff": "Both<512*p^(-kappa)<1 for p>=M_N^1400000001"
+  },
+  "reference_scope": "Specified canonical HvH and fixed generic64-bit GMP circuits; not actual tuned GMP or a hardware timing model.",
+  "proof_scope": "AI-assisted written proofs plus exact rational checks and separate AI skeptical review. No independent human review or Lean formalization.",
+  "checks_passed": 44,
+  "hashes": {
+    "pr4470-nested-inventory.json": "d085716737ea64fbc4372c41aedb958cc463f4666ad9cc86da31191d678ba0c2",
+    "pr4470-nested-inventory.md": "a7676a5fe5aca107e29320eab76ddd07cb4215163a16f0376eeed38f48f4278b",
+    "pr4470-rankmass-inventory.json": "3db62c92104ce7e856e775c5076f001f3be4820115cd0d4c02b36aa44cfe179c",
+    "pr4470-rankmass-inventory.md": "0cd84623ec485941ab935c8304195069ecfc97f40ac8ea82edeeead659b1197d",
+    "pr4470-nested-precision.json": "993dd8fa04c25d5c5937172404a2c846baba5e8631d04554aadf4ef929af2955",
+    "pr4470-nested-precision.md": "4d19320f0cf360863aed3e19a5e936c7d950548dcd07811e02c124de9bca9602",
+    "pr4470-whole-integer-bound.json": "220933740b04333d1fafea9cdee27f3c272dd07c712e0e2af3f56e08103117bf",
+    "pr4470-whole-integer-bound.md": "ea78760ad376ebde83a66febb25837bc2a358a59b686cd3df4fabcb83503af9b"
+  },
+  "script_sha256": "e3a7c6eec408998d6fa6bfe9da3e758b884db175029a7c7eb1dd08cdbf1b1418"
+}

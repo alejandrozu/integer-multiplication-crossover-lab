@@ -4,11 +4,11 @@ An interactive, source-linked audit of conditional integer-multiplication
 constructions and their feasibility against a fixed optimized GMP reference.
 
 **[Public website](https://alejandrozu.github.io/integer-multiplication-crossover-lab/)** ·
+**[Methods and assumptions](https://alejandrozu.github.io/integer-multiplication-crossover-lab/methodology.html)** ·
 **[Public reproduction downloads](https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases)**
 
-The website export is being prepared. This repository contains only the public
-release export and publication infrastructure; it does not contain the private
-working directory or unpublished research.
+This repository contains the public release export and publication infrastructure.
+The working directory and unpublished research are excluded.
 
 ## What the frozen 196 checkpoint establishes
 
@@ -41,9 +41,10 @@ independent human review.
 
 ## Reproduce without a private service
 
-The final public release will contain fourteen `operation-audit-objects-*.zip`
-parts (43–56), `reproduction-package.json`, `restore_reproduction.py` and the
-offline verification receipt. All files will be available directly from GitHub.
+The [frozen public release](https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24) contains twenty
+`operation-audit-objects-*.zip` parts (43–62), `reproduction-package.json`,
+`restore_reproduction.py` and the offline verification receipt. All downloads
+are public GitHub assets.
 The manifest binds each archive and every restored source/proof path by SHA256;
 the restore tool checks those bindings before writing a new output directory.
 
@@ -56,7 +57,13 @@ python restore_reproduction.py --package-dir . --output restored-audit
 Use Python 3.12 or later. The packages use only standard-library archive support
 for restoration, including ZIP-LZMA. Restoration authenticates exact bytes;
 the mathematical claims retain their individually stated assumptions. The
-release notes will give the checked snapshot and its offline verification result.
+release notes identify the checked snapshot and its offline verification result.
+
+The final receipt passes 103 recorded checks, authenticates 20,096 restored paths
+and compares 470 certificate files. It explicitly records published inheritance
+and a separately reviewed four-field PR2077 provenance refresh. It does not
+claim every unchanged job was rerun after that refresh. The site links the
+exact correction audit and preserves the scientific bounds.
 
 ## Publication
 

@@ -1,0 +1,66 @@
+{
+  "pr": 1790,
+  "own_head": "48ee04ee708081c8713e8868a370bbbf5aa099e1",
+  "primary_path_candidates": [
+    "research/frontier1094-swap-census/CERTIFICATE.json",
+    "research/frontier1094-swap-census/README.md",
+    "research/frontier1094-swap-census/TASK.json",
+    "research/frontier1094-swap-census/VERIFY.json",
+    "research/frontier1094-swap-census/verify.py",
+    "research/frontier1094-swap-census/TASK-CARD.md",
+    "research/frontier1094-swap-census/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1094-swap-census/TASK.json",
+    "research/frontier1094-swap-census/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-swap-census/README.md",
+      "file": "remaining-record-audit/artifacts/1790/ab1d48254dce__README.md",
+      "sha256": "ab1d48254dce582524eae50ed54f1c6e4045a0e8199250acb6338ceb4d9dac30",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/48ee04ee708081c8713e8868a370bbbf5aa099e1/research/frontier1094-swap-census/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-swap-census/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1790/2fe718a8c17d__CERTIFICATE.json",
+      "sha256": "2fe718a8c17d9cf81900487f2a469903d009b144b0325c263b9b3fb7df307f02",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/48ee04ee708081c8713e8868a370bbbf5aa099e1/research/frontier1094-swap-census/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1094-swap-census/verify.py",
+      "file": "remaining-record-audit/artifacts/1790/d63a3e0c24a7__verify.py",
+      "sha256": "d63a3e0c24a72c4db53a2f14e870bcb2b6733d9b2125419607b73da160095c27",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/48ee04ee708081c8713e8868a370bbbf5aa099e1/research/frontier1094-swap-census/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1790,
+      "head": "48ee04ee708081c8713e8868a370bbbf5aa099e1",
+      "path": "research/frontier1094-swap-census/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/48ee04ee708081c8713e8868a370bbbf5aa099e1/research/frontier1094-swap-census/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1cd37f6eae1fa18eec869b9ff86d35071eed05a5c1307d4e50ef0ce915da3f92",
+      "git_blob_sha1": "5fe2406f926ad7456c5838da1689644b111bd5b2",
+      "bytes": 9446,
+      "file": "individual-primary-interface-source/1790/1cd37f6eae1f__TASK.json"
+    },
+    {
+      "pr": 1790,
+      "head": "48ee04ee708081c8713e8868a370bbbf5aa099e1",
+      "path": "research/frontier1094-swap-census/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/48ee04ee708081c8713e8868a370bbbf5aa099e1/research/frontier1094-swap-census/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c6e50e97003ab5fbeba38b4dc92b6d0d6fdd073a223963208c8bd370543449f2",
+      "git_blob_sha1": "1dc4e19c119690ca8119329ab552bf58d9ed5603",
+      "bytes": 1738,
+      "file": "individual-primary-interface-source/1790/c6e50e97003a__VERIFY.json"
+    }
+  ]
+}

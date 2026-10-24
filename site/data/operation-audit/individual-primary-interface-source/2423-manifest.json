@@ -1,0 +1,81 @@
+{
+  "pr": 2423,
+  "own_head": "13cd273dc13c98244b1f9bcf588b6e828cbc0347",
+  "primary_path_candidates": [
+    "research/bit-r438-transport-rehost/README.md",
+    "research/bit-r438-transport-rehost/TASK.json",
+    "research/bit-r438-transport-rehost/VERIFY.json",
+    "research/bit-r438-transport-rehost/atlas_bugs.receipt.json",
+    "research/bit-r438-transport-rehost/verify_rehost.receipt.json",
+    "research/bit-r438-transport-rehost/verify_transport.receipt.json",
+    "research/bit-r438-transport-rehost/lib.py",
+    "research/bit-r438-transport-rehost/atlas_bugs.py",
+    "research/bit-r438-transport-rehost/NOTES-rehost.md",
+    "research/bit-r438-transport-rehost/verify_rehost.py",
+    "research/bit-r438-transport-rehost/NOTES-transport.md",
+    "research/bit-r438-transport-rehost/verify_transport.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-r438-transport-rehost/TASK.json",
+    "research/bit-r438-transport-rehost/VERIFY.json",
+    "research/bit-r438-transport-rehost/lib.py",
+    "research/bit-r438-transport-rehost/atlas_bugs.receipt.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-r438-transport-rehost/README.md",
+      "file": "remaining-record-audit/artifacts/2423/f6eccd913bd7__README.md",
+      "sha256": "f6eccd913bd76a5dbfc007a14ede13fe30fd6ffd06985cc6e375b306010fac59",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13cd273dc13c98244b1f9bcf588b6e828cbc0347/research/bit-r438-transport-rehost/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 25,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2423,
+      "head": "13cd273dc13c98244b1f9bcf588b6e828cbc0347",
+      "path": "research/bit-r438-transport-rehost/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13cd273dc13c98244b1f9bcf588b6e828cbc0347/research/bit-r438-transport-rehost/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "68fa7c20621615a95b30005c6a0023d43ef258107bc9e7eda8d651dffcb13060",
+      "git_blob_sha1": "682c99e62234112b42f75cff21992d9444579aed",
+      "bytes": 5699,
+      "file": "individual-primary-interface-source/2423/68fa7c206216__TASK.json"
+    },
+    {
+      "pr": 2423,
+      "head": "13cd273dc13c98244b1f9bcf588b6e828cbc0347",
+      "path": "research/bit-r438-transport-rehost/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13cd273dc13c98244b1f9bcf588b6e828cbc0347/research/bit-r438-transport-rehost/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "014ce7c42020376cef7549850e9493867107ddc8619918ac79b1acea481b0a6e",
+      "git_blob_sha1": "49d8d6638c093a08ddf8fec8a51974f5b3ec2eec",
+      "bytes": 1357,
+      "file": "individual-primary-interface-source/2423/014ce7c42020__VERIFY.json"
+    },
+    {
+      "pr": 2423,
+      "head": "13cd273dc13c98244b1f9bcf588b6e828cbc0347",
+      "path": "research/bit-r438-transport-rehost/lib.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13cd273dc13c98244b1f9bcf588b6e828cbc0347/research/bit-r438-transport-rehost/lib.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "cf5ef15eb263a3730c8863d43043d8e6db467cf7f80dabec6964a603f0dc8049",
+      "git_blob_sha1": "2dc34c3bd8fb44fba99affed595ecad67233f93b",
+      "bytes": 20151,
+      "file": "individual-primary-interface-source/2423/cf5ef15eb263__lib.py"
+    },
+    {
+      "pr": 2423,
+      "head": "13cd273dc13c98244b1f9bcf588b6e828cbc0347",
+      "path": "research/bit-r438-transport-rehost/atlas_bugs.receipt.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/13cd273dc13c98244b1f9bcf588b6e828cbc0347/research/bit-r438-transport-rehost/atlas_bugs.receipt.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7bbd747f8250fdf882f8f75e2d3aad7f1273cb8ebcb9656aa4d29c9124bc8480",
+      "git_blob_sha1": "09e3411ef194c69dabf21e2955457d3b987dc697",
+      "bytes": 7723,
+      "file": "individual-primary-interface-source/2423/7bbd747f8250__atlas_bugs.receipt.json"
+    }
+  ]
+}

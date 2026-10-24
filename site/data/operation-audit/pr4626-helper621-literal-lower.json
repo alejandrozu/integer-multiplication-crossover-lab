@@ -1,0 +1,45 @@
+{
+  "schema": "own-helper621-literal-lower/1",
+  "status": "closed_conditional_literal_family_lower_bound",
+  "pr": 4626,
+  "own_head": "e4413c43eeaacdd20be123fdd7d7add53427f028",
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "H": "337848000000000",
+  "N": "2^337848000000000",
+  "tensor_power": 1024,
+  "kappa": "3021569/1000000000",
+  "own_boundary_complex_ADD_count": 97,
+  "used_boundary_complex_ADD_count": 4,
+  "active_AND_lower": "8*2^N",
+  "active_XOR_lower": "24*2^N",
+  "j": 3,
+  "q": 0,
+  "input_bits": "2^(2^337847999999997-2^69)",
+  "plot_triple_log": {
+    "log2_of_integer": "337847999999997",
+    "negligible_negative_correction": true
+  },
+  "scope": "Own complete unreduced changed-helper621 boundary/native word when active, width at least two, strict winning own uniform supplier; identical optimized GMP when inactive.",
+  "statistic": "Earliest input width at which a correct member of this literal enhancement family strictly beats the reference",
+  "all_PR_implementations": false,
+  "exact_individual_crossing": false,
+  "arbitrary_switch_used_as_lower": false,
+  "precision_gate_used_as_lower": false,
+  "native_parameter_certificate": "pr4626-helper621-native-parameters.json",
+  "native_parameter_certificate_sha256": "8a1c928c1c3c0abb0fe3d5f392dc641fb0b9f23b2b60d7dae1a08668cc64d111",
+  "retained_contracts": [
+    "Own changed helper621 complete relative rank7 absolute-phase normalizers at arbitrary physical input; unchanged original public entry and required exit frames, not merely canonical-buffer self-consistency.",
+    "Own raw chronological arbitrary-input native identity and full physical scalar/phase/owned-field correctness at all tensor widths; finite original native/phase engine freshly replayed here.",
+    "Own separated-product compiler realizes its strict winning supplier with complete paid base cases and source full nonrecursive allowance below1e9.",
+    "Separate role fields, exact per-role Clifford endpoints with recorded absolute phase, fixed parent selected subspace, complete spectators and restored owned banks; ordinary parent row reserve outside children.",
+    "Declared fine-prime/Gaussian/finite-section/boundary/recovery analytic branch, unchanged fixed XAG and repaired optimized-GMP semantics."
+  ],
+  "dependency_hashes": {
+    "helper621-separated-bounds.md": "a69f053002d1b2046a423652dfccfdd07728f8ce7ac99fa256ef837788e44f0f",
+    "optimized-gmp-degree8-upper.md": "178a7e8854e0401ea03e2b2391646d2f1dd1fc73e12264a5e0dc32e725877f12",
+    "optimized-gmp-degree8-upper.json": "d81123d030effa06d30ff5e2c087afbafeb8154e705249fec87a2b8f5b03dbe1",
+    "pr4433-literal-boundary-lower.md": "bc8c10ea2ee2b54a6f909f8fbebfa9d2143973e28cb786d987cf0ea75adbdc45"
+  },
+  "script_sha256": "7c338134fc523776d43dc8b91a1aca5e967b1270cc7e38783de61f42c0006668"
+}

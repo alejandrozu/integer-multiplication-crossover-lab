@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 1232,
+    "head": "1a0ecf7f534a67a910b7b5a7e0abe46be074c609",
+    "path": "docs/research/current-status.md",
+    "api_sha": "d73b4ff9da41f044e793422db4318be17e234a6c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1a0ecf7f534a67a910b7b5a7e0abe46be074c609/docs%2Fresearch%2Fcurrent-status.md",
+    "priority": -1,
+    "hint_base": "research/current-status.md/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1a0ecf7f534a67a910b7b5a7e0abe46be074c609/docs/research/current-status.md",
+    "file": "artifacts\\1232\\adb54af005eb__current-status.md",
+    "sha256": "adb54af005eb11edaf84d782fe729338680ff908f6d4fbf39ba1062d2e7d8a77",
+    "git_blob_sha1": "d73b4ff9da41f044e793422db4318be17e234a6c",
+    "bytes": 22961,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:20.498375+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1232,
+    "head": "1a0ecf7f534a67a910b7b5a7e0abe46be074c609",
+    "path": "tests/test_research_current_status.py",
+    "api_sha": "356f49df3c7f8a3d6266322fabc8f47cc4666f93",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/1a0ecf7f534a67a910b7b5a7e0abe46be074c609/tests%2Ftest_research_current_status.py",
+    "priority": -1,
+    "hint_base": "research/current-status.md/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1a0ecf7f534a67a910b7b5a7e0abe46be074c609/tests/test_research_current_status.py",
+    "file": "artifacts\\1232\\9698ecb1f989__test_research_current_status.py",
+    "sha256": "9698ecb1f989a2a8282aecaabb8e13e433fc5dfdd0423b6a3ca6e690757c2b4a",
+    "git_blob_sha1": "356f49df3c7f8a3d6266322fabc8f47cc4666f93",
+    "bytes": 1847,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:25:20.498375+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

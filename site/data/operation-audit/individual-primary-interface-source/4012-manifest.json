@@ -1,0 +1,64 @@
+{
+  "pr": 4012,
+  "own_head": "678886290dbacd454f49965a1808b8b3072b1c98",
+  "primary_path_candidates": [
+    "research/p112-saturated-projection-fibers/RESULT.json",
+    "research/p112-saturated-projection-fibers/PROOF.md",
+    "research/p112-saturated-projection-fibers/README.md",
+    "research/p112-saturated-projection-fibers/TASK.json",
+    "research/p112-saturated-projection-fibers/CHECKS.json",
+    "research/p112-saturated-projection-fibers/VERIFY.json",
+    "research/p112-saturated-projection-fibers/PREDECESSORS.json",
+    "research/p112-saturated-projection-fibers/verify.py",
+    "research/p112-saturated-projection-fibers/independent.py",
+    "research/p112-saturated-projection-fibers/test_controls.py"
+  ],
+  "selected_for_recovery": [
+    "research/p112-saturated-projection-fibers/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p112-saturated-projection-fibers/PROOF.md",
+      "file": "remaining-record-audit/artifacts/4012/5228bc778b90__PROOF.md",
+      "sha256": "5228bc778b90c2f4dc6513a99268985dc0bc03202d95ce6b6fc4c482f8dd0946",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/678886290dbacd454f49965a1808b8b3072b1c98/research/p112-saturated-projection-fibers/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p112-saturated-projection-fibers/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4012/3348e1956415__RESULT.json",
+      "sha256": "3348e19564157176e95fcefd7d7b3079b2a688caa9d81b514e506ee1a97dadfd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/678886290dbacd454f49965a1808b8b3072b1c98/research/p112-saturated-projection-fibers/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p112-saturated-projection-fibers/verify.py",
+      "file": "remaining-record-audit/artifacts/4012/9bb8ad88f466__verify.py",
+      "sha256": "9bb8ad88f4662561c1ad326302ec2da922ad94f9b14ac0bc3ed72c26b28d33dc",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/678886290dbacd454f49965a1808b8b3072b1c98/research/p112-saturated-projection-fibers/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/p112-saturated-projection-fibers/README.md",
+      "file": "remaining-record-audit/artifacts/4012/150c3bcbe248__README.md",
+      "sha256": "150c3bcbe2480cc035e35d34cfe01ff624fcbc1200b40b47678e0d763735a260",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/678886290dbacd454f49965a1808b8b3072b1c98/research/p112-saturated-projection-fibers/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4012,
+      "head": "678886290dbacd454f49965a1808b8b3072b1c98",
+      "path": "research/p112-saturated-projection-fibers/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/678886290dbacd454f49965a1808b8b3072b1c98/research/p112-saturated-projection-fibers/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ec3f834fc5510b71cf0b978114a8c593ee4ff42a140f63dc4d0850669836eb02",
+      "git_blob_sha1": "d388c00feb66c001c5e4146335eccc7789fc3fd8",
+      "bytes": 7072,
+      "file": "individual-primary-interface-source/4012/ec3f834fc551__TASK.json"
+    }
+  ]
+}

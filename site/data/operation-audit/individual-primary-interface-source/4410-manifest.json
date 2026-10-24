@@ -1,0 +1,56 @@
+{
+  "pr": 4410,
+  "own_head": "269b9cca40e88fb6616806ec39a7464c6c17351e",
+  "primary_path_candidates": [
+    "research/pr4405-refill-check/README.md",
+    "research/pr4405-refill-check/TASK.json",
+    "research/pr4405-refill-check/VERIFY.json",
+    "research/pr4405-refill-check/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4405-refill-check/TASK.json",
+    "research/pr4405-refill-check/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4405-refill-check/README.md",
+      "file": "remaining-record-audit/artifacts/4410/e9b163362826__README.md",
+      "sha256": "e9b16336282666c015a6575f61aec70ad5f18c3087aabeba23a3c403bd3abb23",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/269b9cca40e88fb6616806ec39a7464c6c17351e/research/pr4405-refill-check/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4405-refill-check/verify.py",
+      "file": "remaining-record-audit/artifacts/4410/c47bb4d6cbba__verify.py",
+      "sha256": "c47bb4d6cbba6b9c1b8dea5cf03ca5a3b8aa9ac59276cf2970cbb7f749e9f02b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/269b9cca40e88fb6616806ec39a7464c6c17351e/research/pr4405-refill-check/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4410,
+      "head": "269b9cca40e88fb6616806ec39a7464c6c17351e",
+      "path": "research/pr4405-refill-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/269b9cca40e88fb6616806ec39a7464c6c17351e/research/pr4405-refill-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5bf3b4d8a2a9e285d978b4c7e2b221136eeab6bba4b5909447f8b95f71e511f7",
+      "git_blob_sha1": "470735647615399ee79a5ab5d67afa967c878357",
+      "bytes": 6088,
+      "file": "individual-primary-interface-source/4410/5bf3b4d8a2a9__TASK.json"
+    },
+    {
+      "pr": 4410,
+      "head": "269b9cca40e88fb6616806ec39a7464c6c17351e",
+      "path": "research/pr4405-refill-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/269b9cca40e88fb6616806ec39a7464c6c17351e/research/pr4405-refill-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1c5c45166630a058471823d9feced18af0e1838bd2a902517c188e7861940ec3",
+      "git_blob_sha1": "1a9cdd0e85d0a8b255f8421631caacf7dce1b417",
+      "bytes": 594,
+      "file": "individual-primary-interface-source/4410/1c5c45166630__VERIFY.json"
+    }
+  ]
+}

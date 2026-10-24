@@ -1,0 +1,1224 @@
+{
+  "schema_version": 1,
+  "kind": "measured_practical_implementation_baseline",
+  "title": "Single-process Windows gmpy2/GMP mpz multiplication microbenchmark",
+  "recorded_at_utc": "2026-10-23T19:31:13.626221+00:00",
+  "started_at_utc": "2026-10-23T19:31:05.385660+00:00",
+  "client_date": "2026-10-23",
+  "client_timezone": "Europe/Paris",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\Propietario\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu": {
+      "Name": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+      "Manufacturer": "GenuineIntel",
+      "NumberOfCores": 4,
+      "NumberOfLogicalProcessors": 8,
+      "MaxClockSpeed": 2995
+    },
+    "gmpy2_version": "2.3.2",
+    "backend_mp_version": "GMP 6.3.0",
+    "mpfr_version": "MPFR 4.2.2",
+    "mpc_version": "MPC 1.4.1",
+    "limb_bits": 64,
+    "module_file": "C:\\Users\\Propietario\\Documents\\Codex\\2026-10-23\\integer-crossover-history\\crossover-lab\\benchmark-deps\\gmpy2\\__init__.py",
+    "binary_sha256": {
+      "gmpy2/gmpy2.cp312-win_amd64.pyd": "3d657b731bbb9edffba8f9f64ffcea7a9997f26c17c2202a1c4199bf7b836726",
+      "gmpy2.libs/libgcc_s_seh-1.dll": "68ca4574b331402879dec403ba4f14491c9b8fc4aa3f4a41432008714b9bc5df",
+      "gmpy2.libs/libgmp-10.dll": "525f5681dc5fb40ef86b1bcb0ee5c40142aec689e0a1ba8c8e40199173366f6a",
+      "gmpy2.libs/libmpc-3.dll": "dba5d7517debfea8af489a1a4a1a17d25c354d3184e1d77396e0bcdff7183d0b",
+      "gmpy2.libs/libmpfr-6.dll": "b81a548eb7a23d4e3acbe296f1eff077a0b284617a2c1cc53a1ccdb0637b52b8",
+      "gmpy2.libs/libwinpthread-1.dll": "76cc52adfcdb8c800813b2ae8da42a908934eb1ee54ce8e9744fc8d703c76ee1"
+    },
+    "parallel_workers_launched": 0,
+    "cpu_affinity": "Not pinned",
+    "cpu_priority": "Default",
+    "power_thermal_policy": "Not controlled",
+    "process_thread_policy": "One Python process, serial batches, no worker pool; BLAS/OpenMP thread environment set to one.",
+    "perf_counter": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    }
+  },
+  "method": {
+    "seed": 1094470,
+    "input_bits_each": [
+      256,
+      1024,
+      4096,
+      16384,
+      65536,
+      262144,
+      1048576,
+      4194304
+    ],
+    "independent_operand_pairs_per_size": 1,
+    "input_distribution": "Two independent seeded positive random integers with their top bit forced; distinct inputs, not squaring.",
+    "samples_per_size": 9,
+    "warmup_multiplications": 3,
+    "target_sample_seconds": 0.06,
+    "measurement": "Wall-clock batch median of repeated a*b, divided by iterations. Includes Python loop/binding overhead, mpz result allocation and old-result release.",
+    "excluded_from_timed_batches": [
+      "random generation",
+      "integer/mpz input conversions",
+      "independent expected product",
+      "correctness assertions",
+      "hashing"
+    ],
+    "cache_regime": "Hot repeated operands and code; not an end-to-end application or cold-cache latency.",
+    "garbage_collection": "Disabled during benchmark; original setting restored afterward.",
+    "correctness": "Each size is independently checked against Python int multiplication; every timed batch final result is checked outside its timer.",
+    "scope": "This installed wheel on this CPU/OS at this time. Not a universal fastest implementation or a rigorous latency bound.",
+    "cpu_budget_seconds": 55
+  },
+  "benchmark_wall_seconds": 6.391404699999839,
+  "benchmark_process_cpu_seconds": 6.234375,
+  "official_sources": [
+    {
+      "url": "https://gmplib.org/",
+      "claim": "The official current-stable page identifies GMP 6.3.0, released 2023-07-30. Verified 2026-10-23."
+    },
+    {
+      "url": "https://gmplib.org/manual/Multiplication-Algorithms",
+      "claim": "GMP dispatches among basecase, Karatsuba, Toom variants and FFT using size thresholds; multiplication and squaring thresholds differ."
+    },
+    {
+      "url": "https://gmplib.org/manual/FFT-Multiplication",
+      "claim": "GMP uses a Fermat-style FFT following Schonhage-Strassen. Thresholds depend on CPU and padding creates steps in measured timings."
+    }
+  ],
+  "baseline_interpretation": {
+    "is_Harvey_van_der_Hoeven_implementation": false,
+    "is_universal_fastest_computer_baseline": false,
+    "is_PR4470_implementation": false,
+    "PR4470_measured_runtime": null,
+    "proved_world_impact_cutoff_against_PR4470": null,
+    "reason": "No executable PR4470 multiplier or proved finite-n runtime constant/threshold is supplied. Measuring a baseline alone cannot establish a crossover."
+  },
+  "rows": [
+    {
+      "input_bits_each": 256,
+      "input_bytes_each": 32,
+      "output_bits": 511,
+      "samples": [
+        {
+          "iterations": 938519,
+          "wall_ns": 57250300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 61.00068299096768,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 55849300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 59.507905540537806,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 59592900,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 63.496743273178275,
+          "cpu_ns_per_multiplication": 49.94571234040014
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 59008800,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 62.87437974084702,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 58383900,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 62.208543460494674,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 58013900,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 61.81430530442111,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 59298600,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 63.18316411282031,
+          "cpu_ns_per_multiplication": 49.94571234040014
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 58803400,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 62.6555242887997,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        },
+        {
+          "iterations": 938519,
+          "wall_ns": 58045000,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 61.847442619701894,
+          "cpu_ns_per_multiplication": 66.59428312053352
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 938519,
+      "median_seconds_per_multiplication": 6.220854346049467e-08,
+      "median_ns_per_multiplication": 62.208543460494674,
+      "median_cpu_ns_per_multiplication": 66.59428312053352,
+      "min_ns_per_multiplication": 59.507905540537806,
+      "max_ns_per_multiplication": 63.496743273178275,
+      "quartile_25_ns_per_multiplication": 61.81430530442111,
+      "quartile_75_ns_per_multiplication": 62.87437974084702,
+      "multiplications_per_second_from_median": 16074962.44683894,
+      "normalized_seconds_per_n_log2_n": 3.0375265361569664e-11,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "39d2d8324ac30aac425d12d3ad3b70d64e0f68ac474da31403f4f8b00f4edd48",
+      "operand_b_sha256_little_endian": "10e71da09f1d6b137d7128c4b5a0bc32c07b1bcbbe5f2e12ce2f6acdd5fbf67e",
+      "product_sha256_little_endian": "c4c058465050a7641279294ddd16bc2e5349a0bb7024bb179c0b9f2650263681",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 2600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 2100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 1500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 3000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 1800,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 2300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 64,
+          "wall_ns": 4000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 128,
+          "wall_ns": 7200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 256,
+          "wall_ns": 23400,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 512,
+          "wall_ns": 28700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 1024,
+          "wall_ns": 72000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2048,
+          "wall_ns": 116400,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4096,
+          "wall_ns": 231800,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8192,
+          "wall_ns": 534200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16384,
+          "wall_ns": 948000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32768,
+          "wall_ns": 2097100,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 65536,
+          "wall_ns": 3845900,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 131072,
+          "wall_ns": 8188700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 262144,
+          "wall_ns": 16759000,
+          "cpu_ns": 15625000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 1024,
+      "input_bytes_each": 128,
+      "output_bits": 2048,
+      "samples": [
+        {
+          "iterations": 294238,
+          "wall_ns": 61695600,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 209.67923925529672,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 62117100,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 211.1117530706435,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 61516000,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 209.06884902697817,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 61957300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 210.56865530624867,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 59711900,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 202.9374180085509,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 61093700,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 207.63361632420015,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 61716900,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 209.75162963315412,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 61884700,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 210.32191627186157,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        },
+        {
+          "iterations": 294238,
+          "wall_ns": 62834500,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 213.5499153746287,
+          "cpu_ns_per_multiplication": 212.41308056743182
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 294238,
+      "median_seconds_per_multiplication": 2.0975162963315413e-07,
+      "median_ns_per_multiplication": 209.75162963315412,
+      "median_cpu_ns_per_multiplication": 212.41308056743182,
+      "min_ns_per_multiplication": 202.9374180085509,
+      "max_ns_per_multiplication": 213.5499153746287,
+      "quartile_25_ns_per_multiplication": 209.06884902697817,
+      "quartile_75_ns_per_multiplication": 210.56865530624867,
+      "multiplications_per_second_from_median": 4767543.41193417,
+      "normalized_seconds_per_n_log2_n": 2.0483557581362708e-11,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "82126090c1ab249683358e9d5749ed6eb4d2c3a7dbf0b3d0be16549152ccbbaa",
+      "operand_b_sha256_little_endian": "63ac87742381567cf8b2ae36091247a516b18908f501b8c471a97d43eafc6e5c",
+      "product_sha256_little_endian": "f90ac3a9c139236e7c02c0c1cb7c4dcd23387066ec46d0fdd7ae014b6a7ce142",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 1200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 1300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 1500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 2200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 3600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 6600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 64,
+          "wall_ns": 12700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 128,
+          "wall_ns": 24500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 256,
+          "wall_ns": 48500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 512,
+          "wall_ns": 103200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 1024,
+          "wall_ns": 205100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2048,
+          "wall_ns": 403000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4096,
+          "wall_ns": 830300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8192,
+          "wall_ns": 1783200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16384,
+          "wall_ns": 3310700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32768,
+          "wall_ns": 6540000,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 65536,
+          "wall_ns": 14310600,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 131072,
+          "wall_ns": 26727700,
+          "cpu_ns": 15625000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 4096,
+      "input_bytes_each": 512,
+      "output_bits": 8192,
+      "samples": [
+        {
+          "iterations": 32597,
+          "wall_ns": 66129200,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 2028.6897567260792,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 63252300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1940.4331686965058,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 61715800,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1893.2969291652605,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 60802300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1865.272877872197,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 61085500,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1873.9607939380924,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 60422100,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1853.609227843053,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 61710600,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1893.1374052826948,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 62731200,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 1924.4470350032211,
+          "cpu_ns_per_multiplication": 1917.3543577629844
+        },
+        {
+          "iterations": 32597,
+          "wall_ns": 58266900,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 1787.4927140534405,
+          "cpu_ns_per_multiplication": 1438.0157683222383
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 32597,
+      "median_seconds_per_multiplication": 1.8931374052826947e-06,
+      "median_ns_per_multiplication": 1893.1374052826948,
+      "median_cpu_ns_per_multiplication": 1917.3543577629844,
+      "min_ns_per_multiplication": 1787.4927140534405,
+      "max_ns_per_multiplication": 2028.6897567260792,
+      "quartile_25_ns_per_multiplication": 1865.272877872197,
+      "quartile_75_ns_per_multiplication": 1924.4470350032211,
+      "multiplications_per_second_from_median": 528223.6763214099,
+      "normalized_seconds_per_n_log2_n": 3.851597911138295e-11,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "a72049613d4be7aeae55ca9260d9501ef22f4dfe82dfc49acb3e68bd80ee9dd2",
+      "operand_b_sha256_little_endian": "7b301f9409c67cc416a5f056c992b3e4b90cc685844100fe0e2f82d017078a24",
+      "product_sha256_little_endian": "dc0da3dca210cf99759e96075d205d967fc3763cf5a3bc9ac8d9e8682d00c850",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 3000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 27200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 8500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 14900,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 33400,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 63500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 64,
+          "wall_ns": 117400,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 128,
+          "wall_ns": 234900,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 256,
+          "wall_ns": 457300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 512,
+          "wall_ns": 988600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 1024,
+          "wall_ns": 1855600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2048,
+          "wall_ns": 3746100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4096,
+          "wall_ns": 7104400,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 8192,
+          "wall_ns": 14572400,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 16384,
+          "wall_ns": 30157100,
+          "cpu_ns": 31250000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 16384,
+      "input_bytes_each": 2048,
+      "output_bits": 32768,
+      "samples": [
+        {
+          "iterations": 3815,
+          "wall_ns": 60240800,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 15790.51114023591,
+          "cpu_ns_per_multiplication": 16382.699868938402
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 63019500,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 16518.872870249015,
+          "cpu_ns_per_multiplication": 16382.699868938402
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 79814600,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 20921.258191349934,
+          "cpu_ns_per_multiplication": 20478.374836173
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 63987400,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 16772.581913499344,
+          "cpu_ns_per_multiplication": 16382.699868938402
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 68471000,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 17947.8374836173,
+          "cpu_ns_per_multiplication": 20478.374836173
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 72322600,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 18957.43119266055,
+          "cpu_ns_per_multiplication": 16382.699868938402
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 76797400,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 20130.38007863696,
+          "cpu_ns_per_multiplication": 20478.374836173
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 74072000,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 19415.989515072084,
+          "cpu_ns_per_multiplication": 20478.374836173
+        },
+        {
+          "iterations": 3815,
+          "wall_ns": 81083000,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 21253.735255570118,
+          "cpu_ns_per_multiplication": 20478.374836173
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 3815,
+      "median_seconds_per_multiplication": 1.895743119266055e-05,
+      "median_ns_per_multiplication": 18957.43119266055,
+      "median_cpu_ns_per_multiplication": 20478.374836173,
+      "min_ns_per_multiplication": 15790.51114023591,
+      "max_ns_per_multiplication": 21253.735255570118,
+      "quartile_25_ns_per_multiplication": 16772.581913499344,
+      "quartile_75_ns_per_multiplication": 20130.38007863696,
+      "multiplications_per_second_from_median": 52749.76286803848,
+      "normalized_seconds_per_n_log2_n": 8.26478410673329e-11,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "6a5c2cd0dd574ad5761281ca6a5ba5b8a146331915b69a6bd35556bd5e15c01b",
+      "operand_b_sha256_little_endian": "b2a94c2c598d294991225109ec9317f0b74dd4f96a02e0b487836aead662a039",
+      "product_sha256_little_endian": "f89a0f9a84e4d70c634c39b412cc4a15ddf6b9f395dcecd38e39a86321671654",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 18700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 37800,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 61700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 123000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 244200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 513200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 64,
+          "wall_ns": 1028600,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 128,
+          "wall_ns": 1997100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 256,
+          "wall_ns": 3768800,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 512,
+          "wall_ns": 7833000,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 1024,
+          "wall_ns": 16101700,
+          "cpu_ns": 15625000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 65536,
+      "input_bytes_each": 8192,
+      "output_bits": 131072,
+      "samples": [
+        {
+          "iterations": 440,
+          "wall_ns": 62057300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 141039.31818181818,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 60565600,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 137649.0909090909,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 62231000,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 141434.0909090909,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 61204500,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 139101.13636363635,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 61306500,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 139332.95454545456,
+          "cpu_ns_per_multiplication": 106534.09090909091
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 70131900,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 159390.68181818182,
+          "cpu_ns_per_multiplication": 177556.81818181818
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 70484200,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 160191.36363636365,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 66218700,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 150497.04545454544,
+          "cpu_ns_per_multiplication": 177556.81818181818
+        },
+        {
+          "iterations": 440,
+          "wall_ns": 63727400,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 144835.0,
+          "cpu_ns_per_multiplication": 142045.45454545456
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 440,
+      "median_seconds_per_multiplication": 0.0001414340909090909,
+      "median_ns_per_multiplication": 141434.0909090909,
+      "median_cpu_ns_per_multiplication": 142045.45454545456,
+      "min_ns_per_multiplication": 137649.0909090909,
+      "max_ns_per_multiplication": 160191.36363636365,
+      "quartile_25_ns_per_multiplication": 139332.95454545456,
+      "quartile_75_ns_per_multiplication": 150497.04545454544,
+      "multiplications_per_second_from_median": 7070.431135607655,
+      "normalized_seconds_per_n_log2_n": 1.3488205996426668e-10,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "4be4d8e0212e64623fd68eba0a8d11043d43232ce78686f081d2fa8d70634960",
+      "operand_b_sha256_little_endian": "55e8dcb1246a361300b294eec136f7f9950fa9d88acc685e10e860b1eb8681fe",
+      "product_sha256_little_endian": "5a1eb4f316eeddeb9a4f70181427e4a8e426230acc44e8d39d652347ab71852c",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 140200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 286300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 539600,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 1070100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 2148800,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 4360500,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 64,
+          "wall_ns": 8973600,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 128,
+          "wall_ns": 17451300,
+          "cpu_ns": 0
+        }
+      ]
+    },
+    {
+      "input_bits_each": 262144,
+      "input_bytes_each": 32768,
+      "output_bits": 524287,
+      "samples": [
+        {
+          "iterations": 52,
+          "wall_ns": 44871200,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 862907.6923076923,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 53277800,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 1024573.0769230769,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 46352700,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 891398.0769230769,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 49064300,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 943544.2307692308,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 50225300,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 965871.1538461539,
+          "cpu_ns_per_multiplication": 1201923.076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 51509400,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 990565.3846153846,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 54840000,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 1054615.3846153845,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 51963100,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 999290.3846153846,
+          "cpu_ns_per_multiplication": 1201923.076923077
+        },
+        {
+          "iterations": 52,
+          "wall_ns": 51693300,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 994101.9230769231,
+          "cpu_ns_per_multiplication": 901442.3076923077
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 52,
+      "median_seconds_per_multiplication": 0.0009905653846153846,
+      "median_ns_per_multiplication": 990565.3846153846,
+      "median_cpu_ns_per_multiplication": 901442.3076923077,
+      "min_ns_per_multiplication": 862907.6923076923,
+      "max_ns_per_multiplication": 1054615.3846153845,
+      "quartile_25_ns_per_multiplication": 943544.2307692308,
+      "quartile_75_ns_per_multiplication": 999290.3846153846,
+      "multiplications_per_second_from_median": 1009.5244751443425,
+      "normalized_seconds_per_n_log2_n": 2.0992817022861577e-10,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "a8e4565edb07845d618936fa812bb10309adbeb2c45f392a6cb95e2170975690",
+      "operand_b_sha256_little_endian": "1604949f2c5cc3d215b94a10c2406be2ac1e51599d314eafcbcd93746f17d98f",
+      "product_sha256_little_endian": "d54686ebd6167bc6ddaf495f23670d7f7a203b18b5f0ac70a9f05d1439b279b8",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 801100,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 1738200,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 3716700,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 8,
+          "wall_ns": 6559800,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 16,
+          "wall_ns": 13192300,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 32,
+          "wall_ns": 36469000,
+          "cpu_ns": 31250000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 1048576,
+      "input_bytes_each": 131072,
+      "output_bits": 2097152,
+      "samples": [
+        {
+          "iterations": 12,
+          "wall_ns": 64180800,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5348400.0,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 62291500,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5190958.333333333,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 62470000,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5205833.333333333,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 66817200,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5568100.0,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 68598900,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 5716575.0,
+          "cpu_ns_per_multiplication": 6510416.666666667
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 77558100,
+          "cpu_ns": 78125000,
+          "wall_ns_per_multiplication": 6463175.0,
+          "cpu_ns_per_multiplication": 6510416.666666667
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 67083600,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5590300.0,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 67620100,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 5635008.333333333,
+          "cpu_ns_per_multiplication": 5208333.333333333
+        },
+        {
+          "iterations": 12,
+          "wall_ns": 62015000,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 5167916.666666667,
+          "cpu_ns_per_multiplication": 3906250.0
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 12,
+      "median_seconds_per_multiplication": 0.0055681,
+      "median_ns_per_multiplication": 5568100.0,
+      "median_cpu_ns_per_multiplication": 5208333.333333333,
+      "min_ns_per_multiplication": 5167916.666666667,
+      "max_ns_per_multiplication": 6463175.0,
+      "quartile_25_ns_per_multiplication": 5205833.333333333,
+      "quartile_75_ns_per_multiplication": 5635008.333333333,
+      "multiplications_per_second_from_median": 179.59447567392826,
+      "normalized_seconds_per_n_log2_n": 2.6550769805908205e-10,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "10d42c5503f9e2aca6e516a3aebf4b5c0a6e12089f29bf697c2d8b1583593b45",
+      "operand_b_sha256_little_endian": "e5f85d49392eab63cd04c98ec053ba085cf49d81027727f9d9b8d031ac769026",
+      "product_sha256_little_endian": "5112115e2f2b6180168f06af67036c78dec8bd33fdcdc467fe1ddbc7319110f5",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 4932300,
+          "cpu_ns": 0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 9928400,
+          "cpu_ns": 15625000
+        },
+        {
+          "iterations": 4,
+          "wall_ns": 19903400,
+          "cpu_ns": 15625000
+        }
+      ]
+    },
+    {
+      "input_bits_each": 4194304,
+      "input_bytes_each": 524288,
+      "output_bits": 8388608,
+      "samples": [
+        {
+          "iterations": 2,
+          "wall_ns": 53715400,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 26857700.0,
+          "cpu_ns_per_multiplication": 23437500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 48904300,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 24452150.0,
+          "cpu_ns_per_multiplication": 23437500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 57553200,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 28776600.0,
+          "cpu_ns_per_multiplication": 31250000.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 55840200,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 27920100.0,
+          "cpu_ns_per_multiplication": 23437500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 50336100,
+          "cpu_ns": 62500000,
+          "wall_ns_per_multiplication": 25168050.0,
+          "cpu_ns_per_multiplication": 31250000.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 48643700,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 24321850.0,
+          "cpu_ns_per_multiplication": 23437500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 54607700,
+          "cpu_ns": 46875000,
+          "wall_ns_per_multiplication": 27303850.0,
+          "cpu_ns_per_multiplication": 23437500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 170943500,
+          "cpu_ns": 109375000,
+          "wall_ns_per_multiplication": 85471750.0,
+          "cpu_ns_per_multiplication": 54687500.0
+        },
+        {
+          "iterations": 2,
+          "wall_ns": 94348200,
+          "cpu_ns": 31250000,
+          "wall_ns_per_multiplication": 47174100.0,
+          "cpu_ns_per_multiplication": 15625000.0
+        }
+      ],
+      "sample_count": 9,
+      "iterations_per_sample": 2,
+      "median_seconds_per_multiplication": 0.02730385,
+      "median_ns_per_multiplication": 27303850.0,
+      "median_cpu_ns_per_multiplication": 23437500.0,
+      "min_ns_per_multiplication": 24321850.0,
+      "max_ns_per_multiplication": 85471750.0,
+      "quartile_25_ns_per_multiplication": 25168050.0,
+      "quartile_75_ns_per_multiplication": 28776600.0,
+      "multiplications_per_second_from_median": 36.62487158404401,
+      "normalized_seconds_per_n_log2_n": 2.958975055000999e-10,
+      "normalization_scope": "Descriptive ratio at this measured point only; no global n log n fit or extrapolation.",
+      "operand_a_sha256_little_endian": "7c187e80c18892ebefab6f57c4a0022881f06f25a9c1589e5f053b09e4044171",
+      "operand_b_sha256_little_endian": "b99aaa428cdfead96e8e95e0dd90d62f4a89fee2dc61ea52ab1c5e79c9992556",
+      "product_sha256_little_endian": "20592e6e893d905da5f72e7b71faca3f5b8a94561b78a9a1440105f003fedcc2",
+      "validated_against_python_int_product": true,
+      "actual_internal_algorithm": "Not instrumented. No algorithm or transition is inferred from operand size alone.",
+      "calibration_batches": [
+        {
+          "iterations": 1,
+          "wall_ns": 26965900,
+          "cpu_ns": 31250000
+        }
+      ]
+    }
+  ],
+  "script_sha256": "8adf9d7396dc793be86e88462edfb51622d1984ce8ed89e21f645792f0808ff0",
+  "isolated_dependency_installation": "python -m pip install --only-binary=:all: --no-deps --target crossover-lab/benchmark-deps gmpy2==2.3.2"
+}

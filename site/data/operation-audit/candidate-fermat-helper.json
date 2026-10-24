@@ -1,0 +1,38 @@
+{
+  "schema": "candidate-fermat-helper/1",
+  "status": "complete_new_construction_manual_gate_bound_with_arithmetic_checks",
+  "checks": 146891,
+  "model": "xag-straightline-v1",
+  "candidate_helper_only": true,
+  "changes_optimized_GMP_comparator": false,
+  "ring": {
+    "modulus": "2^p+1",
+    "p": "2^t",
+    "leaf_max_p": 1048576,
+    "K": "2^floor(t/2)",
+    "chunk_b": "p/K",
+    "child_p": "4b",
+    "mass_identity": "K*child_p=4p",
+    "each_gate_type_upper": "2^32*p*(1+log2(p))^8",
+    "local_each_gate_type_upper": "2^16*p*(1+log2(p))"
+  },
+  "ordinary_integer_multiplication": {
+    "domain": "integer n>=1 unsigned input bits",
+    "padding": "least power-of-two p>=2n",
+    "AND_upper": "2^48*n*(1+log2(n))^8",
+    "XOR_upper": "2^48*n*(1+log2(n))^8",
+    "tariff_upper": "2^48*(1+rho)*n*(1+log2(n))^8",
+    "rho_domain": "rho>0"
+  },
+  "signed_integer_multiplication": {
+    "domain": "integer n>=1 two signed n-bit inputs, exact signed 2n-bit output",
+    "AND_upper": "2^50*n*(1+log2(n))^8",
+    "XOR_upper": "2^50*n*(1+log2(n))^8",
+    "extra_sign_arithmetic_each_gate_type_upper": "32n+1",
+    "fixed_point_note": "Truncation is wiring; requested rounding requires additional linear arithmetic."
+  },
+  "scope": "A new complete circuit construction, not an execution benchmark, Lean proof, GMP native runtime upper or complete whole-PR4470 cost by itself.",
+  "source_reference": "https://gmplib.org/manual/FFT-Multiplication",
+  "proof_sha256": "e2ecbf0ac14835f92fbee9425b2468733b3210c23e39beaaa01a4f13bd0d7051",
+  "script_sha256": "567a2ab35cae0cb44144c5d60d1424d84b4df6973d30dde4c5e507869e5ad657"
+}

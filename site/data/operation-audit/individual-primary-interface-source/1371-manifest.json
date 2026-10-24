@@ -1,0 +1,70 @@
+{
+  "pr": 1371,
+  "own_head": "680e382e208c07adc011fe155d9fab9f1ff02148",
+  "primary_path_candidates": [
+    "research/bit-family-projector-algebra-seed10/RESULT.json",
+    "research/bit-family-projector-algebra-seed10/CLAIM.md",
+    "research/bit-family-projector-algebra-seed10/PROOF.md",
+    "research/bit-family-projector-algebra-seed10/README.md",
+    "research/seed10-bit-supplier/ASSIGNMENT.json",
+    "research/bit-family-projector-algebra-seed10/TASK.json",
+    "research/bit-family-projector-algebra-seed10/VERIFY.json",
+    "research/bit-family-projector-algebra-seed10/PR1351-RESULT.json",
+    "research/bit-family-projector-algebra-seed10/NOTICE.md",
+    "research/bit-family-projector-algebra-seed10/verify.py",
+    "research/bit-family-projector-algebra-seed10/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-family-projector-algebra-seed10/CLAIM.md",
+    "research/seed10-bit-supplier/ASSIGNMENT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-family-projector-algebra-seed10/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1371/c504d8296a1c__RESULT.json",
+      "sha256": "c504d8296a1c9aa300996e95af8c485f6386d9cfffc46de0f7792d83c4278e58",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/680e382e208c07adc011fe155d9fab9f1ff02148/research/bit-family-projector-algebra-seed10/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-family-projector-algebra-seed10/verify.py",
+      "file": "remaining-record-audit/artifacts/1371/dce400444e5a__verify.py",
+      "sha256": "dce400444e5a43e4f3e4179686b19f8ede9ed168ebffb1bce12b22ea642928a6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/680e382e208c07adc011fe155d9fab9f1ff02148/research/bit-family-projector-algebra-seed10/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-family-projector-algebra-seed10/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1371/fdf58233678a__PROOF.md",
+      "sha256": "fdf58233678a0891160515dce518f1875039cef4f8ee72f76b5ba8ea745db1c1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/680e382e208c07adc011fe155d9fab9f1ff02148/research/bit-family-projector-algebra-seed10/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 13,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1371,
+      "head": "680e382e208c07adc011fe155d9fab9f1ff02148",
+      "path": "research/bit-family-projector-algebra-seed10/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/680e382e208c07adc011fe155d9fab9f1ff02148/research/bit-family-projector-algebra-seed10/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "23aefa6e720d286c2a3e7062b49e8398cd40f0b21ce9a02721be868b7a391417",
+      "git_blob_sha1": "38b438df895b43cb01f49212f461c8f15457cc21",
+      "bytes": 1526,
+      "file": "individual-primary-interface-source/1371/23aefa6e720d__CLAIM.md"
+    },
+    {
+      "pr": 1371,
+      "head": "680e382e208c07adc011fe155d9fab9f1ff02148",
+      "path": "research/seed10-bit-supplier/ASSIGNMENT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/680e382e208c07adc011fe155d9fab9f1ff02148/research/seed10-bit-supplier/ASSIGNMENT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a8732cc2f3987fea9ca28b31107c228e2698d976d655e34b4f2711430177531e",
+      "git_blob_sha1": "976a6956aa5159bdd0b579319f5be4151dbc53cf",
+      "bytes": 3457,
+      "file": "individual-primary-interface-source/1371/a8732cc2f398__ASSIGNMENT.json"
+    }
+  ]
+}

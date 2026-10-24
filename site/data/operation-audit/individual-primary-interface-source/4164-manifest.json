@@ -1,0 +1,64 @@
+{
+  "pr": 4164,
+  "own_head": "799daee720cf968ff706a7c9bf5b5a6e8048f8f9",
+  "primary_path_candidates": [
+    "research/three-bank-restored-unpaid/RESULT.json",
+    "research/three-bank-restored-unpaid/README.md",
+    "research/three-bank-restored-unpaid/TASK.json",
+    "research/three-bank-restored-unpaid/VERIFY.json",
+    "research/three-bank-restored-unpaid/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/three-bank-restored-unpaid/TASK.json",
+    "research/three-bank-restored-unpaid/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/three-bank-restored-unpaid/README.md",
+      "file": "remaining-record-audit/artifacts/4164/24f29a419f2f__README.md",
+      "sha256": "24f29a419f2f992d85d5e5bab94daf3c63a3478a18900095f728431f2a29aab2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/799daee720cf968ff706a7c9bf5b5a6e8048f8f9/research/three-bank-restored-unpaid/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/three-bank-restored-unpaid/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4164/d1a8f12d2664__RESULT.json",
+      "sha256": "d1a8f12d2664c94ea5b48425f79405cbe53cf2b0ee78ba52065934ee06081506",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/799daee720cf968ff706a7c9bf5b5a6e8048f8f9/research/three-bank-restored-unpaid/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/three-bank-restored-unpaid/verify.py",
+      "file": "remaining-record-audit/artifacts/4164/9dbaa07b9d93__verify.py",
+      "sha256": "9dbaa07b9d93d58f5c15aa16a6cfcfcb32ad050b3150fd057f6bdfe0b782668d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/799daee720cf968ff706a7c9bf5b5a6e8048f8f9/research/three-bank-restored-unpaid/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4164,
+      "head": "799daee720cf968ff706a7c9bf5b5a6e8048f8f9",
+      "path": "research/three-bank-restored-unpaid/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/799daee720cf968ff706a7c9bf5b5a6e8048f8f9/research/three-bank-restored-unpaid/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6e2e295b40d710d495f5682b8e931f8abd824429814dd5b59a983f4a59a7f0dc",
+      "git_blob_sha1": "e8fd190cce90f7a1aed258ca96e1235fa63dca9a",
+      "bytes": 5934,
+      "file": "individual-primary-interface-source/4164/6e2e295b40d7__TASK.json"
+    },
+    {
+      "pr": 4164,
+      "head": "799daee720cf968ff706a7c9bf5b5a6e8048f8f9",
+      "path": "research/three-bank-restored-unpaid/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/799daee720cf968ff706a7c9bf5b5a6e8048f8f9/research/three-bank-restored-unpaid/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0cab441432efb8bfbedf5a5935236e3eab6977c19332ff1da36c7b087ffe03f6",
+      "git_blob_sha1": "b7111d101107e2cf9c7ac4460150ca7340d9514b",
+      "bytes": 891,
+      "file": "individual-primary-interface-source/4164/0cab441432ef__VERIFY.json"
+    }
+  ]
+}

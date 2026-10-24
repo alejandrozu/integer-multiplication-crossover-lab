@@ -1,0 +1,108 @@
+{
+  "pr": 2917,
+  "own_head": "224bd5e56041c40078ff6b5fa7393733a215de5c",
+  "primary_path_candidates": [
+    "research/paired-helper-extension/CLAIM.json",
+    "research/paired-helper-extension/allocation/baseline/CLAIM.json",
+    "research/paired-helper-extension/README.md",
+    "research/paired-helper-extension/TASK.json",
+    "research/paired-helper-extension/VERIFY.json",
+    "research/paired-helper-extension/ALLOCATION-PINS.json",
+    "research/paired-helper-extension/evidence/SEARCH.json",
+    "research/paired-helper-extension/allocation/ORDER.json",
+    "research/paired-helper-extension/allocation/SEARCH.json",
+    "research/paired-helper-extension/allocation/PROFILE.json",
+    "research/paired-helper-extension/data/TRANSFORM-299.json",
+    "research/paired-helper-extension/data/TRANSFORM-304.json",
+    "research/paired-helper-extension/data/TRANSFORM-320.json",
+    "research/paired-helper-extension/data/TRANSFORM-331.json",
+    "research/paired-helper-extension/data/TRANSFORM-412.json",
+    "research/paired-helper-extension/data/TRANSFORM-424.json",
+    "research/paired-helper-extension/data/TRANSFORM-428.json",
+    "research/paired-helper-extension/data/TRANSFORM-499.json",
+    "research/paired-helper-extension/data/TRANSFORM-511.json",
+    "research/paired-helper-extension/evidence/FRESHNESS.json",
+    "research/paired-helper-extension/allocation/DISPATCH.json",
+    "research/paired-helper-extension/allocation/PROVIDERS.json",
+    "research/paired-helper-extension/evidence/ENVIRONMENT.json",
+    "research/paired-helper-extension/evidence/LOCAL-RESULT.json",
+    "research/paired-helper-extension/evidence/RELEASE-RECEIPT.json",
+    "research/paired-helper-extension/evidence/RETAINED-ORIGIN.json",
+    "research/paired-helper-extension/evidence/ADMISSION-RESULT.json",
+    "research/paired-helper-extension/evidence/PHYSICAL-INVOICE.json",
+    "research/paired-helper-extension/evidence/SOURCE-DERIVATION.json",
+    "research/paired-helper-extension/evidence/ADAPTER-DERIVATION.json",
+    "research/paired-helper-extension/evidence/EXACT-OWNER-MOMENT.json",
+    "research/paired-helper-extension/evidence/FULL-NATIVE-RESULT.json",
+    "research/paired-helper-extension/evidence/FULL-REPLAY-RESULT.json",
+    "research/paired-helper-extension/evidence/FULL-REPLAY-STAGES.json",
+    "research/paired-helper-extension/evidence/FULL-NATIVE-RECEIPT.json",
+    "research/paired-helper-extension/evidence/COMPLETE-VERIFY-STAGES.json",
+    "research/paired-helper-extension/allocation/baseline/ORDER.json",
+    "research/paired-helper-extension/allocation/baseline/PROFILE.json",
+    "research/paired-helper-extension/verify.py",
+    "research/paired-helper-extension/CREDITS.md",
+    "research/paired-helper-extension/producer.py",
+    "research/paired-helper-extension/reproduce.py",
+    "research/paired-helper-extension/structure.py",
+    "research/paired-helper-extension/CONSTRUCTION.md",
+    "research/paired-helper-extension/run_registered.py",
+    "research/paired-helper-extension/check_allocation.py",
+    "research/paired-helper-extension/tools/build_extension.py",
+    "research/paired-helper-extension/tools/derive_adapters.py",
+    "research/paired-helper-extension/tools/audit_allocation_moment.py"
+  ],
+  "selected_for_recovery": [
+    "research/paired-helper-extension/README.md",
+    "research/paired-helper-extension/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-helper-extension/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2917/e6c836c01786__CLAIM.json",
+      "sha256": "e6c836c0178661a53a69cd91f29d83585e876f2511ff40c6b6204cd270fbdeac",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/224bd5e56041c40078ff6b5fa7393733a215de5c/research/paired-helper-extension/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-helper-extension/allocation/baseline/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2917/2406680a07b4__CLAIM.json",
+      "sha256": "2406680a07b43a69b0f12f8462cc43f3616f3c8cb0a46bc767541b45945cd2bf",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/224bd5e56041c40078ff6b5fa7393733a215de5c/research/paired-helper-extension/allocation/baseline/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-helper-extension/verify.py",
+      "file": "remaining-record-audit/artifacts/2917/5fb7984329ce__verify.py",
+      "sha256": "5fb7984329ce7213294c8f76a3151f06759005456940968b4cc84712933321ee",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/224bd5e56041c40078ff6b5fa7393733a215de5c/research/paired-helper-extension/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 63,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2917,
+      "head": "224bd5e56041c40078ff6b5fa7393733a215de5c",
+      "path": "research/paired-helper-extension/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/224bd5e56041c40078ff6b5fa7393733a215de5c/research/paired-helper-extension/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "22469e9c1dae5103a5dcd804881235fe094c52197eff550065ba0b0e78b2535e",
+      "git_blob_sha1": "54637f9551db018f2b90e75e990765788361b5fe",
+      "bytes": 5454,
+      "file": "individual-primary-interface-source/2917/22469e9c1dae__README.md"
+    },
+    {
+      "pr": 2917,
+      "head": "224bd5e56041c40078ff6b5fa7393733a215de5c",
+      "path": "research/paired-helper-extension/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/224bd5e56041c40078ff6b5fa7393733a215de5c/research/paired-helper-extension/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2b59f3a868876d184833b9329298a2a12de1c72cb6d4da43475f8bfde3191b55",
+      "git_blob_sha1": "61624d0f6d2cff8ec69d4154573e83505338ea25",
+      "bytes": 5674,
+      "file": "individual-primary-interface-source/2917/2b59f3a86887__TASK.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pr": 3093,
+  "own_head": "d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf",
+  "primary_path_candidates": [
+    "research/rank7-restore-carrier-skips/CLAIM.json",
+    "research/rank7-v45-profile-audit/README.md",
+    "research/rank7-v45-profile-audit/TASK.json",
+    "research/rank7-v45-profile-audit/VERIFY.json",
+    "research/rank7-v45-profile-audit/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-v45-profile-audit/TASK.json",
+    "research/rank7-v45-profile-audit/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-v45-profile-audit/README.md",
+      "file": "remaining-record-audit/artifacts/3093/2938c9e9e7e7__README.md",
+      "sha256": "2938c9e9e7e7dfde71a957e9ce45668cdbbc0b9a19ba5b3782f25ceafcbb10f0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf/research/rank7-v45-profile-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-restore-carrier-skips/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3093/adb2efbaa7c1__CLAIM.json",
+      "sha256": "adb2efbaa7c16bf66aede2ac739e445e6fa974d5defbff8b70324f4f10632aa3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf/research/rank7-restore-carrier-skips/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-v45-profile-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/3093/4ff2bfbd9477__verify.py",
+      "sha256": "4ff2bfbd94773f795b14583f9f5352a26937d628115c8f7016bf0336b2e83d4f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf/research/rank7-v45-profile-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3093,
+      "head": "d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf",
+      "path": "research/rank7-v45-profile-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf/research/rank7-v45-profile-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7d8c3bfe020b292d8181dd94f27f166afcab28164018f6b07637378c4766263b",
+      "git_blob_sha1": "e41c0f3e74d4460abfc51878cc25e775d96bf85b",
+      "bytes": 9769,
+      "file": "individual-primary-interface-source/3093/7d8c3bfe020b__TASK.json"
+    },
+    {
+      "pr": 3093,
+      "head": "d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf",
+      "path": "research/rank7-v45-profile-audit/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d7b545b12da3fc9751c2ea36f5efbf26e12dfcaf/research/rank7-v45-profile-audit/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5a6bcdd70409142a3c7ce36ed6a2bf59d4216e8851a8f7bdb317d94187a4d951",
+      "git_blob_sha1": "37f8d15618c3885354a4d8cc15d323be78acbbe2",
+      "bytes": 2774,
+      "file": "individual-primary-interface-source/3093/5a6bcdd70409__VERIFY.json"
+    }
+  ]
+}

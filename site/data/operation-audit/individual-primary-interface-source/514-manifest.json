@@ -1,0 +1,90 @@
+{
+  "pr": 514,
+  "own_head": "246bfacd4cb4072836ae3147099f548bb728229f",
+  "primary_path_candidates": [
+    "research/partial-kernel92-async/EXPECTED.json",
+    "research/partial-kernel92-async/evidence/RESULT.json",
+    "research/partial-kernel92-async/PROOF.md",
+    "research/partial-kernel92-async/README.md",
+    "research/partial-kernel92-async/evidence/ASYNC-AUDIT.json",
+    "research/partial-kernel92-async/evidence/KERNEL-SCALAR.json",
+    "research/partial-kernel92-async/evidence/EXACT-ASSEMBLY.json",
+    "research/partial-kernel92-async/evidence/PORTABLE-REPLAY.json",
+    "research/partial-kernel92-async/evidence/OWNERS-AND-PROFILE.json",
+    "research/partial-kernel92-async/evidence/PREFIX-AND-INVOICE.json",
+    "research/partial-kernel92-async/evidence/TRANSPORT-CONTROLS.json",
+    "research/partial-kernel92-async/research-notes/COALESCING-GATE.json",
+    "research/partial-kernel92-async/research-notes/KERNEL-SOURCE-HASHES.json",
+    "research/partial-kernel92-async/research-notes/COMPLEX-SOURCE-HASHES.json",
+    "research/partial-kernel92-async/evidence/INDEPENDENT-NOMINATION-REVIEW.json",
+    "research/partial-kernel92-async/research-notes/RESTORATION-AND-CSE-SCREEN.json",
+    "research/partial-kernel92-async/NOTICE.md",
+    "research/partial-kernel92-async/verify.py",
+    "research/partial-kernel92-async/RESEARCH.md",
+    "research/partial-kernel92-async/SNAPSHOT.md",
+    "research/partial-kernel92-async/PORTABILITY.md",
+    "research/partial-kernel92-async/code/assemble.py",
+    "research/partial-kernel92-async/code/emit_async.py",
+    "research/partial-kernel92-async/code/audit_async.py",
+    "research/partial-kernel92-async/code/run_portable.py",
+    "research/partial-kernel92-async/code/build_kernel92.py",
+    "research/partial-kernel92-async/code/construct_partial.py",
+    "research/partial-kernel92-async/code/audit_async_invoice.py",
+    "research/partial-kernel92-async/code/audit_kernel_scalar.py",
+    "research/partial-kernel92-async/research-notes/REPLAY-REPAIRS.md",
+    "research/partial-kernel92-async/research-notes/coalescing_gate.py",
+    "research/partial-kernel92-async/research-notes/COALESCING-PROOF.md",
+    "research/partial-kernel92-async/research-notes/HOSTING-RESEARCH.md",
+    "research/partial-kernel92-async/research-notes/REPEATED-AXIS-LEMMA.md",
+    "research/partial-kernel92-async/research-notes/KERNEL-MACHINE-SOURCES.md",
+    "research/partial-kernel92-async/research-notes/MACHINE-TRANSFORMATIONS.md"
+  ],
+  "selected_for_recovery": [
+    "research/partial-kernel92-async/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/partial-kernel92-async/PROOF.md",
+      "file": "remaining-record-audit/artifacts/514/9d41acbe5e08__PROOF.md",
+      "sha256": "9d41acbe5e082a44a28ac0d76f7b3ac6020f720c06e106738bc5f197e26ba685",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/246bfacd4cb4072836ae3147099f548bb728229f/research/partial-kernel92-async/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/partial-kernel92-async/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/514/9be03e9ef494__EXPECTED.json",
+      "sha256": "9be03e9ef494b078dc7fd4f724600f3b407978b23b70809c71b71718b76278b2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/246bfacd4cb4072836ae3147099f548bb728229f/research/partial-kernel92-async/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/partial-kernel92-async/evidence/RESULT.json",
+      "file": "remaining-record-audit/artifacts/514/ecf0106e6cc2__RESULT.json",
+      "sha256": "ecf0106e6cc2de93c044bdb91afc80315ca5b133f23dcba198b2708660e9a826",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/246bfacd4cb4072836ae3147099f548bb728229f/research/partial-kernel92-async/evidence/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/partial-kernel92-async/verify.py",
+      "file": "remaining-record-audit/artifacts/514/ae9b5763e656__verify.py",
+      "sha256": "ae9b5763e656696add6d106fe70d90facb5d2700fb8e66e4eea678c46b1d5720",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/246bfacd4cb4072836ae3147099f548bb728229f/research/partial-kernel92-async/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 69,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 514,
+      "head": "246bfacd4cb4072836ae3147099f548bb728229f",
+      "path": "research/partial-kernel92-async/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/246bfacd4cb4072836ae3147099f548bb728229f/research/partial-kernel92-async/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0a0544b94085f223706c99f0045c719a2394b82d45dfd5c669cb93b41f4d3e36",
+      "git_blob_sha1": "892f660f333cc2ebb185f2b085605fe49be30678",
+      "bytes": 3835,
+      "file": "individual-primary-interface-source/514/0a0544b94085__README.md"
+    }
+  ]
+}

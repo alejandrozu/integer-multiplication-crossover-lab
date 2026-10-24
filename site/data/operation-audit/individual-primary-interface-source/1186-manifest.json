@@ -1,0 +1,97 @@
+{
+  "pr": 1186,
+  "own_head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+  "primary_path_candidates": [
+    "research/exact-frame-toolkit/README.md",
+    "research/exact-frame-toolkit/PORTABILITY.json",
+    "research/exact-frame-toolkit/REVISION2-REGRESSION.json",
+    "research/exact-frame-toolkit/word.py",
+    "research/exact-frame-toolkit/joint.py",
+    "research/exact-frame-toolkit/kappa.py",
+    "research/exact-frame-toolkit/model.py",
+    "research/exact-frame-toolkit/paths.py",
+    "research/exact-frame-toolkit/sites.py",
+    "research/exact-frame-toolkit/slots.py",
+    "research/exact-frame-toolkit/unpin.py",
+    "research/exact-frame-toolkit/NOTICE.md",
+    "research/exact-frame-toolkit/compat.py",
+    "research/exact-frame-toolkit/frames.py",
+    "research/exact-frame-toolkit/fusion.py",
+    "research/exact-frame-toolkit/native.py",
+    "research/exact-frame-toolkit/rebind.py",
+    "research/exact-frame-toolkit/repair.py",
+    "research/exact-frame-toolkit/compose.py",
+    "research/exact-frame-toolkit/harness.py",
+    "research/exact-frame-toolkit/baseline.py",
+    "research/exact-frame-toolkit/controls.py",
+    "research/exact-frame-toolkit/exchange.py",
+    "research/exact-frame-toolkit/selftest.py",
+    "research/exact-frame-toolkit/writeback.py",
+    "research/exact-frame-toolkit/transplant.py",
+    "research/exact-frame-toolkit/portability.py",
+    "research/exact-frame-toolkit/t16_discover.py"
+  ],
+  "selected_for_recovery": [
+    "research/exact-frame-toolkit/PORTABILITY.json",
+    "research/exact-frame-toolkit/REVISION2-REGRESSION.json",
+    "research/exact-frame-toolkit/word.py",
+    "research/exact-frame-toolkit/joint.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/exact-frame-toolkit/README.md",
+      "file": "remaining-record-audit/artifacts/1186/c59e3a7661ce__README.md",
+      "sha256": "c59e3a7661cea426e1ebcc48b727e82ef5942319432d884c7ff167bd830f5ba0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 29,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1186,
+      "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+      "path": "research/exact-frame-toolkit/PORTABILITY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/PORTABILITY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3327cea5175b5e2ed340996d8719fc18d0d6d9f21fa5da86b95e08b153adcb6e",
+      "git_blob_sha1": "01f093daad6ccb69cbe6858d186f91a0df3d82b9",
+      "bytes": 2530,
+      "file": "individual-primary-interface-source/1186/3327cea5175b__PORTABILITY.json"
+    },
+    {
+      "pr": 1186,
+      "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+      "path": "research/exact-frame-toolkit/REVISION2-REGRESSION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/REVISION2-REGRESSION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f625ca3d5b55ed2e38e24f7b323f6c93e8781f67cc980f933dee20c2552467ac",
+      "git_blob_sha1": "eaca0ebc02d7701adc54bb697a25e4320b413088",
+      "bytes": 2584,
+      "file": "individual-primary-interface-source/1186/f625ca3d5b55__REVISION2-REGRESSION.json"
+    },
+    {
+      "pr": 1186,
+      "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+      "path": "research/exact-frame-toolkit/word.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/word.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4a09258c3a2f6fb5d4c58156afed6ba9b670c89c8c1b25d164d61ec4c6306528",
+      "git_blob_sha1": "a830b376d3ed414906a2baffd383a6e5852dc02a",
+      "bytes": 5085,
+      "file": "individual-primary-interface-source/1186/4a09258c3a2f__word.py"
+    },
+    {
+      "pr": 1186,
+      "head": "c37dfb077ad77ef391cefa56c98db87a40b7e28c",
+      "path": "research/exact-frame-toolkit/joint.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c37dfb077ad77ef391cefa56c98db87a40b7e28c/research/exact-frame-toolkit/joint.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6f13274704913465b84c81b1006822a8ddf21cc2cf4de9c7a0786524128c0535",
+      "git_blob_sha1": "6e98533060cc0d1f23b71e01efb6bfcad5fa71c7",
+      "bytes": 4633,
+      "file": "individual-primary-interface-source/1186/6f1327470491__joint.py"
+    }
+  ]
+}

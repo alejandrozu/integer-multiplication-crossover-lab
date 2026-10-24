@@ -1,0 +1,97 @@
+{
+  "schema": "source-cost-overlay-packet/1",
+  "model": "xag-straightline-v1",
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "entries": [
+    {
+      "pr": 2077,
+      "source_commit": "407712103b605a662a89a56f9c42b93dca69126b",
+      "certificate_file": "pr2077-vacancy-chain-finite-early-upper.json",
+      "certificate_sha256": "b1032cf07278a9bc5ac7da21d14e394c81971b96dc2375a44f7c9538164f41ef",
+      "peer_review_file": "pr2077-vacancy-chain-finite-peer-review.json",
+      "peer_review_sha256": "173b19bbcf960c01ad15744a70aa3940e10f0a6400d3d18ada54eb0af2ad0cec",
+      "source_peer_review_file": "pr2077-vacancy-chain-finite-source-peer-review.json",
+      "source_peer_review_sha256": "a5ea2f5adce1fea767bb431cffd50d4a31934001aa3ea70c3dbc963fa5fe2d01",
+      "proof_file": "selected-provider-v18-whole-upper.md",
+      "family_kind": "own-selected-vacancy-chain-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr2077-vacancy-chain-finite-record-upper.json",
+      "record_certificate_sha256": "9ffa4d80de66e93410f9878ef5dc064092d255019d3ae9e7aa3736cd41dc240d",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "418166011373521/250000000000000000",
+      "native_certificate_file": "pr2077-vacancy-chain-finite-native.json",
+      "native_certificate_sha256": "b953423d764981d4262b6275147d37761c065ff9f9ed8bff5c3f4335036c9880",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "historical_parent_byte_identity_claimed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "source_report_counter_not_declared": true,
+      "source_report_counter_mismatch": false,
+      "descriptive_entering_counter": {
+        "source_declared_entering_helper_roles": null,
+        "actual_nonzero_start_frame_roles": 27648,
+        "width_below_9_roles": 34560,
+        "source_declared_meter_style": "not_declared_in_own_expected",
+        "source_declared_counter_matches_actual": null,
+        "used_by_new_cost_stock_or_precision": false
+      },
+      "scope": [
+        "Own full required physical entry/output-frame and absolute-phase operator-valued native endpoint, including normalized monomial wrappers and ascending typed helper paths; not inferred from scalar specialization or profiles",
+        "All unexpanded adapter/phase operations are bounded73-axis binary affine/even-quadratic Z4 monomial grammar, with no hidden arbitrary scalar coefficients or denominators; each full operation is charged the universal64*74^3 source tariff",
+        "Common-label/mutable-source/owned restore and all-size occupied-row interface",
+        "Fixed constructive group/compiler and direct analytic transfer contracts",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "The exact own selected source core is realized by this new direct Gaussian/Fermat circuit; original optional BIT admission is neither assumed nor executed. Full partial initial/final Gaussian-subspace operator identities, tensor identity on spectators, required absolute phases and normalized completed-child interfaces remain explicit; scalar specialization or frame dimensions alone do not prove them. Actual canonical initial/final nesting and rank differences are checked, and actual nonzero initial frames, not width<9, determine entering counts."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "recover_pr2077_selected_data.py"
+        ],
+        [
+          "prepare_selected_provider_v18.py"
+        ],
+        [
+          "selected_provider_dispatch_v18.py",
+          "--execute"
+        ],
+        [
+          "prepare_selected_provider_v18_whole_costs.py"
+        ],
+        [
+          "vacancy_chain_descriptive_counter_audit.py"
+        ],
+        [
+          "selected_provider_v18_whole_bounds.py"
+        ]
+      ],
+      "source_selected_kappa_correction": true,
+      "frozen_metadata_kappa": "836330098538459/500000000000000000",
+      "actual_own_selected_kappa": "418166011373521/250000000000000000",
+      "source_selected_kappa_correction_basis": "Own immutable MANIFEST/verify/build reconstruct all3complete data bytes; own SPEC and CANDIDATE.expected_updates select actual target, while CANDIDATE baseline is the preserved frozen parser quote.",
+      "source_kappa_correction_primary_receipt": "pr2077-source-chronology/chronology.json",
+      "source_revision_included_at_merge": "2026-10-16T13:49:47Z",
+      "source_revision_merge_commit": "ee997d5300167b46619f769c47bea9178a958978",
+      "source_revision_committed_at": "2026-10-14T20:06:46Z",
+      "source_selected_kappa_correction_note": "The preserved frozen parser quote is the explicit own CANDIDATE baseline. The actual own MANIFEST/verify/build/CANDIDATE select a distinct four-placement target, reconstructed as full own data bytes and authenticated at its actual16th-parent merge. Both values remain visible; this source-corrected cost point is not a new accepted-record-truth determination.",
+      "new_accepted_exponent_record_claimed": false,
+      "source_caveats": [
+        "The own actual selected kappa differs from its frozen baseline quote. Full raw source and actual merge chronology are peer-bound; original quote is preserved.",
+        "Historical BIT contribution and original full global/native-phase verifier are not executed or priced by this new Gaussian realization."
+      ]
+    }
+  ],
+  "source_bound_entries": 1,
+  "no_kappa_inferred_cutoffs": true,
+  "exact_crossings_known": 0
+}

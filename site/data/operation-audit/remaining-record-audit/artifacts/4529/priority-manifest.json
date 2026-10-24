@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4529,
+    "head": "a1b836c56b4cd40cdad8ca84691e0e59e5d19a45",
+    "path": "research/rank-convergence-gates/README.md",
+    "api_sha": "9f0cdb6847233ebf6284bbfb633497a6d54171f2",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research%2Frank-convergence-gates%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research/rank-convergence-gates/README.md",
+    "file": "artifacts\\4529\\61861b41440e__README.md",
+    "sha256": "61861b41440e49458f2798d36414b1b5d6f7cffa5291d402d65b073cee80aa65",
+    "git_blob_sha1": "9f0cdb6847233ebf6284bbfb633497a6d54171f2",
+    "bytes": 3852,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:32.162095+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4529,
+    "head": "a1b836c56b4cd40cdad8ca84691e0e59e5d19a45",
+    "path": "research/rank-convergence-gates/SOURCES.json",
+    "api_sha": "6400555819871ecc5c02a1e21a8102d74a4f922c",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research%2Frank-convergence-gates%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research/rank-convergence-gates/SOURCES.json",
+    "file": "artifacts\\4529\\d8dfa31bb3d3__SOURCES.json",
+    "sha256": "d8dfa31bb3d34e49deb129af4985eae527e45eeec405cd5601a1d3de8398de70",
+    "git_blob_sha1": "6400555819871ecc5c02a1e21a8102d74a4f922c",
+    "bytes": 1807,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:33.141714+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4529,
+    "head": "a1b836c56b4cd40cdad8ca84691e0e59e5d19a45",
+    "path": "research/rank-convergence-gates/verify.py",
+    "api_sha": "b7a99a4d6d0cc2747a9c9e5382055f21392e01d3",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research%2Frank-convergence-gates%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a1b836c56b4cd40cdad8ca84691e0e59e5d19a45/research/rank-convergence-gates/verify.py",
+    "file": "artifacts\\4529\\6dcf6613332a__verify.py",
+    "sha256": "6dcf6613332a55be65ad6b310b08b27174aa3374d8b844e4f33cdd29dad96189",
+    "git_blob_sha1": "b7a99a4d6d0cc2747a9c9e5382055f21392e01d3",
+    "bytes": 14100,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:32.280463+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

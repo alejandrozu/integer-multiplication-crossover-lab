@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/README.md",
+    "api_sha": "bca15858fe79cd915c181cc829672aa68e134880",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research%2Fpr4535-outer-slack-rank%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/README.md",
+    "file": "artifacts\\4564\\6983ca1fc4ae__README.md",
+    "sha256": "6983ca1fc4ae436e78573e8a5da9f10d40a90289067136b5a6c6d7b99cf94192",
+    "git_blob_sha1": "bca15858fe79cd915c181cc829672aa68e134880",
+    "bytes": 3862,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:32.093037+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/SOURCES.json",
+    "api_sha": "b58b96ca8e69391c290f09d5722abdf64d5720d9",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research%2Fpr4535-outer-slack-rank%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/SOURCES.json",
+    "file": "artifacts\\4564\\baaa2a1ae722__SOURCES.json",
+    "sha256": "baaa2a1ae72216f8e2e2b40ff30170d15a0473f0d7d6b40f6f23856c221b4dfb",
+    "git_blob_sha1": "b58b96ca8e69391c290f09d5722abdf64d5720d9",
+    "bytes": 1105,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.988849+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4564,
+    "head": "fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce",
+    "path": "research/pr4535-outer-slack-rank/verify.py",
+    "api_sha": "21880e3d109de914f173194bb573bdaa8c0089e1",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research%2Fpr4535-outer-slack-rank%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fbcc9d63446cd4fc8eade8fc29b149fb60fa79ce/research/pr4535-outer-slack-rank/verify.py",
+    "file": "artifacts\\4564\\e2fa98fb8403__verify.py",
+    "sha256": "e2fa98fb8403f7acd4c4d15828119deed0ff928aa3090a89e6ac181af7f2c1a3",
+    "git_blob_sha1": "21880e3d109de914f173194bb573bdaa8c0089e1",
+    "bytes": 6439,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:32.017031+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

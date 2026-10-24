@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-23T22:49:01.993782+00:00",
+  "scope": "Original finite p16 arithmetic gates only; conditional source contracts remain unchanged.",
+  "source_manifest_sha256": "026b2b24583e5fb5a07302c4a8f7353b2dc9d9ca4ea37d44c2d1fa6c22e13f9b",
+  "source_file_hashes_checked": 7,
+  "results": [
+    {
+      "pr": 4483,
+      "timeout_seconds": 90,
+      "command": [
+        "C:\\Users\\Propietario\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\Propietario\\Documents\\Codex\\2026-10-23\\integer-crossover-history\\crossover-lab\\operation-audit\\pr4470-descendant-replays\\replay.py",
+        "--worker",
+        "4483"
+      ],
+      "writes_upstream_sources": false,
+      "frozen_bindings_modified": false,
+      "native_word_materialized": false,
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"completed_stage\": \"all_requested_gates\", \"result\": {\"pr\": 4483, \"profile\": \"p16\", \"word_materialized\": false, \"native_producers_replayed\": false, \"compiler\": {\"status\": \"PASS_ADAPTIVE_HEIGHT_DIRECT_COMPILER\", \"raw_ambient\": 145, \"raw_minimum_target\": 4, \"raw_maximum_paid\": 72, \"raw_fields\": 10928, \"tensor_power\": 1, \"t0\": \"1557781/1562500\", \"t_upper\": \"498533/500000\", \"p\": \"2/5\", \"c\": \"133\", \"height_base\": 1024, \"height_multiplier\": 2, \"ell0\": 650, \"ordinary_base\": \"145*1024^650\", \"local_exponent_max\": {\"lower\": \"0.997065983154193637326436620047\", \"upper\": \"0.997065983154193637326436620048\"}, \"q_base\": {\"lower\": \"1.000000006229760842608145113022\", \"upper\": \"1.000000006229760842608145113023\"}, \"q_upper\": {\"lower\": \"1.000306615000337864713077356861\", \"upper\": \"1.000306615000337864713077356862\"}, \"tilted_log_mean_gap\": {\"lower\": \"1.042051961200529914604466771295\", \"upper\": \"1.042051961200529914604466771296\"}, \"target_mgf_lower\": {\"lower\": \"1.196094303561928263013152983677\", \"upper\": \"1.196094303561928263013152983678\"}, \"paid_mgf_upper\": {\"lower\": \"1.137864762892548940390353969492\", \"upper\": \"1.137864762892548940390353969493\"}, \"mixed_chernoff\": {\"lower\": \"0.962371615118373162597052724651\", \"upper\": \"0.962371615118373162597052724652\"}, \"root_chernoff\": {\"lower\": \"0.991612566446621220203979601511\", \"upper\": \"0.991612566446621220203979601512\"}, \"source_capacity\": {\"lower\": \"0.982106757609959316847199693591\", \"upper\": \"0.982106757609959316847199693592\"}, \"mirror\": {\"cells\": 19, \"exponent_slices\": 20, \"maximum_upper\": {\"lower\": \"0.562869244899309734589502501137\", \"upper\": \"0.562869244899309734589502501138\"}, \"maximizing_cell\": {\"exponent_lower\": \"249265423/250000000\", \"exponent_upper\": \"498533/500000\", \"window\": [\"1/48\", \"1/41\"]}}, \"uniform_D_lower\": {\"lower\": \"0.048546432211906163478518624110\", \"upper\": \"0.048546432211906163478518624111\"}, \"required_D_upper\": \"9/209\", \"log_majorant_normalization\": {\"lower\": \"10.244946827609613535229675830964\", \"upper\": \"10.244946827609613535229675830965\"}, \"H\": 2800000000, \"N\": \"2^2800000000\", \"uniform_saving\": \"471898442219/156250001562500\", \"kappa\": \"60403/20000000\", \"uniform_gap\": \"1/100000001\", \"final_logarithmic_margin\": {\"lower\": \"0.608625073158079647179104336984\", \"upper\": \"0.608625073158079647179104336985\"}, \"word_materialized\": false, \"native_and_outer_producers_replayed\": false}}}\n",
+      "stderr": "",
+      "elapsed_seconds": 19.375
+    },
+    {
+      "pr": 4533,
+      "timeout_seconds": 90,
+      "command": [
+        "C:\\Users\\Propietario\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\Propietario\\Documents\\Codex\\2026-10-23\\integer-crossover-history\\crossover-lab\\operation-audit\\pr4470-descendant-replays\\replay.py",
+        "--worker",
+        "4533"
+      ],
+      "writes_upstream_sources": false,
+      "frozen_bindings_modified": false,
+      "native_word_materialized": false,
+      "status": "TIMEOUT_NOT_CERTIFIED",
+      "stdout": "",
+      "stderr": "",
+      "elapsed_seconds": 90.031
+    }
+  ]
+}

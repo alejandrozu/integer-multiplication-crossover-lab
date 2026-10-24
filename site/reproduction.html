@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reproduce the audit · Crossover Lab</title>
+<meta name="description" content="Download all parts of the Crossover Lab source and exact-check package, then restore the complete reproducibility folder.">
+<link rel="stylesheet" href="styles.css">
+<style>
+.repro-page{max-width:960px;margin:auto;padding:48px 28px 64px}.repro-page h1{font-size:38px;letter-spacing:-1.2px;line-height:1.15;font-weight:550;margin:12px 0 18px}.repro-intro{max-width:720px;color:var(--muted)}.repro-required{margin:24px 0;padding:16px 20px;background:#edf5fd;border:1px solid #d3e6f8;border-radius:9px;color:#255677}.repro-downloads{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:25px 0}.repro-card{padding:24px;background:white;border:1px solid var(--line);border-radius:12px;min-width:0}.repro-card h2{font-size:22px;margin:8px 0}.repro-card p{font-size:13px;color:var(--muted);margin:8px 0 16px}.repro-button{display:inline-block;background:#1679d2;color:white;border-radius:6px;padding:10px 16px;text-decoration:none;font-size:13px;font-weight:550}.repro-hash{font:10px/1.7 var(--mono);color:var(--muted);overflow-wrap:anywhere;margin:16px 0 0}.repro-steps{background:white;border:1px solid var(--line);border-radius:12px;padding:28px;margin:24px 0}.repro-steps h2{margin-top:0}.repro-steps ol{padding-left:22px;margin:20px 0 0}.repro-steps li{padding-left:7px;margin:15px 0;font-size:14px}.repro-steps code,.repro-page pre{font-family:var(--mono)}.repro-steps code{font-size:12px;overflow-wrap:anywhere}.repro-page pre{font-size:12px;line-height:1.8;margin:14px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}.repro-meta{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.repro-meta a{white-space:normal}.repro-back{font-size:12px;color:var(--muted);text-decoration:none}.repro-footer{margin-top:24px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}@media(max-width:640px){.repro-page{padding:30px 18px 45px}.repro-page h1{font-size:30px}.repro-downloads{grid-template-columns:1fr;gap:12px}.repro-card,.repro-steps{padding:21px}.repro-steps li{font-size:13px}.repro-button{display:block;text-align:center}.repro-back{max-width:110px;text-align:right}}
+</style>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html#pr=147&amp;tab=frontier"><span class="mark">×</span><span>Crossover <b>Lab</b><small>INTEGER MULTIPLICATION</small></span></a><a class="repro-back" href="index.html#pr=147&amp;tab=frontier">← Back to the tracker</a></header>
+<main class="repro-page">
+<div class="eyebrow">SOURCE FILES · EXACT CHECKS</div>
+<h1>Reproduce the cost audit.</h1>
+<p class="repro-intro">Download the complete proof and source collection, then restore every file with the hash-checking Python tool. Identical source bytes are stored once to keep the download smaller. Every original path and its hash are retained. Archive parts are available from the public GitHub release without a ChatGPT login.</p>
+<p><a href="methodology.html">Read the model, assumptions and coverage guide ↗</a> · <a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24" target="_blank" rel="noopener">Open the complete GitHub release ↗</a></p>
+<div class="repro-required"><strong>Every ZIP part, the manifest and the restore tool are required.</strong> Save them together in one folder. You do not need to extract the ZIPs yourself.</div>
+<p><a class="repro-button" href="data/reproduction-package.json" download>Download manifest</a> <a class="repro-button" href="data/restore_reproduction.py" download>Download restore tool</a></p>
+<div class="repro-downloads" id="reproDownloads"></div>
+<section class="repro-steps"><h2>Restore one complete folder</h2><ol>
+<li>Download all ZIP parts listed below, <code>reproduction-package.json</code> and <code>restore_reproduction.py</code> into the same folder.</li>
+<li>Open a terminal in that folder. Python 3.11 or later is sufficient. Restore into a new folder:<pre>python restore_reproduction.py --output cost-audit</pre></li>
+<li>The tool checks every archive, source object and restored path against SHA256. It works offline and refuses an existing output folder.</li>
+<li>Open <code>cost-audit/operation-audit</code> and run the relevant proof scripts. For example:<pre>python t21_t37_finite_controller_upper.py
+python gaussian_only_selected_provider_bounds.py</pre></li>
+<li>Read the linked proof and peer receipt for each bound. Native, analytic and all-size realization premises remain explicit. Successful arithmetic checks do not establish an exact first crossover.</li>
+</ol></section>
+<p class="repro-meta" id="packageStatus" role="status">Loading the archive manifest…</p>
+<p class="repro-meta"><a href="data/reproduction-package.json" target="_blank">Inspect archive hashes and package marker ↗</a> · <a href="evidence.html?file=source-manifest" target="_blank">Inspect the source-file inventory ↗</a> · <a href="data/source-history-offline-reproduction-verification.json" target="_blank">Read the offline reconstruction check ↗</a></p>
+<div class="repro-footer">Packaging preserves every scientific file byte. It does not identify different algorithms or transfer a cost bound between PRs. Each proof retains its own source bindings and assumptions.</div>
+</main>
+<script>
+(async()=>{const status=document.getElementById('packageStatus');try{
+ const response=await fetch('data/reproduction-package.json',{cache:'no-store'});if(!response.ok)throw Error('The package manifest is unavailable.');const m=await response.json();
+ if(m.schema!=='content-addressed-reproduction/1'||!Array.isArray(m.archives))throw Error('The package manifest has an unexpected format.');
+ for(const [i,p] of m.archives.entries()){
+  if(!p||!/^[a-f0-9]{64}$/.test(p.sha256)||!(Number(p.bytes)>0)||!/^operation-audit-objects-[0-9]+\.zip$/.test(p.file))throw Error('The package manifest is incomplete.');
+  const card=document.createElement('section');card.className='repro-card';
+  const eyebrow=document.createElement('div');eyebrow.className='eyebrow';eyebrow.textContent='REQUIRED PART '+(i+1)+' OF '+m.archives.length;
+  const h=document.createElement('h2');h.textContent='Source archive '+(i+1);
+  const text=document.createElement('p');text.textContent='Exact source and proof objects. Keep this ZIP beside every other part.';
+  let download='data/'+p.file;
+  if(p.download_url){const u=new URL(p.download_url);if(u.origin!=='https://github.com'||u.pathname!=='/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/'+p.file||u.search||u.hash)throw Error('An archive URL does not match the public release.');download=u.href;}
+  const a=document.createElement('a');a.className='repro-button';a.href=download;a.download=p.file;a.textContent='Download part '+(i+1);
+  const hash=document.createElement('div');hash.className='repro-hash';hash.textContent=(p.bytes/1048576).toFixed(2)+' MiB · SHA256 '+p.sha256;
+  card.append(eyebrow,h,text,a,hash);document.getElementById('reproDownloads').append(card);
+ }
+ status.textContent=Number(m.full_payload_members).toLocaleString('en-US')+' exact payload files, '+Number(m.unique_objects).toLocaleString('en-US')+' unique byte objects and '+m.archives.length+' required ZIP parts. The restore tool verifies the complete path and hash manifest.';
+ }catch(error){status.textContent=error.message+' Use the linked manifest to verify every required download.';}})();
+</script>
+</body></html>

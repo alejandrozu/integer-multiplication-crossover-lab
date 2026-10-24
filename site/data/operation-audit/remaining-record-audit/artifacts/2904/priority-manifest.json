@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 2904,
+    "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+    "path": "research/t185-dirty-entry-frame-screens/README.md",
+    "api_sha": "2f409289ed916b6d43c472daf3148ba7d44d57f6",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research%2Ft185-dirty-entry-frame-screens%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/README.md",
+    "file": "artifacts\\2904\\b1622aea2946__README.md",
+    "sha256": "b1622aea2946be30351f2784b44e7a8d81e3ba2b8f29f0ab0bfd09a90a2b6109",
+    "git_blob_sha1": "2f409289ed916b6d43c472daf3148ba7d44d57f6",
+    "bytes": 9954,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.487071+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2904,
+    "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+    "path": "research/t185-dirty-entry-frame-screens/SOURCES.json",
+    "api_sha": "07fbe8489fe6c36b85f571d50323e81c793f7c64",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research%2Ft185-dirty-entry-frame-screens%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/SOURCES.json",
+    "file": "artifacts\\2904\\e28969d9d540__SOURCES.json",
+    "sha256": "e28969d9d54011d2ee97fdaae73bd1f876b018f7b2a8e0d5c279f2ba40b2dc31",
+    "git_blob_sha1": "07fbe8489fe6c36b85f571d50323e81c793f7c64",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.261302+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2904,
+    "head": "c291ad5cc6c0f4bd7a3319855202d2f753bebb17",
+    "path": "research/t185-dirty-entry-frame-screens/verify.py",
+    "api_sha": "9485a5d4f5c8b96abe071e26b480ebf00e78cce7",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research%2Ft185-dirty-entry-frame-screens%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c291ad5cc6c0f4bd7a3319855202d2f753bebb17/research/t185-dirty-entry-frame-screens/verify.py",
+    "file": "artifacts\\2904\\ee4a13fbc890__verify.py",
+    "sha256": "ee4a13fbc8904c2510b5b8f4f7c5aed0dde5e093e4d80a5490c3a360ad46ec4c",
+    "git_blob_sha1": "9485a5d4f5c8b96abe071e26b480ebf00e78cce7",
+    "bytes": 9989,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:39.361308+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

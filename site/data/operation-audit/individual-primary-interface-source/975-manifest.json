@@ -1,0 +1,64 @@
+{
+  "pr": 975,
+  "own_head": "4b40489c3e0f5819d00251de179a9ea7b1acfba8",
+  "primary_path_candidates": [
+    "research/x4-four-source-horner/EXPECTED.json",
+    "research/x4-four-source-horner/CLAIM.md",
+    "research/x4-four-source-horner/PROOF.md",
+    "research/x4-four-source-horner/README.md",
+    "research/x4-four-source-horner/VALIDATION.md",
+    "research/x4-four-source-horner/NOTICE.md",
+    "research/x4-four-source-horner/verify.py",
+    "research/x4-four-source-horner/circuits.py",
+    "research/x4-four-source-horner/independent.py",
+    "research/x4-four-source-horner/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/x4-four-source-horner/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-four-source-horner/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/975/3e9919c3ef54__EXPECTED.json",
+      "sha256": "3e9919c3ef54c4530a8bd8c33817b4da008b645bc75bb04e939a61ccf1253626",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4b40489c3e0f5819d00251de179a9ea7b1acfba8/research/x4-four-source-horner/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-four-source-horner/verify.py",
+      "file": "remaining-record-audit/artifacts/975/712893caf126__verify.py",
+      "sha256": "712893caf126ad16057f85210a4bde4aa4dfafcf35220888bd2c45632e3d6738",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4b40489c3e0f5819d00251de179a9ea7b1acfba8/research/x4-four-source-horner/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-four-source-horner/PROOF.md",
+      "file": "remaining-record-audit/artifacts/975/6341eeda828a__PROOF.md",
+      "sha256": "6341eeda828a93d1b0f9cbc8dda374983657f4890d96ef6e70b05b2353dd6c43",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4b40489c3e0f5819d00251de179a9ea7b1acfba8/research/x4-four-source-horner/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-four-source-horner/README.md",
+      "file": "remaining-record-audit/artifacts/975/a9773eabdd56__README.md",
+      "sha256": "a9773eabdd567a71d1cd0160e43bfc09f5468e18c1ea977a09014d0b73455372",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4b40489c3e0f5819d00251de179a9ea7b1acfba8/research/x4-four-source-horner/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 975,
+      "head": "4b40489c3e0f5819d00251de179a9ea7b1acfba8",
+      "path": "research/x4-four-source-horner/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4b40489c3e0f5819d00251de179a9ea7b1acfba8/research/x4-four-source-horner/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d9b833ced4704dac2837c6b8b7e3dcd3d58a664326fdbc95b985f8f068ade474",
+      "git_blob_sha1": "fc6a33a0c856eba65fd8b6f15f83c470644efa9d",
+      "bytes": 4088,
+      "file": "individual-primary-interface-source/975/d9b833ced470__CLAIM.md"
+    }
+  ]
+}

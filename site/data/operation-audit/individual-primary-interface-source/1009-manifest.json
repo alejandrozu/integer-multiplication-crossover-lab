@@ -1,0 +1,70 @@
+{
+  "pr": 1009,
+  "own_head": "4740dc74a2ee2fb7aeaa0e0013cf8f997558d101",
+  "primary_path_candidates": [
+    "research/t37-bootstrap-depth-seed60/CERTIFICATE.json",
+    "research/t37-bootstrap-depth-seed60/CLAIM.md",
+    "research/t37-bootstrap-depth-seed60/PROOF.md",
+    "research/t37-bootstrap-depth-seed60/README.md",
+    "research/t37-bootstrap-depth-seed60/VALIDATION.md",
+    "research/t37-bootstrap-depth-seed60/OVERLAP.json",
+    "research/t37-bootstrap-depth-seed60/SELECTED-SNAPSHOT.json",
+    "research/t37-bootstrap-depth-seed60/NOTICE.md",
+    "research/t37-bootstrap-depth-seed60/verify.py",
+    "research/t37-bootstrap-depth-seed60/PR-BODY.md",
+    "research/t37-bootstrap-depth-seed60/check_mutations.py"
+  ],
+  "selected_for_recovery": [
+    "research/t37-bootstrap-depth-seed60/CLAIM.md",
+    "research/t37-bootstrap-depth-seed60/OVERLAP.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-bootstrap-depth-seed60/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1009/ab5ce83b65e1__CERTIFICATE.json",
+      "sha256": "ab5ce83b65e16d73ea57bf6cdd3915544a82f96ec9b03e396c981163e7cd00d7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4740dc74a2ee2fb7aeaa0e0013cf8f997558d101/research/t37-bootstrap-depth-seed60/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-bootstrap-depth-seed60/verify.py",
+      "file": "remaining-record-audit/artifacts/1009/17fe7638a155__verify.py",
+      "sha256": "17fe7638a1553d98ac3f6c8c2f3d178a3b43828a1cf02f3f2fdf7b6662888249",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4740dc74a2ee2fb7aeaa0e0013cf8f997558d101/research/t37-bootstrap-depth-seed60/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-bootstrap-depth-seed60/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1009/1e6ada9ac71f__PROOF.md",
+      "sha256": "1e6ada9ac71fd69b371987c708991c705e66cf755b06f79979228195fb342923",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4740dc74a2ee2fb7aeaa0e0013cf8f997558d101/research/t37-bootstrap-depth-seed60/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1009,
+      "head": "4740dc74a2ee2fb7aeaa0e0013cf8f997558d101",
+      "path": "research/t37-bootstrap-depth-seed60/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4740dc74a2ee2fb7aeaa0e0013cf8f997558d101/research/t37-bootstrap-depth-seed60/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "794066fd4dfe8ffa6b941d6fbc8ccc2979dd765786104d04126a373b9656c52f",
+      "git_blob_sha1": "b81326ad125bb71475443cf28be149ca19882ab2",
+      "bytes": 2601,
+      "file": "individual-primary-interface-source/1009/794066fd4dfe__CLAIM.md"
+    },
+    {
+      "pr": 1009,
+      "head": "4740dc74a2ee2fb7aeaa0e0013cf8f997558d101",
+      "path": "research/t37-bootstrap-depth-seed60/OVERLAP.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4740dc74a2ee2fb7aeaa0e0013cf8f997558d101/research/t37-bootstrap-depth-seed60/OVERLAP.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "861c5862b67dd731ef38fdc404300b5c7e9dc51475c0e2ea0e58184c0ba496a0",
+      "git_blob_sha1": "fb8401ffb3f8c7c6e72c93900accc13712d2230a",
+      "bytes": 1085,
+      "file": "individual-primary-interface-source/1009/861c5862b67d__OVERLAP.json"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "path": "research/joint-helper-lattice/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/README.md",
+    "file": "src-d22222939be0-README.md",
+    "sha256": "e5e1a3a11d97fa771e0ec3a4e3e596714f7f3c036fed8c97f395f4c6637317cb",
+    "bytes": 5433
+  },
+  {
+    "path": "research/joint-helper-lattice/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+    "file": "src-53b924465ea1-RESULT.json",
+    "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+    "bytes": 9199
+  },
+  {
+    "path": "research/joint-helper-lattice/verify.py",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/verify.py",
+    "file": "src-c9787a96a851-verify.py",
+    "sha256": "8eb13f77a94315f811612cb557a17edeecb6b9d9a75dfa238b112dd6520c336f",
+    "bytes": 18342
+  },
+  {
+    "path": "research/joint-helper-lattice/PROOF.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/PROOF.md",
+    "file": "src-785cd8d0a1e7-PROOF.md",
+    "sha256": "43ef4251cc300f1b18cbe8cdb060f96f95748e6797d2478b4c04b79a8373ef91",
+    "bytes": 11063
+  },
+  {
+    "path": "research/joint-helper-lattice/CONTROLLER.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/CONTROLLER.json",
+    "file": "src-ac8bbb2f8bab-CONTROLLER.json",
+    "sha256": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+    "bytes": 57924
+  },
+  {
+    "path": "research/pr4359-p7-padding/TENSOR.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/pr4359-p7-padding/TENSOR.md",
+    "file": "src-9fdd63046e62-TENSOR.md",
+    "sha256": "b2eba86cb979b4dc2a045f2e74bbd29e4d9e5ec87d6a2bc23ba7b54f1f58e3e3",
+    "bytes": 10388
+  },
+  {
+    "path": "research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md",
+    "file": "src-f353f2165e7f-FINITE-TEMPLATE-CLOSURE.md",
+    "sha256": "3f8508c63862dd83968bd30df91b08ba5afcee1e10db15ca546cdff0caef95d9",
+    "bytes": 15369
+  },
+  {
+    "path": "research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "file": "src-c4961beeeaf4-FINITE-PRECOMPILATION.md",
+    "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+    "bytes": 15898
+  },
+  {
+    "path": "research/separated-source-telescope/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/separated-source-telescope/README.md",
+    "file": "src-7eece26423d5-README.md",
+    "sha256": "c8208fded3483c9719e133c0ad685d52306a572cfd7178afb01ec65c78bf1a06",
+    "bytes": 9141
+  },
+  {
+    "path": "research/separated-source-telescope/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/separated-source-telescope/RESULT.json",
+    "file": "src-0d779a86a440-RESULT.json",
+    "sha256": "b3d9b373a34f86a6c311813a40c5c5c6a4a5fedbdc33b773b0764cba018c0def",
+    "bytes": 1775
+  },
+  {
+    "path": "research/selected-complex-width-envelope/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/selected-complex-width-envelope/README.md",
+    "file": "src-55d26b0cc801-README.md",
+    "sha256": "421842e929b13a2adf3b3071257e36d42c0b1e7001d87be8d8df88a9a4ef7e6b",
+    "bytes": 10864
+  },
+  {
+    "path": "research/fractional-source-width/README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/fractional-source-width/README.md",
+    "file": "src-442e98d03689-README.md",
+    "sha256": "1c16e142d1b27154c64f87e3b2adc862be2d97e53d0a6bc1dbd03a6ad5a70eaa",
+    "bytes": 8516
+  },
+  {
+    "path": "docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/pr-intake-evidence/pr4470/PROOF-REVIEW.md",
+    "file": "src-4323e50d15da-PROOF-REVIEW.md",
+    "sha256": "5c111dd56beb53dc44ab727d96e1af03aaf50f3023d4342e2b0a89ede6cf585b",
+    "bytes": 12204
+  }
+]

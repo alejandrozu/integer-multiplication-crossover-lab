@@ -1,0 +1,65 @@
+{
+  "pr": 2578,
+  "own_head": "9cbf085815c94ac1b72bef9703f64b23cdea71ce",
+  "primary_path_candidates": [
+    "research/pr1731-union-rect-review/RESULT.json",
+    "research/pr1731-union-rect-review/README.md",
+    "research/pr1731-union-rect-review/TASK.json",
+    "research/pr1731-union-rect-review/VERIFY.json",
+    "research/pr1731-union-rect-review/PR1731-INPUTS.json",
+    "research/pr1731-union-rect-review/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr1731-union-rect-review/TASK.json",
+    "research/pr1731-union-rect-review/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr1731-union-rect-review/README.md",
+      "file": "remaining-record-audit/artifacts/2578/8c88d0b82d7f__README.md",
+      "sha256": "8c88d0b82d7fccdab2747b6b5747e26f7f236990cf47de0ce285e42ad8a443d3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9cbf085815c94ac1b72bef9703f64b23cdea71ce/research/pr1731-union-rect-review/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr1731-union-rect-review/RESULT.json",
+      "file": "remaining-record-audit/artifacts/2578/04c573921016__RESULT.json",
+      "sha256": "04c573921016c245c6abdf9bdcb6022f7b3b80f1a0d5c316498cd599306c6556",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9cbf085815c94ac1b72bef9703f64b23cdea71ce/research/pr1731-union-rect-review/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr1731-union-rect-review/verify.py",
+      "file": "remaining-record-audit/artifacts/2578/425b64974c2a__verify.py",
+      "sha256": "425b64974c2a485a736d1dec432b9d96151ceb3bfb4eac2acdb51f932317929d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9cbf085815c94ac1b72bef9703f64b23cdea71ce/research/pr1731-union-rect-review/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2578,
+      "head": "9cbf085815c94ac1b72bef9703f64b23cdea71ce",
+      "path": "research/pr1731-union-rect-review/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9cbf085815c94ac1b72bef9703f64b23cdea71ce/research/pr1731-union-rect-review/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "089076b3c7b9c61887c40b423627d5a1dd17011d0d741512d16656c50ed462dc",
+      "git_blob_sha1": "ef4ff04366c618614d3fba6223d6f14940a86def",
+      "bytes": 4078,
+      "file": "individual-primary-interface-source/2578/089076b3c7b9__TASK.json"
+    },
+    {
+      "pr": 2578,
+      "head": "9cbf085815c94ac1b72bef9703f64b23cdea71ce",
+      "path": "research/pr1731-union-rect-review/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9cbf085815c94ac1b72bef9703f64b23cdea71ce/research/pr1731-union-rect-review/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7fabc38b196cd311f555b3c31d2de471e7e1992da0a9c7a429e095aab879ff53",
+      "git_blob_sha1": "c99009435b25fcd33c1d9ec7365a4213f728b0ba",
+      "bytes": 506,
+      "file": "individual-primary-interface-source/2578/7fabc38b196c__VERIFY.json"
+    }
+  ]
+}

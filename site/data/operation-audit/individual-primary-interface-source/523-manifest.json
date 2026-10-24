@@ -1,0 +1,113 @@
+{
+  "pr": 523,
+  "own_head": "a900f98be8ff2c09d3292b5112d4731dbd0c8438",
+  "primary_path_candidates": [
+    "research/punctured112-global/EXPECTED.json",
+    "research/punctured112-global/PROOF.md",
+    "research/punctured112-global/README.md",
+    "certificates/joint-dual-kappa.json",
+    "certificates/joint-dual-validation.json",
+    "research/joint-dual/SOURCE.json",
+    "research/punctured112-global/ADAPTATIONS.json",
+    "research/punctured112-global/REPRODUCTION.json",
+    "research/punctured112-global/LOCAL-VALIDATION.json",
+    "research/punctured112-global/evidence/COLD-STEPS.json",
+    "research/punctured112-global/evidence/ASYNC-AUDIT.json",
+    "research/punctured112-global/evidence/COLD-REPLAY.json",
+    "research/punctured112-global/evidence/GLOBAL-PREFIX.json",
+    "research/punctured112-global/evidence/EXACT-ASSEMBLY.json",
+    "research/punctured112-global/evidence/PUBLIC-SNAPSHOT.json",
+    "research/punctured112-global/evidence/OWNERS-AND-PROFILE.json",
+    "research/punctured112-global/evidence/PREDECESSOR-REPLAY.json",
+    "research/punctured112-global/evidence/PREFIX-AND-INVOICE.json",
+    "research/punctured112-global/evidence/SERIALIZATION-CHECKS.json",
+    "research/punctured112-global/evidence/GLOBAL-RESTRICTION-AUDIT.json",
+    "research/punctured112-global/evidence/INDEPENDENT112-RAW-AUDIT.json",
+    "research/punctured112-global/evidence/hosted/HOSTED.json",
+    "research/punctured112-global/evidence/local/LEMMA-A.json",
+    "research/punctured112-global/evidence/local/TRANSPORT.json",
+    "research/punctured112-global/evidence/local/RESTRICTION.json",
+    "research/punctured112-global/evidence/local/LOCAL-CHECKS.json",
+    "research/punctured112-global/evidence/local/PORT-MAPPING.json",
+    "research/punctured112-global/evidence/local/CLIFFORD-REVIEW.json",
+    "research/punctured112-global/evidence/local/CLIFFORD-RECIPES.json",
+    "research/punctured112-global/evidence/local/RESIDUAL-ADAPTERS.json",
+    "research/punctured112-global/evidence/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/punctured112-global/NOTICE.md",
+    "research/punctured112-global/verify.py",
+    "research/punctured112-global/PORTABILITY.md",
+    "research/punctured112-global/code/assemble.py",
+    "research/punctured112-global/code/emit_async.py",
+    "research/punctured112-global/code/audit_async.py",
+    "research/punctured112-global/code/build_port112.py",
+    "research/punctured112-global/code/emit_local112.py",
+    "research/punctured112-global/code/audit_local112.py",
+    "research/punctured112-global/code/phases_local112.py",
+    "research/punctured112-global/code/restrict_global.py",
+    "research/punctured112-global/proof/LOCAL-RESTRICTION.md",
+    "research/punctured112-global/code/audit_async_invoice.py",
+    "research/punctured112-global/proof/GLOBAL-RESTRICTION.md",
+    "research/punctured112-global/proof/INDEPENDENT-REVIEW.md",
+    "research/punctured112-global/code/audit_112_independent.py",
+    "research/punctured112-global/code/audit_port112_transport.py",
+    "research/punctured112-global/code/audit_global_restriction.py"
+  ],
+  "selected_for_recovery": [
+    "research/punctured112-global/PROOF.md",
+    "certificates/joint-dual-kappa.json",
+    "research/punctured112-global/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/punctured112-global/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/523/80bf7af2b791__EXPECTED.json",
+      "sha256": "80bf7af2b7918e2b4acf3b8e6dcc6ebeeca03335d40a26d39f9c62223101dd6e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a900f98be8ff2c09d3292b5112d4731dbd0c8438/research/punctured112-global/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/punctured112-global/verify.py",
+      "file": "remaining-record-audit/artifacts/523/6678465d71c8__verify.py",
+      "sha256": "6678465d71c8cc0028e4434c1fa24f221f7cf8ca6dc4b52bc99c37c643de9707",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a900f98be8ff2c09d3292b5112d4731dbd0c8438/research/punctured112-global/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 129,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 523,
+      "head": "a900f98be8ff2c09d3292b5112d4731dbd0c8438",
+      "path": "research/punctured112-global/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a900f98be8ff2c09d3292b5112d4731dbd0c8438/research/punctured112-global/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8c574d618ee00dae772af0f97c4e216ec10f071d2eef2c7de472a00f0a9f5fd2",
+      "git_blob_sha1": "5ce78e57cb1c641abcfd612eff2d4c0e70306c14",
+      "bytes": 8360,
+      "file": "individual-primary-interface-source/523/8c574d618ee0__PROOF.md"
+    },
+    {
+      "pr": 523,
+      "head": "a900f98be8ff2c09d3292b5112d4731dbd0c8438",
+      "path": "certificates/joint-dual-kappa.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a900f98be8ff2c09d3292b5112d4731dbd0c8438/certificates/joint-dual-kappa.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6f684fa7f747073a132e8d0b5652cf12a8afa389f2a16ff6ade8e080d786dd22",
+      "git_blob_sha1": "1f35b89221460bed4523d234d6bb43f90a319af5",
+      "bytes": 37861,
+      "file": "individual-primary-interface-source/523/6f684fa7f747__joint-dual-kappa.json"
+    },
+    {
+      "pr": 523,
+      "head": "a900f98be8ff2c09d3292b5112d4731dbd0c8438",
+      "path": "research/punctured112-global/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a900f98be8ff2c09d3292b5112d4731dbd0c8438/research/punctured112-global/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "099b1115a721b1218e97ab591f2c41e271b7bdd457bba423ef509a53823d9d0d",
+      "git_blob_sha1": "a8383f314752367221d0f74fea42a13aab87adec",
+      "bytes": 12802,
+      "file": "individual-primary-interface-source/523/099b1115a721__README.md"
+    }
+  ]
+}

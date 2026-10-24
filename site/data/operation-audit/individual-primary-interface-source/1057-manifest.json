@@ -1,0 +1,64 @@
+{
+  "pr": 1057,
+  "own_head": "78a062df1dcab2bffea5ff4d8243f3da6e465414",
+  "primary_path_candidates": [
+    "research/linear-port-borrowing/CLAIM.json",
+    "research/linear-port-borrowing/EXPECTED.json",
+    "research/linear-port-borrowing/PROOF.md",
+    "research/linear-port-borrowing/README.md",
+    "research/linear-port-borrowing/VALIDATION.md",
+    "research/linear-port-borrowing/NOTICE.md",
+    "research/linear-port-borrowing/borrow.py",
+    "research/linear-port-borrowing/checks.py",
+    "research/linear-port-borrowing/verify.py",
+    "research/linear-port-borrowing/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/linear-port-borrowing/borrow.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/linear-port-borrowing/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1057/790fb2c67d9e__PROOF.md",
+      "sha256": "790fb2c67d9e59c7e80e212cb025d643a5315636f977ab9269e96cc7eef5556e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78a062df1dcab2bffea5ff4d8243f3da6e465414/research/linear-port-borrowing/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/linear-port-borrowing/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1057/d9182768dfd9__CLAIM.json",
+      "sha256": "d9182768dfd97a390daf2fc5c61e6267643abcb077597caf57d21f0481d8a695",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78a062df1dcab2bffea5ff4d8243f3da6e465414/research/linear-port-borrowing/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/linear-port-borrowing/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1057/c2892c727f38__EXPECTED.json",
+      "sha256": "c2892c727f384f693d1e2826b00c5a542475da0f97b95af172f93cd2668341e5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78a062df1dcab2bffea5ff4d8243f3da6e465414/research/linear-port-borrowing/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/linear-port-borrowing/README.md",
+      "file": "remaining-record-audit/artifacts/1057/a1fac70b5426__README.md",
+      "sha256": "a1fac70b54269a93b136da727a9db81f15f2fdd5d7ca792b102157ad575d71b7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78a062df1dcab2bffea5ff4d8243f3da6e465414/research/linear-port-borrowing/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1057,
+      "head": "78a062df1dcab2bffea5ff4d8243f3da6e465414",
+      "path": "research/linear-port-borrowing/borrow.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/78a062df1dcab2bffea5ff4d8243f3da6e465414/research/linear-port-borrowing/borrow.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "14f267a3a6b85b08f0d23326cdb6de8c27f70ad8d156359c01fdf93bf19682d0",
+      "git_blob_sha1": "b5014c9eb26adad166e4021a430eebfc2ca10d55",
+      "bytes": 5436,
+      "file": "individual-primary-interface-source/1057/14f267a3a6b8__borrow.py"
+    }
+  ]
+}

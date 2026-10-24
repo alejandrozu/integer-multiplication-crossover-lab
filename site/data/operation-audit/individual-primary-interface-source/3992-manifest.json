@@ -1,0 +1,60 @@
+{
+  "pr": 3992,
+  "own_head": "251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c",
+  "primary_path_candidates": [
+    "research/selected-toom3-typed-block/RESULT.json",
+    "research/selected-toom3-typed-block/PROOF.md",
+    "research/selected-toom3-typed-block/README.md",
+    "research/selected-toom3-typed-block/TASK.json",
+    "research/selected-toom3-typed-block/VERIFY.json",
+    "research/selected-toom3-typed-block/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected-toom3-typed-block/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-toom3-typed-block/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3992/62e1a0fd65e2__PROOF.md",
+      "sha256": "62e1a0fd65e207b63fac311de199d3476d5c3b8bc97a385c2ccfece217cc1aa3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c/research/selected-toom3-typed-block/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-toom3-typed-block/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3992/f6b5d1d2e81d__RESULT.json",
+      "sha256": "f6b5d1d2e81de5ddacfc2033cf6b8aaff9e9715737b727f6704fef926c2afb23",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c/research/selected-toom3-typed-block/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-toom3-typed-block/verify.py",
+      "file": "remaining-record-audit/artifacts/3992/090ff235db15__verify.py",
+      "sha256": "090ff235db15e84612d4365134932a7d6b9bb7cb75dc34e65155edac83bae66e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c/research/selected-toom3-typed-block/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-toom3-typed-block/README.md",
+      "file": "remaining-record-audit/artifacts/3992/259a0d675673__README.md",
+      "sha256": "259a0d675673adb0a5005cbd939029c013acf58b238d18ae216996505293a3a2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c/research/selected-toom3-typed-block/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3992,
+      "head": "251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c",
+      "path": "research/selected-toom3-typed-block/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/251aba3a98e6eae2e2dd26c954aa0d1b2069cd4c/research/selected-toom3-typed-block/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9961e1ce5ad0318217479a77401d6e045cdb757e10be6799441a9afc3752dbc7",
+      "git_blob_sha1": "38752761ff449c62010ab4a1a058114a1354b740",
+      "bytes": 6390,
+      "file": "individual-primary-interface-source/3992/9961e1ce5ad0__TASK.json"
+    }
+  ]
+}

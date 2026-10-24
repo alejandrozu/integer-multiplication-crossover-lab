@@ -1,0 +1,73 @@
+{
+  "pr": 3988,
+  "own_head": "7d85649b64243022b3141df00c61027a083a533a",
+  "primary_path_candidates": [
+    "research/staged544-terminal-extension-budget/RESULT.json",
+    "research/staged544-terminal-extension-budget/PROOF.md",
+    "research/staged544-terminal-extension-budget/README.md",
+    "research/staged544-terminal-extension-budget/TASK.json",
+    "research/staged544-terminal-extension-budget/FROZEN.json",
+    "research/staged544-terminal-extension-budget/LEDGER.json",
+    "research/staged544-terminal-extension-budget/VERIFY.json",
+    "research/staged544-terminal-extension-budget/VALIDATION.json",
+    "research/staged544-terminal-extension-budget/REFUND-RESULT.json",
+    "research/staged544-terminal-extension-budget/OWNER-PATTERNS.json",
+    "research/staged544-terminal-extension-budget/EXTERNAL-SOURCES.json",
+    "research/staged544-terminal-extension-budget/frozen/PROFILE.json",
+    "research/staged544-terminal-extension-budget/verify.py",
+    "research/staged544-terminal-extension-budget/fetch_sources.py",
+    "research/staged544-terminal-extension-budget/check_controls.py",
+    "research/staged544-terminal-extension-budget/refund_corollary.py",
+    "research/staged544-terminal-extension-budget/frozen/audit_core.py",
+    "research/staged544-terminal-extension-budget/frozen/PR3890-PROOF.md",
+    "research/staged544-terminal-extension-budget/frozen/SOURCE-CREDITS.md"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-terminal-extension-budget/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-terminal-extension-budget/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3988/18acf08f35da__PROOF.md",
+      "sha256": "18acf08f35da31c655db10efcb354a0a22c6fe683018fcefd9efdcc97a6fa8a0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7d85649b64243022b3141df00c61027a083a533a/research/staged544-terminal-extension-budget/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-terminal-extension-budget/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3988/2a0df211b566__RESULT.json",
+      "sha256": "2a0df211b566c907bc902a59b6e70542903b5748396908d3ac1fb8a387cae6a6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7d85649b64243022b3141df00c61027a083a533a/research/staged544-terminal-extension-budget/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-terminal-extension-budget/verify.py",
+      "file": "remaining-record-audit/artifacts/3988/7ded290b69f9__verify.py",
+      "sha256": "7ded290b69f9f9937018096a65ed22ebf5a78909fc5c2a0589eeea97b8859e65",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7d85649b64243022b3141df00c61027a083a533a/research/staged544-terminal-extension-budget/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-terminal-extension-budget/README.md",
+      "file": "remaining-record-audit/artifacts/3988/3e9af2a5a39c__README.md",
+      "sha256": "3e9af2a5a39c7459cc16bbc5dda4ea3a1909cccf4ec02be42b221e341c5a94ef",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7d85649b64243022b3141df00c61027a083a533a/research/staged544-terminal-extension-budget/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 24,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3988,
+      "head": "7d85649b64243022b3141df00c61027a083a533a",
+      "path": "research/staged544-terminal-extension-budget/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7d85649b64243022b3141df00c61027a083a533a/research/staged544-terminal-extension-budget/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e375e373a23f5073265fa7a25af5e59075686321ef3a88c0f810a19b3744ba94",
+      "git_blob_sha1": "5e3e3467c1252dd7fef36cd45b8522fbdf703a06",
+      "bytes": 5156,
+      "file": "individual-primary-interface-source/3988/e375e373a23f__TASK.json"
+    }
+  ]
+}

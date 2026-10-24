@@ -1,0 +1,71 @@
+{
+  "pr": 1408,
+  "own_head": "3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c",
+  "primary_path_candidates": [
+    "research/k8-l248-l253-l259-temporal-composition-seed27/RESULT.json",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/README.md",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/TASK.json",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/VERIFY.json",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/VALIDATION.json",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/NOTICE.md",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/k8-l248-l253-l259-temporal-composition-seed27/README.md",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/TASK.json",
+    "research/k8-l248-l253-l259-temporal-composition-seed27/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/k8-l248-l253-l259-temporal-composition-seed27/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1408/78dce1cf033b__RESULT.json",
+      "sha256": "78dce1cf033b40ff507ae06036d08334e81eee1eb866c312080d037cfa00aab2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c/research/k8-l248-l253-l259-temporal-composition-seed27/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/k8-l248-l253-l259-temporal-composition-seed27/verify.py",
+      "file": "remaining-record-audit/artifacts/1408/a8852b0c8e94__verify.py",
+      "sha256": "a8852b0c8e94c8d035d2b48112413e24e3f592ab1de4257899fef8c0191a844f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c/research/k8-l248-l253-l259-temporal-composition-seed27/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 22,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1408,
+      "head": "3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c",
+      "path": "research/k8-l248-l253-l259-temporal-composition-seed27/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c/research/k8-l248-l253-l259-temporal-composition-seed27/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8cbeabd8b5e9c40ec6cd63184d39e66fdff0a54f47903306b5ec378475c20157",
+      "git_blob_sha1": "086eb5dea00834a16ef0423d1021fcd36e921488",
+      "bytes": 4769,
+      "file": "individual-primary-interface-source/1408/8cbeabd8b5e9__README.md"
+    },
+    {
+      "pr": 1408,
+      "head": "3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c",
+      "path": "research/k8-l248-l253-l259-temporal-composition-seed27/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c/research/k8-l248-l253-l259-temporal-composition-seed27/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d026e2e18d401096332417394c047f7a0816a00d1711f181f8f7004ff1f44646",
+      "git_blob_sha1": "336f2954055b355f13c6a737178978120446b0ef",
+      "bytes": 6723,
+      "file": "individual-primary-interface-source/1408/d026e2e18d40__TASK.json"
+    },
+    {
+      "pr": 1408,
+      "head": "3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c",
+      "path": "research/k8-l248-l253-l259-temporal-composition-seed27/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3d251bcd8f6d243fd4e26b94f4b0e9287c2da79c/research/k8-l248-l253-l259-temporal-composition-seed27/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b3136375c4f00dcb8de22f07b11124587ca99b07840aa11ee4c9e37ff3514b61",
+      "git_blob_sha1": "e3d35f9921aa2760b5d806d55d27f82bd70e59a0",
+      "bytes": 785,
+      "file": "individual-primary-interface-source/1408/b3136375c4f0__VERIFY.json"
+    }
+  ]
+}

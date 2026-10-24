@@ -1,0 +1,7 @@
+# PR2077 provenance correction after the V16 document repair
+
+The final offline replay exposed a stale proof-document digest in three PR2077 certificates. The separately authorized V16 portability repair changed `selected-provider-v16-whole-upper.md`; the PR2077 evaluator consumed the current document correctly, but its frozen certificates still contained the document's previous digest.
+
+The correction permits exactly four JSON leaves: that document digest in each of the native, early-upper and record-upper certificates, and the early certificate's consequential reference to the record certificate's digest. Every other certificate value, including all mathematical values, bounds, contracts, native identities, complete physical invoices, actual source selection, chronology and limitations, must be identical. The original producer and source bytes are unchanged.
+
+`review_pr2077_provenance_rebind_source.py` verifies these exact differences against preserved previous certificates and their original source peer. It checks every original source-peer input, runs the unchanged whole-bound evaluator twice with network disabled, requires current output bytes to stay identical, and refreshes the complete source-selection/chronology/invoice peer. The previous snapshots are public comparison evidence; no historical document alias is used as a current proof dependency. This is a provenance correction, with no mathematical normalization or new bound.

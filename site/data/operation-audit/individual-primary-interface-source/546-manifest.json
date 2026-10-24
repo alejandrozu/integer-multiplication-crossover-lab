@@ -1,0 +1,76 @@
+{
+  "pr": 546,
+  "own_head": "77833ffa1110c6645f5d0866ebf41510ee3d27a3",
+  "primary_path_candidates": [
+    "research/static44-r480-composition/EXPECTED.json",
+    "research/static44-r480-composition/README.md",
+    "research/static44-r480-composition/evidence/GLOBAL314.json",
+    "research/static44-r480-composition/evidence/PHASES314.json",
+    "research/static44-r480-composition/evidence/INVOICE314.json",
+    "research/static44-r480-composition/evidence/ADAPTERS314.json",
+    "research/static44-r480-composition/evidence/PACKAGED311.json",
+    "research/static44-r480-composition/evidence/PACKAGED314.json",
+    "research/static44-r480-composition/evidence/OWNER-REPACK.json",
+    "research/static44-r480-composition/evidence/OWNER-AUDIT314.json",
+    "research/static44-r480-composition/evidence/LOCAL-SCALAR314.json",
+    "research/static44-r480-composition/evidence/INITIAL311-DIFFERENCE.json",
+    "research/static44-r480-composition/NOTICE.md",
+    "research/static44-r480-composition/verify.py",
+    "research/static44-r480-composition/evidence/INITIAL-FAILED-DRIVER.py",
+    "research/static44-r480-composition/scripts/verify_static44_global.py",
+    "research/static44-r480-composition/scripts/price_static44_composition.py"
+  ],
+  "selected_for_recovery": [
+    "research/static44-r480-composition/evidence/GLOBAL314.json",
+    "research/static44-r480-composition/evidence/PHASES314.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/static44-r480-composition/README.md",
+      "file": "remaining-record-audit/artifacts/546/f8fac2e90500__README.md",
+      "sha256": "f8fac2e90500f9ab294d5d220a90a9b566f6f729e1eec7bf7d61aa23b4750b7d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/77833ffa1110c6645f5d0866ebf41510ee3d27a3/research/static44-r480-composition/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/static44-r480-composition/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/546/da9ffbb0b44f__EXPECTED.json",
+      "sha256": "da9ffbb0b44f66561d0875658e94c0751d70e9acf27b77f91c91a6e0ee583761",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/77833ffa1110c6645f5d0866ebf41510ee3d27a3/research/static44-r480-composition/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/static44-r480-composition/verify.py",
+      "file": "remaining-record-audit/artifacts/546/2dc6092d40a5__verify.py",
+      "sha256": "2dc6092d40a56c855d7aedf2d6f321a98b45894a2a4cc876915cf559f4d86f7c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/77833ffa1110c6645f5d0866ebf41510ee3d27a3/research/static44-r480-composition/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 24,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 546,
+      "head": "77833ffa1110c6645f5d0866ebf41510ee3d27a3",
+      "path": "research/static44-r480-composition/evidence/GLOBAL314.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/77833ffa1110c6645f5d0866ebf41510ee3d27a3/research/static44-r480-composition/evidence/GLOBAL314.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e47a3c665b97e65728548bc89bfb963605f6e727f24e3d1294e4058364740b18",
+      "git_blob_sha1": "7ee9261026bb3e7f4f2b84eb7b666749e60b2fca",
+      "bytes": 1006,
+      "file": "individual-primary-interface-source/546/e47a3c665b97__GLOBAL314.json"
+    },
+    {
+      "pr": 546,
+      "head": "77833ffa1110c6645f5d0866ebf41510ee3d27a3",
+      "path": "research/static44-r480-composition/evidence/PHASES314.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/77833ffa1110c6645f5d0866ebf41510ee3d27a3/research/static44-r480-composition/evidence/PHASES314.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4af996dbeedc7a67c34348330303e651ceef02785cc6b442789603de19a51d4b",
+      "git_blob_sha1": "c1145b4ee891328f667fb53932b45e090141db33",
+      "bytes": 3417,
+      "file": "individual-primary-interface-source/546/4af996dbeedc__PHASES314.json"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "pr": 4,
+  "own_head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+  "primary_path_candidates": [
+    "README.md",
+    "certificates/retained-complex-layer.json",
+    "docs/reproducibility.md",
+    "scripts/complex_circuit.py",
+    "scripts/retained_complex.py",
+    "tests/test_retained_complex.py",
+    "notes/retained-complex-note.tex",
+    "scripts/make_retained_complex_patch.py",
+    "notes/retained-complex-construction.tex",
+    "docs/research/current-status.md",
+    "docs/research/shared-retained-complex.md"
+  ],
+  "selected_for_recovery": [
+    "certificates/retained-complex-layer.json",
+    "scripts/complex_circuit.py",
+    "docs/reproducibility.md",
+    "scripts/retained_complex.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "README.md",
+      "file": "remaining-record-audit/artifacts/4/db1e8e750e6f__README.md",
+      "sha256": "db1e8e750e6ff092a193e5bc657b869432fd0035db3f91fec5decff6b9a30564",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4,
+      "head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+      "path": "certificates/retained-complex-layer.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/certificates/retained-complex-layer.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b5237a33d0f6a3abb1d02672c95708e8ce7c54a8c3ac0f604d8f397f176bfda2",
+      "git_blob_sha1": "caf2ffc8bbe769947fe3a9e12e91464a796ad2e8",
+      "bytes": 5810,
+      "file": "individual-primary-interface-source/4/b5237a33d0f6__retained-complex-layer.json"
+    },
+    {
+      "pr": 4,
+      "head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+      "path": "scripts/complex_circuit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/scripts/complex_circuit.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d623617f7c5cb3189580883a8ab30c0bd3832688ae3f1f0c1f881bbbbff8e0c1",
+      "git_blob_sha1": "9e83a1065cd5b5f337b39de58d61bac335feb7ce",
+      "bytes": 19732,
+      "file": "individual-primary-interface-source/4/d623617f7c5c__complex_circuit.py"
+    },
+    {
+      "pr": 4,
+      "head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+      "path": "docs/reproducibility.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/docs/reproducibility.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2ef6a0946b30c7a279bfd2378787a39116d9814810b30045d3018c498b767253",
+      "git_blob_sha1": "3de695674d6a12b08257360027b29c43ef74f0e4",
+      "bytes": 10578,
+      "file": "individual-primary-interface-source/4/2ef6a0946b30__reproducibility.md"
+    },
+    {
+      "pr": 4,
+      "head": "8c225e619168c0141dcfcba3b68a65bbed6a8729",
+      "path": "scripts/retained_complex.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8c225e619168c0141dcfcba3b68a65bbed6a8729/scripts/retained_complex.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d360b5b1ecd2be98d19156961849a69f66f1a982b891e5b05f5d9c94e910856e",
+      "git_blob_sha1": "354af84a20c740666c7fc63bd9b827c4dd0ea2c4",
+      "bytes": 15994,
+      "file": "individual-primary-interface-source/4/d360b5b1ecd2__retained_complex.py"
+    }
+  ]
+}

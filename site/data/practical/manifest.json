@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "tuned-practical-baseline.json",
+      "sha256": "0999be2a5f5bf76fd5f35c2bacf2a4784f5c13a50ebbd4d0d025ad1783711236",
+      "bytes": 657111
+    },
+    {
+      "path": "tuned-practical-baseline.csv",
+      "sha256": "1bdede89cf1832864a08957d617aacb7868b8bf754d32fe3e8623c6c63bb616e",
+      "bytes": 12888
+    },
+    {
+      "path": "tuned-practical-baseline.md",
+      "sha256": "8833e23e0cb464da47fed57b277d2bbac9bf3fd403505613d15cf122138a6755",
+      "bytes": 6637
+    },
+    {
+      "path": "tuned-benchmark.py",
+      "sha256": "9e3067411b6b3d09f166811ac5db3e85f474c457fa9cea6666766243a8b44a4c",
+      "bytes": 16941
+    },
+    {
+      "path": "tuned-inspect.py",
+      "sha256": "d46eec64fb8937bc27b785de6828be35d0c0785b74270999601441fd18daf7cb",
+      "bytes": 5755
+    },
+    {
+      "path": "tuned-installation-audit.json",
+      "sha256": "47deee62d84cbd167e1adff203b6e758cefb94443c27dbc42a1ba162dc69e4a2",
+      "bytes": 5590
+    },
+    {
+      "path": "tuned-dispatch.json",
+      "sha256": "62ef240079b6480db2cedda0b68bd121eabdf0b9762d78b891eb63f94a1080ec",
+      "bytes": 2517
+    },
+    {
+      "path": "tuned-validation.json",
+      "sha256": "f7d42dcf831088936173db22097b9943e6c7af9a26f0061e7dc44cd2987291a9",
+      "bytes": 24356
+    },
+    {
+      "path": "tuned-validate.py",
+      "sha256": "8dd0db6d324c40b36ee2c51d485ee8af6e2505d03ab5c41b230ee6b06c15fe43",
+      "bytes": 2253
+    }
+  ]
+}

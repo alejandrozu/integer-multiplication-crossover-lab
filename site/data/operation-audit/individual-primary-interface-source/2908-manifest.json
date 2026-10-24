@@ -1,0 +1,106 @@
+{
+  "pr": 2908,
+  "own_head": "51309592971e3b5be935599eed2a95404dc7781e",
+  "primary_path_candidates": [
+    "research/two-sided-helper-extraction/CLAIM.json",
+    "research/two-sided-helper-extraction/allocation/RESULT.json",
+    "research/two-sided-helper-extraction/allocation/baseline/CLAIM.json",
+    "research/two-sided-helper-extraction/README.md",
+    "research/two-sided-helper-extraction/TASK.json",
+    "research/two-sided-helper-extraction/VERIFY.json",
+    "research/two-sided-helper-extraction/ALLOCATION-PINS.json",
+    "research/two-sided-helper-extraction/data/TRANSFORM.json",
+    "research/two-sided-helper-extraction/evidence/SEARCH.json",
+    "research/two-sided-helper-extraction/allocation/ORDER.json",
+    "research/two-sided-helper-extraction/evidence/OVERLAP.json",
+    "research/two-sided-helper-extraction/allocation/PROFILE.json",
+    "research/two-sided-helper-extraction/allocation/DISPATCH.json",
+    "research/two-sided-helper-extraction/evidence/AUDIT-base.json",
+    "research/two-sided-helper-extraction/allocation/PROVIDERS.json",
+    "research/two-sided-helper-extraction/evidence/AUDIT-extra.json",
+    "research/two-sided-helper-extraction/evidence/ENVIRONMENT.json",
+    "research/two-sided-helper-extraction/evidence/FULL-STAGES.json",
+    "research/two-sided-helper-extraction/evidence/NATIVE-base.json",
+    "research/two-sided-helper-extraction/evidence/LOCAL-REPLAY.json",
+    "research/two-sided-helper-extraction/evidence/NATIVE-extra.json",
+    "research/two-sided-helper-extraction/evidence/OUTER-LEDGER.json",
+    "research/two-sided-helper-extraction/evidence/RELEASE-RECEIPT.json",
+    "research/two-sided-helper-extraction/evidence/RUNTIME-PATCHES.json",
+    "research/two-sided-helper-extraction/evidence/ADMISSION-RESULT.json",
+    "research/two-sided-helper-extraction/evidence/OUTER-INDEPENDENT.json",
+    "research/two-sided-helper-extraction/evidence/SOURCE-DERIVATION.json",
+    "research/two-sided-helper-extraction/evidence/ADAPTER-DERIVATION.json",
+    "research/two-sided-helper-extraction/evidence/EXACT-OWNER-MOMENT.json",
+    "research/two-sided-helper-extraction/evidence/FULL-NATIVE-RESULT.json",
+    "research/two-sided-helper-extraction/evidence/FULL-NATIVE-RECEIPT.json",
+    "research/two-sided-helper-extraction/evidence/FULL-PACKAGE-MANIFEST.json",
+    "research/two-sided-helper-extraction/allocation/baseline/ORDER.json",
+    "research/two-sided-helper-extraction/allocation/baseline/PROFILE.json",
+    "research/two-sided-helper-extraction/verify.py",
+    "research/two-sided-helper-extraction/CREDITS.md",
+    "research/two-sided-helper-extraction/extract.py",
+    "research/two-sided-helper-extraction/reproduce.py",
+    "research/two-sided-helper-extraction/structure.py",
+    "research/two-sided-helper-extraction/CONSTRUCTION.md",
+    "research/two-sided-helper-extraction/run_registered.py",
+    "research/two-sided-helper-extraction/check_allocation.py",
+    "research/two-sided-helper-extraction/tools/audit_moment.py",
+    "research/two-sided-helper-extraction/tools/admit_channel408.py",
+    "research/two-sided-helper-extraction/tools/channel_blocknorm.py",
+    "research/two-sided-helper-extraction/tools/build_channel_overlay.py",
+    "research/two-sided-helper-extraction/tools/prepare_channel_native.py"
+  ],
+  "selected_for_recovery": [
+    "research/two-sided-helper-extraction/README.md",
+    "research/two-sided-helper-extraction/verify.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-sided-helper-extraction/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2908/2406680a07b4__CLAIM.json",
+      "sha256": "2406680a07b43a69b0f12f8462cc43f3616f3c8cb0a46bc767541b45945cd2bf",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/51309592971e3b5be935599eed2a95404dc7781e/research/two-sided-helper-extraction/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-sided-helper-extraction/allocation/RESULT.json",
+      "file": "remaining-record-audit/artifacts/2908/5ba974e706ff__RESULT.json",
+      "sha256": "5ba974e706ff58a523097693bfdc0e00935ddf4ad5d5ea467c38dc8a4fad4210",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/51309592971e3b5be935599eed2a95404dc7781e/research/two-sided-helper-extraction/allocation/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-sided-helper-extraction/allocation/baseline/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2908/29cd4aa92059__CLAIM.json",
+      "sha256": "29cd4aa92059a561437d7670b574c51ae4e1cfeaaf6feb6cc318d915869e6d30",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/51309592971e3b5be935599eed2a95404dc7781e/research/two-sided-helper-extraction/allocation/baseline/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 104,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2908,
+      "head": "51309592971e3b5be935599eed2a95404dc7781e",
+      "path": "research/two-sided-helper-extraction/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/51309592971e3b5be935599eed2a95404dc7781e/research/two-sided-helper-extraction/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c8667c41bf605ba13f5527dcb3e6c9369eb4dd3d237112632b10c0961a97c24a",
+      "git_blob_sha1": "87f1421e9eaacc691ac5000cd953cdf3bf40e79b",
+      "bytes": 4805,
+      "file": "individual-primary-interface-source/2908/c8667c41bf60__README.md"
+    },
+    {
+      "pr": 2908,
+      "head": "51309592971e3b5be935599eed2a95404dc7781e",
+      "path": "research/two-sided-helper-extraction/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/51309592971e3b5be935599eed2a95404dc7781e/research/two-sided-helper-extraction/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9cebf9f20ae8d1d66cc066507a92456b719714fd83b7223e5352a507c4b2903f",
+      "git_blob_sha1": "f5eb4057a1307266902628fc41e9d51771509bb3",
+      "bytes": 5143,
+      "file": "individual-primary-interface-source/2908/9cebf9f20ae8__verify.py"
+    }
+  ]
+}

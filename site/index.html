@@ -1,17 +1,48 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Integer multiplication crossover lab</title>
-<style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:9vh auto;padding:24px;color:#1d2633;background:#faf9f5}a{color:#1656a5}h1{line-height:1.15}small{color:#526071}</style>
-<main>
-<h1>Integer multiplication crossover lab</h1>
-<p>The checked public website export is being prepared.</p>
-<p>The frozen checkpoint contains 196 entries with conditional numerical bounds,
-185 reviewed scope/component dispositions, and 214 entries with open cost
-obligations. These bounds do not identify exact first crossovers.</p>
-<p><a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab">Source and methodology</a>
- · <a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases">Public reproduction downloads</a></p>
-<small>The final interactive export and exact reproduction assets will replace this preparation page.</small>
-</main>
-</html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore source-bound integer multiplication cost bounds over time and against kappa, with a fixed Boolean circuit model, explicit assumptions and reproducible evidence.">
+  <title>Integer Multiplication · Crossover Lab</title>
+  <meta property="og:title" content="How galactic is fast integer multiplication?">
+  <meta property="og:description" content="Explore 196 conditional cost analyses by date and kappa, with source evidence, explicit assumptions and reproducible checks. Bounds, not measured speedups.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alejandrozu.github.io/integer-multiplication-crossover-lab/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="history-chart.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#pr=4470&amp;tab=frontier"><span class="mark">×</span><span>Crossover <b>Lab</b><small>INTEGER MULTIPLICATION</small></span></a><div class="topmeta"><span class="dot"></span>Cost audit · 24 OCT 2026</div><div class="header-actions"><a class="quiet" href="methodology.html">How to read this</a><a class="quiet" href="https://github.com/alejandrozu/integer-multiplication-crossover-lab" target="_blank" rel="noopener">GitHub ↗</a><button id="explorerToggle" class="quiet" aria-expanded="false" aria-controls="researchExplorer">PR index</button><button id="methodButton" class="quiet" aria-label="How this is calculated">Method ↗</button></div></header>
+  <div class="workspace">
+    <aside id="researchExplorer" class="sidebar" aria-label="Pull request explorer">
+      <div class="sidehead"><div class="eyebrow">THE RESEARCH INDEX</div><h2>Explore a construction</h2><p id="inventoryCount">Loading the complete PR census…</p><label class="search"><span>⌕</span><input id="search" type="search" placeholder="PR number, contributor or idea" aria-label="Search pull requests"></label><select id="filter" aria-label="Filter the research index"><option value="all">All pull requests</option><option value="kappa">Contains a reported κ</option><option value="evidence">Has resource evidence</option><option value="lineage">Selected result’s lineage</option><option value="reviewed">Selected reviewed construction</option></select></div>
+      <div id="prList" class="prlist" aria-live="polite"></div><div class="pagination"><button id="prevPage" aria-label="Previous page">←</button><span id="pageCount"></span><button id="nextPage" aria-label="Next page">→</button></div>
+      <div class="sidefoot">Every PR is indexed. A quoted exponent, merged PR or compiler rank is not automatically a runtime result.</div>
+    </aside>
+    <main id="main"><div class="loading">Loading the construction and its evidence…</div></main>
+  </div>
+  <dialog id="methodDialog"><button id="closeMethod" class="close" aria-label="Close">×</button><div class="eyebrow">WHAT COUNTS AS A CROSSOVER?</div><h2>The complete construction must win.</h2><p>The target is the least input size beyond which the new construction costs less than Harvey–van der Hoeven, counting setup, recursive work, movement, precision and base cases on the same machine model.</p><div class="formula">T<sub>PR</sub>(n) &lt; T<sub>HvH</sub>(n)</div><p>A κ value alone cannot supply that number. This explorer distinguishes a complete runtime comparison, conditions for applying a proof, and calculations after explicit missing-cost assumptions.</p><h3>Harvey–van der Hoeven baseline</h3><p>The fully specified source uses d = 1729, n₀ = 2<sup>d¹²</sup> and C = max(B, 5000A). Its source does not report numerical A or B. This is the chosen theoretical baseline, not a normalized constant of one.</p><h3>When an exact number is unavailable</h3><p>The audit lists the missing quantities. Numerical scenarios are displayed as conditional cost models, not as completed estimates of undocumented constants. A precision cutoff can be sufficient for one proof condition while giving neither a lower bound nor an upper bound on the true runtime crossover.</p><h3>The operation-count model</h3><p>The operation-count tab fixes a nonuniform Boolean circuit model with AND cost 1 and XOR cost ρ. It includes input-dependent arithmetic, while circuit generation, length-only coefficients and fixed wiring are free. Its newly derived HvH envelope is a bound in that model, not a numerical value for the paper’s uniform Turing-machine constant. PR4470 now has a separate conditional whole-integer upper bound for the specified circuit instantiation. The raw-layer threshold remains a component result.</p><h3>Reading giant sizes</h3><p>Here n is the number of bits in <em>each</em> operand. We write n = 2<sup>2ᴴ</sup> and display H = log₂ log₂ n to retain values too large for ordinary scientific notation. No input of such a size is materialized.</p><p><a href="https://www.texmacs.org/joris/nlogn/nlogn.pdf" target="_blank" rel="noopener">Read the HvH paper ↗</a> · <a href="data/coverage.json" target="_blank">Inspect coverage ↗</a></p></dialog>
+  <div id="toast" role="status"></div>
+  <script src="cost-model.js" defer></script>
+  <script src="operation-model.js" defer></script>
+  <script src="full-comparison-model.js" defer></script>
+  <script src="tightened-comparison-model.js" defer></script>
+  <script src="nested-comparison-model.js" defer></script>
+  <script src="unbounded-optimized-model.js" defer></script>
+  <script src="operations-view.js" defer></script>
+  <script src="full-comparison-view.js" defer></script>
+  <script src="unbounded-optimized-view.js" defer></script>
+  <script src="literal-feasibility-model.js" defer></script>
+  <script src="literal-feasibility-view.js" defer></script>
+  <script src="feasibility-refinement-model.js" defer></script>
+  <script src="feasibility-refinement-view.js" defer></script>
+  <script src="feasibility-history-model.js" defer></script>
+  <script src="feasibility-history-early-model.js" defer></script>
+  <script src="feasibility-history-source-model.js" defer></script>
+  <script src="history-chart.js" defer></script>
+  <script src="feasibility-history-view.js" defer></script>
+  <script src="feasibility-history-early-view.js" defer></script>
+  <script src="app.js" defer></script>
+</body></html>

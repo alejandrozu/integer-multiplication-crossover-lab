@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 2446,
+    "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+    "path": "research/t74-2435-fill-independent-check/README.md",
+    "api_sha": "6cad2f4b8ba7033f0d2ca2d8698f91cdd8be55ac",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a3aabff9471dfdc3e85b065616e45a317f38882e/research%2Ft74-2435-fill-independent-check%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/t74-2435-fill-independent-check/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/README.md",
+    "file": "artifacts\\2446\\f17704b8ebd1__README.md",
+    "sha256": "f17704b8ebd1d3a1374c43687bc974ff32d85728f4bba5e42feaabfa50d0d059",
+    "git_blob_sha1": "6cad2f4b8ba7033f0d2ca2d8698f91cdd8be55ac",
+    "bytes": 6339,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:38.567872+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 2446,
+    "head": "a3aabff9471dfdc3e85b065616e45a317f38882e",
+    "path": "research/t74-2435-fill-independent-check/SOURCES.json",
+    "api_sha": "392737aa2a56443a56e52d4542b909aae9f65890",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/a3aabff9471dfdc3e85b065616e45a317f38882e/research%2Ft74-2435-fill-independent-check%2FSOURCES.json",
+    "priority": 180,
+    "hint_base": "research/t74-2435-fill-independent-check/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a3aabff9471dfdc3e85b065616e45a317f38882e/research/t74-2435-fill-independent-check/SOURCES.json",
+    "file": "artifacts\\2446\\6f7c32535c7a__SOURCES.json",
+    "sha256": "6f7c32535c7a8db6d724646ddc5f50a3e6ae98f6b86f80e05222776fb5bb1c33",
+    "git_blob_sha1": "392737aa2a56443a56e52d4542b909aae9f65890",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:38.551246+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

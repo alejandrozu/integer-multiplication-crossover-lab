@@ -1,0 +1,106 @@
+# PR4470 finite compiler size and constants
+
+This is a source audit and an explicitly conditional counting model. It is not a certified machine-runtime crossover. In particular, the internal uniform rank N is not the bit length of the multiplied integers.
+
+## Pinned sources
+
+All downloaded source files are pinned at repository commit `322e0ec764aa7ef7801383feb1f656e460dd8bed`, the base retained by PR4470's SOURCES.json.
+
+- [PR4470 proof, sections 5–7](https://github.com/CrocSwap/integer-mult-bounds/blob/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/PROOF.md): actual controller, v=1024, ambient 145^1024, uniform rank 2^64215200000000, unmaterialized word and remaining premises.
+- [General logarithmic majorant, section 4](https://github.com/CrocSwap/integer-mult-bounds/blob/322e0ec764aa7ef7801383feb1f656e460dd8bed/research/higher-moment-strictification/README.md): the bound concerns normalized rank-one leaf count, not full program size or physical runtime.
+- [Finite precompilation, sections 3–6](https://github.com/CrocSwap/integer-mult-bounds/blob/322e0ec764aa7ef7801383feb1f656e460dd8bed/research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md): exact lockstep classes, integer denominator clearing, full batch widths and owned storage.
+- [Finite constants, TENSOR section 6](https://github.com/CrocSwap/integer-mult-bounds/blob/322e0ec764aa7ef7801383feb1f656e460dd8bed/research/pr4359-p7-padding/TENSOR.md): G, Z, E, B_constant and C0 prescriptions.
+
+The vendor manifest authenticates FINITE-PRECOMPILATION.md as the source export from `da637c87c89482bc4c86be36bd0071b3d400dbed`, Git blob `4badb40f0919c515823cb07e44c6470d4d6469ca`, SHA-256 `4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8`.
+
+## What the explicit rank proves
+
+Let C=0.003020155, t=1−C, p=1000, v=1024, m=145^v and theta_bar=63/64. The compiler proves
+
+`L(j) = P_j / B_j <= j^t (1+log2(j))^1000`.
+
+The gap d=1/1400000000, H=64215200000000 and N=2^H satisfy
+
+`(1+H)^1000 < 2^(d H)`.
+
+This gives the desired normalized paid-leaf ratio at the single finite rank N. The source explicitly says this does not bound full word size or physical runtime. The compiler creates a fixed batch of B_N independent productive arrays. It does not assert B_N=1 or bound it merely by N.
+
+## Why batch widths introduce another enormous scale
+
+At top rank j, the compiler uses integer source counts S_s and smaller-rank uniform programs of widths B_e. It chooses a positive integer a_j divisible by all required B_e and B_(j−s), then sets B_j=a_j S_j. One valid implementation is
+
+`a_j = product_(1<=e<j) B_e`.
+
+Using every lower rank may be much larger than necessary, but is explicitly permitted by the constructive product prescription. It is enough to establish a finite upper envelope; it does not predict an optimized implementation.
+
+Fix K>=2 bounding all relevant counts of the completed/split mixed unit: productive width, paid rounds, raw unit instances, finite scalar/routing records and scalar allowance. Require its fixed monomial maps to be counted in elementary binary-linear/phase operations. This is a word-record accounting assumption; the all-column primitive and fixed-tape implementations remain inherited premises.
+
+For one top rank j, the depth G of a lockstep class satisfies G<=log2(j)<=j because every target rank is at least two. The number of ordered paid-round classes is at most sum_(0<=h<=G) P^h <= K^(G+1), since P<=K and K>=2. In a class, the sum of the multinomial unit multiplicities is W^(G−depth). Thus unit instances are bounded by K^(2j+1). Adding source/exit slots, scalar records, elementary rank-j maps and fixed permutations gives a generous unreplicated-flow bound
+
+`F(j) <= K^(6j+10)`.
+
+Choose D_j to dominate B_j, P_j, raw instance count U_j and record count R_j. Replication by a_j and substitution of the smaller programs can be bounded by
+
+`D_j <= K^(7j+10) product_(1<=e<j) (D_e+1)^2`.
+
+One product factor covers denominator clearing, the other covers a worst smaller program. The extra K^j covers selecting and enumerating the smaller-rank calls. Ordinary base programs obey the same deliberately loose bound.
+
+Strong induction gives the convenient closed envelope
+
+`D_j <= K^(32 * 4^j)`.
+
+Indeed, using K>=2, the logarithm to base K of the inductive right side is at most
+
+`7j+10 + 2 sum_(1<=e<j)(1+32*4^e)`
+
+`= 9j+8 + (64/3)(4^j−4) <= 32*4^j`.
+
+This derived envelope is an audit model for the explicitly chosen product-clearing compiler. The source does not publish this numerical full-count bound, and it has not materialized the word to compare its actual size.
+
+## Consequence for the source precision constant
+
+The source prescription is
+
+`G = S_raw U + 8R`, `Z = W+U`,
+
+`E = 64(Z+N+P+G+1)^3`, `B_constant=P+E`,
+
+`C0 = 32 N B_constant^2`.
+
+For the new raw p16 unit the complete allowance is below 10^9. Its new S_raw must replace the old p7 value 2490856; the old constant cannot be silently reused.
+
+Without knowing any full counts, N alone gives a lower bound on this *chosen proof constant*:
+
+`C0 > 2^17 N^7`, hence `log2 C0 > 17 + 7H = 449506400000017`.
+
+This is not an operation-count lower bound for every multiplication algorithm.
+
+For the conditional count envelope, put D=D_N and K>=S_raw+8. Since W,U,P,R<=D and D>=N,
+
+`G<=KD`, `Z<=2D`, `E<=4096 K^3 D^3`,
+
+`C0 < 2^30 N K^6 D^6`.
+
+Consequently
+
+`log2 C0 < 30+H+6 log2 K+192(log2 K)4^N`.
+
+This is a computable, very loose upper envelope for the fixed precision constant in the stated compiler model. It is not a complete upper bound on the integer algorithm's runtime or on its crossover with an existing n log n implementation. The outer prime/analytic/tape and ordinary-BIT admission hypotheses remain separate.
+
+## An explicit illustrative K
+
+For a deliberately generous elementary-record model take A=10^10. The raw p16 allowance is below 10^9, with 10928 productive fields, 64620 paid jobs and rank at most 145. Chronological product counts grow exponentially in v; completion contributes at most W^v terms and splitting at most an ambient-rank factor per term. Dense binary-linear normalizers contribute O(m^2) elementary coordinate operations. A very generous modelling allowance is
+
+`K_model = A^(8(v+1)) = 10^82000 < 2^272399 < 2^(2^20)`.
+
+Using K=2^(2^20), the formula simplifies to
+
+`log2 C0 < 30+H+6291456+201326592 * 4^(2^H)`.
+
+The inequalities after selecting this K are exact arithmetic. The initial K allowance remains a transparent record-count scenario rather than an independently certified bound for every inherited physical implementation. If a final displayed result uses it, label that dependency explicitly. The free-K formula remains valid for any later authenticated bound on the actual separated-unit counts.
+
+## Relation to the original twofold proxy
+
+For an idealized common multiplicative constant, the saving factor is `(log n)^kappa`. Requiring that factor to reach two solves `(log n)^kappa=2`. It does not pay B_N, P_N, the finite scalar word, coefficient heights, setup, the small stop exponent or ordinary-BIT cover stock. With a runtime constant ratio A, the corresponding idealized condition would instead be `(log n)^kappa >= 2A`; with lower-order terms and validity thresholds, further conditions are required.
+
+Thus the proxy remains useful for comparing exponents alone. It is not the first input size at which PR4470's specified construction is known to beat a concrete n log n implementation.

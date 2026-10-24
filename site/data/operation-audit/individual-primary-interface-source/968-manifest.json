@@ -1,0 +1,51 @@
+{
+  "pr": 968,
+  "own_head": "6a99e7240b961ac5e115ae6aa0301ec7c4a45d77",
+  "primary_path_candidates": [
+    "research/complex-frame-pair-decoders/CLAIM.md",
+    "research/complex-frame-pair-decoders/PROOF.md",
+    "research/complex-frame-pair-decoders/README.md",
+    "research/complex-frame-pair-decoders/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-frame-pair-decoders/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-frame-pair-decoders/verify.py",
+      "file": "remaining-record-audit/artifacts/968/bdf7ee497dc0__verify.py",
+      "sha256": "bdf7ee497dc04dfc634ee5b7848f6a2b39b0169668fb1a60a9715111dbd15395",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a99e7240b961ac5e115ae6aa0301ec7c4a45d77/research/complex-frame-pair-decoders/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-frame-pair-decoders/PROOF.md",
+      "file": "remaining-record-audit/artifacts/968/ba53c1d8a9bc__PROOF.md",
+      "sha256": "ba53c1d8a9bc2d935d546bde46ca7341bd65f8515013e07b073296b4db2a9a74",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a99e7240b961ac5e115ae6aa0301ec7c4a45d77/research/complex-frame-pair-decoders/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-frame-pair-decoders/README.md",
+      "file": "remaining-record-audit/artifacts/968/edd848b0177d__README.md",
+      "sha256": "edd848b0177dc73a6e2646d4fd82f0b2ceae37e642bf19d6af602579a041a57e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a99e7240b961ac5e115ae6aa0301ec7c4a45d77/research/complex-frame-pair-decoders/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 968,
+      "head": "6a99e7240b961ac5e115ae6aa0301ec7c4a45d77",
+      "path": "research/complex-frame-pair-decoders/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a99e7240b961ac5e115ae6aa0301ec7c4a45d77/research/complex-frame-pair-decoders/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a28476a67166613b1eb3b6835a7d4f0c041ecd27ef48c13f97c13c5a43b8898b",
+      "git_blob_sha1": "763c771c98722b6621cf5a5bdcc564da074c6b37",
+      "bytes": 2837,
+      "file": "individual-primary-interface-source/968/a28476a67166__CLAIM.md"
+    }
+  ]
+}

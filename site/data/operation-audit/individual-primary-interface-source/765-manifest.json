@@ -1,0 +1,51 @@
+{
+  "pr": 765,
+  "own_head": "d8eaa3db32f76111b39db9b930f347ef30118a28",
+  "primary_path_candidates": [
+    "research/tensor-e8-copy-floor/CLAIM.json",
+    "research/tensor-e8-copy-floor/README.md",
+    "research/tensor-e8-copy-floor/RESULTS.json",
+    "research/tensor-e8-copy-floor/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/tensor-e8-copy-floor/RESULTS.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/tensor-e8-copy-floor/README.md",
+      "file": "remaining-record-audit/artifacts/765/c270f839965b__README.md",
+      "sha256": "c270f839965b394cc54f314e536ce1b1017b340c99aa3a1000ff7b9c5f9d4b3d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d8eaa3db32f76111b39db9b930f347ef30118a28/research/tensor-e8-copy-floor/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/tensor-e8-copy-floor/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/765/30cf4ba51f94__CLAIM.json",
+      "sha256": "30cf4ba51f9419d521efd047d8032495c9d20d4a811e49d9a3d32dac81fcf6d6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d8eaa3db32f76111b39db9b930f347ef30118a28/research/tensor-e8-copy-floor/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/tensor-e8-copy-floor/verify.py",
+      "file": "remaining-record-audit/artifacts/765/f84540bfbfea__verify.py",
+      "sha256": "f84540bfbfea56a19626eba3c2162d6af616b36845cd677a46fa55c65b570f40",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d8eaa3db32f76111b39db9b930f347ef30118a28/research/tensor-e8-copy-floor/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 765,
+      "head": "d8eaa3db32f76111b39db9b930f347ef30118a28",
+      "path": "research/tensor-e8-copy-floor/RESULTS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d8eaa3db32f76111b39db9b930f347ef30118a28/research/tensor-e8-copy-floor/RESULTS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "80078369f5fc62e4016553f96daefc041b1e85f83f68068ac6ce615dea13725b",
+      "git_blob_sha1": "f256d6888449f90e44932065bfb6b0079951daa2",
+      "bytes": 143342,
+      "file": "individual-primary-interface-source/765/80078369f5fc__RESULTS.json"
+    }
+  ]
+}

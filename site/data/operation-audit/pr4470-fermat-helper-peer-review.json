@@ -1,0 +1,32 @@
+{
+  "schema": "pr4470-fermat-helper-whole-ai-peer-review/1",
+  "status": "PASS_UNDER_RETAINED_CONDITIONAL_CONTRACTS",
+  "reviewer": "separate leaderboard_source AI worker",
+  "independent_human_review": false,
+  "Lean_verification": false,
+  "native_or_large_integer_multiplication_executed": false,
+  "reviewed_certificate_checks": 58,
+  "proof_and_certificate_sha256": {
+    "pr4470-fermat-helper-upper.md": "f17c9a5be75f6042c9b031b491db911d9d267c77774eceaa2081be59ec59b643",
+    "pr4470-fermat-helper-upper.json": "d6a53d8410188613a6c7a0c04597d408d4b01685536622fbce25cb802d3e6369",
+    "pr4470_fermat_helper_upper.py": "6cca0ba58e89a99554d1d1ca4e3dc5b7444f4a95847dc8404de367cc994e31b3",
+    "pr4470-fermat-helper-peer-review.md": "ef3196a29d6e61bc166d0b4ad4ed9263ccc701918027e5546429bbcf18ffd6f4",
+    "candidate-fermat-helper-peer-review.json": "98b657b99bc3e50f3748e2632284c6108f159b390df46b6cff174cd893aa0376",
+    "pr4470-clifford-stack-peer-review.json": "136389f4b552c0dd32b8aa61318436cc06dd1a9bb0a439203ab877b28ae63f16",
+    "pr4470-replication-depth-peer-review.json": "959f35a60cd0ba6d2f02fa8fd17e475da69e8d9633bd946757435f9af74f1050"
+  },
+  "scientific_review_closed": true,
+  "reviewed_scope": [
+    "signed and unsigned exact helper normalization at66p",
+    "five helper rows plus128 coefficient bits and8 log powers",
+    "two native ADD/NEG rows unchanged",
+    "exact multiplication leaves outer rounding/error count unchanged",
+    "all-size semantic/row-stock/prime/recovery interfaces",
+    "smooth logarithm tail atE>=2^64",
+    "correct double-exponential comparison input domains",
+    "unchanged optimizedGMP reference and positive tariffs"
+  ],
+  "actual_first_crossing_known": false,
+  "practical_runtime_claimed": false,
+  "formal_status": "AI mathematical peer review, not human or formal-kernel verification"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "research/joint-helper-lattice/RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+    "file": "src-53b924465ea1-RESULT.json",
+    "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21"
+  },
+  {
+    "path": "research/joint-helper-lattice/PROOF.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/PROOF.md",
+    "file": "src-785cd8d0a1e7-PROOF.md",
+    "sha256": "43ef4251cc300f1b18cbe8cdb060f96f95748e6797d2478b4c04b79a8373ef91"
+  },
+  {
+    "path": "research/pr4359-p7-padding/TENSOR.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/pr4359-p7-padding/TENSOR.md",
+    "file": "src-9fdd63046e62-TENSOR.md",
+    "sha256": "b2eba86cb979b4dc2a045f2e74bbd29e4d9e5ec87d6a2bc23ba7b54f1f58e3e3"
+  },
+  {
+    "path": "research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "file": "src-c4961beeeaf4-FINITE-PRECOMPILATION.md",
+    "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8"
+  },
+  {
+    "path": "research/query-thinned-controllers/PROOF.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/query-thinned-controllers/PROOF.md",
+    "file": "src-a4e1ccdf77ea-PROOF.md",
+    "sha256": "5ade59641f2ed70d045d6f60e89db7d979b1d1e9967f3acbe5c56eac81312841"
+  }
+]

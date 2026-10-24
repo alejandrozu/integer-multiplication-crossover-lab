@@ -1,0 +1,64 @@
+{
+  "pr": 1359,
+  "own_head": "6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498",
+  "primary_path_candidates": [
+    "research/r439-b509-local-minimality-seed06/EXPECTED.json",
+    "research/r439-b509-local-minimality-seed06/PROOF.md",
+    "research/r439-b509-local-minimality-seed06/README.md",
+    "research/r439-b509-local-minimality-seed06/TASK.json",
+    "research/r439-b509-local-minimality-seed06/INPUT.json",
+    "research/r439-b509-local-minimality-seed06/VERIFY.json",
+    "research/r439-b509-local-minimality-seed06/PREDECESSORS.json",
+    "research/r439-b509-local-minimality-seed06/verify.py",
+    "research/r439-b509-local-minimality-seed06/SELECTION.md",
+    "research/r439-b509-local-minimality-seed06/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/r439-b509-local-minimality-seed06/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-b509-local-minimality-seed06/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1359/cc13431b3673__PROOF.md",
+      "sha256": "cc13431b367336e176646d7f95af5bb61567beb8b1b81b0b48aec4b321b0eff4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498/research/r439-b509-local-minimality-seed06/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-b509-local-minimality-seed06/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1359/814490513790__EXPECTED.json",
+      "sha256": "814490513790fe6006fa17995ade325dad99da6154d2dc9b2ab89099a66c3df1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498/research/r439-b509-local-minimality-seed06/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-b509-local-minimality-seed06/verify.py",
+      "file": "remaining-record-audit/artifacts/1359/83cc289a839c__verify.py",
+      "sha256": "83cc289a839c066f9fe6ad633873923c8ac7ef24147d06a68418064f80410a02",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498/research/r439-b509-local-minimality-seed06/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-b509-local-minimality-seed06/README.md",
+      "file": "remaining-record-audit/artifacts/1359/0351cec3967e__README.md",
+      "sha256": "0351cec3967e89ea0e8288006a56ef4e952c9d4828e0a00126ac484f4fd0b831",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498/research/r439-b509-local-minimality-seed06/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1359,
+      "head": "6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498",
+      "path": "research/r439-b509-local-minimality-seed06/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6a10c0eaa7e896bb5c6d297a0b9c6bbe46143498/research/r439-b509-local-minimality-seed06/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c2ea9e2f2253614d0a1b50b6214a4cd00ac9c7f41b9b2832a4cd347ee53a2f42",
+      "git_blob_sha1": "1ce0d2d677028a5a091a871fd1cc773d44814913",
+      "bytes": 4445,
+      "file": "individual-primary-interface-source/1359/c2ea9e2f2253__TASK.json"
+    }
+  ]
+}

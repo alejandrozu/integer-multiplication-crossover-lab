@@ -1,0 +1,103 @@
+{
+  "pr": 2363,
+  "own_head": "d815dbe374096f1b96a224a2dcb6a9167c5cfa91",
+  "primary_path_candidates": [
+    "research/t74-owner-augmenting-paths/CLAIM.json",
+    "research/t74-owner-augmenting-paths/PROOF.md",
+    "research/t74-owner-augmenting-paths/README.md",
+    "research/t74-owner-augmenting-paths/VALIDATION.md",
+    "research/t74-owner-augmenting-paths/TASK.json",
+    "research/t74-owner-augmenting-paths/MOVES.json",
+    "research/t74-owner-augmenting-paths/VERIFY.json",
+    "research/t74-owner-augmenting-paths/PREDECESSORS.json",
+    "research/t74-owner-augmenting-paths/evidence/REPLAY.json",
+    "research/t74-owner-augmenting-paths/evidence/STAGES.json",
+    "research/t74-owner-augmenting-paths/evidence/BOUNDED.json",
+    "research/t74-owner-augmenting-paths/evidence/OVERLAP.json",
+    "research/t74-owner-augmenting-paths/evidence/BASELINE.json",
+    "research/t74-owner-augmenting-paths/evidence/BIT-CONTROLS.json",
+    "research/t74-owner-augmenting-paths/evidence/OUTER-LEDGER.json",
+    "research/t74-owner-augmenting-paths/evidence/FULL-ADMISSION.json",
+    "research/t74-owner-augmenting-paths/evidence/DELTA-ADMISSION.json",
+    "research/t74-owner-augmenting-paths/evidence/STRICT-ASSEMBLY.json",
+    "research/t74-owner-augmenting-paths/evidence/PHYSICAL-INVOICE.json",
+    "research/t74-owner-augmenting-paths/evidence/GEOMETRY-CONTROLS.json",
+    "research/t74-owner-augmenting-paths/evidence/OUTER-INDEPENDENT.json",
+    "research/t74-owner-augmenting-paths/evidence/ADMISSION-CONTROLS.json",
+    "research/t74-owner-augmenting-paths/evidence/STRICT-OWNER-BINDING.json",
+    "research/t74-owner-augmenting-paths/evidence/OWNER-BINDING-CONTROLS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-base/STEPS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-extra/STEPS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-base/LOCAL-CHECKS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-extra/LOCAL-CHECKS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-base/WRAPPER-CHECKS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-base/CLIFFORD-REVIEW.json",
+    "research/t74-owner-augmenting-paths/evidence/native-extra/WRAPPER-CHECKS.json",
+    "research/t74-owner-augmenting-paths/evidence/native-extra/CLIFFORD-REVIEW.json",
+    "research/t74-owner-augmenting-paths/evidence/native-base/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/t74-owner-augmenting-paths/evidence/native-extra/INDEPENDENT-LOCAL-REPLAY.json",
+    "research/t74-owner-augmenting-paths/NOTICE.md",
+    "research/t74-owner-augmenting-paths/search.py",
+    "research/t74-owner-augmenting-paths/verify.py",
+    "research/t74-owner-augmenting-paths/full_replay.py",
+    "research/t74-owner-augmenting-paths/fetch_sources.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-owner-augmenting-paths/TASK.json",
+    "research/t74-owner-augmenting-paths/search.py",
+    "research/t74-owner-augmenting-paths/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-owner-augmenting-paths/PROOF.md",
+      "file": "remaining-record-audit/artifacts/2363/b83568b8bd53__PROOF.md",
+      "sha256": "b83568b8bd53320bc69341eaffff719611f6175ff09450a1c38ba60016190288",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d815dbe374096f1b96a224a2dcb6a9167c5cfa91/research/t74-owner-augmenting-paths/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-owner-augmenting-paths/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2363/7fab7a257ac5__CLAIM.json",
+      "sha256": "7fab7a257ac5ae7d1178e0c443f2c26d2ea436aa295ed78319550248f7195f11",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d815dbe374096f1b96a224a2dcb6a9167c5cfa91/research/t74-owner-augmenting-paths/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 56,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2363,
+      "head": "d815dbe374096f1b96a224a2dcb6a9167c5cfa91",
+      "path": "research/t74-owner-augmenting-paths/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d815dbe374096f1b96a224a2dcb6a9167c5cfa91/research/t74-owner-augmenting-paths/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c269148568c54a7832423e8041744b172633d46802553aabb337585224ed6f45",
+      "git_blob_sha1": "872885bf86a9be73954b80ac9c570ea12e0fa406",
+      "bytes": 4799,
+      "file": "individual-primary-interface-source/2363/c269148568c5__TASK.json"
+    },
+    {
+      "pr": 2363,
+      "head": "d815dbe374096f1b96a224a2dcb6a9167c5cfa91",
+      "path": "research/t74-owner-augmenting-paths/search.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d815dbe374096f1b96a224a2dcb6a9167c5cfa91/research/t74-owner-augmenting-paths/search.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "31d488d64f84b54f7fb4c214f652040e775d22e38e3c86912b607fb2f200ce49",
+      "git_blob_sha1": "b6457461001e7f64f3fbbe32863b37ccaabfc2f1",
+      "bytes": 6713,
+      "file": "individual-primary-interface-source/2363/31d488d64f84__search.py"
+    },
+    {
+      "pr": 2363,
+      "head": "d815dbe374096f1b96a224a2dcb6a9167c5cfa91",
+      "path": "research/t74-owner-augmenting-paths/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d815dbe374096f1b96a224a2dcb6a9167c5cfa91/research/t74-owner-augmenting-paths/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "938fa9f77727d052cecda094109731ca1094426231e09f4c528a864d148b8111",
+      "git_blob_sha1": "19f9b2e903c0a0c4354e9c2df0b2cb62cf0befcf",
+      "bytes": 8098,
+      "file": "individual-primary-interface-source/2363/938fa9f77727__README.md"
+    }
+  ]
+}

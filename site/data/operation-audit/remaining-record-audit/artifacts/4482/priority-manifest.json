@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4482,
+    "head": "c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc",
+    "path": "research/gaussian-core-side/README.md",
+    "api_sha": "5c7a6ad380eef6c5fc94e6f990b9fc71a84bfd59",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research%2Fgaussian-core-side%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research/gaussian-core-side/README.md",
+    "file": "artifacts\\4482\\0a1b0802a726__README.md",
+    "sha256": "0a1b0802a726d72a0aafa69875cdec4fa0175549f489fa7e68281d6bb45d2ffa",
+    "git_blob_sha1": "5c7a6ad380eef6c5fc94e6f990b9fc71a84bfd59",
+    "bytes": 4099,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.032602+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4482,
+    "head": "c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc",
+    "path": "research/gaussian-core-side/SOURCES.json",
+    "api_sha": "e05a8e46ab0764998ee8558ee7fd1cb2b820f239",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research%2Fgaussian-core-side%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research/gaussian-core-side/SOURCES.json",
+    "file": "artifacts\\4482\\9aaa257ab1e7__SOURCES.json",
+    "sha256": "9aaa257ab1e7b264b313c052b680a7f079aacd6f4bfd569e3994ceae327194d2",
+    "git_blob_sha1": "e05a8e46ab0764998ee8558ee7fd1cb2b820f239",
+    "bytes": 1072,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:30.983586+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4482,
+    "head": "c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc",
+    "path": "research/gaussian-core-side/verify.py",
+    "api_sha": "db9be3233598706bb6f03d68fea4ae42a30538cc",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research%2Fgaussian-core-side%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c652a1eea829a5a4d826c254fdc0cfa77ed2bcfc/research/gaussian-core-side/verify.py",
+    "file": "artifacts\\4482\\f46598cd71a1__verify.py",
+    "sha256": "f46598cd71a1b0b5fb3c409d366a689f855777a7c710ef41ffbd84ef60ec508b",
+    "git_blob_sha1": "db9be3233598706bb6f03d68fea4ae42a30538cc",
+    "bytes": 2707,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:31.030601+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "pr": 4501,
+  "own_head": "5fad1d2e9ae4e1ac269a812b024c9c53024603ec",
+  "primary_path_candidates": [
+    "research/delta-cross-cell-independent-audit/RESULT.json",
+    "research/delta-cross-cell-independent-audit/README.md",
+    "research/delta-cross-cell-independent-audit/reviewed/README.md",
+    "research/delta-cross-cell-independent-audit/TASK.json",
+    "research/delta-cross-cell-independent-audit/VERIFY.json",
+    "research/delta-cross-cell-independent-audit/REVIEWED.json",
+    "research/delta-cross-cell-independent-audit/verify.py",
+    "research/delta-cross-cell-independent-audit/reviewed/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/delta-cross-cell-independent-audit/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/delta-cross-cell-independent-audit/README.md",
+      "file": "remaining-record-audit/artifacts/4501/77a08e97abcf__README.md",
+      "sha256": "77a08e97abcff4fcec527e84b5e8e1340cf3742c58afc0417c69d9ceb00268b6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5fad1d2e9ae4e1ac269a812b024c9c53024603ec/research/delta-cross-cell-independent-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/delta-cross-cell-independent-audit/RESULT.json",
+      "file": "remaining-record-audit/artifacts/4501/080ef25be7c5__RESULT.json",
+      "sha256": "080ef25be7c50ee33f98b90c660950bbcd67b5413b0f49338883cd5bb3d8e35f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5fad1d2e9ae4e1ac269a812b024c9c53024603ec/research/delta-cross-cell-independent-audit/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/delta-cross-cell-independent-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/4501/8072d876c0f2__verify.py",
+      "sha256": "8072d876c0f2404c57a31ce6ad56cac34d5c653ea5afa003c0616d1a0813f77f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5fad1d2e9ae4e1ac269a812b024c9c53024603ec/research/delta-cross-cell-independent-audit/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/delta-cross-cell-independent-audit/reviewed/README.md",
+      "file": "remaining-record-audit/artifacts/4501/97d4e9fb2cad__README.md",
+      "sha256": "97d4e9fb2cadc24ca39a236f1b01d0c0007530da407a4d049e8a24dd0962160d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5fad1d2e9ae4e1ac269a812b024c9c53024603ec/research/delta-cross-cell-independent-audit/reviewed/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4501,
+      "head": "5fad1d2e9ae4e1ac269a812b024c9c53024603ec",
+      "path": "research/delta-cross-cell-independent-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5fad1d2e9ae4e1ac269a812b024c9c53024603ec/research/delta-cross-cell-independent-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4d47b978fdac10acfa4efb349c2e39daafb279f6af9a547f7bff510c85ec83d6",
+      "git_blob_sha1": "d5d0c038156d7fbc5ab1705f2c20d1bb1c500e7b",
+      "bytes": 6950,
+      "file": "individual-primary-interface-source/4501/4d47b978fdac__TASK.json"
+    }
+  ]
+}

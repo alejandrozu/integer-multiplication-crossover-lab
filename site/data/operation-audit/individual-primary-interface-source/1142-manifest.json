@@ -1,0 +1,67 @@
+{
+  "pr": 1142,
+  "own_head": "c62ed26b1538e477f96b578f6d9d8a6b176ed363",
+  "primary_path_candidates": [
+    "research/frontier1042-capsule-closure-seed75/RESULT.json",
+    "research/frontier1042-capsule-closure-seed75/CLAIM.md",
+    "research/frontier1042-capsule-closure-seed75/PROOF.md",
+    "research/frontier1042-capsule-closure-seed75/README.md",
+    "research/frontier1042-capsule-closure-seed75/SELECTED-RESULT.json",
+    "research/frontier1042-capsule-closure-seed75/NOTICE.md",
+    "research/frontier1042-capsule-closure-seed75/verify.py",
+    "research/frontier1042-capsule-closure-seed75/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1042-capsule-closure-seed75/CLAIM.md",
+    "research/frontier1042-capsule-closure-seed75/SELECTED-RESULT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-capsule-closure-seed75/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1142/34ee6224ef96__RESULT.json",
+      "sha256": "34ee6224ef968b7c13d2247c9295c599fe476357fb90a7d9e6a7ce98180752fb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c62ed26b1538e477f96b578f6d9d8a6b176ed363/research/frontier1042-capsule-closure-seed75/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-capsule-closure-seed75/verify.py",
+      "file": "remaining-record-audit/artifacts/1142/8ac49130e8b1__verify.py",
+      "sha256": "8ac49130e8b1c9040d0561242a9b8dfa17fddad97bf046c3211915a1ce54bd23",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c62ed26b1538e477f96b578f6d9d8a6b176ed363/research/frontier1042-capsule-closure-seed75/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-capsule-closure-seed75/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1142/a8b42d39df1c__PROOF.md",
+      "sha256": "a8b42d39df1cfa6fd9c09ceb81cdc4a72ac5f3bf2e2608a91e946094a22170b5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c62ed26b1538e477f96b578f6d9d8a6b176ed363/research/frontier1042-capsule-closure-seed75/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1142,
+      "head": "c62ed26b1538e477f96b578f6d9d8a6b176ed363",
+      "path": "research/frontier1042-capsule-closure-seed75/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c62ed26b1538e477f96b578f6d9d8a6b176ed363/research/frontier1042-capsule-closure-seed75/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a3965dee140a09df71e90b001d6a7edb9180e2f36531d09875e2b2b1be559533",
+      "git_blob_sha1": "1f94dcde817eb976d191d39252a16dc01e9b15b9",
+      "bytes": 914,
+      "file": "individual-primary-interface-source/1142/a3965dee140a__CLAIM.md"
+    },
+    {
+      "pr": 1142,
+      "head": "c62ed26b1538e477f96b578f6d9d8a6b176ed363",
+      "path": "research/frontier1042-capsule-closure-seed75/SELECTED-RESULT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c62ed26b1538e477f96b578f6d9d8a6b176ed363/research/frontier1042-capsule-closure-seed75/SELECTED-RESULT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "207d1f49f113c585024b9d3c17eadbb8b1be17c1321e3d190aabe2f18ce1c5b7",
+      "git_blob_sha1": "f451ced6626a1f03aba6915ce23a136b01ebe51d",
+      "bytes": 9522,
+      "file": "individual-primary-interface-source/1142/207d1f49f113__SELECTED-RESULT.json"
+    }
+  ]
+}

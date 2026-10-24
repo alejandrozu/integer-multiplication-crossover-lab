@@ -1,0 +1,65 @@
+{
+  "pr": 1346,
+  "own_head": "fd33c640407dda0867604722b612e6c68b7cd6e2",
+  "primary_path_candidates": [
+    "research/complex-jp8-diagonal-gauge/CLAIM.json",
+    "research/complex-jp8-diagonal-gauge/EXPECTED.json",
+    "research/complex-jp8-diagonal-gauge/CERTIFICATE.json",
+    "research/complex-jp8-diagonal-gauge/README.md",
+    "research/complex-jp8-diagonal-gauge/VALIDATION.md",
+    "research/complex-jp8-diagonal-gauge/SELECTED-AT-BASE.json",
+    "research/complex-jp8-diagonal-gauge/check.py",
+    "research/complex-jp8-diagonal-gauge/verify.py",
+    "research/complex-jp8-diagonal-gauge/discover.py",
+    "research/complex-jp8-diagonal-gauge/test_verify.py",
+    "research/complex-jp8-diagonal-gauge/PR-DESCRIPTION.md"
+  ],
+  "selected_for_recovery": [
+    "research/complex-jp8-diagonal-gauge/check.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-jp8-diagonal-gauge/README.md",
+      "file": "remaining-record-audit/artifacts/1346/885e3b0c2d2e__README.md",
+      "sha256": "885e3b0c2d2e4d43b3e435d1ea52554014b04ec5ded69b1373b1c38f86045381",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd33c640407dda0867604722b612e6c68b7cd6e2/research/complex-jp8-diagonal-gauge/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-jp8-diagonal-gauge/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1346/1efd6fbe112d__CLAIM.json",
+      "sha256": "1efd6fbe112dce641e37eb016a31686bc87036c10546d766cce5a1b67a1a7cf8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd33c640407dda0867604722b612e6c68b7cd6e2/research/complex-jp8-diagonal-gauge/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-jp8-diagonal-gauge/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1346/aa96f25f0b5d__EXPECTED.json",
+      "sha256": "aa96f25f0b5dda2285ec4cee4dbe757cbbd149cba090fb20e5104f1455c5d1b1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd33c640407dda0867604722b612e6c68b7cd6e2/research/complex-jp8-diagonal-gauge/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-jp8-diagonal-gauge/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1346/9f082ca45229__CERTIFICATE.json",
+      "sha256": "9f082ca45229e1f7a29244e4463e677e99116a47d025e16e4a17ebacf8590e25",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd33c640407dda0867604722b612e6c68b7cd6e2/research/complex-jp8-diagonal-gauge/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1346,
+      "head": "fd33c640407dda0867604722b612e6c68b7cd6e2",
+      "path": "research/complex-jp8-diagonal-gauge/check.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fd33c640407dda0867604722b612e6c68b7cd6e2/research/complex-jp8-diagonal-gauge/check.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bffa81c8fbc0b3b32f45f559db92c1514d4a609942cc3d188c312b303b5ede71",
+      "git_blob_sha1": "762c88aa00d64cf86cbf9421beab1efa19439896",
+      "bytes": 2694,
+      "file": "individual-primary-interface-source/1346/bffa81c8fbc0__check.py"
+    }
+  ]
+}

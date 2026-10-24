@@ -1,0 +1,100 @@
+{
+  "pr": 2824,
+  "own_head": "f1826afe1f487333f2c1e5bf862bae2211ce8dd9",
+  "primary_path_candidates": [
+    "research/replica-tail-gain/CLAIM.json",
+    "research/replica-tail-gain/PROOF.md",
+    "research/replica-tail-gain/README.md",
+    "research/replica-tail-gain/TASK.json",
+    "research/replica-tail-gain/VERIFY.json",
+    "research/replica-tail-gain/MODULES.json",
+    "research/replica-tail-gain/PORTING.json",
+    "research/replica-tail-gain/data/ORDER.json",
+    "research/replica-tail-gain/data/PROFILE.json",
+    "research/replica-tail-gain/data/DISPATCH.json",
+    "research/replica-tail-gain/expected/AXIOMS.json",
+    "research/replica-tail-gain/validation/KERNEL.json",
+    "research/replica-tail-gain/validation/MOMENT.json",
+    "research/replica-tail-gain/validation/NATIVE.json",
+    "research/replica-tail-gain/validation/OWNERS.json",
+    "research/replica-tail-gain/lean/lake-manifest.json",
+    "research/replica-tail-gain/validation/COMPLETE.json",
+    "research/replica-tail-gain/provenance/ADMISSION-SOURCES.json",
+    "research/replica-tail-gain/replay.py",
+    "research/replica-tail-gain/verify.py",
+    "research/replica-tail-gain/FRONTIER.md",
+    "research/replica-tail-gain/PARENT-LIFT.md",
+    "research/replica-tail-gain/lift_parent.py",
+    "research/replica-tail-gain/replica_parent.py",
+    "research/replica-tail-gain/check_candidate.py",
+    "research/replica-tail-gain/reconstruct_replica.py",
+    "research/replica-tail-gain/admit_frontier_replica.py",
+    "research/replica-tail-gain/portable_frontier_cold.py",
+    "research/replica-tail-gain/portable_prepare_native.py",
+    "research/replica-tail-gain/independent_candidate_moment_retired7.py",
+    "research/replica-tail-gain/independent_candidate_owners_retired7.py"
+  ],
+  "selected_for_recovery": [
+    "research/replica-tail-gain/PROOF.md",
+    "research/replica-tail-gain/TASK.json",
+    "research/replica-tail-gain/replay.py",
+    "research/replica-tail-gain/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/replica-tail-gain/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2824/7a3de63f42f7__CLAIM.json",
+      "sha256": "7a3de63f42f72564fdc3bd69a7269b7c364f67526ef76b18063241da59bfef52",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f1826afe1f487333f2c1e5bf862bae2211ce8dd9/research/replica-tail-gain/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 168,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2824,
+      "head": "f1826afe1f487333f2c1e5bf862bae2211ce8dd9",
+      "path": "research/replica-tail-gain/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f1826afe1f487333f2c1e5bf862bae2211ce8dd9/research/replica-tail-gain/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "68b11b272d7b7a9e78a64e5ff830038c873d9b25ca2f5f2a0f6e790a9c7998f8",
+      "git_blob_sha1": "e70b6365c65a251c251db0bc2f064abb81e1aa64",
+      "bytes": 5068,
+      "file": "individual-primary-interface-source/2824/68b11b272d7b__PROOF.md"
+    },
+    {
+      "pr": 2824,
+      "head": "f1826afe1f487333f2c1e5bf862bae2211ce8dd9",
+      "path": "research/replica-tail-gain/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f1826afe1f487333f2c1e5bf862bae2211ce8dd9/research/replica-tail-gain/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2acfc2cafb40b83c1e603f281eca8fa2e5dce32b40bc34289a5cac78aeba02ba",
+      "git_blob_sha1": "8bec81927e9f5f689c7d68e63a8944acd59e0066",
+      "bytes": 770,
+      "file": "individual-primary-interface-source/2824/2acfc2cafb40__TASK.json"
+    },
+    {
+      "pr": 2824,
+      "head": "f1826afe1f487333f2c1e5bf862bae2211ce8dd9",
+      "path": "research/replica-tail-gain/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f1826afe1f487333f2c1e5bf862bae2211ce8dd9/research/replica-tail-gain/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ff899fcb325139b9322e9ccbfc65508f153956c25ae25f51c257fe1a274c61f9",
+      "git_blob_sha1": "e757ec8a40c4fce68f72463876211ce771bfa6a4",
+      "bytes": 10656,
+      "file": "individual-primary-interface-source/2824/ff899fcb3251__replay.py"
+    },
+    {
+      "pr": 2824,
+      "head": "f1826afe1f487333f2c1e5bf862bae2211ce8dd9",
+      "path": "research/replica-tail-gain/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f1826afe1f487333f2c1e5bf862bae2211ce8dd9/research/replica-tail-gain/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "076ab199a6f70f8085316e70b547f7d868b6aad7326d83531243065ab1b164b7",
+      "git_blob_sha1": "916516bf2e88602acb397440ea57bdef65275c34",
+      "bytes": 5244,
+      "file": "individual-primary-interface-source/2824/076ab199a6f7__README.md"
+    }
+  ]
+}

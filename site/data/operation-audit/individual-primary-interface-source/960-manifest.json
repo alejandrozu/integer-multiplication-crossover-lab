@@ -1,0 +1,60 @@
+{
+  "pr": 960,
+  "own_head": "bf87e110106c997392645f76b429ab3cc4410419",
+  "primary_path_candidates": [
+    "research/t21-binomial-audit/CLAIM.json",
+    "research/t21-binomial-audit/CERTIFICATE.json",
+    "research/t21-binomial-audit/README.md",
+    "research/t21-binomial-audit/VALIDATION.json",
+    "research/t21-binomial-audit/verify.py",
+    "research/t21-binomial-audit/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/t21-binomial-audit/VALIDATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-binomial-audit/README.md",
+      "file": "remaining-record-audit/artifacts/960/2bd2ceaff952__README.md",
+      "sha256": "2bd2ceaff95288933a7f36358fbbebf7d9e328264edc0f189a590b70bcabe92f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bf87e110106c997392645f76b429ab3cc4410419/research/t21-binomial-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-binomial-audit/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/960/6f080af56195__CLAIM.json",
+      "sha256": "6f080af561955b7c425a02036cb4b991bc9dffe42045cf3228c169eb9c211172",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bf87e110106c997392645f76b429ab3cc4410419/research/t21-binomial-audit/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-binomial-audit/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/960/ad122270a276__CERTIFICATE.json",
+      "sha256": "ad122270a276f772f17d39b27f122a845a6e93c7a645f1fd32e10eccca372075",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bf87e110106c997392645f76b429ab3cc4410419/research/t21-binomial-audit/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t21-binomial-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/960/080fa1343c62__verify.py",
+      "sha256": "080fa1343c62ecd3cbdaacca322028e590bc0c18d0c0e3878ba081587ef7b34a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bf87e110106c997392645f76b429ab3cc4410419/research/t21-binomial-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 960,
+      "head": "bf87e110106c997392645f76b429ab3cc4410419",
+      "path": "research/t21-binomial-audit/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bf87e110106c997392645f76b429ab3cc4410419/research/t21-binomial-audit/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "96dfc0dd22df8df1a0835ca8dd3ec399e9d65469878387b51f73525b9d411d6c",
+      "git_blob_sha1": "799e57e925e5e4de19f10c39a55267735a65d6f3",
+      "bytes": 3329,
+      "file": "individual-primary-interface-source/960/96dfc0dd22df__VALIDATION.json"
+    }
+  ]
+}

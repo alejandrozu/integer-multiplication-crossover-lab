@@ -1,0 +1,71 @@
+{
+  "pr": 2847,
+  "own_head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+  "primary_path_candidates": [
+    "research/t74-retired7-increment-audit/README.md",
+    "research/t74-retired7-increment-audit/TASK.json",
+    "research/t74-retired7-increment-audit/VERIFY.json",
+    "research/t74-retired7-increment-audit/RECEIPT.json",
+    "research/t74-retired7-increment-audit/verify.py",
+    "research/t74-retired7-increment-audit/increment_audit.py",
+    "research/t74-retired7-increment-audit/increment_controls.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-retired7-increment-audit/TASK.json",
+    "research/t74-retired7-increment-audit/VERIFY.json",
+    "research/t74-retired7-increment-audit/RECEIPT.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-retired7-increment-audit/README.md",
+      "file": "remaining-record-audit/artifacts/2847/f20a36617af9__README.md",
+      "sha256": "f20a36617af967ab3a34d86187b0852f939c6e5cb451a990792028d10085e1dd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-retired7-increment-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/2847/4ad539b134d1__verify.py",
+      "sha256": "4ad539b134d134b5368904ea456caa0c509b8be17f039269de3d761070a4f6ad",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2847,
+      "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+      "path": "research/t74-retired7-increment-audit/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8e4a296233c2b674ddf7351a514a03aae5404103470c0a48f473b2d283a2fac0",
+      "git_blob_sha1": "dd8903037611cdefc4d340a41feb0a7ec8f648ff",
+      "bytes": 9204,
+      "file": "individual-primary-interface-source/2847/8e4a296233c2__TASK.json"
+    },
+    {
+      "pr": 2847,
+      "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+      "path": "research/t74-retired7-increment-audit/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "27f572d4dd71334c4a920fc45d8843fdb31c2f70a0cb1969535f64e9da8c2910",
+      "git_blob_sha1": "4cd8b575acb63434a77a67f575e40a57b7eca4e4",
+      "bytes": 823,
+      "file": "individual-primary-interface-source/2847/27f572d4dd71__VERIFY.json"
+    },
+    {
+      "pr": 2847,
+      "head": "f3786fa5d7e28d643f0efaf7d75089cb2909b337",
+      "path": "research/t74-retired7-increment-audit/RECEIPT.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3786fa5d7e28d643f0efaf7d75089cb2909b337/research/t74-retired7-increment-audit/RECEIPT.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "05e4677b506b3ea508dec9d51f85ae6a554f060e52acb297a1b36c77aee3aa3f",
+      "git_blob_sha1": "f395e7b47fb1579c98c63bcc74611f72defce60c",
+      "bytes": 59325,
+      "file": "individual-primary-interface-source/2847/05e4677b506b__RECEIPT.json"
+    }
+  ]
+}

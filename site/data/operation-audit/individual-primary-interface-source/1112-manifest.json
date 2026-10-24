@@ -1,0 +1,51 @@
+{
+  "pr": 1112,
+  "own_head": "3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27",
+  "primary_path_candidates": [
+    "research/frontier1042-invoice-audit-seed81/RESULT.json",
+    "research/frontier1042-invoice-audit-seed81/README.md",
+    "research/frontier1042-invoice-audit-seed81/verify.py",
+    "research/frontier1042-invoice-audit-seed81/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/frontier1042-invoice-audit-seed81/test_package.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-invoice-audit-seed81/README.md",
+      "file": "remaining-record-audit/artifacts/1112/eb0f98b973dd__README.md",
+      "sha256": "eb0f98b973dd25f1fe4d4156da5ca3a6a7fd19c9f03c39a12ce37a16641e83cb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27/research/frontier1042-invoice-audit-seed81/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-invoice-audit-seed81/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1112/b9ca758da0fc__RESULT.json",
+      "sha256": "b9ca758da0fcc664e36c07f3850082ba4de8c444ebaf8a674f3a8e33d6298875",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27/research/frontier1042-invoice-audit-seed81/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/frontier1042-invoice-audit-seed81/verify.py",
+      "file": "remaining-record-audit/artifacts/1112/f5d80137fa58__verify.py",
+      "sha256": "f5d80137fa58fd078722e171a8d36a300dce4ba7181170047667fca06febfd33",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27/research/frontier1042-invoice-audit-seed81/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1112,
+      "head": "3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27",
+      "path": "research/frontier1042-invoice-audit-seed81/test_package.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3a6a13cf4fbda16e1d191553f8b08cb6a3d5ed27/research/frontier1042-invoice-audit-seed81/test_package.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bb4f29e23f4c119ef18461c9598fdcc1b36c1f111b26195d99820316ba01ff46",
+      "git_blob_sha1": "d810aba34bf69bf45da39781fe994b63c52b3913",
+      "bytes": 1855,
+      "file": "individual-primary-interface-source/1112/bb4f29e23f4c__test_package.py"
+    }
+  ]
+}

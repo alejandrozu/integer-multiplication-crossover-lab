@@ -1,0 +1,62 @@
+{
+  "pr": 1019,
+  "own_head": "eff657644137971f6e31ac3c825950c770471349",
+  "primary_path_candidates": [
+    "research/t37-rational-refinement/CLAIM.json",
+    "research/t37-rational-refinement/ASSEMBLY.json",
+    "research/t37-rational-refinement/CERTIFICATE.json",
+    "research/t37-rational-refinement/README.md",
+    "research/t37-rational-refinement/VALIDATION.md",
+    "research/t37-rational-refinement/NOTICE.md",
+    "research/t37-rational-refinement/verify.py",
+    "research/t37-rational-refinement/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/t37-rational-refinement/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-rational-refinement/README.md",
+      "file": "remaining-record-audit/artifacts/1019/ed248869c8bf__README.md",
+      "sha256": "ed248869c8bf649f1883c14ac9a2f472caaf2826223160d0b6754f20662c315a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eff657644137971f6e31ac3c825950c770471349/research/t37-rational-refinement/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-rational-refinement/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1019/dcd00c333ddf__CLAIM.json",
+      "sha256": "dcd00c333ddf784c5be5b1aa5370f69710e76e28ef54b7eb3ac14308c4bedf5e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eff657644137971f6e31ac3c825950c770471349/research/t37-rational-refinement/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-rational-refinement/verify.py",
+      "file": "remaining-record-audit/artifacts/1019/ca27e11b2057__verify.py",
+      "sha256": "ca27e11b205796a159ae5313e601dd3bbf6c826b79430ad9da1d51a7a18fbf80",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eff657644137971f6e31ac3c825950c770471349/research/t37-rational-refinement/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-rational-refinement/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1019/a6467b809f16__CERTIFICATE.json",
+      "sha256": "a6467b809f165f11a54aa09770e001521f4f036988c0a765e61591bc86a5ca40",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eff657644137971f6e31ac3c825950c770471349/research/t37-rational-refinement/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1019,
+      "head": "eff657644137971f6e31ac3c825950c770471349",
+      "path": "research/t37-rational-refinement/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/eff657644137971f6e31ac3c825950c770471349/research/t37-rational-refinement/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8c078170ff0c2088b7ae186516a2324922d44187797382c0e2f6b10f310e77bc",
+      "git_blob_sha1": "ef910a2945b0732546056ed5c67573c9df4ecaf7",
+      "bytes": 85785,
+      "file": "individual-primary-interface-source/1019/8c078170ff0c__ASSEMBLY.json"
+    }
+  ]
+}

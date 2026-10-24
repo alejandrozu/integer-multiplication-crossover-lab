@@ -1,0 +1,71 @@
+{
+  "pr": 3388,
+  "own_head": "684d347c0e6e578b8ab600d2e680ad6701cf7fa0",
+  "primary_path_candidates": [
+    "research/t16-buffer-concentration/RESULT.json",
+    "research/t16-buffer-concentration/PROOF.md",
+    "research/t16-buffer-concentration/README.md",
+    "research/t16-buffer-concentration/TASK.json",
+    "research/t16-buffer-concentration/VERIFY.json",
+    "research/t16-buffer-concentration/REPAIRS.json",
+    "research/t16-buffer-concentration/VALIDATION.json",
+    "research/t16-buffer-concentration/SOURCE-EXPORT.json",
+    "research/t16-buffer-concentration/lift16.py",
+    "research/t16-buffer-concentration/replay.py",
+    "research/t16-buffer-concentration/verify.py",
+    "research/t16-buffer-concentration/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-buffer-concentration/TASK.json",
+    "research/t16-buffer-concentration/lift16.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-buffer-concentration/PROOF.md",
+      "file": "remaining-record-audit/artifacts/3388/b1ec08c1b9c8__PROOF.md",
+      "sha256": "b1ec08c1b9c8158d951e3cedf3600ba699eabf03efd5243a63b90a491e26a045",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/684d347c0e6e578b8ab600d2e680ad6701cf7fa0/research/t16-buffer-concentration/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-buffer-concentration/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3388/6f0036c591ae__RESULT.json",
+      "sha256": "6f0036c591ae1d92c6576fdf3f8404353052253443ff295deb3366b8817fc364",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/684d347c0e6e578b8ab600d2e680ad6701cf7fa0/research/t16-buffer-concentration/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-buffer-concentration/README.md",
+      "file": "remaining-record-audit/artifacts/3388/6dce3769225b__README.md",
+      "sha256": "6dce3769225b42ee9ed5d6415a5155e9ebc991cdb2f415f4f6ff26ca82041251",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/684d347c0e6e578b8ab600d2e680ad6701cf7fa0/research/t16-buffer-concentration/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 20,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3388,
+      "head": "684d347c0e6e578b8ab600d2e680ad6701cf7fa0",
+      "path": "research/t16-buffer-concentration/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/684d347c0e6e578b8ab600d2e680ad6701cf7fa0/research/t16-buffer-concentration/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "444f38c9ddd3d5c352e74cf8d1d72f0a1fd8a30f005ede6e9cf717dd95485f65",
+      "git_blob_sha1": "6445a4a96a1b8eed0fc308fadbe7235a02b061d6",
+      "bytes": 4740,
+      "file": "individual-primary-interface-source/3388/444f38c9ddd3__TASK.json"
+    },
+    {
+      "pr": 3388,
+      "head": "684d347c0e6e578b8ab600d2e680ad6701cf7fa0",
+      "path": "research/t16-buffer-concentration/lift16.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/684d347c0e6e578b8ab600d2e680ad6701cf7fa0/research/t16-buffer-concentration/lift16.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "690ffb874240a45e393e15c7e10052ce33b73ad07105b50eb246583bc372a2b0",
+      "git_blob_sha1": "3d62478fce4b3572f698faef9114538db837d7c2",
+      "bytes": 6022,
+      "file": "individual-primary-interface-source/3388/690ffb874240__lift16.py"
+    }
+  ]
+}

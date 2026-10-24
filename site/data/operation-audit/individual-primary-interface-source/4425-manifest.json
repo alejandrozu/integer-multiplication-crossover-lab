@@ -1,0 +1,56 @@
+{
+  "pr": 4425,
+  "own_head": "76613f8d29b664e386f29f30153f74087f462953",
+  "primary_path_candidates": [
+    "research/pr4411-majorant-review/README.md",
+    "research/pr4411-majorant-review/TASK.json",
+    "research/pr4411-majorant-review/VERIFY.json",
+    "research/pr4411-majorant-review/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4411-majorant-review/TASK.json",
+    "research/pr4411-majorant-review/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4411-majorant-review/README.md",
+      "file": "remaining-record-audit/artifacts/4425/e403eff5a9aa__README.md",
+      "sha256": "e403eff5a9aac1623f8129ceb484fc45ac983217a8f6451c953467e400005d8f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/76613f8d29b664e386f29f30153f74087f462953/research/pr4411-majorant-review/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4411-majorant-review/verify.py",
+      "file": "remaining-record-audit/artifacts/4425/2bee3f1e8ced__verify.py",
+      "sha256": "2bee3f1e8ceddcd4e1f20153f8fc8edc0147b63de40ffe8c761c8578d1d06007",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/76613f8d29b664e386f29f30153f74087f462953/research/pr4411-majorant-review/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4425,
+      "head": "76613f8d29b664e386f29f30153f74087f462953",
+      "path": "research/pr4411-majorant-review/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/76613f8d29b664e386f29f30153f74087f462953/research/pr4411-majorant-review/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4f989e71603a3c9b3197caae0cef5beee498daef25dc87a0c1d7c291871709e6",
+      "git_blob_sha1": "dc088d43c8703a9c2c474d62f5aaaaa716761828",
+      "bytes": 5866,
+      "file": "individual-primary-interface-source/4425/4f989e71603a__TASK.json"
+    },
+    {
+      "pr": 4425,
+      "head": "76613f8d29b664e386f29f30153f74087f462953",
+      "path": "research/pr4411-majorant-review/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/76613f8d29b664e386f29f30153f74087f462953/research/pr4411-majorant-review/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8940ea8f9889cc8d04dcfdd357095314af97137d999156e31f5d2f64cc6806a3",
+      "git_blob_sha1": "bfcd1e84d7f44b01786176398308f3b0ff06d368",
+      "bytes": 530,
+      "file": "individual-primary-interface-source/4425/8940ea8f9889__VERIFY.json"
+    }
+  ]
+}

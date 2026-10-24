@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 4428,
+    "head": "ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc",
+    "path": "research/pr4416-padding-check/README.md",
+    "api_sha": "df64b5e098c2408a47094b2f42419ae2c519ffaf",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research%2Fpr4416-padding-check%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research/pr4416-padding-check/README.md",
+    "file": "artifacts\\4428\\0e66ad400907__README.md",
+    "sha256": "0e66ad40090736d03e89a893175c28145d7bb493c96cd2c8353059b00d8d92fb",
+    "git_blob_sha1": "df64b5e098c2408a47094b2f42419ae2c519ffaf",
+    "bytes": 3955,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:28.018723+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4428,
+    "head": "ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc",
+    "path": "research/pr4416-padding-check/SOURCES.json",
+    "api_sha": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research%2Fpr4416-padding-check%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research/pr4416-padding-check/SOURCES.json",
+    "file": "artifacts\\4428\\49fb3e2b5f89__SOURCES.json",
+    "sha256": "49fb3e2b5f8909ccb5edc2f2193aeacdc88bf8d1c63b2b1d25f2dd008f39ed93",
+    "git_blob_sha1": "fcfba8aa31e2b15be7abeb2191c9e35fa0d7919b",
+    "bytes": 584,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.947292+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 4428,
+    "head": "ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc",
+    "path": "research/pr4416-padding-check/verify.py",
+    "api_sha": "da7d6141693b4265e9d585ec0aa23483088a48b3",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research%2Fpr4416-padding-check%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ba0efeaac4e62d1757d7a9be6fd8aaf8f9bd35dc/research/pr4416-padding-check/verify.py",
+    "file": "artifacts\\4428\\68320e845bce__verify.py",
+    "sha256": "68320e845bce7762702ed95bad1a7bc0aee6cbdded8b97bdf3b893ecde58331e",
+    "git_blob_sha1": "da7d6141693b4265e9d585ec0aa23483088a48b3",
+    "bytes": 7602,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:23:27.977721+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

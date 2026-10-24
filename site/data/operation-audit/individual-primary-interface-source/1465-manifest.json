@@ -1,0 +1,85 @@
+{
+  "pr": 1465,
+  "own_head": "bb7fc427c79c26669a9e8de06e55f31cadaa992d",
+  "primary_path_candidates": [
+    "research/two-accumulator-saved-arms/PROOF.md",
+    "research/two-accumulator-saved-arms/README.md",
+    "research/two-accumulator-saved-arms/TASK.json",
+    "research/two-accumulator-saved-arms/VERIFY.json",
+    "research/two-accumulator-saved-arms/RECIPES.json",
+    "research/two-accumulator-saved-arms/evidence/FAMILY-CHECK.json",
+    "research/two-accumulator-saved-arms/evidence/FRAME-CONTROL.json",
+    "research/two-accumulator-saved-arms/evidence/PR1129-ROOT-ASSEMBLY.json",
+    "research/two-accumulator-saved-arms/evidence/all-eight-LOCAL-CHECKS.json",
+    "research/two-accumulator-saved-arms/evidence/all-eight-WRAPPER-CHECKS.json",
+    "research/two-accumulator-saved-arms/evidence/all-eight-CLIFFORD-REVIEW.json",
+    "research/two-accumulator-saved-arms/evidence/selected1094-LOCAL-CHECKS.json",
+    "research/two-accumulator-saved-arms/evidence/PR1129-ROOT-GEOMETRY-CHECK.json",
+    "research/two-accumulator-saved-arms/evidence/all-eight-SCALAR-FRAME-AUDIT.json",
+    "research/two-accumulator-saved-arms/evidence/selected1094-SCALAR-FRAME-AUDIT.json",
+    "research/two-accumulator-saved-arms/evidence/all-eight-INDEPENDENT-LOCAL-REPLAY.json",
+    "research/two-accumulator-saved-arms/build.py",
+    "research/two-accumulator-saved-arms/NOTICE.md",
+    "research/two-accumulator-saved-arms/verify.py",
+    "research/two-accumulator-saved-arms/intervals.py",
+    "research/two-accumulator-saved-arms/audit_local.py",
+    "research/two-accumulator-saved-arms/owner_bound.py",
+    "research/two-accumulator-saved-arms/NATIVE-REPLAY.md",
+    "research/two-accumulator-saved-arms/check_sources.py",
+    "research/two-accumulator-saved-arms/frame_control.py",
+    "research/two-accumulator-saved-arms/RESEARCH-NOTES.md"
+  ],
+  "selected_for_recovery": [
+    "research/two-accumulator-saved-arms/TASK.json",
+    "research/two-accumulator-saved-arms/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-accumulator-saved-arms/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1465/262c13264446__PROOF.md",
+      "sha256": "262c1326444659c15a3fefaf1196834ae1236907d2a45e189d45575db7e38d64",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb7fc427c79c26669a9e8de06e55f31cadaa992d/research/two-accumulator-saved-arms/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-accumulator-saved-arms/build.py",
+      "file": "remaining-record-audit/artifacts/1465/c9e5e24bf2b0__build.py",
+      "sha256": "c9e5e24bf2b04d9ea38d39705e14ccfaafa48f737a76ea1683eed77209a2890a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb7fc427c79c26669a9e8de06e55f31cadaa992d/research/two-accumulator-saved-arms/build.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/two-accumulator-saved-arms/README.md",
+      "file": "remaining-record-audit/artifacts/1465/f6c5e5e33985__README.md",
+      "sha256": "f6c5e5e33985b7899e203d1791a58a510815118f4059dfddef316ef60409ca04",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb7fc427c79c26669a9e8de06e55f31cadaa992d/research/two-accumulator-saved-arms/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 35,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1465,
+      "head": "bb7fc427c79c26669a9e8de06e55f31cadaa992d",
+      "path": "research/two-accumulator-saved-arms/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb7fc427c79c26669a9e8de06e55f31cadaa992d/research/two-accumulator-saved-arms/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "290f1125db8b0a06c4117828303a80d116ddfe408cc3ccd61f1f61a4d3e4dd5d",
+      "git_blob_sha1": "6476e3fcc32b47cc39391e3ad3ec1331c954fd3b",
+      "bytes": 4071,
+      "file": "individual-primary-interface-source/1465/290f1125db8b__TASK.json"
+    },
+    {
+      "pr": 1465,
+      "head": "bb7fc427c79c26669a9e8de06e55f31cadaa992d",
+      "path": "research/two-accumulator-saved-arms/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb7fc427c79c26669a9e8de06e55f31cadaa992d/research/two-accumulator-saved-arms/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d238a5d4ebbc98f3ae1a1e19e4c0de20c7aa58a21066809f9dcfb923c3cc337b",
+      "git_blob_sha1": "df862fa55889d1fa6899f4d4100d253111a70837",
+      "bytes": 2597,
+      "file": "individual-primary-interface-source/1465/d238a5d4ebbc__VERIFY.json"
+    }
+  ]
+}

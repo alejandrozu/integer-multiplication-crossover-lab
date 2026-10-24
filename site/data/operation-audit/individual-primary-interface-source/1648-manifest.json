@@ -1,0 +1,72 @@
+{
+  "pr": 1648,
+  "own_head": "9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c",
+  "primary_path_candidates": [
+    "research/complex-queue-ceiling-uncovered/RESULT.json",
+    "research/complex-queue-ceiling-uncovered/README.md",
+    "research/complex-queue-ceiling-uncovered/TASK.json",
+    "research/complex-queue-ceiling-uncovered/VERIFY.json",
+    "research/complex-queue-ceiling-uncovered/SNAPSHOT.json",
+    "research/complex-queue-ceiling-uncovered/rebind.py",
+    "research/complex-queue-ceiling-uncovered/verify.py",
+    "research/complex-queue-ceiling-uncovered/TASK-CARD.md"
+  ],
+  "selected_for_recovery": [
+    "research/complex-queue-ceiling-uncovered/TASK.json",
+    "research/complex-queue-ceiling-uncovered/rebind.py",
+    "research/complex-queue-ceiling-uncovered/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-queue-ceiling-uncovered/README.md",
+      "file": "remaining-record-audit/artifacts/1648/392f5f745580__README.md",
+      "sha256": "392f5f745580293b6a29b9c906affee1ff23d7457c68587e6dada676b17cb81a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c/research/complex-queue-ceiling-uncovered/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-queue-ceiling-uncovered/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1648/e7806d0e8cb9__RESULT.json",
+      "sha256": "e7806d0e8cb9ab44beeff590303fe5b8d8c646f591abde93e2189893aaaafedb",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c/research/complex-queue-ceiling-uncovered/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1648,
+      "head": "9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c",
+      "path": "research/complex-queue-ceiling-uncovered/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c/research/complex-queue-ceiling-uncovered/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "56caac13ce439923b4566817ae736d2dc3db695611506cd854dbf4c6a4605964",
+      "git_blob_sha1": "53a0f7332c007a21105912d0071c97f93453050b",
+      "bytes": 5996,
+      "file": "individual-primary-interface-source/1648/56caac13ce43__TASK.json"
+    },
+    {
+      "pr": 1648,
+      "head": "9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c",
+      "path": "research/complex-queue-ceiling-uncovered/rebind.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c/research/complex-queue-ceiling-uncovered/rebind.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1c2a010defcb3274d7cd4ff17d8bee45c87ae0479c3a2db45c63068ba0541ea1",
+      "git_blob_sha1": "716d1e7128d03594eb01c0b9d32fa2468157ea92",
+      "bytes": 2751,
+      "file": "individual-primary-interface-source/1648/1c2a010defcb__rebind.py"
+    },
+    {
+      "pr": 1648,
+      "head": "9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c",
+      "path": "research/complex-queue-ceiling-uncovered/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/9efe15ab79b669c99d1e95dcc4a50e2d3ad71a9c/research/complex-queue-ceiling-uncovered/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f1bd51d01605cc5c540ffa4007b349f03053c3a9c0b16383e7d141a3372ce027",
+      "git_blob_sha1": "fd7df975e95f00e40daaca58fd039b92395a0c75",
+      "bytes": 966,
+      "file": "individual-primary-interface-source/1648/f1bd51d01605__VERIFY.json"
+    }
+  ]
+}

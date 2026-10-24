@@ -1,0 +1,73 @@
+{
+  "pr": 1012,
+  "own_head": "4ceaf380ed41b28dadcc41d2f974f025ac4d8c03",
+  "primary_path_candidates": [
+    "research/t37-restoration-deferral/CLAIM.json",
+    "research/t37-restoration-deferral/README.md",
+    "research/t37-restoration-deferral/CENSUS.json",
+    "research/t37-restoration-deferral/PRICES.json",
+    "research/t37-restoration-deferral/price.py",
+    "research/t37-restoration-deferral/census.py",
+    "research/t37-restoration-deferral/common.py",
+    "research/t37-restoration-deferral/verify.py",
+    "research/t37-restoration-deferral/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/t37-restoration-deferral/CENSUS.json",
+    "research/t37-restoration-deferral/price.py",
+    "research/t37-restoration-deferral/PRICES.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-restoration-deferral/README.md",
+      "file": "remaining-record-audit/artifacts/1012/d0b4d1264dfc__README.md",
+      "sha256": "d0b4d1264dfc5995a9e9448af0cb2ad292bbfac922551e8303048b1ed6643d29",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ceaf380ed41b28dadcc41d2f974f025ac4d8c03/research/t37-restoration-deferral/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-restoration-deferral/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1012/59d232bbfceb__CLAIM.json",
+      "sha256": "59d232bbfcebcc617c8adb9517f8867e160721ec1069737fc46844bf39a3b4ab",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ceaf380ed41b28dadcc41d2f974f025ac4d8c03/research/t37-restoration-deferral/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1012,
+      "head": "4ceaf380ed41b28dadcc41d2f974f025ac4d8c03",
+      "path": "research/t37-restoration-deferral/CENSUS.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ceaf380ed41b28dadcc41d2f974f025ac4d8c03/research/t37-restoration-deferral/CENSUS.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "fd666f127b06778c3c54c4770d1a112b982b447a74364b05be1ad663a6bb761c",
+      "git_blob_sha1": "5bfebfb18bbeed531c81820e0312fdcd7359a76d",
+      "bytes": 60970,
+      "file": "individual-primary-interface-source/1012/fd666f127b06__CENSUS.json"
+    },
+    {
+      "pr": 1012,
+      "head": "4ceaf380ed41b28dadcc41d2f974f025ac4d8c03",
+      "path": "research/t37-restoration-deferral/price.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ceaf380ed41b28dadcc41d2f974f025ac4d8c03/research/t37-restoration-deferral/price.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "73c0fe60290a8920a0540a4865c1e7dce7049af2e9c0efec07957508af2d26da",
+      "git_blob_sha1": "6805a3fbda94495ee59a606a35bb97d793fd1d6b",
+      "bytes": 8294,
+      "file": "individual-primary-interface-source/1012/73c0fe60290a__price.py"
+    },
+    {
+      "pr": 1012,
+      "head": "4ceaf380ed41b28dadcc41d2f974f025ac4d8c03",
+      "path": "research/t37-restoration-deferral/PRICES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4ceaf380ed41b28dadcc41d2f974f025ac4d8c03/research/t37-restoration-deferral/PRICES.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "228f83f96817b747787b2e0b6b79e756937ee8e694344850c95218bda07f7ce7",
+      "git_blob_sha1": "01662906fc3f245c41ac9220be898a98fec7dd5f",
+      "bytes": 4570,
+      "file": "individual-primary-interface-source/1012/228f83f96817__PRICES.json"
+    }
+  ]
+}

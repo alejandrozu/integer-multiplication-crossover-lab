@@ -1,0 +1,56 @@
+{
+  "pr": 4332,
+  "own_head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+  "primary_path_candidates": [
+    "research/pr4270-outer-exponent-check/README.md",
+    "research/pr4270-outer-exponent-check/TASK.json",
+    "research/pr4270-outer-exponent-check/VERIFY.json",
+    "research/pr4270-outer-exponent-check/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr4270-outer-exponent-check/TASK.json",
+    "research/pr4270-outer-exponent-check/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4270-outer-exponent-check/README.md",
+      "file": "remaining-record-audit/artifacts/4332/a8383c9ca3c0__README.md",
+      "sha256": "a8383c9ca3c05398b6d6a543980728eaaf2dc34f4a8265a1c2f9d017def90736",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr4270-outer-exponent-check/verify.py",
+      "file": "remaining-record-audit/artifacts/4332/d2dfe4b1d6b5__verify.py",
+      "sha256": "d2dfe4b1d6b5f0efce67868bc027431ff39230c1318040cdb0430a64c7638d5c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4332,
+      "head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+      "path": "research/pr4270-outer-exponent-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ce84ba70aa33bcd900e27652f8232bbc4755af77a40011c1334a9f754f6e8999",
+      "git_blob_sha1": "a8980eb59439834b0ff8af906cba97c8b7078817",
+      "bytes": 6237,
+      "file": "individual-primary-interface-source/4332/ce84ba70aa33__TASK.json"
+    },
+    {
+      "pr": 4332,
+      "head": "07e6aada1f07d191d9d467c5aee46ffdc74dd51c",
+      "path": "research/pr4270-outer-exponent-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07e6aada1f07d191d9d467c5aee46ffdc74dd51c/research/pr4270-outer-exponent-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "675ce65a4c93de91d5595d5ac902bb395b40a51a3f761fd95edc3d9fecf72499",
+      "git_blob_sha1": "01524d4955b54050eca8050a6c582a018e42408e",
+      "bytes": 516,
+      "file": "individual-primary-interface-source/4332/675ce65a4c93__VERIFY.json"
+    }
+  ]
+}

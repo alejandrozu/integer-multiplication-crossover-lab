@@ -1,0 +1,106 @@
+{
+  "pr": 2948,
+  "own_head": "34e1080739e5e8a4349f8582c31dca798c308d4a",
+  "primary_path_candidates": [
+    "research/paired-extension-cap-fill-rewrites/CLAIM.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/baseline/CLAIM.json",
+    "research/paired-extension-cap-fill-rewrites/README.md",
+    "research/paired-extension-cap-fill-rewrites/evidence/README.md",
+    "research/paired-extension-cap-fill-rewrites/TASK.json",
+    "research/paired-extension-cap-fill-rewrites/VERIFY.json",
+    "research/paired-extension-cap-fill-rewrites/RELEASE.json",
+    "research/paired-extension-cap-fill-rewrites/REWRITE-PINS.json",
+    "research/paired-extension-cap-fill-rewrites/ALLOCATION-PINS.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/ORDER.json",
+    "research/paired-extension-cap-fill-rewrites/rewrite/REWRITES.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/SEARCH.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/PROFILE.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/DISPATCH.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/PROVIDERS.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/ENVIRONMENT.json",
+    "research/paired-extension-cap-fill-rewrites/certificates/RELAX-CAP.json",
+    "research/paired-extension-cap-fill-rewrites/construction/T37-MODEL.json",
+    "research/paired-extension-cap-fill-rewrites/construction/T37-SOLVER.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/REWRITE-REVIEW.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/RELEASE-RECEIPT.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/RUNTIME-PATCHES.json",
+    "research/paired-extension-cap-fill-rewrites/construction/T37-PATTERNS.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/ADMISSION-RESULT.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/ADMISSION-STAGES.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/SOURCE-DERIVATION.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/ADAPTER-DERIVATION.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/FULL-NATIVE-RESULT.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/FULL-REPLAY-STAGES.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/FULL-NATIVE-RECEIPT.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/baseline/ORDER.json",
+    "research/paired-extension-cap-fill-rewrites/allocation/baseline/PROFILE.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/pr2930/FULL-REPLAY-RESULT.json",
+    "research/paired-extension-cap-fill-rewrites/evidence/pr2930/RETAINED-BOOTSTRAP-RECEIPT.json",
+    "research/paired-extension-cap-fill-rewrites/CREDITS.md",
+    "research/paired-extension-cap-fill-rewrites/check_cap.py",
+    "research/paired-extension-cap-fill-rewrites/reproduce.py",
+    "research/paired-extension-cap-fill-rewrites/run_registered.py",
+    "research/paired-extension-cap-fill-rewrites/verify_release.py",
+    "research/paired-extension-cap-fill-rewrites/verify_manifest.py",
+    "research/paired-extension-cap-fill-rewrites/check_allocation.py",
+    "research/paired-extension-cap-fill-rewrites/tools/root.py",
+    "research/paired-extension-cap-fill-rewrites/tools/relax.py",
+    "research/paired-extension-cap-fill-rewrites/tools/relax_exact.py",
+    "research/paired-extension-cap-fill-rewrites/construction/double.py",
+    "research/paired-extension-cap-fill-rewrites/construction/fill17.py",
+    "research/paired-extension-cap-fill-rewrites/tools/build_rewrites.py",
+    "research/paired-extension-cap-fill-rewrites/construction/controls.py",
+    "research/paired-extension-cap-fill-rewrites/tools/derive_adapters.py",
+    "research/paired-extension-cap-fill-rewrites/rewrite/rewrites_review.py",
+    "research/paired-extension-cap-fill-rewrites/rewrite/declared_rewrites.py",
+    "research/paired-extension-cap-fill-rewrites/tools/audit_allocation_moment.py"
+  ],
+  "selected_for_recovery": [
+    "research/paired-extension-cap-fill-rewrites/check_cap.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill-rewrites/README.md",
+      "file": "remaining-record-audit/artifacts/2948/5e86fb4dbd00__README.md",
+      "sha256": "5e86fb4dbd001ae92a4c62e4f7a08a4d84acf9484fec9edd3c8481435f7ff213",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/34e1080739e5e8a4349f8582c31dca798c308d4a/research/paired-extension-cap-fill-rewrites/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill-rewrites/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2948/d0cc5056689a__CLAIM.json",
+      "sha256": "d0cc5056689a48c4865dc65bbe3ac821333994b31e0e3e7fd0f1e471a4771612",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/34e1080739e5e8a4349f8582c31dca798c308d4a/research/paired-extension-cap-fill-rewrites/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill-rewrites/allocation/baseline/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2948/e6c836c01786__CLAIM.json",
+      "sha256": "e6c836c0178661a53a69cd91f29d83585e876f2511ff40c6b6204cd270fbdeac",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/34e1080739e5e8a4349f8582c31dca798c308d4a/research/paired-extension-cap-fill-rewrites/allocation/baseline/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill-rewrites/evidence/README.md",
+      "file": "remaining-record-audit/artifacts/2948/df1c82475b52__README.md",
+      "sha256": "df1c82475b5222f35093ceaa9b76e7ca030b792b362e4e7855ff1f8b0e16f93e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/34e1080739e5e8a4349f8582c31dca798c308d4a/research/paired-extension-cap-fill-rewrites/evidence/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 85,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2948,
+      "head": "34e1080739e5e8a4349f8582c31dca798c308d4a",
+      "path": "research/paired-extension-cap-fill-rewrites/check_cap.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/34e1080739e5e8a4349f8582c31dca798c308d4a/research/paired-extension-cap-fill-rewrites/check_cap.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "19e0502c8f7618f0dc88566f4eac425fa9772c9e75d6109375064685ab4f1ae0",
+      "git_blob_sha1": "c1569e8ebce2274f7cf7689c907a06c15d64a3ac",
+      "bytes": 4688,
+      "file": "individual-primary-interface-source/2948/19e0502c8f76__check_cap.py"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "pr": 53,
+    "head": "3ffd4021995c959ac02d12920e0279ae97dd03c7",
+    "path": "research/skip-strips/PROOF.md",
+    "expected_git_blob": "e41cd36689098a5f0b3c3b6663d11bc5858636af",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/3ffd4021995c959ac02d12920e0279ae97dd03c7/research/skip-strips/PROOF.md",
+    "file": "53/0fad3bfbd706__PROOF.md",
+    "sha256": "0fad3bfbd7062e1607fc95430170d12f9613cc6d850a18871f1cbc8c27434934",
+    "git_blob_sha1": "e41cd36689098a5f0b3c3b6663d11bc5858636af",
+    "bytes": 7142
+  }
+]

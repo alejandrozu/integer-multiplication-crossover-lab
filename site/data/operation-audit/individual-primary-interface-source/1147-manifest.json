@@ -1,0 +1,74 @@
+{
+  "pr": 1147,
+  "own_head": "0ffb3c804c44150153edd4a377d57685448d944d",
+  "primary_path_candidates": [
+    "research/x4-fifth-joint-exchange-seed32/README.md",
+    "research/x4-fifth-joint-exchange-seed32/jx5.py",
+    "research/x4-fifth-joint-exchange-seed32/NOTICE.md",
+    "research/x4-fifth-joint-exchange-seed32/census.py",
+    "research/x4-fifth-joint-exchange-seed32/oracle_filter.py"
+  ],
+  "selected_for_recovery": [
+    "research/x4-fifth-joint-exchange-seed32/jx5.py",
+    "research/x4-fifth-joint-exchange-seed32/NOTICE.md",
+    "research/x4-fifth-joint-exchange-seed32/census.py",
+    "research/x4-fifth-joint-exchange-seed32/oracle_filter.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/x4-fifth-joint-exchange-seed32/README.md",
+      "file": "remaining-record-audit/artifacts/1147/fca1d55f9242__README.md",
+      "sha256": "fca1d55f9242dbbf068b80aa983e4d87f7c538fb099580910b10df54a8a106f1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1147,
+      "head": "0ffb3c804c44150153edd4a377d57685448d944d",
+      "path": "research/x4-fifth-joint-exchange-seed32/jx5.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/jx5.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "79e26742119c3597974c6a241646272f92ca0bcd1609889d98b275e45894631b",
+      "git_blob_sha1": "8e321bed61f3ce5e24a9d0d7beac73031d3f4ad6",
+      "bytes": 14600,
+      "file": "individual-primary-interface-source/1147/79e26742119c__jx5.py"
+    },
+    {
+      "pr": 1147,
+      "head": "0ffb3c804c44150153edd4a377d57685448d944d",
+      "path": "research/x4-fifth-joint-exchange-seed32/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/NOTICE.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a1b047a8cafce6f477c653508ebb5638c628e6946cc8e02e37b0a6808cee3605",
+      "git_blob_sha1": "9c794432c0484861d7e13841cc14055d3aca65b3",
+      "bytes": 1047,
+      "file": "individual-primary-interface-source/1147/a1b047a8cafc__NOTICE.md"
+    },
+    {
+      "pr": 1147,
+      "head": "0ffb3c804c44150153edd4a377d57685448d944d",
+      "path": "research/x4-fifth-joint-exchange-seed32/census.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/census.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ccaea03a6a7a69892e72ba04019b9e159fbfaa39f95fcbcafb21238699f2ecad",
+      "git_blob_sha1": "c001c74cda6ffc8a8be91006bf1af6c1b780c3a5",
+      "bytes": 16258,
+      "file": "individual-primary-interface-source/1147/ccaea03a6a7a__census.py"
+    },
+    {
+      "pr": 1147,
+      "head": "0ffb3c804c44150153edd4a377d57685448d944d",
+      "path": "research/x4-fifth-joint-exchange-seed32/oracle_filter.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/0ffb3c804c44150153edd4a377d57685448d944d/research/x4-fifth-joint-exchange-seed32/oracle_filter.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e627e3df4bd87dc4510a22cc2650e0573d7564841771eedd7060029fc2f017f3",
+      "git_blob_sha1": "2fd76e26cc9b4be4e7d71afb43ea9e7f64fb3a85",
+      "bytes": 3189,
+      "file": "individual-primary-interface-source/1147/e627e3df4bd8__oracle_filter.py"
+    }
+  ]
+}

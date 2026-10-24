@@ -1,0 +1,63 @@
+{
+  "schema": "exact-polynomial-positivity-certificate/1",
+  "status": "PASS_EXACT_IDENTITIES_AND_POSITIVE_COEFFICIENTS",
+  "domain": {
+    "u": "w-2>=0",
+    "rho": "rho>0"
+  },
+  "scope": "Conditional isolated PR4470 mixed Gaussian batch; not an integer crossover theorem",
+  "source_count_certificate": "pr4470-component.json",
+  "source_count_certificate_sha256": "5676a10c74d46ca9a2ea512156efff611a4e7749752729c62f6803521a375131",
+  "proof_rule": "A polynomial with nonnegative coefficients and strictly positive constant is strictly positive for nonnegative variables.",
+  "f271_margin_identity": "271*752*(4*A_w+2*N_w)-(630412*A_w+683812*N_w)",
+  "f271_margin_in_positive_basis": [
+    {
+      "power_w_minus_2": 0,
+      "power_rho": 0,
+      "integer_coefficient": 184756
+    },
+    {
+      "power_w_minus_2": 0,
+      "power_rho": 1,
+      "integer_coefficient": 278040
+    },
+    {
+      "power_w_minus_2": 1,
+      "power_rho": 0,
+      "integer_coefficient": 93284
+    },
+    {
+      "power_w_minus_2": 1,
+      "power_rho": 1,
+      "integer_coefficient": 1812
+    }
+  ],
+  "uniform_width_cross_product_margin": [
+    {
+      "power_w_minus_2": 0,
+      "power_rho": 0,
+      "integer_coefficient": 1474424
+    },
+    {
+      "power_w_minus_2": 0,
+      "power_rho": 1,
+      "integer_coefficient": 4423272
+    },
+    {
+      "power_w_minus_2": 0,
+      "power_rho": 2,
+      "integer_coefficient": 4423272
+    }
+  ],
+  "conclusions": [
+    "At f=271 the direct-job lower work exceeds the controller upper work for every w>=2 and rho>0.",
+    "The infinite-width ratio strictly bounds every finite-width ratio, justifying the uniform slider threshold."
+  ],
+  "retained_premises": [
+    "The source-count certificate correctly bounds the declared native Gaussian and monomial circuit.",
+    "The common working width satisfies the explicit exact-dyadic guard.",
+    "The chosen nonuniform circuit model, rather than physical runtime, is the metric."
+  ],
+  "not_a_Lean_proof": true,
+  "checker_scope": "Exact integer polynomial arithmetic plus the stated positivity rule. No source analytic theorem is checked here."
+}

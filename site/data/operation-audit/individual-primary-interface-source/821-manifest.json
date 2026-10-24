@@ -1,0 +1,69 @@
+{
+  "pr": 821,
+  "own_head": "6b832a6ba4dce8dd6e2fb0897dd4543364b932f8",
+  "primary_path_candidates": [
+    "research/replica-prefix-audit/EXPECTED.json",
+    "research/replica-prefix-audit/CLAIM.md",
+    "research/replica-prefix-audit/PROOF.md",
+    "research/replica-prefix-audit/README.md",
+    "research/replica-prefix-audit/VALIDATION.md",
+    "research/replica-prefix-audit/OVERLAP.json",
+    "research/replica-prefix-audit/NOTICE.md",
+    "research/replica-prefix-audit/verify.py",
+    "research/replica-prefix-audit/model_checks.py",
+    "research/replica-prefix-audit/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/replica-prefix-audit/CLAIM.md",
+    "research/replica-prefix-audit/OVERLAP.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/replica-prefix-audit/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/821/312326c3f37f__EXPECTED.json",
+      "sha256": "312326c3f37fdd749c932c81f8f257ff1c6e2fdab88db1a95cc4f1ede0c16f56",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6b832a6ba4dce8dd6e2fb0897dd4543364b932f8/research/replica-prefix-audit/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/replica-prefix-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/821/0986a7c9c028__verify.py",
+      "sha256": "0986a7c9c028346091e83e390f83c52c5a441d7bb8ebfb2257a614489bb77f11",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6b832a6ba4dce8dd6e2fb0897dd4543364b932f8/research/replica-prefix-audit/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/replica-prefix-audit/PROOF.md",
+      "file": "remaining-record-audit/artifacts/821/b8fa0fa9d032__PROOF.md",
+      "sha256": "b8fa0fa9d032e90516568b39d32a538f8dcbc5bfc717750adba611511394623f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6b832a6ba4dce8dd6e2fb0897dd4543364b932f8/research/replica-prefix-audit/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 821,
+      "head": "6b832a6ba4dce8dd6e2fb0897dd4543364b932f8",
+      "path": "research/replica-prefix-audit/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6b832a6ba4dce8dd6e2fb0897dd4543364b932f8/research/replica-prefix-audit/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2043806f527a5f3855ec4956c19f235b5f644311d4b01686374dc112abe1eb48",
+      "git_blob_sha1": "f7e86c229d629cb53b4d9d7db907b579d21f533b",
+      "bytes": 4145,
+      "file": "individual-primary-interface-source/821/2043806f527a__CLAIM.md"
+    },
+    {
+      "pr": 821,
+      "head": "6b832a6ba4dce8dd6e2fb0897dd4543364b932f8",
+      "path": "research/replica-prefix-audit/OVERLAP.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/6b832a6ba4dce8dd6e2fb0897dd4543364b932f8/research/replica-prefix-audit/OVERLAP.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a4614a0b9209f892b1fd815094aa86c279fe147d6653ed2892858a16c20c5f7c",
+      "git_blob_sha1": "d335a994e1ce83cd92260ec1dc06a766344f2baf",
+      "bytes": 8329,
+      "file": "individual-primary-interface-source/821/a4614a0b9209__OVERLAP.json"
+    }
+  ]
+}

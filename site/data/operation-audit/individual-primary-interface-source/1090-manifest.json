@@ -1,0 +1,76 @@
+{
+  "pr": 1090,
+  "own_head": "b535975a5948afafda984e73c301183a634ff8c8",
+  "primary_path_candidates": [
+    "research/k8-rank7-composition/CLAIM.json",
+    "research/k8-rank7-composition/CERTIFICATE.json",
+    "research/k8-rank7-composition/evidence/ASSEMBLY.json",
+    "research/k8-rank7-composition/README.md",
+    "research/k8-rank7-composition/VALIDATION.md",
+    "research/k8-rank7-composition/data/END-RECIPE.json",
+    "research/k8-rank7-composition/evidence/ANCESTRY.json",
+    "research/k8-rank7-composition/evidence/END-AUDIT.json",
+    "research/k8-rank7-composition/evidence/INDEPENDENT.json",
+    "research/k8-rank7-composition/evidence/BIT-CONTROLS.json",
+    "research/k8-rank7-composition/evidence/ADMISSION-CONTROLS.json",
+    "research/k8-rank7-composition/admit.py",
+    "research/k8-rank7-composition/NOTICE.md",
+    "research/k8-rank7-composition/construct.py",
+    "research/k8-rank7-composition/reproduce.py",
+    "research/k8-rank7-composition/point_audit.py",
+    "research/k8-rank7-composition/check_controls.py"
+  ],
+  "selected_for_recovery": [
+    "research/k8-rank7-composition/admit.py",
+    "research/k8-rank7-composition/evidence/ASSEMBLY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/k8-rank7-composition/README.md",
+      "file": "remaining-record-audit/artifacts/1090/51a82cb44080__README.md",
+      "sha256": "51a82cb44080ffa34fc0fa6a63a3ed7ecd63bea9c9e0258fb45adb36ae90563b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b535975a5948afafda984e73c301183a634ff8c8/research/k8-rank7-composition/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/k8-rank7-composition/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1090/de150413d86c__CLAIM.json",
+      "sha256": "de150413d86cfef1dea14ff0bdbaf4dc2845d1347234b5c0b3c3c4b3b1072ac7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b535975a5948afafda984e73c301183a634ff8c8/research/k8-rank7-composition/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/k8-rank7-composition/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1090/b49d6d432ec3__CERTIFICATE.json",
+      "sha256": "b49d6d432ec3cb906c30b205523682b5e326453aba4ce5840ee29a352a6a6dd5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b535975a5948afafda984e73c301183a634ff8c8/research/k8-rank7-composition/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 26,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1090,
+      "head": "b535975a5948afafda984e73c301183a634ff8c8",
+      "path": "research/k8-rank7-composition/admit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b535975a5948afafda984e73c301183a634ff8c8/research/k8-rank7-composition/admit.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e0edcb63949f81c38ee6281af6f5997d1a1dac8d71c5e5adb9a3d2dc80877651",
+      "git_blob_sha1": "f5c5ddeeccf49fe54c57c173d0d9f7be34d216bd",
+      "bytes": 7448,
+      "file": "individual-primary-interface-source/1090/e0edcb63949f__admit.py"
+    },
+    {
+      "pr": 1090,
+      "head": "b535975a5948afafda984e73c301183a634ff8c8",
+      "path": "research/k8-rank7-composition/evidence/ASSEMBLY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/b535975a5948afafda984e73c301183a634ff8c8/research/k8-rank7-composition/evidence/ASSEMBLY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e3dd586f946649113cd08f519741f48ee273042355747ebdec06a813395a9a9c",
+      "git_blob_sha1": "2b9d0a01d29e3e3a278cd66735db5b7b815028cc",
+      "bytes": 85481,
+      "file": "individual-primary-interface-source/1090/e3dd586f9466__ASSEMBLY.json"
+    }
+  ]
+}

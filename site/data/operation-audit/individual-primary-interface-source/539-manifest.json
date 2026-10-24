@@ -1,0 +1,69 @@
+{
+  "pr": 539,
+  "own_head": "915ca69db7f98c70b97ce96e1fcc96818517584c",
+  "primary_path_candidates": [
+    "research/r480-sharp-charge535/EXPECTED.json",
+    "research/r480-sharp-charge535/README.md",
+    "research/r480-sharp-charge535/evidence/RESULT-311.json",
+    "research/r480-sharp-charge535/evidence/RESULT-314.json",
+    "research/r480-sharp-charge535/evidence/TESTED-MANIFEST.json",
+    "research/r480-sharp-charge535/NOTICE.md",
+    "research/r480-sharp-charge535/verify.py",
+    "research/r480-sharp-charge535/engines/outer.py",
+    "research/r480-sharp-charge535/engines/moment.py",
+    "research/r480-sharp-charge535/engines/base_two_moment.py"
+  ],
+  "selected_for_recovery": [
+    "research/r480-sharp-charge535/evidence/RESULT-311.json",
+    "research/r480-sharp-charge535/evidence/RESULT-314.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r480-sharp-charge535/README.md",
+      "file": "remaining-record-audit/artifacts/539/28355cfc6143__README.md",
+      "sha256": "28355cfc614358eb482d018ba7b21addb0725520fbcd148a0f0f0faaabd03209",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/915ca69db7f98c70b97ce96e1fcc96818517584c/research/r480-sharp-charge535/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r480-sharp-charge535/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/539/e2a71c1d49c6__EXPECTED.json",
+      "sha256": "e2a71c1d49c68c35fb5c4f20f10377d708f55c3d25146fa811a99c7230d6ff0c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/915ca69db7f98c70b97ce96e1fcc96818517584c/research/r480-sharp-charge535/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r480-sharp-charge535/verify.py",
+      "file": "remaining-record-audit/artifacts/539/79bd3f0d115a__verify.py",
+      "sha256": "79bd3f0d115a695bb2466449b93b18d521ce4f30d9ea9f3e222ca0b2c2425c13",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/915ca69db7f98c70b97ce96e1fcc96818517584c/research/r480-sharp-charge535/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 21,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 539,
+      "head": "915ca69db7f98c70b97ce96e1fcc96818517584c",
+      "path": "research/r480-sharp-charge535/evidence/RESULT-311.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/915ca69db7f98c70b97ce96e1fcc96818517584c/research/r480-sharp-charge535/evidence/RESULT-311.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1c526fd89267f68c35d623d1765ec94e9bf29eef2726c5fdfe773ce17b6649cf",
+      "git_blob_sha1": "b848db7101218dc45c69ce9294ac62b33366b6eb",
+      "bytes": 19635,
+      "file": "individual-primary-interface-source/539/1c526fd89267__RESULT-311.json"
+    },
+    {
+      "pr": 539,
+      "head": "915ca69db7f98c70b97ce96e1fcc96818517584c",
+      "path": "research/r480-sharp-charge535/evidence/RESULT-314.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/915ca69db7f98c70b97ce96e1fcc96818517584c/research/r480-sharp-charge535/evidence/RESULT-314.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "60ffb00b0dbe5ef91a2886003d7d36e990da21a3edaef4ecd8358beb1f592fdf",
+      "git_blob_sha1": "0f574d3b51969f42cb4f2564cf44f49a5c9ff152",
+      "bytes": 19634,
+      "file": "individual-primary-interface-source/539/60ffb00b0dbe__RESULT-314.json"
+    }
+  ]
+}

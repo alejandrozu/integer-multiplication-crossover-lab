@@ -1,0 +1,75 @@
+{
+  "pr": 2,
+  "own_head": "8bb07d55f6898bc8ec919222cf7596e987e9b69f",
+  "primary_path_candidates": [
+    "README.md",
+    "certificates/aligned-paired-network.json",
+    "docs/reproducibility.md",
+    "notes/aligned-paired-note.tex",
+    "notes/aligned-paired-review.tex",
+    "scripts/shared_point_circuit.py",
+    "scripts/aligned_paired_network.py",
+    "scripts/make_aligned_paired_patch.py",
+    "tests/test_aligned_paired_network.py",
+    "docs/research/aligned-paired-review.md",
+    "docs/research/aligned-paired-network.md"
+  ],
+  "selected_for_recovery": [
+    "scripts/shared_point_circuit.py",
+    "docs/reproducibility.md",
+    "notes/aligned-paired-note.tex"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "README.md",
+      "file": "remaining-record-audit/artifacts/2/d832c5a067d9__README.md",
+      "sha256": "d832c5a067d97182f75f6f2292a2bb7b4d430e726a6abec2a97579bda1d8a6d6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8bb07d55f6898bc8ec919222cf7596e987e9b69f/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "certificates/aligned-paired-network.json",
+      "file": "remaining-record-audit/artifacts/2/4089f35e0265__aligned-paired-network.json",
+      "sha256": "4089f35e02653be9d9ff5da2f69de4ea8f3884511773c49b546fc67616204e5b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8bb07d55f6898bc8ec919222cf7596e987e9b69f/certificates/aligned-paired-network.json"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2,
+      "head": "8bb07d55f6898bc8ec919222cf7596e987e9b69f",
+      "path": "scripts/shared_point_circuit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8bb07d55f6898bc8ec919222cf7596e987e9b69f/scripts/shared_point_circuit.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9fbb9cb080d04fcab007e4f99cedd7a14f8ed606c1f5e038371c4edecfe7015b",
+      "git_blob_sha1": "90e1961cc073d40a88db741e53f5a38fe585ca7e",
+      "bytes": 7819,
+      "file": "individual-primary-interface-source/2/9fbb9cb080d0__shared_point_circuit.py"
+    },
+    {
+      "pr": 2,
+      "head": "8bb07d55f6898bc8ec919222cf7596e987e9b69f",
+      "path": "docs/reproducibility.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8bb07d55f6898bc8ec919222cf7596e987e9b69f/docs/reproducibility.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "96f61c9d21a908b60655febad731a334c9a46c1c0a020f1842c24523abd46cb1",
+      "git_blob_sha1": "2189ca244ddcebed0f230dbb751e5349afc254d7",
+      "bytes": 14082,
+      "file": "individual-primary-interface-source/2/96f61c9d21a9__reproducibility.md"
+    },
+    {
+      "pr": 2,
+      "head": "8bb07d55f6898bc8ec919222cf7596e987e9b69f",
+      "path": "notes/aligned-paired-note.tex",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/8bb07d55f6898bc8ec919222cf7596e987e9b69f/notes/aligned-paired-note.tex",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "974b46ce1db7ff99d1c28a54bb81a66517a5a540c6025c8dde2b202f6d64b296",
+      "git_blob_sha1": "386bf645d2e187c318c06a4d36731ef424272a8a",
+      "bytes": 3000,
+      "file": "individual-primary-interface-source/2/974b46ce1db7__aligned-paired-note.tex"
+    }
+  ]
+}

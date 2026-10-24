@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 468,
+    "head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+    "path": "research/bit-three-register-lower-bound/README.md",
+    "api_sha": "25e41c370c101a33a6deb978de08b03ed7539b79",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research%2Fbit-three-register-lower-bound%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/bit-three-register-lower-bound/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/README.md",
+    "file": "artifacts\\468\\c12b33ef388d__README.md",
+    "sha256": "c12b33ef388deece0cbf891505a2ce2c0779a0c3a6cf1f0f7f7039bab59cbebd",
+    "git_blob_sha1": "25e41c370c101a33a6deb978de08b03ed7539b79",
+    "bytes": 30934,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:57.813600+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 468,
+    "head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+    "path": "research/bit-three-register-lower-bound/expected.json",
+    "api_sha": "d2c4f09cb5e4533fb2d7e2f2c46f1199a36c3e3e",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research%2Fbit-three-register-lower-bound%2Fexpected.json",
+    "priority": 210,
+    "hint_base": "research/bit-three-register-lower-bound/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/expected.json",
+    "file": "artifacts\\468\\b90a09dab2c1__expected.json",
+    "sha256": "b90a09dab2c10900be012b07cfb6ec048fdfdc9ec18eb2f5f6301bf7141e378a",
+    "git_blob_sha1": "d2c4f09cb5e4533fb2d7e2f2c46f1199a36c3e3e",
+    "bytes": 458,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:21:57.798589+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

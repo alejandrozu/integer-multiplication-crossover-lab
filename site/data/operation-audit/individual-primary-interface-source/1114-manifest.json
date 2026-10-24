@@ -1,0 +1,65 @@
+{
+  "pr": 1114,
+  "own_head": "1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1",
+  "primary_path_candidates": [
+    "research/coalescing-subset-audit/RESULT.json",
+    "research/coalescing-subset-audit/CLAIM.md",
+    "research/coalescing-subset-audit/README.md",
+    "research/coalescing-subset-audit/VALIDATION.json",
+    "research/coalescing-subset-audit/verify.py",
+    "research/coalescing-subset-audit/rebuild.py"
+  ],
+  "selected_for_recovery": [
+    "research/coalescing-subset-audit/CLAIM.md",
+    "research/coalescing-subset-audit/VALIDATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/coalescing-subset-audit/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1114/b5b0a75cd572__RESULT.json",
+      "sha256": "b5b0a75cd572ec1f7d3c1baa8203701940570d1e29af24d6995fa767c5140517",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1/research/coalescing-subset-audit/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/coalescing-subset-audit/verify.py",
+      "file": "remaining-record-audit/artifacts/1114/730f2d434b7a__verify.py",
+      "sha256": "730f2d434b7ae2f99adc0f03b6c0d2fd256f829dd4b3d849338dd46dbf8c7f17",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1/research/coalescing-subset-audit/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/coalescing-subset-audit/README.md",
+      "file": "remaining-record-audit/artifacts/1114/1f73a60d600b__README.md",
+      "sha256": "1f73a60d600b9cf62309e48fc3e3b66b6375126d66a526913ff2d9cc1f2119ec",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1/research/coalescing-subset-audit/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1114,
+      "head": "1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1",
+      "path": "research/coalescing-subset-audit/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1/research/coalescing-subset-audit/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1b971dc525a86ca28e97c9ce979bdce2f8201b06b5940d2cc0bf553c5643de12",
+      "git_blob_sha1": "63d7aed0d0e41374e8bf80186c1b519b4f4a1b62",
+      "bytes": 3656,
+      "file": "individual-primary-interface-source/1114/1b971dc525a8__CLAIM.md"
+    },
+    {
+      "pr": 1114,
+      "head": "1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1",
+      "path": "research/coalescing-subset-audit/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/1d6b61aeb268b1f918f16ff76a4bec57aa39eaa1/research/coalescing-subset-audit/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "339a3eab46f41bd7a7a5c88659cda522c5a4105dfb4b6fcde7cebf617677662b",
+      "git_blob_sha1": "e33da58964925dbe6ca0b5b7b98d5bf0574dbdba",
+      "bytes": 1454,
+      "file": "individual-primary-interface-source/1114/339a3eab46f4__VALIDATION.json"
+    }
+  ]
+}

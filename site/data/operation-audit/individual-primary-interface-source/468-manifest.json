@@ -1,0 +1,69 @@
+{
+  "pr": 468,
+  "own_head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+  "primary_path_candidates": [
+    "research/bit-three-register-lower-bound/expected.json",
+    "research/bit-three-register-lower-bound/README.md",
+    "research/bit-three-register-lower-bound/replay.py",
+    "research/bit-three-register-lower-bound/controls.py",
+    "research/bit-three-register-lower-bound/catalogue.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-three-register-lower-bound/replay.py",
+    "research/bit-three-register-lower-bound/controls.py",
+    "research/bit-three-register-lower-bound/catalogue.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-three-register-lower-bound/README.md",
+      "file": "remaining-record-audit/artifacts/468/c12b33ef388d__README.md",
+      "sha256": "c12b33ef388deece0cbf891505a2ce2c0779a0c3a6cf1f0f7f7039bab59cbebd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-three-register-lower-bound/expected.json",
+      "file": "remaining-record-audit/artifacts/468/b90a09dab2c1__expected.json",
+      "sha256": "b90a09dab2c10900be012b07cfb6ec048fdfdc9ec18eb2f5f6301bf7141e378a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/expected.json"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 468,
+      "head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+      "path": "research/bit-three-register-lower-bound/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "02d154151f89071bf9cd9545da9816d43937602a2c67862172790202995028c9",
+      "git_blob_sha1": "8e289bd7bc1ae3aabeb72827867298b7eeca213d",
+      "bytes": 4549,
+      "file": "individual-primary-interface-source/468/02d154151f89__replay.py"
+    },
+    {
+      "pr": 468,
+      "head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+      "path": "research/bit-three-register-lower-bound/controls.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/controls.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "75db4d0d1ce2e5dd7c557f5e430bec2db49cd7033102324329495f9c6da5634a",
+      "git_blob_sha1": "6165600831a11125ace1702b0caa3da3f884ce50",
+      "bytes": 3765,
+      "file": "individual-primary-interface-source/468/75db4d0d1ce2__controls.py"
+    },
+    {
+      "pr": 468,
+      "head": "07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea",
+      "path": "research/bit-three-register-lower-bound/catalogue.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/07a78bf335b0b5039a1fecd7cd74a0fe1d1605ea/research/bit-three-register-lower-bound/catalogue.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "dcc49545823ef9e243a7c188cad6e6bb888af4dc80c4af05e7afc2fcca6a6c8e",
+      "git_blob_sha1": "fc53513b9d6cc7a6f447a9eb8d1d873e29941795",
+      "bytes": 7676,
+      "file": "individual-primary-interface-source/468/dcc49545823e__catalogue.py"
+    }
+  ]
+}

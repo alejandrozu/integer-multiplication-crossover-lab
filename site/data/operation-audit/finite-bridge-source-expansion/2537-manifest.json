@@ -1,0 +1,98 @@
+[
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/README.md",
+    "expected_git_blob": "b06c0aedf3c88ea717d2fb0f53c6ee875a022827",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/README.md",
+    "file": "2537/35c6354803b2__README.md",
+    "sha256": "35c6354803b2ff7f9ebe52b5ae7780a2d124bd2d944aaea2c8d9b92257fc83ed",
+    "git_blob_sha1": "b06c0aedf3c88ea717d2fb0f53c6ee875a022827",
+    "bytes": 14634
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/TASK.json",
+    "expected_git_blob": "86d1aa6a74f9a5158bd77a0d641ecd7ba0dde125",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/TASK.json",
+    "file": "2537/909633ab5523__TASK.json",
+    "sha256": "909633ab552337f40b09934d59d624e3f22b5790249b383d100decd351a95f92",
+    "git_blob_sha1": "86d1aa6a74f9a5158bd77a0d641ecd7ba0dde125",
+    "bytes": 5592
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/bench.py",
+    "expected_git_blob": "ccb7ef120179935b5c6b1137de5551ad9b664f6d",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/bench.py",
+    "file": "2537/3a01d992b062__bench.py",
+    "sha256": "3a01d992b0620a007ec2f8adc0d3ba6df5511c5f4770cab78d9443421105af2e",
+    "git_blob_sha1": "ccb7ef120179935b5c6b1137de5551ad9b664f6d",
+    "bytes": 5172
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/verify.py",
+    "expected_git_blob": "d8c1c2ffe7ed1c33cb72f06d1847c5076e304e8c",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/verify.py",
+    "file": "2537/64e0f4f01a34__verify.py",
+    "sha256": "64e0f4f01a34db323514295598377cda05fd59b9e39d0791ea46bdce8a2db327",
+    "git_blob_sha1": "d8c1c2ffe7ed1c33cb72f06d1847c5076e304e8c",
+    "bytes": 7310
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-integration/certificate.json",
+    "expected_git_blob": "cd0d740b308a1f9fb775be1b5f11651a7894dcf2",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-integration/certificate.json",
+    "file": "2537/c41db3f05630__certificate.json",
+    "sha256": "c41db3f05630f448ea47989a517def493cfc5799e120acf1d3b73a2c837282b2",
+    "git_blob_sha1": "cd0d740b308a1f9fb775be1b5f11651a7894dcf2",
+    "bytes": 98598
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/VERIFY.json",
+    "expected_git_blob": "782f7e3473437886258204b4a634cecb2fb94a54",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/VERIFY.json",
+    "file": "2537/97cda5a4a9a5__VERIFY.json",
+    "sha256": "97cda5a4a9a54f43dba8ff08433cecc0dfd9527cb1ed1c5550dc44a5c2e5ae85",
+    "git_blob_sha1": "782f7e3473437886258204b4a634cecb2fb94a54",
+    "bytes": 911
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-nesting-reuse/SOURCES.json",
+    "expected_git_blob": "a070681578efa2fa616014f54bc38392913d4679",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-nesting-reuse/SOURCES.json",
+    "file": "2537/9119e666ce36__SOURCES.json",
+    "sha256": "9119e666ce36ed39adeb03aca4f1a2df62258b11d768ba9c14d99fdb29dedf8d",
+    "git_blob_sha1": "a070681578efa2fa616014f54bc38392913d4679",
+    "bytes": 1303
+  },
+  {
+    "pr": 2537,
+    "head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "path": "research/recycled-bit-integration/verify.py",
+    "expected_git_blob": "da8d6bb1fc9037cb18b78f122bfcf79bbdca536b",
+    "status": "authenticated_own_head_source",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/222063b96ec1a109a8c9f40e5d615498a737c6dd/research/recycled-bit-integration/verify.py",
+    "file": "2537/e8da17f2b9a0__verify.py",
+    "sha256": "e8da17f2b9a06d33c38cd3fea515fc9f5b1cf04ab6d5de0ed8451c65bbb85a8a",
+    "git_blob_sha1": "da8d6bb1fc9037cb18b78f122bfcf79bbdca536b",
+    "bytes": 13701
+  }
+]

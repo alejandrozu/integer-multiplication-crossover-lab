@@ -1,0 +1,56 @@
+{
+  "pr": 3742,
+  "own_head": "89f6af270c550dd02bdb05d7a69987159aa110f2",
+  "primary_path_candidates": [
+    "research/complex-bootstrap-cutoff-location/README.md",
+    "research/complex-bootstrap-cutoff-location/TASK.json",
+    "research/complex-bootstrap-cutoff-location/VERIFY.json",
+    "research/complex-bootstrap-cutoff-location/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-bootstrap-cutoff-location/TASK.json",
+    "research/complex-bootstrap-cutoff-location/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-bootstrap-cutoff-location/README.md",
+      "file": "remaining-record-audit/artifacts/3742/b21b8e18f763__README.md",
+      "sha256": "b21b8e18f76373e15a36bd065a9927c8287fa8f291b28ac750b345f22d4f0e5e",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/89f6af270c550dd02bdb05d7a69987159aa110f2/research/complex-bootstrap-cutoff-location/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-bootstrap-cutoff-location/verify.py",
+      "file": "remaining-record-audit/artifacts/3742/4ca9f5f17037__verify.py",
+      "sha256": "4ca9f5f17037f22bb3328f81e5e036f518928c851f7a30c3bae257edc9df6d99",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/89f6af270c550dd02bdb05d7a69987159aa110f2/research/complex-bootstrap-cutoff-location/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3742,
+      "head": "89f6af270c550dd02bdb05d7a69987159aa110f2",
+      "path": "research/complex-bootstrap-cutoff-location/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/89f6af270c550dd02bdb05d7a69987159aa110f2/research/complex-bootstrap-cutoff-location/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c3aec3f2557fd5ae8cd39f98f89cd8d1c88c73f0d6709ee9cbb7092a0814494f",
+      "git_blob_sha1": "2cfdfc5ae8cf25c6f44a2f8a249b6d652c8369f2",
+      "bytes": 8628,
+      "file": "individual-primary-interface-source/3742/c3aec3f2557f__TASK.json"
+    },
+    {
+      "pr": 3742,
+      "head": "89f6af270c550dd02bdb05d7a69987159aa110f2",
+      "path": "research/complex-bootstrap-cutoff-location/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/89f6af270c550dd02bdb05d7a69987159aa110f2/research/complex-bootstrap-cutoff-location/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4fc3cf261d1d22f99f6ec97c63d4fffebc90720ef54362cd7c9981bd20f7327e",
+      "git_blob_sha1": "7d903ce4e29a3233e094ef0849d97e526e5136c4",
+      "bytes": 1211,
+      "file": "individual-primary-interface-source/3742/4fc3cf261d1d__VERIFY.json"
+    }
+  ]
+}

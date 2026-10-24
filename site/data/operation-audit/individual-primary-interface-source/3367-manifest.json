@@ -1,0 +1,67 @@
+{
+  "pr": 3367,
+  "own_head": "5b4baf2ba864fe137921105c2427249ea4cef8fc",
+  "primary_path_candidates": [
+    "research/t16-cross-call-cycle-packing-improvement/RESULT.json",
+    "research/t16-cross-call-cycle-packing-improvement/README.md",
+    "research/t16-cross-call-cycle-packing-improvement/TASK.json",
+    "research/t16-cross-call-cycle-packing-improvement/CYCLES.json",
+    "research/t16-cross-call-cycle-packing-improvement/VERIFY.json",
+    "research/t16-cross-call-cycle-packing-improvement/evidence/CHECK.json",
+    "research/t16-cross-call-cycle-packing-improvement/evidence/REPLAY.json",
+    "research/t16-cross-call-cycle-packing-improvement/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/t16-cross-call-cycle-packing-improvement/TASK.json",
+    "research/t16-cross-call-cycle-packing-improvement/CYCLES.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-cross-call-cycle-packing-improvement/README.md",
+      "file": "remaining-record-audit/artifacts/3367/6a2a74e38893__README.md",
+      "sha256": "6a2a74e388931eb5d2bc74e143bd45be0d646f47f312a2ea86b9659fb666f7b6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5b4baf2ba864fe137921105c2427249ea4cef8fc/research/t16-cross-call-cycle-packing-improvement/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-cross-call-cycle-packing-improvement/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3367/25885c9c286b__RESULT.json",
+      "sha256": "25885c9c286b31077cdd8b514608ad2e40e40809053c064d745a3854a7fcff45",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5b4baf2ba864fe137921105c2427249ea4cef8fc/research/t16-cross-call-cycle-packing-improvement/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t16-cross-call-cycle-packing-improvement/verify.py",
+      "file": "remaining-record-audit/artifacts/3367/e20a6d21f7d4__verify.py",
+      "sha256": "e20a6d21f7d4e0da2047890321401b821300f99ab456ba5effcbb92a332ded38",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5b4baf2ba864fe137921105c2427249ea4cef8fc/research/t16-cross-call-cycle-packing-improvement/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3367,
+      "head": "5b4baf2ba864fe137921105c2427249ea4cef8fc",
+      "path": "research/t16-cross-call-cycle-packing-improvement/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5b4baf2ba864fe137921105c2427249ea4cef8fc/research/t16-cross-call-cycle-packing-improvement/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0e82bb5ee47dd4a17d60e0c87ab71833afb518b1589b2bf69b5f8f87ebcda899",
+      "git_blob_sha1": "9804644ceb0a014bcb4fc87475176bcc5acb075f",
+      "bytes": 5595,
+      "file": "individual-primary-interface-source/3367/0e82bb5ee47d__TASK.json"
+    },
+    {
+      "pr": 3367,
+      "head": "5b4baf2ba864fe137921105c2427249ea4cef8fc",
+      "path": "research/t16-cross-call-cycle-packing-improvement/CYCLES.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5b4baf2ba864fe137921105c2427249ea4cef8fc/research/t16-cross-call-cycle-packing-improvement/CYCLES.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d4c32f69b719bca72beea8d6eab70e34e9469ef70a8272f548c36a0a23725434",
+      "git_blob_sha1": "22558bc52745621ae1431ce362f8812b05c6b1e0",
+      "bytes": 5761,
+      "file": "individual-primary-interface-source/3367/d4c32f69b719__CYCLES.json"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "pr": 3148,
+  "own_head": "f2927a4b8afcf0701a6b945e14f30de1d94f5176",
+  "primary_path_candidates": [
+    "research/coupled-carrier-cap740/CLAIM.json",
+    "research/coupled-carrier-cap740/README.md",
+    "research/coupled-carrier-cap740/TASK.json",
+    "research/coupled-carrier-cap740/VENDOR.json",
+    "research/coupled-carrier-cap740/VERIFY.json",
+    "research/coupled-carrier-cap740/EXCHANGE.json",
+    "research/coupled-carrier-cap740/SOURCE-PINS.json",
+    "research/coupled-carrier-cap740/BASELINE-PR3143.json",
+    "research/coupled-carrier-cap740/evidence/RUN.json",
+    "research/coupled-carrier-cap740/evidence/FINITE.json",
+    "research/coupled-carrier-cap740/evidence/RECIPE.json",
+    "research/coupled-carrier-cap740/evidence/OVERLAP.json",
+    "research/coupled-carrier-cap740/evidence/ENVIRONMENT.json",
+    "research/coupled-carrier-cap740/evidence/OUTER-CLAIM.json",
+    "research/coupled-carrier-cap740/evidence/MATERIALIZED.json",
+    "research/coupled-carrier-cap740/evidence/NATIVE-RECEIPT.json",
+    "research/coupled-carrier-cap740/evidence/INVOICE-PAYLOAD.json",
+    "research/coupled-carrier-cap740/evidence/RELEASE-RECEIPT.json",
+    "research/coupled-carrier-cap740/evidence/ADMISSION-RESULT.json",
+    "research/coupled-carrier-cap740/evidence/NATIVE-base-STEPS.json",
+    "research/coupled-carrier-cap740/evidence/COMPOSITION-RESULT.json",
+    "research/coupled-carrier-cap740/evidence/NATIVE-extra-STEPS.json",
+    "research/coupled-carrier-cap740/evidence/RETAINED-REUSE-RECEIPT.json",
+    "research/coupled-carrier-cap740/common.py",
+    "research/coupled-carrier-cap740/verify.py",
+    "research/coupled-carrier-cap740/cap_check.py",
+    "research/coupled-carrier-cap740/construct.py",
+    "research/coupled-carrier-cap740/reproduce.py",
+    "research/coupled-carrier-cap740/materialize.py",
+    "research/coupled-carrier-cap740/run_release.py",
+    "research/coupled-carrier-cap740/test_bindings.py",
+    "research/coupled-carrier-cap740/verify_release.py",
+    "research/coupled-carrier-cap740/test_allocation.py"
+  ],
+  "selected_for_recovery": [
+    "research/coupled-carrier-cap740/README.md",
+    "research/coupled-carrier-cap740/TASK.json",
+    "research/coupled-carrier-cap740/common.py",
+    "research/coupled-carrier-cap740/VENDOR.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/coupled-carrier-cap740/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3148/338165d75d87__CLAIM.json",
+      "sha256": "338165d75d87a1a576750ec92772640e641bc91076e91b686d8ec7ad6f9d6d19",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f2927a4b8afcf0701a6b945e14f30de1d94f5176/research/coupled-carrier-cap740/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 66,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3148,
+      "head": "f2927a4b8afcf0701a6b945e14f30de1d94f5176",
+      "path": "research/coupled-carrier-cap740/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f2927a4b8afcf0701a6b945e14f30de1d94f5176/research/coupled-carrier-cap740/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1442d0a676e2f7528c5eea000d9abdbddf4649ee8e7a85f03f903f96eaad18a5",
+      "git_blob_sha1": "f540563133ab194eace19d923dc56d637a7c5e51",
+      "bytes": 10217,
+      "file": "individual-primary-interface-source/3148/1442d0a676e2__README.md"
+    },
+    {
+      "pr": 3148,
+      "head": "f2927a4b8afcf0701a6b945e14f30de1d94f5176",
+      "path": "research/coupled-carrier-cap740/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f2927a4b8afcf0701a6b945e14f30de1d94f5176/research/coupled-carrier-cap740/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c2479064dd5f8c9cf59ec86a97216d896a361516ad8a520d312f2edc8eb70956",
+      "git_blob_sha1": "6fbe032232516887f3d9a63a6d77a950b5b8d501",
+      "bytes": 9917,
+      "file": "individual-primary-interface-source/3148/c2479064dd5f__TASK.json"
+    },
+    {
+      "pr": 3148,
+      "head": "f2927a4b8afcf0701a6b945e14f30de1d94f5176",
+      "path": "research/coupled-carrier-cap740/common.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f2927a4b8afcf0701a6b945e14f30de1d94f5176/research/coupled-carrier-cap740/common.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8786495cbf808d950be1c42e42d0198e950e44167af80063d25fd186aafea534",
+      "git_blob_sha1": "deb060b34f6bd0e7a41d02cef6e01b13b99444a1",
+      "bytes": 3535,
+      "file": "individual-primary-interface-source/3148/8786495cbf80__common.py"
+    },
+    {
+      "pr": 3148,
+      "head": "f2927a4b8afcf0701a6b945e14f30de1d94f5176",
+      "path": "research/coupled-carrier-cap740/VENDOR.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f2927a4b8afcf0701a6b945e14f30de1d94f5176/research/coupled-carrier-cap740/VENDOR.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b1ca2aa5eda68a671af0c7a8d9c16798fa6024ccc243a70ba28108b65f9172bd",
+      "git_blob_sha1": "65c53e56333f662cdb178cee922f4b3e04646627",
+      "bytes": 3566,
+      "file": "individual-primary-interface-source/3148/b1ca2aa5eda6__VENDOR.json"
+    }
+  ]
+}

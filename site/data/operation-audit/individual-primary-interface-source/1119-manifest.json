@@ -1,0 +1,65 @@
+{
+  "pr": 1119,
+  "own_head": "bc0140e016bd865fffc7fdf64e12158183d52339",
+  "primary_path_candidates": [
+    "research/u8-cleanup-markowitz-lpr-seed30/CLAIM.json",
+    "research/u8-cleanup-markowitz-lpr-seed30/EXPECTED.json",
+    "research/u8-cleanup-markowitz-lpr-seed30/CLAIM.md",
+    "research/u8-cleanup-markowitz-lpr-seed30/PROOF.md",
+    "research/u8-cleanup-markowitz-lpr-seed30/README.md",
+    "research/u8-cleanup-markowitz-lpr-seed30/VALIDATION.md",
+    "research/u8-cleanup-markowitz-lpr-seed30/RECIPE.json",
+    "research/u8-cleanup-markowitz-lpr-seed30/NOTICE.md",
+    "research/u8-cleanup-markowitz-lpr-seed30/verify.py",
+    "research/u8-cleanup-markowitz-lpr-seed30/independent.py",
+    "research/u8-cleanup-markowitz-lpr-seed30/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/u8-cleanup-markowitz-lpr-seed30/CLAIM.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-cleanup-markowitz-lpr-seed30/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1119/7c1ec0845b47__CLAIM.json",
+      "sha256": "7c1ec0845b47032e693ef2a5364b0cfb756838e01eff62252fc35daa2f65b317",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bc0140e016bd865fffc7fdf64e12158183d52339/research/u8-cleanup-markowitz-lpr-seed30/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-cleanup-markowitz-lpr-seed30/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1119/77a4d873ec4b__EXPECTED.json",
+      "sha256": "77a4d873ec4bf7e18ec56af10a77abd9e8f4eb113f4c451ede06751a838cac37",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bc0140e016bd865fffc7fdf64e12158183d52339/research/u8-cleanup-markowitz-lpr-seed30/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-cleanup-markowitz-lpr-seed30/verify.py",
+      "file": "remaining-record-audit/artifacts/1119/885ba954e72c__verify.py",
+      "sha256": "885ba954e72cee8d42a6ae01cfc11f1e441fcf9190bdf48690d90ebdcaca08c9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bc0140e016bd865fffc7fdf64e12158183d52339/research/u8-cleanup-markowitz-lpr-seed30/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-cleanup-markowitz-lpr-seed30/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1119/1102de0f0023__PROOF.md",
+      "sha256": "1102de0f002329a7a830d18febe13fdf7aea5ed4db724fef3cded27e65c37638",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bc0140e016bd865fffc7fdf64e12158183d52339/research/u8-cleanup-markowitz-lpr-seed30/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1119,
+      "head": "bc0140e016bd865fffc7fdf64e12158183d52339",
+      "path": "research/u8-cleanup-markowitz-lpr-seed30/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bc0140e016bd865fffc7fdf64e12158183d52339/research/u8-cleanup-markowitz-lpr-seed30/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "db5d9fc0b6ed9528488a5e3a148e4812401ecd148a6ab361c9aa1e95eacbb9f5",
+      "git_blob_sha1": "7c01123ecc3a6121f09b4785ba5572aa57433ed4",
+      "bytes": 5047,
+      "file": "individual-primary-interface-source/1119/db5d9fc0b6ed__CLAIM.md"
+    }
+  ]
+}

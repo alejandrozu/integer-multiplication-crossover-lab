@@ -1,0 +1,67 @@
+{
+  "pr": 1520,
+  "own_head": "69e353410ae1e6f0555b5add9720f3e691a762b9",
+  "primary_path_candidates": [
+    "research/bit-j3-precision-seed11/CERTIFICATE.json",
+    "research/bit-j3-precision-seed11/README.md",
+    "research/bit-j3-precision-seed11/TASK.json",
+    "research/bit-j3-precision-seed11/VERIFY.json",
+    "research/bit-j3-precision-seed11/OVERLAP.json",
+    "research/bit-j3-precision-seed11/verify.py",
+    "research/bit-j3-precision-seed11/independent.py",
+    "research/bit-j3-precision-seed11/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-j3-precision-seed11/TASK.json",
+    "research/bit-j3-precision-seed11/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-j3-precision-seed11/README.md",
+      "file": "remaining-record-audit/artifacts/1520/6cfdf4cd2fa6__README.md",
+      "sha256": "6cfdf4cd2fa60fec60b06d22cc460911d000f8855fe0b7502bf548a277e7f836",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/69e353410ae1e6f0555b5add9720f3e691a762b9/research/bit-j3-precision-seed11/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-j3-precision-seed11/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1520/9bda6b49b46a__CERTIFICATE.json",
+      "sha256": "9bda6b49b46a2e9e24e81bfe31161430dd81a6ac2c83dfd08a209f1b45d29703",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/69e353410ae1e6f0555b5add9720f3e691a762b9/research/bit-j3-precision-seed11/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-j3-precision-seed11/verify.py",
+      "file": "remaining-record-audit/artifacts/1520/f439b708e79c__verify.py",
+      "sha256": "f439b708e79c8b316c89735dc5f6089f56829926f58a48d760d1d91293fe340d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/69e353410ae1e6f0555b5add9720f3e691a762b9/research/bit-j3-precision-seed11/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1520,
+      "head": "69e353410ae1e6f0555b5add9720f3e691a762b9",
+      "path": "research/bit-j3-precision-seed11/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/69e353410ae1e6f0555b5add9720f3e691a762b9/research/bit-j3-precision-seed11/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "03c9c975fd8b5a695194bbfccf6ea5e827614088af07ffc6ce21a176fe08d79a",
+      "git_blob_sha1": "fcd8c9eb135b734926bbb613d477a000f4c51bdd",
+      "bytes": 4317,
+      "file": "individual-primary-interface-source/1520/03c9c975fd8b__TASK.json"
+    },
+    {
+      "pr": 1520,
+      "head": "69e353410ae1e6f0555b5add9720f3e691a762b9",
+      "path": "research/bit-j3-precision-seed11/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/69e353410ae1e6f0555b5add9720f3e691a762b9/research/bit-j3-precision-seed11/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d51c083d633a2d8b9f1cda162206d90d9205d3ff0203b310cb56e3ca197f0776",
+      "git_blob_sha1": "6c262f0497b3029c1ee82dbe13893ec56f07e472",
+      "bytes": 1038,
+      "file": "individual-primary-interface-source/1520/d51c083d633a__VERIFY.json"
+    }
+  ]
+}

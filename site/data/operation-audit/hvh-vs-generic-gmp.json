@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "model": "xag-straightline-v1",
+  "status": "proved-sufficient-cutoff-derived-from-two-manually-audited-circuit-envelopes",
+  "comparison": "Canonical HvH d=1729 circuit vs pinned generic GMP6.3.0 finite-table source circuit",
+  "tariff": "rho_cost>0, XOR cost relative toAND; same tariff for both programs",
+  "sufficient_threshold_input_bits_each": "2^7137398073256634897664758526207831208357",
+  "threshold_log2_bits_exact": "7137398073256634897664758526207831208357",
+  "applies_to_all_larger_integer_n": true,
+  "is_first_crossover": false,
+  "is_PR4470_comparison": false,
+  "is_tuned_or_hardware_GMP_comparison": false,
+  "is_lean_formalized": false,
+  "HvH_upper": "C(1+rho_cost)n log2(n)",
+  "generic_GMP_lower": "(4+6rho_cost)n^(11/10)",
+  "C_exact": "22193164471003774976 * 2^713739807325663489766475852620783120641",
+  "E": "713739807325663489766475852620783120641",
+  "exact_power_test": {
+    "Pref": "22193164471003774976",
+    "offset": 1947,
+    "threshold_height_formula": "L*=10E+t",
+    "inequality": "(Pref*L*)^10 <4^10*2^t",
+    "previous_offset": 1946,
+    "previous_offset_passes": false,
+    "minimality_scope": "Smallest integer offset for this sufficient comparison of envelopes; not an actual first crossover"
+  },
+  "tariff_specific_thresholds": [
+    {
+      "rho_cost": "1/1000",
+      "offset": 1947,
+      "threshold_log2_bits": "7137398073256634897664758526207831208357",
+      "exact_test": "[Pref*(a+b)*(10E+t)]^10 <(4b+6a)^10*2^t, rho_cost=a/b",
+      "previous_offset_passes": false
+    },
+    {
+      "rho_cost": "1/10",
+      "offset": 1946,
+      "threshold_log2_bits": "7137398073256634897664758526207831208356",
+      "exact_test": "[Pref*(a+b)*(10E+t)]^10 <(4b+6a)^10*2^t, rho_cost=a/b",
+      "previous_offset_passes": false
+    },
+    {
+      "rho_cost": "1",
+      "offset": 1944,
+      "threshold_log2_bits": "7137398073256634897664758526207831208354",
+      "exact_test": "[Pref*(a+b)*(10E+t)]^10 <(4b+6a)^10*2^t, rho_cost=a/b",
+      "previous_offset_passes": false
+    },
+    {
+      "rho_cost": "10",
+      "offset": 1942,
+      "threshold_log2_bits": "7137398073256634897664758526207831208352",
+      "exact_test": "[Pref*(a+b)*(10E+t)]^10 <(4b+6a)^10*2^t, rho_cost=a/b",
+      "previous_offset_passes": false
+    },
+    {
+      "rho_cost": "1000",
+      "offset": 1941,
+      "threshold_log2_bits": "7137398073256634897664758526207831208351",
+      "exact_test": "[Pref*(a+b)*(10E+t)]^10 <(4b+6a)^10*2^t, rho_cost=a/b",
+      "previous_offset_passes": false
+    }
+  ],
+  "proof_steps": [
+    "(1+rho_cost)/(4+6rho_cost)<1/4 for rho_cost>0",
+    "C=Pref*2^E; putL*=10E+t",
+    "(C/4)L*<2^(L*/10) is equivalent to(Pref*L*)^10 <4^10*2^t",
+    "The exact integer test passes att=1947 and fails att=1946",
+    "2^(L/10)/L is increasing forL>10/ln2<15, so the inequality holds for allL>=L*",
+    "L*>E andL*>26 ensure both published component ranges"
+  ],
+  "checks": "PASS exact integer/rational certificate arithmetic; source envelope proofs remain manual",
+  "inputs": [
+    {
+      "file": "hvh-operation-census.json",
+      "sha256": "7df4123ae9ee6e05f213bbd78e74068425ad41f817492bb4e730603bf75f80e5"
+    },
+    {
+      "file": "gmp-fft-lower.json",
+      "sha256": "9390c62157ffa2750f5d098be25f23a9f6915ef40842fc7e383b58dde423a69a"
+    }
+  ]
+}

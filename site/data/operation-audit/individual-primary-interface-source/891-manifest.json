@@ -1,0 +1,67 @@
+{
+  "pr": 891,
+  "own_head": "645fb93fcd21b86aca7e2bf81582be5c62411b27",
+  "primary_path_candidates": [
+    "research/r439-bsection-survey/EXPECTED.json",
+    "research/r439-bsection-survey/CERTIFICATE.json",
+    "research/r439-bsection-survey/CLAIM.md",
+    "research/r439-bsection-survey/README.md",
+    "research/r439-bsection-survey/VALIDATION.md",
+    "research/r439-bsection-survey/CANDIDATES.json",
+    "research/r439-bsection-survey/search.py",
+    "research/r439-bsection-survey/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r439-bsection-survey/CLAIM.md",
+    "research/r439-bsection-survey/search.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-bsection-survey/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/891/1c2df975617d__EXPECTED.json",
+      "sha256": "1c2df975617d96eadbbff5150bc23bb619dcd3d1dec08bfd8dcc5e7199de5f35",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/645fb93fcd21b86aca7e2bf81582be5c62411b27/research/r439-bsection-survey/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-bsection-survey/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/891/dbffa0240069__CERTIFICATE.json",
+      "sha256": "dbffa02400695f4855dc98bc0b025113ddfbb86593172de7b7e5d50ecbef7272",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/645fb93fcd21b86aca7e2bf81582be5c62411b27/research/r439-bsection-survey/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r439-bsection-survey/README.md",
+      "file": "remaining-record-audit/artifacts/891/fb5c284a51a4__README.md",
+      "sha256": "fb5c284a51a401ef2c57e438a799d09206d887d06fec624b0caa16d6c5d60ace",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/645fb93fcd21b86aca7e2bf81582be5c62411b27/research/r439-bsection-survey/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 9,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 891,
+      "head": "645fb93fcd21b86aca7e2bf81582be5c62411b27",
+      "path": "research/r439-bsection-survey/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/645fb93fcd21b86aca7e2bf81582be5c62411b27/research/r439-bsection-survey/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4bf4e679551be5b32def89680765475bcc4079272ab8de05c57eb95ec9b6a1a0",
+      "git_blob_sha1": "a5ef521742f7f4a0d7e640c2b9fd1b5bf76a131b",
+      "bytes": 2305,
+      "file": "individual-primary-interface-source/891/4bf4e679551b__CLAIM.md"
+    },
+    {
+      "pr": 891,
+      "head": "645fb93fcd21b86aca7e2bf81582be5c62411b27",
+      "path": "research/r439-bsection-survey/search.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/645fb93fcd21b86aca7e2bf81582be5c62411b27/research/r439-bsection-survey/search.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c2321957c443b875a62e3ed97bad17f74a41737866d1995c7092e40e1a61ecf2",
+      "git_blob_sha1": "d38fd63239de82a1a6027d9622b0ceb3f7fb13fa",
+      "bytes": 12109,
+      "file": "individual-primary-interface-source/891/c2321957c443__search.py"
+    }
+  ]
+}

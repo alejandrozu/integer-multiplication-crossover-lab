@@ -1,0 +1,102 @@
+{
+  "pr": 379,
+  "own_head": "e01bcc51ca7ee93cec54350afae8f163aafc8f93",
+  "primary_path_candidates": [
+    "research/e8-low-read-seven-complex/proof/assembly.json",
+    "research/e8-low-read-seven-complex/proof/signed-source/RESULT.json",
+    "research/e8-low-read-seven-complex/proof/signed-source/independent-carrier/RESULT.json",
+    "research/e8-low-read-seven-complex/README.md",
+    "research/e8-low-read-seven-complex/complex/b3.json",
+    "research/e8-low-read-seven-complex/complex/EXIT.json",
+    "research/e8-low-read-seven-complex/complex/CP311-EXIT.json",
+    "research/e8-low-read-seven-complex/geometry/ALL-CHARTS.json",
+    "research/e8-low-read-seven-complex/proof/REPLAY-RECEIPTS.json",
+    "research/e8-low-read-seven-complex/provenance/pr370-meta.json",
+    "research/e8-low-read-seven-complex/provenance/pr371-meta.json",
+    "research/e8-low-read-seven-complex/provenance/pr372-meta.json",
+    "research/e8-low-read-seven-complex/geometry/CHART-RECEIPT.json",
+    "research/e8-low-read-seven-complex/complex/complex-guard-b3.json",
+    "research/e8-low-read-seven-complex/geometry/geometry-all120.json",
+    "research/e8-low-read-seven-complex/provenance/FULL-REPLAY-RECEIPTS.json",
+    "research/e8-low-read-seven-complex/provenance/LOWREAD-REPLAY-SOURCE-SHA256.json",
+    "research/e8-low-read-seven-complex/provenance/kappa-leaderboard-live-pr370.json",
+    "research/e8-low-read-seven-complex/proof/check/col.json",
+    "research/e8-low-read-seven-complex/proof/check/leg.json",
+    "research/e8-low-read-seven-complex/proof/price/kappa.json",
+    "research/e8-low-read-seven-complex/proof/price/finite.json",
+    "research/e8-low-read-seven-complex/proof/records/frames.json",
+    "research/e8-low-read-seven-complex/proof/price/finite-input.json",
+    "research/e8-low-read-seven-complex/proof/records/249-states.json",
+    "research/e8-low-read-seven-complex/geometry/lowering/BANK-SLOTS.json",
+    "research/e8-low-read-seven-complex/geometry/lowering/LOWERING-BANKS.json",
+    "research/e8-low-read-seven-complex/proof/signed-source/decoder-and-dirt.json",
+    "research/e8-low-read-seven-complex/proof/check/cin/frames.json",
+    "research/e8-low-read-seven-complex/proof/check/cin/249-states.json",
+    "research/e8-low-read-seven-complex/proof/check/cout/COHORT249-FRAMES.json",
+    "research/e8-low-read-seven-complex/proof/check/cout/COHORT249-INITIAL.json",
+    "research/e8-low-read-seven-complex/proof/check/cin/249-DONOR-OWNERSHIP.json",
+    "research/e8-low-read-seven-complex/proof/check/cout/COHORT249-SELECTION.json",
+    "research/e8-low-read-seven-complex/NOTICE.md",
+    "research/e8-low-read-seven-complex/verify.py",
+    "research/e8-low-read-seven-complex/assemble.py",
+    "research/e8-low-read-seven-complex/code/cost.py",
+    "research/e8-low-read-seven-complex/code/outer.py",
+    "research/e8-low-read-seven-complex/code/moment.py",
+    "research/e8-low-read-seven-complex/code/finite_g.py",
+    "research/e8-low-read-seven-complex/code/geometry_g.py",
+    "research/e8-low-read-seven-complex/code/receipts_e8.py",
+    "research/e8-low-read-seven-complex/code/certify_bit_g.py",
+    "research/e8-low-read-seven-complex/code/export_records.py",
+    "research/e8-low-read-seven-complex/code/lower_and_bank.py",
+    "research/e8-low-read-seven-complex/code/base_two_moment.py",
+    "research/e8-low-read-seven-complex/proof/signed-source/independent-carrier/check.py"
+  ],
+  "selected_for_recovery": [
+    "research/e8-low-read-seven-complex/proof/assembly.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-low-read-seven-complex/README.md",
+      "file": "remaining-record-audit/artifacts/379/8c6658e4ce75__README.md",
+      "sha256": "8c6658e4ce75d6380293d4c6a609e941ebca9d85b1198437414dfd7ed06f6337",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e01bcc51ca7ee93cec54350afae8f163aafc8f93/research/e8-low-read-seven-complex/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-low-read-seven-complex/proof/signed-source/RESULT.json",
+      "file": "remaining-record-audit/artifacts/379/3e27b657ce26__RESULT.json",
+      "sha256": "3e27b657ce26ecba6e30cbf006cd182c720dff85a4344d3aa7d26dfd02699801",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e01bcc51ca7ee93cec54350afae8f163aafc8f93/research/e8-low-read-seven-complex/proof/signed-source/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-low-read-seven-complex/verify.py",
+      "file": "remaining-record-audit/artifacts/379/649031293173__verify.py",
+      "sha256": "64903129317341e60e66ac728f575ecac4d554bc492e1026e9dee1c60fea5649",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e01bcc51ca7ee93cec54350afae8f163aafc8f93/research/e8-low-read-seven-complex/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/e8-low-read-seven-complex/proof/signed-source/independent-carrier/RESULT.json",
+      "file": "remaining-record-audit/artifacts/379/c361484c33df__RESULT.json",
+      "sha256": "c361484c33df202f1aed7866513044f53b0716a15be34cc94c0de3b7f2e9b5d9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e01bcc51ca7ee93cec54350afae8f163aafc8f93/research/e8-low-read-seven-complex/proof/signed-source/independent-carrier/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 71,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 379,
+      "head": "e01bcc51ca7ee93cec54350afae8f163aafc8f93",
+      "path": "research/e8-low-read-seven-complex/proof/assembly.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e01bcc51ca7ee93cec54350afae8f163aafc8f93/research/e8-low-read-seven-complex/proof/assembly.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "16ce121664d1287c07fefa58a397c181abb5a0daa208be5ccd46e1a63f509b15",
+      "git_blob_sha1": "06bbd6120d15e9b5c6c416a45921d5733aa9821b",
+      "bytes": 8693,
+      "file": "individual-primary-interface-source/379/16ce121664d1__assembly.json"
+    }
+  ]
+}

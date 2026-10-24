@@ -1,0 +1,112 @@
+{
+  "pr": 2839,
+  "own_head": "2fdd289fcd0896f4691f9dd78a8bf1511573e434",
+  "primary_path_candidates": [
+    "research/tensor-block-kappa/CLAIM.json",
+    "research/tensor-block-kappa/PROOF.md",
+    "research/tensor-block-kappa/README.md",
+    "research/tensor-block-kappa/TASK.json",
+    "research/tensor-block-kappa/VERIFY.json",
+    "research/tensor-block-kappa/MODULES.json",
+    "research/tensor-block-kappa/PORTING.json",
+    "research/tensor-block-kappa/data/ORDER.json",
+    "research/tensor-block-kappa/data/PROFILE.json",
+    "research/tensor-block-kappa/data/DISPATCH.json",
+    "research/tensor-block-kappa/expected/AXIOMS.json",
+    "research/tensor-block-kappa/validation/KERNEL.json",
+    "research/tensor-block-kappa/validation/MOMENT.json",
+    "research/tensor-block-kappa/validation/NATIVE.json",
+    "research/tensor-block-kappa/validation/OWNERS.json",
+    "research/tensor-block-kappa/lean/lake-manifest.json",
+    "research/tensor-block-kappa/validation/COMPLETE.json",
+    "research/tensor-block-kappa/validation/BLOCKNORM.json",
+    "research/tensor-block-kappa/validation/CANONICAL.json",
+    "research/tensor-block-kappa/validation/ROOT-ROUTE.json",
+    "research/tensor-block-kappa/provenance/TI-BLOCK-REVIEW.json",
+    "research/tensor-block-kappa/provenance/ADMISSION-SOURCES.json",
+    "research/tensor-block-kappa/validation/BLOCKNORM-CONTROLS.json",
+    "research/tensor-block-kappa/provenance/TI-BLOCK-FULL-STOCK-REVIEW.json",
+    "research/tensor-block-kappa/provenance/TI-BLOCK-PREDECESSOR-NOTICES.json",
+    "research/tensor-block-kappa/provenance/PREDECESSOR-T104-SHARPENED-PREFIX-REVIEW.json",
+    "research/tensor-block-kappa/provenance/PREDECESSOR-T104-SHARPENED-PREFIX-RESERVE.json",
+    "research/tensor-block-kappa/replay.py",
+    "research/tensor-block-kappa/verify.py",
+    "research/tensor-block-kappa/CREDITS.md",
+    "research/tensor-block-kappa/PR-BODY.md",
+    "research/tensor-block-kappa/FRONTIER.md",
+    "research/tensor-block-kappa/PARENT-LIFT.md",
+    "research/tensor-block-kappa/lift_parent.py",
+    "research/tensor-block-kappa/replica_parent.py",
+    "research/tensor-block-kappa/check_candidate.py",
+    "research/tensor-block-kappa/reconstruct_replica.py",
+    "research/tensor-block-kappa/blocknorm_certificate.py",
+    "research/tensor-block-kappa/admit_frontier_replica.py",
+    "research/tensor-block-kappa/portable_frontier_cold.py",
+    "research/tensor-block-kappa/portable_prepare_native.py",
+    "research/tensor-block-kappa/independent_candidate_moment_retired7.py",
+    "research/tensor-block-kappa/independent_candidate_owners_retired7.py"
+  ],
+  "selected_for_recovery": [
+    "research/tensor-block-kappa/PROOF.md",
+    "research/tensor-block-kappa/TASK.json",
+    "research/tensor-block-kappa/replay.py",
+    "research/tensor-block-kappa/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/tensor-block-kappa/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2839/5036537801ba__CLAIM.json",
+      "sha256": "5036537801ba253f861a5459d4e910c7044eb1ed09e599b2029996457284e33b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fdd289fcd0896f4691f9dd78a8bf1511573e434/research/tensor-block-kappa/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 190,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2839,
+      "head": "2fdd289fcd0896f4691f9dd78a8bf1511573e434",
+      "path": "research/tensor-block-kappa/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fdd289fcd0896f4691f9dd78a8bf1511573e434/research/tensor-block-kappa/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3fa62afc4cee9315f236e8cae94484b40d2dedc271d654b08eb5eaf86a96a425",
+      "git_blob_sha1": "02e61035e91cb547c6006b384178c181b09ab572",
+      "bytes": 7056,
+      "file": "individual-primary-interface-source/2839/3fa62afc4cee__PROOF.md"
+    },
+    {
+      "pr": 2839,
+      "head": "2fdd289fcd0896f4691f9dd78a8bf1511573e434",
+      "path": "research/tensor-block-kappa/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fdd289fcd0896f4691f9dd78a8bf1511573e434/research/tensor-block-kappa/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2acfc2cafb40b83c1e603f281eca8fa2e5dce32b40bc34289a5cac78aeba02ba",
+      "git_blob_sha1": "8bec81927e9f5f689c7d68e63a8944acd59e0066",
+      "bytes": 770,
+      "file": "individual-primary-interface-source/2839/2acfc2cafb40__TASK.json"
+    },
+    {
+      "pr": 2839,
+      "head": "2fdd289fcd0896f4691f9dd78a8bf1511573e434",
+      "path": "research/tensor-block-kappa/replay.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fdd289fcd0896f4691f9dd78a8bf1511573e434/research/tensor-block-kappa/replay.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ff899fcb325139b9322e9ccbfc65508f153956c25ae25f51c257fe1a274c61f9",
+      "git_blob_sha1": "e757ec8a40c4fce68f72463876211ce771bfa6a4",
+      "bytes": 10656,
+      "file": "individual-primary-interface-source/2839/ff899fcb3251__replay.py"
+    },
+    {
+      "pr": 2839,
+      "head": "2fdd289fcd0896f4691f9dd78a8bf1511573e434",
+      "path": "research/tensor-block-kappa/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2fdd289fcd0896f4691f9dd78a8bf1511573e434/research/tensor-block-kappa/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7403371530e541e8580527df30faf305e7b1dad4044b63f3dc996d9b9dba7cc0",
+      "git_blob_sha1": "3c1609d8d34ed73b6d3cdf0b9f27a3691c95305f",
+      "bytes": 3005,
+      "file": "individual-primary-interface-source/2839/7403371530e5__README.md"
+    }
+  ]
+}

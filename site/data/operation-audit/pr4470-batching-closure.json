@@ -1,0 +1,97 @@
+{
+  "schema": "pr4470-occupied-row-batching-stopped-Gaussian-all-size-upper/1",
+  "status": "PASS_EXACT_PARAMETER_PADDING_AND_RECURRENCE_CHECKS",
+  "native_interface": "The complete uniform supplier has W productive full-rank-N fields, P paid rank-one children, and P/W<N^sigma. Its complete spectators and arbitrary-input identity include calls on owned centers.",
+  "parameters": {
+    "H": 64215200000000,
+    "N": "2^64215200000000",
+    "eta": "528527/175000000",
+    "sigma": "174471473/175000000",
+    "stopping_beta": "1/1400000000",
+    "result_exponent_s": "244260062200528527/245000000000000000",
+    "result_saving_1_minus_s": "739937799471473/245000000000000000",
+    "sigma_greater_than_half": true,
+    "N_to_sigma_greater_than_two": true
+  },
+  "inventory": {
+    "K": "32*(R_star+1)",
+    "M": "K^(4^N)",
+    "ceil_log2W_upper_A": "33010*4^N",
+    "G_upper": "(10^9+8)*M <2^30*M",
+    "reference": "pr4470-compiler-bound.json"
+  },
+  "occupied_rows": {
+    "full_depth": "D(d)=0 for d<N; otherwise1+D(floor(d/N))",
+    "reserve": "q0=ceil(log2W)*D(d) selected-bit row coordinates; complete neighborhood chunks may be retained as spectators.",
+    "cardinality": "R=2^(q0*Kchunk)>=W^D(d), for neighborhood width Kchunk>=1.",
+    "padding": "Pad the complete row count once to the next multiple ofW^D(d); factor<2. Every descendant has exactly1/W parent productive volume and sufficient divisibility.",
+    "single_integer_meaning": "The W arbitrary role inputs are distinct existing row fibers of one coefficient array. Their values may be correlated or zero; no independent productive input is created by copying.",
+    "owned_centers": "Each existing owner has its charged bank of the same stream shape; a child can receive correlated owned-center contents, since the identity holds for every assignment to distinct physical slots.",
+    "zero_padding": "Independent completed endpoints map appended zero rows back to zero, permitting their removal before the next external diagonal.",
+    "selected_stock_kernels": "Reserve kernels are not performed before the active call. After its completed identity-on-stock endpoint, perform their q0 elementary Gaussian kernels, within the same full Gaussian job and before an external diagonal."
+  },
+  "validity_threshold": {
+    "A": "33010*4^N",
+    "complex_stock_threshold": "64*(A+1)^2",
+    "positive_child_threshold": "(2*N)^1400000000",
+    "d0": "max(64*(A+1)^2,(2*N)^1400000000)",
+    "proved_d0_at_most_M": true,
+    "consequences": [
+      "q0<=A*log2d<d/4",
+      "d^beta>=2N",
+      "every internal floor child has positive width"
+    ],
+    "below_d0": "Use individual Gaussian axes; their40*p*d charge is absorbed by40*M*d^s when w<=2p."
+  },
+  "stopped_tree": {
+    "threshold": "T=ceil(d^beta), with global original selected widthd fixed throughout the tree",
+    "recurrence_at_width_e": "c(e)<=(P/W)*c(floor(e/N))+8G/W+40N when e>=T",
+    "elementary_leaf": "c(e)<=40e when e<T; cost normalized by p*(1+rho)*productive_volume and requires w<=2p",
+    "q": "N^sigma>2",
+    "depth_bound": "q^J<=q*d^(sigma*(1-beta))",
+    "internal_geometric_sum": "sum_(j<J)q^j<=q^J",
+    "leaf_upper": "40*N*d^(sigma+beta*(1-sigma))",
+    "stock_upper": "40q0<=80A*d^s, since log2d<=2sqrt(d) and s>1/2",
+    "coefficient_above_d0": "2*(N*(8G+40N+40)+80A)",
+    "coefficient_below_d0": "40*d0^(1-s)<=40M"
+  },
+  "all_size_circuit_upper": {
+    "coefficient_C": "2^35*M^2",
+    "per_gate_type_when_w_at_most_2p": "AND,XOR <=C*p*V*d^s for every integerd>=1",
+    "weighted_when_w_at_most_2p": "work<=C*p*(1+rho)*V*d^s",
+    "per_gate_type_for_general_sufficient_word_width": "AND,XOR <=2^34*M^2*w*V*d^s for every integerd>=1, w>=2",
+    "weighted_for_general_sufficient_word_width": "work<=2^34*M^2*w*(1+rho)*V*d^s",
+    "ordinary_Hadamard_conversion": "S=diag(1,i); S^tensor(d) C_d S^tensor(d)=((1+i)/2)^d H_d. Thus H_d uses at most two real ADD and seven NEG macros per coordinate in addition to C_d; division-free fixed shifts cover the collapsed global factor(1-i)^d.",
+    "Hadamard_per_gate_upper_general_w": "(2^34*M^2+20)*w*V*d^s",
+    "Hadamard_per_gate_upper_when_w_at_most_33p": "2^40*M^2*p*V*d^s",
+    "V": "Number of complex coefficient positions in the original complete coefficient tensor, before the one-time factor<2 row padding.",
+    "word_guard": "w must be sufficient for exact native dyadic arithmetic relative to the incoming common fine grid; apply the new global precision bound to incoming magnitude/denominator andC0*d. No rounding occurs at supplier child returns.",
+    "no_input_length_identification": "d is selected Gaussian-axis count, V is coefficient volume, w is component bit width; none equals integer input lengthn by definition."
+  },
+  "all_size_exact_semantic_guard": {
+    "source_constants": "E=64*(Z+N+P+G+1)^3; B_constant=P+E>=64; C0=32*N*B_constant^2",
+    "active_recursion": "A(e)<=A(floor(e/N))+P*floor(e/N)+E; elementary leavesA(e)<=8e. ThereforeA(e)<=2*B_constant*e for every permitted stopping threshold.",
+    "padding_and_repacking": "Known zero rows, copying and fixed permutations change neither denominator nor magnitude exponents.",
+    "stock_completion": "Active returned C_(d-q0) has completed magnitude/denominator excess<=d-q0. Ordinary C on q0 stock axes has temporary excess<=8q0; total<=d+7q0<=8d<=2*B_constant*d.",
+    "small_width_fallback": "Direct C_d has temporary excess<=8d<=2*B_constant*d.",
+    "C_to_H_conversion": "S phases preserve exponents. After completed C_d the collapsed integer Gaussian factor(1-i)^d adds no denominator and at mostd+1 temporary magnitude bits. Total<=2d+1<=3d<=2*B_constant*d for d>=1.",
+    "conclusion": "The entire occupied-row, stopped, all-size C_d or H_d call retains BOTH denominator and temporary-magnitude excess<C0*d relative to its incoming common fine grid and incoming magnitude.",
+    "no_internal_rounding": true
+  },
+  "unclosed_outer_interfaces": [
+    "Numeric global phase/coefficient approximation and recovery guards",
+    "Source-faithful outer encoding and total Gaussian-stage count",
+    "Any additional non-Gaussian BIT/boundary/recovery stage costs"
+  ],
+  "proof_scope": "All-size upper for one complete selected-axis canonical Gaussian operation on a single complete array, conditional on the source native identity and stated monomial interface. It is not yet a complete integer multiplication upper or crossover.",
+  "verification": {
+    "padding_and_depth_cases": 140,
+    "exact_rational_stopped_tree_cases": 27,
+    "all_passed": true
+  },
+  "source_sections": [
+    "kappa-rebuild/transfer-audit/FINITE-TEMPLATE-CLOSURE.md sections4,5",
+    "kappa-rebuild/transfer-audit/OUTER-TRANSFER-AUDIT.md sections3,5",
+    "higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md section6"
+  ]
+}

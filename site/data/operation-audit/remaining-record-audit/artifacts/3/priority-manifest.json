@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 3,
+    "head": "dfe5b818aad4d386cb5dd7d76df108088107765d",
+    "path": "README.md",
+    "api_sha": "9b16ec23b5dc5dd1577ae0e9d6335924dbbd3725",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/dfe5b818aad4d386cb5dd7d76df108088107765d/README.md",
+    "priority": 60,
+    "hint_base": "research/complex-circuit.md/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/dfe5b818aad4d386cb5dd7d76df108088107765d/README.md",
+    "file": "artifacts\\3\\c670b403cd12__README.md",
+    "sha256": "c670b403cd12e2432daf90230dddb715b73c19b45fbafc35e8ef98767ad13ad8",
+    "git_blob_sha1": "9b16ec23b5dc5dd1577ae0e9d6335924dbbd3725",
+    "bytes": 9905,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:25.899739+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 3,
+    "head": "dfe5b818aad4d386cb5dd7d76df108088107765d",
+    "path": "certificates/complex-network.json",
+    "api_sha": "62a6091887a3894535c1d059e1b0c527d556eb76",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/dfe5b818aad4d386cb5dd7d76df108088107765d/certificates%2Fcomplex-network.json",
+    "priority": 230,
+    "hint_base": "research/complex-circuit.md/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/dfe5b818aad4d386cb5dd7d76df108088107765d/certificates/complex-network.json",
+    "file": "artifacts\\3\\1f763d95c7ff__complex-network.json",
+    "sha256": "1f763d95c7ff163aa71d13cd82784f16665be8afb21f75e76941e2119562098f",
+    "git_blob_sha1": "62a6091887a3894535c1d059e1b0c527d556eb76",
+    "bytes": 5662,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:25.854739+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

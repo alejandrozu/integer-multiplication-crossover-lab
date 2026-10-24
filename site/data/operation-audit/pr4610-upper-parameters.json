@@ -1,0 +1,209 @@
+{
+  "schema": "pr4610-source-bound-upper-parameter-witness/1",
+  "status": "parameters_and_finite_class_authenticated_no_whole_upper_claim",
+  "candidate_pr": 4610,
+  "audit_pr": 5241,
+  "author_head": "20bb93cd990d2ff683e4d0fc56b87a42cd5d3296",
+  "audit_head": "13efb5fc5f3b7c14ec2cfa181dd9eb6480972cf2",
+  "canonical_audit_base": "ec2780e8aeb1c88acaf5e9e470ef8c68e7fbbb6c",
+  "kappa": "15108879/5000000000",
+  "H": 38569300000000000,
+  "N": "2^38569300000000000",
+  "parameters": {
+    "kappa": "15108879/5000000000",
+    "epsilon": "699999999999/700000000000",
+    "beta": "699999999997/700000000000",
+    "stop": "1/700000000000",
+    "layout": "1/700000000000",
+    "d": "1/700000000000",
+    "r0": "1/7000000000000",
+    "a": "264405383/87500000000",
+    "b": "423048613/140000000000",
+    "q": "2115243063/700000000000",
+    "complex_uniform_saving": "1057621533/350000000000",
+    "tested_saving": "302177581/100000000000",
+    "bit_saving": "17/5000"
+  },
+  "xi": "445543170144097884756937/490000000000000000000000",
+  "eta_uniform": "1057621533/350000000000",
+  "a_save_proposed": "740335073098942378467/245000000000000000000000",
+  "compiler_eta_warning": "ARITHMETIC.compiler.eta is a small concavity-majorant coefficient, not the uniform saving eta_uniform.",
+  "raw_profile": {
+    "targets": {
+      "145": 224,
+      "17": 448,
+      "25": 448,
+      "33": 448,
+      "4": 504,
+      "41": 448,
+      "49": 448,
+      "57": 448,
+      "65": 448,
+      "7": 126,
+      "73": 224,
+      "8": 846,
+      "9": 5868
+    },
+    "paid": {
+      "1": 41298,
+      "16": 448,
+      "2": 7416,
+      "24": 448,
+      "3": 9180,
+      "32": 448,
+      "4": 2286,
+      "40": 448,
+      "48": 448,
+      "5": 720,
+      "56": 448,
+      "64": 448,
+      "72": 224,
+      "8": 144
+    },
+    "productive_calls": 10928,
+    "paid_calls": 64404,
+    "target_mass": 239886,
+    "paid_mass": 239134,
+    "surplus": 752,
+    "minimum_target_rank": 4,
+    "maximum_target_rank": 145,
+    "minimum_paid_rank": 1,
+    "maximum_paid_rank": 72
+  },
+  "strictification": {
+    "tensor_power": 1024,
+    "completed_target_floor": 21,
+    "paid_cutoff": 20,
+    "completed_target_minimum": "21^1024",
+    "completed_target_log2_floor": 4497,
+    "raw_ambient_maximum": "145^1024",
+    "raw_paid_maximum": "72^1024",
+    "tails_shift": "1/5",
+    "alpha_reserve": "1/100000000000",
+    "positive_complete_rankmass": "239886^1024-239134^1024>0",
+    "normalised_paid_upper": "104857600097656251/104857601073741824"
+  },
+  "finite_budget": {
+    "raw_nonrecursive_upper": 181098496,
+    "raw_allowance_used": 1000000000,
+    "K_definition": "32(R_star+1)",
+    "R_star": "[10^9*1024*(10928+64404)^1024+239134^1024+10928^1024*21^1024]*(10*145^2048+10)",
+    "log2_K_strict_upper": 33010,
+    "fresh_native_stage_budget_less_than_K_squared": true,
+    "reason_old_K_overpays": "Only paid call count decreases; same productive profile and rank masses, fixed ambient145, nonrecursive scalar/route charge below1e9."
+  },
+  "monomial_membership": {
+    "fresh_schema_and_invertibility_checked": true,
+    "fresh_absolute_phase_identity_replay": false,
+    "source_phase_identity_status": "Independent PR5241 complete phase audit retained; source receipt is not re-proved here.",
+    "counts": {
+      "actual_warp_classes": 360,
+      "new_paid_pairs": 420,
+      "changed_helper_boundaries": 20
+    },
+    "maximum_actual_elementary_records": 83,
+    "uniform_elementary_bound_per_monomial": 171,
+    "two_adapter_bound": 342,
+    "arbitrary_column_lift": "Source PROOF sections2\u20133 retain columnwise tensor/shuffle and spectator lift, absolute phase once per column.",
+    "completed_endpoint_clifford_normal_form": "Same mathematical class is supported: phase-bearing affine-quadratic monomials plus C gates; whole new cost/precision recurrence still needs application."
+  },
+  "nine_source_outer_savings": {
+    "main_transform": "1480670144097884756937/490000000000000000000000",
+    "global_coordinate_router": "264405383/87500000000",
+    "fused_gaussian": "1480670144793654270811/490000000000000000000000",
+    "group_bit_router": "185083768186706783851/61250000000000000000000",
+    "group_scans": "349999999999/350000000000",
+    "boundary_algebraic_matrix": "1480670144797884756937/490000000000000000000000",
+    "sparse_union_movement": "200543170144797884756937/490000000000000000000000",
+    "polynomial_products": "699999999999/700000000000",
+    "microbox_face_corrections": "13475000000001/175000000000"
+  },
+  "proposed_seven_row_savings": {
+    "target_FFT_H": "518234551168519329853801057621533/171500000000000000000000000000000000",
+    "target_FFT_twiddles": "699999999999/700000000000",
+    "dense_Gaussian_H": "518234551412038659707603172864599/171500000000000000000000000000000000",
+    "dense_diagonals": "349999999999/350000000000",
+    "Strassen_boundaries": "1480670144797884756937/490000000000000000000000",
+    "halos": "13650000000001/175000000000",
+    "pointwise_recovery_carries": "1"
+  },
+  "seven_row_status": "Exact positive rational exponents only; no automatic coefficient, guard, precision, prime, batching or full-runtime transfer.",
+  "source_branch": {
+    "fine_theta_power": 2,
+    "boundary_matrix_algorithm": "Strassen7^16<2^45",
+    "halo_source_constants": [
+      48,
+      128
+    ],
+    "same_source_outer_formulas": true,
+    "retained_five_framework_assumptions": [
+      {
+        "id": "native_all_columns",
+        "statement": "Retained native operators, phase conventions, spectators and whole-job adapters work at every positive column multiplicity."
+      },
+      {
+        "id": "owned_erasure",
+        "statement": "Owned streams and suspended centers obey the retained allocation, erasure and ownership contracts."
+      },
+      {
+        "id": "compiler",
+        "statement": "The finite mixed-target compiler and chronological product, completion and splitting satisfy the retained uniform closure contract."
+      },
+      {
+        "id": "precision_tape",
+        "statement": "Retained fixed-tape movement and precision/storage prescriptions apply to the new fixed finite template."
+      },
+      {
+        "id": "analytic_recovery",
+        "statement": "Analytic decomposition, fine-prime avoidance and exact integer recovery follow the retained upstream/outer framework."
+      }
+    ]
+  },
+  "full_upper_established": false,
+  "full_upper": null,
+  "remaining_obligations": [
+    "Instantiate the completed-endpoint Clifford stack and normalized row-stock cancellation for changed own-head native recipe, retaining all phase/owned/whole-column assumptions.",
+    "Instantiate all seven full coefficients, Fermat helper factors, precision/errors, fine-prime capacity and boundary/recovery guards with this delta/H; algebraically positive exponents alone do not close them.",
+    "Bind a new complete candidate comparison certificate; do not change or relabel the frozen PR4610 lower-only certificate."
+  ],
+  "checks": 16374,
+  "source_sha256": {
+    "pr4610-literal-source/research__final4610-independent-admission__SOURCES.json": "25fed1fae88cffefc64cdecf8114718f4f4bcff1ef11e69e7556b8f40110e9a6",
+    "pr4610-literal-source/manifest.json": "8aae56a5c42e64844f9455fe53012ceb330bc8eeb25ae3bc5d6af713e96a6d67",
+    "pr4610-literal-source/research__final4610-independent-admission__FIRST-COLD-REPLAY.json": "0b37e1741af786144e1eb78a752bee65424437107c5065181d8a28e05ec30122",
+    "pr4610-literal-source/research__final4610-independent-admission__PROOF.md": "e573cbbe6fa5481c0533e773de404e10f4dc7907b5ebfe404bdcd02dcf9844d8",
+    "pr4610-literal-source/research__final4610-independent-admission__SPECIALIZATION.md": "70430114f744108223bc1d44b98bc25b696c4b408b7b044c2a8bbdfdb434ac5c",
+    "pr4610-literal-source/research__final4610-independent-admission__VERIFY.json": "3beda8479a0db2a01732a860b7299e05aecc35235943eacd494f179270f3cfc0",
+    "pr4610-literal-source/research__final4610-independent-admission__verify.py": "94ae718a0b5db7f91550c352a4b573edbf62d16aaa925cf250f01b4b8c15edeb",
+    "pr4610-literal-source/research__final4610-independent-admission__checks____init__.py": "0af9ca16983533aa5fcb9dbcfbbd6f91c6200c93f69515703c9d340f24fed748",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__all_helpers.py": "7bc813bbd400f851dcb0137ad31d53e7044f33d3a6cb729c60b070fddab0d1ef",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__arithmetic.py": "d67b2f665d4cc9ee49ca20af88a06ac2c971923b6a3a7d2b22bfc19c296ca8b5",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__census_controls.py": "35fb546ef060a56539be3ac0eaba9d36405bd10803a7829933bd45699c2873ea",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__claim.py": "86bf973f21b6bb1fe54b5dc83b89264e0b406d0ff1a6f686133c055a9752f39a",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__compiler.py": "4ec862afb1b0c18cecebec9b04d692be37083da64814da79ad692da96fd62bb5",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__frame.py": "0ef2fa6794ccdc5895a7b72ff318b1f0b56da933ef829705f98ac6d35ee17bcf",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__helpers.py": "a6516b310c41a07db9a83f1444c9ae63295286acdb5a5e3eb561bef46cdb22ce",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__independent_clifford.py": "4953e06bd3837fa414372a62f2de57711854353e3a6ac6cea94e4c18ae42ea87",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__invoice.py": "c0a9f90dfbbacec2d6d065986fad3c2b985361b9601d941ceb8296361311a60a",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__lift.py": "5ca85c008be87d6b49ba24f7928f3f6cc9558d5342119a5e715abf28326ac9fa",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__lineage.py": "7eb01f6125dd65fad0aa404055b0ed3f0609cce01e3d407f5089e4d5f0ac9dbb",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__moments.py": "4de41cb8cff88de815f47b634709ef819f822544a03a66ae35c0bea76e5d94c9",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__native.py": "49b3560fd1baefd3ac986854844d399f1d180f8fd96724b0c3b2065e98a44523",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__outer.py": "196be1bc2329500f2c7c995deaf5a82aecc5e27f0fef7805470cb65d187bb1c0",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__paid.py": "4c6ff3312440ec3ef0c3e2649a1d2dae0f81ef09a8c65b46866775b56be79907",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__source.py": "7b519f0d9326b630c142630fec55a6a8b03a7b2dee7f4fcb2ca68564c4e04e53",
+    "pr4610-literal-source/research__final4610-independent-admission__checks__specialization.py": "a4baf55b462bff8a1f4b9d49d928ff88018792710a1c36b87f859093969921d6",
+    "pr4610-literal-source/research__joint-helper-lattice__CONTROLLER.json": "1f5d6aa267e4e66048818714b5d3b5eae17a58abe91d15deeaa34574f7391a5f",
+    "pr4610-literal-source/research__joint-helper-lattice__NATIVE.json.gz": "74582cce642c80f0235be7fcbce3716174666326ac6a1d46d02a62a75d7be4c6",
+    "pr4610-literal-source/research__kappa-rebuild__complex__full-identity-certificates__THREE-base-FULL-IDENTITY-NATIVE.json.gz": "c54b0a3e129d28e6dbf74fa731fc3bb70fe3c6705f07256750fbecddcc842d39",
+    "pr4610-literal-source/research__kappa-round3-warp-20261022__ACTUAL-WORD.json.gz": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+    "pr4610-literal-source/research__kappa-round6-compiler-tightening-20261022__ARITHMETIC.json": "b4f720a7ccbb5b46e472eaf85dc8739a40598986f19b37d26c4f9ecfbd31f0de",
+    "pr4610-upper-parameters-source/manifest.json": "eaffddcf4b5882af3b090cbf9853b7d3ab33867f73d08b0d71779dcaaee5ba1d",
+    "pr4610-upper-parameters-source/research__kappa-round3-warp-20261022__PHASE-VALIDATION.json.gz": "6eae66ed3cfa8a1533e89b9660a57276908e6646640a12f8b1e3489f4ea1354b",
+    "pr4610-upper-parameters-source/research__kappa-round3-warp-20261022__NATIVE-VALIDATION.json": "eec3b14241430b6c9f5de3cbf0e3d45a172d8071d2dccd2b59d56a1fbac3d428",
+    "pr4610-upper-parameters-source/notes__general-clifford-frames.tex": "c9bb9655b594583c6b4bab8cb485233f1d1e588f83858cf1e4c3530cee8fed54",
+    "record-cost-coverage/latest-selection/certificates__frontier4610__CLAIM.json": "c48376a8365a4c7b67adb368bafa128bede4cd5589a41fa276f96a350d45606c",
+    "pr4610-literal-work-lower.json": "52edba802e1d0f99d193a85dd354347ac900f4404f9ac072ed72151f005afbd5"
+  },
+  "script_sha256": "0ffc273f5d4819787545cc8acdf35c805088d9649174ee224ae9bf40b5e3da89"
+}

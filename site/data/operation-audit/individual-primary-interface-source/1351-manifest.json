@@ -1,0 +1,67 @@
+{
+  "pr": 1351,
+  "own_head": "c2ede7d2fcf8b1d812521fa1a65064946b0de5a6",
+  "primary_path_candidates": [
+    "research/seed03-bit-physical-family/RESULT.json",
+    "research/seed03-bit-physical-family/README.md",
+    "research/seed03-bit-physical-family/TASK.json",
+    "research/seed03-bit-physical-family/VERIFY.json",
+    "research/seed03-bit-physical-family/VALIDATION.json",
+    "research/seed03-bit-physical-family/NOTICE.md",
+    "research/seed03-bit-physical-family/verify.py",
+    "research/seed03-bit-physical-family/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/seed03-bit-physical-family/TASK.json",
+    "research/seed03-bit-physical-family/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/seed03-bit-physical-family/README.md",
+      "file": "remaining-record-audit/artifacts/1351/69edf380fac3__README.md",
+      "sha256": "69edf380fac36c7f5aad0aec7bf993bc7901c77f78d4ccf80b536795adbcb2c0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2ede7d2fcf8b1d812521fa1a65064946b0de5a6/research/seed03-bit-physical-family/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/seed03-bit-physical-family/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1351/0883de3d22e8__RESULT.json",
+      "sha256": "0883de3d22e8b376ab4970be74ad790958fbbad5f29ea68aab16262cad9b80e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2ede7d2fcf8b1d812521fa1a65064946b0de5a6/research/seed03-bit-physical-family/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/seed03-bit-physical-family/verify.py",
+      "file": "remaining-record-audit/artifacts/1351/120ad7a0d77e__verify.py",
+      "sha256": "120ad7a0d77e939a21169156ffc7eaedd3640541d9ecd95c3abc32024a31d6d3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2ede7d2fcf8b1d812521fa1a65064946b0de5a6/research/seed03-bit-physical-family/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 10,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1351,
+      "head": "c2ede7d2fcf8b1d812521fa1a65064946b0de5a6",
+      "path": "research/seed03-bit-physical-family/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2ede7d2fcf8b1d812521fa1a65064946b0de5a6/research/seed03-bit-physical-family/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c691f22e97a25ee578cae83da53655b0d578e81217b2ff2045d15474d62a6a62",
+      "git_blob_sha1": "0af15abf8c4b83a2b2674e3f3a806b60c8093285",
+      "bytes": 6145,
+      "file": "individual-primary-interface-source/1351/c691f22e97a2__TASK.json"
+    },
+    {
+      "pr": 1351,
+      "head": "c2ede7d2fcf8b1d812521fa1a65064946b0de5a6",
+      "path": "research/seed03-bit-physical-family/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c2ede7d2fcf8b1d812521fa1a65064946b0de5a6/research/seed03-bit-physical-family/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "433527d64236f81263183b45b10e060882928c51689710dbb8349134dd042b50",
+      "git_blob_sha1": "abaa7d94684e2e61aaf95c15811ba4173e9c6ef5",
+      "bytes": 1957,
+      "file": "individual-primary-interface-source/1351/433527d64236__VERIFY.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 974,
+    "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+    "path": "research/t21-interface-budget/CLAIM.json",
+    "api_sha": "26a7e247cc8cbba5a84f13934a92f3ec8fd790d5",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f40cd20a8c257bcfee17508c7de68fee24df0568/research%2Ft21-interface-budget%2FCLAIM.json",
+    "priority": 120,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/CLAIM.json",
+    "file": "artifacts\\974\\25958988c4db__CLAIM.json",
+    "sha256": "25958988c4db6cf0ea87cb52269b802064a542b396ad59830543e591f71c8e0d",
+    "git_blob_sha1": "26a7e247cc8cbba5a84f13934a92f3ec8fd790d5",
+    "bytes": 1368,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.343950+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 974,
+    "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+    "path": "research/t21-interface-budget/README.md",
+    "api_sha": "d202238de2ba767c5f6a6516364ba5d9c18995d7",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f40cd20a8c257bcfee17508c7de68fee24df0568/research%2Ft21-interface-budget%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/README.md",
+    "file": "artifacts\\974\\726e41ea3f86__README.md",
+    "sha256": "726e41ea3f868008872ec8f0cfd7e7ba23f03a99fff05846af2ee43b989b2dbd",
+    "git_blob_sha1": "d202238de2ba767c5f6a6516364ba5d9c18995d7",
+    "bytes": 7545,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.337951+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 974,
+    "head": "f40cd20a8c257bcfee17508c7de68fee24df0568",
+    "path": "research/t21-interface-budget/verify.py",
+    "api_sha": "72bbf74d41fe98bf08635cee5eb1dd724c199792",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f40cd20a8c257bcfee17508c7de68fee24df0568/research%2Ft21-interface-budget%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f40cd20a8c257bcfee17508c7de68fee24df0568/research/t21-interface-budget/verify.py",
+    "file": "artifacts\\974\\0d45c8d5f09c__verify.py",
+    "sha256": "0d45c8d5f09c71671e558bc41a6fa5521329d793d8683542cc6cda3c77415b40",
+    "git_blob_sha1": "72bbf74d41fe98bf08635cee5eb1dd724c199792",
+    "bytes": 6472,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.349471+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

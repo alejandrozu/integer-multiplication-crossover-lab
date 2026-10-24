@@ -1,0 +1,60 @@
+{
+  "pr": 1052,
+  "own_head": "e7f0319b7a7b4e8e1958ae523affdc123e3ea597",
+  "primary_path_candidates": [
+    "research/t37-binomial-endpoint-audit-seed78/CLAIM.json",
+    "research/t37-binomial-endpoint-audit-seed78/CERTIFICATE.json",
+    "research/t37-binomial-endpoint-audit-seed78/README.md",
+    "research/t37-binomial-endpoint-audit-seed78/VALIDATION.json",
+    "research/t37-binomial-endpoint-audit-seed78/verify.py",
+    "research/t37-binomial-endpoint-audit-seed78/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/t37-binomial-endpoint-audit-seed78/VALIDATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-binomial-endpoint-audit-seed78/README.md",
+      "file": "remaining-record-audit/artifacts/1052/78df0a56238e__README.md",
+      "sha256": "78df0a56238e0b2777c0058401bf191b44e4d1cc98e498ed78d475189bf1ce8b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7f0319b7a7b4e8e1958ae523affdc123e3ea597/research/t37-binomial-endpoint-audit-seed78/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-binomial-endpoint-audit-seed78/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1052/e0ca0d8a8ea9__CLAIM.json",
+      "sha256": "e0ca0d8a8ea94fb1ba18481c507d648c334ea330d348f75a9c3b05d518e662c2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7f0319b7a7b4e8e1958ae523affdc123e3ea597/research/t37-binomial-endpoint-audit-seed78/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-binomial-endpoint-audit-seed78/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1052/528c8474778c__CERTIFICATE.json",
+      "sha256": "528c8474778c63cbbf6eba99822f96bbb34f82937133d0bbb92fa2b25a0a6286",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7f0319b7a7b4e8e1958ae523affdc123e3ea597/research/t37-binomial-endpoint-audit-seed78/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t37-binomial-endpoint-audit-seed78/verify.py",
+      "file": "remaining-record-audit/artifacts/1052/c18a560e6cd7__verify.py",
+      "sha256": "c18a560e6cd70cd72a0f275649ce5756e32f92a90c5834d85dcb810ad1975ee5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7f0319b7a7b4e8e1958ae523affdc123e3ea597/research/t37-binomial-endpoint-audit-seed78/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1052,
+      "head": "e7f0319b7a7b4e8e1958ae523affdc123e3ea597",
+      "path": "research/t37-binomial-endpoint-audit-seed78/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/e7f0319b7a7b4e8e1958ae523affdc123e3ea597/research/t37-binomial-endpoint-audit-seed78/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "59c1cddfa16fd9e119665b510139e058d78e76a8e8d4a9f34189643b8df6ae5a",
+      "git_blob_sha1": "635748f9388abf137f61dd584aaa04b357277f74",
+      "bytes": 2973,
+      "file": "individual-primary-interface-source/1052/59c1cddfa16f__VALIDATION.json"
+    }
+  ]
+}

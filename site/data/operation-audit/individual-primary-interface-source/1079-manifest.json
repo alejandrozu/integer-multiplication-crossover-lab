@@ -1,0 +1,66 @@
+{
+  "pr": 1079,
+  "own_head": "bb20dab261884412f2d2a7955cdb2fd8e2e64a16",
+  "primary_path_candidates": [
+    "research/bit-source-substitution-seed11/CLAIM.json",
+    "research/bit-source-substitution-seed11/CERTIFICATE.json",
+    "research/bit-source-substitution-seed11/README.md",
+    "research/bit-source-substitution-seed11/VALIDATION.json",
+    "research/bit-source-substitution-seed11/check.py",
+    "research/bit-source-substitution-seed11/enumerate.py",
+    "research/bit-source-substitution-seed11/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-source-substitution-seed11/check.py",
+    "research/bit-source-substitution-seed11/VALIDATION.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-source-substitution-seed11/README.md",
+      "file": "remaining-record-audit/artifacts/1079/062b7537dc99__README.md",
+      "sha256": "062b7537dc99ab4671abf485e2571ef277b21bce3b22c13dab5db720e7c94f2c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb20dab261884412f2d2a7955cdb2fd8e2e64a16/research/bit-source-substitution-seed11/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-source-substitution-seed11/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1079/d11764db39bd__CLAIM.json",
+      "sha256": "d11764db39bd61d8db3995c0d3839180202ffc711d79dc676955536b1ddbd5e1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb20dab261884412f2d2a7955cdb2fd8e2e64a16/research/bit-source-substitution-seed11/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-source-substitution-seed11/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1079/9d115c595efe__CERTIFICATE.json",
+      "sha256": "9d115c595efe166a467940fc7fcd438d4ef3fde0e7f043c66ff9dca6904bdc52",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb20dab261884412f2d2a7955cdb2fd8e2e64a16/research/bit-source-substitution-seed11/CERTIFICATE.json"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1079,
+      "head": "bb20dab261884412f2d2a7955cdb2fd8e2e64a16",
+      "path": "research/bit-source-substitution-seed11/check.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb20dab261884412f2d2a7955cdb2fd8e2e64a16/research/bit-source-substitution-seed11/check.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "ef6bd3e69347a30a464842426b734a7cb2ab0786686ac31d038444a141672017",
+      "git_blob_sha1": "930359c712348032c9283ec4f4866d1ea96d3f5f",
+      "bytes": 16199,
+      "file": "individual-primary-interface-source/1079/ef6bd3e69347__check.py"
+    },
+    {
+      "pr": 1079,
+      "head": "bb20dab261884412f2d2a7955cdb2fd8e2e64a16",
+      "path": "research/bit-source-substitution-seed11/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/bb20dab261884412f2d2a7955cdb2fd8e2e64a16/research/bit-source-substitution-seed11/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d6276f4d8a81d04ccb655bae8e61701838b8028c07d0cd81d1d8fde2f8c1d327",
+      "git_blob_sha1": "9b4f83c9ca7ba357da9c7f44fc0ac75aaff8c688",
+      "bytes": 4011,
+      "file": "individual-primary-interface-source/1079/d6276f4d8a81__VALIDATION.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pr": 2010,
+  "own_head": "125ed77d114e0db0cb2c684494c7a5c90f559d60",
+  "primary_path_candidates": [
+    "research/sl2f3-conjugate-triple-seed592f/CERTIFICATE.json",
+    "research/sl2f3-conjugate-triple-seed592f/README.md",
+    "research/sl2f3-conjugate-triple-seed592f/TASK.json",
+    "research/sl2f3-conjugate-triple-seed592f/VERIFY.json",
+    "research/sl2f3-conjugate-triple-seed592f/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/sl2f3-conjugate-triple-seed592f/TASK.json",
+    "research/sl2f3-conjugate-triple-seed592f/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/sl2f3-conjugate-triple-seed592f/README.md",
+      "file": "remaining-record-audit/artifacts/2010/e3a491f3aa8b__README.md",
+      "sha256": "e3a491f3aa8b986e6047c9b41fb650e60a6c3f042223601257b0928ebd3771d6",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/125ed77d114e0db0cb2c684494c7a5c90f559d60/research/sl2f3-conjugate-triple-seed592f/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/sl2f3-conjugate-triple-seed592f/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/2010/92870cc9c4bb__CERTIFICATE.json",
+      "sha256": "92870cc9c4bb777d816453bcbdfbbae2b3f90e39b95e0358931f2da1d2582f43",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/125ed77d114e0db0cb2c684494c7a5c90f559d60/research/sl2f3-conjugate-triple-seed592f/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/sl2f3-conjugate-triple-seed592f/verify.py",
+      "file": "remaining-record-audit/artifacts/2010/f0d247b93792__verify.py",
+      "sha256": "f0d247b937926ca72c808fc52cfa44fff5a6daf7d4f1bc2d6d1cfc7ad892bb00",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/125ed77d114e0db0cb2c684494c7a5c90f559d60/research/sl2f3-conjugate-triple-seed592f/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2010,
+      "head": "125ed77d114e0db0cb2c684494c7a5c90f559d60",
+      "path": "research/sl2f3-conjugate-triple-seed592f/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/125ed77d114e0db0cb2c684494c7a5c90f559d60/research/sl2f3-conjugate-triple-seed592f/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d464cfed2752232f5155afdd9485a094d121c9913db1e2e939270eb2c64619c8",
+      "git_blob_sha1": "cda753904462c07a77ee01a301882d69dbb4594d",
+      "bytes": 6298,
+      "file": "individual-primary-interface-source/2010/d464cfed2752__TASK.json"
+    },
+    {
+      "pr": 2010,
+      "head": "125ed77d114e0db0cb2c684494c7a5c90f559d60",
+      "path": "research/sl2f3-conjugate-triple-seed592f/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/125ed77d114e0db0cb2c684494c7a5c90f559d60/research/sl2f3-conjugate-triple-seed592f/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0ab2db28282636e382caab037dd1d3841141fb317b501befacf9d149f386696f",
+      "git_blob_sha1": "a912b350b36b943af204c011fa4597f789051a9e",
+      "bytes": 699,
+      "file": "individual-primary-interface-source/2010/0ab2db282826__VERIFY.json"
+    }
+  ]
+}

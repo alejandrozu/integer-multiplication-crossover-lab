@@ -1,0 +1,11 @@
+{
+  "schema": "public-GitHub-additive-archive-verification/1",
+  "release_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24",
+  "file": "operation-audit-objects-58.zip",
+  "bytes": 4200444,
+  "sha256": "dfbde982faddaf8c470821402711c9c408aa8eaa827c289a8846ffdbb383ed7b",
+  "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-58.zip",
+  "server_digest_verified": true,
+  "anonymous_download_HTTP_status": 200,
+  "scope": "Transport-only final static-presentation aliases; base43\u201357 unchanged; no new endpoint."
+}

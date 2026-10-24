@@ -1,0 +1,80 @@
+{
+  "pr": 2315,
+  "own_head": "4a2f20ea339e30348448096ca789d0efe55df9bb",
+  "primary_path_candidates": [
+    "research/t74-borrow43-independent-check/README.md",
+    "research/t74-borrow43-independent-check/TASK.json",
+    "research/t74-borrow43-independent-check/VERIFY.json",
+    "research/t74-borrow43-independent-check/check_all.receipt.json",
+    "research/t74-borrow43-independent-check/fill_check.receipt.json",
+    "research/t74-borrow43-independent-check/price_check.receipt.json",
+    "research/t74-borrow43-independent-check/words_check.receipt.json",
+    "research/t74-borrow43-independent-check/check_all.py",
+    "research/t74-borrow43-independent-check/fill_check.py",
+    "research/t74-borrow43-independent-check/price_check.py",
+    "research/t74-borrow43-independent-check/words_check.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-borrow43-independent-check/TASK.json",
+    "research/t74-borrow43-independent-check/VERIFY.json",
+    "research/t74-borrow43-independent-check/check_all.py",
+    "research/t74-borrow43-independent-check/check_all.receipt.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-borrow43-independent-check/README.md",
+      "file": "remaining-record-audit/artifacts/2315/f4758161be23__README.md",
+      "sha256": "f4758161be23b07f1c2bc78b5d07d2c689032615ef20ff7bb8177489a6725c7b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4a2f20ea339e30348448096ca789d0efe55df9bb/research/t74-borrow43-independent-check/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2315,
+      "head": "4a2f20ea339e30348448096ca789d0efe55df9bb",
+      "path": "research/t74-borrow43-independent-check/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4a2f20ea339e30348448096ca789d0efe55df9bb/research/t74-borrow43-independent-check/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3bdaf6fa3d2edbbd49e82e6728b83fab313abdecedb5ea2bc255bd8f52d9fb16",
+      "git_blob_sha1": "dc36320150bcfd8b328b77c34715c7ae5b5160eb",
+      "bytes": 5255,
+      "file": "individual-primary-interface-source/2315/3bdaf6fa3d2e__TASK.json"
+    },
+    {
+      "pr": 2315,
+      "head": "4a2f20ea339e30348448096ca789d0efe55df9bb",
+      "path": "research/t74-borrow43-independent-check/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4a2f20ea339e30348448096ca789d0efe55df9bb/research/t74-borrow43-independent-check/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b0045305bbd402e8a274c0366735ed2e143a67b11b0489c7d61840d9d5e10410",
+      "git_blob_sha1": "58cc12a3b5fa21028e91c3526552d8a3d11f3bd2",
+      "bytes": 592,
+      "file": "individual-primary-interface-source/2315/b0045305bbd4__VERIFY.json"
+    },
+    {
+      "pr": 2315,
+      "head": "4a2f20ea339e30348448096ca789d0efe55df9bb",
+      "path": "research/t74-borrow43-independent-check/check_all.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4a2f20ea339e30348448096ca789d0efe55df9bb/research/t74-borrow43-independent-check/check_all.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "34b328fe6ad94b22167ef63474b87bcaa4c5e8ccd9ce237503f5209af68febb8",
+      "git_blob_sha1": "7fdf05e85cf61ab6eb894caa2a8ea9f13f296523",
+      "bytes": 17459,
+      "file": "individual-primary-interface-source/2315/34b328fe6ad9__check_all.py"
+    },
+    {
+      "pr": 2315,
+      "head": "4a2f20ea339e30348448096ca789d0efe55df9bb",
+      "path": "research/t74-borrow43-independent-check/check_all.receipt.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4a2f20ea339e30348448096ca789d0efe55df9bb/research/t74-borrow43-independent-check/check_all.receipt.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "96af687259d36722b1861272518ccf145ffeda19c172eaa63d40210591516dc4",
+      "git_blob_sha1": "d98583729ff8b96c256f21db26b2bfd1e71910c7",
+      "bytes": 11973,
+      "file": "individual-primary-interface-source/2315/96af687259d3__check_all.receipt.json"
+    }
+  ]
+}

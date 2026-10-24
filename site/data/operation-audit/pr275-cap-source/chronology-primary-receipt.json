@@ -1,0 +1,40 @@
+{
+  "pr": 275,
+  "source_head": "524375c61b75dc10cef68a71d504e79e7e7f138c",
+  "current_head": "524375c61b75dc10cef68a71d504e79e7e7f138c",
+  "state": "closed",
+  "merged": true,
+  "created_at": "2026-10-10T04:17:25Z",
+  "updated_at": "2026-10-16T15:51:17Z",
+  "closed_at": "2026-10-16T15:51:16Z",
+  "merged_at": "2026-10-16T15:51:16Z",
+  "merge_commit_sha": "fadae6f469e0d5c9c03bbe047a4d383dac254448",
+  "source_head_author_date": "2026-10-13T11:43:12Z",
+  "source_head_committer_date": "2026-10-13T11:43:12Z",
+  "source_head_message": "Apply finite assembly to source-bound PR799 caps",
+  "merge_parents": [
+    "84ac2d3a54f148123d1cc72883d89de70aca1c35",
+    "524375c61b75dc10cef68a71d504e79e7e7f138c"
+  ],
+  "merge_date": "2026-10-16T15:51:12Z",
+  "primary_sources": [
+    {
+      "api": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/pulls/275",
+      "file": "pr275-cap-source/current-pull275-api.json",
+      "sha256": "a7ae937414b95fa6163b4069bcd9ef31faadb47b7c55274e36477c56e0c5d5b6",
+      "fetched_at_utc": "2026-10-24T17:12:16.033286+00:00"
+    },
+    {
+      "api": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/commits/524375c61b75dc10cef68a71d504e79e7e7f138c",
+      "file": "pr275-cap-source/source-head-commit-api.json",
+      "sha256": "ca1bdb4870add8114fb70be3d7bffd92be45bf6fcfebda642f45f65383251f03",
+      "fetched_at_utc": "2026-10-24T17:12:16.748613+00:00"
+    },
+    {
+      "api": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/commits/fadae6f469e0d5c9c03bbe047a4d383dac254448",
+      "file": "pr275-cap-source/actual-merge-commit-api.json",
+      "sha256": "1c40ad5a53b0b68b38a1587b90f607c49666003f156e00235bd5aaa1b8dedf63",
+      "fetched_at_utc": "2026-10-24T17:12:17.370223+00:00"
+    }
+  ]
+}

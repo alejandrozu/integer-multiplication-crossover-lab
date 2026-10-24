@@ -1,0 +1,43 @@
+{
+  "pr": 801,
+  "own_head": "f0758653a5a1f72c3b59e58d6fe8d658db20b50b",
+  "primary_path_candidates": [
+    "research/label-field-census/RESULT.json",
+    "research/label-field-census/README.md",
+    "research/label-field-census/census.py"
+  ],
+  "selected_for_recovery": [
+    "research/label-field-census/census.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/label-field-census/README.md",
+      "file": "remaining-record-audit/artifacts/801/45266700399a__README.md",
+      "sha256": "45266700399a09c50402afd8fd6cd7d1a2a606d4c8cedf4cd1218d9d4d61134a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f0758653a5a1f72c3b59e58d6fe8d658db20b50b/research/label-field-census/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/label-field-census/RESULT.json",
+      "file": "remaining-record-audit/artifacts/801/015c5f8886ff__RESULT.json",
+      "sha256": "015c5f8886ff2958a7f074dc37b371a24eece87332061da466656a4f52c1e946",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f0758653a5a1f72c3b59e58d6fe8d658db20b50b/research/label-field-census/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 3,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 801,
+      "head": "f0758653a5a1f72c3b59e58d6fe8d658db20b50b",
+      "path": "research/label-field-census/census.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f0758653a5a1f72c3b59e58d6fe8d658db20b50b/research/label-field-census/census.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "aab8f799d90b4957ef5a09180b14d9dd072c7a7097c92b00278f650fc0818186",
+      "git_blob_sha1": "70d1cd3d8876d3032d6872650c50708bd8eb686f",
+      "bytes": 11732,
+      "file": "individual-primary-interface-source/801/aab8f799d90b__census.py"
+    }
+  ]
+}

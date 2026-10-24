@@ -1,0 +1,79 @@
+{
+  "pr": 950,
+  "own_head": "5bafe2c91e045d10de207b9e5b21630dfebb9cd2",
+  "primary_path_candidates": [
+    "research/central-factor-packed/CLAIM.md",
+    "research/central-factor-packed/README.md",
+    "research/central-factor-packed/VALIDATION.md",
+    "research/central-factor-packed/BENCHMARK.json",
+    "research/central-factor-packed/VALIDATION.json",
+    "research/central-factor-packed/NOTICE.md",
+    "research/central-factor-packed/packed.py",
+    "research/central-factor-packed/verify.py",
+    "research/central-factor-packed/benchmark.py",
+    "research/central-factor-packed/test_packed.py"
+  ],
+  "selected_for_recovery": [
+    "research/central-factor-packed/CLAIM.md",
+    "research/central-factor-packed/BENCHMARK.json",
+    "research/central-factor-packed/VALIDATION.json",
+    "research/central-factor-packed/packed.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/central-factor-packed/README.md",
+      "file": "remaining-record-audit/artifacts/950/b91678e94e1f__README.md",
+      "sha256": "b91678e94e1fa6828ecbe66a623e6164765599d54f2bcdc9c9e006a5338926a3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5bafe2c91e045d10de207b9e5b21630dfebb9cd2/research/central-factor-packed/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 950,
+      "head": "5bafe2c91e045d10de207b9e5b21630dfebb9cd2",
+      "path": "research/central-factor-packed/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5bafe2c91e045d10de207b9e5b21630dfebb9cd2/research/central-factor-packed/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e01732e8c575ff7c0b65c4aea24cd7478ccfc38cf47749dab22340079aab7aad",
+      "git_blob_sha1": "126cb379db21124642e80fbfce75cd983ac621b7",
+      "bytes": 4050,
+      "file": "individual-primary-interface-source/950/e01732e8c575__CLAIM.md"
+    },
+    {
+      "pr": 950,
+      "head": "5bafe2c91e045d10de207b9e5b21630dfebb9cd2",
+      "path": "research/central-factor-packed/BENCHMARK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5bafe2c91e045d10de207b9e5b21630dfebb9cd2/research/central-factor-packed/BENCHMARK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1d1f0097897d4a7695c527b97ee11eeab99a81633ae525b42c63cfad1de62774",
+      "git_blob_sha1": "f776dbf36feef38396f6cba25a2a2e17b17cef4b",
+      "bytes": 7478,
+      "file": "individual-primary-interface-source/950/1d1f0097897d__BENCHMARK.json"
+    },
+    {
+      "pr": 950,
+      "head": "5bafe2c91e045d10de207b9e5b21630dfebb9cd2",
+      "path": "research/central-factor-packed/VALIDATION.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5bafe2c91e045d10de207b9e5b21630dfebb9cd2/research/central-factor-packed/VALIDATION.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "57908e2436719f0428309d926536a2391668b0eb827a87b9544845fc8e1cdf6e",
+      "git_blob_sha1": "9338f6ad64b7ce689ee0485206176335dcef088a",
+      "bytes": 6819,
+      "file": "individual-primary-interface-source/950/57908e243671__VALIDATION.json"
+    },
+    {
+      "pr": 950,
+      "head": "5bafe2c91e045d10de207b9e5b21630dfebb9cd2",
+      "path": "research/central-factor-packed/packed.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5bafe2c91e045d10de207b9e5b21630dfebb9cd2/research/central-factor-packed/packed.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "42f244d6e81dc5ea038a9dea19ccc803872603a94d5e405de14af8a47a11b9f6",
+      "git_blob_sha1": "379b6cc4a5933ec6c0b6cbe73273e5d097fb1335",
+      "bytes": 2578,
+      "file": "individual-primary-interface-source/950/42f244d6e81d__packed.py"
+    }
+  ]
+}

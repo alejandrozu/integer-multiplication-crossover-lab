@@ -1,0 +1,1553 @@
+{
+  "schema": "own-source-history-offline-reproduction/1",
+  "passed": true,
+  "offline": true,
+  "baseline_source_commit": "d9a805e567303843af72550a7eac55d99dd44eb9",
+  "archive_parts": [
+    {
+      "file": "operation-audit-objects-43.zip",
+      "bytes": 18883893,
+      "sha256": "07e90778deb7bf87753148f7267aa735b2f0a3b47a31103bc0937dd910b057b8",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-43.zip"
+    },
+    {
+      "file": "operation-audit-objects-44.zip",
+      "bytes": 18155473,
+      "sha256": "01d79e378c8d4577c72425d8a5cb11cbe4c9e62db9c98cfe88416fdbc61cd4ac",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-44.zip"
+    },
+    {
+      "file": "operation-audit-objects-45.zip",
+      "bytes": 9787266,
+      "sha256": "d4ab99c31037af6e774183c3741944fe26084bad7064a00c4fa8d6ca9230e1b3",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-45.zip"
+    },
+    {
+      "file": "operation-audit-objects-46.zip",
+      "bytes": 19822699,
+      "sha256": "5da995cf0128ee41e968c115a6c258557e109b3017c327fe09dfbfd8ef173d1b",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-46.zip"
+    },
+    {
+      "file": "operation-audit-objects-47.zip",
+      "bytes": 18420420,
+      "sha256": "4bc91c11c05876eacad9bc8bcad2b478987250a30915dcd0f0ebcbc62bbf8aa4",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-47.zip"
+    },
+    {
+      "file": "operation-audit-objects-48.zip",
+      "bytes": 19485195,
+      "sha256": "31d70f8b8a7929fe089e09dd3acc000558041eb0a034bdfa596e5cf5d30757f8",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-48.zip"
+    },
+    {
+      "file": "operation-audit-objects-49.zip",
+      "bytes": 8495151,
+      "sha256": "76576b4db82c5e3694d0419d024a83f6ff787a10c7c28ced92ac415a2527b886",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-49.zip"
+    },
+    {
+      "file": "operation-audit-objects-50.zip",
+      "bytes": 18742824,
+      "sha256": "1d03cf43ed960ef5d114124d0443a1b4ee63017267c1eab06adac704302bf160",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-50.zip"
+    },
+    {
+      "file": "operation-audit-objects-51.zip",
+      "bytes": 17487299,
+      "sha256": "63da2f116ed0aa0f5c538b708c647a08c50476d69e6f1ace973e2ae536584f73",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-51.zip"
+    },
+    {
+      "file": "operation-audit-objects-52.zip",
+      "bytes": 17625918,
+      "sha256": "87a7680669925cb5be720b6852da41070867b2696575974136bd44344970067e",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-52.zip"
+    },
+    {
+      "file": "operation-audit-objects-53.zip",
+      "bytes": 18985123,
+      "sha256": "2be3ff033482b3c3c16a7e85c95a7bbd3cf6fcc30b454fcb818b0a0f36ab41de",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-53.zip"
+    },
+    {
+      "file": "operation-audit-objects-54.zip",
+      "bytes": 16650184,
+      "sha256": "45bfe93f586b25fcaad4a0e099811ca088fbfa0170a592dc059883c0c8ce1084",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-54.zip"
+    },
+    {
+      "file": "operation-audit-objects-55.zip",
+      "bytes": 5309166,
+      "sha256": "874c0e63a14f16a5020ad6d429c265c5b399825594a3338f4dd29d759ab2dd6d",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-55.zip"
+    },
+    {
+      "file": "operation-audit-objects-56.zip",
+      "bytes": 4178243,
+      "sha256": "01088755156137a4403d1f833ec5704812659eee604f924c637715588ef1ecd7",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-56.zip"
+    },
+    {
+      "file": "operation-audit-objects-57.zip",
+      "bytes": 6883720,
+      "sha256": "ccea2337c4d13c7e4e194c47ad36aeea9eb886a2076611f4ec22314d7b4f84a2",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-57.zip"
+    },
+    {
+      "file": "operation-audit-objects-58.zip",
+      "bytes": 4200444,
+      "sha256": "dfbde982faddaf8c470821402711c9c408aa8eaa827c289a8846ffdbb383ed7b",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-58.zip"
+    },
+    {
+      "file": "operation-audit-objects-59.zip",
+      "bytes": 5236487,
+      "sha256": "1bc7882f2c2747aa6ba90dc674e0d118638c8e36d0d825396ae1d619c197db9d",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-59.zip"
+    },
+    {
+      "file": "operation-audit-objects-60.zip",
+      "bytes": 4181432,
+      "sha256": "ad3c8502620ff05efc181e5035bac405b86fae38c1bb5f276dca74e288d548b4",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-60.zip"
+    },
+    {
+      "file": "operation-audit-objects-61.zip",
+      "bytes": 7451839,
+      "sha256": "85c4171701faab7ea9c1e19e9f8a5bf08d7f7d32b71ddf055ea1f8c9f2e7aa8a",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-61.zip"
+    },
+    {
+      "file": "operation-audit-objects-62.zip",
+      "bytes": 4191554,
+      "sha256": "e3143b911438cd4dffcd7cbe0288043752e8b01e956b3ac3b4f4c6ba4ebda6de",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-62.zip"
+    }
+  ],
+  "complete_payload_members": 20096,
+  "complete_payload_hash_map_sha256": "3170678854f0dd3ae1d11c35746e38fc776667a89d04eb65a8ac019ac9616f97",
+  "own_source_entries": [
+    2,
+    3,
+    4,
+    9,
+    10,
+    12,
+    18,
+    24,
+    32,
+    36,
+    37,
+    39,
+    43,
+    46,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    60,
+    61,
+    62,
+    104,
+    115,
+    130,
+    144,
+    149,
+    150,
+    151,
+    275,
+    514,
+    523,
+    576,
+    578,
+    582,
+    584,
+    586,
+    588,
+    592,
+    596,
+    600,
+    601,
+    603,
+    604,
+    607,
+    609,
+    610,
+    614,
+    616,
+    617,
+    618,
+    622,
+    623,
+    624,
+    625,
+    626,
+    636,
+    638,
+    639,
+    640,
+    642,
+    644,
+    654,
+    685,
+    869,
+    870,
+    890,
+    937,
+    942,
+    962,
+    991,
+    1009,
+    1018,
+    1019,
+    1022,
+    1028,
+    1031,
+    1042,
+    1050,
+    1053,
+    1055,
+    1056,
+    1061,
+    1063,
+    1065,
+    1068,
+    1074,
+    1082,
+    1087,
+    1094,
+    1104,
+    1107,
+    1117,
+    1121,
+    1124,
+    1129,
+    1130,
+    1131,
+    1148,
+    1150,
+    1152,
+    1154,
+    1157,
+    1169,
+    1172,
+    1175,
+    1176,
+    1178,
+    1183,
+    1192,
+    1297,
+    1319,
+    1377,
+    1424,
+    1444,
+    1458,
+    1464,
+    1479,
+    1485,
+    1510,
+    1513,
+    1536,
+    1549,
+    1574,
+    1578,
+    1582,
+    1586,
+    1601,
+    1625,
+    1629,
+    1640,
+    1644,
+    1661,
+    1672,
+    1673,
+    1677,
+    1828,
+    1875,
+    2077,
+    2169,
+    3308,
+    3338,
+    3413,
+    4405,
+    4411,
+    4412,
+    4413,
+    4414,
+    4433,
+    4446,
+    4453,
+    4480,
+    4563,
+    4564,
+    4565,
+    4568,
+    4570,
+    4626,
+    4630,
+    4635,
+    4672,
+    4707,
+    4713,
+    5377,
+    5383,
+    5384,
+    5390,
+    5392,
+    5395,
+    5396,
+    5398,
+    5399,
+    5400
+  ],
+  "reproduced_certificate_files": 470,
+  "published169_inheritance_used": true,
+  "published150_inheritance_used": false,
+  "published108_inheritance_used": false,
+  "checks": [
+    {
+      "test": "owned_fixture_checked_against_current_archives",
+      "passed": true,
+      "result": {
+        "schema": "verified-reused-reproduction/1",
+        "passed": true,
+        "restoration_mode": "verified_reused_with_current_exact_additions_or_transport_replacements",
+        "fresh_restoration": false,
+        "output": "C:\\Users\\Propietario\\Documents\\Codex\\ch-o0wj54h1\\restored",
+        "files": 20087,
+        "unique_objects": 15357,
+        "archives_verified": 18,
+        "descriptor_sha256": "75d03905bbae161d88be7bc0e6277c0b681775c6be84b8f4c065439a77a72e4e",
+        "full_payload_hash_map_sha256": "a313686315b93db9b3e34ad518455b5933c8dd0d022e4d41399f71bf39526770",
+        "reused_files": 20067,
+        "added_files": [
+          "operation-audit/late-cold-mixed-native-outputs/45bcd9ebc2cee387d6ccc90eddae85d3af20f1a5b1574fa180a359020bf6c2eb/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/45bcd9ebc2cee387d6ccc90eddae85d3af20f1a5b1574fa180a359020bf6c2eb/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/45bcd9ebc2cee387d6ccc90eddae85d3af20f1a5b1574fa180a359020bf6c2eb/WRAPPER-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/7f4c71dd12c7c2fbfbb4602aba6089f0633a73464ae24facba05054be8930774/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/7f4c71dd12c7c2fbfbb4602aba6089f0633a73464ae24facba05054be8930774/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/7f4c71dd12c7c2fbfbb4602aba6089f0633a73464ae24facba05054be8930774/WRAPPER-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/8ac4e15e1f289c124f2bb74183f1998fd739ddd396643d54a855e6b181b98d84/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/8ac4e15e1f289c124f2bb74183f1998fd739ddd396643d54a855e6b181b98d84/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/8ac4e15e1f289c124f2bb74183f1998fd739ddd396643d54a855e6b181b98d84/WRAPPER-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/9f94857de91021970cbf35099abafb3161568a723aa80e43d862606c8006485d/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/9f94857de91021970cbf35099abafb3161568a723aa80e43d862606c8006485d/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/9f94857de91021970cbf35099abafb3161568a723aa80e43d862606c8006485d/WRAPPER-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/b82c7888e7fad97b752cec3fd5be459df2ad35fdcdf15434beb04f4bf0c05922/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/b82c7888e7fad97b752cec3fd5be459df2ad35fdcdf15434beb04f4bf0c05922/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/b82c7888e7fad97b752cec3fd5be459df2ad35fdcdf15434beb04f4bf0c05922/WRAPPER-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/d8346aa37e1a114afeeca9b02f6aa190d46480bdad787385eb8271140837bba1/LOCAL-CHECKS.json",
+          "operation-audit/late-cold-mixed-native-outputs/d8346aa37e1a114afeeca9b02f6aa190d46480bdad787385eb8271140837bba1/RESIDUAL-ADAPTERS.json",
+          "operation-audit/late-cold-mixed-native-outputs/d8346aa37e1a114afeeca9b02f6aa190d46480bdad787385eb8271140837bba1/WRAPPER-CHECKS.json"
+        ],
+        "replaced_transport_files": [
+          "operation-audit/manifest.json",
+          "site/dist/data/compressed-evidence-catalog.json"
+        ],
+        "written_bytes": 5587610,
+        "extra_file_count": 1,
+        "extra_files_are_not_expected_source": true,
+        "ignored_extra_files_sha256": "472c297105686f96df920af558932588991efbe461c0316ea9996741bd866792",
+        "scope": "Every expected current source file and every ZIP size/SHA verified. Extra generated files were counted, not admitted as source. Explicit reuse is not a fresh reconstruction or a mathematical replay. Caller exclusively owns tree during verification."
+      }
+    },
+    {
+      "test": "complete_archive_set_exact_reconstruction",
+      "passed": true,
+      "members": 20087,
+      "parts": 18
+    },
+    {
+      "test": "previous_release_scientific_source_and_peer_bytes_unchanged",
+      "passed": true,
+      "retained_files": 1292
+    },
+    {
+      "test": "new_own_source_peer_and_certificate_bindings",
+      "passed": true,
+      "entries": 179
+    },
+    {
+      "test": "published169_unchanged_source_replays_inherited",
+      "passed": true,
+      "published_source_commit": "8868ccba68f28fe6d4f81a744e7a4f28cf26917a",
+      "prior_offline_receipt_sha256": "1a930fd4fee1f56b5b27e7cfe05ef05eb9811b72d8cb6acf0df02c1082388e3d",
+      "published_map_capsule_used": true,
+      "eligible_entries": 119,
+      "transitive_file_bindings": 5381,
+      "jobs": [
+        [
+          "changed_native_p16_boundary_lowers.py"
+        ],
+        [
+          "cold14_descriptive_counter_audit.py"
+        ],
+        [
+          "copied_center_finite_uppers.py"
+        ],
+        [
+          "early_mixed_finite_controller_upper.py"
+        ],
+        [
+          "early_mixed_native_components.py"
+        ],
+        [
+          "early_mixed_owner_invoice.py"
+        ],
+        [
+          "ends7_descriptive_counter_audit.py"
+        ],
+        [
+          "gaussian_only_admitted_replay.py"
+        ],
+        [
+          "gaussian_only_selected_provider_bounds.py"
+        ],
+        [
+          "helper621_separated_bounds.py"
+        ],
+        [
+          "late_critical_p16_costs.py"
+        ],
+        [
+          "middle_p17_separated_bounds.py"
+        ],
+        [
+          "native_provider_derived_xag_costs.py"
+        ],
+        [
+          "native_provider_xag_source_bindings.py"
+        ],
+        [
+          "pr144_finite_controller_upper.py"
+        ],
+        [
+          "pr144_source_guard_supplement.py"
+        ],
+        [
+          "pr4433_literal_boundary_lower.py"
+        ],
+        [
+          "pr4446_hybrid_boundary_lower.py"
+        ],
+        [
+          "pr4713_derived_native_xag_costs.py"
+        ],
+        [
+          "pr4713_native_xag_source_bindings.py"
+        ],
+        [
+          "prepare_selected_provider_v13.py"
+        ],
+        [
+          "prepare_selected_provider_v13_whole_costs.py"
+        ],
+        [
+          "r480_selected_native_recovery.py"
+        ],
+        [
+          "r480_t16_finite_controller_upper.py"
+        ],
+        [
+          "r480_t16_owner_invoice.py"
+        ],
+        [
+          "selected_provider_admitted_replay.py"
+        ],
+        [
+          "selected_provider_dispatch_v13.py",
+          "--execute"
+        ],
+        [
+          "selected_provider_dispatch_v2.py",
+          "--execute"
+        ],
+        [
+          "selected_provider_dispatch_v3.py",
+          "--execute"
+        ],
+        [
+          "selected_provider_dispatch_v4.py",
+          "--execute"
+        ],
+        [
+          "selected_provider_v11_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v12_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v13_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v2_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v3_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v4_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v6_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v7_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v8_whole_bounds.py"
+        ],
+        [
+          "selected_provider_v9_whole_bounds.py"
+        ],
+        [
+          "selected_provider_whole_bounds.py"
+        ],
+        [
+          "source_committed_reviewed_lowers.py"
+        ],
+        [
+          "t21_t37_finite_controller_upper.py"
+        ]
+      ],
+      "scope": "Reuse is limited to exact published own certificates, proofs, peers and recursively bound source bytes. Every changed or new consumer forces its shared job to run. The prior receipt records either fresh execution or previously verified byte-bound inheritance. Container rotation preserves the prior map and historical source object under the original receipt hashes."
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_feasibility_interval_fluctuation.py"
+      ],
+      "passed": true,
+      "output_sha256": "e0bbedba918508b745eec1886986b216bfb5a31af49cc69559e9956cd71bd2cb"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "uniform_critical_p16_batch.py"
+      ],
+      "passed": true,
+      "output_sha256": "c15b4a3394dc986e74642fd900cd1c6f836782c3b3e30bc610bca18a9a16fc5a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_earliest_23410_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "c872b302efb54fc67b81107ecfbee1f521b77afb67ec60c4f5e49e4ebdb38440"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "earliest_four_native_interfaces.py"
+      ],
+      "passed": true,
+      "output_sha256": "3891b4b4b4ee3dd329e56c90dd099f331befc50d4387fbb2dae0e5f9f9712f7e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "earliest_four_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "99c2777be9a1c8269bb21341a31aa1898d898af0eb6946658bb2ae9dbcf34c85"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "verify_early_star9_finite_offline.py"
+      ],
+      "passed": true,
+      "output_sha256": "4de92c75c6452c11e840c5b4cd9e42c3143902f14ca51664f876c6ab511c54b1"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_retained_complex_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "b1235a817dee0243ff4c75eadf3673f4264ea1d8b4a5f68cfe7047b2d5c62932"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_native_grammar_supplement.py"
+      ],
+      "passed": true,
+      "output_sha256": "d7542a989f6689465c2e29afe88c46a795bc5f1bcc2d805f288135c830cb5f02"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_nonlinear_native_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "9f5019b0fd3736c628e4927a8794645bf072df19ed1b78e14667fba7c741d17c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_early_batched12_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "277ca1acb15367042c155939e4eca6a46f33fd7e330d3c31038d80c6b1c8f1b1"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_partial_swap_endpoint_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "dfbd58fe89cb3cef94b5be27dd5814a72eb84599b9a8e90d290b4383575d4130"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "partial_swap_endpoint_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "43fa21ae681831fa98c36849e73b49a6686b91dda7d3bb35057d9481e6eaaac5"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr12_batched_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "827f6e0f447cabe60c704856991b124599a108ea740ccf99131f111addbfa432"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "nonlinear_native_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "05f08afec0a7b5681f6c6e4b5f3f2e1f9b0eff237e4b07203df921a4baa9532a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr32_structured_finite_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "08d9690b534854db494b6aa8f7b63237e6d4b2d598ae95c0f6e6db9a040197dc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "copied_center_extension_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "534eb93e35ad8cf16bb1f76d60224acc30f1ab4a10e0c49cc6d3cf1b354f514f"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "copied_center_reversed_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "acf3bd492da303fe861385418d77ea1df0e5bd9cc3ef2cefa6bdbba543132a7c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "early_odd21_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "b5d84db07fd463287f9213957c3d1a05e0674b11a52e38f621990386f7b421fd"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr115_odd21_finite_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "3d97b55c2b0aaf9832c8fb7456172a7bda281afe162b6a61ac1cb7f66e7297d0"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr149_finite_controller_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "47fa59f4dc5328b599a9fd4cb602a39572d31b40b1c50cbcfe6e16e9ed7ef2c9"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recycled_bit_retained_complex_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "e41f48fc9a144596944ccbc44a6f39873d6a15a0a4cf9a3f6c2d3b2f932a2769"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_recycled_bit_retained_complex.py"
+      ],
+      "passed": true,
+      "output_sha256": "d5ab26a4fafe56af43b6505c2ae847d8bd8aaaad88f6c3736de5bedf6524ddbc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr275_supplied_cap_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "f60bc462ae2c8ff9a281b3ae30d7ff1daddc8591cae78858b4f421ec2c661ede"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_pr275_supplied_cap_math.py"
+      ],
+      "passed": true,
+      "output_sha256": "a5443ece77da783f37c919467d74ec43ab9770321ad3e3ea7c5b9ddc39767904"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_pr275_source_chronology.py"
+      ],
+      "passed": true,
+      "output_sha256": "557053150c2d8e021e57ce0d241d39963e3552f3a59f8c9991c74e6b353d7a6d"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr514_selected_native_source_bindings.py"
+      ],
+      "passed": true,
+      "output_sha256": "f90a3edf7b693cb36da77edcb866b56ba2a53c2c12e6c9dee91bf70e7582b073"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr514_partial_own_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "9bd9d52e3e2c95725b0252cda2d32d151f3f2731fc4b8b76ae4b74c4f0d9f448"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr523_punctured_gaussian_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "544c90afe3aa3e445040ded3e6c4f716461c5188a8066e39b5b3cf4e45d23cb6"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v22.py"
+      ],
+      "passed": true,
+      "output_sha256": "e9308fdd26d2236a0d28743eb593b825d9943526863c2ddf8c0d2cd16329d5bb"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v22.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "02201a99499e4d2f85644d3100af7c0d64953509e9fb4eb7385198d4ab5491fc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v22_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "ddde9e93a093892bfd3fad2af2f384c6f6787a34249612bc8cf487d9b4601bc6"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v22_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "2f15c35b4d791c65d60855228d4aa9f4e241eb929c09b0211d6977aa6821c11a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "verify_late_cold_mixed_native_recovery.py"
+      ],
+      "passed": true,
+      "output_sha256": "97f43bd967228a6323db332de4dc676c215cda196518e0c461cb32fd2f1b47a1"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v17.py"
+      ],
+      "passed": true,
+      "output_sha256": "c5a57bb8483b63eb06b4a8aa916db4379b62407a4d90f09a5f7c7acd59eb0b76"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v17.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "5166137e1cfca3a7bf9af656d25579419543404a757a0056b96e6b48c88ba106"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v17_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "12f926cc4f29fe3b328673e371489c613ec32fce83d4e75c91d31d1597c4377e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "late_cold_mixed_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "5340304386caff376f70f24969c9d003e4c1fa022116ce4d02ca4d61c36aebcd"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v17_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "c812ce95c8a4841f6ddbfdf9f931f626e376d6453e1a1bb2ca7a624049bcb745"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_u8_selected_archive_bytes.py"
+      ],
+      "passed": true,
+      "output_sha256": "1868d4a6028d90ca4306eb3a105517120d1dd735212b1c3bd2115262516904d5"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v16.py"
+      ],
+      "passed": true,
+      "output_sha256": "0a72b1fd8f74eb95ceab4ee346a4dfbb20d330e95af28940e1badf9b91793286"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v16.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "37e5b2acf2ab317fc4b61ee7ebdbd28c0c5906be2493c070f8d6ba3fa9695208"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v16_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "02deccec322f0c73643f5b1a12165286cb1ad9f0d13fd9666dfb3fb97acb0995"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "u8_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v16_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "57716006240acdfff192e4a7e9dc6d33f211596c6d6265fe4c184b242b1b2165"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_pr937_finite_source.py"
+      ],
+      "passed": true,
+      "output_sha256": "48c10ab1322321b6beccdb94efaf6a19bfb91e0a52dcdc674a3e2ed228e9e4f0"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr937_historical_two_shear_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "988db42d5026c16baadf780fd37cb8afe47d6e161a4476b8a1d16b37bc5dd61c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_u8_t37_generated_data.py"
+      ],
+      "passed": true,
+      "output_sha256": "7aba942edc90b6797fc57dc54d1f6008a966de0e062dc137f23f26bfc4291c6c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v19.py"
+      ],
+      "passed": true,
+      "output_sha256": "8fcc53236176d07f4246c64067fab34d55de1d90e0f6fde56387f81c8765b89c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v19.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "ec62961b71ee913c39f4598d96dd8057d3aa18a0d5bbaf9ba539e8c1dcacbaf9"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v19_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "787b6b4ff0cf8f6b9ebc604a319544e4112d8ac2ea5151104c9dfbe10fdc497e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "generated_u8_t37_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v19_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "9c5d45e534213f92ef5ad0268a1ca2212975b33ee6dbe295898b81e7a873b5ce"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_t37_source_refinements.py"
+      ],
+      "passed": true,
+      "output_sha256": "86fe4a63e77b9b561aa9735333dac379c88bf3fa953d987c6b7a9b99e0b733fb"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "t37_refinement_source_bindings.py"
+      ],
+      "passed": true,
+      "output_sha256": "ab39f92666141a5c006c1f0a59837a53c3599faced7420acddc703dea975160c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "t37_selected_core_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "7543a752dcf2080b8e32f258952bde228b9379171eb8c47aa35cfecb30af5ae9"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_pr1104_ends7_selected_native.py"
+      ],
+      "passed": true,
+      "output_sha256": "899e06ebce58d2fe4fdd0df757ddb139ca97c3b24bcca448d94d294c1418aa49"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_t37_generated_selected_plans.py"
+      ],
+      "passed": true,
+      "output_sha256": "c871c7947b9b675e44f0949e8ad0985b8f6068d37301cbf6e70667ea5adf686c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v14.py"
+      ],
+      "passed": true,
+      "output_sha256": "ea79ce482ee88ddd1d32a1c7fdb771ade8505119d0cae21822e1c68da66ba122"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v14.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "c25660a3b6ba0d842a70ec9180f164fcbcc35562c2a2e8833339fe252be87195"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v14_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "7020158c1658134a1682634a50e1a87fb772990616c9f8b6e07fc8a7dc775a38"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "generated_t37_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v14_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "3c4873ea16d5ef79d64079345cbcf956a2af9cc863c221b925c59290de142634"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_joint_entrance_selected_native.py"
+      ],
+      "passed": true,
+      "output_sha256": "98c09a6accaca3d8f6562d3682b853207aa6dbf97ba5f42e1c2d9dc1ed4d10ea"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_joint_entrance_extra_native.py"
+      ],
+      "passed": true,
+      "output_sha256": "007de83a9383fe9551ae5f44b048f74a9cb456f883a7acffe9bfe278ae344250"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v21.py"
+      ],
+      "passed": true,
+      "output_sha256": "20541b54caccb2c039f5a602b6911a3763089a4bf9fa227271e856f381592e52"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v21.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "917212b9fb0da8d955a131e03248ff9a964a541d975f88ad36a329a4250b3485"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v21_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "0a524fb0eb67dfc8195bc7ee264ddcd08be950117406b03caca404c33c97181e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "joint_entrance_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e3752978ba5bca2b0f48fd463b264f9c1073eb6fcd41a7b28e31141806879c55"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v21_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "03161f6cfadcb686542d8844c51496ee36f9c0bc4180de476d269da7f78e6f9c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v15.py"
+      ],
+      "passed": true,
+      "output_sha256": "d7bdee2aa36fd448820bcdb1fa94b92acf33c95695cd1ae77a3de9eb7fb0b5b2"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v15.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "4cd21c315854cb06a4fe8f8f531d27a56441612e8267e80320f7d36f5894975d"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v15_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "a167e131e3b52565c2fe044dcd4437a2a1f0822ad4488c197b6819a424a49a3a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "ends7_exchange_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v15_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "ad43be1d662b810753540b84cab7b3e59e48b25495931ab56fc91e70e435fc08"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "kernel_demotions_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "d4693d880d03f62db747c358eae298f10e8346f1c3bb5a5e8f06ae298edb9e2f"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v5_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "eeb973e0c0a470aa3563024b88473c752361ac163391ec2ee809b3056c238746"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v5.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "cdaecd0d067d0c24943fe46b7ad731b890c3be095e67d8724812373145ba834e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "source_selected_core_application_costs_v1.py"
+      ],
+      "passed": true,
+      "output_sha256": "d6b3e9732bd6ab855d7136736fdd9f777f1fb20c417e5c2e51e807ebac797dc4"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recover_pr2077_selected_data.py"
+      ],
+      "passed": true,
+      "output_sha256": "eb5b6ac23e36c11c374ba997b0b30bd4710e722ae6882eb04178eb86c97bf995"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v18.py"
+      ],
+      "passed": true,
+      "output_sha256": "741ae93dc7781db19c2b87c170fbcb7dc989ffe98b9bcac4fa2916ed67547b48"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v18.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "722b8b12c99258d2b8b413943ffd3d76ff9508d57393b0d92a0fe36522c75b56"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v18_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "f3785ada2bc81bff3d4870d28bfb1a68eff85ffd414b1599d0dac029dca9f84f"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "vacancy_chain_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "cece72ffba00104f5b0ec8cac98ad586f0c6a02188c7929bd40866e41c1c5b58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v18_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "69fb6dfa9f4d939c73a1c9febbdf4f4235596e949e6e16a033e3eddc15c903f4"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "p3_compiler_refinement_native_bindings.py",
+        "4405"
+      ],
+      "passed": true,
+      "output_sha256": "2184e382fc34da3804d54ba3fdf5fc9c760a537259a6934641a9da77cff61d5a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "p3_compiler_refinement_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "c5e20d62597c7bb57e57f91b67904635655b0d1b7e6fbcb2ace7ec24a59c13b5"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "p3_compiler_refinement_native_bindings.py",
+        "4411"
+      ],
+      "passed": true,
+      "output_sha256": "1615b64c9dc48dc2456e2b911ee8e69ec02618cc452b787f88db366f2eddc1b3"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "p3_p6_tensor_source_bindings.py"
+      ],
+      "passed": true,
+      "output_sha256": "36abe88b75194dcebdb6b3b62abe1e5947d3a5bd6e7f1b164612851ec8e9a7e7"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "p3_p6_tensor_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "481d5a6d1dc3b612fd7b217d6fdbbf2602215faad5e53c4a2e94d4396de46a59"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr4413_p3_rebalance_source_bindings.py"
+      ],
+      "passed": true,
+      "output_sha256": "2515c03569a5678e17b824ef730d506be83fea104821cb4c6100540cfadab49f"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr4413_p3_rebalance_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "770effd16c434aeea3b00e63df7a26e733c53e28f8ea65955795c9f93cbefbf7"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr4672_hyperplane_literal_lower.py"
+      ],
+      "passed": true,
+      "output_sha256": "b7a8cd6c686cd4594e937119e1e00e4ee4e4da67d1d60c612246fee3ba301254"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "reviewed_selected_native_lowers.py"
+      ],
+      "passed": true,
+      "output_sha256": "f9348751c1da56da14bf691b52b730566b65155d7e1de0eb0dd8d08c56526391"
+    },
+    {
+      "test": "explicit_four_leaf_source_provenance_refresh",
+      "passed": true,
+      "prior_execution_diagnostic_sha256": "598c04682aed3a96634721cea2b92dd703c18fa053e2de4f5d5debe504ad1ad5",
+      "changed_or_added_source_paths": [
+        "operation-audit/manifest.json",
+        "operation-audit/pr2077-v16-document-provenance-rebind-source-audit.json",
+        "operation-audit/pr2077-v16-document-provenance-rebind.md",
+        "operation-audit/pr2077-v16-document-provenance-rebind/previous/pr2077-vacancy-chain-finite-early-upper.json",
+        "operation-audit/pr2077-v16-document-provenance-rebind/previous/pr2077-vacancy-chain-finite-native.json",
+        "operation-audit/pr2077-v16-document-provenance-rebind/previous/pr2077-vacancy-chain-finite-record-upper.json",
+        "operation-audit/pr2077-v16-document-provenance-rebind/previous/pr2077-vacancy-chain-finite-source-peer-review.json",
+        "operation-audit/pr2077-v16-provenance-refresh-math-peer-review.json",
+        "operation-audit/pr2077-vacancy-chain-finite-early-upper.json",
+        "operation-audit/pr2077-vacancy-chain-finite-native.json",
+        "operation-audit/pr2077-vacancy-chain-finite-peer-review.json",
+        "operation-audit/pr2077-vacancy-chain-finite-record-upper.json",
+        "operation-audit/pr2077-vacancy-chain-finite-source-peer-review.json",
+        "operation-audit/remaining-record-audit/cost-coverage-index.json",
+        "operation-audit/remaining-record-audit/cost-coverage-ledger.json",
+        "operation-audit/remaining-record-audit/current-audit-queue.json",
+        "operation-audit/review_pr2077_provenance_rebind_source.py",
+        "operation-audit/review_pr2077_v16_provenance_refresh_math.py",
+        "operation-audit/selected-provider-v18-overlay-fragment.json",
+        "operation-audit/source-cost-overlays.json",
+        "site/dist/data/compressed-evidence-catalog.json",
+        "site/dist/data/feasibility-history.json",
+        "site/dist/methodology.html"
+      ],
+      "all_other_prior_source_bytes_identical": true,
+      "new_mathematical_values": false,
+      "new_algorithm_or_invoice": false
+    },
+    {
+      "test": "final_source_fixture_verified_against_current_archives",
+      "passed": true,
+      "result": {
+        "schema": "verified-reused-reproduction/1",
+        "passed": true,
+        "restoration_mode": "verified_reused_with_current_exact_additions_or_transport_replacements",
+        "fresh_restoration": false,
+        "output": "C:\\Users\\Propietario\\Documents\\Codex\\ch-o0wj54h1\\restored",
+        "files": 20096,
+        "unique_objects": 15366,
+        "archives_verified": 20,
+        "descriptor_sha256": "ac058b5ae39f557bd0d16d3d8c5670a65c7f512ff70dd8807125c3399065f922",
+        "full_payload_hash_map_sha256": "3170678854f0dd3ae1d11c35746e38fc776667a89d04eb65a8ac019ac9616f97",
+        "reused_files": 20096,
+        "added_files": [],
+        "replaced_transport_files": [],
+        "written_bytes": 0,
+        "extra_file_count": 25,
+        "extra_files_are_not_expected_source": true,
+        "ignored_extra_files_sha256": "bcf4c99c258b98043522af2de39d7533ee6d0b5ebabe1e43a3d52c9e96bd9317",
+        "scope": "Every expected current source file and every ZIP size/SHA verified. Extra generated files were counted, not admitted as source. Explicit reuse is not a fresh reconstruction or a mathematical replay. Caller exclusively owns tree during verification."
+      }
+    },
+    {
+      "test": "all_reproduced_certificates_match_final_frozen_source",
+      "passed": true,
+      "files": 470,
+      "only_three_explicitly_reviewed_pin_refreshes": true
+    },
+    {
+      "test": "test_source_history.cjs",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "entries": 595,
+        "own_source_overlays": [
+          2,
+          3,
+          4,
+          9,
+          10,
+          12,
+          18,
+          24,
+          32,
+          36,
+          37,
+          39,
+          43,
+          46,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          60,
+          61,
+          62,
+          104,
+          115,
+          130,
+          144,
+          149,
+          150,
+          151,
+          275,
+          514,
+          523,
+          576,
+          578,
+          582,
+          584,
+          586,
+          588,
+          592,
+          596,
+          600,
+          601,
+          603,
+          604,
+          607,
+          609,
+          610,
+          614,
+          616,
+          617,
+          618,
+          622,
+          623,
+          624,
+          625,
+          626,
+          636,
+          638,
+          639,
+          640,
+          642,
+          644,
+          654,
+          685,
+          869,
+          870,
+          890,
+          937,
+          942,
+          962,
+          991,
+          1009,
+          1018,
+          1019,
+          1022,
+          1028,
+          1031,
+          1042,
+          1050,
+          1053,
+          1055,
+          1056,
+          1061,
+          1063,
+          1065,
+          1068,
+          1074,
+          1082,
+          1087,
+          1094,
+          1104,
+          1107,
+          1117,
+          1121,
+          1124,
+          1129,
+          1130,
+          1131,
+          1148,
+          1150,
+          1152,
+          1154,
+          1157,
+          1169,
+          1172,
+          1175,
+          1176,
+          1178,
+          1183,
+          1192,
+          1297,
+          1319,
+          1377,
+          1424,
+          1444,
+          1458,
+          1464,
+          1479,
+          1485,
+          1510,
+          1513,
+          1536,
+          1549,
+          1574,
+          1578,
+          1582,
+          1586,
+          1601,
+          1625,
+          1629,
+          1640,
+          1644,
+          1661,
+          1672,
+          1673,
+          1677,
+          1828,
+          1875,
+          2077,
+          2169,
+          3308,
+          3338,
+          3413,
+          4405,
+          4411,
+          4412,
+          4413,
+          4414,
+          4433,
+          4446,
+          4453,
+          4480,
+          4563,
+          4564,
+          4565,
+          4568,
+          4570,
+          4626,
+          4630,
+          4635,
+          4672,
+          4707,
+          4713,
+          5377,
+          5383,
+          5384,
+          5390,
+          5392,
+          5395,
+          5396,
+          5398,
+          5399,
+          5400
+        ],
+        "lower": 42,
+        "upper": 183,
+        "two_sided": 29,
+        "uncosted": 399,
+        "metadata_and_prior_bounds_preserved": true
+      }
+    },
+    {
+      "test": "test_history_render.cjs",
+      "passed": true,
+      "result": {
+        "passed": true,
+        "both_axes": true,
+        "individual_bounds_default": true,
+        "curve_modes": 3,
+        "finite_coordinates": true,
+        "source_endpoints_preserved": true,
+        "source_cards_rendered": 179
+      }
+    }
+  ],
+  "restoration_mode": "verified_reused_fixture_then_explicit_peer_reviewed_provenance_refresh",
+  "prior_replay_source_map_sha256": "a313686315b93db9b3e34ad518455b5933c8dd0d022e4d41399f71bf39526770",
+  "post_replay_provenance_refresh": true,
+  "scope": "All declared pre-refresh jobs completed successfully, with exact published inheritance where recorded. A final comparison found only four stale PR2077 provenance leaves. Separate source and mathematical reviews validated their refresh, two fresh evaluators agreed, new review jobs ran, all other existing source bytes stayed identical, and every final certificate and both charts now pass. This is not a claim of a fresh rerun of every unchanged job after the hash refresh, an exact first crossover, full Lean verification, or a hardware speedup."
+}

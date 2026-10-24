@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "model": "xag-straightline-v1",
+  "subject": "Canonical nonuniform circuit realization of HvH Sections 2-5, d=1729",
+  "status": "derived-explicit-gate-envelope-with-executable-checks",
+  "is_source_published_constant": false,
+  "is_lean_formalized": false,
+  "complete_datapath_upper_envelope_derived": true,
+  "exact_total_gate_count_derived": false,
+  "circuit_fully_materialized": false,
+  "is_uniform_turing_runtime_bound": false,
+  "is_PR4470_crossover": false,
+  "sources": [
+    {
+      "url": "https://www.texmacs.org/joris/nlogn/nlogn.pdf",
+      "sha256": "7acbf5bea9dd45a2fca79d8b4673df6b8329ba8ad039831a40b44ae70944f813",
+      "printed_pages": [
+        10,
+        11,
+        14,
+        19,
+        20,
+        21,
+        22,
+        29,
+        30,
+        31,
+        32,
+        33,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    }
+  ],
+  "model_details": {
+    "free": [
+      "literal constants",
+      "wires",
+      "fixed permutations",
+      "fanout",
+      "all n-only fixed-point coefficients"
+    ],
+    "excluded": [
+      "circuit generation",
+      "prime search",
+      "coefficient generation",
+      "physical memory and routing costs"
+    ],
+    "charged": [
+      "input-dependent clipping",
+      "restoring integer division and square root",
+      "all integer products at explicit bit widths",
+      "signed conversion and rounding"
+    ],
+    "adder": "unsimplified full cells, including first and unused final carry",
+    "add": {
+      "AND": "2w",
+      "XOR": "3w"
+    },
+    "sub": {
+      "AND": "2w",
+      "XOR": "4w"
+    },
+    "mux": {
+      "AND": "w",
+      "XOR": "2w"
+    }
+  },
+  "parameters": {
+    "d": 1729,
+    "E": "713739807325663489766475852620783120641",
+    "n0": "2^E",
+    "b": "ceil(log2(n))",
+    "p": "6b",
+    "T": "unique power of two in [4n/b,8n/b)",
+    "r": "unique power of two in [T^(1/d),2T^(1/d))",
+    "Q": "T/r",
+    "S": "product(s_i), T/2<S<T"
+  },
+  "source_census": {
+    "synthetic_FFTs": 9,
+    "ring_products": "3Q",
+    "large_products": {
+      "calls": "12Q",
+      "operand_bits": "3rp"
+    },
+    "scalar_complex_chirp_twist_and_pointwise": "15T+S",
+    "clip_calls": "3T+4S<7T",
+    "recovery_products": "<=S"
+  },
+  "upper_recurrence": {
+    "base_AND": "5n^2",
+    "base_XOR": "6n^2",
+    "base_range": "1<=n<2^E",
+    "recursive_range": "n>=2^E",
+    "large_calls": "12Q",
+    "large_child_bits": "3rp",
+    "small_calls_upper": "1024d^2 T ceil(p^(3/4))",
+    "small_child_bits": "4p+8",
+    "nonrecursive_each_gate_upper": "1000000d^2 T p^2",
+    "nonrecursive_allowances": {
+      "scalar_complex_linear": 10000,
+      "gaussian_accumulation": 1152,
+      "j_initial_halves": 72,
+      "synthetic_fft": 1000,
+      "ring_pack_unpack": 3000,
+      "clipping": 70000,
+      "recovery": 104
+    }
+  },
+  "closed_upper": {
+    "each_gate": "C n max(1,log2(n))",
+    "weighted": "C(1+rho)n max(1,log2(n))",
+    "C_exact": "22193164471003774976 * 2^713739807325663489766475852620783120641",
+    "C_prefactor": "22193164471003774976",
+    "C_power_two_exponent": "713739807325663489766475852620783120641",
+    "C_formula": "6914*2^30*d^2*2^(d^12)",
+    "valid_integer_n_min": 1,
+    "label": "New derived upper for this canonical circuit; not a practical measured constant"
+  },
+  "closed_lower": {
+    "AND": "216n log2(n)",
+    "XOR": "378n log2(n)",
+    "weighted": "(216+378rho)n log2(n)",
+    "valid_integer_n_min": "2^E",
+    "scope": "This unsimplified canonical circuit only",
+    "exact_FFT_AND": "36(p+3)T log2(Q)",
+    "exact_FFT_XOR": "63(p+3)T log2(Q)"
+  },
+  "closure_checks": {
+    "large_branch_lambda": "3456/3457",
+    "small_branch_mu_upper": "1/6914 when 4p+8>=n0",
+    "total_recursive_coefficient": "6913/6914",
+    "small_contraction_integer_lhs_bitlength": 451,
+    "comparator_power_exponent": "713739807325663489766475852620783120641",
+    "nonrecursive_normalized_coefficient": 336000000,
+    "base_small_calls_normalized_coefficient": 103219200,
+    "normalized_budget": "2^30*d^2*n0",
+    "checks": [
+      "Exact large+small contraction = 6913/6914",
+      "8(6914*3440640*d^2)^8 < 2^(d^12), by bit-length comparison",
+      "All normalized overhead and base-case constants checked exactly",
+      "Scalar complex MUL sign/sum/round linear ledger checked at p=100"
+    ]
+  },
+  "helper_checks": {
+    "division_cases": 21590,
+    "square_root_cases": 254,
+    "checked_word_widths_up_to": 10000,
+    "note": "Tests accompany the explicit invariant proofs in the note; not a formal proof checker."
+  },
+  "packing_checks": {
+    "signed_pack_product_unpack_cases": 3000,
+    "block_bits": 12,
+    "ranks": [
+      2,
+      4,
+      8
+    ],
+    "seed": 1729
+  },
+  "toy_fixture": {
+    "scope": "Valid subroutine geometry; not a Section-5 input-size fixture",
+    "precision": 100,
+    "alpha": 8,
+    "t_i": [
+      8,
+      16,
+      32
+    ],
+    "s_i": [
+      7,
+      13,
+      29
+    ],
+    "T": 4096,
+    "S": 2639,
+    "r": 32,
+    "Q": 128,
+    "m_A": 80,
+    "m_E": 1,
+    "nu": [
+      11,
+      7,
+      16
+    ],
+    "C_S": 5193309,
+    "C_E": 557382,
+    "C_D": 27405,
+    "large_integer_products": 1536,
+    "large_operand_bits": 9600,
+    "nine_fft_butterflies": 4032,
+    "real_adds": 258048,
+    "real_subtracts": 258048,
+    "fft_AND": 106315776,
+    "fft_XOR": 186052608
+  },
+  "limitations": [
+    "This is not an exact total gate count or an emitted huge Boolean circuit.",
+    "The analytic correctness/error proof is inherited from HvH, not newly formalized.",
+    "The bound is for nonuniform size-specialized circuits; no uniform preprocessing or machine-runtime count is claimed.",
+    "No PR4470 crossing follows until its complete upper envelope in the same model is closed.",
+    "The FFT lower bound is not a lower bound for all HvH implementations or all multiplication algorithms."
+  ]
+}

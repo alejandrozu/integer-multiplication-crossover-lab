@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 1071,
+    "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+    "path": "research/biframe-decoder-ladder/README.md",
+    "api_sha": "65afcf129309dc87e6090557e66d750d19bd5705",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ce9531beba1ce115fdcdc44925ded995a29b8bac/research%2Fbiframe-decoder-ladder%2FREADME.md",
+    "priority": 150,
+    "hint_base": "research/biframe-decoder-ladder/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/README.md",
+    "file": "artifacts\\1071\\95b71fb2e519__README.md",
+    "sha256": "95b71fb2e519e258811882d8d06359090da7a697aa77ba4c326c25a66d00bd36",
+    "git_blob_sha1": "65afcf129309dc87e6090557e66d750d19bd5705",
+    "bytes": 13470,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.653967+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1071,
+    "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+    "path": "research/biframe-decoder-ladder/SOURCES.json",
+    "api_sha": "70adf8152f3513af020daceda441fec9fb2303e1",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ce9531beba1ce115fdcdc44925ded995a29b8bac/research%2Fbiframe-decoder-ladder%2FSOURCES.json",
+    "priority": 180,
+    "hint_base": "research/biframe-decoder-ladder/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/SOURCES.json",
+    "file": "artifacts\\1071\\7c6200ee2bc1__SOURCES.json",
+    "sha256": "7c6200ee2bc10f4688679dbebe897e2b0b2af800846a731cfcd7ac5dbc219c57",
+    "git_blob_sha1": "70adf8152f3513af020daceda441fec9fb2303e1",
+    "bytes": 4709,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.653967+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1071,
+    "head": "ce9531beba1ce115fdcdc44925ded995a29b8bac",
+    "path": "research/biframe-decoder-ladder/verify.py",
+    "api_sha": "3f0c81e49be7c19e68887d8b25394188abbdb460",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ce9531beba1ce115fdcdc44925ded995a29b8bac/research%2Fbiframe-decoder-ladder%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/biframe-decoder-ladder/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/ce9531beba1ce115fdcdc44925ded995a29b8bac/research/biframe-decoder-ladder/verify.py",
+    "file": "artifacts\\1071\\20d7ad2839a3__verify.py",
+    "sha256": "20d7ad2839a3d882adccf43b3619db317ad3b4a9dafa4dea6a3b566518844c7a",
+    "git_blob_sha1": "3f0c81e49be7c19e68887d8b25394188abbdb460",
+    "bytes": 44998,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:29.642447+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "pr": 1797,
+    "head": "4e8f77031b1a936d6739b2cd84f378dcf1eb5635",
+    "path": "research/pr1786-fine-prime-transfer-audit/README.md",
+    "api_sha": "20b390d9a5c733272037db220607fda4df096def",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research%2Fpr1786-fine-prime-transfer-audit%2FREADME.md",
+    "priority": 60,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research/pr1786-fine-prime-transfer-audit/README.md",
+    "file": "artifacts\\1797\\07629ded5e02__README.md",
+    "sha256": "07629ded5e02e1c584272e1da20011490a7cb11b3fb79ba0bffa2201380078ec",
+    "git_blob_sha1": "20b390d9a5c733272037db220607fda4df096def",
+    "bytes": 7013,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.583170+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1797,
+    "head": "4e8f77031b1a936d6739b2cd84f378dcf1eb5635",
+    "path": "research/pr1786-fine-prime-transfer-audit/SOURCES.json",
+    "api_sha": "681d42c93a8b3fd8ebcc4e1c2f49df0957967d61",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research%2Fpr1786-fine-prime-transfer-audit%2FSOURCES.json",
+    "priority": 90,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research/pr1786-fine-prime-transfer-audit/SOURCES.json",
+    "file": "artifacts\\1797\\7a64283b46fa__SOURCES.json",
+    "sha256": "7a64283b46fa0cf609bd413a85f1881f7da83a713a6012641aec0fbc12923e6a",
+    "git_blob_sha1": "681d42c93a8b3fd8ebcc4e1c2f49df0957967d61",
+    "bytes": 579,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.605796+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 1797,
+    "head": "4e8f77031b1a936d6739b2cd84f378dcf1eb5635",
+    "path": "research/pr1786-fine-prime-transfer-audit/verify.py",
+    "api_sha": "13cda9d7884bc86a7686461e0e8d1b0f46049077",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research%2Fpr1786-fine-prime-transfer-audit%2Fverify.py",
+    "priority": 65,
+    "hint_base": null,
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4e8f77031b1a936d6739b2cd84f378dcf1eb5635/research/pr1786-fine-prime-transfer-audit/verify.py",
+    "file": "artifacts\\1797\\c88bdcd034bc__verify.py",
+    "sha256": "c88bdcd034bc11b4247051d0536146ad0de6f731e3d960885718f1cbcf2ae8f4",
+    "git_blob_sha1": "13cda9d7884bc86a7686461e0e8d1b0f46049077",
+    "bytes": 16831,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:35.634943+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

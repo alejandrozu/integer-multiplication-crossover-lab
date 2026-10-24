@@ -1,0 +1,75 @@
+{
+  "pr": 3650,
+  "own_head": "7bd54e91748eb9fc6b13d61d232b6a91e8158aba",
+  "primary_path_candidates": [
+    "research/selected-compiler-source-bridge/README.md",
+    "research/selected-compiler-source-bridge/VALIDATION.md",
+    "research/selected-compiler-source-bridge/TASK.json",
+    "research/selected-compiler-source-bridge/VERIFY.json",
+    "research/selected-compiler-source-bridge/OBLIGATIONS.json",
+    "research/selected-compiler-source-bridge/AUTHENTICATION.json",
+    "research/selected-compiler-source-bridge/verify.py",
+    "research/selected-compiler-source-bridge/CONTRACT.md",
+    "research/selected-compiler-source-bridge/capacity.py",
+    "research/selected-compiler-source-bridge/test_replay.py",
+    "research/selected-compiler-source-bridge/test_capacity.py",
+    "research/selected-compiler-source-bridge/independent_census.py",
+    "research/selected-compiler-source-bridge/independent_lifetime.py",
+    "research/selected-compiler-source-bridge/test_independent_census.py",
+    "research/selected-compiler-source-bridge/lean/check.py",
+    "research/selected-compiler-source-bridge/lean/tests/test_check.py"
+  ],
+  "selected_for_recovery": [
+    "research/selected-compiler-source-bridge/TASK.json",
+    "research/selected-compiler-source-bridge/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-compiler-source-bridge/README.md",
+      "file": "remaining-record-audit/artifacts/3650/d2d1c89168e2__README.md",
+      "sha256": "d2d1c89168e2279799ada6a270267bcadc2db03a2b7f82d618ea49f575230ef9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7bd54e91748eb9fc6b13d61d232b6a91e8158aba/research/selected-compiler-source-bridge/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-compiler-source-bridge/verify.py",
+      "file": "remaining-record-audit/artifacts/3650/fd72709583fe__verify.py",
+      "sha256": "fd72709583fe90ec072693207b1f96c14d8cf679a2f1abf71b66be5fd34a844d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7bd54e91748eb9fc6b13d61d232b6a91e8158aba/research/selected-compiler-source-bridge/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/selected-compiler-source-bridge/VALIDATION.md",
+      "file": "remaining-record-audit/artifacts/3650/d0d404ccd2c5__VALIDATION.md",
+      "sha256": "d0d404ccd2c552b27a2bee37514357b8b78078e46312b12c937bf19bd2b9b381",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7bd54e91748eb9fc6b13d61d232b6a91e8158aba/research/selected-compiler-source-bridge/VALIDATION.md"
+    }
+  ],
+  "github_changed_file_reported_count": 22,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3650,
+      "head": "7bd54e91748eb9fc6b13d61d232b6a91e8158aba",
+      "path": "research/selected-compiler-source-bridge/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7bd54e91748eb9fc6b13d61d232b6a91e8158aba/research/selected-compiler-source-bridge/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4a054eee77138edb5cd38d8e54caf272d6c38f871dd9ed0bc732204c79029d4d",
+      "git_blob_sha1": "bdffaf460014089450eb45a2a482164b1ef3a65b",
+      "bytes": 8116,
+      "file": "individual-primary-interface-source/3650/4a054eee7713__TASK.json"
+    },
+    {
+      "pr": 3650,
+      "head": "7bd54e91748eb9fc6b13d61d232b6a91e8158aba",
+      "path": "research/selected-compiler-source-bridge/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7bd54e91748eb9fc6b13d61d232b6a91e8158aba/research/selected-compiler-source-bridge/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "c0ca1ef47ff066655e1de5b67e63dc3c5fe38f9b33d9b1249544fc915859c836",
+      "git_blob_sha1": "79e42571c703fe433d5d297787fda7672c112535",
+      "bytes": 12517,
+      "file": "individual-primary-interface-source/3650/c0ca1ef47ff0__VERIFY.json"
+    }
+  ]
+}

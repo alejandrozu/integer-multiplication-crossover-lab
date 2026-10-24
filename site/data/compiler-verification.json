@@ -1,0 +1,11 @@
+{
+  "status": "PASS_ARITHMETIC_AND_PINNED_SOURCE_CHECKS",
+  "scope": "Arithmetic and source authentication only; all-column native/tape primitives and generous word-record envelope remain explicit premises.",
+  "uniform_rank_exponent": 64215200000000,
+  "first_successful_integer_grid_j": 45868,
+  "D_j_envelope": "K^(32*4^j)",
+  "C0_lower_log2_exponent": 449506400000017,
+  "C0_upper_log2_formula": "30+H+6 log2(K)+192 log2(K)*4^(2^H)",
+  "model_K_log2": 1048576,
+  "source_sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8"
+}

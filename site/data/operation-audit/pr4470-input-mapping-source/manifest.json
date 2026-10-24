@@ -1,0 +1,76 @@
+[
+  {
+    "path": "docs/research/assembly-domain-audit.md",
+    "file": "docs__research__assembly-domain-audit.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/assembly-domain-audit.md",
+    "sha256": "2d01eb56cd206955adc462bb8401cfde427d91155d4ba9e8265ad3347564fc02",
+    "bytes": 8374
+  },
+  {
+    "path": "docs/research/assembly-ceiling.md",
+    "file": "docs__research__assembly-ceiling.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/docs/research/assembly-ceiling.md",
+    "sha256": "f2cb75833fe8eab7c3bf0d871b5a48a6d3d214d3fdffc24d27d33e1e28020777",
+    "bytes": 8026
+  },
+  {
+    "path": "notes/structured-bulk-assembly.tex",
+    "file": "notes__structured-bulk-assembly.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/notes/structured-bulk-assembly.tex",
+    "sha256": "048c67f6473ee4712d37033266a2e507dee9dcd2bb3b0fd177708100e2404d94",
+    "bytes": 12950
+  },
+  {
+    "path": "notes/structured-bulk-crt.tex",
+    "file": "notes__structured-bulk-crt.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/notes/structured-bulk-crt.tex",
+    "sha256": "84c9bd060f507a35e43e3afbb581e06c5e572c005b1bb97d17403c4f3ef69333",
+    "bytes": 5868
+  },
+  {
+    "path": "notes/parameter-note.tex",
+    "file": "notes__parameter-note.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/notes/parameter-note.tex",
+    "sha256": "bbb4f9e791806d934f6e07294bc7b060c614aa254719ad28b279d26436bba2b1",
+    "bytes": 16660
+  },
+  {
+    "path": "notes/fast-gaussian-resampling.tex",
+    "file": "notes__fast-gaussian-resampling.tex",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/notes/fast-gaussian-resampling.tex",
+    "sha256": "1a81e6b7f9228adace139ef891684db3a894e2a8b6f41b5234275627d25fe455",
+    "bytes": 10523
+  },
+  {
+    "path": "research/certified-gaussian-recovery/PROOF.md",
+    "file": "research__certified-gaussian-recovery__PROOF.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/certified-gaussian-recovery/PROOF.md",
+    "sha256": "65480dd23fb1aae314365aeea4aacbc146e160e5c8a7a4ac4f602f22ae4581de",
+    "bytes": 16504
+  },
+  {
+    "path": "research/certified-gaussian-recovery/README.md",
+    "file": "research__certified-gaussian-recovery__README.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/certified-gaussian-recovery/README.md",
+    "sha256": "eb8d2f13c9482fe6b556bd115cec9006a16d843324a9cbfa6cf8b3adf1704c06",
+    "bytes": 4728
+  },
+  {
+    "path": "references/semantic-bulk/rad20/reports/downstream-semantic-bulk-assembly.md",
+    "file": "references__semantic-bulk__rad20__reports__downstream-semantic-bulk-assembly.md",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/references/semantic-bulk/rad20/reports/downstream-semantic-bulk-assembly.md",
+    "sha256": "ccdeaeac7c6a1c08483fea2285a7d089d782f2c18b7be867c3fc9f77457637fd",
+    "bytes": 7031
+  },
+  {
+    "path": "research/joint-helper-lattice/endpoint.py",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "research/joint-helper-lattice/RESULT.json",
+    "file": "research__joint-helper-lattice__RESULT.json",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c472563474e60185e6ca101a17622133d047e56/research/joint-helper-lattice/RESULT.json",
+    "sha256": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+    "bytes": 9199
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schema": "own937-actual-merge-source-chronology/1",
+  "pr": 937,
+  "own_head": "b303fed6dfe2066dcd78c0d8ed74d2a3b153ba72",
+  "merged_at": "2026-10-13T15:57:09Z",
+  "merge_commit": "44c8a60d3970ec8585757ee61050f7d5ec011bb5",
+  "direct_source_parent_number": 2,
+  "source_included_at_actual_merge": true,
+  "source_primary_sha256": {
+    "pr937-finite-source/own-pr-api.json": "8b2353782270ece79fa4fb7076eb3cdfb2b81d74b886092b231622e97e60eddc",
+    "pr937-finite-source/own-merge-api.json": "4bc51b0b373a3c291a9d2893607f9c1658ea6ed535ef0304421818c0391fafc3"
+  },
+  "script_sha256": "cf6603bac1cadb850ccfa4f06b16c602cbe011ce3fb636578f5006dd5436bfa6"
+}

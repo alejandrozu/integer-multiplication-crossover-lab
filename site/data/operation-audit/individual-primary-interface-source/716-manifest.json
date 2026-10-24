@@ -1,0 +1,71 @@
+{
+  "pr": 716,
+  "own_head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+  "primary_path_candidates": [
+    "research/r420-target-pairs/certificate.json",
+    "research/r420-target-pairs/CLAIM.md",
+    "research/r420-target-pairs/README.md",
+    "research/r420-target-pairs/recipe.json",
+    "research/r420-target-pairs/matching-dual.json",
+    "research/r420-target-pairs/native.py",
+    "research/r420-target-pairs/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/r420-target-pairs/CLAIM.md",
+    "research/r420-target-pairs/recipe.json",
+    "research/r420-target-pairs/native.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-target-pairs/certificate.json",
+      "file": "remaining-record-audit/artifacts/716/19258735e742__certificate.json",
+      "sha256": "19258735e74233613f9242414cba9ca926510a7119d6701a6997d722d67d2289",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/r420-target-pairs/README.md",
+      "file": "remaining-record-audit/artifacts/716/991f852f4b14__README.md",
+      "sha256": "991f852f4b1456c00c53d6733a53378e6ace9151b10a534d522d460417d24e19",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 716,
+      "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+      "path": "research/r420-target-pairs/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "7b875017150eace5313f9934b98b848f3969cc07b162feacde8109a76f400453",
+      "git_blob_sha1": "188fdd108f437426fdb1d206c1c17525ce054244",
+      "bytes": 3163,
+      "file": "individual-primary-interface-source/716/7b875017150e__CLAIM.md"
+    },
+    {
+      "pr": 716,
+      "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+      "path": "research/r420-target-pairs/recipe.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/recipe.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "356abdceaf71a61d89d01a5dbedf5d571662d8c79ada805d749b19376dc078bb",
+      "git_blob_sha1": "aaade9764d53bd34ebba400ca10a682b973044c9",
+      "bytes": 742,
+      "file": "individual-primary-interface-source/716/356abdceaf71__recipe.json"
+    },
+    {
+      "pr": 716,
+      "head": "afeb452f58ff0cbf109172335e2ba282aac3dcde",
+      "path": "research/r420-target-pairs/native.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/afeb452f58ff0cbf109172335e2ba282aac3dcde/research/r420-target-pairs/native.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1c1d1336c625725cb0f65f656c165836362f48d2990d24e22bc2b9f0c1ced00a",
+      "git_blob_sha1": "c786ba2efa5d60d7f4a4dfa390a86a26e6312219",
+      "bytes": 9036,
+      "file": "individual-primary-interface-source/716/1c1d1336c625__native.py"
+    }
+  ]
+}

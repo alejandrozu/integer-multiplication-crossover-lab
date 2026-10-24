@@ -1,0 +1,64 @@
+{
+  "pr": 1118,
+  "own_head": "82575f429d817f1730c28537e669e56a8016e3a7",
+  "primary_path_candidates": [
+    "research/ck-grid-synthesis-seed24/CLAIM.json",
+    "research/ck-grid-synthesis-seed24/EXPECTED.json",
+    "research/ck-grid-synthesis-seed24/PROOF.md",
+    "research/ck-grid-synthesis-seed24/README.md",
+    "research/ck-grid-synthesis-seed24/VALIDATION.md",
+    "research/ck-grid-synthesis-seed24/OVERLAP.json",
+    "research/ck-grid-synthesis-seed24/synth.py",
+    "research/ck-grid-synthesis-seed24/verify.py",
+    "research/ck-grid-synthesis-seed24/independent.py",
+    "research/ck-grid-synthesis-seed24/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/ck-grid-synthesis-seed24/synth.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ck-grid-synthesis-seed24/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1118/ad3cfd13ae50__PROOF.md",
+      "sha256": "ad3cfd13ae509f090bee790d9207debe18f008fbe3d822742313a18b0263a338",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/82575f429d817f1730c28537e669e56a8016e3a7/research/ck-grid-synthesis-seed24/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ck-grid-synthesis-seed24/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1118/43e87ea5e5fb__CLAIM.json",
+      "sha256": "43e87ea5e5fb3fc21a4074366f9d03a68cd851e2cd497c592a800ff72fbbea7a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/82575f429d817f1730c28537e669e56a8016e3a7/research/ck-grid-synthesis-seed24/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ck-grid-synthesis-seed24/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1118/fecd6a56722b__EXPECTED.json",
+      "sha256": "fecd6a56722bc9f1b22f76a9985197d5ea6813d5687b447b7cb2de96ddbf45cf",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/82575f429d817f1730c28537e669e56a8016e3a7/research/ck-grid-synthesis-seed24/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ck-grid-synthesis-seed24/README.md",
+      "file": "remaining-record-audit/artifacts/1118/d76ce3af5660__README.md",
+      "sha256": "d76ce3af56609a8d8df30d48af402726c3f505439a3b95a28211bd9c33614208",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/82575f429d817f1730c28537e669e56a8016e3a7/research/ck-grid-synthesis-seed24/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 12,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1118,
+      "head": "82575f429d817f1730c28537e669e56a8016e3a7",
+      "path": "research/ck-grid-synthesis-seed24/synth.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/82575f429d817f1730c28537e669e56a8016e3a7/research/ck-grid-synthesis-seed24/synth.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8e490ce6e9666cdd5a73c3b65fd59218df32ecb47f56f21e0a6401556b8f03fc",
+      "git_blob_sha1": "c63fd34e25dc06cda6978c87e0b932d96d8f29eb",
+      "bytes": 1493,
+      "file": "individual-primary-interface-source/1118/8e490ce6e966__synth.py"
+    }
+  ]
+}

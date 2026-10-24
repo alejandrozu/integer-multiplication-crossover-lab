@@ -1,0 +1,77 @@
+{
+  "pr": 828,
+  "own_head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+  "primary_path_candidates": [
+    "research/pr279-target-prefix-reconciliation/CLAIM.md",
+    "research/pr279-target-prefix-reconciliation/README.md",
+    "research/pr279-target-prefix-reconciliation/VALIDATION.md",
+    "docs/research/pr-ledger.json",
+    "research/pr279-target-prefix-reconciliation/SOURCE.json",
+    "research/pr279-target-prefix-reconciliation/OVERLAP.json",
+    "research/pr279-target-prefix-reconciliation/RESULTS.json",
+    "research/pr279-target-prefix-reconciliation/EVIDENCE.json",
+    "research/pr279-target-prefix-reconciliation/SOURCE-CI.json",
+    "docs/research/pr-ledger.md",
+    "research/pr279-target-prefix-reconciliation/NOTICE.md",
+    "research/pr279-target-prefix-reconciliation/verify.py",
+    "research/pr279-target-prefix-reconciliation/test_verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/pr279-target-prefix-reconciliation/CLAIM.md",
+    "docs/research/pr-ledger.json",
+    "research/pr279-target-prefix-reconciliation/SOURCE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr279-target-prefix-reconciliation/verify.py",
+      "file": "remaining-record-audit/artifacts/828/8af5b16b17f5__verify.py",
+      "sha256": "8af5b16b17f586b9971b9ce4d5b5beb2ab113c2f3c6b96e180fb9d1e0b9e53a4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/pr279-target-prefix-reconciliation/README.md",
+      "file": "remaining-record-audit/artifacts/828/8c98f3b8d6d4__README.md",
+      "sha256": "8c98f3b8d6d4e3512c244a6a4f59f36409f5a6d30b536ef60912402eb074e9d0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 15,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 828,
+      "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+      "path": "research/pr279-target-prefix-reconciliation/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "38bcb86a2d6d95735da3a21e861f8e274eb4c982e41d7141690298f637b6e629",
+      "git_blob_sha1": "44f225a3f41b2a47714d130d491974a86a4121b7",
+      "bytes": 1778,
+      "file": "individual-primary-interface-source/828/38bcb86a2d6d__CLAIM.md"
+    },
+    {
+      "pr": 828,
+      "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+      "path": "docs/research/pr-ledger.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/docs/research/pr-ledger.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5c222a350b94a406365991066e90f61851bbeb61f57efa9c00ac1f08eafed2af",
+      "git_blob_sha1": "c0c611af80772c9ececb070d3c8acbb3e3270aaf",
+      "bytes": 850281,
+      "file": "individual-primary-interface-source/828/5c222a350b94__pr-ledger.json"
+    },
+    {
+      "pr": 828,
+      "head": "2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976",
+      "path": "research/pr279-target-prefix-reconciliation/SOURCE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2e43537c0e8ed1c9f9ef21cab0ef9cddb5d79976/research/pr279-target-prefix-reconciliation/SOURCE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6208c7f90a03fb6093241f964674bf0d18445ec193385c8558db082c48ea1e40",
+      "git_blob_sha1": "e3137f3a02b743a5220f6eb03240b02f4dc231ee",
+      "bytes": 32347,
+      "file": "individual-primary-interface-source/828/6208c7f90a03__SOURCE.json"
+    }
+  ]
+}

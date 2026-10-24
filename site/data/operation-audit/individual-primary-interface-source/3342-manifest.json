@@ -1,0 +1,83 @@
+{
+  "pr": 3342,
+  "own_head": "7c069c6898ff4f3c2c1820086f2cb60f37538ca3",
+  "primary_path_candidates": [
+    "research/rank7-selected-transfer-budget/RESULT.json",
+    "research/rank7-selected-transfer-budget/README.md",
+    "research/rank7-selected-transfer-budget/TASK.json",
+    "research/rank7-selected-transfer-budget/FROZEN.json",
+    "research/rank7-selected-transfer-budget/REPLAY.json",
+    "research/rank7-selected-transfer-budget/REVIEW.json",
+    "research/rank7-selected-transfer-budget/VERIFY.json",
+    "research/rank7-selected-transfer-budget/REVIEW-ROUND1.json",
+    "research/rank7-selected-transfer-budget/evidence/SOURCE-NATIVE.json",
+    "research/rank7-selected-transfer-budget/evidence/SOURCE-REPLAY.json",
+    "research/rank7-selected-transfer-budget/evidence/FINITE-INVOICE.json",
+    "research/rank7-selected-transfer-budget/evidence/SOURCE-RELEASE.json",
+    "research/rank7-selected-transfer-budget/evidence/SOURCE-ASSEMBLY.json",
+    "research/rank7-selected-transfer-budget/evidence/SOURCE-ADMISSION.json",
+    "research/rank7-selected-transfer-budget/finite.py",
+    "research/rank7-selected-transfer-budget/verify.py",
+    "research/rank7-selected-transfer-budget/intervals.py",
+    "research/rank7-selected-transfer-budget/ENGINEERING.md",
+    "research/rank7-selected-transfer-budget/test_source_auth.py"
+  ],
+  "selected_for_recovery": [
+    "research/rank7-selected-transfer-budget/TASK.json",
+    "research/rank7-selected-transfer-budget/finite.py",
+    "research/rank7-selected-transfer-budget/FROZEN.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-selected-transfer-budget/README.md",
+      "file": "remaining-record-audit/artifacts/3342/bfc8f622c869__README.md",
+      "sha256": "bfc8f622c8695a1214007d26f901a2368a81c009307a40719b28c13114aa5798",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c069c6898ff4f3c2c1820086f2cb60f37538ca3/research/rank7-selected-transfer-budget/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rank7-selected-transfer-budget/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3342/efd62b82800f__RESULT.json",
+      "sha256": "efd62b82800f4df6a727eb3ab8c938648eb15eab31cca17ac52a151716d32549",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c069c6898ff4f3c2c1820086f2cb60f37538ca3/research/rank7-selected-transfer-budget/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 20,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3342,
+      "head": "7c069c6898ff4f3c2c1820086f2cb60f37538ca3",
+      "path": "research/rank7-selected-transfer-budget/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c069c6898ff4f3c2c1820086f2cb60f37538ca3/research/rank7-selected-transfer-budget/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "0f6bfc45cd0b8958896fea192d7cbe151e2b58de01a7d15e2e057e8498a5d23d",
+      "git_blob_sha1": "8402ee76c0c6689c147e05db587fa17681fd76d7",
+      "bytes": 4526,
+      "file": "individual-primary-interface-source/3342/0f6bfc45cd0b__TASK.json"
+    },
+    {
+      "pr": 3342,
+      "head": "7c069c6898ff4f3c2c1820086f2cb60f37538ca3",
+      "path": "research/rank7-selected-transfer-budget/finite.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c069c6898ff4f3c2c1820086f2cb60f37538ca3/research/rank7-selected-transfer-budget/finite.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "bdee841868cf3686794ae961f6beff9fe6e47fe41c5c1ff89a4c021b47b6a6fd",
+      "git_blob_sha1": "0f288f5fe647cf84942c3200f1a6904358ffee08",
+      "bytes": 4274,
+      "file": "individual-primary-interface-source/3342/bdee841868cf__finite.py"
+    },
+    {
+      "pr": 3342,
+      "head": "7c069c6898ff4f3c2c1820086f2cb60f37538ca3",
+      "path": "research/rank7-selected-transfer-budget/FROZEN.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/7c069c6898ff4f3c2c1820086f2cb60f37538ca3/research/rank7-selected-transfer-budget/FROZEN.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2ebe81c1acbb02417a69e68baf9b6d2ce8c99b71e0f8e0bdee0ff37b0dbeecf9",
+      "git_blob_sha1": "c7e6c632921e9b2d8e5e04c6d5411faa2cccefb5",
+      "bytes": 616,
+      "file": "individual-primary-interface-source/3342/2ebe81c1acbb__FROZEN.json"
+    }
+  ]
+}

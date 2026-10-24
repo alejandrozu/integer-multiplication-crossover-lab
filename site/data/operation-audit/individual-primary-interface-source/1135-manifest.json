@@ -1,0 +1,68 @@
+{
+  "pr": 1135,
+  "own_head": "4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad",
+  "primary_path_candidates": [
+    "research/rounded-borrowing-contract/CLAIM.json",
+    "research/rounded-borrowing-contract/EXPECTED.json",
+    "research/rounded-borrowing-contract/PROOF.md",
+    "research/rounded-borrowing-contract/README.md",
+    "research/rounded-borrowing-contract/OVERLAP.json",
+    "research/rounded-borrowing-contract/VALIDATION.json",
+    "research/rounded-borrowing-contract/HANDOFF-OVERLAP.json",
+    "research/rounded-borrowing-contract/context/base-selected-result.json",
+    "research/rounded-borrowing-contract/context/refresh-selected-result.json",
+    "research/rounded-borrowing-contract/NOTICE.md",
+    "research/rounded-borrowing-contract/verify.py",
+    "research/rounded-borrowing-contract/COVERAGE.md",
+    "research/rounded-borrowing-contract/contracts.py",
+    "research/rounded-borrowing-contract/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/rounded-borrowing-contract/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rounded-borrowing-contract/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1135/ec941e11023b__PROOF.md",
+      "sha256": "ec941e11023b79b0e4987869cbea64271f2938c4a686bfb62b65bd3b6c5a710d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad/research/rounded-borrowing-contract/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rounded-borrowing-contract/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/1135/5666598c61cb__CLAIM.json",
+      "sha256": "5666598c61cb0d17be6bf8a2912c208cebc42ba0eafa7b972720b7c0edfa211a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad/research/rounded-borrowing-contract/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rounded-borrowing-contract/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1135/7a7da31f2915__EXPECTED.json",
+      "sha256": "7a7da31f29151a7d01920835905d4776c2251a55f445267def2b90ba1e9322b2",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad/research/rounded-borrowing-contract/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/rounded-borrowing-contract/verify.py",
+      "file": "remaining-record-audit/artifacts/1135/37de1dbadcb6__verify.py",
+      "sha256": "37de1dbadcb67ca055838cf3b1253ae1a5f27ea144271d8d8e6cecccf1726eb4",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad/research/rounded-borrowing-contract/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 24,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1135,
+      "head": "4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad",
+      "path": "research/rounded-borrowing-contract/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4c35687d7c0da8e6cf33f17e418ecf31c95ff3ad/research/rounded-borrowing-contract/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "4c2d8e745b9036fc769ae75cbbf7cc1dfaef34e37de39729a147e78219460c67",
+      "git_blob_sha1": "dd5d9a671cca4b768721dba02c674c11e74c1c8b",
+      "bytes": 3604,
+      "file": "individual-primary-interface-source/1135/4c2d8e745b90__README.md"
+    }
+  ]
+}

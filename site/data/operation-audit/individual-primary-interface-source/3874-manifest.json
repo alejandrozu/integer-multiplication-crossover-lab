@@ -1,0 +1,70 @@
+{
+  "pr": 3874,
+  "own_head": "fb86b078a53042974d88b9758fe36622571349d0",
+  "primary_path_candidates": [
+    "research/ideal-lever-grid-budgets/RESULT.json",
+    "research/ideal-lever-grid-budgets/README.md",
+    "research/ideal-lever-grid-budgets/TASK.json",
+    "research/ideal-lever-grid-budgets/VERIFY.json",
+    "research/ideal-lever-grid-budgets/grid.py",
+    "research/ideal-lever-grid-budgets/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/ideal-lever-grid-budgets/TASK.json",
+    "research/ideal-lever-grid-budgets/grid.py",
+    "research/ideal-lever-grid-budgets/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ideal-lever-grid-budgets/README.md",
+      "file": "remaining-record-audit/artifacts/3874/b6ce979ada5d__README.md",
+      "sha256": "b6ce979ada5d84c908d4ce1bb61a07d2edbe9bf174e972c21926c47a7644d528",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb86b078a53042974d88b9758fe36622571349d0/research/ideal-lever-grid-budgets/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/ideal-lever-grid-budgets/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3874/4f965e0a8f2d__RESULT.json",
+      "sha256": "4f965e0a8f2d0e48e0c50ac3b2e24a537e680ea0ed43ec7a3c114dcd9ec34fa7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb86b078a53042974d88b9758fe36622571349d0/research/ideal-lever-grid-budgets/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 7,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3874,
+      "head": "fb86b078a53042974d88b9758fe36622571349d0",
+      "path": "research/ideal-lever-grid-budgets/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb86b078a53042974d88b9758fe36622571349d0/research/ideal-lever-grid-budgets/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "5597d1b2311f69d42f53afe769982decd185f84214612d30f1a642c07e721ee7",
+      "git_blob_sha1": "bd8fa15028b9525c929f5c09d0850d31c7e2bd43",
+      "bytes": 6909,
+      "file": "individual-primary-interface-source/3874/5597d1b2311f__TASK.json"
+    },
+    {
+      "pr": 3874,
+      "head": "fb86b078a53042974d88b9758fe36622571349d0",
+      "path": "research/ideal-lever-grid-budgets/grid.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb86b078a53042974d88b9758fe36622571349d0/research/ideal-lever-grid-budgets/grid.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "df7a89f3bc6293f69c9015a275def5e0010c0b46076e7be9378283b43e07d4a5",
+      "git_blob_sha1": "aee9cdd3bd89e0fb5cfbdd7972711ac13afbf428",
+      "bytes": 4326,
+      "file": "individual-primary-interface-source/3874/df7a89f3bc62__grid.py"
+    },
+    {
+      "pr": 3874,
+      "head": "fb86b078a53042974d88b9758fe36622571349d0",
+      "path": "research/ideal-lever-grid-budgets/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/fb86b078a53042974d88b9758fe36622571349d0/research/ideal-lever-grid-budgets/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1d23d8fe3b7e2df55a0e8020070090514bf30bc2c42b0f95f339491530370b31",
+      "git_blob_sha1": "3846855f45a3cded3bb748d0e50e4a5a2a19f1b0",
+      "bytes": 779,
+      "file": "individual-primary-interface-source/3874/1d23d8fe3b7e__VERIFY.json"
+    }
+  ]
+}

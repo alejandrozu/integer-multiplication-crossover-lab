@@ -1,0 +1,31 @@
+{
+  "schema": "public-release-final-metadata-verification/1",
+  "passed": true,
+  "post_replay_provenance_refresh": true,
+  "assets": [
+    {
+      "file": "reproduction-package.json",
+      "bytes": 7514,
+      "sha256": "528e7b1a1356c039afd3eef67730a0f80fee1e80c477e5db218f8bf2501f1c76",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/reproduction-package.json",
+      "server_digest_verified": true,
+      "anonymous_download_SHA256_verified": true
+    },
+    {
+      "file": "restore_reproduction.py",
+      "bytes": 4724,
+      "sha256": "4c15819e296fa8fed88af4746c5ec4f34d656ab8f717b2dfcef01ad2f200b94b",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/restore_reproduction.py",
+      "server_digest_verified": true,
+      "anonymous_download_SHA256_verified": true
+    },
+    {
+      "file": "source-history-offline-reproduction-verification.json",
+      "bytes": 48631,
+      "sha256": "53ea6384c20a24a2bf84b4f0cadf5f1751c14fe35c7a15cf0fa010c2f4de7650",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/source-history-offline-reproduction-verification.json",
+      "server_digest_verified": true,
+      "anonymous_download_SHA256_verified": true
+    }
+  ]
+}

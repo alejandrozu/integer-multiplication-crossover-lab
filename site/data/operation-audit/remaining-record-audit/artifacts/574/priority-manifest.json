@@ -1,0 +1,36 @@
+[
+  {
+    "pr": 574,
+    "head": "f3e0af901f88f2fd3a213224ad3b59a16b5f4688",
+    "path": "research/complex-571-plain8/MANIFEST.json",
+    "api_sha": "9b528074ee21316e86ca3599e0b7c24d4d28918e",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f3e0af901f88f2fd3a213224ad3b59a16b5f4688/research%2Fcomplex-571-plain8%2FMANIFEST.json",
+    "priority": 180,
+    "hint_base": "research/complex-571-plain8/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3e0af901f88f2fd3a213224ad3b59a16b5f4688/research/complex-571-plain8/MANIFEST.json",
+    "file": "artifacts\\574\\b68beb38f1b6__MANIFEST.json",
+    "sha256": "b68beb38f1b60b57c8d067b0fa352211fa9071ad80045989203239e3893eb1bf",
+    "git_blob_sha1": "9b528074ee21316e86ca3599e0b7c24d4d28918e",
+    "bytes": 1202,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:06.484169+00:00",
+    "status": "fetched_own_head_bytes"
+  },
+  {
+    "pr": 574,
+    "head": "f3e0af901f88f2fd3a213224ad3b59a16b5f4688",
+    "path": "research/complex-571-plain8/verify.py",
+    "api_sha": "997a7e3d4f04d445f1405291456ff1341bdfff14",
+    "api_blob_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/f3e0af901f88f2fd3a213224ad3b59a16b5f4688/research%2Fcomplex-571-plain8%2Fverify.py",
+    "priority": 245,
+    "hint_base": "research/complex-571-plain8/",
+    "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/f3e0af901f88f2fd3a213224ad3b59a16b5f4688/research/complex-571-plain8/verify.py",
+    "file": "artifacts\\574\\e73efb7b37e3__verify.py",
+    "sha256": "e73efb7b37e3cbecfeabef15284d40f8767e45c5121564ac5950df784b8fca5f",
+    "git_blob_sha1": "997a7e3d4f04d445f1405291456ff1341bdfff14",
+    "bytes": 9827,
+    "api_own_blob_verified": true,
+    "fetched_at_utc": "2026-10-24T14:22:06.482167+00:00",
+    "status": "fetched_own_head_bytes"
+  }
+]

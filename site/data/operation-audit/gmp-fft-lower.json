@@ -1,0 +1,241 @@
+{
+  "schema": "gmp-6.3.0-generic-full-fft-circuit-lower-v1",
+  "model": "xag-straightline-v1",
+  "status": "derived-lower-envelope-for-fixed-unsimplified-generic-source-circuit",
+  "scope": "Whole generic multiplication circuit has at least the counted mandatory FFT additions; not a lower bound for other GMP configurations or optimized circuits.",
+  "source_manifest": "gmp-fft-source-manifest.json",
+  "source_archive_sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+  "script_sha256": "955b94fb13f6688c07ab12455c58dce0b27637539a4e6ad8cfd04517bfde5c9f",
+  "configuration": {
+    "GMP_LIMB_BITS": 64,
+    "GMP_NAIL_BITS": 0,
+    "NO_ASM": true,
+    "HAVE_NATIVE_mpn_add_n_sub_n": 0,
+    "WANT_ADDSUB": "undefined; source uses #ifdef",
+    "TUNE_PROGRAM_BUILD": 0,
+    "all_native_assembly_replacements": false,
+    "counted_addition_kernel": "mpn/generic/add_n.c; no native replacement",
+    "MUL_FFT_TABLE3": "undefined",
+    "SQR_FFT_TABLE3": "undefined",
+    "MUL_FFT_TABLE": [
+      400,
+      800,
+      1600,
+      3200,
+      9600,
+      28800,
+      0
+    ],
+    "FFT_FIRST_K": 4,
+    "MUL_FFT_THRESHOLD": 3000,
+    "MUL_FFT_MODF_THRESHOLD": 300,
+    "MULMOD_BNM1_THRESHOLD": 16,
+    "input": "Two public equal-length little-endian 64-bit limb arrays with distinct addresses; values may coincide; leading-zero padding allowed.",
+    "public_indices": "Idealized unbounded exact public-size/index arithmetic; compile-time size calculations and fixed wiring free. Physical 64-bit memory limits do not define this asymptotic circuit family.",
+    "lowering": "Each source 64-bit sl=ul+vl in generic add_n uses64 unsimplified full-adder cells; no CSE, constant folding, gate pruning, or substitution by hardware assembly.",
+    "remaining_control": "Other input-dependent branches may be unrolled and selected with gates; their nonnegative work is not needed for this lower envelope."
+  },
+  "actual_entrypoint_chain": [
+    "mpn_mul_n (mul_n.c): n>=MUL_FFT_THRESHOLD selects mpn_fft_mul",
+    "gmp-impl.h:5305-5308: mpn_fft_mul is mpn_nussbaumer_mul; old full-FFT alias is disabled",
+    "nussbaumer_mul.c: non-square calls mulmod_bnm1 with rn=next_size(2m)",
+    "mulmod_bnm1.c: CRT plus branch calls mpn_mul_fft with pl=rn/2 and k>=4",
+    "mul_fft.c: two forward FFTs, one inverse FFT, K pointwise products",
+    "mul_fft.c: if child nprime>=300, every pointwise product recursively calls the same modF FFT core"
+  ],
+  "exact_public_geometry": {
+    "root_modF_limbs": "R=next_size(m,best_k(m))>=m, root k lowered only to ensure2^k dividesR",
+    "best_k_range": "4<=k<=11; k=11 when pl>=115200",
+    "K": "2^k",
+    "N": "64pl",
+    "M": "N/K",
+    "first_Nprime": "max(64,K)*(1+floor((2M+k+2)/max(64,K)))",
+    "child": "nprime=Nprime/64, rounded upward to divisibility by2^best_k(nprime) until stable when nprime>=300",
+    "butterfly_count_each_transform": "Kk/2",
+    "transforms_per_nonsquare_node": 3,
+    "mandatory_add_n_limbs_per_butterfly": ">=nprime",
+    "mandatory_word_adder_gates": {
+      "AND": 128,
+      "XOR": 192
+    }
+  },
+  "local_lower": {
+    "AND": ">=6kN>=24N",
+    "XOR": ">=9kN>=36N",
+    "child_bit_mass": "K*Nprime>=2N",
+    "child_shrink": "Nprime>=N/1024"
+  },
+  "logarithmic_lower": {
+    "input_bits_each_min": "67108864",
+    "AND": ">n log2(n)",
+    "XOR": ">(3/2)n log2(n)",
+    "weighted": ">(1+(3/2)rho)n log2(n)",
+    "rho": ">0"
+  },
+  "polynomial_lower": {
+    "input_bits_each_min": "67108864",
+    "AND": ">4n^(11/10)",
+    "XOR": ">6n^(11/10)",
+    "weighted": ">(4+6rho)n^(11/10)",
+    "reason": "The pinned finite fallback table saturates at k=11 in the idealized unbounded extension; this is not the asymptotics of every optimized GMP build."
+  },
+  "source_review": {
+    "old_fft_full_was_not_used": true,
+    "no_missing_gate_width": "The lower counts only explicitly specified 64-bit word adders, each exactly128 AND+192 XOR; all other gates are nonnegative.",
+    "complete_total_count_derived": false,
+    "whole_algorithm_lower_envelope_derived": true,
+    "is_lean_formalized": false,
+    "is_CPU_runtime_bound": false,
+    "is_global_GMP_lower_bound": false
+  },
+  "verification": {
+    "finite_geometry_cases": 978,
+    "full_dispatch_sizes_checked": 147001,
+    "butterfly_sizes_checked": 11,
+    "arbitrary_precision_cases": true,
+    "exact_sample_lower_envelopes": [
+      {
+        "input_bits_each": "262144",
+        "limbs_each": "4096",
+        "root": {
+          "pl": "4096",
+          "k": "8",
+          "K": "256",
+          "initial_child_limbs": "36",
+          "child_limbs": "36",
+          "Nprime": "2304",
+          "alignment_rounds": "0"
+        },
+        "mandatory_addition_lower": {
+          "AND": "14155776",
+          "XOR": "21233664",
+          "FFT_depth": "1",
+          "root_butterflies_three_transforms": "3072",
+          "root_mandatory_word_additions": "110592"
+        }
+      },
+      {
+        "input_bits_each": "1048576",
+        "limbs_each": "16384",
+        "root": {
+          "pl": "16384",
+          "k": "9",
+          "K": "512",
+          "initial_child_limbs": "72",
+          "child_limbs": "72",
+          "Nprime": "4608",
+          "alignment_rounds": "0"
+        },
+        "mandatory_addition_lower": {
+          "AND": "63700992",
+          "XOR": "95551488",
+          "FFT_depth": "1",
+          "root_butterflies_three_transforms": "6912",
+          "root_mandatory_word_additions": "497664"
+        }
+      },
+      {
+        "input_bits_each": "16777216",
+        "limbs_each": "262144",
+        "root": {
+          "pl": "262144",
+          "k": "11",
+          "K": "2048",
+          "initial_child_limbs": "288",
+          "child_limbs": "288",
+          "Nprime": "18432",
+          "alignment_rounds": "0"
+        },
+        "mandatory_addition_lower": {
+          "AND": "1245708288",
+          "XOR": "1868562432",
+          "FFT_depth": "1",
+          "root_butterflies_three_transforms": "33792",
+          "root_mandatory_word_additions": "9732096"
+        }
+      },
+      {
+        "input_bits_each": "67108864",
+        "limbs_each": "1048576",
+        "root": {
+          "pl": "1048576",
+          "k": "11",
+          "K": "2048",
+          "initial_child_limbs": "1056",
+          "child_limbs": "1088",
+          "Nprime": "69632",
+          "alignment_rounds": "1"
+        },
+        "mandatory_addition_lower": {
+          "AND": "9990832128",
+          "XOR": "14986248192",
+          "FFT_depth": "2",
+          "root_butterflies_three_transforms": "33792",
+          "root_mandatory_word_additions": "36765696"
+        }
+      },
+      {
+        "input_bits_each": "1073741824",
+        "limbs_each": "16777216",
+        "root": {
+          "pl": "16777216",
+          "k": "11",
+          "K": "2048",
+          "initial_child_limbs": "16416",
+          "child_limbs": "16896",
+          "Nprime": "1081344",
+          "alignment_rounds": "1"
+        },
+        "mandatory_addition_lower": {
+          "AND": "203541184512",
+          "XOR": "305311776768",
+          "FFT_depth": "2",
+          "root_butterflies_three_transforms": "33792",
+          "root_mandatory_word_additions": "570949632"
+        }
+      },
+      {
+        "input_bits_each": "1099511627776",
+        "limbs_each": "17179869184",
+        "root": {
+          "pl": "17179869184",
+          "k": "11",
+          "K": "2048",
+          "initial_child_limbs": "16777248",
+          "child_limbs": "16779264",
+          "Nprime": "1073872896",
+          "alignment_rounds": "1"
+        },
+        "mandatory_addition_lower": {
+          "AND": "489428971683840",
+          "XOR": "734143457525760",
+          "FFT_depth": "3",
+          "root_butterflies_three_transforms": "33792",
+          "root_mandatory_word_additions": "567004889088"
+        }
+      },
+      {
+        "input_bits_each": "1267650600228229401496703205376",
+        "limbs_each": "19807040628566084398385987584",
+        "root": {
+          "pl": "19807040628566084398385987584",
+          "k": "11",
+          "K": "2048",
+          "initial_child_limbs": "19342813113834066795298848",
+          "child_limbs": "19342813113834066795300864",
+          "Nprime": "1237940039285380274899255296",
+          "alignment_rounds": "1"
+        },
+        "mandatory_addition_lower": {
+          "AND": "41384375446703850324235471772712960",
+          "XOR": "62076563170055775486353207659069440",
+          "FFT_depth": "9",
+          "root_butterflies_three_transforms": "33792",
+          "root_mandatory_word_additions": "653632340742680785146806796288"
+        }
+      }
+    ],
+    "all_passed": true
+  },
+  "comparison_status": "A same-model candidate upper below this envelope would certify superiority to this pinned generic circuit only. No PR4470 crossing has yet been established here."
+}

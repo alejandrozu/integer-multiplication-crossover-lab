@@ -1,0 +1,89 @@
+{
+  "pr": 528,
+  "own_head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+  "primary_path_candidates": [
+    "research/lean-complete-bank-endpoint/README.md",
+    "certificates/joint-dual-kappa.json",
+    "certificates/joint-dual-validation.json",
+    "research/joint-dual/SOURCE.json",
+    "research/lean-complete-bank-endpoint/AUTHOR_CHECK.json",
+    "research/lean-complete-bank-endpoint/DEPENDENCIES.json",
+    "research/lean-complete-bank-endpoint/KAPPA_CONTEXT.json",
+    "research/lean-complete-bank-endpoint/REPLAY_SUMMARY.json",
+    "research/lean-complete-bank-endpoint/ACCEPTED_CHECKS.json",
+    "research/lean-complete-bank-endpoint/selected-result.json",
+    "research/lean-complete-bank-endpoint/CHECKED_BOUNDARY.json",
+    "research/lean-complete-bank-endpoint/EXTERNAL_OBJECTS.json",
+    "docs/paired-cube.md",
+    "scripts/experiments/joint_dual_compose.py",
+    "research/lean-complete-bank-endpoint/check.py",
+    "scripts/experiments/pin_joint_dual_sources.py",
+    "research/lean-complete-bank-endpoint/PROVENANCE.md",
+    "research/lean-complete-bank-endpoint/PR509-NOTICE.md",
+    "research/lean-complete-bank-endpoint/PR516-NOTICE.md",
+    "research/lean-complete-bank-endpoint/stage_dependencies.py"
+  ],
+  "selected_for_recovery": [
+    "certificates/joint-dual-kappa.json",
+    "certificates/joint-dual-validation.json",
+    "scripts/experiments/joint_dual_compose.py",
+    "research/joint-dual/SOURCE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/lean-complete-bank-endpoint/README.md",
+      "file": "remaining-record-audit/artifacts/528/4da4ba61654d__README.md",
+      "sha256": "4da4ba61654db43bd4e0128adc5fac2e366f0ccd50c1ffbaf0f6db58dc3bc320",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/research/lean-complete-bank-endpoint/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 26,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 528,
+      "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+      "path": "certificates/joint-dual-kappa.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/certificates/joint-dual-kappa.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a1329d6c5e78cef5c7381d5e5d79c0a8842db7e569892af3b7e763b6c46d6f96",
+      "git_blob_sha1": "240efb3da1894268b9bd5c23a2b4061487610e9b",
+      "bytes": 37861,
+      "file": "individual-primary-interface-source/528/a1329d6c5e78__joint-dual-kappa.json"
+    },
+    {
+      "pr": 528,
+      "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+      "path": "certificates/joint-dual-validation.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/certificates/joint-dual-validation.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8155d8a4097779a21d55222589c29bd60e000a032ac02093caea92b87bd681ca",
+      "git_blob_sha1": "a5ee9f485a86bb0bd1682328a7e2449947b0bff9",
+      "bytes": 5825,
+      "file": "individual-primary-interface-source/528/8155d8a40977__joint-dual-validation.json"
+    },
+    {
+      "pr": 528,
+      "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+      "path": "scripts/experiments/joint_dual_compose.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/scripts/experiments/joint_dual_compose.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "3554e957570e2d3f65c5bd7c945338c9e2fc5f3e79efa2b436a4dfc61899c394",
+      "git_blob_sha1": "ae8fdf12485ba0650afa80de8b5af104945104e5",
+      "bytes": 10740,
+      "file": "individual-primary-interface-source/528/3554e957570e__joint_dual_compose.py"
+    },
+    {
+      "pr": 528,
+      "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+      "path": "research/joint-dual/SOURCE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/df5bbdbf837df908ce2324ed880141918a19db5d/research/joint-dual/SOURCE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e60f1f78c9729700ef9606a6576163de0b553792e5e8f24591dce5f51597158c",
+      "git_blob_sha1": "e055d5d63d12bfc4c5e1c1d5dd4341b87907f816",
+      "bytes": 6369,
+      "file": "individual-primary-interface-source/528/e60f1f78c972__SOURCE.json"
+    }
+  ]
+}

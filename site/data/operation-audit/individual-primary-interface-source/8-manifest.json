@@ -1,0 +1,70 @@
+{
+  "pr": 8,
+  "own_head": "4920e44843512014f742d685e01341f6787bbd5f",
+  "primary_path_candidates": [
+    "research/geometric-complex/certificate.json",
+    "README.md",
+    "research/geometric-complex/README.md",
+    "research/geometric-complex/bit-screen.json",
+    "research/geometric-complex/validation.json",
+    "research/geometric-complex/physical-audit.json",
+    "research/geometric-complex/audit.py",
+    "research/geometric-complex/verify.py",
+    "research/geometric-complex/explore.py",
+    "research/geometric-complex/bit_screen.py",
+    "research/geometric-complex/geometric-note.tex"
+  ],
+  "selected_for_recovery": [
+    "research/geometric-complex/bit-screen.json",
+    "research/geometric-complex/audit.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "README.md",
+      "file": "remaining-record-audit/artifacts/8/34c604dd369b__README.md",
+      "sha256": "34c604dd369b00a39f94a579fb1d251ec8372473e2fbeb56159e5bf1675de4f0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4920e44843512014f742d685e01341f6787bbd5f/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/geometric-complex/certificate.json",
+      "file": "remaining-record-audit/artifacts/8/bd5ce8e6a846__certificate.json",
+      "sha256": "bd5ce8e6a84662af7c32a410e0196ad24b500445c7a54c761907ec4a77506d7a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4920e44843512014f742d685e01341f6787bbd5f/research/geometric-complex/certificate.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/geometric-complex/README.md",
+      "file": "remaining-record-audit/artifacts/8/13ba3cc3ebb9__README.md",
+      "sha256": "13ba3cc3ebb9fc6120c4b2ba1b883009594423d9f42544812e099bfb4b05ad8a",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4920e44843512014f742d685e01341f6787bbd5f/research/geometric-complex/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 11,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 8,
+      "head": "4920e44843512014f742d685e01341f6787bbd5f",
+      "path": "research/geometric-complex/bit-screen.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4920e44843512014f742d685e01341f6787bbd5f/research/geometric-complex/bit-screen.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "084e647ace9e5821646e445c414e551d40158535c99a0795152d06858018105d",
+      "git_blob_sha1": "440ebe341117b82b2c70a9177a6ace0a57ca1d27",
+      "bytes": 5584,
+      "file": "individual-primary-interface-source/8/084e647ace9e__bit-screen.json"
+    },
+    {
+      "pr": 8,
+      "head": "4920e44843512014f742d685e01341f6787bbd5f",
+      "path": "research/geometric-complex/audit.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/4920e44843512014f742d685e01341f6787bbd5f/research/geometric-complex/audit.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "66cea21a28199b3e1cce7799e60abe913f2968dbbdee63edb3662373c68c928b",
+      "git_blob_sha1": "46f55e85a77fb53802ff7c3045d1ad2e67478983",
+      "bytes": 7804,
+      "file": "individual-primary-interface-source/8/66cea21a2819__audit.py"
+    }
+  ]
+}

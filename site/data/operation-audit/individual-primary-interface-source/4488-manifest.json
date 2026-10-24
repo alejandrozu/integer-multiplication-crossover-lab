@@ -1,0 +1,56 @@
+{
+  "pr": 4488,
+  "own_head": "50264f24b5f94ebbcc92364e279c6e232d5978d9",
+  "primary_path_candidates": [
+    "research/gaussian-tensor-axis/README.md",
+    "research/gaussian-tensor-axis/TASK.json",
+    "research/gaussian-tensor-axis/VERIFY.json",
+    "research/gaussian-tensor-axis/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gaussian-tensor-axis/TASK.json",
+    "research/gaussian-tensor-axis/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-axis/README.md",
+      "file": "remaining-record-audit/artifacts/4488/dc52b278f3a2__README.md",
+      "sha256": "dc52b278f3a23c3a109bebfca663a08410246dbfd5cbf6d68e3d5a14090ec61c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/50264f24b5f94ebbcc92364e279c6e232d5978d9/research/gaussian-tensor-axis/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-axis/verify.py",
+      "file": "remaining-record-audit/artifacts/4488/91670c0a7fc5__verify.py",
+      "sha256": "91670c0a7fc506fc8ae0cce6392f0fef029bc0f9f41257eb1b429357afe59dc1",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/50264f24b5f94ebbcc92364e279c6e232d5978d9/research/gaussian-tensor-axis/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4488,
+      "head": "50264f24b5f94ebbcc92364e279c6e232d5978d9",
+      "path": "research/gaussian-tensor-axis/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/50264f24b5f94ebbcc92364e279c6e232d5978d9/research/gaussian-tensor-axis/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "e709047d590426d5b9d07354a04d30c3049fab17e151499c12f0ece738c04182",
+      "git_blob_sha1": "425e5e3bced5e3de50391a68940e0b2aee2318c5",
+      "bytes": 4617,
+      "file": "individual-primary-interface-source/4488/e709047d5904__TASK.json"
+    },
+    {
+      "pr": 4488,
+      "head": "50264f24b5f94ebbcc92364e279c6e232d5978d9",
+      "path": "research/gaussian-tensor-axis/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/50264f24b5f94ebbcc92364e279c6e232d5978d9/research/gaussian-tensor-axis/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "6ace22f8d0937f1d7c6f7fb685991534744046c47860e43be8373ca2e4cfb77b",
+      "git_blob_sha1": "6e7a95e703e09c472204f1ad4a3f239063f36c0f",
+      "bytes": 541,
+      "file": "individual-primary-interface-source/4488/6ace22f8d093__VERIFY.json"
+    }
+  ]
+}

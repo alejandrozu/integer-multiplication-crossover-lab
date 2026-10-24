@@ -1,0 +1,100 @@
+{
+  "pr": 2930,
+  "own_head": "81f3b5d12977eba09e06fbff729167d59faabe90",
+  "primary_path_candidates": [
+    "research/paired-extension-cap-fill/CLAIM.json",
+    "research/paired-extension-cap-fill/allocation/baseline/CLAIM.json",
+    "research/paired-extension-cap-fill/README.md",
+    "research/paired-extension-cap-fill/TASK.json",
+    "research/paired-extension-cap-fill/VERIFY.json",
+    "research/paired-extension-cap-fill/ALLOCATION-PINS.json",
+    "research/paired-extension-cap-fill/allocation/ORDER.json",
+    "research/paired-extension-cap-fill/allocation/SEARCH.json",
+    "research/paired-extension-cap-fill/allocation/PROFILE.json",
+    "research/paired-extension-cap-fill/allocation/DISPATCH.json",
+    "research/paired-extension-cap-fill/allocation/PROVIDERS.json",
+    "research/paired-extension-cap-fill/evidence/ENVIRONMENT.json",
+    "research/paired-extension-cap-fill/certificates/RELAX-CAP.json",
+    "research/paired-extension-cap-fill/construction/T37-MODEL.json",
+    "research/paired-extension-cap-fill/construction/T37-SOLVER.json",
+    "research/paired-extension-cap-fill/evidence/RELEASE-RECEIPT.json",
+    "research/paired-extension-cap-fill/evidence/RUNTIME-PATCHES.json",
+    "research/paired-extension-cap-fill/construction/T37-PATTERNS.json",
+    "research/paired-extension-cap-fill/evidence/ADMISSION-RESULT.json",
+    "research/paired-extension-cap-fill/evidence/ADMISSION-STAGES.json",
+    "research/paired-extension-cap-fill/evidence/ADAPTER-DERIVATION.json",
+    "research/paired-extension-cap-fill/evidence/FULL-NATIVE-RESULT.json",
+    "research/paired-extension-cap-fill/evidence/FULL-REPLAY-RESULT.json",
+    "research/paired-extension-cap-fill/evidence/FULL-REPLAY-STAGES.json",
+    "research/paired-extension-cap-fill/evidence/FULL-NATIVE-RECEIPT.json",
+    "research/paired-extension-cap-fill/evidence/RETAINED-BOOTSTRAP-RECEIPT.json",
+    "research/paired-extension-cap-fill/allocation/baseline/ORDER.json",
+    "research/paired-extension-cap-fill/allocation/baseline/PROFILE.json",
+    "research/paired-extension-cap-fill/CREDITS.md",
+    "research/paired-extension-cap-fill/check_cap.py",
+    "research/paired-extension-cap-fill/reproduce.py",
+    "research/paired-extension-cap-fill/run_registered.py",
+    "research/paired-extension-cap-fill/check_allocation.py",
+    "research/paired-extension-cap-fill/tools/root.py",
+    "research/paired-extension-cap-fill/tools/relax.py",
+    "research/paired-extension-cap-fill/tools/relax_exact.py",
+    "research/paired-extension-cap-fill/construction/double.py",
+    "research/paired-extension-cap-fill/construction/fill17.py",
+    "research/paired-extension-cap-fill/construction/controls.py",
+    "research/paired-extension-cap-fill/tools/derive_adapters.py",
+    "research/paired-extension-cap-fill/tools/audit_allocation_moment.py"
+  ],
+  "selected_for_recovery": [
+    "research/paired-extension-cap-fill/check_cap.py",
+    "research/paired-extension-cap-fill/TASK.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill/README.md",
+      "file": "remaining-record-audit/artifacts/2930/b0c6a1719fa0__README.md",
+      "sha256": "b0c6a1719fa039551dfdd9a1c20213b4bcae3d5181ad6ae882cd4d375bcc0810",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/81f3b5d12977eba09e06fbff729167d59faabe90/research/paired-extension-cap-fill/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2930/9c2c14158780__CLAIM.json",
+      "sha256": "9c2c14158780a677b3661623d7476acc4f535ac9e0481addfa1d6c4c7633b74b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/81f3b5d12977eba09e06fbff729167d59faabe90/research/paired-extension-cap-fill/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/paired-extension-cap-fill/allocation/baseline/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/2930/e6c836c01786__CLAIM.json",
+      "sha256": "e6c836c0178661a53a69cd91f29d83585e876f2511ff40c6b6204cd270fbdeac",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/81f3b5d12977eba09e06fbff729167d59faabe90/research/paired-extension-cap-fill/allocation/baseline/CLAIM.json"
+    }
+  ],
+  "github_changed_file_reported_count": 71,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 2930,
+      "head": "81f3b5d12977eba09e06fbff729167d59faabe90",
+      "path": "research/paired-extension-cap-fill/check_cap.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/81f3b5d12977eba09e06fbff729167d59faabe90/research/paired-extension-cap-fill/check_cap.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "19e0502c8f7618f0dc88566f4eac425fa9772c9e75d6109375064685ab4f1ae0",
+      "git_blob_sha1": "c1569e8ebce2274f7cf7689c907a06c15d64a3ac",
+      "bytes": 4688,
+      "file": "individual-primary-interface-source/2930/19e0502c8f76__check_cap.py"
+    },
+    {
+      "pr": 2930,
+      "head": "81f3b5d12977eba09e06fbff729167d59faabe90",
+      "path": "research/paired-extension-cap-fill/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/81f3b5d12977eba09e06fbff729167d59faabe90/research/paired-extension-cap-fill/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "1b0c80c3f3255c2ed2336f3cfe5e8061bc08975bb195c100157a0e84a54da12b",
+      "git_blob_sha1": "afc75f7f70298ee2375a308a127ea2d1f6ec08d1",
+      "bytes": 5784,
+      "file": "individual-primary-interface-source/2930/1b0c80c3f325__TASK.json"
+    }
+  ]
+}

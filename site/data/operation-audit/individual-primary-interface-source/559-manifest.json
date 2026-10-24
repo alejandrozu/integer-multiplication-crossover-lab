@@ -1,0 +1,84 @@
+{
+  "pr": 559,
+  "own_head": "d858c0b2edcc704ef370b3c96dc51a75439b77b0",
+  "primary_path_candidates": [
+    "research/native-complex-moment552/EXPECTED.json",
+    "research/native-complex-moment552/PROOF.md",
+    "research/native-complex-moment552/README.md",
+    "research/native-complex-moment552/REVIEW.json",
+    "research/native-complex-moment552/EXPECTED558.json",
+    "research/native-complex-moment552/PROOF-REVIEW-STATUS.json",
+    "research/native-complex-moment552/evidence/PR552-packaged311.json",
+    "research/native-complex-moment552/evidence/PR552-packaged314.json",
+    "research/native-complex-moment552/evidence/PR558-packaged311.json",
+    "research/native-complex-moment552/evidence/PR558-packaged314.json",
+    "research/native-complex-moment552/evidence/PR552-regression-final.json",
+    "research/native-complex-moment552/evidence/PR558-COMPILER-LINEAGE.json",
+    "research/native-complex-moment552/evidence/PR552-PUBLISHED-INVOICE.json",
+    "research/native-complex-moment552/evidence/PR552-INDEPENDENT-REPLAY.json",
+    "research/native-complex-moment552/evidence/PR558-INDEPENDENT-REPLAY.json",
+    "research/native-complex-moment552/evidence/PR558-INDEPENDENT-RECEIPT.json",
+    "research/native-complex-moment552/NOTICE.md",
+    "research/native-complex-moment552/verify.py",
+    "research/native-complex-moment552/engines/outer.py",
+    "research/native-complex-moment552/engines/moment.py",
+    "research/native-complex-moment552/engines/base_two_moment.py",
+    "research/native-complex-moment552/notes/three-stage-cover-bit.tex",
+    "research/native-complex-moment552/notes/general-clifford-frames.tex",
+    "research/native-complex-moment552/notes/three-stage-cover-complex.tex",
+    "research/native-complex-moment552/notes/three-stage-cover-assembly.tex"
+  ],
+  "selected_for_recovery": [
+    "research/native-complex-moment552/REVIEW.json",
+    "research/native-complex-moment552/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/native-complex-moment552/PROOF.md",
+      "file": "remaining-record-audit/artifacts/559/d5d498edc56f__PROOF.md",
+      "sha256": "d5d498edc56fdef8c5798af7f5ec66948bd2f66c553b9efe366cdaab01bd3453",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d858c0b2edcc704ef370b3c96dc51a75439b77b0/research/native-complex-moment552/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/native-complex-moment552/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/559/a79dc7eec130__EXPECTED.json",
+      "sha256": "a79dc7eec1301a69560a2e7fd6ed69634463272696ee96f09e15db1aad8ab0b0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d858c0b2edcc704ef370b3c96dc51a75439b77b0/research/native-complex-moment552/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/native-complex-moment552/verify.py",
+      "file": "remaining-record-audit/artifacts/559/6b444c686891__verify.py",
+      "sha256": "6b444c686891b20b3a92385d025818fc86d9a6ddd2f77504d9223afaa47acd21",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d858c0b2edcc704ef370b3c96dc51a75439b77b0/research/native-complex-moment552/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 40,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 559,
+      "head": "d858c0b2edcc704ef370b3c96dc51a75439b77b0",
+      "path": "research/native-complex-moment552/REVIEW.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d858c0b2edcc704ef370b3c96dc51a75439b77b0/research/native-complex-moment552/REVIEW.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "518fd773b1287c9be19563316f55acfa443667946d1f5bc7cc7b884bb9005094",
+      "git_blob_sha1": "381201476a131a5797362231777a3d48c3b46100",
+      "bytes": 4201,
+      "file": "individual-primary-interface-source/559/518fd773b128__REVIEW.json"
+    },
+    {
+      "pr": 559,
+      "head": "d858c0b2edcc704ef370b3c96dc51a75439b77b0",
+      "path": "research/native-complex-moment552/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/d858c0b2edcc704ef370b3c96dc51a75439b77b0/research/native-complex-moment552/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "74f5cd377861bdff57a2825b19ac6c2b0bb6aa62f3b0354c7ceec0a76866c61c",
+      "git_blob_sha1": "3e5e80b91713e570e0ef171f3bf079dd40d90395",
+      "bytes": 2663,
+      "file": "individual-primary-interface-source/559/74f5cd377861__README.md"
+    }
+  ]
+}

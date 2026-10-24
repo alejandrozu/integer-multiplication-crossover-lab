@@ -1,0 +1,64 @@
+{
+  "pr": 3116,
+  "own_head": "2ebdcfebd6d3da023dc45ddf68729f0771ccb77c",
+  "primary_path_candidates": [
+    "research/complex-weighted-diagonal-rank51/RESULT.json",
+    "research/complex-weighted-diagonal-rank51/README.md",
+    "research/complex-weighted-diagonal-rank51/TASK.json",
+    "research/complex-weighted-diagonal-rank51/VERIFY.json",
+    "research/complex-weighted-diagonal-rank51/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-weighted-diagonal-rank51/TASK.json",
+    "research/complex-weighted-diagonal-rank51/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-weighted-diagonal-rank51/README.md",
+      "file": "remaining-record-audit/artifacts/3116/8b3267793333__README.md",
+      "sha256": "8b326779333339fe419b567eb0aacbb876e1eb77b38e2bf5cbb4a5780ec099e0",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2ebdcfebd6d3da023dc45ddf68729f0771ccb77c/research/complex-weighted-diagonal-rank51/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-weighted-diagonal-rank51/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3116/7586b163b506__RESULT.json",
+      "sha256": "7586b163b506b42af2c1df7578f1aadda24e2b6ca7e720c97df1ab4a10bcdc1d",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2ebdcfebd6d3da023dc45ddf68729f0771ccb77c/research/complex-weighted-diagonal-rank51/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-weighted-diagonal-rank51/verify.py",
+      "file": "remaining-record-audit/artifacts/3116/b2cd2e1e1b53__verify.py",
+      "sha256": "b2cd2e1e1b53d3948f9af2353a39bdfd5ef89e8078518f515e91f1d1ea70fa19",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2ebdcfebd6d3da023dc45ddf68729f0771ccb77c/research/complex-weighted-diagonal-rank51/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3116,
+      "head": "2ebdcfebd6d3da023dc45ddf68729f0771ccb77c",
+      "path": "research/complex-weighted-diagonal-rank51/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2ebdcfebd6d3da023dc45ddf68729f0771ccb77c/research/complex-weighted-diagonal-rank51/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "99b05bf8e7fcfccf8bf14d8e259a9eb8582ec64347b6a5971dc4beb1eb13d643",
+      "git_blob_sha1": "bccc669193c8536e4bd297602fc13e4c927f909d",
+      "bytes": 7017,
+      "file": "individual-primary-interface-source/3116/99b05bf8e7fc__TASK.json"
+    },
+    {
+      "pr": 3116,
+      "head": "2ebdcfebd6d3da023dc45ddf68729f0771ccb77c",
+      "path": "research/complex-weighted-diagonal-rank51/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/2ebdcfebd6d3da023dc45ddf68729f0771ccb77c/research/complex-weighted-diagonal-rank51/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "303966847bda473b22c9b74aa8aed24aa4c37a43c7d208c02972378547f7e03b",
+      "git_blob_sha1": "36be0af575d92a2f0e1404a9ce3b8bd21a295f3d",
+      "bytes": 766,
+      "file": "individual-primary-interface-source/3116/303966847bda__VERIFY.json"
+    }
+  ]
+}

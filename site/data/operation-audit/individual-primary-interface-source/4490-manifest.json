@@ -1,0 +1,56 @@
+{
+  "pr": 4490,
+  "own_head": "91b9fa3afcee9da37663c5a58905b25369f2a660",
+  "primary_path_candidates": [
+    "research/gaussian-tensor-bridge/README.md",
+    "research/gaussian-tensor-bridge/TASK.json",
+    "research/gaussian-tensor-bridge/VERIFY.json",
+    "research/gaussian-tensor-bridge/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/gaussian-tensor-bridge/TASK.json",
+    "research/gaussian-tensor-bridge/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-bridge/README.md",
+      "file": "remaining-record-audit/artifacts/4490/40880289a092__README.md",
+      "sha256": "40880289a092629c8ba0cdd7660c1ee553e0071cbe6f3e18e3c2e49cf37eb4d8",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/91b9fa3afcee9da37663c5a58905b25369f2a660/research/gaussian-tensor-bridge/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/gaussian-tensor-bridge/verify.py",
+      "file": "remaining-record-audit/artifacts/4490/84af3454b66b__verify.py",
+      "sha256": "84af3454b66bfb8640b21ef429a9efc2b52466b3e7113034a71fcf9f51ca4c73",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/91b9fa3afcee9da37663c5a58905b25369f2a660/research/gaussian-tensor-bridge/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 4490,
+      "head": "91b9fa3afcee9da37663c5a58905b25369f2a660",
+      "path": "research/gaussian-tensor-bridge/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/91b9fa3afcee9da37663c5a58905b25369f2a660/research/gaussian-tensor-bridge/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "9b1a8d0284b805ef1191c7053705869734bc7b920fa1305c8d9dbd9ec20b96fb",
+      "git_blob_sha1": "c6da61aeffe7c238e03b7c7aa2100a6e30f1b1a8",
+      "bytes": 4538,
+      "file": "individual-primary-interface-source/4490/9b1a8d0284b8__TASK.json"
+    },
+    {
+      "pr": 4490,
+      "head": "91b9fa3afcee9da37663c5a58905b25369f2a660",
+      "path": "research/gaussian-tensor-bridge/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/91b9fa3afcee9da37663c5a58905b25369f2a660/research/gaussian-tensor-bridge/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b203055c3ba4dea59e54c436cfca9eaf88a80c8dc183cba5e2f9dc0523024b16",
+      "git_blob_sha1": "3f8e678df31559e58958797bd31b03e8a6228d79",
+      "bytes": 548,
+      "file": "individual-primary-interface-source/4490/b203055c3ba4__VERIFY.json"
+    }
+  ]
+}

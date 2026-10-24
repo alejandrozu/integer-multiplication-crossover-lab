@@ -1,0 +1,29 @@
+{
+  "schema": "pr4470-clifford-stack-ai-peer-review/1",
+  "status": "PASS_UNDER_RETAINED_CONDITIONAL_CONTRACTS",
+  "reviewer": "separate leaderboard_source AI worker",
+  "independent_human_review": false,
+  "Lean_verification": false,
+  "native_phase_or_producer_replayed": false,
+  "reviewed_checks": 1256,
+  "proof_and_certificate_sha256": {
+    "pr4470-clifford-stack-upper.md": "773df80dc21fcc7130ba9f9c68ccb07084f46b924f4019b4d90a4cc5156226af",
+    "pr4470-clifford-stack-upper.json": "23969ad2f56eacc909045a2e9c5356fc572281129510171334b185f106e9703a",
+    "pr4470_clifford_stack_upper.py": "882d3915e356fbb9b573397f8eb52f64e1afe212a92ab016a0fa5117cfe6e9c9",
+    "pr4470-clifford-stack-peer-review.md": "24758af18a9a086005ce007e78ae55e62b34a354b7270b1aa0259ddc0254f013"
+  },
+  "reviewed_claims": [
+    "whole-expanded-word rank-mass normalized work cancellation",
+    "fresh source/paid-edge and base adapter ledger",
+    "exact finite Clifford phase and Gaussian-dyadic denominator lemma",
+    "fixed per-role and parent-selected-subspace invariants",
+    "distinct ready-slot and owned-bank chronology",
+    "COPY/CLEAR and scalar separators in suspended contexts",
+    "all-size ordinary precision chain and stock completion",
+    "seven outer interface substitutions with unchanged recovery contracts"
+  ],
+  "scientific_review_closed": true,
+  "actual_first_crossing_known": false,
+  "practical_runtime_claimed": false,
+  "formal_status": "AI-assisted mathematical peer review; not human or formal-kernel verification"
+}

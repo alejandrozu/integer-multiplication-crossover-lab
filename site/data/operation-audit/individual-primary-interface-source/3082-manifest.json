@@ -1,0 +1,64 @@
+{
+  "pr": 3082,
+  "own_head": "c9c6b59ce5f526a0082d06b24470b7ac946e62da",
+  "primary_path_candidates": [
+    "research/kappa01-target-screen/RESULT.json",
+    "research/kappa01-target-screen/README.md",
+    "research/kappa01-target-screen/TASK.json",
+    "research/kappa01-target-screen/VERIFY.json",
+    "research/kappa01-target-screen/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/kappa01-target-screen/TASK.json",
+    "research/kappa01-target-screen/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kappa01-target-screen/README.md",
+      "file": "remaining-record-audit/artifacts/3082/fe011a4c87b2__README.md",
+      "sha256": "fe011a4c87b2ee1d9eed25f2a3da4de440ca0bbc292663fba637ea3760eac042",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9c6b59ce5f526a0082d06b24470b7ac946e62da/research/kappa01-target-screen/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kappa01-target-screen/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3082/057ba9f964a9__RESULT.json",
+      "sha256": "057ba9f964a9d8d0012c429a2f1850b37b653e64a5090560484a2a96e5dcc74c",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9c6b59ce5f526a0082d06b24470b7ac946e62da/research/kappa01-target-screen/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/kappa01-target-screen/verify.py",
+      "file": "remaining-record-audit/artifacts/3082/731b3ec615e9__verify.py",
+      "sha256": "731b3ec615e9d72427b701b69c44b0095560b0d4c96fbe8be55458028eacabcd",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9c6b59ce5f526a0082d06b24470b7ac946e62da/research/kappa01-target-screen/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 6,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3082,
+      "head": "c9c6b59ce5f526a0082d06b24470b7ac946e62da",
+      "path": "research/kappa01-target-screen/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9c6b59ce5f526a0082d06b24470b7ac946e62da/research/kappa01-target-screen/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "2c4a1ea5a09cfedfc7222c8922311395f03e16f065541675f30eb34735ef1799",
+      "git_blob_sha1": "3123b6fb610b9d7a35ffc27a27dee39a7dc16427",
+      "bytes": 7152,
+      "file": "individual-primary-interface-source/3082/2c4a1ea5a09c__TASK.json"
+    },
+    {
+      "pr": 3082,
+      "head": "c9c6b59ce5f526a0082d06b24470b7ac946e62da",
+      "path": "research/kappa01-target-screen/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/c9c6b59ce5f526a0082d06b24470b7ac946e62da/research/kappa01-target-screen/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "877ccfc79d7013d072ff5e93e64008e907679b5d9a2475a431876c0ad2d94e0b",
+      "git_blob_sha1": "111cea878517bed761ad5a5e5af8254462c868e9",
+      "bytes": 1026,
+      "file": "individual-primary-interface-source/3082/877ccfc79d70__VERIFY.json"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pr": 1358,
+  "own_head": "381d4a48b3cab8c204d437627b4e76cfc0c17164",
+  "primary_path_candidates": [
+    "research/complex-k8-singleton-frame-cap/CERTIFICATE.json",
+    "research/complex-k8-singleton-frame-cap/README.md",
+    "research/complex-k8-singleton-frame-cap/TASK.md",
+    "research/complex-k8-singleton-frame-cap/verify.py"
+  ],
+  "selected_for_recovery": [
+    "research/complex-k8-singleton-frame-cap/TASK.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-k8-singleton-frame-cap/README.md",
+      "file": "remaining-record-audit/artifacts/1358/5090270c2f5f__README.md",
+      "sha256": "5090270c2f5f17022d807c9355d5b7b6e5945ebdbba90a2123851e1a8a4f91b7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/381d4a48b3cab8c204d437627b4e76cfc0c17164/research/complex-k8-singleton-frame-cap/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-k8-singleton-frame-cap/CERTIFICATE.json",
+      "file": "remaining-record-audit/artifacts/1358/82ddfd286175__CERTIFICATE.json",
+      "sha256": "82ddfd2861756f783953d77199a4519cc08484fbb7b9b102511a2fb376f89bf3",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/381d4a48b3cab8c204d437627b4e76cfc0c17164/research/complex-k8-singleton-frame-cap/CERTIFICATE.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/complex-k8-singleton-frame-cap/verify.py",
+      "file": "remaining-record-audit/artifacts/1358/484b893bcd7d__verify.py",
+      "sha256": "484b893bcd7dd8785b505d606e16b23cb9b5b5c521c4261ba0a5fd7581f15108",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/381d4a48b3cab8c204d437627b4e76cfc0c17164/research/complex-k8-singleton-frame-cap/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 5,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1358,
+      "head": "381d4a48b3cab8c204d437627b4e76cfc0c17164",
+      "path": "research/complex-k8-singleton-frame-cap/TASK.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/381d4a48b3cab8c204d437627b4e76cfc0c17164/research/complex-k8-singleton-frame-cap/TASK.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "b3614997701d68a47faec804850069f99f57e2c3b814167192d0292b4f9e8c04",
+      "git_blob_sha1": "cb212b673ec2129c46d14ecbc87072e121558ba2",
+      "bytes": 3353,
+      "file": "individual-primary-interface-source/1358/b3614997701d__TASK.md"
+    }
+  ]
+}

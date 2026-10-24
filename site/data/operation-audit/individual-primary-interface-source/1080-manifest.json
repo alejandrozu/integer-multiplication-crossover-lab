@@ -1,0 +1,71 @@
+{
+  "pr": 1080,
+  "own_head": "803e080e181229a3af2196b7a13615c9d81ae10d",
+  "primary_path_candidates": [
+    "research/u8-two-sided-biforest-seed35/EXPECTED.json",
+    "research/u8-two-sided-biforest-seed35/CLAIM.md",
+    "research/u8-two-sided-biforest-seed35/PROOF.md",
+    "research/u8-two-sided-biforest-seed35/README.md",
+    "research/u8-two-sided-biforest-seed35/VALIDATION.md",
+    "research/u8-two-sided-biforest-seed35/RECIPE.json",
+    "research/u8-two-sided-biforest-seed35/NOTICE.md",
+    "research/u8-two-sided-biforest-seed35/verify.py",
+    "research/u8-two-sided-biforest-seed35/experiment.py",
+    "research/u8-two-sided-biforest-seed35/independent.py",
+    "research/u8-two-sided-biforest-seed35/test_package.py",
+    "research/u8-two-sided-biforest-seed35/test_independent.py"
+  ],
+  "selected_for_recovery": [
+    "research/u8-two-sided-biforest-seed35/CLAIM.md",
+    "research/u8-two-sided-biforest-seed35/RECIPE.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-two-sided-biforest-seed35/EXPECTED.json",
+      "file": "remaining-record-audit/artifacts/1080/7eefb45e225c__EXPECTED.json",
+      "sha256": "7eefb45e225c40bfabb23b130183d9ab3df8be0d5b6ff84c496c67eb4f3a221f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/803e080e181229a3af2196b7a13615c9d81ae10d/research/u8-two-sided-biforest-seed35/EXPECTED.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-two-sided-biforest-seed35/verify.py",
+      "file": "remaining-record-audit/artifacts/1080/46bcf92c6286__verify.py",
+      "sha256": "46bcf92c6286a6d74098b77c216e0584604089acd8f0b08f4b67ae3b5e2b00a9",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/803e080e181229a3af2196b7a13615c9d81ae10d/research/u8-two-sided-biforest-seed35/verify.py"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/u8-two-sided-biforest-seed35/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1080/462ef3a29021__PROOF.md",
+      "sha256": "462ef3a290217c1e080d6b33f70129608efb8542a6076b3dda9a80ce5134aab7",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/803e080e181229a3af2196b7a13615c9d81ae10d/research/u8-two-sided-biforest-seed35/PROOF.md"
+    }
+  ],
+  "github_changed_file_reported_count": 13,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1080,
+      "head": "803e080e181229a3af2196b7a13615c9d81ae10d",
+      "path": "research/u8-two-sided-biforest-seed35/CLAIM.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/803e080e181229a3af2196b7a13615c9d81ae10d/research/u8-two-sided-biforest-seed35/CLAIM.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "cf7a8f1a4bae14ec1236005c2545ef96c1eec17f0cc8104b46d399cac7ea7bd5",
+      "git_blob_sha1": "a4469c6c19fca86c813a330d0af63dd4232cf3ce",
+      "bytes": 4462,
+      "file": "individual-primary-interface-source/1080/cf7a8f1a4bae__CLAIM.md"
+    },
+    {
+      "pr": 1080,
+      "head": "803e080e181229a3af2196b7a13615c9d81ae10d",
+      "path": "research/u8-two-sided-biforest-seed35/RECIPE.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/803e080e181229a3af2196b7a13615c9d81ae10d/research/u8-two-sided-biforest-seed35/RECIPE.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d526804d9d627cbd850b0e54c3de9aadc74646e1a9b6befb577f42240720750a",
+      "git_blob_sha1": "3da499553bb790d4aea19cf04a5677c8f2c3f780",
+      "bytes": 30228,
+      "file": "individual-primary-interface-source/1080/d526804d9d62__RECIPE.json"
+    }
+  ]
+}

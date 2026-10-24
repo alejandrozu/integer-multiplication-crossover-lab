@@ -1,0 +1,72 @@
+{
+  "pr": 1718,
+  "own_head": "cd1294ebef686ff2f3cbdba1476d5f9136cb41d2",
+  "primary_path_candidates": [
+    "research/t74-p554-signed-restoration/RESULT.json",
+    "research/t74-p554-signed-restoration/PROOF.md",
+    "research/t74-p554-signed-restoration/README.md",
+    "research/t74-p554-signed-restoration/TASK.json",
+    "research/t74-p554-signed-restoration/RECIPE.json",
+    "research/t74-p554-signed-restoration/SEARCH.json",
+    "research/t74-p554-signed-restoration/VERIFY.json",
+    "research/t74-p554-signed-restoration/check.py",
+    "research/t74-p554-signed-restoration/price.py",
+    "research/t74-p554-signed-restoration/NOTICE.md",
+    "research/t74-p554-signed-restoration/verify.py",
+    "research/t74-p554-signed-restoration/replay_full.py",
+    "research/t74-p554-signed-restoration/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/t74-p554-signed-restoration/TASK.json",
+    "research/t74-p554-signed-restoration/check.py"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-p554-signed-restoration/PROOF.md",
+      "file": "remaining-record-audit/artifacts/1718/88b4fd4cc017__PROOF.md",
+      "sha256": "88b4fd4cc017ee92d14db8e1739ad55cb40c90f64c022544a70ee5254f02bf68",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cd1294ebef686ff2f3cbdba1476d5f9136cb41d2/research/t74-p554-signed-restoration/PROOF.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-p554-signed-restoration/RESULT.json",
+      "file": "remaining-record-audit/artifacts/1718/e7cdc8802180__RESULT.json",
+      "sha256": "e7cdc880218075d5cdb465f6abe92aafe38d10ce588e0afa447cdebf8f126d0f",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cd1294ebef686ff2f3cbdba1476d5f9136cb41d2/research/t74-p554-signed-restoration/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/t74-p554-signed-restoration/README.md",
+      "file": "remaining-record-audit/artifacts/1718/493805853c49__README.md",
+      "sha256": "493805853c4936a7f2d5cebaccdf4e848c5abaf56e31c8fd2e6879d252dbfa06",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cd1294ebef686ff2f3cbdba1476d5f9136cb41d2/research/t74-p554-signed-restoration/README.md"
+    }
+  ],
+  "github_changed_file_reported_count": 26,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 1718,
+      "head": "cd1294ebef686ff2f3cbdba1476d5f9136cb41d2",
+      "path": "research/t74-p554-signed-restoration/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cd1294ebef686ff2f3cbdba1476d5f9136cb41d2/research/t74-p554-signed-restoration/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "8809f58c2eba6d1b405de4ff1f6e677bc5c5418b94efccae291c13c0a486ebf6",
+      "git_blob_sha1": "a44325b185284349a869dd5e3d685e2c2514ad46",
+      "bytes": 3358,
+      "file": "individual-primary-interface-source/1718/8809f58c2eba__TASK.json"
+    },
+    {
+      "pr": 1718,
+      "head": "cd1294ebef686ff2f3cbdba1476d5f9136cb41d2",
+      "path": "research/t74-p554-signed-restoration/check.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/cd1294ebef686ff2f3cbdba1476d5f9136cb41d2/research/t74-p554-signed-restoration/check.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "d8a512de49099188b456fb0c715d7791c44490c85aee55ce692e6fb83e422c08",
+      "git_blob_sha1": "02b743ac7eaf118669e93feaae43560931a144d1",
+      "bytes": 420,
+      "file": "individual-primary-interface-source/1718/d8a512de4909__check.py"
+    }
+  ]
+}

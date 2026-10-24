@@ -1,0 +1,66 @@
+{
+  "pr": 3948,
+  "own_head": "5505853988cfc05bc8ad9bfcf07879727932b0d5",
+  "primary_path_candidates": [
+    "research/bit-endpoint-lever-budgets/RESULT.json",
+    "research/bit-endpoint-lever-budgets/README.md",
+    "research/bit-endpoint-lever-budgets/TASK.json",
+    "research/bit-endpoint-lever-budgets/VERIFY.json",
+    "research/bit-endpoint-lever-budgets/verify.py",
+    "research/bit-endpoint-lever-budgets/independent.py",
+    "research/bit-endpoint-lever-budgets/test_package.py"
+  ],
+  "selected_for_recovery": [
+    "research/bit-endpoint-lever-budgets/TASK.json",
+    "research/bit-endpoint-lever-budgets/VERIFY.json"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-endpoint-lever-budgets/README.md",
+      "file": "remaining-record-audit/artifacts/3948/eddf3077b4a3__README.md",
+      "sha256": "eddf3077b4a3a6fcb4247f20555b5f454417ccdf28bb0b063df87ccde34dcce5",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5505853988cfc05bc8ad9bfcf07879727932b0d5/research/bit-endpoint-lever-budgets/README.md"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-endpoint-lever-budgets/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3948/88c52825106a__RESULT.json",
+      "sha256": "88c52825106a7cd04ee153e1ff8788d21e90a3e5d31e52b42fa6aabfd947ca08",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5505853988cfc05bc8ad9bfcf07879727932b0d5/research/bit-endpoint-lever-budgets/RESULT.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/bit-endpoint-lever-budgets/verify.py",
+      "file": "remaining-record-audit/artifacts/3948/ecb01fe9a3f9__verify.py",
+      "sha256": "ecb01fe9a3f915f2193ddbb8a472bc2e6f676403e97ac88b906ef1de636cb421",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5505853988cfc05bc8ad9bfcf07879727932b0d5/research/bit-endpoint-lever-budgets/verify.py"
+    }
+  ],
+  "github_changed_file_reported_count": 8,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3948,
+      "head": "5505853988cfc05bc8ad9bfcf07879727932b0d5",
+      "path": "research/bit-endpoint-lever-budgets/TASK.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5505853988cfc05bc8ad9bfcf07879727932b0d5/research/bit-endpoint-lever-budgets/TASK.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f2403fbcd9953c745a6cbf082e1fda065bd9cfcacca1ddfa3435dd9379932b73",
+      "git_blob_sha1": "f10754012818a4b682034c0b041a551a004a5d59",
+      "bytes": 8455,
+      "file": "individual-primary-interface-source/3948/f2403fbcd995__TASK.json"
+    },
+    {
+      "pr": 3948,
+      "head": "5505853988cfc05bc8ad9bfcf07879727932b0d5",
+      "path": "research/bit-endpoint-lever-budgets/VERIFY.json",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/5505853988cfc05bc8ad9bfcf07879727932b0d5/research/bit-endpoint-lever-budgets/VERIFY.json",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "acc1f1f4c756c7c71f8f577c5b5c09da991522c9767788b7dfda04a1051b2ff3",
+      "git_blob_sha1": "427801a26ccb1cff1401ac7b963b864a505911b6",
+      "bytes": 1764,
+      "file": "individual-primary-interface-source/3948/acc1f1f4c756__VERIFY.json"
+    }
+  ]
+}

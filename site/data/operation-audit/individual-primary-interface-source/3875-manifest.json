@@ -1,0 +1,85 @@
+{
+  "pr": 3875,
+  "own_head": "a65afd67e0a43e02554b58b5593d253581207b04",
+  "primary_path_candidates": [
+    "research/staged544-refined-endpoint/CLAIM.json",
+    "research/staged544-refined-endpoint/RESULT.json",
+    "research/staged544-refined-endpoint/PROOF.md",
+    "research/staged544-refined-endpoint/README.md",
+    "research/staged544-refined-endpoint/TASK.json",
+    "research/staged544-refined-endpoint/VENDOR.json",
+    "research/staged544-refined-endpoint/VERIFY.json",
+    "research/staged544-refined-endpoint/VALIDATION.json",
+    "research/staged544-refined-endpoint/FORMAL-DATA.json",
+    "research/staged544-refined-endpoint/PACKAGE-PINS.json",
+    "research/staged544-refined-endpoint/PREDECESSOR-CLAIM.json",
+    "research/staged544-refined-endpoint/FORMAL-CHANGE-AUDIT.json",
+    "research/staged544-refined-endpoint/FRONTIER-COMPARISON.json",
+    "research/staged544-refined-endpoint/lean/lake-manifest.json",
+    "research/staged544-refined-endpoint/SEARCH.md",
+    "research/staged544-refined-endpoint/verify.py",
+    "research/staged544-refined-endpoint/OVERLAP.md",
+    "research/staged544-refined-endpoint/test_cli.py",
+    "research/staged544-refined-endpoint/PRECEDENTS.md",
+    "research/staged544-refined-endpoint/dyadic_moment.py",
+    "research/staged544-refined-endpoint/test_arithmetic.py"
+  ],
+  "selected_for_recovery": [
+    "research/staged544-refined-endpoint/PROOF.md",
+    "research/staged544-refined-endpoint/verify.py",
+    "research/staged544-refined-endpoint/README.md"
+  ],
+  "already_authenticated": [
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-refined-endpoint/CLAIM.json",
+      "file": "remaining-record-audit/artifacts/3875/320de617fe73__CLAIM.json",
+      "sha256": "320de617fe7362d6c5ad01f454adbd1954c5365b203678bc73dc57e4bd895803",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a65afd67e0a43e02554b58b5593d253581207b04/research/staged544-refined-endpoint/CLAIM.json"
+    },
+    {
+      "kind": "authenticated_own_head_artifact_bytes",
+      "path": "research/staged544-refined-endpoint/RESULT.json",
+      "file": "remaining-record-audit/artifacts/3875/6cbacc0c0e6a__RESULT.json",
+      "sha256": "6cbacc0c0e6a2c55bb7aa03b25963382354ce7d1cf53d5e1315b3b113349fe9b",
+      "primary_url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a65afd67e0a43e02554b58b5593d253581207b04/research/staged544-refined-endpoint/RESULT.json"
+    }
+  ],
+  "github_changed_file_reported_count": 73,
+  "scope": "Source-interface discovery only. Candidate ranking does not adjudicate selectedness or a whole algorithm.",
+  "recovered": [
+    {
+      "pr": 3875,
+      "head": "a65afd67e0a43e02554b58b5593d253581207b04",
+      "path": "research/staged544-refined-endpoint/PROOF.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a65afd67e0a43e02554b58b5593d253581207b04/research/staged544-refined-endpoint/PROOF.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "10d0883086e4b3e55dee7880155742c118972183ff821fec5f3a5de001678962",
+      "git_blob_sha1": "77b1016f44672e4db78dff4c828f9d68f3dcde3d",
+      "bytes": 1692,
+      "file": "individual-primary-interface-source/3875/10d0883086e4__PROOF.md"
+    },
+    {
+      "pr": 3875,
+      "head": "a65afd67e0a43e02554b58b5593d253581207b04",
+      "path": "research/staged544-refined-endpoint/verify.py",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a65afd67e0a43e02554b58b5593d253581207b04/research/staged544-refined-endpoint/verify.py",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "a2efb04f43915bb55292c7c66312cc156410d17d753f9484c93d74f9bd3f998a",
+      "git_blob_sha1": "12aaa763dccd0f59d43cc2f69ffb233575c0c767",
+      "bytes": 11119,
+      "file": "individual-primary-interface-source/3875/a2efb04f4391__verify.py"
+    },
+    {
+      "pr": 3875,
+      "head": "a65afd67e0a43e02554b58b5593d253581207b04",
+      "path": "research/staged544-refined-endpoint/README.md",
+      "url": "https://raw.githubusercontent.com/CrocSwap/integer-mult-bounds/a65afd67e0a43e02554b58b5593d253581207b04/research/staged544-refined-endpoint/README.md",
+      "status": "authenticated_own_head_primary_bytes",
+      "sha256": "f4d5dcf711cc08f6a28d9b7e7bd4474dce33d2329909142787257e06d6e7f77d",
+      "git_blob_sha1": "bede59f6acb3a0a7e62ff33549b43209168c2e5f",
+      "bytes": 2736,
+      "file": "individual-primary-interface-source/3875/f4d5dcf711cc__README.md"
+    }
+  ]
+}

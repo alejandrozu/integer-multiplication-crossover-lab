@@ -1,0 +1,467 @@
+{
+  "examples": {
+    "native4453": {
+      "H": 1300000000,
+      "N": "2^1300000000",
+      "c": "134",
+      "comparison": {
+        "baseline_H": 125790000000,
+        "baseline_uniform_saving": "105043/35000000",
+        "rank_exponent_reduction": "12579/130",
+        "same_uniform_saving": false,
+        "source": "research/net-tax-rank-compiler/RESULT.json",
+        "source_path": [
+          "examples",
+          "native-concentrated-balanced",
+          "uniform"
+        ]
+      },
+      "consumer_binding": {
+        "available_uniform_saving": "525213/175000000",
+        "current_strict_checks": 54,
+        "functional_guards": 4,
+        "legacy_checks": 63,
+        "producer_replayed": false,
+        "required_uniform_saving": "525213/175000000",
+        "status": "INHERITED_RECEIPT_AND_MONOTONE_BOUND"
+      },
+      "ell0": 400,
+      "final_logarithmic_margin": {
+        "lower": "1.195753504900398371589260762250",
+        "upper": "1.195753504900398371589260762251"
+      },
+      "height_base": 1024,
+      "height_multiplier": 2,
+      "kappa": "7503/2500000",
+      "local_exponent_max": {
+        "lower": "0.997136147271064756238028077145",
+        "upper": "0.997136147271064756238028077146"
+      },
+      "log_majorant_normalization": {
+        "lower": "5.145697363640228729059432255530",
+        "upper": "5.145697363640228729059432255531"
+      },
+      "mirror": {
+        "cells": 19,
+        "exponent_slices": 20,
+        "maximizing_cell": {
+          "exponent_lower": "598277597/600000000",
+          "exponent_upper": "4985681/5000000",
+          "window": [
+            "1/48",
+            "1/41"
+          ]
+        },
+        "maximum_upper": {
+          "lower": "0.574080702141194439831345959835",
+          "upper": "0.574080702141194439831345959836"
+        }
+      },
+      "mixed_chernoff": {
+        "lower": "0.967609647388864491029540621309",
+        "upper": "0.967609647388864491029540621310"
+      },
+      "native_and_outer_producers_replayed": false,
+      "ordinary_base": "153*1024^400",
+      "p": "2/5",
+      "paid_mgf_upper": {
+        "lower": "1.141456094837378948168524543329",
+        "upper": "1.141456094837378948168524543330"
+      },
+      "q_base": {
+        "lower": "1.000000005833951983693752410407",
+        "upper": "1.000000005833951983693752410408"
+      },
+      "q_upper": {
+        "lower": "1.000495314570783841578207790745",
+        "upper": "1.000495314570783841578207790746"
+      },
+      "raw_ambient": 153,
+      "raw_fields": 11560,
+      "raw_maximum_paid": 72,
+      "raw_minimum_target": 4,
+      "required_D_upper": "18/407",
+      "root_chernoff": {
+        "lower": "0.983297831780127599548450021145",
+        "upper": "0.983297831780127599548450021146"
+      },
+      "source_capacity": {
+        "lower": "0.982059615682066172420963085480",
+        "upper": "0.982059615682066172420963085481"
+      },
+      "status": "PASS_ADAPTIVE_HEIGHT_DIRECT_COMPILER",
+      "t0": "29909963/30000000",
+      "t_upper": "4985681/5000000",
+      "target_mgf_lower": {
+        "lower": "1.198817734840431123969294143697",
+        "upper": "1.198817734840431123969294143698"
+      },
+      "tensor_power": 1,
+      "tilted_log_mean_gap": {
+        "lower": "1.026038818516380833500985773945",
+        "upper": "1.026038818516380833500985773946"
+      },
+      "uniform_D_lower": {
+        "lower": "0.054486114822399840835177110779",
+        "upper": "0.054486114822399840835177110780"
+      },
+      "uniform_gap": "17/1050000000",
+      "uniform_saving": "525213/175000000",
+      "word_materialized": false
+    },
+    "native4453-matched-uniform": {
+      "H": 4300000000,
+      "N": "2^4300000000",
+      "c": "134",
+      "comparison": {
+        "baseline_H": 125790000000,
+        "baseline_uniform_saving": "105043/35000000",
+        "rank_exponent_reduction": "12579/430",
+        "same_uniform_saving": true,
+        "source": "research/net-tax-rank-compiler/RESULT.json",
+        "source_path": [
+          "examples",
+          "native-concentrated-balanced",
+          "uniform"
+        ]
+      },
+      "consumer_binding": {
+        "available_uniform_saving": "105043/35000000",
+        "current_strict_checks": 54,
+        "functional_guards": 4,
+        "legacy_checks": 63,
+        "producer_replayed": false,
+        "required_uniform_saving": "525213/175000000",
+        "status": "INHERITED_RECEIPT_AND_MONOTONE_BOUND"
+      },
+      "ell0": 400,
+      "final_logarithmic_margin": {
+        "lower": "0.321169139930537333994562947424",
+        "upper": "0.321169139930537333994562947425"
+      },
+      "height_base": 1024,
+      "height_multiplier": 2,
+      "kappa": "7503/2500000",
+      "local_exponent_max": {
+        "lower": "0.997136147271064756238028077145",
+        "upper": "0.997136147271064756238028077146"
+      },
+      "log_majorant_normalization": {
+        "lower": "5.145697363640228729059432255530",
+        "upper": "5.145697363640228729059432255531"
+      },
+      "mirror": {
+        "cells": 19,
+        "exponent_slices": 20,
+        "maximizing_cell": {
+          "exponent_lower": "598277597/600000000",
+          "exponent_upper": "4985681/5000000",
+          "window": [
+            "1/48",
+            "1/41"
+          ]
+        },
+        "maximum_upper": {
+          "lower": "0.574080702141194439831345959835",
+          "upper": "0.574080702141194439831345959836"
+        }
+      },
+      "mixed_chernoff": {
+        "lower": "0.967609647388864491029540621309",
+        "upper": "0.967609647388864491029540621310"
+      },
+      "native_and_outer_producers_replayed": false,
+      "ordinary_base": "153*1024^400",
+      "p": "2/5",
+      "paid_mgf_upper": {
+        "lower": "1.141456094837378948168524543329",
+        "upper": "1.141456094837378948168524543330"
+      },
+      "q_base": {
+        "lower": "1.000000005833951983693752410407",
+        "upper": "1.000000005833951983693752410408"
+      },
+      "q_upper": {
+        "lower": "1.000495314570783841578207790745",
+        "upper": "1.000495314570783841578207790746"
+      },
+      "raw_ambient": 153,
+      "raw_fields": 11560,
+      "raw_maximum_paid": 72,
+      "raw_minimum_target": 4,
+      "required_D_upper": "18/407",
+      "root_chernoff": {
+        "lower": "0.983297831780127599548450021145",
+        "upper": "0.983297831780127599548450021146"
+      },
+      "source_capacity": {
+        "lower": "0.982059615682066172420963085480",
+        "upper": "0.982059615682066172420963085481"
+      },
+      "status": "PASS_ADAPTIVE_HEIGHT_DIRECT_COMPILER",
+      "t0": "29909963/30000000",
+      "t_upper": "4985681/5000000",
+      "target_mgf_lower": {
+        "lower": "1.198817734840431123969294143697",
+        "upper": "1.198817734840431123969294143698"
+      },
+      "tensor_power": 1,
+      "tilted_log_mean_gap": {
+        "lower": "1.026038818516380833500985773945",
+        "upper": "1.026038818516380833500985773946"
+      },
+      "uniform_D_lower": {
+        "lower": "0.054486114822399840835177110779",
+        "upper": "0.054486114822399840835177110780"
+      },
+      "uniform_gap": "1/210000000",
+      "uniform_saving": "105043/35000000",
+      "word_materialized": false
+    },
+    "p16": {
+      "H": 2800000000,
+      "N": "2^2800000000",
+      "c": "133",
+      "comparison": {
+        "baseline_H": 558100005581,
+        "baseline_uniform_saving": "471898442219/156250001562500",
+        "rank_exponent_reduction": "558100005581/2800000000",
+        "same_uniform_saving": true,
+        "source": "research/compact-joint-compiler/arithmetic/RESULT.json",
+        "source_path": [
+          "compiler"
+        ]
+      },
+      "consumer_binding": {
+        "available_uniform_saving": "471898442219/156250001562500",
+        "current_strict_checks": 54,
+        "functional_guards": 4,
+        "legacy_checks": 63,
+        "producer_replayed": false,
+        "required_uniform_saving": "471898442219/156250001562500",
+        "status": "INHERITED_RECEIPT_AND_MONOTONE_BOUND"
+      },
+      "ell0": 650,
+      "final_logarithmic_margin": {
+        "lower": "0.608625073158079647179104336984",
+        "upper": "0.608625073158079647179104336985"
+      },
+      "height_base": 1024,
+      "height_multiplier": 2,
+      "kappa": "60403/20000000",
+      "local_exponent_max": {
+        "lower": "0.997065983154193637326436620047",
+        "upper": "0.997065983154193637326436620048"
+      },
+      "log_majorant_normalization": {
+        "lower": "10.244946827609613535229675830964",
+        "upper": "10.244946827609613535229675830965"
+      },
+      "mirror": {
+        "cells": 19,
+        "exponent_slices": 20,
+        "maximizing_cell": {
+          "exponent_lower": "249265423/250000000",
+          "exponent_upper": "498533/500000",
+          "window": [
+            "1/48",
+            "1/41"
+          ]
+        },
+        "maximum_upper": {
+          "lower": "0.562869244899309734589502501137",
+          "upper": "0.562869244899309734589502501138"
+        }
+      },
+      "mixed_chernoff": {
+        "lower": "0.962371615118373162597052724651",
+        "upper": "0.962371615118373162597052724652"
+      },
+      "native_and_outer_producers_replayed": false,
+      "ordinary_base": "145*1024^650",
+      "p": "2/5",
+      "paid_mgf_upper": {
+        "lower": "1.137864762892548940390353969492",
+        "upper": "1.137864762892548940390353969493"
+      },
+      "q_base": {
+        "lower": "1.000000006229760842608145113022",
+        "upper": "1.000000006229760842608145113023"
+      },
+      "q_upper": {
+        "lower": "1.000306615000337864713077356861",
+        "upper": "1.000306615000337864713077356862"
+      },
+      "raw_ambient": 145,
+      "raw_fields": 10928,
+      "raw_maximum_paid": 72,
+      "raw_minimum_target": 4,
+      "required_D_upper": "9/209",
+      "root_chernoff": {
+        "lower": "0.991612566446621220203979601511",
+        "upper": "0.991612566446621220203979601512"
+      },
+      "source_capacity": {
+        "lower": "0.982106757609959316847199693591",
+        "upper": "0.982106757609959316847199693592"
+      },
+      "status": "PASS_ADAPTIVE_HEIGHT_DIRECT_COMPILER",
+      "t0": "1557781/1562500",
+      "t_upper": "498533/500000",
+      "target_mgf_lower": {
+        "lower": "1.196094303561928263013152983677",
+        "upper": "1.196094303561928263013152983678"
+      },
+      "tensor_power": 1,
+      "tilted_log_mean_gap": {
+        "lower": "1.042051961200529914604466771295",
+        "upper": "1.042051961200529914604466771296"
+      },
+      "uniform_D_lower": {
+        "lower": "0.048546432211906163478518624110",
+        "upper": "0.048546432211906163478518624111"
+      },
+      "uniform_gap": "1/100000001",
+      "uniform_saving": "471898442219/156250001562500",
+      "word_materialized": false
+    },
+    "p7": {
+      "H": 3040000000,
+      "N": "2^3040000000",
+      "c": "38",
+      "comparison": {
+        "baseline_H": 130200000000,
+        "baseline_uniform_saving": "376107/140000000",
+        "rank_exponent_reduction": "3255/76",
+        "same_uniform_saving": true,
+        "source": "research/net-tax-rank-compiler/RESULT.json",
+        "source_path": [
+          "examples",
+          "p7-net-shift-same-C",
+          "uniform"
+        ]
+      },
+      "consumer_binding": {
+        "available_uniform_saving": "376107/140000000",
+        "current_strict_checks": 54,
+        "functional_guards": 3,
+        "legacy_checks": 63,
+        "producer_replayed": false,
+        "required_uniform_saving": "376107/140000000",
+        "status": "INHERITED_RECEIPT_AND_MONOTONE_BOUND"
+      },
+      "ell0": 100,
+      "final_logarithmic_margin": {
+        "lower": "0.000037729652454530318218297510",
+        "upper": "0.000037729652454530318218297511"
+      },
+      "height_base": 256,
+      "height_multiplier": 2,
+      "kappa": "268647/100000000",
+      "local_exponent_max": {
+        "lower": "0.997480936263221089297020305663",
+        "upper": "0.997480936263221089297020305664"
+      },
+      "log_majorant_normalization": {
+        "lower": "0.863340409511937169849820502293",
+        "upper": "0.863340409511937169849820502294"
+      },
+      "mirror": {
+        "cells": 9,
+        "exponent_slices": 20,
+        "maximizing_cell": {
+          "exponent_lower": "498736313/500000000",
+          "exponent_upper": "997481/1000000",
+          "window": [
+            "1/32",
+            "1/25"
+          ]
+        },
+        "maximum_upper": {
+          "lower": "0.320912505508019305802927568868",
+          "upper": "0.320912505508019305802927568869"
+        }
+      },
+      "mixed_chernoff": {
+        "lower": "0.960716862989376750562449633430",
+        "upper": "0.960716862989376750562449633431"
+      },
+      "native_and_outer_producers_replayed": false,
+      "ordinary_base": "121*256^100",
+      "p": "1/10",
+      "paid_mgf_upper": {
+        "lower": "1.189836220034656274281883309422",
+        "upper": "1.189836220034656274281883309423"
+      },
+      "q_base": {
+        "lower": "1.000000015596092266209397853528",
+        "upper": "1.000000015596092266209397853529"
+      },
+      "q_upper": {
+        "lower": "1.000561156408386012831320257044",
+        "upper": "1.000561156408386012831320257045"
+      },
+      "raw_ambient": 121,
+      "raw_fields": 7688,
+      "raw_maximum_paid": 48,
+      "raw_minimum_target": 5,
+      "required_D_upper": "31/1327",
+      "root_chernoff": {
+        "lower": "0.902200383991683674129581646891",
+        "upper": "0.902200383991683674129581646892"
+      },
+      "source_capacity": {
+        "lower": "0.984546755462808333262196913419",
+        "upper": "0.984546755462808333262196913420"
+      },
+      "status": "PASS_ADAPTIVE_HEIGHT_DIRECT_COMPILER",
+      "t0": "12466419/12500000",
+      "t_upper": "997481/1000000",
+      "target_mgf_lower": {
+        "lower": "1.405801522570042940551422228371",
+        "upper": "1.405801522570042940551422228372"
+      },
+      "tensor_power": 1,
+      "tilted_log_mean_gap": {
+        "lower": "1.723175105324202823174061366589",
+        "upper": "1.723175105324202823174061366590"
+      },
+      "uniform_D_lower": {
+        "lower": "0.028589919182340223704227975714",
+        "upper": "0.028589919182340223704227975715"
+      },
+      "uniform_gap": "1/700000000",
+      "uniform_saving": "376107/140000000",
+      "word_materialized": false
+    }
+  },
+  "finite_tests": 13,
+  "rejected_witnesses": {
+    "below_root_moment": "raw strict moment at base exponent",
+    "insufficient_tilted_gap": "sharp source and boundary cancellation for all heights",
+    "nonconcave_majorant": "concave funded majorant domain",
+    "old_incomplete_tau_interval": "local exponent interval covers ordinary base cutoff",
+    "too_small_final_rank": "funded final uniform-rank inequality",
+    "understated_boundary_share": "uniform boundary mirror coefficient",
+    "unfunded_root_tail": "root source Chernoff V",
+    "unfunded_uniform_gap": "funded uniform and consumer savings"
+  },
+  "schema_version": 1,
+  "scope": "Conditional direct overlapping-rank compiler under explicit finite gates; exact rank and inherited consumer binding, not a native/physical/analytic theorem audit.",
+  "source_mutation_rejected": true,
+  "source_sha256": {
+    "research/compact-joint-compiler/arithmetic/RESULT.json": "a6caaa2a6d6460a8c1ef7e48c4853bb27976be33a52b96a4216dfa90d96c9091",
+    "research/direct-mixed-flow/README.md": "78351e2419eb1ff1d645addd411158b91b381b23a962a91b6deeebeacd5192a8",
+    "research/direct-mixed-flow/flow.py": "460f0b0262d7b6880973f46240b3fff1e9f04601fa1d658dda18688b1e26575a",
+    "research/direct-mixed-flow/vendor/FINITE-PRECOMPILATION.md": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+    "research/direct-mixed-flow/vendor/SUSSMAN-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "research/direct-mixed-flow/vendor/SUSSMAN-NOTICE": "8289a4ba75efe5da7bd2e389b951155ff74b3bf49b38ace0906a1e5205c7cd6e",
+    "research/direct-mixed-flow/vendor/theorem-1g.md": "c4a96c55c2509ff36e8bc6bddaaf6a8b1a34a5d794e4e09ac5214c82b51510e6",
+    "research/higher-moment-strictification/RESULT.json": "ad79e3c0459e7b495a0ca34010553b12147779a007389e1695cc1336f123c156",
+    "research/joint-helper-lattice/RESULT.json": "c7b2388f6511c19976b337d8c8ac374610af616866a249d75dace704eb5d9e21",
+    "research/native-lattice-retiming/RESULT.json": "1ac2e581ea51e6448503a68caf4bf44aeb32470c2e2674c91f007af4a3abd2e3",
+    "research/net-tax-rank-compiler/RESULT.json": "5e0c333d1279fc07add5776db6483dcc251128aeda73791472d6b9cab05186f5",
+    "research/net-tax-rank-compiler/intervals.py": "91d079f43a082c3c23b76b8eb482066d0aeffe73de9fde0137ee033cf3b32250"
+  },
+  "status": "PASS_PADDING_FREE_ADAPTIVE_COMPILER"
+}
