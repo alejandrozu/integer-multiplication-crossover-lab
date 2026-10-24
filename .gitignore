@@ -1,0 +1,13 @@
+.openai/
+.env
+.env.*
+__pycache__/
+.cache/
+.DS_Store
+release-staging/
+private/
+*.zip
+*.tar
+*.tar.gz
+*.token
+*.key
