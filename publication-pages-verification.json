@@ -1,0 +1,101 @@
+{
+  "schema": "public-GitHub-Pages-final-deployment-verification/1",
+  "passed": true,
+  "site": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/",
+  "export_commit": "6d97e92e9589a49ff8fb9bcecae0b457f09afa1f",
+  "workflow_run": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/actions/runs/40134977140",
+  "workflow_conclusion": "success",
+  "files": [
+    {
+      "file": "index.html",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/index.html",
+      "http_status": 200,
+      "bytes": 6481,
+      "sha256": "f2cc4e07b5174281050a71686ff7f1f28dea464567ee81819665b6fb4ef9f72a",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "methodology.html",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/methodology.html",
+      "http_status": 200,
+      "bytes": 26446,
+      "sha256": "ea77f7554a0000bc2b41f9a7ff14b9b923f0dd574bc7a1c8cba70dc55977f653",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "reproduction.html",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/reproduction.html",
+      "http_status": 200,
+      "bytes": 7686,
+      "sha256": "3147f55710b71621e3a43df67c13124a8b23289240a9190ad311f7019719c330",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "evidence.html",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/evidence.html",
+      "http_status": 200,
+      "bytes": 2768,
+      "sha256": "cde497d079258890617f87d4c653cac7c844f64bf6603b1ff9c96e5d15bd3c4d",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "app.js",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/app.js",
+      "http_status": 200,
+      "bytes": 35683,
+      "sha256": "30f2d7d5dbbdf5e4946652d019ae60287647eedf277935cf13b9e720f4eb7a6e",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "feasibility-history-source-model.js",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/feasibility-history-source-model.js",
+      "http_status": 200,
+      "bytes": 5527,
+      "sha256": "05397ed3cbbb887051797c4f56a0be00f7fa96e98f1f6687d92e67b8dabcbb8f",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "data/feasibility-history.json",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/data/feasibility-history.json",
+      "http_status": 200,
+      "bytes": 4741119,
+      "sha256": "12d26587513b0e31a0ce9d7ec4d3f488d5e01e2c0550e4b36aca45d4caf8c2a8",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "data/reproduction-package.json",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/data/reproduction-package.json",
+      "http_status": 200,
+      "bytes": 7514,
+      "sha256": "528e7b1a1356c039afd3eef67730a0f80fee1e80c477e5db218f8bf2501f1c76",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "data/restore_reproduction.py",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/data/restore_reproduction.py",
+      "http_status": 200,
+      "bytes": 4724,
+      "sha256": "4c15819e296fa8fed88af4746c5ec4f34d656ab8f717b2dfcef01ad2f200b94b",
+      "anonymous_exact_bytes_verified": true
+    },
+    {
+      "file": "data/source-history-offline-reproduction-verification.json",
+      "public_url": "https://alejandrozu.github.io/integer-multiplication-crossover-lab/data/source-history-offline-reproduction-verification.json",
+      "http_status": 200,
+      "bytes": 48631,
+      "sha256": "53ea6384c20a24a2bf84b4f0cadf5f1751c14fe35c7a15cf0fa010c2f4de7650",
+      "anonymous_exact_bytes_verified": true
+    }
+  ],
+  "counts": {
+    "numeric": 196,
+    "scope": 185,
+    "open": 214,
+    "upper": 183,
+    "lower": 42,
+    "two_sided": 29
+  },
+  "release_parts": 20,
+  "post_replay_provenance_refresh": true,
+  "scope": "Anonymous HTTP downloads of final Pages entry points, model, history, release descriptor, restore script and offline receipt are SHA256/size-identical to the final static export. All20 release archives are separately server-digest and anonymous size/status checked."
+}

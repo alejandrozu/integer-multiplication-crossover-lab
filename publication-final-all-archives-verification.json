@@ -1,0 +1,168 @@
+{
+  "schema": "final-public-release-archive-verification/1",
+  "passed": true,
+  "archives": [
+    {
+      "file": "operation-audit-objects-43.zip",
+      "bytes": 18883893,
+      "sha256": "07e90778deb7bf87753148f7267aa735b2f0a3b47a31103bc0937dd910b057b8",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 18883893
+    },
+    {
+      "file": "operation-audit-objects-44.zip",
+      "bytes": 18155473,
+      "sha256": "01d79e378c8d4577c72425d8a5cb11cbe4c9e62db9c98cfe88416fdbc61cd4ac",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 18155473
+    },
+    {
+      "file": "operation-audit-objects-45.zip",
+      "bytes": 9787266,
+      "sha256": "d4ab99c31037af6e774183c3741944fe26084bad7064a00c4fa8d6ca9230e1b3",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 9787266
+    },
+    {
+      "file": "operation-audit-objects-46.zip",
+      "bytes": 19822699,
+      "sha256": "5da995cf0128ee41e968c115a6c258557e109b3017c327fe09dfbfd8ef173d1b",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 19822699
+    },
+    {
+      "file": "operation-audit-objects-47.zip",
+      "bytes": 18420420,
+      "sha256": "4bc91c11c05876eacad9bc8bcad2b478987250a30915dcd0f0ebcbc62bbf8aa4",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 18420420
+    },
+    {
+      "file": "operation-audit-objects-48.zip",
+      "bytes": 19485195,
+      "sha256": "31d70f8b8a7929fe089e09dd3acc000558041eb0a034bdfa596e5cf5d30757f8",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 19485195
+    },
+    {
+      "file": "operation-audit-objects-49.zip",
+      "bytes": 8495151,
+      "sha256": "76576b4db82c5e3694d0419d024a83f6ff787a10c7c28ced92ac415a2527b886",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 8495151
+    },
+    {
+      "file": "operation-audit-objects-50.zip",
+      "bytes": 18742824,
+      "sha256": "1d03cf43ed960ef5d114124d0443a1b4ee63017267c1eab06adac704302bf160",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 18742824
+    },
+    {
+      "file": "operation-audit-objects-51.zip",
+      "bytes": 17487299,
+      "sha256": "63da2f116ed0aa0f5c538b708c647a08c50476d69e6f1ace973e2ae536584f73",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 17487299
+    },
+    {
+      "file": "operation-audit-objects-52.zip",
+      "bytes": 17625918,
+      "sha256": "87a7680669925cb5be720b6852da41070867b2696575974136bd44344970067e",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 17625918
+    },
+    {
+      "file": "operation-audit-objects-53.zip",
+      "bytes": 18985123,
+      "sha256": "2be3ff033482b3c3c16a7e85c95a7bbd3cf6fcc30b454fcb818b0a0f36ab41de",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 18985123
+    },
+    {
+      "file": "operation-audit-objects-54.zip",
+      "bytes": 16650184,
+      "sha256": "45bfe93f586b25fcaad4a0e099811ca088fbfa0170a592dc059883c0c8ce1084",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 16650184
+    },
+    {
+      "file": "operation-audit-objects-55.zip",
+      "bytes": 5309166,
+      "sha256": "874c0e63a14f16a5020ad6d429c265c5b399825594a3338f4dd29d759ab2dd6d",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 5309166
+    },
+    {
+      "file": "operation-audit-objects-56.zip",
+      "bytes": 4178243,
+      "sha256": "01088755156137a4403d1f833ec5704812659eee604f924c637715588ef1ecd7",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 4178243
+    },
+    {
+      "file": "operation-audit-objects-57.zip",
+      "bytes": 6883720,
+      "sha256": "ccea2337c4d13c7e4e194c47ad36aeea9eb886a2076611f4ec22314d7b4f84a2",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 6883720
+    },
+    {
+      "file": "operation-audit-objects-58.zip",
+      "bytes": 4200444,
+      "sha256": "dfbde982faddaf8c470821402711c9c408aa8eaa827c289a8846ffdbb383ed7b",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 4200444
+    },
+    {
+      "file": "operation-audit-objects-59.zip",
+      "bytes": 5236487,
+      "sha256": "1bc7882f2c2747aa6ba90dc674e0d118638c8e36d0d825396ae1d619c197db9d",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 5236487
+    },
+    {
+      "file": "operation-audit-objects-60.zip",
+      "bytes": 4181432,
+      "sha256": "ad3c8502620ff05efc181e5035bac405b86fae38c1bb5f276dca74e288d548b4",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 4181432
+    },
+    {
+      "file": "operation-audit-objects-61.zip",
+      "bytes": 7451839,
+      "sha256": "85c4171701faab7ea9c1e19e9f8a5bf08d7f7d32b71ddf055ea1f8c9f2e7aa8a",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 7451839
+    },
+    {
+      "file": "operation-audit-objects-62.zip",
+      "bytes": 4191554,
+      "sha256": "e3143b911438cd4dffcd7cbe0288043752e8b01e956b3ac3b4f4c6ba4ebda6de",
+      "server_digest_verified": true,
+      "anonymous_HTTP": 200,
+      "anonymous_size": 4191554
+    }
+  ],
+  "total_bytes": 244174330,
+  "scope": "Final descriptor checked against all20 GitHub server SHA256 digests and anonymous download status/size. Final manifest/tool/receipt separately downloaded and hashed in full."
+}
