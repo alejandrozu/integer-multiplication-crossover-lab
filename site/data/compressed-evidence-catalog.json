@@ -7,10 +7,10 @@
       "label": "Per-entry cost audit",
       "file": "operation-audit/remaining-record-audit/cost-coverage-ledger.json.gz",
       "original_file": "remaining-record-audit/cost-coverage-ledger.json",
-      "original_bytes": 10708600,
-      "original_sha256": "4f08ff5f4a90223320c6e6d709305f94de9dc348dda6d7a920a52e65c2f590ef",
-      "compressed_bytes": 1150960,
-      "compressed_sha256": "63369a7e3ab889a5a37ddaf89991f5096d29b08d64c3072bc056db96d965eae3",
+      "original_bytes": 10681964,
+      "original_sha256": "9f80fb56f42c5e32e2e098521ce07ff201f57c00cf514dca56302fdc63cb085a",
+      "compressed_bytes": 1149222,
+      "compressed_sha256": "66351b4113a89d825cc896f97c701ae7db898e6d60283f08c725189c82844f5b",
       "reproduction_member": "operation-audit/remaining-record-audit/cost-coverage-ledger.json"
     },
     {
@@ -29,10 +29,10 @@
       "label": "Complete source inventory",
       "file": "operation-audit/manifest.json.gz",
       "original_file": "manifest.json",
-      "original_bytes": 5644786,
-      "original_sha256": "61781968e2dd78e57c46684813dae85f1b6b49663b65d9f99de8604a53085ddf",
-      "compressed_bytes": 1266711,
-      "compressed_sha256": "49d715b39272a173a155008396d5abc9260c26123da1ef518ccc3470f4169933",
+      "original_bytes": 5825382,
+      "original_sha256": "882ef4e494d9085f050a90673fb1df6ab5f3beac4e0266d2751606e59a18bbd4",
+      "compressed_bytes": 1316437,
+      "compressed_sha256": "c5b786274bf48ed839199d999f6d28157f3d2f0dde9e9c1dff29aabc5247fd96",
       "reproduction_member": "operation-audit/manifest.json"
     },
     {
@@ -40,10 +40,10 @@
       "label": "Source discovery index",
       "file": "operation-audit/remaining-record-audit/cost-coverage-index.json.gz",
       "original_file": "remaining-record-audit/cost-coverage-index.json",
-      "original_bytes": 1715405,
-      "original_sha256": "435cd4d05bbdd1d8aecb9625ec82077212e1a71f5cc3d313b0ec225deec72f44",
-      "compressed_bytes": 154121,
-      "compressed_sha256": "ed9d7361df95d5f6daa697bb48896661f1bd0858935a0bdf14c52da18deca392",
+      "original_bytes": 1692582,
+      "original_sha256": "d7e1cffb87dc47f9437444b2212af1d89c073fa9381b45b8002d3db10f005acc",
+      "compressed_bytes": 152991,
+      "compressed_sha256": "cbf3a4ceccd12708deeede34ba3817ddba0fff32a04ca65df267145557ce8df9",
       "reproduction_member": "operation-audit/remaining-record-audit/cost-coverage-index.json"
     },
     {
@@ -795,6 +795,39 @@
       "reproduction_member": "operation-audit/pr523-punctured-gaussian-source-peer-review.json"
     },
     {
+      "id": "proof:pr533-legacy-kernel92-finite-native.json",
+      "label": "PR533 \u00b7 native parameters",
+      "file": "operation-audit/pr533-legacy-kernel92-finite-native.json.gz",
+      "original_file": "pr533-legacy-kernel92-finite-native.json",
+      "original_bytes": 60782,
+      "original_sha256": "d8a298aa1e887861c4de1b520c3535f940aac3750895e6ef02ab619036f376ea",
+      "compressed_bytes": 13733,
+      "compressed_sha256": "6b37ce5dd4bb7627a77c3407882c1939b6c0bdd3eb805b62c6196f548c06c5fd",
+      "reproduction_member": "operation-audit/pr533-legacy-kernel92-finite-native.json"
+    },
+    {
+      "id": "proof:pr533-legacy-kernel92-literal-cover-range-peer-review.json",
+      "label": "PR533 \u00b7 cost review",
+      "file": "operation-audit/pr533-legacy-kernel92-literal-cover-range-peer-review.json.gz",
+      "original_file": "pr533-legacy-kernel92-literal-cover-range-peer-review.json",
+      "original_bytes": 25456,
+      "original_sha256": "78b4c5ae8864adbe9547ef68c5b1ed2ce5bcffba553340330f56adf871ea67e3",
+      "compressed_bytes": 10263,
+      "compressed_sha256": "40a664fe5e6ae96741f4fa387f4b6c42477ac7cca922999a7608ec3afefe2a02",
+      "reproduction_member": "operation-audit/pr533-legacy-kernel92-literal-cover-range-peer-review.json"
+    },
+    {
+      "id": "proof:pr533-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "label": "PR533 \u00b7 source review",
+      "file": "operation-audit/pr533-legacy-kernel92-literal-cover-range-source-peer-review.json.gz",
+      "original_file": "pr533-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "original_bytes": 82179,
+      "original_sha256": "717a1e558c9f1b2a3e34315d2cc68a233eecddf6caad35499b643ca63f83bfa0",
+      "compressed_bytes": 14077,
+      "compressed_sha256": "0a5a419712f46a2ff480b0e74b6c0ff2374c5d7c23fe41af66fa4db5fd3199e4",
+      "reproduction_member": "operation-audit/pr533-legacy-kernel92-literal-cover-range-source-peer-review.json"
+    },
+    {
       "id": "proof:pr534-legacy-expected-finite-native.json",
       "label": "PR534 \u00b7 native parameters",
       "file": "operation-audit/pr534-legacy-expected-finite-native.json.gz",
@@ -826,6 +859,94 @@
       "compressed_bytes": 11396,
       "compressed_sha256": "a0cffbf322dbf768c947224f9ade40591b64a4b4382dc9cb9d030021f59f124a",
       "reproduction_member": "operation-audit/pr534-legacy-expected-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr536-legacy-kernel92-finite-native.json",
+      "label": "PR536 \u00b7 native parameters",
+      "file": "operation-audit/pr536-legacy-kernel92-finite-native.json.gz",
+      "original_file": "pr536-legacy-kernel92-finite-native.json",
+      "original_bytes": 90588,
+      "original_sha256": "15df3103690997ff1f03818bf4e97a5796e516493d2d916af858fda0b57914e4",
+      "compressed_bytes": 17016,
+      "compressed_sha256": "2463b4e0ccbfc0a3ed08a0573280170ee1e023291db9fc6e2fc28f631078d8d2",
+      "reproduction_member": "operation-audit/pr536-legacy-kernel92-finite-native.json"
+    },
+    {
+      "id": "proof:pr536-legacy-kernel92-literal-cover-range-peer-review.json",
+      "label": "PR536 \u00b7 cost review",
+      "file": "operation-audit/pr536-legacy-kernel92-literal-cover-range-peer-review.json.gz",
+      "original_file": "pr536-legacy-kernel92-literal-cover-range-peer-review.json",
+      "original_bytes": 30251,
+      "original_sha256": "e489269f8aef75949e4944e9a5e68aa59000dacab3c5c05862fdecf8da179df5",
+      "compressed_bytes": 11871,
+      "compressed_sha256": "ca6209b4b16314337aa715e351ee56d047484f1d882c48ba8dacf26005e4566d",
+      "reproduction_member": "operation-audit/pr536-legacy-kernel92-literal-cover-range-peer-review.json"
+    },
+    {
+      "id": "proof:pr536-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "label": "PR536 \u00b7 source review",
+      "file": "operation-audit/pr536-legacy-kernel92-literal-cover-range-source-peer-review.json.gz",
+      "original_file": "pr536-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "original_bytes": 86992,
+      "original_sha256": "9828f509c3884a8f09ea6d999e27f9fc352e49b1e8b414556f662e6d0427aeda",
+      "compressed_bytes": 15758,
+      "compressed_sha256": "f64023788ba223e81aef05288c04102b25d4824560085ae5b1789f40ec3fa048",
+      "reproduction_member": "operation-audit/pr536-legacy-kernel92-literal-cover-range-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr537-open-legacy-v2-literal-cover-peer-review.json",
+      "label": "PR537 \u00b7 cost review",
+      "file": "operation-audit/pr537-open-legacy-v2-literal-cover-peer-review.json.gz",
+      "original_file": "pr537-open-legacy-v2-literal-cover-peer-review.json",
+      "original_bytes": 27063,
+      "original_sha256": "53f5666ef041b0842b1c25c0546783007559c35be5bad589d5f9b9aafc7c912a",
+      "compressed_bytes": 10334,
+      "compressed_sha256": "dfa54e4310939edaed29a82e76740911b5c4a32586c88bec31338a85fb93deb2",
+      "reproduction_member": "operation-audit/pr537-open-legacy-v2-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr537-open-legacy-v2-literal-cover-source-peer-review.json",
+      "label": "PR537 \u00b7 source review",
+      "file": "operation-audit/pr537-open-legacy-v2-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr537-open-legacy-v2-literal-cover-source-peer-review.json",
+      "original_bytes": 75930,
+      "original_sha256": "01d3bc85313f705685b5195b3e59d734765649c439d3c787a159bd81c3ab49f6",
+      "compressed_bytes": 13084,
+      "compressed_sha256": "28c9acdc716e01af7051f1cea138523ac661a635aa087761a9c6767a69fde1f0",
+      "reproduction_member": "operation-audit/pr537-open-legacy-v2-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr538-legacy-kernel92-finite-native.json",
+      "label": "PR538 \u00b7 native parameters",
+      "file": "operation-audit/pr538-legacy-kernel92-finite-native.json.gz",
+      "original_file": "pr538-legacy-kernel92-finite-native.json",
+      "original_bytes": 108582,
+      "original_sha256": "1736cb8d0083f22e7655d53fc5ada1137f1ac54a4adbd1beac1c466ab673423c",
+      "compressed_bytes": 16731,
+      "compressed_sha256": "46c1b04fcb66969195c630535f1852d2e03d23f333d8532891281c00a1c88ed4",
+      "reproduction_member": "operation-audit/pr538-legacy-kernel92-finite-native.json"
+    },
+    {
+      "id": "proof:pr538-legacy-kernel92-literal-cover-range-peer-review.json",
+      "label": "PR538 \u00b7 cost review",
+      "file": "operation-audit/pr538-legacy-kernel92-literal-cover-range-peer-review.json.gz",
+      "original_file": "pr538-legacy-kernel92-literal-cover-range-peer-review.json",
+      "original_bytes": 26235,
+      "original_sha256": "99023385743bfc26ddedd111833d1041e125d8559bac1cc21f47e58aa45d7495",
+      "compressed_bytes": 10473,
+      "compressed_sha256": "08154cdb13c321569ed18b09edfa0e12110bf5d904816ae4a3ed23ada2077eaa",
+      "reproduction_member": "operation-audit/pr538-legacy-kernel92-literal-cover-range-peer-review.json"
+    },
+    {
+      "id": "proof:pr538-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "label": "PR538 \u00b7 source review",
+      "file": "operation-audit/pr538-legacy-kernel92-literal-cover-range-source-peer-review.json.gz",
+      "original_file": "pr538-legacy-kernel92-literal-cover-range-source-peer-review.json",
+      "original_bytes": 82958,
+      "original_sha256": "bb51df46a87c88a9824a838a794052b9ee8ff8b532f81692ea03a0db1eb7c12f",
+      "compressed_bytes": 14336,
+      "compressed_sha256": "432f8efe57a3fd04d231f236c41aec66717d6a86d5eb7f12f3c5e9044bc64dd9",
+      "reproduction_member": "operation-audit/pr538-legacy-kernel92-literal-cover-range-source-peer-review.json"
     },
     {
       "id": "proof:pr543-paired-selected-complex-native.json",
@@ -894,6 +1015,226 @@
       "reproduction_member": "operation-audit/pr545-paired-selected-complex-source-peer-review.json"
     },
     {
+      "id": "proof:pr550-trace-rank5-v4-literal-cover-peer-review.json",
+      "label": "PR550 \u00b7 cost review",
+      "file": "operation-audit/pr550-trace-rank5-v4-literal-cover-peer-review.json.gz",
+      "original_file": "pr550-trace-rank5-v4-literal-cover-peer-review.json",
+      "original_bytes": 18072,
+      "original_sha256": "a038892b0f5a1066eab0112d767caeda7c3a9e09fc495b75955621a65e6db0af",
+      "compressed_bytes": 7445,
+      "compressed_sha256": "f29d4e6d056089425a3a54d81b4e2d3e83ff752312a7031972c6be2fe89cd613",
+      "reproduction_member": "operation-audit/pr550-trace-rank5-v4-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr550-trace-rank5-v4-literal-cover-source-peer-review.json",
+      "label": "PR550 \u00b7 source review",
+      "file": "operation-audit/pr550-trace-rank5-v4-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr550-trace-rank5-v4-literal-cover-source-peer-review.json",
+      "original_bytes": 99038,
+      "original_sha256": "a4dca05eed30f9edfe66cfb133d5a40aab9d15c36ca849029223567f36085de6",
+      "compressed_bytes": 16574,
+      "compressed_sha256": "735489fb5429b2871a78c40c34958dcf28d5b8dd2756d07547f506129c60c550",
+      "reproduction_member": "operation-audit/pr550-trace-rank5-v4-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr554-trace-rank5-v4-literal-cover-peer-review.json",
+      "label": "PR554 \u00b7 cost review",
+      "file": "operation-audit/pr554-trace-rank5-v4-literal-cover-peer-review.json.gz",
+      "original_file": "pr554-trace-rank5-v4-literal-cover-peer-review.json",
+      "original_bytes": 22490,
+      "original_sha256": "b1013134a9a58a0663a375ce20d2343378c57e7603e5353163da7d0ea8ff5976",
+      "compressed_bytes": 9039,
+      "compressed_sha256": "8841c930314a9df145ec89b38964c5585aebe3095ac18e2b33147c133787f613",
+      "reproduction_member": "operation-audit/pr554-trace-rank5-v4-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr554-trace-rank5-v4-literal-cover-source-peer-review.json",
+      "label": "PR554 \u00b7 source review",
+      "file": "operation-audit/pr554-trace-rank5-v4-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr554-trace-rank5-v4-literal-cover-source-peer-review.json",
+      "original_bytes": 99003,
+      "original_sha256": "3998f21f01f16b1b2efa44b96f05135a2f10afbb8b07ba10b53a47a1610f264c",
+      "compressed_bytes": 15754,
+      "compressed_sha256": "0ff7f85af3a01f38e740f841c294b169d82ba18b2b61060b793ef879e9810b5e",
+      "reproduction_member": "operation-audit/pr554-trace-rank5-v4-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr561-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR561 \u00b7 cost review",
+      "file": "operation-audit/pr561-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr561-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 8665,
+      "original_sha256": "3fab83a8def76295ad5e17cb1615d6b059f4724ae8d6eebeafd80cce5638a373",
+      "compressed_bytes": 4007,
+      "compressed_sha256": "6eacf7785ab4e71b7d585f333f74e3833719920c065a9172746245fca865a3cf",
+      "reproduction_member": "operation-audit/pr561-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr561-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR561 \u00b7 source review",
+      "file": "operation-audit/pr561-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr561-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 92532,
+      "original_sha256": "931ac83769d03ea59b88cd89bf420cd1dd958cae20b4eb44aa13af2f5b12a8c7",
+      "compressed_bytes": 9644,
+      "compressed_sha256": "cf3c03942bdee329fec28d84ce02a7678d032a76173e02c7dc1b7052a0812299",
+      "reproduction_member": "operation-audit/pr561-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr562-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR562 \u00b7 cost review",
+      "file": "operation-audit/pr562-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr562-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 8661,
+      "original_sha256": "53852ddc4622c10a747f5874b6d28a6522cc477aa88ae4c83f2adda6a4e2c8de",
+      "compressed_bytes": 4002,
+      "compressed_sha256": "1f6d4274c29eb3e8de2f18aa02ba67c2ea525a237cb47e0f8ad8128e9bf02ad1",
+      "reproduction_member": "operation-audit/pr562-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr562-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR562 \u00b7 source review",
+      "file": "operation-audit/pr562-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr562-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 92498,
+      "original_sha256": "364cbc83a5824dc5b20fe5aeb487cb90b167ea6fff665d78f2755a88dc031b28",
+      "compressed_bytes": 9637,
+      "compressed_sha256": "4894a4e25d7d488d9dbcf3a61e0c8c5e3fe9bbad92823675a6e0721462c7d265",
+      "reproduction_member": "operation-audit/pr562-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr568-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR568 \u00b7 cost review",
+      "file": "operation-audit/pr568-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr568-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 9326,
+      "original_sha256": "f92a7cedacac49b7b71e74a74e728b3b0e1284eca8f9e87d78870f8e1e50f931",
+      "compressed_bytes": 4254,
+      "compressed_sha256": "37a72e8575c9348bf0c8ee4b4172bf870b53124e7bc7697525ba96d8641d1fbe",
+      "reproduction_member": "operation-audit/pr568-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr568-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR568 \u00b7 source review",
+      "file": "operation-audit/pr568-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr568-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 93196,
+      "original_sha256": "98710983762724e4091088c303f17b7e890bce81aa7d7b2b5eb96a059b606f76",
+      "compressed_bytes": 9848,
+      "compressed_sha256": "577ebdf920dafa84ddcdc450bdff407e56e300b38172bfcd0e5ec6e6450f697d",
+      "reproduction_member": "operation-audit/pr568-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr569-open-legacy-literal-cover-peer-review.json",
+      "label": "PR569 \u00b7 cost review",
+      "file": "operation-audit/pr569-open-legacy-literal-cover-peer-review.json.gz",
+      "original_file": "pr569-open-legacy-literal-cover-peer-review.json",
+      "original_bytes": 51158,
+      "original_sha256": "0834ae847ef38b82fd118e5a1d8b584725a9f702047f2e70ac078520df55769d",
+      "compressed_bytes": 18872,
+      "compressed_sha256": "7e5b4c216b7bd1c0d74ddd14479092178c0b5712db9ed9c2d0c105ec623efc0b",
+      "reproduction_member": "operation-audit/pr569-open-legacy-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr569-open-legacy-literal-cover-source-peer-review.json",
+      "label": "PR569 \u00b7 source review",
+      "file": "operation-audit/pr569-open-legacy-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr569-open-legacy-literal-cover-source-peer-review.json",
+      "original_bytes": 147468,
+      "original_sha256": "3886315caea2552305b6da4f9c004bfd480846a78582a9b6d9ec7d2405ea2b9e",
+      "compressed_bytes": 27413,
+      "compressed_sha256": "6ce0a8cf136944705a014bad92a8827af9eeaedf666775cbabd6a4a7fda8ef69",
+      "reproduction_member": "operation-audit/pr569-open-legacy-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr571-open-legacy-literal-cover-peer-review.json",
+      "label": "PR571 \u00b7 cost review",
+      "file": "operation-audit/pr571-open-legacy-literal-cover-peer-review.json.gz",
+      "original_file": "pr571-open-legacy-literal-cover-peer-review.json",
+      "original_bytes": 6360,
+      "original_sha256": "5d8a0470ae0eca42d4de9ec5bfcc91d59831f499bc225677c045b6e589cdbc40",
+      "compressed_bytes": 2910,
+      "compressed_sha256": "5afabcb1c5954cc0bbf46f300a8969c028851627045220e842f7ca8340963536",
+      "reproduction_member": "operation-audit/pr571-open-legacy-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr571-open-legacy-literal-cover-source-peer-review.json",
+      "label": "PR571 \u00b7 source review",
+      "file": "operation-audit/pr571-open-legacy-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr571-open-legacy-literal-cover-source-peer-review.json",
+      "original_bytes": 106098,
+      "original_sha256": "18752de77c6ee6e958c833348929e120cb325f1c7bdec7437d6061e7835295d1",
+      "compressed_bytes": 11639,
+      "compressed_sha256": "ef71217f4f6946760b0712aea6531589a7e7e21fd1b7e4112e0af309ff9988ca",
+      "reproduction_member": "operation-audit/pr571-open-legacy-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr572-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR572 \u00b7 cost review",
+      "file": "operation-audit/pr572-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr572-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 9613,
+      "original_sha256": "52bfa12a23cf1a5795bffb7239fc9671e4c7f9355e34986551363516c7cc70b9",
+      "compressed_bytes": 4356,
+      "compressed_sha256": "adeec33ed6deb072fbf01ec74c4fcd53d8137f4d5637f4734b9f53bd676f8a65",
+      "reproduction_member": "operation-audit/pr572-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr572-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR572 \u00b7 source review",
+      "file": "operation-audit/pr572-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr572-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 93509,
+      "original_sha256": "bec1479572421e5638a37b84026f509b3a775eb30112b17b4b475d82f14a975d",
+      "compressed_bytes": 10132,
+      "compressed_sha256": "b8f55f5c795e49cc9614c7da31d41f3d1b61c4d4155fbd673eb9331a46a3551f",
+      "reproduction_member": "operation-audit/pr572-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr574-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR574 \u00b7 cost review",
+      "file": "operation-audit/pr574-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr574-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 8328,
+      "original_sha256": "a70710341b5a5f62fab9c5cbbe9ddab3dc4231dcbeac9b457139d7543c6046b4",
+      "compressed_bytes": 3833,
+      "compressed_sha256": "9073fe78c5d6ab6fe22154581e1c50b052bdd2a23e6db9efc4e2549e35b2ee5c",
+      "reproduction_member": "operation-audit/pr574-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr574-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR574 \u00b7 source review",
+      "file": "operation-audit/pr574-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr574-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 92204,
+      "original_sha256": "17f2874c19860cc9afdbd252a8891116be3933a3fc6d70ac09eed5f7c90fdb5a",
+      "compressed_bytes": 9584,
+      "compressed_sha256": "65b59df87cc3f39af0334557f417addf49fe34dabaf2deb9ed73cf995a2e3739",
+      "reproduction_member": "operation-audit/pr574-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr575-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR575 \u00b7 cost review",
+      "file": "operation-audit/pr575-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr575-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 12399,
+      "original_sha256": "1761c4aaec8635acc595e49923831bc4d6ed8f8ef831e6837e153393abe13ce8",
+      "compressed_bytes": 5450,
+      "compressed_sha256": "d064c38a4cdc3b711a696dcaa5693533ff1b36271dde3309ed8c2a522ec7e0c8",
+      "reproduction_member": "operation-audit/pr575-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr575-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR575 \u00b7 source review",
+      "file": "operation-audit/pr575-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr575-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 96356,
+      "original_sha256": "a0769b9363e397ade4841ebb390b223f39f241541391939bebe6c105b5c65976",
+      "compressed_bytes": 11127,
+      "compressed_sha256": "d267a847ad937d4555aabe8b32d14164ff69c604c0fea11fccb6bf7e4c977078",
+      "reproduction_member": "operation-audit/pr575-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
       "id": "proof:pr576-exact-mixed-finite-native.json",
       "label": "PR576 \u00b7 native parameters",
       "file": "operation-audit/pr576-exact-mixed-finite-native.json.gz",
@@ -925,6 +1266,28 @@
       "compressed_bytes": 3667,
       "compressed_sha256": "bcdf6ef3bc98373434488997d1190b8989f28436d4220c060ca4f15ced5169e0",
       "reproduction_member": "operation-audit/pr576-exact-mixed-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr577-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR577 \u00b7 cost review",
+      "file": "operation-audit/pr577-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr577-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 10209,
+      "original_sha256": "52e711d0fbd59390b98befed623439efd5b077fc12be558d7b7f0256696df9f2",
+      "compressed_bytes": 4572,
+      "compressed_sha256": "435eeb3c3ac69ca812d829b31a45bc84eb2508384f8318cf95c1fdeb66305189",
+      "reproduction_member": "operation-audit/pr577-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr577-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR577 \u00b7 source review",
+      "file": "operation-audit/pr577-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr577-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 94124,
+      "original_sha256": "6b4d016b9b7281232d3156810ac0e195cf2423481dfacd4505a9cbe0816ab65e",
+      "compressed_bytes": 10395,
+      "compressed_sha256": "0c58cb6fb9194b61446223ec9017490a49a0164804b4863531fb08e0fbec4aff",
+      "reproduction_member": "operation-audit/pr577-open-multicold-v3-literal-cover-source-peer-review.json"
     },
     {
       "id": "proof:pr578-exact-mixed-finite-native.json",
@@ -960,6 +1323,28 @@
       "reproduction_member": "operation-audit/pr578-exact-mixed-finite-source-peer-review.json"
     },
     {
+      "id": "proof:pr579-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR579 \u00b7 cost review",
+      "file": "operation-audit/pr579-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr579-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 10079,
+      "original_sha256": "3290aeaffb9725dd6c51131075ee39a3166dead9ce12545d2d82b321f8b56761",
+      "compressed_bytes": 4543,
+      "compressed_sha256": "41b94481dc02b62e50f186f5ae01e7957eee36ca44b65b5ed2a9baacd716e7a6",
+      "reproduction_member": "operation-audit/pr579-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr579-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR579 \u00b7 source review",
+      "file": "operation-audit/pr579-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr579-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 93963,
+      "original_sha256": "8e48d2a0cf37220338697b3f4944ff7c1f9249af9b951ec0aecf380c724e08a6",
+      "compressed_bytes": 10323,
+      "compressed_sha256": "9765613fc0a5b10785768c5b61860264ab766939848e3d00baf37e8107274575",
+      "reproduction_member": "operation-audit/pr579-open-multicold-v3-literal-cover-source-peer-review.json"
+    },
+    {
       "id": "proof:pr582-early-frame-finite-native.json",
       "label": "PR582 \u00b7 native parameters",
       "file": "operation-audit/pr582-early-frame-finite-native.json.gz",
@@ -991,6 +1376,28 @@
       "compressed_bytes": 22062,
       "compressed_sha256": "11b5a02c0cd46714c925d822173f58bf79f9a497b7a9d651b1c4c35010cb1ea9",
       "reproduction_member": "operation-audit/pr582-early-frame-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr583-open-multicold-v3-literal-cover-peer-review.json",
+      "label": "PR583 \u00b7 cost review",
+      "file": "operation-audit/pr583-open-multicold-v3-literal-cover-peer-review.json.gz",
+      "original_file": "pr583-open-multicold-v3-literal-cover-peer-review.json",
+      "original_bytes": 10838,
+      "original_sha256": "004d408e738e38bd74fb8cfd159d163f55ec1ce7bc90e35cbb504cf2438e0eba",
+      "compressed_bytes": 4726,
+      "compressed_sha256": "30e58cec5fe872802fa4b986183224ba29590d573389d483b3e5ed256825f7e2",
+      "reproduction_member": "operation-audit/pr583-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "id": "proof:pr583-open-multicold-v3-literal-cover-source-peer-review.json",
+      "label": "PR583 \u00b7 source review",
+      "file": "operation-audit/pr583-open-multicold-v3-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr583-open-multicold-v3-literal-cover-source-peer-review.json",
+      "original_bytes": 94742,
+      "original_sha256": "70495a777ae95dd79df2e998cce8701b7d34833529a02d6cc61ea072a241b244",
+      "compressed_bytes": 10547,
+      "compressed_sha256": "0a0082d3ecba153eefe8482f4af781bc894ba0694ad52d1eef93e93d344625fd",
+      "reproduction_member": "operation-audit/pr583-open-multicold-v3-literal-cover-source-peer-review.json"
     },
     {
       "id": "proof:pr584-early-frame-finite-native.json",
@@ -1354,6 +1761,39 @@
       "compressed_bytes": 9625,
       "compressed_sha256": "daa5c6b83e5b527be705692c79fd9e1f883b37f643714d11c4c4cecb2b54b979",
       "reproduction_member": "operation-audit/pr607-cold14-typed-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr608-registry-reconciled-finite-native.json",
+      "label": "PR608 \u00b7 native parameters",
+      "file": "operation-audit/pr608-registry-reconciled-finite-native.json.gz",
+      "original_file": "pr608-registry-reconciled-finite-native.json",
+      "original_bytes": 124584,
+      "original_sha256": "fd3366a8f5c3d35a5ac4fed428c7679e62e993eb1dd90187ba5f1dd99c328f40",
+      "compressed_bytes": 23105,
+      "compressed_sha256": "f1631959cd682abbc4aeb87017fb2d780a1d278812ffa55d2431e7c1f6f16acf",
+      "reproduction_member": "operation-audit/pr608-registry-reconciled-finite-native.json"
+    },
+    {
+      "id": "proof:pr608-registry-reconciled-finite-peer-review.json",
+      "label": "PR608 \u00b7 cost review",
+      "file": "operation-audit/pr608-registry-reconciled-finite-peer-review.json.gz",
+      "original_file": "pr608-registry-reconciled-finite-peer-review.json",
+      "original_bytes": 77063,
+      "original_sha256": "ac1e0e70bcbee776aec2333ab439dbced4b83aca8387ea4c0c31ebcdc9f643f4",
+      "compressed_bytes": 23565,
+      "compressed_sha256": "bb65f8242a1b6aa9bd2dcd78ad5c3d26b2eac96f927057a027aeba4ba0936153",
+      "reproduction_member": "operation-audit/pr608-registry-reconciled-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr608-registry-reconciled-finite-source-peer-review.json",
+      "label": "PR608 \u00b7 source review",
+      "file": "operation-audit/pr608-registry-reconciled-finite-source-peer-review.json.gz",
+      "original_file": "pr608-registry-reconciled-finite-source-peer-review.json",
+      "original_bytes": 24778,
+      "original_sha256": "d5ce2a55e9fe3425e922f32071a8d0d87723972e0bad8ea2dad7560645c132f5",
+      "compressed_bytes": 7374,
+      "compressed_sha256": "ada19b582219f1ecab2ab4e20a219c446fed05f5cd0f2aff2c6d08ea2f81f879",
+      "reproduction_member": "operation-audit/pr608-registry-reconciled-finite-source-peer-review.json"
     },
     {
       "id": "proof:pr609-cold14-typed-finite-native.json",
@@ -2080,6 +2520,39 @@
       "compressed_bytes": 3825,
       "compressed_sha256": "c1e1d02c71f91128805cb7869be7bf98da1189d65a502e3625b533186bd90b31",
       "reproduction_member": "operation-audit/pr685-cold72-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr777-frame-retimed-finite-native.json",
+      "label": "PR777 \u00b7 native parameters",
+      "file": "operation-audit/pr777-frame-retimed-finite-native.json.gz",
+      "original_file": "pr777-frame-retimed-finite-native.json",
+      "original_bytes": 41447,
+      "original_sha256": "e54912d0437eaa086ee424648d770723550da01663957ea706b7ab5c27e7038d",
+      "compressed_bytes": 8371,
+      "compressed_sha256": "81e9d32ec9f96e017532e09c07cfc5a75141d355e2085fc11b9b1708b3ed02ac",
+      "reproduction_member": "operation-audit/pr777-frame-retimed-finite-native.json"
+    },
+    {
+      "id": "proof:pr777-frame-retimed-finite-peer-review.json",
+      "label": "PR777 \u00b7 cost review",
+      "file": "operation-audit/pr777-frame-retimed-finite-peer-review.json.gz",
+      "original_file": "pr777-frame-retimed-finite-peer-review.json",
+      "original_bytes": 12372,
+      "original_sha256": "02a41a84f74da379530f2869f7a4b5afc1b57ef17e154ceedf9e47aea0667e54",
+      "compressed_bytes": 5801,
+      "compressed_sha256": "13976b84443c8d955e0ba4a0887f4cccb38f70e4515960e22c081104275748c2",
+      "reproduction_member": "operation-audit/pr777-frame-retimed-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr777-frame-retimed-finite-source-peer-review.json",
+      "label": "PR777 \u00b7 source review",
+      "file": "operation-audit/pr777-frame-retimed-finite-source-peer-review.json.gz",
+      "original_file": "pr777-frame-retimed-finite-source-peer-review.json",
+      "original_bytes": 19691,
+      "original_sha256": "97d0a94a900975fc3ed52222ba59c7fdc8912c739c4c3430e4477ad8f9863b83",
+      "compressed_bytes": 6299,
+      "compressed_sha256": "b132c40662d74d49d022379e0e9ed2d5e68f85342433a4b98b04c6276aa01c58",
+      "reproduction_member": "operation-audit/pr777-frame-retimed-finite-source-peer-review.json"
     },
     {
       "id": "proof:pr869-u8-selected-finite-native.json",

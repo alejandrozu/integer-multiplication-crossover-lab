@@ -1,0 +1,31 @@
+{
+  "schema": "integration222-own-source-numeric-freeze/1",
+  "status": "PASS_FROZEN",
+  "published203_baseline_packet_sha256": "5d0a26857922630608f07c5c7952ac4bc1cd81db7b318670a9d8152ee7dfa931",
+  "new_packet_sha256": "949471e595a5fba5eb1ec2f395c3c453c27ef3b22e5234a09c4fd326452b1c6d",
+  "numeric": 222,
+  "source_scope": 196,
+  "open": 177,
+  "overlays": 206,
+  "upper": 195,
+  "lower": 62,
+  "two_sided": 35,
+  "actual_crossings": 0,
+  "old203_numeric_endpoint_objects_identical": true,
+  "old187_overlay_entry_objects_identical": true,
+  "all595_historical_kappa_dates_titles_identical": true,
+  "old_direct_binding_files_verified": 833,
+  "strict_bound_files": 1129,
+  "helper_tests_passed": 13,
+  "unadmitted537_whole_and550554_source_not_admitted": true,
+  "files_sha256": {
+    "operation-audit/source-cost-overlays.json": "949471e595a5fba5eb1ec2f395c3c453c27ef3b22e5234a09c4fd326452b1c6d",
+    "operation-audit/remaining-record-audit/cost-coverage-ledger.json": "9f80fb56f42c5e32e2e098521ce07ff201f57c00cf514dca56302fdc63cb085a",
+    "operation-audit/remaining-record-audit/cost-coverage-index.json": "d7e1cffb87dc47f9437444b2212af1d89c073fa9381b45b8002d3db10f005acc",
+    "site/dist/data/feasibility-history.json": "df228f833f04832c680b90fc31608988d7e46e182e5dd9cbc15d81e4b79a30b7",
+    "operation-audit/next-cost-overlay-integration-inputs.json": "833c8005f7c6d432b4ad1bff695759d04a0c9c77b53ae49e0e993489ef2f52f3",
+    "operation-audit/next-cost-overlay-integration-report.json": "fc6b0e1b0ddae171d589e0eac98a44e0348976d1080c9f3d44b4d18d1aa47a64",
+    "operation-audit/next-cost-overlay-CAS-seeds.json": "41c4ebef155ba35b88918fc845225c2139ba602901cedb151f53e83a9a3322ee",
+    "operation-audit/remaining-record-audit/current-audit-queue.json": "860df0b80b9ff516d63d104745d85aaf368bf476306b9b4be291d064ba46277f"
+  }
+}

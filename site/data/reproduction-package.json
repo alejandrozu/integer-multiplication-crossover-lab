@@ -144,17 +144,29 @@
       "bytes": 4354576,
       "sha256": "797b1de57cc653454e478f180698b0439b750a5ad52f84ae58ef02b90525b138",
       "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-66.zip"
+    },
+    {
+      "file": "operation-audit-objects-67.zip",
+      "bytes": 20655838,
+      "sha256": "328f598191cb7c94ab5d1835ddf70f65945baeb019c6a95bea68d10c0dbd3418",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-02/operation-audit-objects-67.zip"
+    },
+    {
+      "file": "operation-audit-objects-68.zip",
+      "bytes": 4364912,
+      "sha256": "c1d5649813559cad084204eee54f0d5310c39806aab8c012bf6b71b0fd92ad08",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-02/operation-audit-objects-68.zip"
     }
   ],
-  "manifest_archive": "operation-audit-objects-66.zip",
+  "manifest_archive": "operation-audit-objects-68.zip",
   "manifest_member": "REPRODUCTION-MANIFEST.json",
   "restore_script": "restore_reproduction.py",
   "restore_script_sha256": "4c15819e296fa8fed88af4746c5ec4f34d656ab8f717b2dfcef01ad2f200b94b",
-  "full_payload_members": 23388,
-  "unique_objects": 16767,
-  "full_payload_hash_map_sha256": "0006f326832092d8b1778b47e485c5c37bcfb8acf0f8a1250036fb0d82ef290c",
-  "retained_unreferenced_objects": 38,
+  "full_payload_members": 24263,
+  "unique_objects": 17059,
+  "full_payload_hash_map_sha256": "02bbccd1d3e7508d2811675d6f0be73aada5e3ffd3f0fa52dbea44e81ce2edec",
+  "retained_unreferenced_objects": 69,
   "scope": "Complete current source/proof reconstruction with immutable published archives and exact new source and browser additions. Every logical payload path is SHA256-bound; retained published source maps support explicit byte-identical replay inheritance. Transport changes no mathematical bound.",
   "published_source_maps_member": "PUBLISHED-SOURCE-MAPS.json",
-  "current_release_tag": "audit-2026-10-25-01"
+  "current_release_tag": "audit-2026-10-25-02"
 }

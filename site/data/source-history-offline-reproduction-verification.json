@@ -147,10 +147,22 @@
       "bytes": 4354576,
       "sha256": "797b1de57cc653454e478f180698b0439b750a5ad52f84ae58ef02b90525b138",
       "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-66.zip"
+    },
+    {
+      "file": "operation-audit-objects-67.zip",
+      "bytes": 20655838,
+      "sha256": "328f598191cb7c94ab5d1835ddf70f65945baeb019c6a95bea68d10c0dbd3418",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-02/operation-audit-objects-67.zip"
+    },
+    {
+      "file": "operation-audit-objects-68.zip",
+      "bytes": 4364912,
+      "sha256": "c1d5649813559cad084204eee54f0d5310c39806aab8c012bf6b71b0fd92ad08",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-02/operation-audit-objects-68.zip"
     }
   ],
-  "complete_payload_members": 23388,
-  "complete_payload_hash_map_sha256": "0006f326832092d8b1778b47e485c5c37bcfb8acf0f8a1250036fb0d82ef290c",
+  "complete_payload_members": 24263,
+  "complete_payload_hash_map_sha256": "02bbccd1d3e7508d2811675d6f0be73aada5e3ffd3f0fa52dbea44e81ce2edec",
   "own_source_entries": [
     2,
     3,
@@ -191,12 +203,29 @@
     275,
     514,
     523,
+    533,
     534,
+    536,
+    537,
+    538,
     543,
     545,
+    550,
+    554,
+    561,
+    562,
+    568,
+    569,
+    571,
+    572,
+    574,
+    575,
     576,
+    577,
     578,
+    579,
     582,
+    583,
     584,
     586,
     588,
@@ -208,6 +237,7 @@
     603,
     604,
     607,
+    608,
     609,
     610,
     614,
@@ -230,6 +260,7 @@
     646,
     654,
     685,
+    777,
     869,
     870,
     890,
@@ -340,40 +371,16 @@
     5399,
     5400
   ],
-  "reproduced_certificate_files": 493,
-  "inherited_unchanged_certificate_files": 355,
+  "reproduced_certificate_files": 525,
+  "inherited_unchanged_certificate_files": 364,
   "published108_inheritance_used": false,
   "published150_inheritance_used": false,
   "checks": [
     {
-      "test": "owned_fixture_checked_against_current_archives",
-      "passed": true,
-      "result": {
-        "schema": "verified-reused-reproduction/1",
-        "passed": true,
-        "restoration_mode": "verified_reused_with_current_exact_additions_or_transport_replacements",
-        "fresh_restoration": false,
-        "output": "C:\\Users\\Propietario\\Documents\\Codex\\ch-aypamjc6\\restored",
-        "files": 23388,
-        "unique_objects": 16767,
-        "archives_verified": 24,
-        "descriptor_sha256": "676e9e39c1a53ce6b26e913771797c972abface60de6b59f3e8bf7f8d493de3f",
-        "full_payload_hash_map_sha256": "0006f326832092d8b1778b47e485c5c37bcfb8acf0f8a1250036fb0d82ef290c",
-        "reused_files": 23388,
-        "added_files": [],
-        "replaced_transport_files": [],
-        "written_bytes": 0,
-        "extra_file_count": 1,
-        "extra_files_are_not_expected_source": true,
-        "ignored_extra_files_sha256": "472c297105686f96df920af558932588991efbe461c0316ea9996741bd866792",
-        "scope": "Every expected current source file and every ZIP size/SHA verified. Extra generated files were counted, not admitted as source. Explicit reuse is not a fresh reconstruction or a mathematical replay. Caller exclusively owns tree during verification."
-      }
-    },
-    {
       "test": "complete_archive_set_exact_reconstruction",
       "passed": true,
-      "members": 23388,
-      "parts": 24
+      "members": 24263,
+      "parts": 26
     },
     {
       "test": "previous_release_scientific_source_and_peer_bytes_unchanged",
@@ -383,16 +390,16 @@
     {
       "test": "new_own_source_peer_and_certificate_bindings",
       "passed": true,
-      "entries": 187
+      "entries": 206
     },
     {
-      "test": "published196_unchanged_source_replays_inherited",
+      "test": "published203_unchanged_source_replays_inherited",
       "passed": true,
-      "published_source_commit": "0024780c7d4b6a6a9129f191639d7c08122d735b",
-      "prior_offline_receipt_sha256": "53ea6384c20a24a2bf84b4f0cadf5f1751c14fe35c7a15cf0fa010c2f4de7650",
+      "published_source_commit": "b6ed091c826393197e22f297b0da6c701130a03b",
+      "prior_offline_receipt_sha256": "95e39609bca735c57e01776064bb8b3f8a6b995b2f6587ff4e179b864d7ec9c0",
       "published_map_capsule_used": false,
-      "eligible_entries": 135,
-      "transitive_file_bindings": 7974,
+      "eligible_entries": 138,
+      "transitive_file_bindings": 9521,
       "jobs": [
         [
           "changed_native_p16_boundary_lowers.py"
@@ -443,6 +450,12 @@
           "late_critical_p16_costs.py"
         ],
         [
+          "legacy_expected_controller_534_bounds.py"
+        ],
+        [
+          "legacy_expected_controller_534_inputs.py"
+        ],
+        [
           "middle_p17_separated_bounds.py"
         ],
         [
@@ -450,6 +463,12 @@
         ],
         [
           "native_provider_xag_source_bindings.py"
+        ],
+        [
+          "paired_selected_complex_gaussian_bounds.py"
+        ],
+        [
+          "paired_selected_complex_source_chronology.py"
         ],
         [
           "pr144_finite_controller_upper.py"
@@ -629,579 +648,494 @@
       "test": "same_payload_local_checkpoint_reuse",
       "passed": true,
       "complete_payload_and_certificates_reverified": true,
-      "prior_checkpoint_sha256": "813cdfe42705437caa638dec25c205d6b47295894a5cd446389d74522e126d49",
-      "jobs": [
-        [
-          "audit_optimized_gmp_native_loops.py"
-        ],
-        [
-          "ceiling_refinement_descriptive_counter_audit.py"
-        ],
-        [
-          "copied_center_extension_finite_uppers.py"
-        ],
-        [
-          "copied_center_reversed_finite_uppers.py"
-        ],
-        [
-          "earliest_four_gaussian_bounds.py"
-        ],
-        [
-          "earliest_four_native_interfaces.py"
-        ],
-        [
-          "early_odd21_finite_uppers.py"
-        ],
-        [
-          "finite_full_cover_literal_lowers.py"
-        ],
-        [
-          "hyperplane_cold_descriptive_counter_audit.py"
-        ],
-        [
-          "legacy_expected_controller_534_bounds.py"
-        ],
-        [
-          "legacy_expected_controller_534_inputs.py"
-        ],
-        [
-          "nonlinear_native_gaussian_bounds.py"
-        ],
-        [
-          "optimized_gmp_degree8_compact_upper.py"
-        ],
-        [
-          "optimized_gmp_finite_control_v2.py"
-        ],
-        [
-          "optimized_gmp_opcode_arity.py"
-        ],
-        [
-          "paired_selected_complex_gaussian_bounds.py"
-        ],
-        [
-          "paired_selected_complex_source_chronology.py"
-        ],
-        [
-          "partial_swap_endpoint_native_interface.py"
-        ],
-        [
-          "pr115_odd21_finite_upper.py"
-        ],
-        [
-          "pr12_batched_native_interface.py"
-        ],
-        [
-          "pr149_finite_controller_upper.py"
-        ],
-        [
-          "pr275_supplied_cap_gaussian_bounds.py"
-        ],
-        [
-          "pr32_structured_finite_upper.py"
-        ],
-        [
-          "pr514_partial_own_gaussian_bounds.py"
-        ],
-        [
-          "pr514_selected_native_source_bindings.py"
-        ],
-        [
-          "pr523_punctured_gaussian_upper.py"
-        ],
-        [
-          "pr9_native_grammar_supplement.py"
-        ],
-        [
-          "pr9_nonlinear_native_gaussian_bounds.py"
-        ],
-        [
-          "pr9_retained_complex_native_interface.py"
-        ],
-        [
-          "prepare_selected_provider_v22.py"
-        ],
-        [
-          "prepare_selected_provider_v22_whole_costs.py"
-        ],
-        [
-          "prepare_selected_provider_v23.py"
-        ],
-        [
-          "prepare_selected_provider_v23_whole_costs.py"
-        ],
-        [
-          "prepare_selected_provider_v25.py"
-        ],
-        [
-          "prepare_selected_provider_v25_whole_costs.py"
-        ],
-        [
-          "recycled_bit_retained_complex_bounds.py"
-        ],
-        [
-          "replay_earliest_23410_finite.py"
-        ],
-        [
-          "replay_early_batched12_finite.py"
-        ],
-        [
-          "replay_partial_swap_endpoint_finite.py"
-        ],
-        [
-          "review_feasibility_interval_fluctuation.py"
-        ],
-        [
-          "review_pr275_source_chronology.py"
-        ],
-        [
-          "review_pr275_supplied_cap_math.py"
-        ],
-        [
-          "review_recycled_bit_retained_complex.py"
-        ],
-        [
-          "selected_provider_dispatch_v22.py",
-          "--execute"
-        ],
-        [
-          "selected_provider_dispatch_v23.py",
-          "--execute"
-        ],
-        [
-          "selected_provider_dispatch_v25.py",
-          "--execute"
-        ],
-        [
-          "selected_provider_v22_whole_bounds.py"
-        ],
-        [
-          "selected_provider_v23_whole_bounds.py"
-        ],
-        [
-          "selected_provider_v25_whole_bounds.py"
-        ],
-        [
-          "uniform_critical_p16_batch.py"
-        ],
-        [
-          "verify_early_star9_finite_offline.py"
-        ]
-      ],
-      "completed_job_receipts": [
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "review_feasibility_interval_fluctuation.py"
-          ],
-          "passed": true,
-          "output_sha256": "e0bbedba918508b745eec1886986b216bfb5a31af49cc69559e9956cd71bd2cb"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "uniform_critical_p16_batch.py"
-          ],
-          "passed": true,
-          "output_sha256": "c15b4a3394dc986e74642fd900cd1c6f836782c3b3e30bc610bca18a9a16fc5a"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "replay_earliest_23410_finite.py"
-          ],
-          "passed": true,
-          "output_sha256": "c872b302efb54fc67b81107ecfbee1f521b77afb67ec60c4f5e49e4ebdb38440"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "earliest_four_native_interfaces.py"
-          ],
-          "passed": true,
-          "output_sha256": "3891b4b4b4ee3dd329e56c90dd099f331befc50d4387fbb2dae0e5f9f9712f7e"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "earliest_four_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "99c2777be9a1c8269bb21341a31aa1898d898af0eb6946658bb2ae9dbcf34c85"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "verify_early_star9_finite_offline.py"
-          ],
-          "passed": true,
-          "output_sha256": "4de92c75c6452c11e840c5b4cd9e42c3143902f14ca51664f876c6ab511c54b1"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr9_retained_complex_native_interface.py"
-          ],
-          "passed": true,
-          "output_sha256": "b1235a817dee0243ff4c75eadf3673f4264ea1d8b4a5f68cfe7047b2d5c62932"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr9_native_grammar_supplement.py"
-          ],
-          "passed": true,
-          "output_sha256": "d7542a989f6689465c2e29afe88c46a795bc5f1bcc2d805f288135c830cb5f02"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr9_nonlinear_native_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "9f5019b0fd3736c628e4927a8794645bf072df19ed1b78e14667fba7c741d17c"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "replay_early_batched12_finite.py"
-          ],
-          "passed": true,
-          "output_sha256": "277ca1acb15367042c155939e4eca6a46f33fd7e330d3c31038d80c6b1c8f1b1"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "replay_partial_swap_endpoint_finite.py"
-          ],
-          "passed": true,
-          "output_sha256": "dfbd58fe89cb3cef94b5be27dd5814a72eb84599b9a8e90d290b4383575d4130"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "partial_swap_endpoint_native_interface.py"
-          ],
-          "passed": true,
-          "output_sha256": "43fa21ae681831fa98c36849e73b49a6686b91dda7d3bb35057d9481e6eaaac5"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr12_batched_native_interface.py"
-          ],
-          "passed": true,
-          "output_sha256": "827f6e0f447cabe60c704856991b124599a108ea740ccf99131f111addbfa432"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "nonlinear_native_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "05f08afec0a7b5681f6c6e4b5f3f2e1f9b0eff237e4b07203df921a4baa9532a"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr32_structured_finite_upper.py"
-          ],
-          "passed": true,
-          "output_sha256": "08d9690b534854db494b6aa8f7b63237e6d4b2d598ae95c0f6e6db9a040197dc"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "copied_center_extension_finite_uppers.py"
-          ],
-          "passed": true,
-          "output_sha256": "534eb93e35ad8cf16bb1f76d60224acc30f1ab4a10e0c49cc6d3cf1b354f514f"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "copied_center_reversed_finite_uppers.py"
-          ],
-          "passed": true,
-          "output_sha256": "acf3bd492da303fe861385418d77ea1df0e5bd9cc3ef2cefa6bdbba543132a7c"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "early_odd21_finite_uppers.py"
-          ],
-          "passed": true,
-          "output_sha256": "b5d84db07fd463287f9213957c3d1a05e0674b11a52e38f621990386f7b421fd"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr115_odd21_finite_upper.py"
-          ],
-          "passed": true,
-          "output_sha256": "3d97b55c2b0aaf9832c8fb7456172a7bda281afe162b6a61ac1cb7f66e7297d0"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "audit_optimized_gmp_native_loops.py"
-          ],
-          "passed": true,
-          "output_sha256": "7a93e818aa3750bf14ce80e1a7a1c07d9849171ca10fe2ab21439820fbb6db9a"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "optimized_gmp_opcode_arity.py"
-          ],
-          "passed": true,
-          "output_sha256": "ab14a7f12d7a40c90776ba79f0c5d7b385c55486340dab4333a22c66b93bface"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "optimized_gmp_finite_control_v2.py"
-          ],
-          "passed": true,
-          "output_sha256": "0b7776aee6c2ba996d3908a0d8053bb3a74a340148387503d8d5c6d02ab10d39"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "optimized_gmp_degree8_compact_upper.py"
-          ],
-          "passed": true,
-          "output_sha256": "79a416985b351281223f3134df5e6cb50f216ae23713aa20e2e805ae87e17b0c"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "finite_full_cover_literal_lowers.py"
-          ],
-          "passed": true,
-          "output_sha256": "36f9b3d5e52f5258183b1396fae71c62191aaa492c0c3754f40e83d9101f4930"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr149_finite_controller_upper.py"
-          ],
-          "passed": true,
-          "output_sha256": "47fa59f4dc5328b599a9fd4cb602a39572d31b40b1c50cbcfe6e16e9ed7ef2c9"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "recycled_bit_retained_complex_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "e41f48fc9a144596944ccbc44a6f39873d6a15a0a4cf9a3f6c2d3b2f932a2769"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "review_recycled_bit_retained_complex.py"
-          ],
-          "passed": true,
-          "output_sha256": "d5ab26a4fafe56af43b6505c2ae847d8bd8aaaad88f6c3736de5bedf6524ddbc"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr275_supplied_cap_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "f60bc462ae2c8ff9a281b3ae30d7ff1daddc8591cae78858b4f421ec2c661ede"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "review_pr275_supplied_cap_math.py"
-          ],
-          "passed": true,
-          "output_sha256": "a5443ece77da783f37c919467d74ec43ab9770321ad3e3ea7c5b9ddc39767904"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "review_pr275_source_chronology.py"
-          ],
-          "passed": true,
-          "output_sha256": "557053150c2d8e021e57ce0d241d39963e3552f3a59f8c9991c74e6b353d7a6d"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr514_selected_native_source_bindings.py"
-          ],
-          "passed": true,
-          "output_sha256": "f90a3edf7b693cb36da77edcb866b56ba2a53c2c12e6c9dee91bf70e7582b073"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr514_partial_own_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "9bd9d52e3e2c95725b0252cda2d32d151f3f2731fc4b8b76ae4b74c4f0d9f448"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "pr523_punctured_gaussian_upper.py"
-          ],
-          "passed": true,
-          "output_sha256": "544c90afe3aa3e445040ded3e6c4f716461c5188a8066e39b5b3cf4e45d23cb6"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "legacy_expected_controller_534_inputs.py"
-          ],
-          "passed": true,
-          "output_sha256": "54e4f88aeb7f32f29d09c57a56722b1a03ed3a01a1c1c7a3e6f2309cb99a416b"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "legacy_expected_controller_534_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "d4100b5587a9c73f7d152c2b0d0ad08cb0c1b917f4c102aa37d2342cd64add05"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "paired_selected_complex_source_chronology.py"
-          ],
-          "passed": true,
-          "output_sha256": "924703985a69cf87114029640fc3ec24d73d42f7247783181e8e8fce8506c429"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "paired_selected_complex_gaussian_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "b051137818f788b239acb5f970dc80bbb6a4492a02d82679abeb022b341e7f48"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v22.py"
-          ],
-          "passed": true,
-          "output_sha256": "e9308fdd26d2236a0d28743eb593b825d9943526863c2ddf8c0d2cd16329d5bb"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_dispatch_v22.py",
-            "--execute"
-          ],
-          "passed": true,
-          "output_sha256": "02201a99499e4d2f85644d3100af7c0d64953509e9fb4eb7385198d4ab5491fc"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v22_whole_costs.py"
-          ],
-          "passed": true,
-          "output_sha256": "ddde9e93a093892bfd3fad2af2f384c6f6787a34249612bc8cf487d9b4601bc6"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_v22_whole_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "2f15c35b4d791c65d60855228d4aa9f4e241eb929c09b0211d6977aa6821c11a"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v23.py"
-          ],
-          "passed": true,
-          "output_sha256": "2d49559d0166c2c154b11de9a11b3e2addcf1ecaeeaea6981e8e497362eaaf44"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_dispatch_v23.py",
-            "--execute"
-          ],
-          "passed": true,
-          "output_sha256": "d8e178618702bacae67a49ebefdac8bbeaea12cda72171d95c8af7b401ff90cc"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v23_whole_costs.py"
-          ],
-          "passed": true,
-          "output_sha256": "c925f4da00fe5e4e8e070180ae6d209370756a6b875b1f2b33fcd9494061f78b"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "hyperplane_cold_descriptive_counter_audit.py"
-          ],
-          "passed": true,
-          "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_v23_whole_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "4021db46478123c02fd17976b3fa8a2f75b41766c257813e4dda1b036caa3a45"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v25.py"
-          ],
-          "passed": true,
-          "output_sha256": "f13a607844781b65f376ba5c11c9fb0385db96b15bfc1356fe1c7aeb53727573"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_dispatch_v25.py",
-            "--execute"
-          ],
-          "passed": true,
-          "output_sha256": "38d53d23f5e764fc3b44fac152a8e4ea0be2b35c26882975a688adaf1f30e0fe"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "prepare_selected_provider_v25_whole_costs.py"
-          ],
-          "passed": true,
-          "output_sha256": "c14edd4c2ed9cd7be1484c1a8af4f20e76957e66f21f2b3a998ddeb2bd723b62"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "ceiling_refinement_descriptive_counter_audit.py"
-          ],
-          "passed": true,
-          "output_sha256": "cece72ffba00104f5b0ec8cac98ad586f0c6a02188c7929bd40866e41c1c5b58"
-        },
-        {
-          "test": "offline_source_replay",
-          "job": [
-            "selected_provider_v25_whole_bounds.py"
-          ],
-          "passed": true,
-          "output_sha256": "e635630b97b19d3fd3171c49aab6c3707c1d5193bd48b8b4b8fdf3d4fd7df456"
-        }
-      ],
+      "prior_checkpoint_sha256": null,
+      "jobs": [],
+      "completed_job_receipts": [],
       "scope": "Successful local jobs are reused only after exact reconstruction/reuse verification of the same complete payload map and all frozen certificate bindings. Final unchanged-certificate and chart checks remain mandatory."
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_feasibility_interval_fluctuation.py"
+      ],
+      "passed": true,
+      "output_sha256": "e0bbedba918508b745eec1886986b216bfb5a31af49cc69559e9956cd71bd2cb"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "uniform_critical_p16_batch.py"
+      ],
+      "passed": true,
+      "output_sha256": "c15b4a3394dc986e74642fd900cd1c6f836782c3b3e30bc610bca18a9a16fc5a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_earliest_23410_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "c872b302efb54fc67b81107ecfbee1f521b77afb67ec60c4f5e49e4ebdb38440"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "earliest_four_native_interfaces.py"
+      ],
+      "passed": true,
+      "output_sha256": "3891b4b4b4ee3dd329e56c90dd099f331befc50d4387fbb2dae0e5f9f9712f7e"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "earliest_four_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "99c2777be9a1c8269bb21341a31aa1898d898af0eb6946658bb2ae9dbcf34c85"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "verify_early_star9_finite_offline.py"
+      ],
+      "passed": true,
+      "output_sha256": "4de92c75c6452c11e840c5b4cd9e42c3143902f14ca51664f876c6ab511c54b1"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_retained_complex_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "b1235a817dee0243ff4c75eadf3673f4264ea1d8b4a5f68cfe7047b2d5c62932"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_native_grammar_supplement.py"
+      ],
+      "passed": true,
+      "output_sha256": "d7542a989f6689465c2e29afe88c46a795bc5f1bcc2d805f288135c830cb5f02"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr9_nonlinear_native_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "9f5019b0fd3736c628e4927a8794645bf072df19ed1b78e14667fba7c741d17c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_early_batched12_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "277ca1acb15367042c155939e4eca6a46f33fd7e330d3c31038d80c6b1c8f1b1"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "replay_partial_swap_endpoint_finite.py"
+      ],
+      "passed": true,
+      "output_sha256": "dfbd58fe89cb3cef94b5be27dd5814a72eb84599b9a8e90d290b4383575d4130"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "partial_swap_endpoint_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "43fa21ae681831fa98c36849e73b49a6686b91dda7d3bb35057d9481e6eaaac5"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr12_batched_native_interface.py"
+      ],
+      "passed": true,
+      "output_sha256": "827f6e0f447cabe60c704856991b124599a108ea740ccf99131f111addbfa432"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "nonlinear_native_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "05f08afec0a7b5681f6c6e4b5f3f2e1f9b0eff237e4b07203df921a4baa9532a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr32_structured_finite_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "08d9690b534854db494b6aa8f7b63237e6d4b2d598ae95c0f6e6db9a040197dc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "copied_center_extension_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "534eb93e35ad8cf16bb1f76d60224acc30f1ab4a10e0c49cc6d3cf1b354f514f"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "copied_center_reversed_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "acf3bd492da303fe861385418d77ea1df0e5bd9cc3ef2cefa6bdbba543132a7c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "early_odd21_finite_uppers.py"
+      ],
+      "passed": true,
+      "output_sha256": "b5d84db07fd463287f9213957c3d1a05e0674b11a52e38f621990386f7b421fd"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr115_odd21_finite_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "3d97b55c2b0aaf9832c8fb7456172a7bda281afe162b6a61ac1cb7f66e7297d0"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "audit_optimized_gmp_native_loops.py"
+      ],
+      "passed": true,
+      "output_sha256": "7a93e818aa3750bf14ce80e1a7a1c07d9849171ca10fe2ab21439820fbb6db9a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "optimized_gmp_opcode_arity.py"
+      ],
+      "passed": true,
+      "output_sha256": "ab14a7f12d7a40c90776ba79f0c5d7b385c55486340dab4333a22c66b93bface"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "optimized_gmp_finite_control_v2.py"
+      ],
+      "passed": true,
+      "output_sha256": "0b7776aee6c2ba996d3908a0d8053bb3a74a340148387503d8d5c6d02ab10d39"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "optimized_gmp_degree8_compact_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "79a416985b351281223f3134df5e6cb50f216ae23713aa20e2e805ae87e17b0c"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "finite_full_cover_literal_lowers.py"
+      ],
+      "passed": true,
+      "output_sha256": "36f9b3d5e52f5258183b1396fae71c62191aaa492c0c3754f40e83d9101f4930"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr149_finite_controller_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "47fa59f4dc5328b599a9fd4cb602a39572d31b40b1c50cbcfe6e16e9ed7ef2c9"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "recycled_bit_retained_complex_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "e41f48fc9a144596944ccbc44a6f39873d6a15a0a4cf9a3f6c2d3b2f932a2769"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_recycled_bit_retained_complex.py"
+      ],
+      "passed": true,
+      "output_sha256": "d5ab26a4fafe56af43b6505c2ae847d8bd8aaaad88f6c3736de5bedf6524ddbc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr275_supplied_cap_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "f60bc462ae2c8ff9a281b3ae30d7ff1daddc8591cae78858b4f421ec2c661ede"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_pr275_supplied_cap_math.py"
+      ],
+      "passed": true,
+      "output_sha256": "a5443ece77da783f37c919467d74ec43ab9770321ad3e3ea7c5b9ddc39767904"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "review_pr275_source_chronology.py"
+      ],
+      "passed": true,
+      "output_sha256": "557053150c2d8e021e57ce0d241d39963e3552f3a59f8c9991c74e6b353d7a6d"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr514_selected_native_source_bindings.py"
+      ],
+      "passed": true,
+      "output_sha256": "f90a3edf7b693cb36da77edcb866b56ba2a53c2c12e6c9dee91bf70e7582b073"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr514_partial_own_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "9bd9d52e3e2c95725b0252cda2d32d151f3f2731fc4b8b76ae4b74c4f0d9f448"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "pr523_punctured_gaussian_upper.py"
+      ],
+      "passed": true,
+      "output_sha256": "544c90afe3aa3e445040ded3e6c4f716461c5188a8066e39b5b3cf4e45d23cb6"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "open_legacy_literal_cover_lowers.py"
+      ],
+      "passed": true,
+      "output_sha256": "5756dbe6c75bc993938e1001923b83696a0634876c4102bad246cdbef1a5fa60"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "legacy_kernel92_gaussian_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "d2ed1131f5b653bc5b7aab315f041d88a11511769e5f2ca6096283c860dad9af"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "legacy_kernel92_literal_cover_ranges.py"
+      ],
+      "passed": true,
+      "output_sha256": "cec413b6d1716de56f12968f0468c71cc4f161f2e0b6aa82e9b7a5fa03bea7b7"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "open_legacy_literal_cover_lowers_v2.py"
+      ],
+      "passed": true,
+      "output_sha256": "1b0ccb83fed999811f0cb9df48f0b13234242a4fb76274cc44cb31bc1e6e50b5"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "trace_rank5_literal_cover_lowers_v4.py"
+      ],
+      "passed": true,
+      "output_sha256": "43fb5098a17c00a0c077f7927c8de80c143185d937e11ed8676f4c1b7c3bf853"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "open_multicold_literal_cover_lowers_v3.py"
+      ],
+      "passed": true,
+      "output_sha256": "8c7b8ee1795e0cbd27972907add42f8df31c3b2e7f0d93c073057a376b557ac0"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v22.py"
+      ],
+      "passed": true,
+      "output_sha256": "e9308fdd26d2236a0d28743eb593b825d9943526863c2ddf8c0d2cd16329d5bb"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v22.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "02201a99499e4d2f85644d3100af7c0d64953509e9fb4eb7385198d4ab5491fc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v22_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "ddde9e93a093892bfd3fad2af2f384c6f6787a34249612bc8cf487d9b4601bc6"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v22_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "2f15c35b4d791c65d60855228d4aa9f4e241eb929c09b0211d6977aa6821c11a"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v23.py"
+      ],
+      "passed": true,
+      "output_sha256": "2d49559d0166c2c154b11de9a11b3e2addcf1ecaeeaea6981e8e497362eaaf44"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v23.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "d8e178618702bacae67a49ebefdac8bbeaea12cda72171d95c8af7b401ff90cc"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v23_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "c925f4da00fe5e4e8e070180ae6d209370756a6b875b1f2b33fcd9494061f78b"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "hyperplane_cold_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "e95aa8042705cf6274f5f727474cba4e4f1bf7087b40622afb31db679d7dcd58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v23_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "4021db46478123c02fd17976b3fa8a2f75b41766c257813e4dda1b036caa3a45"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v26.py"
+      ],
+      "passed": true,
+      "output_sha256": "d17caf3743ca4f5a852cf4bd36f6253f659827f5d912015fad25992f6f910835"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v26.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "771c1355e84235ab4be0106615f6cfb05a89eed75bcc5bfbda92e914f6a34c62"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "own608_registry_metadata_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "f532461a76bdabbc4ee6e6242219f523652fdacc166498b9acdb989d76efa5fd"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v26_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "154224fa86b5e98022e04bdc4f62e90da1e2630588a29cc5f53062f727f46180"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "registry_reconciled_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "cece72ffba00104f5b0ec8cac98ad586f0c6a02188c7929bd40866e41c1c5b58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v26_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "368e1270013c37cac7c8163b30eb88c1f8ffe6212c4ebe5a8a0b326cb9f89547"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "verify_v26_cached_profile_key_portability_repair.py"
+      ],
+      "passed": true,
+      "output_sha256": "fe093a2ce9853f7eb155873743df35d5d4c840edf78c37a194224fa5af084ccf"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v25.py"
+      ],
+      "passed": true,
+      "output_sha256": "f13a607844781b65f376ba5c11c9fb0385db96b15bfc1356fe1c7aeb53727573"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v25.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "38d53d23f5e764fc3b44fac152a8e4ea0be2b35c26882975a688adaf1f30e0fe"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v25_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "c14edd4c2ed9cd7be1484c1a8af4f20e76957e66f21f2b3a998ddeb2bd723b62"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "ceiling_refinement_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "cece72ffba00104f5b0ec8cac98ad586f0c6a02188c7929bd40866e41c1c5b58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v25_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "e635630b97b19d3fd3171c49aab6c3707c1d5193bd48b8b4b8fdf3d4fd7df456"
     },
     {
       "test": "closed_native_component_replay_authenticated",
@@ -1866,6 +1800,47 @@
     {
       "test": "offline_source_replay",
       "job": [
+        "prepare_selected_provider_v27.py"
+      ],
+      "passed": true,
+      "output_sha256": "b54eb9302a2fa2714b5678dfe8cf9aa54641d4418fd59384018925c47689e07d"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_dispatch_v27.py",
+        "--execute"
+      ],
+      "passed": true,
+      "output_sha256": "d551a0f1aede7366ad6e39614dcc753d422c6dc45b419601af4f23926116f1a7"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "prepare_selected_provider_v27_whole_costs.py"
+      ],
+      "passed": true,
+      "output_sha256": "9ee921acda787ffbfe869938d29ef9fe2889a33b716c995a200600f95fe4aa59"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "frame_retiming_descriptive_counter_audit.py"
+      ],
+      "passed": true,
+      "output_sha256": "cece72ffba00104f5b0ec8cac98ad586f0c6a02188c7929bd40866e41c1c5b58"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
+        "selected_provider_v27_whole_bounds.py"
+      ],
+      "passed": true,
+      "output_sha256": "f4e692dba234f76491b7ab74a2d192b792efa55ea42baa82ae29a575a5854d8d"
+    },
+    {
+      "test": "offline_source_replay",
+      "job": [
         "recover_u8_selected_archive_bytes.py"
       ],
       "passed": true,
@@ -2170,12 +2145,29 @@
           275,
           514,
           523,
+          533,
           534,
+          536,
+          537,
+          538,
           543,
           545,
+          550,
+          554,
+          561,
+          562,
+          568,
+          569,
+          571,
+          572,
+          574,
+          575,
           576,
+          577,
           578,
+          579,
           582,
+          583,
           584,
           586,
           588,
@@ -2187,6 +2179,7 @@
           603,
           604,
           607,
+          608,
           609,
           610,
           614,
@@ -2209,6 +2202,7 @@
           646,
           654,
           685,
+          777,
           869,
           870,
           890,
@@ -2319,10 +2313,10 @@
           5399,
           5400
         ],
-        "lower": 45,
-        "upper": 190,
-        "two_sided": 32,
-        "uncosted": 392,
+        "lower": 62,
+        "upper": 195,
+        "two_sided": 35,
+        "uncosted": 373,
         "metadata_and_prior_bounds_preserved": true
       }
     },
@@ -2336,15 +2330,16 @@
         "curve_modes": 3,
         "finite_coordinates": true,
         "source_endpoints_preserved": true,
-        "source_cards_rendered": 187
+        "source_cards_rendered": 206
       }
     }
   ],
   "scope": "Declared new conditional envelopes replay offline; separately verified published source jobs may be inherited only at exact transitive byte identity when explicitly recorded. No exact first crossover, full Lean verification or hardware speedup is certified.",
   "published169_inheritance_used": false,
-  "published196_inheritance_used": true,
-  "restoration_mode": "verified_owned_fixture_reuse_with_current_archive_hashes",
+  "published196_inheritance_used": false,
+  "restoration_mode": "fresh_current_archive_reconstruction",
   "job_timeout_seconds": 1200,
   "verified_fixture_retained": true,
-  "closed_native646_authentication_requested": true
+  "closed_native646_authentication_requested": true,
+  "published_baseline_number": 203
 }

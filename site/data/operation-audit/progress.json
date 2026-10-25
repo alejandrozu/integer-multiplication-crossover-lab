@@ -130,7 +130,7 @@
     "script_sha256": "e3a7c6eec408998d6fa6bfe9da3e758b884db175029a7c7eb1dd08cdbf1b1418"
   },
   "actual_GMP_runtime_crossover_established": false,
-  "conditional_reference_circuit_upper_bounds": 380,
+  "conditional_reference_circuit_upper_bounds": 390,
   "actual_first_crossovers_determined": 0,
   "actual_GMP_comparison": "Conditional count bounds for a declared unbounded optimized-source circuit; no hardware crossover claimed.",
   "unbounded_optimized_GMP_comparison": {
@@ -8561,7 +8561,7 @@
     "plot_5413_lower_triple_log_approx": 55.09830248071379
   },
   "latest_literal_feasibility_certificate": "literal-feasibility-refinement-v5.json",
-  "conditional_source_bound_PR_upper_count": 190,
+  "conditional_source_bound_PR_upper_count": 195,
   "literal_family_sufficient_upper_by_PR": {
     "4359": "2^(2^27664107384514198908)",
     "4416": "2^(2^1620670401300092662248603276)",
@@ -8876,7 +8876,7 @@
     "native_coordinate_rank": 72,
     "scope": "Corrected own PR147 finite-controller weaker branch with fully paid stopped-child reserve. Optional record preservation additionally retains original same-XAG realization; no quantified original tail, meaningful lower or actual crossing. The current numerical upper additionally uses the independently checked integral gate refinement."
   },
-  "conditional_source_bound_two_sided_count": 32,
+  "conditional_source_bound_two_sided_count": 35,
   "own_source_cost_overlays": [
     {
       "pr": 2,
@@ -9372,6 +9372,31 @@
       "peer_review_file": "pr523-punctured-gaussian-peer-review.json"
     },
     {
+      "pr": 533,
+      "source_commit": "6ad231bea07da57e94dbe4062bd045941db3287e",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968",
+        "source": "data/operation-audit/pr533-legacy-kernel92-literal-cover-range.json",
+        "scope": "Existence of the same own counted literal early Gaussian schedule throughout its verified domain; no upper for every switching policy.",
+        "exact_individual_crossing": false
+      },
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies for this own source-selected literal complete O(73,2) cover enhancement: keep one actual selected public real ADD at every cover vertex with guarded width>=2 and the stipulated ADD lowering; no pruning, CSE, compression, aggregation or native bypass. A branch without such a native invocation is the identical fixed GMP reference. This added inactive rule is a comparison-family definition, not an original source fact. No other implementation or original BIT composition is covered.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr533-open-legacy-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr533-legacy-kernel92-literal-cover-range-peer-review.json"
+    },
+    {
       "pr": 534,
       "source_commit": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
       "upper": {
@@ -9380,6 +9405,75 @@
       },
       "lower": null,
       "peer_review_file": "pr534-legacy-expected-finite-peer-review.json"
+    },
+    {
+      "pr": 536,
+      "source_commit": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968",
+        "source": "data/operation-audit/pr536-legacy-kernel92-literal-cover-range.json",
+        "scope": "Existence of the same own counted literal early Gaussian schedule throughout its verified domain; no upper for every switching policy.",
+        "exact_individual_crossing": false
+      },
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies of this exact own source-selected literal complete O(73,2) cover enhancement; at least one actual selected public-main unit real ADD per vertex survives at guarded width>=2. No pruning, CSE, aggregation, compression, cover quotienting or native bypass removes it. A branch without such a native invocation returns the identical fixed GMP reference. This inactive rule is an added comparison-family definition, not an original source fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr536-open-legacy-v2-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr536-legacy-kernel92-literal-cover-range-peer-review.json"
+    },
+    {
+      "pr": 537,
+      "source_commit": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies of this exact own source-selected literal complete O(73,2) cover enhancement; at least one actual selected public-main unit real ADD per vertex survives at guarded width>=2. No pruning, CSE, aggregation, compression, cover quotienting or native bypass removes it. A branch without such a native invocation returns the identical fixed GMP reference. This inactive rule is an added comparison-family definition, not an original source fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr537-open-legacy-v2-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr537-open-legacy-v2-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 538,
+      "source_commit": "a1460516226555dd375d9adb82a8e1dcbfe1ca79",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968",
+        "source": "data/operation-audit/pr538-legacy-kernel92-literal-cover-range.json",
+        "scope": "Existence of the same own counted literal early Gaussian schedule throughout its verified domain; no upper for every switching policy.",
+        "exact_individual_crossing": false
+      },
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies for this own source-selected literal complete O(73,2) cover enhancement: keep one actual selected public real ADD at every cover vertex with guarded width>=2 and the stipulated ADD lowering; no pruning, CSE, compression, aggregation or native bypass. A branch without such a native invocation is the identical fixed GMP reference. This added inactive rule is a comparison-family definition, not an original source fact. No other implementation or original BIT composition is covered.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr538-open-legacy-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr538-legacy-kernel92-literal-cover-range-peer-review.json"
     },
     {
       "pr": 543,
@@ -9402,6 +9496,196 @@
       "peer_review_file": "pr545-paired-selected-complex-peer-review.json"
     },
     {
+      "pr": 550,
+      "source_commit": "c7337040822978f1611ce9d9d44e7bb96d887e23",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own source-selected literal complete O(73,2) native body, with a surviving actual distinct public-main unit ADD at each vertex at guarded width>=2. No pruning/CSE/aggregation/cover quotient/compression/native bypass. Any branch without such a body returns identical fixed GMP; this inactive rule is an explicit additional comparison-family definition, not an original source fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr550-trace-rank5-v4-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr550-trace-rank5-v4-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 554,
+      "source_commit": "c1c252e2838918f3de866b228f5a3f21cb9f4b2d",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own source-selected literal complete O(73,2) native body, with a surviving actual distinct public-main unit ADD at each vertex at guarded width>=2. No pruning/CSE/aggregation/cover quotient/compression/native bypass. Any branch without such a body returns identical fixed GMP; this inactive rule is an explicit additional comparison-family definition, not an original source fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr554-trace-rank5-v4-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr554-trace-rank5-v4-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 561,
+      "source_commit": "210dfa4896e77a8fb5e22ca5a970b0fb0ac984a6",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr561-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr561-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 562,
+      "source_commit": "27070553cfbf094148a74170481738f8b747d82e",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr562-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr562-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 568,
+      "source_commit": "71c99ac935a33bb7b59a1b4a7af8725a939b0b90",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr568-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr568-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 569,
+      "source_commit": "1424da81263a5305b35e4cf74ef686c275f03f3f",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies for this own source-selected literal complete O(73,2) cover enhancement: keep one actual selected public real ADD at every cover vertex with guarded width>=2 and the stipulated ADD lowering; no pruning, CSE, compression, aggregation or native bypass. A branch without such a native invocation is the identical fixed GMP reference. This added inactive rule is a comparison-family definition, not an original source fact. No other implementation or original BIT composition is covered.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr569-open-legacy-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr569-open-legacy-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 571,
+      "source_commit": "b7bdc5a8de18fcf418cfb9c7d83a2b1097a5e4a3",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public switching policies for this own source-selected literal complete O(73,2) cover enhancement: keep one actual selected public real ADD at every cover vertex with guarded width>=2 and the stipulated ADD lowering; no pruning, CSE, compression, aggregation or native bypass. A branch without such a native invocation is the identical fixed GMP reference. This added inactive rule is a comparison-family definition, not an original source fact. No other implementation or original BIT composition is covered.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr571-open-legacy-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr571-open-legacy-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 572,
+      "source_commit": "0c3a7d1b0d99dbc6a1cc5ec1675ddd74aa959586",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr572-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr572-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 574,
+      "source_commit": "f3e0af901f88f2fd3a213224ad3b59a16b5f4688",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr574-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr574-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
+      "pr": 575,
+      "source_commit": "eac6f7e378ab622dac50a2fd4b7ef6eab014de44",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr575-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr575-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
       "pr": 576,
       "source_commit": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
       "upper": {
@@ -9413,6 +9697,25 @@
       },
       "lower": null,
       "peer_review_file": "pr576-exact-mixed-finite-peer-review.json"
+    },
+    {
+      "pr": 577,
+      "source_commit": "086bd33ff5c1ce46f3ff23298b8dc756a54414db",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr577-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr577-open-multicold-v3-literal-cover-peer-review.json"
     },
     {
       "pr": 578,
@@ -9428,6 +9731,25 @@
       "peer_review_file": "pr578-exact-mixed-finite-peer-review.json"
     },
     {
+      "pr": 579,
+      "source_commit": "970d38a3862ee35064a827b671d196744ee2a928",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr579-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr579-open-multicold-v3-literal-cover-peer-review.json"
+    },
+    {
       "pr": 582,
       "source_commit": "747ec97129eb85b1e57bf73c934400fe08a8c6cd",
       "upper": {
@@ -9436,6 +9758,25 @@
       },
       "lower": null,
       "peer_review_file": "pr582-early-frame-finite-peer-review.json"
+    },
+    {
+      "pr": 583,
+      "source_commit": "89be768f0157f5a3d8e4db69cf1748768605eac9",
+      "upper": null,
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "All valid public policies of this own selected literal complete O(73,2) source body. A positive actual own PLAN call executes the pinned programme with its surviving public-main unit ADD at every cover vertex, guarded width>=2, without pruning/CSE/aggregation/cover quotienting/compression/native bypass. Any branch without such a body returns identical fixed GMP; that inactive rule is an explicit added comparison-family definition, not a historical fact. Other implementations and original BIT compositions are excluded.",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source": "data/operation-audit/pr583-open-multicold-v3-literal-cover-lower.json"
+      },
+      "peer_review_file": "pr583-open-multicold-v3-literal-cover-peer-review.json"
     },
     {
       "pr": 584,
@@ -9573,6 +9914,16 @@
       },
       "lower": null,
       "peer_review_file": "pr607-cold14-typed-finite-peer-review.json"
+    },
+    {
+      "pr": 608,
+      "source_commit": "702e397432df9233cdd02e43f1f6f32e195eba84",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr608-registry-reconciled-finite-peer-review.json"
     },
     {
       "pr": 609,
@@ -9832,6 +10183,16 @@
       },
       "lower": null,
       "peer_review_file": "pr685-cold72-finite-peer-review.json"
+    },
+    {
+      "pr": 777,
+      "source_commit": "eca5c317d8176401a1f71a5ea1e81384c2eab1e0",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr777-frame-retimed-finite-peer-review.json"
     },
     {
       "pr": 869,
@@ -11439,6 +11800,51 @@
       "peer_review_file": "pr5400-reviewed-selected-literal-peer-review.json"
     }
   ],
-  "conditional_source_bound_lower_count": 45,
-  "uncosted_source_entries": 392
+  "conditional_source_bound_lower_count": 62,
+  "uncosted_source_entries": 373,
+  "admitted_history_coverage": {
+    "total_entries": 595,
+    "baseline_uncosted": 577,
+    "source_discovery_covered_among_original577": 577,
+    "source_artifacts": 6276,
+    "numeric_bound_entries": 222,
+    "completed_source_dispositions_without_numeric": 196,
+    "remaining_cost_obligation_entries": 177,
+    "status_counts": {
+      "closed_conditional_numeric_bound": 222,
+      "source_scope_completed_supporting_or_restricted_result": 156,
+      "own_source_fetched_cost_obligations_open": 177,
+      "supporting_formal_interface_no_independent_algorithm": 2,
+      "supporting_contract_audit_no_independent_algorithm": 2,
+      "supporting_endpoint_audit_no_independent_algorithm": 3,
+      "supporting_verification_tooling_no_independent_algorithm": 2,
+      "supporting_arithmetic_audit_no_independent_algorithm": 1,
+      "scoped_obstruction_no_independent_algorithm": 9,
+      "scoped_decoder_bound_no_independent_algorithm": 1,
+      "supporting_reconstruction_requires_target_cost_binding": 2,
+      "supporting_relaxation_audit_no_independent_algorithm": 1,
+      "supporting_native_audit_no_independent_algorithm": 1,
+      "scoped_information_bound_no_independent_algorithm": 2,
+      "supporting_local_identity_no_independent_algorithm": 1,
+      "supporting_local_classification_no_independent_algorithm": 1,
+      "verification_tooling_no_independent_algorithm": 1,
+      "supporting_native_fault_audit_no_independent_algorithm": 1,
+      "supporting_invoice_audit_no_independent_algorithm": 1,
+      "documentation_maintenance_no_independent_algorithm": 1,
+      "independent_validation_of_explicit_construction_targets": 4,
+      "supporting_proof_audit_no_independent_algorithm": 1,
+      "local_algebraic_result_no_integer_algorithm": 3
+    },
+    "structural_source_family_counts": {
+      "source_bound_construction": 222,
+      "supporting_evidence_or_tooling": 196,
+      "finite_symbolic_bridge": 2,
+      "source_interface_requires_individual_analysis": 138,
+      "selected_provider_controller": 37
+    },
+    "distinct_algorithm_equivalence_cohorts_admitted": 0,
+    "parsed_uniform_rank_candidate_entries": 40,
+    "parse_cap_or_format_obligations": 2
+  },
+  "transport_summary_updated_UTC": "2026-10-25"
 }

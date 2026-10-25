@@ -10,18 +10,18 @@ constructions and their feasibility against a fixed optimized GMP reference.
 This repository contains the public release export and publication infrastructure.
 The working directory and unpublished research are excluded.
 
-## What the frozen 203 checkpoint establishes
+## What the frozen 222 checkpoint establishes
 
 The tracked history contains 595 entries:
 
 | Disposition | Entries |
 | --- | ---: |
-| Conditional numerical bounds | 203 |
+| Conditional numerical bounds | 222 |
 | Individually reviewed scope/component dispositions | 196 |
-| Cost obligations still open | 196 |
+| Cost obligations still open | 177 |
 
-Among the numerical entries, 190 have a sufficient upper endpoint, 45 have a
-meaningful necessary lower endpoint, and 32 have both. These are source-specific
+Among the numerical entries, 195 have a sufficient upper endpoint, 62 have a
+meaningful necessary lower endpoint, and 35 have both. These are source-specific
 conditional bounds in the declared XAG circuit model, compared with the same
 repaired GMP6.3/native-Skylake reference. AND costs 1 and XOR costs a fixed positive
 tariff rho. They are not measured hardware runtimes.
@@ -30,7 +30,9 @@ A sufficient upper proves that a particular counted realization wins above its
 verified domain, under its listed source, compiler, native/operator and analytic
 assumptions. A necessary lower applies to the explicitly declared realization
 family. Neither endpoint locates an exact first crossover. No claim is made
-that all implementations of a PR, or all 196 unfinished entries, have been priced.
+that all implementations of a PR, or all 177 unfinished entries, have been priced.
+
+This update adds 19 entries with numerical bounds while preserving every numerical endpoint from the published 203-entry snapshot. Since the earlier 196-entry snapshot, 26 entries gained bounds and 11 received source-scope dispositions. The smallest sufficient cutoff remains unchanged; these additions do not establish practical feasibility.
 
 The site preserves frozen historical quotations, exact source-head and artifact
 hashes, qualifications, proof files, AI peer receipts and reproducible checks.
@@ -41,7 +43,7 @@ independent human review.
 
 ## Reproduce without a private service
 
-The [frozen public release](https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-2026-10-25-01) supplies the current `reproduction-package.json`, `restore_reproduction.py`, verification receipt and new archive parts. The manifest links all 24 required `operation-audit-objects-*.zip` parts (43–66). Parts 43–62 retain their original public release URLs; parts 63–66 belong to this update. All downloads are public GitHub assets.
+The [frozen public release](https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-2026-10-25-02) supplies the current `reproduction-package.json`, `restore_reproduction.py`, verification receipt and new archive parts. The manifest links all 26 required `operation-audit-objects-*.zip` parts (43–68). Parts 43–66 retain their original public release URLs; parts 67–68 belong to this update. All downloads are public GitHub assets.
 The manifest binds each archive and every restored source/proof path by SHA256;
 the restore tool checks those bindings before writing a new output directory.
 

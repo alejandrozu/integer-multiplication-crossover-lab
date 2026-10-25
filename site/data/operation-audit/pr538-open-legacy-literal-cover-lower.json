@@ -1,0 +1,223 @@
+{
+  "activation_threshold_used_as_lower": false,
+  "actual_first_crossing_known": false,
+  "actual_selected_public_ADDs": {
+    "own_selected": {
+      "backward": {
+        "events": 22074,
+        "first_retained_ADD": {
+          "event": [
+            "scalar",
+            [
+              "add",
+              [
+                "L",
+                119
+              ],
+              [
+                "L",
+                169
+              ],
+              1,
+              1
+            ],
+            0
+          ],
+          "event_index": 3
+        },
+        "program_orientation_sha256": "0b2aefae936945b072be0f351b6069c7c610de63dda15760c4229061678befdb",
+        "public_unit_ADDs": 716
+      },
+      "forward": {
+        "events": 22074,
+        "first_retained_ADD": {
+          "event": [
+            "scalar",
+            [
+              "add",
+              [
+                "L",
+                169
+              ],
+              [
+                "L",
+                119
+              ],
+              -1,
+              1
+            ],
+            0
+          ],
+          "event_index": 3
+        },
+        "program_orientation_sha256": "5676075562590f30ed6111db8c2430cf9c81bbd9f6c983588b083cd454bfa97f",
+        "public_unit_ADDs": 716
+      }
+    }
+  },
+  "all_switching_policies": true,
+  "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+  "coordinate_multiplier_admitted": false,
+  "dependency_hashes": {
+    "open-legacy-literal-cover-inputs.json": "ce7bc8ad143a7db3c25a88db1cb437a0bdbf77ea7cabf1bb789e45cc800b4ca5",
+    "open-legacy-literal-cover-lowers.md": "2030b1c23cb4a3216d046b6de0b2c72d2156d758834325e70b04b1fdd18cc3d6",
+    "open_legacy_literal_cover_lowers.py": "027333874db282ca79eaf5c77ab305d0cf71caa361efbefcbdad513732d30da1",
+    "optimized-gmp-degree8-compact-upper-peer-review.json": "1467d75ddc4d2ca85f220a975c51342486b9c6a525175ffdea1e58ec4088137a",
+    "optimized-gmp-degree8-compact-upper-secondary-peer-review.json": "3b279b8b94f1753b3339eba12fa467d9e695f8b1a37bcf011f34637aecdd8758",
+    "optimized-gmp-degree8-compact-upper.json": "2bad0e4989947e2ef601613c1ad49ba54088c83a4827fd2feacb9f5b69c24956"
+  },
+  "effective_kappa": null,
+  "full_group_floor": {
+    "AND": "V",
+    "XOR": "3V",
+    "coordinate_multiplier": 1,
+    "floor_log2": 2627,
+    "group": "O(73,2)",
+    "order": "88055447129748213099772773138986247571255042612072591674225283308028684371120843328012160052393152527232914014288489818688809961936816670640083409439382433171031243906547760371818869073538416126076656782695792682453482806912643430535775039142420588510522358113551513811666116187287324377802034479488864420323400940604907630584384722731975858354648334415461784223587007406274343722056702999013519051565035640715216081796349147473651840479245483695654253901532871494454113952288727044052531881069342514232455091429630737092047517685965106058714054953066900424219349387329299169409559363267460270558762270126564878116036572334698547529778107107730613024527066352193202984895478814351821651183238272958917221207575904540573250955207812277015748415513176772283677218766323712000000000000000000000"
+  },
+  "full_native_phase_pipeline_replayed_by_this_checker": false,
+  "full_owner_invoice_replayed_by_this_checker": false,
+  "inactive_reference_rule_is_original_source_fact": false,
+  "kappa_record": "382581895225733/250000000000000000",
+  "lower": {
+    "all_PR_implementations": false,
+    "exact_individual_crossing": false,
+    "exact_log2_integer": 94,
+    "input_bits": "2^94",
+    "plot_triple_log": {
+      "exact_log2_integer": 94,
+      "expression": "log2(log2(94))"
+    },
+    "scope": "All valid public switching policies for this own source-selected literal complete O(73,2) cover enhancement: keep one actual selected public real ADD at every cover vertex with guarded width>=2 and the stipulated ADD lowering; no pruning, CSE, compression, aggregation or native bypass. A branch without such a native invocation is the identical fixed GMP reference. This added inactive rule is a comparison-family definition, not an original source fact. No other implementation or original BIT composition is covered.",
+    "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family"
+  },
+  "model": "xag-straightline-v1",
+  "native_coordinate_rank": 73,
+  "necessary_lower_quantifier": "all_valid_literal_family_public_policies",
+  "own_head": "a1460516226555dd375d9adb82a8e1dcbfe1ca79",
+  "pr": 538,
+  "record_tail_quantified": false,
+  "retained_contracts": [
+    "Own selected native/operator absolute-phase and full-column/spectator identities, dirty helpers and owned restoration, and compiler/all-size correctness remain conditional.",
+    "Actual paid literal complete-cover family only; alternate compressed, simplified, bypassed or unrelated BIT implementations are excluded."
+  ],
+  "schema": "own-open-legacy-literal-cover-necessary-lower/1",
+  "source_commit": "a1460516226555dd375d9adb82a8e1dcbfe1ca79",
+  "source_selected_cover_path": [
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/split-centres/GLOBAL-TEMPLATE.json.gz",
+    "legacy-kernel92-source/538/vendor/pr531/code/prepare_supplier_base.py",
+    "legacy-kernel92-source/538/vendor/pr531/code/emit_supplier_hosted.py",
+    "legacy-kernel92-source/538/verify.py"
+  ],
+  "source_sha256": {
+    "legacy-kernel92-native-checkpoints/538/CANONICAL-WORD.json.gz": "727899d1b7c4364871591af4a3f7050c52202a8770258ba6f34ea3e616a6d4b1",
+    "legacy-kernel92-native-checkpoints/538/FULL-WORD.json.gz": "9a8e904afa7d26a4bd71039f1ee3915e040a3baa63a0e466d5dacb2c22aa39a3",
+    "legacy-kernel92-native-checkpoints/538/LOCAL-PROGRAMS.json.gz": "033b21bb545e0d7728af16faaabf6bf81858a508c30b2bdf9f893dd66c109e4f",
+    "legacy-kernel92-source/538/EXPECTED.json": "875b40756d82e4954f70e730c92455add5cbaaf1d2c7ed0197a08c115654188f",
+    "legacy-kernel92-source/538/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "legacy-kernel92-source/538/MANIFEST.json": "72789d6ad0bff4f22cc2c2fc1b5ae2c32092a1fe3205be44c917f81a330731a7",
+    "legacy-kernel92-source/538/NOTICE.md": "3dc2753d8a8bd81415f731570da7452f0d7a01829383c407f93f943b74b51245",
+    "legacy-kernel92-source/538/README.md": "061316da355d817008f83b24f95a5dc84b8e8d1588de700d322c7753137b0d74",
+    "legacy-kernel92-source/538/SOURCES.json": "90f88aacf4244aca9b0a2e19f06469847c41207ad442f86d1be7b59b04e79502",
+    "legacy-kernel92-source/538/code/audit_frame_transfer.py": "021ed9ddba0b942acfab47b812e8d2ebf050d934abb0ad431092469e48bd9d93",
+    "legacy-kernel92-source/538/code/audit_kernel_scalar.py": "ea3d1b061dc719b24cc28aa857424e3d73f3839d4d48da8c19d6b621de7b7bd0",
+    "legacy-kernel92-source/538/code/construct.py": "78080faa046493e69cf80557e51b07cb10e5a245d51a145491e980e8238f27b3",
+    "legacy-kernel92-source/538/code/phases_full.py": "a273c325ffd6793d5b63b79a289a9d2bbc9292e6940fb5a926924f3708627af4",
+    "legacy-kernel92-source/538/code/run.py": "a32781a6319b96759aa8be71b3a797463051ebdedeba289a08ff3d88fa129f35",
+    "legacy-kernel92-source/538/data/OWNERS.json.gz": "f9dd9181e46ecab3bdb93a55218daa43bddf4620908b19b60341f3bef6b3169f",
+    "legacy-kernel92-source/538/data/PLAN.json": "ab2171f95c46d15e340c1e8ec216e03febebe265cd69f9a10e457dcc61797888",
+    "legacy-kernel92-source/538/data/SELECTION.json": "171daf6744166df8d85889a8dda9d01ebae233699488d6e8495b794774d7659e",
+    "legacy-kernel92-source/538/proof/CONSTRUCTION.md": "50d8d4e6c93c4fb2655fdd2f70b123b9ef1c8f05342053ff8ddcdacca0ced310",
+    "legacy-kernel92-source/538/vendor/pr531/EXPECTED.json": "0c4c7df98633ace6dd3f1604462dd509945f6b2d463a0b045442b785906101f1",
+    "legacy-kernel92-source/538/vendor/pr531/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "legacy-kernel92-source/538/vendor/pr531/LOCAL-VALIDATION.json": "e7dcbbe16d3a51288dddcc9022ba852ea6c9d428f8391c72d9b61429168a5561",
+    "legacy-kernel92-source/538/vendor/pr531/MANIFEST.json": "c1997405c5c0ccd9bdb0a30b0eb9a5a2dc7dc7ce7b59c6a83a2152b80f6410d1",
+    "legacy-kernel92-source/538/vendor/pr531/NOTICE.md": "a92f49c5ced455160fbedcc8954e3c9255e3605e88ad12ae5a84f1c4302986f1",
+    "legacy-kernel92-source/538/vendor/pr531/README.md": "305497b4bf15e691bf0ea504f628a397ea40b814053948ca32c84ce5c16e6f5b",
+    "legacy-kernel92-source/538/vendor/pr531/SOURCES.json": "9e8182e6e659f4671fe0873e324b622cc871df7344157093df40476c8687be5f",
+    "legacy-kernel92-source/538/vendor/pr531/code/adapters_local.py": "4e89a5c517cd87ff6a5aa9b7334c0d74821179ae5777d31284da25b9d8abf113",
+    "legacy-kernel92-source/538/vendor/pr531/code/assemble.py": "71b4cbbbc5acdfe06ac67879cf54ea761e29e52143af1cd8410ad672a5cc190b",
+    "legacy-kernel92-source/538/vendor/pr531/code/audit_and_transport.py": "a4fc272266785e1fffd44775c6fa6df783c4352de4c3f1d925cf953a23b84e7f",
+    "legacy-kernel92-source/538/vendor/pr531/code/audit_local.py": "69b12c45d0a961175a824c1967353c7f3b94818a7dd6ac7bbcf56a6d1a5ed8e8",
+    "legacy-kernel92-source/538/vendor/pr531/code/audit_same_partition_frontier.py": "3a2a072304c0c112b4938070515035b49595c86565b454806fdcbbfacf0e1bd2",
+    "legacy-kernel92-source/538/vendor/pr531/code/audit_supplier_hosted.py": "301e9b5c593b6d583065337eb7b3ef207cf039e265f099f89080a4bf25856b43",
+    "legacy-kernel92-source/538/vendor/pr531/code/build_selected.py": "7fa8f981cbf3b01ac960226e6afc6be7bd76d94d9c01796941979deb77bd8875",
+    "legacy-kernel92-source/538/vendor/pr531/code/coalesce_frames.py": "b3e53a17f2519e1afc5bee9b6518252eeb0cb7c56b6e0a1554fdfb54f2908915",
+    "legacy-kernel92-source/538/vendor/pr531/code/construct_504.py": "a0d96ede40b957c38dcb64296d5f4a76c23dfb8c8875e01a80b5f1bdf6e8360e",
+    "legacy-kernel92-source/538/vendor/pr531/code/emit_local.py": "eefc76e0bee003015fe21ac685c2cce658033d5444add404d2d509c7d6f39bac",
+    "legacy-kernel92-source/538/vendor/pr531/code/emit_supplier_hosted.py": "53c0b653b3a5100756d6a9473c90101b8c3ab72723d7047983906ab997bdf920",
+    "legacy-kernel92-source/538/vendor/pr531/code/invoice_final.py": "96b6bed96ca8b60dfc064cd1c7962c45a5cb53c4e52cd90aaea6ccf8d109db97",
+    "legacy-kernel92-source/538/vendor/pr531/code/phases_delta.py": "15723107eff03013b2e797fd9fa3635b1b46c5d1c8112d19fada98c178d4acb6",
+    "legacy-kernel92-source/538/vendor/pr531/code/prepare_supplier_base.py": "f5eae94aca965d0008bc07cff8245ccb7509042ccad457d3bcb7d51c1e9409f0",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/BEFORE-COALESCING.json.gz": "5381265008ec84dc0b3eb2870040215b8470620d234573c15e836dba928d910e",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/COALESCING.json": "f9175c204c084e083ba2f8f4bc66dc71feb75d90b1b57b36dfacbffe89568ae0",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/DISCOVERY-MOMENT.json": "d964db94f4a11840bbea57a47c203a2fe6b51a381072d403d1c1504ac2ba0c7b",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/ENTRANCE-SELECTION-SCREEN.json": "2d5c7db49077ea50f0877f1bd3a5839e5c49a7c75519ebaf549bce0e828b7b99",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/FAST-REPLAY.json": "b95028b7cd5a830bd5d702d5193f0bc93d981426ca6f8916eea7a2bf9dcc53a7",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/LINE-GAUGE-SELECTION.json": "1ecec9dd594653d54448ba9e2fd7b7b830e26bfd159d3b268672f80d8cb06250",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/PR523-FIXED-WORD-CEILING.json": "e971df6465b6a37d2042bd7e2169419578d68d7177c060599b16b3f67292935f",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/PUBLIC-SNAPSHOT.json": "d859621516bb33d1c77ea9413b53930fab42447360b7e6246ba839b95a834abb",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/SAME-PARTITION-FRONTIER.json": "3a02123a292730c1dfea8d6c1c8238115b4b07d19c8b8f119b54c345cd1f46af",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/VERIFICATION-SCOPE.json": "424ea699b0849c3e8dd41d585b271906cbbbbddb4c3464fd20dde30133bae367",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/ASYNC-AUDIT.json": "01ea0015d4e08170ac65f1cdd051be64e07f622eba62eadbf39524317388cba7",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/EXACT-ASSEMBLY.json": "550c6703e73b2dcfaae986706ceb1ac67ecd93dec8b591954abe51c7fa3b7a03",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/GLOBAL-PREFIX.json": "378275e21f7ff147cd7cb0b33c972e75139d949195ddf13dd71b55a77a0f7cfb",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/IDLE-REMAINDER-FRAMES.json": "7923ed6a528f006c353fe7e0639fd230ad140ca835b8e64ceadc7aefb0300ea8",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/OWNERS-AND-PROFILE.json": "e5f11e7b920f9985f085546c641dbac5b8d98231d562e1e030ab2566ccea4bd6",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/audit/PREFIX-AND-INVOICE.json": "ce1bfa49be88ae67a404f606a11db2232b7e1f2610d4418058e39749d86d8478",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/hosted/ACTUAL-SIGMAS.json.gz": "dbced27348bd0ae2fb937a9c1fd03e2181d7268ccdea5d80ebbe6ec3fed314d9",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/hosted/GLOBAL-TEMPLATE.json.gz": "0c5ea47883fafc2aa0b2b9711e7c52a3fc8fdf96c84eb3043834e34ced550473",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/hosted/HOSTED.json": "a0b29d73f2beb821a59f356150a7a9475394643bf9fd8eb5a67a6fc4d46ad2f5",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/hosted/IDLE-REMAINDER-FRAMES.json.gz": "a21fb2c7395b7193d46752f7bd9cc670fbfffc7287f8370bd9f6df0aed6b21eb",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/CANONICAL-WORD.json.gz": "de2be0f4b6d24ace368fd5b834b7a00f9625d0a1824c4ff969f2db5f115db667",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/CLIFFORD-RECIPES.json": "1ac0a7d07a487bf58e59e82a8a656a3a3edca5731af9029ad7874b535407ceb9",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/CLIFFORD-REVIEW.json": "a917bb1abdc864b404dc4a869af3e29aaab2270d392b662cb60b70ebbe5d1975",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/FULL-WORD.json.gz": "bd6b004c4948d5ce80d4f81477338fe30434c2a94586463fdcc531df0dbc9509",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/INDEPENDENT-LOCAL-REPLAY.json": "4149f3d2ec3041965c5d72869748090d9aeed422f36d753550c543bb7808b30b",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/LEMMA-A.json": "f789357f75d562ec9c6f2ef75ced6f4286df2840b493600147b34a36ad0fa460",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/LOCAL-CHECKS.json": "c6807681d40cb46c21a50edc1058044ddc758f2dd3e6b0bab16d7cb28d41732f",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/LOCAL-PROGRAMS.json.gz": "755a5c4ebe958fd9f7b5d4a6e7a506d2c802e31c4d9da46b63db1994c4d8ffa6",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/RESIDUAL-ADAPTERS.json": "83a91fb9cbbe600328cd399f67fdb6ffb698ed3b20d050916d21f3af48b0db20",
+    "legacy-kernel92-source/538/vendor/pr531/evidence/local/SCALAR-FRAME-AUDIT.json": "5bf884b9c5c9e65658974a8f5548f93a583fb48461e8125fa68893aa2b403718",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/ASYNC-6.json": "8a128d7c435f01d9f920c1353711eb0721ce3cbdd0b8799bf69b2d676266dbd3",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/OWNER-PLAN.json": "13d5284e3d95fd4718b538f7d0d1e6f8db3236d4608a755dce6deade440f4185",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/OWNERS.json.gz": "5e27eaf098214e3ab8159e322241aa90a1ae77b0bff78b426512b87f9f60c91f",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/PR493-EXPECTED.json": "3494ba83280cc86548fe0cc6695c50d23e6b6ffca85aeb1a33337c1196e280cb",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/PR523-ANCESTRY.json": "0bfce40d86c849f18e8872ee9e8462b0a69a34ed04e01e942a6614645f686f4b",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/PR523-EXACT-ASSEMBLY.json": "39900354203609a142d159096ccc221ddb21c1f714b2b74b9b1b325beaf15259",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/PR523-PREFIX-AND-INVOICE.json": "bb43ef04791037a37d2596c395e81191991fde6581326118995cf4318ee472a3",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/SELECTION.json": "46cfad0c5a4b8dacc18ed02b5e259f2168e6a93a8dff6ffb447fb0f20917a9bd",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/split-centres/CANONICAL-WORD.json.gz": "addf598581d2a20e13d0c18110607515ad90b06125616a2349e53a47bb5b6c80",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/split-centres/GLOBAL-TEMPLATE.json.gz": "5b913207775fcd87090cfa8776e8bd2bb872426923345fe1a1a4e1ea84bfae2c",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/work/complex-nine-native/DATA-PHASES.json": "c5916ff312678f12aba403847643fbbc29f643acec60bdf836fa56cd3e8251fa",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/work/pr361/code/engines/base_two_moment.py": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/work/pr361/code/engines/moment.py": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/data-base/work/pr361/code/engines/outer.py": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/hamming/PACKET-PROGRAMS.json.gz": "d833ae0390d165d7da0c639a3c7aeb77156c2ddb52447087cb49b9d03b19e9b9",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/hamming/PROTOTYPE.json": "327d2a868043e846381aa58a33053c24425e8cad522ff401b10ec8af1d649a3f",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/phase-baseline/CANONICAL-WORD.json.gz": "addf598581d2a20e13d0c18110607515ad90b06125616a2349e53a47bb5b6c80",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/phase-baseline/CLIFFORD-RECIPES.json": "1f37afd5a9e14b113ba56e0ac8a5200a6b41c695d2cd308dc0fd6ec46a4c73d2",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/phase-baseline/CLIFFORD-REVIEW.json": "468a5df1937e82a0b8e8c1c2540e18480f354154325353c5596c68e7435c89c2",
+    "legacy-kernel92-source/538/vendor/pr531/inputs/phase-baseline/LOCAL-CHECKS.json": "ead7163869ecb9fc276f477c0ec0ed85dc74d7901ce04f91213bcf7ee1f20382",
+    "legacy-kernel92-source/538/vendor/pr531/proof/DELIVERY-AND-COALESCING.md": "7e719f01416cf312272dfabca8b355d327128859c01d686056e0833e83870bc7",
+    "legacy-kernel92-source/538/vendor/pr531/proof/GLOBAL-HOSTING.md": "c47b61bf2e998583e4626eec068439600f3464aab2ddbdb0ac044b0136d7b502",
+    "legacy-kernel92-source/538/vendor/pr531/proof/LOCAL-CONSTRUCTION.md": "3b1fc44f6f8290361cb24526cf91c3174c734f5da3cc9fb94559a96168d39e70",
+    "legacy-kernel92-source/538/vendor/pr531/vendor/clifford/clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "legacy-kernel92-source/538/vendor/pr531/vendor/gk/gk_common.py": "e68d190fd436b2f3955decb590adb53344d5d4ea0a19d62d86df1e4b55ecd198",
+    "legacy-kernel92-source/538/vendor/pr531/vendor/gk/gk_word.py": "f027a9273bcf4e0971258c160b7d3b3c196366b32a529cff6e6a0e666b03826b",
+    "legacy-kernel92-source/538/vendor/pr531/verify_fast.py": "ea4e33a17419009f0872fac42f7ae5a2f2090c4487cc9815721d907d1e9b1cae",
+    "legacy-kernel92-source/538/vendor/pr534/FULL-WORD.json.gz": "e84f39e51342ee29ca5e2f3b6cc00c30db91d6b4cd4451356c0fe9d5bbad1ad0",
+    "legacy-kernel92-source/538/vendor/pr534/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "legacy-kernel92-source/538/vendor/pr534/NOTICE.md": "a92f49c5ced455160fbedcc8954e3c9255e3605e88ad12ae5a84f1c4302986f1",
+    "legacy-kernel92-source/538/vendor/pr534/README.md": "bb4a24c67af72f2935e296e5c966c72d6ffa085be9d4fe7fe980c657af0236fe",
+    "legacy-kernel92-source/538/vendor/pr534/check_frame_lifts.py": "26cbe84ad52928b10ebe29626af9aab3630898fea13854795c06fea7826edf4d",
+    "legacy-kernel92-source/538/verify.py": "c4cab48952305adf2953648e34b217740867e278d72ed8778e62d525aa861dd3",
+    "open-legacy-source-primary-api/538-MANIFEST-api.json": "750642594e06a49c67d461be8254bedd793b7c32af0bb737b86c1d041f0517a7"
+  },
+  "status": "closed_conditional_literal_family_lower",
+  "sufficient_upper_policy": null,
+  "uniform_rank_H": null,
+  "upper": null,
+  "upper_claimed": false,
+  "upper_not_for_all_switching_policies": true
+}
