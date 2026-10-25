@@ -1,0 +1,68 @@
+{
+  "schema": "integer-multiplication-social-chart/1",
+  "snapshot_label": "2026-10-25",
+  "generated_from": "2026-10-25T19:54:48.707167+00:00",
+  "counts": {
+    "numerical_entries": 222,
+    "uppers": 195,
+    "lowers": 62,
+    "two_sided": 35
+  },
+  "open_cost_analyses": 177,
+  "width_px": 3840,
+  "height_px": 2160,
+  "ordinate": "Website FeasibilityHistoryModel.ordinate and lowerOrdinate; Y = log2(log2(log2(n)))",
+  "scope": "Declared source-specific families under retained hypotheses, not exact crossovers or measured runtimes",
+  "x_axes": [
+    "Exact GitHub merge timestamps in UTC",
+    "Reported/source-corrected kappa; linear axis"
+  ],
+  "display": "All 222 bounded entries, no jitter, no fitted or interpolated curve; equal points overlap",
+  "smallest_upper": {
+    "pr": 4411,
+    "Y": 50.70761047906527,
+    "input_bits": "2^(2^1838703753540147)"
+  },
+  "model": "xag-straightline-v1",
+  "comparator": "Optimized GMP 6.3.0 with unbounded public sizes and the declared TABLE3 tail",
+  "inputs": [
+    {
+      "path": "site\\data\\feasibility-history.json",
+      "sha256": "df228f833f04832c680b90fc31608988d7e46e182e5dd9cbc15d81e4b79a30b7"
+    },
+    {
+      "path": "site\\feasibility-history-source-model.js",
+      "sha256": "bb9fe33992317a80ef4ece5255a46daca07643cd0cfcc358d9da08cdda07b259"
+    },
+    {
+      "path": "site\\feasibility-history-early-model.js",
+      "sha256": "0b1556af9bb2918ca8796259014434765f6c96a01297aa95d856b630c9f46fb1"
+    },
+    {
+      "path": "site\\feasibility-history-model.js",
+      "sha256": "a86682f61caf70ddec95a95dd80650c42b3aece59f49ef615cd562e308459cb4"
+    },
+    {
+      "path": "site\\feasibility-refinement-model.js",
+      "sha256": "d498a8d7aa4b95c3dead6ec91b5bc40d501ced5918a9e7bdd26fbaf313900fc5"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "integer-multiplication-crossover-history-222-4k.png",
+      "bytes": 386029,
+      "sha256": "ab8791170ccef480d5f27f6964971a96e24a59575caf55fdd0695d1f5099ba1b"
+    },
+    {
+      "file": "integer-multiplication-crossover-history-222.svg",
+      "bytes": 120797,
+      "sha256": "f6c556ed0404063d8298d25b4a5ce7ba994001128cd9ede700c9335faa0cf9c3"
+    },
+    {
+      "file": "history-222-share-coordinates.json",
+      "bytes": 60089,
+      "sha256": "bffe7a14325bcdfbabbe256c81079d7d7d351c9d8a10a94c3c9ce0b9e7606592"
+    }
+  ],
+  "script_sha256": "21e042a779dfb6ec68554768d6f447e854737546ad1b4d2404d3598b5e2ee972"
+}

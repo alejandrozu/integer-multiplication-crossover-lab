@@ -1,0 +1,2006 @@
+{
+  "model": "xag-straightline-v1",
+  "comparator": "Optimized GMP 6.3.0 with unbounded public sizes and the declared TABLE3 tail",
+  "generated_at": "2026-10-25T19:54:48.707167+00:00",
+  "snapshot_at": "2026-10-23T18:59:50.224946+00:00",
+  "rows": [
+    {
+      "pr": 10,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "1.2299998E-7",
+      "upper": 100.89735285434693,
+      "lower": null,
+      "upper_input_bits": "2^(2^2361183242025118417206705651704)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 24,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "0.00000598615",
+      "upper": 100.89735285434693,
+      "lower": null,
+      "upper_input_bits": "2^(2^2361183242025118417206705651704)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 32,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "0.000012523415",
+      "upper": 81.2534967002789,
+      "lower": null,
+      "upper_input_bits": "2^(2^2882303833574711477927928)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 36,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "0.0000384569",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 37,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "0.00003850771033",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 39,
+      "accepted_at": "2026-10-08T15:18:18Z",
+      "kappa": "0.00003886675852",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 18,
+      "accepted_at": "2026-10-08T15:18:19Z",
+      "kappa": "0.000001884586",
+      "upper": 100.89735285434693,
+      "lower": null,
+      "upper_input_bits": "2^(2^2361183242025118417206705651704)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 43,
+      "accepted_at": "2026-10-08T16:46:58Z",
+      "kappa": "0.0000409953",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 46,
+      "accepted_at": "2026-10-08T16:46:58Z",
+      "kappa": "0.0000410062945",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 48,
+      "accepted_at": "2026-10-08T16:46:58Z",
+      "kappa": "0.0000411862541",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 49,
+      "accepted_at": "2026-10-08T16:46:58Z",
+      "kappa": "0.00004123863984",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 55,
+      "accepted_at": "2026-10-08T18:35:33Z",
+      "kappa": "0.00004541011",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 61,
+      "accepted_at": "2026-10-08T18:35:33Z",
+      "kappa": "0.000051016920170078",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 62,
+      "accepted_at": "2026-10-08T18:35:33Z",
+      "kappa": "0.00004986133",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 50,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004129418696",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 51,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004171211781",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 52,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004136014808",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 53,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004498144",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 54,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004529040672",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 56,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004548671376",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 57,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.00004669442391",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 58,
+      "accepted_at": "2026-10-08T18:35:34Z",
+      "kappa": "0.0000475073569",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 60,
+      "accepted_at": "2026-10-08T18:36:42Z",
+      "kappa": "0.00004764513337",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 149,
+      "accepted_at": "2026-10-09T05:06:00Z",
+      "kappa": "0.0004609169",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 104,
+      "accepted_at": "2026-10-09T05:06:02Z",
+      "kappa": "0.0000779476",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 115,
+      "accepted_at": "2026-10-09T05:06:02Z",
+      "kappa": "0.0000926336",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 130,
+      "accepted_at": "2026-10-09T05:06:02Z",
+      "kappa": "0.0003146011",
+      "upper": 67.9315689299979,
+      "lower": null,
+      "upper_input_bits": "2^(2^281475047079400177656)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 144,
+      "accepted_at": "2026-10-09T05:06:02Z",
+      "kappa": "0.0004609169",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 147,
+      "accepted_at": "2026-10-09T12:57:38Z",
+      "kappa": "0.0004646633",
+      "upper": 54.00000000000024,
+      "lower": 2.680187268675201,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^85"
+    },
+    {
+      "pr": 150,
+      "accepted_at": "2026-10-09T12:57:38Z",
+      "kappa": "0.000471809569",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 151,
+      "accepted_at": "2026-10-09T12:57:38Z",
+      "kappa": "0.000472154791",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 514,
+      "accepted_at": "2026-10-12T01:55:39Z",
+      "kappa": "0.001391523459591829",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 523,
+      "accepted_at": "2026-10-12T01:55:39Z",
+      "kappa": "0.001457945761723368",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 531,
+      "accepted_at": "2026-10-12T01:55:39Z",
+      "kappa": "0.001517760977820331",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 533,
+      "accepted_at": "2026-10-12T13:10:49Z",
+      "kappa": "0.001524207950793244",
+      "upper": 54.00000000000024,
+      "lower": 2.712505287655433,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 534,
+      "accepted_at": "2026-10-12T13:10:49Z",
+      "kappa": "0.001526158885117467",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 535,
+      "accepted_at": "2026-10-12T13:10:49Z",
+      "kappa": "0.001584931111785787",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 536,
+      "accepted_at": "2026-10-12T13:10:49Z",
+      "kappa": "0.001530327580902932",
+      "upper": 54.00000000000024,
+      "lower": 2.712505287655433,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 537,
+      "accepted_at": "2026-10-12T13:10:49Z",
+      "kappa": "0.001538356846647141",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 584,
+      "accepted_at": "2026-10-12T15:45:40Z",
+      "kappa": "0.001602080856660739",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 586,
+      "accepted_at": "2026-10-12T15:45:40Z",
+      "kappa": "0.001602080856660739",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 588,
+      "accepted_at": "2026-10-12T15:45:40Z",
+      "kappa": "0.001602278921983212",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 538,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001530327580902932",
+      "upper": 54.00000000000024,
+      "lower": 2.712505287655433,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 543,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001587467473762886",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 545,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001587467473762886",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 550,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001591045666134196",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 554,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001591209947088545",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 561,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001592518729588709",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 562,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001592584727281865",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 568,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001596133352130093",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 569,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001600067494703216",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 571,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001600682403612293",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 572,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001600535778621932",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 574,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.00160073442456167",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 575,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001600770286423653",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 576,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.00160109005167629",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 577,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001600848528154892",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 578,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001601159251759369",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 579,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001601260169988325",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 582,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001601486955392486",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 583,
+      "accepted_at": "2026-10-12T15:45:41Z",
+      "kappa": "0.001601661522127798",
+      "upper": null,
+      "lower": 2.712505287655433,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 591,
+      "accepted_at": "2026-10-12T17:00:38Z",
+      "kappa": "0.001609915765452068",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 592,
+      "accepted_at": "2026-10-12T17:00:38Z",
+      "kappa": "0.001612719427075359",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 596,
+      "accepted_at": "2026-10-12T17:00:38Z",
+      "kappa": "0.0016127213726553",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 600,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001612722852614221",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 603,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001614217970939911",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 604,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.00162128508944984",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 607,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001620246754858718",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 608,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001613569610580215",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 609,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001622285497914735",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 610,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.00162536523418317",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 614,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001625715867072461",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 615,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001626010676080313",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 616,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001625744726006285",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 617,
+      "accepted_at": "2026-10-12T21:01:43Z",
+      "kappa": "0.001635183729255778",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 601,
+      "accepted_at": "2026-10-12T21:01:44Z",
+      "kappa": "0.001614202339036103",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 618,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001625434703655052",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 619,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001626010676080313339567",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 622,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.00163542231500688",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 623,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001635490664920455",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 624,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001635425470780892",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 625,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001635502740907482",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 626,
+      "accepted_at": "2026-10-12T22:36:46Z",
+      "kappa": "0.001635527380375392",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 741,
+      "accepted_at": "2026-10-13T06:10:35Z",
+      "kappa": "0.001661202643272239",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 799,
+      "accepted_at": "2026-10-13T06:44:20Z",
+      "kappa": "0.001661634653669567",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 777,
+      "accepted_at": "2026-10-13T06:44:21Z",
+      "kappa": "0.001661202643272239",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 870,
+      "accepted_at": "2026-10-13T13:30:39Z",
+      "kappa": "0.001661956299899884",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 890,
+      "accepted_at": "2026-10-13T13:30:39Z",
+      "kappa": "0.001661957774647029",
+      "upper": 54.00000000000024,
+      "lower": 2.712505287655433,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 869,
+      "accepted_at": "2026-10-13T13:30:40Z",
+      "kappa": "0.001661948695165034",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 942,
+      "accepted_at": "2026-10-13T15:06:48Z",
+      "kappa": "0.001661960547713947",
+      "upper": 54.00000000000024,
+      "lower": 2.712505287655433,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": "2^94"
+    },
+    {
+      "pr": 937,
+      "accepted_at": "2026-10-13T15:57:09Z",
+      "kappa": "4.656612873077392578125E-10",
+      "upper": 70.5412090437646,
+      "lower": null,
+      "upper_input_bits": "2^(2^1717986918404294967288)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1009,
+      "accepted_at": "2026-10-13T17:29:47Z",
+      "kappa": "0.001661960547713947",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1018,
+      "accepted_at": "2026-10-13T18:05:23Z",
+      "kappa": "0.00167166528321877",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1019,
+      "accepted_at": "2026-10-13T18:05:23Z",
+      "kappa": "0.001661960547713947858091",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1022,
+      "accepted_at": "2026-10-13T18:05:23Z",
+      "kappa": "0.001672081255752945",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1028,
+      "accepted_at": "2026-10-13T18:05:23Z",
+      "kappa": "0.001672166670891177",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1031,
+      "accepted_at": "2026-10-13T18:05:23Z",
+      "kappa": "0.001672167430672016",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 991,
+      "accepted_at": "2026-10-13T18:05:24Z",
+      "kappa": "0.001661960547713947",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1042,
+      "accepted_at": "2026-10-13T18:05:24Z",
+      "kappa": "0.001672188119205421",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1074,
+      "accepted_at": "2026-10-13T18:47:07Z",
+      "kappa": "0.001672651218919025",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1082,
+      "accepted_at": "2026-10-13T18:47:07Z",
+      "kappa": "0.001672653061493085",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1087,
+      "accepted_at": "2026-10-13T18:47:07Z",
+      "kappa": "0.001672654541898561",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1094,
+      "accepted_at": "2026-10-13T18:47:07Z",
+      "kappa": "0.001672660197076918",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1050,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672241870811633",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1053,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672245809535804",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1055,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672251604432734",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1056,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672267698427438",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1061,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.00167259071506618",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1063,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672285678298543",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1065,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672644568760139",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1068,
+      "accepted_at": "2026-10-13T18:47:08Z",
+      "kappa": "0.001672650458698046",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 3,
+      "accepted_at": "2026-10-13T20:45:33Z",
+      "kappa": "5.9E-10",
+      "upper": 70.5412090437646,
+      "lower": null,
+      "upper_input_bits": "2^(2^1717986918404294967288)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 4,
+      "accepted_at": "2026-10-13T21:02:35Z",
+      "kappa": "5.91E-10",
+      "upper": 70.5412090437646,
+      "lower": null,
+      "upper_input_bits": "2^(2^1717986918404294967288)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 2,
+      "accepted_at": "2026-10-13T21:02:36Z",
+      "kappa": "1.843143693225357537812669761478900909423828125E-18",
+      "upper": 87.82892142331043,
+      "lower": null,
+      "upper_input_bits": "2^(2^274877906944000068719476728)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 9,
+      "accepted_at": "2026-10-13T21:02:36Z",
+      "kappa": "3.8E-9",
+      "upper": 70.5412090437646,
+      "lower": null,
+      "upper_input_bits": "2^(2^1717986918404294967288)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 12,
+      "accepted_at": "2026-10-13T21:02:36Z",
+      "kappa": "1.2649E-7",
+      "upper": 100.89735285434693,
+      "lower": null,
+      "upper_input_bits": "2^(2^2361183242025118417206705651704)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1129,
+      "accepted_at": "2026-10-14T05:18:48Z",
+      "kappa": "0.00167409796990539",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 2169,
+      "accepted_at": "2026-10-15T17:59:16Z",
+      "kappa": "0.001673614205725695",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 654,
+      "accepted_at": "2026-10-16T13:35:38Z",
+      "kappa": "0.001651390457077212",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1175,
+      "accepted_at": "2026-10-16T13:35:38Z",
+      "kappa": "0.001675867534384272",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 636,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001636269762440408",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 638,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001636456810414854",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 640,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001636464689763295",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 642,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001636472098484378",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 644,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001636569158555067",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 646,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001627103256702062",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1148,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001675560947524449",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1150,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001672716806120974",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1154,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001673260706543984",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1176,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001675224519162937",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1183,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001675603180601302",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1192,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001675670695307702",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1297,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001676854978651125",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1319,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001676855229071321",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1424,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001676855229071321886206381217337893",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1464,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1485,
+      "accepted_at": "2026-10-16T13:45:38Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 639,
+      "accepted_at": "2026-10-16T13:45:39Z",
+      "kappa": "0.001636461592777116",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1169,
+      "accepted_at": "2026-10-16T13:45:39Z",
+      "kappa": "0.001675568675201533",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1574,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1629,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1673,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001677160151714381",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1828,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001679754956125544521335670993920702576998311438502580295",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1875,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001679754956125544521335670993920702576998311438502580295",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 2077,
+      "accepted_at": "2026-10-16T13:49:47Z",
+      "kappa": "0.001672664045494084",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1536,
+      "accepted_at": "2026-10-16T14:06:49Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1601,
+      "accepted_at": "2026-10-16T14:06:49Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1644,
+      "accepted_at": "2026-10-16T14:06:49Z",
+      "kappa": "0.001676896669021299307750710997267962671611490016339159611",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1661,
+      "accepted_at": "2026-10-16T14:06:49Z",
+      "kappa": "0.001676896669021299307750710997267962671611490016339159611",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1677,
+      "accepted_at": "2026-10-16T14:06:49Z",
+      "kappa": "0.001676896669021299307750710997267962671611490016339159611",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1104,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001672691689152441",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1172,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.00167280240746725",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1377,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886144",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1444,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206381217337894076302355284707188159",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1458,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1479,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1510,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1513,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1578,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1586,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1640,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1672,
+      "accepted_at": "2026-10-16T14:06:50Z",
+      "kappa": "0.001676938111022438771190100017020725032555691674761792048",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1117,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001672846995880185",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1121,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001672965558289236",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1130,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001673006105142741",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1157,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001674137810105185",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1549,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1582,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001676855229071321886206456772274592619512448739510475263",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1625,
+      "accepted_at": "2026-10-16T14:21:05Z",
+      "kappa": "0.001676896669021299",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 962,
+      "accepted_at": "2026-10-16T14:21:06Z",
+      "kappa": "0.001661960547713947",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1107,
+      "accepted_at": "2026-10-16T14:21:06Z",
+      "kappa": "0.001672765980186726",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1124,
+      "accepted_at": "2026-10-16T14:21:06Z",
+      "kappa": "0.001673005344598825",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1178,
+      "accepted_at": "2026-10-16T14:21:06Z",
+      "kappa": "0.001675161536733127",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 685,
+      "accepted_at": "2026-10-16T14:31:20Z",
+      "kappa": "0.001660339298410333",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1131,
+      "accepted_at": "2026-10-16T14:31:20Z",
+      "kappa": "0.00167409796990539",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 1152,
+      "accepted_at": "2026-10-16T14:31:20Z",
+      "kappa": "0.001674340686401949",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 275,
+      "accepted_at": "2026-10-16T15:51:16Z",
+      "kappa": "0.001661634653669567075843432",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 3308,
+      "accepted_at": "2026-10-17T21:58:38Z",
+      "kappa": "0.001673618490895016",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 3338,
+      "accepted_at": "2026-10-18T04:49:35Z",
+      "kappa": "0.001673619538656538",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 3413,
+      "accepted_at": "2026-10-18T04:49:35Z",
+      "kappa": "0.001674088611862992",
+      "upper": 54.00000000000024,
+      "lower": null,
+      "upper_input_bits": "2^(2^18014398509484968)",
+      "lower_input_bits": null
+    },
+    {
+      "pr": 4359,
+      "accepted_at": "2026-10-21T19:10:56Z",
+      "kappa": "0.0023",
+      "upper": 64.58464917711197,
+      "lower": 38.00869817905528,
+      "upper_input_bits": "2^(2^27664107384514198908)",
+      "lower_input_bits": "2^(2^276540184358-2^69)"
+    },
+    {
+      "pr": 4411,
+      "accepted_at": "2026-10-21T19:27:51Z",
+      "kappa": "0.0023",
+      "upper": 50.70761047906527,
+      "lower": 18.826861882917516,
+      "upper_input_bits": "2^(2^1838703753540147)",
+      "lower_input_bits": "2^(2^464997-2^69)"
+    },
+    {
+      "pr": 4433,
+      "accepted_at": "2026-10-21T19:27:51Z",
+      "kappa": "0.00268647",
+      "upper": null,
+      "lower": 38.34567568648137,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^349299999997-2^69)"
+    },
+    {
+      "pr": 4405,
+      "accepted_at": "2026-10-21T19:27:52Z",
+      "kappa": "0.00230509",
+      "upper": 87.44052979810827,
+      "lower": 60.86467226654784,
+      "upper_input_bits": "2^(2^210001456071982263781151649)",
+      "lower_input_bits": "2^(2^2099384703303215706-2^69)"
+    },
+    {
+      "pr": 4412,
+      "accepted_at": "2026-10-21T19:27:52Z",
+      "kappa": "0.00247755",
+      "upper": 89.49192487926544,
+      "lower": 62.915923114268494,
+      "upper_input_bits": "2^(2^870469900266866528456020978)",
+      "lower_input_bits": "2^(2^8701218254312469998-2^69)"
+    },
+    {
+      "pr": 4413,
+      "accepted_at": "2026-10-21T19:27:52Z",
+      "kappa": "0.0023",
+      "upper": 54.66839201631328,
+      "lower": 27.999274749629837,
+      "upper_input_bits": "2^(2^28630294255861263)",
+      "lower_input_bits": "2^(2^268300546-2^69)"
+    },
+    {
+      "pr": 4414,
+      "accepted_at": "2026-10-21T19:27:52Z",
+      "kappa": "0.00267987",
+      "upper": 95.2567992404236,
+      "lower": 68.68079747542959,
+      "upper_input_bits": "2^(2^47331891718840803238128640984)",
+      "lower_input_bits": "2^(2^473129651134046949998-2^69)"
+    },
+    {
+      "pr": 4416,
+      "accepted_at": "2026-10-21T19:27:52Z",
+      "kappa": "0.00268647",
+      "upper": 90.38864927911943,
+      "lower": 63.812791747569726,
+      "upper_input_bits": "2^(2^1620670401300092662248603276)",
+      "lower_input_bits": "2^(2^16201843136005340318-2^69)"
+    },
+    {
+      "pr": 4440,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.00296",
+      "upper": 79.78583667178734,
+      "lower": 53.20997913775821,
+      "upper_input_bits": "2^(2^1042149602839884152084659)",
+      "lower_input_bits": "2^(2^10418370291022214-2^69)"
+    },
+    {
+      "pr": 4446,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.003001053",
+      "upper": null,
+      "lower": 73.66994151144849,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^15026650096742881962198-2^69)"
+    },
+    {
+      "pr": 4447,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.00300123",
+      "upper": 72.44383799718305,
+      "lower": 45.867980063111865,
+      "upper_input_bits": "2^(2^6423448376621603980270)",
+      "lower_input_bits": "2^(2^64215199999997-2^69)"
+    },
+    {
+      "pr": 4453,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.0030012",
+      "upper": 67.64054567848083,
+      "lower": 41.06467690794086,
+      "upper_input_bits": "2^(2^230055792290424752352)",
+      "lower_input_bits": "2^(2^2299849999997-2^69)"
+    },
+    {
+      "pr": 4470,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.00302015",
+      "upper": 72.44383799718305,
+      "lower": 45.867980063111865,
+      "upper_input_bits": "2^(2^6423448376621591909063)",
+      "lower_input_bits": "2^(2^64215199999997-2^69+2045)"
+    },
+    {
+      "pr": 4479,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.00302015",
+      "upper": 65.59763654982552,
+      "lower": 39.02173270456844,
+      "upper_input_bits": "2^(2^55828536865193733668)",
+      "lower_input_bits": "2^(2^558100005578-2^69+1362)"
+    },
+    {
+      "pr": 4480,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.0030012",
+      "upper": 63.44828928269157,
+      "lower": 36.87222627974467,
+      "upper_input_bits": "2^(2^12584566141734985381)",
+      "lower_input_bits": "2^(2^125789999997-2^69)"
+    },
+    {
+      "pr": 4483,
+      "accepted_at": "2026-10-22T02:49:06Z",
+      "kappa": "0.00302015",
+      "upper": 57.967982582935804,
+      "lower": 31.38277967961076,
+      "upper_input_bits": "2^(2^281904199517911664)",
+      "lower_input_bits": "2^(2^2799999997-2^69+2)"
+    },
+    {
+      "pr": 4441,
+      "accepted_at": "2026-10-22T02:49:07Z",
+      "kappa": "0.00300105",
+      "upper": 73.8080730145497,
+      "lower": 47.23221532664541,
+      "upper_input_bits": "2^(2^16536511587822204010273)",
+      "lower_input_bits": "2^(2^165315499999997-2^69)"
+    },
+    {
+      "pr": 4610,
+      "accepted_at": "2026-10-22T19:19:22Z",
+      "kappa": "0.0030217758",
+      "upper": 81.67416001293208,
+      "lower": 55.09830248071379,
+      "upper_input_bits": "2^(2^3858087157930791192089081)",
+      "lower_input_bits": "2^(2^38569299999999997-2^69+2)"
+    },
+    {
+      "pr": 4535,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.003020165",
+      "upper": 66.43916474892421,
+      "lower": 39.86313713864402,
+      "upper_input_bits": "2^(2^100041795191117961669)",
+      "lower_input_bits": "2^(2^999999999997-2^69+2)"
+    },
+    {
+      "pr": 4563,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.003020165",
+      "upper": 62.74075668904617,
+      "lower": 36.16441937213629,
+      "upper_input_bits": "2^(2^7706367470242875174)",
+      "lower_input_bits": "2^(2^77014944500-2^69+2)"
+    },
+    {
+      "pr": 4564,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.003020165",
+      "upper": 61.34844250611263,
+      "lower": 34.771559752808265,
+      "upper_input_bits": "2^(2^2935765629093878561)",
+      "lower_input_bits": "2^(2^29328002296-2^69+2)"
+    },
+    {
+      "pr": 4565,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.003020165",
+      "upper": 60.03935415227475,
+      "lower": 33.46116844534961,
+      "upper_input_bits": "2^(2^1184804022906385087)",
+      "lower_input_bits": "2^(2^11825387805-2^69+2)"
+    },
+    {
+      "pr": 4568,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.00302016597",
+      "upper": 73.08299535187214,
+      "lower": 46.50699332842303,
+      "upper_input_bits": "2^(2^10004002092191118031676)",
+      "lower_input_bits": "2^(2^99999999999997-2^69+2)"
+    },
+    {
+      "pr": 4570,
+      "accepted_at": "2026-10-22T19:19:23Z",
+      "kappa": "0.00302016597",
+      "upper": 70.30330619876132,
+      "lower": 43.72730265894357,
+      "upper_input_bits": "2^(2^1456813509562998342039)",
+      "lower_input_bits": "2^(2^14562291820119-2^69+2)"
+    },
+    {
+      "pr": 4533,
+      "accepted_at": "2026-10-22T19:19:24Z",
+      "kappa": "0.00302015",
+      "upper": 57.1558512804385,
+      "lower": 30.563654979432144,
+      "upper_input_bits": "2^(2^160555675878901663)",
+      "lower_input_bits": "2^(2^1586999997-2^69+2)"
+    },
+    {
+      "pr": 4672,
+      "accepted_at": "2026-10-22T19:28:26Z",
+      "kappa": "0.00302166",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 4707,
+      "accepted_at": "2026-10-22T19:28:26Z",
+      "kappa": "0.0030201659769",
+      "upper": 76.4049232141499,
+      "lower": 49.82892142331043,
+      "upper_input_bits": "2^(2^100040004792191118061679)",
+      "lower_input_bits": "2^(2^999999999999997-2^69+2)"
+    },
+    {
+      "pr": 4713,
+      "accepted_at": "2026-10-22T19:28:26Z",
+      "kappa": "0.0030217758",
+      "upper": 81.67430424637786,
+      "lower": 55.09830248071379,
+      "upper_input_bits": "2^(2^3858472889500089802740160)",
+      "lower_input_bits": "2^(2^38569299999999997-2^69)"
+    },
+    {
+      "pr": 4630,
+      "accepted_at": "2026-10-22T19:28:27Z",
+      "kappa": "0.0030201655",
+      "upper": 66.43916474890524,
+      "lower": 39.86313713864402,
+      "upper_input_bits": "2^(2^100041795189802580144)",
+      "lower_input_bits": "2^(2^999999999997-2^69)"
+    },
+    {
+      "pr": 4635,
+      "accepted_at": "2026-10-22T19:28:27Z",
+      "kappa": "0.0030217754",
+      "upper": 66.43916474890524,
+      "lower": 39.86313713864402,
+      "upper_input_bits": "2^(2^100041795189802580144)",
+      "lower_input_bits": "2^(2^999999999997-2^69)"
+    },
+    {
+      "pr": 4626,
+      "accepted_at": "2026-10-22T19:28:28Z",
+      "kappa": "0.003021569",
+      "upper": 74.83922525112655,
+      "lower": 48.26336764307036,
+      "upper_input_bits": "2^(2^33794937907887191919064)",
+      "lower_input_bits": "2^(2^337847999999997-2^69)"
+    },
+    {
+      "pr": 5413,
+      "accepted_at": "2026-10-24T02:54:32Z",
+      "kappa": "0.003027288235",
+      "upper": 81.67416001293209,
+      "lower": 55.09830248071379,
+      "upper_input_bits": "2^(2^3858087157930831818791345)",
+      "lower_input_bits": "2^(2^38569299999999997-2^69+1)"
+    },
+    {
+      "pr": 5377,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302235",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 5383,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302666",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 5384,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302235",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 5390,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.0030266747680744",
+      "upper": null,
+      "lower": 71.62240169822219,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^3634889999999999999997-2^69)"
+    },
+    {
+      "pr": 5392,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302725",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 5395,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.003026674765",
+      "upper": null,
+      "lower": 58.5068136847998,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^409548999999999997-2^69)"
+    },
+    {
+      "pr": 5396,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.003026674765",
+      "upper": null,
+      "lower": 58.5068136847998,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^409548999999999997-2^69)"
+    },
+    {
+      "pr": 5398,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302728823",
+      "upper": null,
+      "lower": 55.09830248071379,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^38569299999999997-2^69)"
+    },
+    {
+      "pr": 5399,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302725",
+      "upper": null,
+      "lower": 44.835149635959475,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^31385199999997-2^69)"
+    },
+    {
+      "pr": 5400,
+      "accepted_at": "2026-10-24T02:54:33Z",
+      "kappa": "0.00302728823",
+      "upper": null,
+      "lower": 55.09830248071379,
+      "upper_input_bits": null,
+      "lower_input_bits": "2^(2^38569299999999997-2^69)"
+    }
+  ]
+}

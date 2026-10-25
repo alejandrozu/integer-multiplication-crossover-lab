@@ -10,6 +10,10 @@ constructions and their feasibility against a fixed optimized GMP reference.
 This repository contains the public release export and publication infrastructure.
 The working directory and unpublished research are excluded.
 
+## Help complete and refine the analysis
+
+The audit is incomplete. [Open an issue](https://github.com/alejandrozu/integer-multiplication-crossover-lab/issues/new/choose) to report an error, ask a question or suggest a cost analysis. [Read the contribution guide](CONTRIBUTING.md) to propose an analysis or improve the charts through a pull request. Small corrections and draft analyses are welcome.
+
 ## What the frozen 222 checkpoint establishes
 
 The tracked history contains 595 entries:
@@ -70,6 +74,10 @@ Git history. Every public deployment is tied to its Git commit; release assets
 also carry their own exact manifest hashes.
 
 ## Attribution and licenses
+
+Original code and explanatory material are licensed under [Apache 2.0](LICENSE). [NOTICE](NOTICE) identifies the scope and preserves third-party attribution.
+
+[Download the 3840 × 2160 chart](media/social/integer-multiplication-crossover-history-222-4k.png) or its [vector SVG](media/social/integer-multiplication-crossover-history-222.svg). The [generation script](tools/render_social_chart.py) uses the same published model functions and frozen data.
 
 The audited source constructions originate in
 [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds)
