@@ -33,7 +33,13 @@
     return Math.ceil((Number(x.integer)+Math.log2(Number(x.add_log2_of_integer)))*100)/100;
   }
   function xValue(p,axis){if(axis==='date')return Date.parse(p.accepted_at);if(axis==='kappa')return Number(p.kappa_decimal)>0?Number(p.kappa_decimal):null;throw Error('Unknown chart axis')}
-  function lowerOrdinate(p){if(!p.meaningful_lower_bound)return null;return Math.log2(Number(p.meaningful_lower_bound.plot_triple_log.log2_of_integer))}
+  function lowerOrdinate(p){
+    if(!p.meaningful_lower_bound)return null;
+    const b=p.meaningful_lower_bound,x=b.plot_triple_log;
+    if(Number.isSafeInteger(x.exact_log2_integer)&&x.exact_log2_integer>1&&b.input_bits===`2^${x.exact_log2_integer}`)return Math.log2(Math.log2(x.exact_log2_integer));
+    if(/^\d+$/.test(x.log2_of_integer))return Math.log2(Number(x.log2_of_integer));
+    throw Error('Unrecognized lower plot coordinate');
+  }
   function fraction(p){const [a,b='1']=String(p.kappa_fraction||p.kappa_decimal).split('/');if(a.includes('.')){const [i,f]=a.split('.');return[BigInt(i+f),10n**BigInt(f.length)]}return[BigInt(a),BigInt(b)]}
   function compareKappa(a,b){const [an,ad]=fraction(a),[bn,bd]=fraction(b),d=an*bd-bn*ad;return d<0n?-1:d>0n?1:0}
   function bestUpperSteps(entries,axis){

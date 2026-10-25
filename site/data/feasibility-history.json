@@ -1,6 +1,6 @@
 {
   "schema": "integer-multiplication-feasibility-history/1",
-  "generated_at": "2026-10-24T20:28:16.770913+00:00",
+  "generated_at": "2026-10-25T18:41:20.108351+00:00",
   "snapshot_at": "2026-10-23T18:59:50.224946+00:00",
   "model": "xag-straightline-v1",
   "comparator": "Optimized GMP 6.3.0 with unbounded public sizes and the declared TABLE3 tail",
@@ -3474,6 +3474,124 @@
       }
     },
     {
+      "pr": 147,
+      "source_commit": "29383a28d96b9880edbe59ed930f1da1dd6fdfa6",
+      "certificate_file": "pr147-finite-full-cover-range.json",
+      "certificate_sha256": "faafc1f40e403815f5709c67c0f8401b1abf169974c5181fb6b299d82b396642",
+      "peer_review_file": "pr147-finite-full-cover-range-peer-review.json",
+      "peer_review_sha256": "b49eea3b5b3bc6f12873a2a76549820ce894d02bd02396d9c4bf361c47133a49",
+      "source_peer_review_file": "pr147-finite-full-cover-source-peer-review.json",
+      "source_peer_review_sha256": "aa0cba459675c43765712a2a69f1b15dfc8d6b6372688f44d00b9799579e42f6",
+      "proof_file": "finite-full-cover-literal-lowers.md",
+      "family_kind": "finite-literal-complete-cover-source-core",
+      "effective_kappa": "1/5000",
+      "kappa_record": "4646633/10000000000",
+      "native_coordinate_rank": 72,
+      "uniform_rank_H": null,
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968",
+        "source": "data/operation-audit/pr147-finite-full-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
+        "exact_individual_crossing": false
+      },
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 85,
+        "input_bits": "2^85",
+        "plot_triple_log": {
+          "exact_log2_integer": 85,
+          "expression": "log2(log2(85))"
+        },
+        "scope": "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "source": "data/operation-audit/pr147-finite-full-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own PR147 mandatory complete O(72,2) cover and actual producer binary additions, compared with the independently closed same-reference compact upper."
+      },
+      "lower_certificate_file": "pr147-finite-full-cover-lower.json",
+      "lower_certificate_sha256": "4b615474237d991c223e95127f295a30793c5d8c2147b5a4cc9075ee19fd49ac",
+      "record_tail_quantified": false,
+      "necessary_lower_quantifier": "all_valid_literal_family_public_policies",
+      "sufficient_upper_policy": "the_bound_counted_early_schedule_above_its_verified_domain",
+      "upper_not_for_all_switching_policies": true,
+      "source_base_upper_certificate": "pr147-finite-gate-refined-upper.json",
+      "source_base_upper_certificate_sha256": "ff002893d9f467bf1d310a24c6b8a17a7a68a859d9a271f8766a60985ff1cae2",
+      "baseline_upper_refinement_file": "optimized-gmp-degree8-compact-upper.json",
+      "baseline_upper_refinement_sha256": "2bad0e4989947e2ef601613c1ad49ba54088c83a4827fd2feacb9f5b69c24956",
+      "baseline_refinement_scope": "Necessary lower calculation only; reference algorithm and old sufficient upper certificate are unchanged.",
+      "scope": [
+        "Original scalar/frame identities, completed-core sharing, ambient O(72,2) realization, uniform recursion, analytic precision/recovery and fixed-tape contracts remain original source assumptions. No full native replay or Lean proof is claimed.",
+        "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "Fixed real ADD word width at least two and the stipulated unreduced truncated addition subnetworks; full word and every physical coordinate remain present.",
+        "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "The explicit full-cover early circuit only. Its full source elementary charge is retained without dividing byW; corrected/refined rows fund the same full producer and complete field coefficient volume. Original-record/min-total hybrid branch is not in this lower family."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_command": [
+        "finite_full_cover_literal_lowers.py"
+      ],
+      "reproduction_commands": [
+        [
+          "audit_optimized_gmp_native_loops.py"
+        ],
+        [
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite_full_cover_literal_lowers.py"
+        ]
+      ],
+      "offline_verification_commands": [
+        [
+          "audit_optimized_gmp_native_loops.py"
+        ],
+        [
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite_full_cover_literal_lowers.py"
+        ]
+      ],
+      "offline_verification_scope": "Fresh source/control/opcode/native component checks, same-reference degree8 induction and own literal-family lower/upper compatibility. No expensive original universal native/phase pipeline is asserted by these jobs.",
+      "record_certificate_file": null,
+      "record_P": null,
+      "unquantified_original_record_tail": true,
+      "original_record_hybrid_included": false,
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "conditional_finite_source_upper_only",
+        "conditional_upper": {
+          "input_bits": "2^(2^18014398509484968)",
+          "log2log2_input_bits": "18014398509484968",
+          "plot_triple_log": {
+            "exact_log2log2_integer": "18014398509484968"
+          },
+          "source": "data/operation-audit/pr147-finite-gate-refined-upper.json",
+          "model": "xag-straightline-v1",
+          "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+          "all_positive_xor_tariffs": true,
+          "scope": "Corrected own PR147 finite-controller weaker branch with fully paid stopped-child reserve. Optional record preservation additionally retains original same-XAG realization; no quantified original tail, meaningful lower or actual crossing. The current numerical upper additionally uses the independently checked integral gate refinement."
+        },
+        "meaningful_lower_bound": null
+      }
+    },
+    {
       "pr": 149,
       "source_commit": "6aed8701e3e3102898c66b5dcfc28d3cfc264edc",
       "certificate_file": "pr149-finite-controller-early-upper.json",
@@ -3890,6 +4008,217 @@
         "cost_status": "not_costed",
         "conditional_upper": null,
         "meaningful_lower_bound": null
+      }
+    },
+    {
+      "pr": 534,
+      "source_commit": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+      "certificate_file": "pr534-legacy-expected-finite-early-upper.json",
+      "certificate_sha256": "cb75690b04afff2897a366ba5d48356a608ba5d1b76112f97e3fc0c257dc8712",
+      "peer_review_file": "pr534-legacy-expected-finite-peer-review.json",
+      "peer_review_sha256": "692908312888fb7538f6e740dd72e5f80e8a1f7c7518976f3de4b0b09974bbfb",
+      "source_peer_review_file": "pr534-legacy-expected-finite-source-peer-review.json",
+      "source_peer_review_sha256": "dac6eb6009de611ad3c4a9b363b94d6a09188b4b59ed7c16fbb48c3d8966d2d4",
+      "proof_file": "legacy-expected-controller-534-bounds.md",
+      "family_kind": "own-pre-SPEC-EXPECTED-complete-controller-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr534-legacy-expected-finite-record-upper.json",
+      "record_certificate_sha256": "8176e3c7d66c75031b89e0d8b69a967773ae7a2a46eff40decc27b129ad82537",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "1526158885117467/1000000000000000000",
+      "native_certificate_file": "pr534-legacy-expected-finite-native.json",
+      "native_certificate_sha256": "82f59822ca2707f53999e4ad91169c76d0d3ea30f6078ab717622a6e5e1ec489",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "source_selection_by_literal_own_verifier": true,
+      "complete_generated_template_matches_own_commitment": true,
+      "retained_previous_invoice": null,
+      "original_global_verifier_full_PASS_claimed": false,
+      "original_phase_engines_freshly_replayed": false,
+      "scalar_only_census_not_operator_proof": true,
+      "scope": [
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "Own534 completed native all-input Gaussian/helper endpoints, exact required entry/output frames and absolute phases, normalised residual wrappers and identity on spectators are substantive retained interfaces. Scalar-only specialization and finite frame checks do not prove these operator identities.",
+        "The own all-size compiler, common-label/mutable-basis owned realisation, normalized completed-child height, restored-row/tape and analytic recovery contracts remain conditional exactly as qualified in the own README. The source bounded73-axis binary-affine/even-quadratic-Z4 finite phase grammar is required for the charged universal compiler tariff.",
+        "The fresh original source preparation, complete owner/controller audit with seven mutations and no-prior-invoice full recount were actually executed. No full original global verifier, all-edge phase engine or predecessor cold replay is claimed.",
+        "This is a newly counted direct Gaussian/Fermat XAG realization of the own selected complete complex construction. The original optional BIT supplier is neither consumed nor assigned an invented saving.",
+        "The preserved finite fallback density tax is not adjustable. Full stopped-child reserve u^(1000000*Q), per-coordinate40e direct tensor fallback and all seven actual operation rows are included by the independently closed finite component."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "legacy_expected_controller_534_inputs.py"
+        ],
+        [
+          "legacy_expected_controller_534_bounds.py"
+        ]
+      ],
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
+      "pr": 543,
+      "source_commit": "2065fe4f72a914d907f1046603f5a36f17018535",
+      "certificate_file": "pr543-paired-selected-complex-early-upper.json",
+      "certificate_sha256": "471705f1347176cb6b8950e0757002ac4b63670dface7785493d5638ae299ba0",
+      "peer_review_file": "pr543-paired-selected-complex-peer-review.json",
+      "peer_review_sha256": "b806c58bbae7b0edfb0b4951e214b86ca8890357dfa87f0aea6919e30d1192ae",
+      "source_peer_review_file": "pr543-paired-selected-complex-source-peer-review.json",
+      "source_peer_review_sha256": "b0c69f1cfc134aca982a8e79a15a5777e3e07cd7836c2d76b1cb826aead9baf5",
+      "proof_file": "paired-selected-complex-gaussian-bounds.md",
+      "family_kind": "own-paired-selected-complete-complex-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr543-paired-selected-complex-record-upper.json",
+      "record_certificate_sha256": "39f03281f6d340445ba2bda61ab4f1299ce9e844f062ba82707ac8bdad8f0ed4",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "793733736881443/500000000000000000",
+      "native_certificate_file": "pr543-paired-selected-complex-native.json",
+      "native_certificate_sha256": "8208acf0095789b2fd6cab4e7e30ffc692295f1e51277b910132f4add935a31a",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "selected_complete_complex_supplier_pr": 535,
+      "selected_complete_complex_supplier_head": "8b758a103915179322766bed5798f9b6e7198011",
+      "complete_selected_source_payloads": 52,
+      "source_equivalent_numeric_realization": true,
+      "ordinary_BIT_supplier_consumed": false,
+      "changed_own_BIT_circuit_priced": false,
+      "changed_own_BIT_benefit_attributed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "scope": [
+        "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+        "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+        "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+        "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+        "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+        "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+        "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+        "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "paired_selected_complex_source_chronology.py"
+        ],
+        [
+          "paired_selected_complex_gaussian_bounds.py"
+        ]
+      ],
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
+      "pr": 545,
+      "source_commit": "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+      "certificate_file": "pr545-paired-selected-complex-early-upper.json",
+      "certificate_sha256": "1344ae5dc60a2aae9c9676e1deb3feb9ae8dbfdd3d3c057f500cb73ff45a2834",
+      "peer_review_file": "pr545-paired-selected-complex-peer-review.json",
+      "peer_review_sha256": "392e2f01def8b9c8630b14191e65c647e3f2befa1259f72978b45045e05d3ce5",
+      "source_peer_review_file": "pr545-paired-selected-complex-source-peer-review.json",
+      "source_peer_review_sha256": "61dac7a68d072f23622503fddaf49aa193d629f6a71bd42b8b1a45d4319b5232",
+      "proof_file": "paired-selected-complex-gaussian-bounds.md",
+      "family_kind": "own-paired-selected-complete-complex-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr545-paired-selected-complex-record-upper.json",
+      "record_certificate_sha256": "d2df994dded0b75e04c265073fafcd4ec09339bbc6d4e20a1a7299a35e2fc650",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "793733736881443/500000000000000000",
+      "native_certificate_file": "pr545-paired-selected-complex-native.json",
+      "native_certificate_sha256": "de63c9303814e4608cd1bb31cb86c8d49e70c55d19cab758322144eeacfa6559",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "selected_complete_complex_supplier_pr": 535,
+      "selected_complete_complex_supplier_head": "25f9b7c2310d40c9efdfbe368a40ba6e74d3b0a2",
+      "complete_selected_source_payloads": 52,
+      "source_equivalent_numeric_realization": true,
+      "ordinary_BIT_supplier_consumed": false,
+      "changed_own_BIT_circuit_priced": false,
+      "changed_own_BIT_benefit_attributed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "scope": [
+        "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+        "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+        "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+        "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+        "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+        "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+        "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+        "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "paired_selected_complex_source_chronology.py"
+        ],
+        [
+          "paired_selected_complex_gaussian_bounds.py"
+        ]
+      ],
+      "source_selected_kappa_correction": true,
+      "frozen_metadata_kappa": "1584931111785787/1000000000000000000",
+      "actual_own_selected_kappa": "793733736881443/500000000000000000",
+      "source_kappa_correction_primary_receipt": "paired-complex-selection-source/545/chronology.json",
+      "source_revision_included_at_merge": "2026-10-12T15:45:41Z",
+      "source_revision_merge_commit": "1a580eafa09fb09a6a3c65d5ab1aab492cec3571",
+      "source_revision_committed_at": "2026-10-12T03:31:30Z",
+      "source_selected_kappa_correction_basis": "Own EXPECTED.kappa.pr535 and literal verifier select the complete primary composition. The frozen parser instead quoted own EXPECTED.pr535, explicitly the cited535 baseline. Both values are preserved; actual ownhead is eighth of43 merge parents.",
+      "source_selected_kappa_correction_note": "The quoted historical baseline remains visible. This new cost realization uses the actual own selected composition target at its authenticated merge date, without backdating or adjudicating a new accepted exponent record.",
+      "new_accepted_exponent_record_claimed": false,
+      "source_kappa_correction_primary_sha256": "d50291d6e8aabba64479c3bee1070c560330ce614aafc364b08c8f07e18e9c02",
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null,
+        "kappa_fraction": "1584931111785787/1000000000000000000",
+        "kappa_decimal": "0.001584931111785787",
+        "kappa_status": "positive_source_quote",
+        "kappa_scope": "Author-stated conditional/numerical claim; acceptance must be read from source-bound reviews."
       }
     },
     {
@@ -4337,6 +4666,77 @@
         [
           "early_mixed_finite_controller_upper.py"
         ]
+      ],
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
+      "pr": 591,
+      "source_commit": "f622547244bf6d895a571a7b035142ba66279806",
+      "certificate_file": "pr591-hyperplane-cold-finite-early-upper.json",
+      "certificate_sha256": "f1b60e0900d1a524d1dd84a5f0786cdf20507a520ab758e0fa8adc461891c7b6",
+      "peer_review_file": "pr591-hyperplane-cold-finite-peer-review.json",
+      "peer_review_sha256": "5092819bb55a7bf158178b0cae96c98a696cf106e26025eb58147e251ace7fee",
+      "source_peer_review_file": "pr591-hyperplane-cold-finite-source-peer-review.json",
+      "source_peer_review_sha256": "270354f8208bc7796037c49c8a9b5bc02ef6d770fb76f6e3c10ff3ab5589d116",
+      "proof_file": "selected-provider-v23-whole-upper.md",
+      "family_kind": "own-hyperplane-cold-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr591-hyperplane-cold-finite-record-upper.json",
+      "record_certificate_sha256": "6c46f45f89f3ac9e71d5ffd169ee4c0c2969a8c8d17ed32c5e779b9e93926731",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "402478941363017/250000000000000000",
+      "native_certificate_file": "pr591-hyperplane-cold-finite-native.json",
+      "native_certificate_sha256": "431e9b897d8a61a8d5e70071ca55976aa923a36c1244ff9e3b1dba7f2f97e26d",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "historical_parent_byte_identity_claimed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "source_report_counter_not_declared": false,
+      "source_report_counter_mismatch": false,
+      "descriptive_entering_counter": {
+        "source_declared_entering_helper_roles": 16404,
+        "actual_nonzero_start_frame_roles": 16404,
+        "width_below_9_roles": 16404,
+        "source_declared_meter_style": "actual_initial_nonzero_frames",
+        "source_declared_counter_matches_actual": true,
+        "used_by_new_cost_stock_or_precision": false
+      },
+      "scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known.",
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "prepare_selected_provider_v23.py"
+        ],
+        [
+          "selected_provider_dispatch_v23.py",
+          "--execute"
+        ],
+        [
+          "prepare_selected_provider_v23_whole_costs.py"
+        ],
+        [
+          "hyperplane_cold_descriptive_counter_audit.py"
+        ],
+        [
+          "selected_provider_v23_whole_bounds.py"
+        ]
+      ],
+      "optional_original_native_recovery_command": [
+        "recover_early_hyperplane_cold_native.py"
       ],
       "schema": "own-source-crossover-overlay/1",
       "model": "xag-straightline-v1",
@@ -5259,6 +5659,77 @@
       }
     },
     {
+      "pr": 615,
+      "source_commit": "bf8a49a34350599763cced8592db81dc62c2c1c0",
+      "certificate_file": "pr615-hyperplane-cold-finite-early-upper.json",
+      "certificate_sha256": "9d1f683b90199758a51b0bd5c5e5566752cef91167adbedbd56174ce456c4015",
+      "peer_review_file": "pr615-hyperplane-cold-finite-peer-review.json",
+      "peer_review_sha256": "17a9516ecdef5e948432e176502fad7a7a7815083a85ef471e4be7a68c1b8b3c",
+      "source_peer_review_file": "pr615-hyperplane-cold-finite-source-peer-review.json",
+      "source_peer_review_sha256": "1f0e338628a8c9e4fb7d43f00475384d6d0a96171f88e275ee78a82efe345623",
+      "proof_file": "selected-provider-v23-whole-upper.md",
+      "family_kind": "own-hyperplane-cold-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr615-hyperplane-cold-finite-record-upper.json",
+      "record_certificate_sha256": "27e13bb0300455c04845704a584a8dc0205f3cf8626a43357973ad71cd8ce79a",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "1626010676080313/1000000000000000000",
+      "native_certificate_file": "pr615-hyperplane-cold-finite-native.json",
+      "native_certificate_sha256": "2e132bc658f69566829dbd8a2a7535c1dff7d12ac210cc5f522fefd7c93c4abb",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "historical_parent_byte_identity_claimed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "source_report_counter_not_declared": false,
+      "source_report_counter_mismatch": true,
+      "descriptive_entering_counter": {
+        "source_declared_entering_helper_roles": 16608,
+        "actual_nonzero_start_frame_roles": 15600,
+        "width_below_9_roles": 16608,
+        "source_declared_meter_style": "legacy_width_below_9",
+        "source_declared_counter_matches_actual": false,
+        "used_by_new_cost_stock_or_precision": false
+      },
+      "scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed.",
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "prepare_selected_provider_v23.py"
+        ],
+        [
+          "selected_provider_dispatch_v23.py",
+          "--execute"
+        ],
+        [
+          "prepare_selected_provider_v23_whole_costs.py"
+        ],
+        [
+          "hyperplane_cold_descriptive_counter_audit.py"
+        ],
+        [
+          "selected_provider_v23_whole_bounds.py"
+        ]
+      ],
+      "optional_original_native_recovery_command": [
+        "recover_early_hyperplane_cold_native.py"
+      ],
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
       "pr": 616,
       "source_commit": "5611a9048e4388bb2f330520796379926084c69e",
       "certificate_file": "pr616-cold14-typed-finite-early-upper.json",
@@ -5521,6 +5992,77 @@
       "record_certificate_sha256": "09d0467ba1b84188993c2c6fa1a60752105819106f29794f0a818aaa259c0d07",
       "record_P": "230584301497830147503423480",
       "record_tail_input_bits": "2^(2^230584301497830147503423480)",
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
+      "pr": 619,
+      "source_commit": "9879380b4e9fd922842a35cb3edefd712debfdac",
+      "certificate_file": "pr619-ceiling-refined-finite-early-upper.json",
+      "certificate_sha256": "91f323669fae97c626bc4fd5debb2015b94a3b7e505b8a2ca908c6258000ed43",
+      "peer_review_file": "pr619-ceiling-refined-finite-peer-review.json",
+      "peer_review_sha256": "c17419c7f8b2a9abfd631104ae7212bd1f803bcb8b3741d085fa628ef8b76ef1",
+      "source_peer_review_file": "pr619-ceiling-refined-finite-source-peer-review.json",
+      "source_peer_review_sha256": "24555ec123d3ac3f3e524a0c19a2643a8ec9aa6ad2a12f0d5e70d88f921128b5",
+      "proof_file": "selected-provider-v25-whole-upper.md",
+      "family_kind": "own-fine-grid-selected-core-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr619-ceiling-refined-finite-record-upper.json",
+      "record_certificate_sha256": "3eee12df69c2e2a0507b0eae823219e76b637bc7dab55c64bb1a350f2815e828",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "1626010676080313339567/1000000000000000000000000",
+      "native_certificate_file": "pr619-ceiling-refined-finite-native.json",
+      "native_certificate_sha256": "ed80606dc80a3fc8ee56c616c6de6f5f3756a0179552996fb8b82fd390e3b39d",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "historical_parent_byte_identity_claimed": false,
+      "original_global_verifier_full_PASS_claimed": false,
+      "source_report_counter_not_declared": false,
+      "source_report_counter_mismatch": true,
+      "descriptive_entering_counter": {
+        "source_declared_entering_helper_roles": 16608,
+        "actual_nonzero_start_frame_roles": 15600,
+        "width_below_9_roles": 16608,
+        "source_declared_meter_style": "legacy_width_below_9",
+        "source_declared_counter_matches_actual": false,
+        "used_by_new_cost_stock_or_precision": false
+      },
+      "scope": "PR619 retains the PR615 native core and refines the output grid. Its own complete289-file manifest, literal selector and exact native/physical commitments are checked; a fresh direct Gaussian invoice and both runtime schedules are computed. The prior successful1645-check source615 byte recovery is used only where its actual RAW/canonical/programme/both-orientation objects match direct own619 commitments. No fresh619 native constructor, complete CLI or operator/phase pipeline pass is claimed. The final source reviewer independently checked own289API/blob bindings, the exact eight SPEC changes, uncached scalar/frame data and complete physical costs. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed.",
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "prepare_selected_provider_v25.py"
+        ],
+        [
+          "selected_provider_dispatch_v25.py",
+          "--execute"
+        ],
+        [
+          "prepare_selected_provider_v25_whole_costs.py"
+        ],
+        [
+          "ceiling_refinement_descriptive_counter_audit.py"
+        ],
+        [
+          "selected_provider_v25_whole_bounds.py"
+        ]
+      ],
+      "optional_selected_byte_object_recovery_command": [
+        "recover_early_hyperplane_cold_native.py"
+      ],
       "schema": "own-source-crossover-overlay/1",
       "model": "xag-straightline-v1",
       "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
@@ -6397,6 +6939,87 @@
       }
     },
     {
+      "pr": 646,
+      "source_commit": "cdfe8273bb5054e0a837a3594309c6262e995b1f",
+      "certificate_file": "pr646-signed-root-K480-finite-early-upper.json",
+      "certificate_sha256": "4f7afd466ea093a8a25517d2548765f07e476c5869b80529e210baec6c160722",
+      "peer_review_file": "pr646-signed-root-K480-finite-peer-review.json",
+      "peer_review_sha256": "7b375feda56a6d183d3e3a7a9df62702b745a81b9995d7b324d8fee8e1b698e7",
+      "source_peer_review_file": "pr646-signed-root-K480-finite-source-peer-review.json",
+      "source_peer_review_sha256": "fd25d2adb38d843d8ab55886b0d1dba7118797ce606515144ea523f2c2b65ad0",
+      "proof_file": "selected-provider-v20-whole-upper.md",
+      "family_kind": "own-signed-root-K480-direct-Gaussian",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "record_certificate_file": "pr646-signed-root-K480-finite-record-upper.json",
+      "record_certificate_sha256": "3afae3b9b284824108a444406ab742173cfcd22d3bee33f48a6ccd4f3b352d27",
+      "record_P": "230584301497830147503423480",
+      "effective_kappa": "1/5000",
+      "kappa_record": "813551628351031/500000000000000000",
+      "native_certificate_file": "pr646-signed-root-K480-finite-native.json",
+      "native_certificate_sha256": "1c10e71fe9dcbae45e761b11d58c449797ef4e6ac1baeb4b7648923e6cfa9489",
+      "native_coordinate_rank": 73,
+      "record_tail_quantified": true,
+      "source_equivalent_numeric_realization": true,
+      "original_global_verifier_full_PASS_claimed": false,
+      "source_report_counter_not_declared": false,
+      "source_report_counter_mismatch": false,
+      "descriptive_entering_counter": {
+        "source_declared_entering_helper_roles": 13836,
+        "actual_nonzero_start_frame_roles": 13836,
+        "width_below_9_roles": 15708,
+        "source_declared_meter_style": "actual_initial_nonzero_frames",
+        "source_declared_counter_matches_actual": true,
+        "used_by_new_cost_stock_or_precision": false
+      },
+      "distinct_K480_own_invoice_not_K492_transfer": true,
+      "scope": [
+        "Own full required physical entry/output-frame and absolute-phase operator-valued native endpoint, including normalized monomial wrappers and ascending typed helper paths; not inferred from scalar specialization or profiles",
+        "All unexpanded adapter/phase operations are bounded73-axis binary affine/even-quadratic Z4 monomial grammar, with no hidden arbitrary scalar coefficients or denominators; each full operation is charged the universal64*74^3 source tariff",
+        "Common-label/mutable-source/owned restore and all-size occupied-row interface",
+        "Fixed constructive group/compiler and direct analytic transfer contracts",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "The exact own selected source core is realized by this new direct Gaussian/Fermat circuit; original optional BIT admission is neither assumed nor executed. Full partial initial/final Gaussian-subspace operator identities, tensor identity on spectators, required absolute phases and normalized completed-child interfaces remain explicit; scalar specialization or frame dimensions alone do not prove them. Actual canonical initial/final nesting and rank differences are checked, and actual nonzero initial frames, not width<9, determine entering counts."
+      ],
+      "actual_first_crossover_known": false,
+      "all_implementations_covered": false,
+      "reproduction_commands": [
+        [
+          "recover_signed_root_646_native_bytes.py"
+        ],
+        [
+          "prepare_selected_provider_v20.py"
+        ],
+        [
+          "selected_provider_dispatch_v20.py",
+          "--execute"
+        ],
+        [
+          "prepare_selected_provider_v20_whole_costs.py"
+        ],
+        [
+          "signed_root_K480_descriptive_counter_audit.py"
+        ],
+        [
+          "selected_provider_v20_whole_bounds.py"
+        ]
+      ],
+      "schema": "own-source-crossover-overlay/1",
+      "model": "xag-straightline-v1",
+      "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+      "previous_bound_fields": {
+        "cost_status": "not_costed",
+        "conditional_upper": null,
+        "meaningful_lower_bound": null
+      }
+    },
+    {
       "pr": 654,
       "source_commit": "a935a545760946489bd6f26fe5349a10820316c2",
       "certificate_file": "pr654-gaussian-only-finite-early-upper.json",
@@ -6718,21 +7341,14 @@
     {
       "pr": 890,
       "source_commit": "4b3bd8cbe8e3e81c44161017c9b72c905a8040a8",
-      "certificate_file": "pr890-finite-controller-early-upper.json",
-      "certificate_sha256": "a70856547d0843aef3ff92152df6e4565a932caed488c7bb6c0b244cc4b926aa",
-      "peer_review_file": "pr890-finite-controller-peer-review.json",
-      "peer_review_sha256": "481b72e967968509fa8af8b0cce1428850d82ee44fe431a455818f5ed2fff570",
-      "source_peer_review_file": "pr890-finite-controller-source-peer-review.json",
-      "source_peer_review_sha256": "589224c16be96401bca34fde8e2ed92b2b5414f9c017e046de96fb048b3c7b59",
-      "proof_file": "t21-t37-finite-controller-upper.md",
-      "family_kind": "rank73-source-equivalent-finite-controller",
-      "native_certificate_file": "pr890-finite-controller-native.json",
-      "native_certificate_sha256": "36c630f984c4c0457df817ddcf24a549af1b348e8ba24bfa31c6cd2b8294f337",
-      "program_fingerprint": "a073d8d6a561cf5c8148d8b29ae2800bbe3978377c016b549edd7523eb3cf7e5",
-      "program_fingerprint_scope": "Exact own-head selected 728-column native semantic hashes; fresh regeneration of both orientations and own actual call/owner bindings.",
-      "invoice_fingerprint": "6db5e36b3cb4af810d693827d7fa094ddf0921cb536c43394bcdc95d70e87e30",
-      "invoice_fingerprint_scope": "Fresh own selected-call native, wrapper and nonlocal invoice; the new source-equivalent numeric PLAN explicitly disclaims historical parent metadata byte identity.",
-      "params_fingerprint": "fcfcf73bf82998446ad32b81767830def24c6d56c02b017528163ad98b3c0a89",
+      "certificate_file": "pr890-finite73-literal-cover-range.json",
+      "certificate_sha256": "c9f78b1fd659f492d3d091faa91e2484073dd50b373745fa89b8de4e3cd4bd3c",
+      "peer_review_file": "pr890-finite73-literal-cover-range-peer-review.json",
+      "peer_review_sha256": "7a1234fcb679245f0e47c277916cf8945dcf571a9ff16673210f2d4d71492f26",
+      "source_peer_review_file": "pr890-finite73-literal-cover-source-peer-review.json",
+      "source_peer_review_sha256": "381be1d17392c825fec8870d9dbb7b41d893f2da7cd4106d94edc9bc710b57f2",
+      "proof_file": "finite73-literal-cover-ranges.md",
+      "family_kind": "finite-literal-complete-cover-source-core",
       "effective_kappa": "1/5000",
       "kappa_record": "1661957774647029/1000000000000000000",
       "native_coordinate_rank": 73,
@@ -6740,42 +7356,96 @@
       "upper": {
         "input_bits": "2^(2^18014398509484968)",
         "exact_log2log2_integer": "18014398509484968",
-        "source": "data/operation-audit/pr890-finite-controller-early-upper.json",
-        "scope": "Conditional sufficient eventual upper in the same fixed XAG/unlimited optimized-GMP model for every positive XOR tariff; own source-equivalent numeric realization.",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
         "exact_individual_crossing": false
       },
-      "record_certificate_file": "pr890-finite-controller-record-upper.json",
-      "record_certificate_sha256": "2764d636daafd3abdab847e12ed05ae3dea7eddd117df8522bec61ea79195b65",
-      "record_P": "230584301497830147503423480",
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
+      "lower_certificate_file": "pr890-finite73-literal-cover-lower.json",
+      "lower_certificate_sha256": "656c89d358b7b480ce396ff71bbf1095a2d86aa5f5da558e178b4f9b753ee68d",
       "record_tail_quantified": true,
-      "record_tail_input_bits": "2^(2^230584301497830147503423480)",
-      "lower": null,
+      "necessary_lower_quantifier": "all_valid_literal_family_public_policies",
+      "sufficient_upper_policy": "the_bound_counted_early_schedule_above_its_verified_domain",
+      "upper_not_for_all_switching_policies": true,
+      "source_base_upper_certificate": "pr890-finite-controller-early-upper.json",
+      "source_base_upper_certificate_sha256": "a70856547d0843aef3ff92152df6e4565a932caed488c7bb6c0b244cc4b926aa",
+      "baseline_upper_refinement_file": "optimized-gmp-degree8-compact-upper.json",
+      "baseline_upper_refinement_sha256": "2bad0e4989947e2ef601613c1ad49ba54088c83a4827fd2feacb9f5b69c24956",
+      "baseline_refinement_scope": "Necessary lower calculation only; reference algorithm and old sufficient upper certificate are unchanged.",
       "scope": [
         "The source exact absolute-phase/normalized-wrapper and whole Gaussian endpoint contracts, together with common-label/mutable-source and all-size unequal-child realization interfaces, remain explicit hypotheses of the fixed comparison protocol.",
         "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
         "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
         "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
       ],
       "actual_first_crossover_known": false,
       "all_implementations_covered": false,
       "reproduction_command": [
-        "t21_t37_owner_invoice.py"
+        "finite73_literal_cover_ranges.py"
       ],
       "reproduction_commands": [
         [
-          "t21_t37_owner_invoice.py"
+          "audit_optimized_gmp_native_loops.py"
         ],
         [
-          "t21_t37_finite_controller_upper.py"
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite73_literal_cover_source_floor.py"
+        ],
+        [
+          "finite73_literal_cover_ranges.py"
         ]
       ],
       "offline_verification_commands": [
         [
-          "t21_t37_finite_controller_upper.py"
+          "audit_optimized_gmp_native_loops.py"
+        ],
+        [
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite73_literal_cover_source_floor.py"
+        ],
+        [
+          "finite73_literal_cover_ranges.py"
         ]
       ],
-      "offline_verification_scope": "Replay the complete numerical cost envelope from the source census. The newly completed native/owner/window/invoice source replays are separately peer-bound and available in reproduction_commands; their unchanged source bytes are checked during reconstruction.",
+      "offline_verification_scope": "Fresh source/control/opcode/native component checks, same-reference degree8 induction and own literal-family lower/upper compatibility. No expensive original universal native/phase pipeline is asserted by these jobs.",
+      "record_certificate_file": "pr890-finite-controller-record-upper.json",
+      "record_certificate_sha256": "2764d636daafd3abdab847e12ed05ae3dea7eddd117df8522bec61ea79195b65",
+      "record_P": "230584301497830147503423480",
+      "record_tail_input_bits": "2^(2^230584301497830147503423480)",
+      "record_tail_policy": "the_bound_counted_same_core_record_schedule_above_its_separately_verified_domain",
       "schema": "own-source-crossover-overlay/1",
       "model": "xag-straightline-v1",
       "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
@@ -6884,21 +7554,14 @@
     {
       "pr": 942,
       "source_commit": "1960cfa919a0945d0ca4cb14ea96237000037903",
-      "certificate_file": "pr942-finite-controller-early-upper.json",
-      "certificate_sha256": "6ec3fa19d62da5a064f9ea1c830c804c3a1402a91f3832b1afb4d4b29fe56e9c",
-      "peer_review_file": "pr942-finite-controller-peer-review.json",
-      "peer_review_sha256": "3e2fadeff74de6a2a67161e17816ad932edc0df15d215b163bbbfc69de167b91",
-      "source_peer_review_file": "pr942-finite-controller-source-peer-review.json",
-      "source_peer_review_sha256": "a602733aa1d2f113b025a0d7860f49f12bea9944a31f173a77cbcac5ccd053e1",
-      "proof_file": "t21-t37-finite-controller-upper.md",
-      "family_kind": "rank73-source-equivalent-finite-controller",
-      "native_certificate_file": "pr942-finite-controller-native.json",
-      "native_certificate_sha256": "adb07451f85e369e27610d9035deb2d45fb4013ccea4c00188fad2b480f542cf",
-      "program_fingerprint": "a073d8d6a561cf5c8148d8b29ae2800bbe3978377c016b549edd7523eb3cf7e5",
-      "program_fingerprint_scope": "Exact own-head selected 728-column native semantic hashes; fresh regeneration of both orientations and own actual call/owner bindings.",
-      "invoice_fingerprint": "f2ae63c4417fadde16f5a0fb03403ee9f82cbe214e3b6022f7ed7130cd2f23e3",
-      "invoice_fingerprint_scope": "Fresh own selected-call native, wrapper and nonlocal invoice; the new source-equivalent numeric PLAN explicitly disclaims historical parent metadata byte identity.",
-      "params_fingerprint": "fcfcf73bf82998446ad32b81767830def24c6d56c02b017528163ad98b3c0a89",
+      "certificate_file": "pr942-finite73-literal-cover-range.json",
+      "certificate_sha256": "9bc1ae3623d6ee6759863f266acdad11f5720db3e049b4059a2e6e4138643667",
+      "peer_review_file": "pr942-finite73-literal-cover-range-peer-review.json",
+      "peer_review_sha256": "0a945f050519311b15c92e2711efb4abff295313a8f8913cdd1d167cd42c11f4",
+      "source_peer_review_file": "pr942-finite73-literal-cover-source-peer-review.json",
+      "source_peer_review_sha256": "bee63d06ce2eb6b190455898dff44f828cc2cce7f8fd403c7995ab3f4de915f5",
+      "proof_file": "finite73-literal-cover-ranges.md",
+      "family_kind": "finite-literal-complete-cover-source-core",
       "effective_kappa": "1/5000",
       "kappa_record": "1661960547713947/1000000000000000000",
       "native_coordinate_rank": 73,
@@ -6906,42 +7569,96 @@
       "upper": {
         "input_bits": "2^(2^18014398509484968)",
         "exact_log2log2_integer": "18014398509484968",
-        "source": "data/operation-audit/pr942-finite-controller-early-upper.json",
-        "scope": "Conditional sufficient eventual upper in the same fixed XAG/unlimited optimized-GMP model for every positive XOR tariff; own source-equivalent numeric realization.",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
         "exact_individual_crossing": false
       },
-      "record_certificate_file": "pr942-finite-controller-record-upper.json",
-      "record_certificate_sha256": "799a37c800b6f9e17bf66e7cdc1f3042565806e872b7b505f40e75c344f74113",
-      "record_P": "230584301497830147503423480",
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
+      "lower_certificate_file": "pr942-finite73-literal-cover-lower.json",
+      "lower_certificate_sha256": "b0e34f4e949eca0ee46c74fdd7264669b412601e37ce587cb1773e8ff9d98eaf",
       "record_tail_quantified": true,
-      "record_tail_input_bits": "2^(2^230584301497830147503423480)",
-      "lower": null,
+      "necessary_lower_quantifier": "all_valid_literal_family_public_policies",
+      "sufficient_upper_policy": "the_bound_counted_early_schedule_above_its_verified_domain",
+      "upper_not_for_all_switching_policies": true,
+      "source_base_upper_certificate": "pr942-finite-controller-early-upper.json",
+      "source_base_upper_certificate_sha256": "6ec3fa19d62da5a064f9ea1c830c804c3a1402a91f3832b1afb4d4b29fe56e9c",
+      "baseline_upper_refinement_file": "optimized-gmp-degree8-compact-upper.json",
+      "baseline_upper_refinement_sha256": "2bad0e4989947e2ef601613c1ad49ba54088c83a4827fd2feacb9f5b69c24956",
+      "baseline_refinement_scope": "Necessary lower calculation only; reference algorithm and old sufficient upper certificate are unchanged.",
       "scope": [
         "The source exact absolute-phase/normalized-wrapper and whole Gaussian endpoint contracts, together with common-label/mutable-source and all-size unequal-child realization interfaces, remain explicit hypotheses of the fixed comparison protocol.",
         "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
         "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
         "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
       ],
       "actual_first_crossover_known": false,
       "all_implementations_covered": false,
       "reproduction_command": [
-        "t21_t37_owner_invoice.py"
+        "finite73_literal_cover_ranges.py"
       ],
       "reproduction_commands": [
         [
-          "t21_t37_owner_invoice.py"
+          "audit_optimized_gmp_native_loops.py"
         ],
         [
-          "t21_t37_finite_controller_upper.py"
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite73_literal_cover_source_floor.py"
+        ],
+        [
+          "finite73_literal_cover_ranges.py"
         ]
       ],
       "offline_verification_commands": [
         [
-          "t21_t37_finite_controller_upper.py"
+          "audit_optimized_gmp_native_loops.py"
+        ],
+        [
+          "optimized_gmp_opcode_arity.py"
+        ],
+        [
+          "optimized_gmp_finite_control_v2.py"
+        ],
+        [
+          "optimized_gmp_degree8_compact_upper.py"
+        ],
+        [
+          "finite73_literal_cover_source_floor.py"
+        ],
+        [
+          "finite73_literal_cover_ranges.py"
         ]
       ],
-      "offline_verification_scope": "Replay the complete numerical cost envelope from the source census. The newly completed native/owner/window/invoice source replays are separately peer-bound and available in reproduction_commands; their unchanged source bytes are checked during reconstruction.",
+      "offline_verification_scope": "Fresh source/control/opcode/native component checks, same-reference degree8 induction and own literal-family lower/upper compatibility. No expensive original universal native/phase pipeline is asserted by these jobs.",
+      "record_certificate_file": "pr942-finite-controller-record-upper.json",
+      "record_certificate_sha256": "799a37c800b6f9e17bf66e7cdc1f3042565806e872b7b505f40e75c344f74113",
+      "record_P": "230584301497830147503423480",
+      "record_tail_input_bits": "2^(2^230584301497830147503423480)",
+      "record_tail_policy": "the_bound_counted_same_core_record_schedule_above_its_separately_verified_domain",
       "schema": "own-source-crossover-overlay/1",
       "model": "xag-straightline-v1",
       "baseline_extension_id": "gmp-630-native-skylake-unbounded-exact-constants-v2",
@@ -14473,13 +15190,13 @@
       "baseline_uncosted": 577,
       "source_discovery_covered_among_original577": 577,
       "source_artifacts": 6276,
-      "numeric_bound_entries": 196,
-      "completed_source_dispositions_without_numeric": 185,
-      "remaining_cost_obligation_entries": 214,
+      "numeric_bound_entries": 203,
+      "completed_source_dispositions_without_numeric": 196,
+      "remaining_cost_obligation_entries": 196,
       "status_counts": {
-        "closed_conditional_numeric_bound": 196,
-        "source_scope_completed_supporting_or_restricted_result": 145,
-        "own_source_fetched_cost_obligations_open": 214,
+        "closed_conditional_numeric_bound": 203,
+        "source_scope_completed_supporting_or_restricted_result": 156,
+        "own_source_fetched_cost_obligations_open": 196,
         "supporting_formal_interface_no_independent_algorithm": 2,
         "supporting_contract_audit_no_independent_algorithm": 2,
         "supporting_endpoint_audit_no_independent_algorithm": 3,
@@ -14502,11 +15219,11 @@
         "local_algebraic_result_no_integer_algorithm": 3
       },
       "structural_source_family_counts": {
-        "source_bound_construction": 196,
-        "supporting_evidence_or_tooling": 185,
+        "source_bound_construction": 203,
+        "supporting_evidence_or_tooling": 196,
         "finite_symbolic_bridge": 2,
-        "source_interface_requires_individual_analysis": 169,
-        "selected_provider_controller": 43
+        "source_interface_requires_individual_analysis": 155,
+        "selected_provider_controller": 39
       },
       "distinct_algorithm_equivalence_cohorts_admitted": 0,
       "parsed_uniform_rank_candidate_entries": 40,
@@ -17278,7 +17995,7 @@
     "finite_record_upper_799": "a91748cf43810cd6fcf6dcfcd0d9e04501e7e3b16e587aabf869a380a0f15d6e",
     "finite_plot_adapter_799": "80819b04be92893c85fbb1b25ee55799ba653db6fa22d19f48c756e9718b2cf2",
     "finite_upper_799": "fee3247be5198ae6d826c64d67b3a1c5c098dc7a38166e8dea01ccda6eb611c5",
-    "source_cost_overlays": "d4da35449945ceb3e050bf7d3b4c9ef95f3d3c2317bf24d774f2b68f97fb6dcd",
+    "source_cost_overlays": "5d0a26857922630608f07c5c7952ac4bc1cd81db7b318670a9d8152ee7dfa931",
     "own_source_audit_queue": "ea4a1f871ef0d6bf752cc4d6df58eae11cf5dfd75289be34388b558558054a6f",
     "source_2_certificate": "a9afba7e8dd995cad2dda6772420b1fd431156ec17a4d2b7061e8d6c2ae83a5e",
     "source_2_peer_review": "475bdaf2c68a28ab7bbf013a5899812ad6a76ede098d2f2c09a1981b8baec83d",
@@ -17401,6 +18118,11 @@
     "source_144_peer_review": "b67aaa956386019fc40d9bb61c78a6efa86af7927505e1d2c3b12774c8089bcf",
     "source_144_source_peer_review": "2fb3402d2c7d7e8f23546d0679696406e51c942f76cbb826431bc717c2add454",
     "source_144_proof": "c2dba510a9acbabd19647119ef5481be5695060b29ac7dc6c120313da4c67413",
+    "source_147_certificate": "faafc1f40e403815f5709c67c0f8401b1abf169974c5181fb6b299d82b396642",
+    "source_147_peer_review": "b49eea3b5b3bc6f12873a2a76549820ce894d02bd02396d9c4bf361c47133a49",
+    "source_147_source_peer_review": "aa0cba459675c43765712a2a69f1b15dfc8d6b6372688f44d00b9799579e42f6",
+    "source_147_lower_certificate": "4b615474237d991c223e95127f295a30793c5d8c2147b5a4cc9075ee19fd49ac",
+    "source_147_proof": "cc5521a874db077c12a49c4be74e90d5f1bc1569f477aec7d838fe91176b8505",
     "source_149_certificate": "558bbed9ea5bbbf1ded6b4b139c473f23dd847495e891a8138693cf6f17a7149",
     "source_149_peer_review": "1481a231a4db82ff62995ca69d13b5e527332655176b2de8dcaab5f18377d2c7",
     "source_149_proof": "6d34a056e723e83c74781902b368cef883c2f39578e6dae01ea8a3d9899b7e6a",
@@ -17435,6 +18157,25 @@
     "source_523_record_certificate": "5a3828497995b7aa9f202dec348d381fb339ecf398e73b50528483652d72bc90",
     "source_523_native_certificate": "faf7352ec8c5ddd373ba5019f227a019747d8c09984940c32356220eeec70f9b",
     "source_523_proof": "02ae18aa07e45bf17f239929f20cf02c4f0a6bec5309fc153c013177f93a4dc2",
+    "source_534_certificate": "cb75690b04afff2897a366ba5d48356a608ba5d1b76112f97e3fc0c257dc8712",
+    "source_534_peer_review": "692908312888fb7538f6e740dd72e5f80e8a1f7c7518976f3de4b0b09974bbfb",
+    "source_534_source_peer_review": "dac6eb6009de611ad3c4a9b363b94d6a09188b4b59ed7c16fbb48c3d8966d2d4",
+    "source_534_record_certificate": "8176e3c7d66c75031b89e0d8b69a967773ae7a2a46eff40decc27b129ad82537",
+    "source_534_native_certificate": "82f59822ca2707f53999e4ad91169c76d0d3ea30f6078ab717622a6e5e1ec489",
+    "source_534_proof": "f8fef5820b8bc95fcd87e8133cc4087411f0986e9dbc7c4c1496a103f898b1a8",
+    "source_543_certificate": "471705f1347176cb6b8950e0757002ac4b63670dface7785493d5638ae299ba0",
+    "source_543_peer_review": "b806c58bbae7b0edfb0b4951e214b86ca8890357dfa87f0aea6919e30d1192ae",
+    "source_543_source_peer_review": "b0c69f1cfc134aca982a8e79a15a5777e3e07cd7836c2d76b1cb826aead9baf5",
+    "source_543_record_certificate": "39f03281f6d340445ba2bda61ab4f1299ce9e844f062ba82707ac8bdad8f0ed4",
+    "source_543_native_certificate": "8208acf0095789b2fd6cab4e7e30ffc692295f1e51277b910132f4add935a31a",
+    "source_543_proof": "e98a2a45d9271780b6c4998b29db6ca0cbb56b9271331a1915ee5ca208ae7a22",
+    "source_545_certificate": "1344ae5dc60a2aae9c9676e1deb3feb9ae8dbfdd3d3c057f500cb73ff45a2834",
+    "source_545_peer_review": "392e2f01def8b9c8630b14191e65c647e3f2befa1259f72978b45045e05d3ce5",
+    "source_545_source_peer_review": "61dac7a68d072f23622503fddaf49aa193d629f6a71bd42b8b1a45d4319b5232",
+    "source_545_record_certificate": "d2df994dded0b75e04c265073fafcd4ec09339bbc6d4e20a1a7299a35e2fc650",
+    "source_545_native_certificate": "de63c9303814e4608cd1bb31cb86c8d49e70c55d19cab758322144eeacfa6559",
+    "source_545_proof": "e98a2a45d9271780b6c4998b29db6ca0cbb56b9271331a1915ee5ca208ae7a22",
+    "source_545_selected_kappa_chronology": "d50291d6e8aabba64479c3bee1070c560330ce614aafc364b08c8f07e18e9c02",
     "source_576_certificate": "8fb606ace514e8a7515d4e826c790f486d84663b7b54992e5ca1b59643468945",
     "source_576_peer_review": "70dc65787cf6c3d6b14cd21bfc429be9b1ceef309e12322cfc23e2ddca0ae3e6",
     "source_576_source_peer_review": "91f14803c1dff9656602dc82d5dfd6694c8d50d010d30c329b037f979eb45b84",
@@ -17471,6 +18212,12 @@
     "source_588_record_certificate": "d05eca1ee7d1264a7d4709eb1f58961c7592ab8c0afbeaadb9c5970f6e981134",
     "source_588_native_certificate": "c0bcc42571fb8fa0eeb397c953934428c1eff2e80e190e3ddd7c68be8806d31c",
     "source_588_proof": "a738b2179eb08cc7b752746a9527646aeaeaf5a7175bb3272ac3be78dba72fc7",
+    "source_591_certificate": "f1b60e0900d1a524d1dd84a5f0786cdf20507a520ab758e0fa8adc461891c7b6",
+    "source_591_peer_review": "5092819bb55a7bf158178b0cae96c98a696cf106e26025eb58147e251ace7fee",
+    "source_591_source_peer_review": "270354f8208bc7796037c49c8a9b5bc02ef6d770fb76f6e3c10ff3ab5589d116",
+    "source_591_record_certificate": "6c46f45f89f3ac9e71d5ffd169ee4c0c2969a8c8d17ed32c5e779b9e93926731",
+    "source_591_native_certificate": "431e9b897d8a61a8d5e70071ca55976aa923a36c1244ff9e3b1dba7f2f97e26d",
+    "source_591_proof": "9955838fc9f6265f10b2906217597666b99b34638322840912537a9c9eff5d3d",
     "source_592_certificate": "7e5e801c3d69d156229bb42d508b3555e46f62a31bfd9364dc080e918b6b06a4",
     "source_592_peer_review": "cc8937e306deb743ebc874156a21e411285ca66a19d37dfcffae2bdd63d88652",
     "source_592_source_peer_review": "a46b371f958ed8f6569fd3bc6b8b54f905788e2b81d291eb778e03671177a62d",
@@ -17531,6 +18278,12 @@
     "source_614_record_certificate": "87da464d6809a50fdc24aabf6d6ddf04386122ad2d62bcb92b6b6f573857eae7",
     "source_614_native_certificate": "a6e86148f3fd29f0a1bcf17b7dbd08f7e88346232654ce78d9192e4e99714435",
     "source_614_proof": "26067f6006ad7aceb0ba3244e2bc7dc1a17731a5a5e740191b20a1253ccf8398",
+    "source_615_certificate": "9d1f683b90199758a51b0bd5c5e5566752cef91167adbedbd56174ce456c4015",
+    "source_615_peer_review": "17a9516ecdef5e948432e176502fad7a7a7815083a85ef471e4be7a68c1b8b3c",
+    "source_615_source_peer_review": "1f0e338628a8c9e4fb7d43f00475384d6d0a96171f88e275ee78a82efe345623",
+    "source_615_record_certificate": "27e13bb0300455c04845704a584a8dc0205f3cf8626a43357973ad71cd8ce79a",
+    "source_615_native_certificate": "2e132bc658f69566829dbd8a2a7535c1dff7d12ac210cc5f522fefd7c93c4abb",
+    "source_615_proof": "9955838fc9f6265f10b2906217597666b99b34638322840912537a9c9eff5d3d",
     "source_616_certificate": "878117ee3033602bc4c3bfaec6f997ec3dca17702eb19820223874d5b9e69cac",
     "source_616_peer_review": "525b5b15203987980611db838e8e1e8fe0d98da22bd60608fcda446fd03e10d0",
     "source_616_source_peer_review": "2968e17c80efd8043b6e3f441c0e5e113b25e8b95e61a10bfc697821eb0c0697",
@@ -17549,6 +18302,12 @@
     "source_618_record_certificate": "09d0467ba1b84188993c2c6fa1a60752105819106f29794f0a818aaa259c0d07",
     "source_618_native_certificate": "2db8b4baf65eb6540cfcbcded30d5bfd02af64ae2232110d70947233053ee584",
     "source_618_proof": "26067f6006ad7aceb0ba3244e2bc7dc1a17731a5a5e740191b20a1253ccf8398",
+    "source_619_certificate": "91f323669fae97c626bc4fd5debb2015b94a3b7e505b8a2ca908c6258000ed43",
+    "source_619_peer_review": "c17419c7f8b2a9abfd631104ae7212bd1f803bcb8b3741d085fa628ef8b76ef1",
+    "source_619_source_peer_review": "24555ec123d3ac3f3e524a0c19a2643a8ec9aa6ad2a12f0d5e70d88f921128b5",
+    "source_619_record_certificate": "3eee12df69c2e2a0507b0eae823219e76b637bc7dab55c64bb1a350f2815e828",
+    "source_619_native_certificate": "ed80606dc80a3fc8ee56c616c6de6f5f3756a0179552996fb8b82fd390e3b39d",
+    "source_619_proof": "82953c12fbafada7f3925f21f3a966f20be4b20e875c67dd3f3487a4a53e50a0",
     "source_622_certificate": "9db7e21e2f9c64a9fbd3f3198c9eaac47893120640e248bc93cd8a514d2a936c",
     "source_622_peer_review": "00715eb1bcd9009ddd29d4feb43c7717606f45caf41f4176c66638a3fc07fe0a",
     "source_622_source_peer_review": "0304ecf097eb2c6df21cbd8dfc88e16b96e429951e52ad67331038c9266fa752",
@@ -17615,6 +18374,12 @@
     "source_644_record_certificate": "0030141afb5f7f97581ff05cac5dea0b0ddf5529c3299ee75843dea8ab9778e9",
     "source_644_native_certificate": "9ac714e5d0426682a3b2ca2a20c45168907c49c219a403bd3b3eb66b2a414722",
     "source_644_proof": "2460d98b5b4df29f182c6bfadf222e86ac3b14a8de0ea78aefc4abbb7d5013c2",
+    "source_646_certificate": "4f7afd466ea093a8a25517d2548765f07e476c5869b80529e210baec6c160722",
+    "source_646_peer_review": "7b375feda56a6d183d3e3a7a9df62702b745a81b9995d7b324d8fee8e1b698e7",
+    "source_646_source_peer_review": "fd25d2adb38d843d8ab55886b0d1dba7118797ce606515144ea523f2c2b65ad0",
+    "source_646_record_certificate": "3afae3b9b284824108a444406ab742173cfcd22d3bee33f48a6ccd4f3b352d27",
+    "source_646_native_certificate": "1c10e71fe9dcbae45e761b11d58c449797ef4e6ac1baeb4b7648923e6cfa9489",
+    "source_646_proof": "130ed92547eb2ab0da45defa3292fd139399af7a89891ca7929668ee0eeb06a0",
     "source_654_certificate": "02d1ad29f488ac027a453af8c2d3e98db4a3546342f8764f52d01bbd9c3ec573",
     "source_654_peer_review": "67d77759e755849d3a198cdf10bd41fd1e7c15b5ab4c2b081b416d2b5d0f450e",
     "source_654_source_peer_review": "dc8f40ad13d11475b6099413ee509111183a08c91cd2c75da1251296a223380c",
@@ -17639,12 +18404,12 @@
     "source_870_record_certificate": "4d467e32b42a9d4c544be8b1fecd00b9734a48be1e302f2958763e61e7f1de2b",
     "source_870_native_certificate": "fb94387197e6ab6883f7f923d77a48baacf6002c4ad4cc6cc7340a5190675574",
     "source_870_proof": "76cf5c7b662126affdffa484a9ff046abeddf1eceeee27f5598bf20ec3c77f98",
-    "source_890_certificate": "a70856547d0843aef3ff92152df6e4565a932caed488c7bb6c0b244cc4b926aa",
-    "source_890_peer_review": "481b72e967968509fa8af8b0cce1428850d82ee44fe431a455818f5ed2fff570",
-    "source_890_source_peer_review": "589224c16be96401bca34fde8e2ed92b2b5414f9c017e046de96fb048b3c7b59",
+    "source_890_certificate": "c9f78b1fd659f492d3d091faa91e2484073dd50b373745fa89b8de4e3cd4bd3c",
+    "source_890_peer_review": "7a1234fcb679245f0e47c277916cf8945dcf571a9ff16673210f2d4d71492f26",
+    "source_890_source_peer_review": "381be1d17392c825fec8870d9dbb7b41d893f2da7cd4106d94edc9bc710b57f2",
     "source_890_record_certificate": "2764d636daafd3abdab847e12ed05ae3dea7eddd117df8522bec61ea79195b65",
-    "source_890_native_certificate": "36c630f984c4c0457df817ddcf24a549af1b348e8ba24bfa31c6cd2b8294f337",
-    "source_890_proof": "dcbdbd61eab150dbaf97777e8aeb345ad10ae9f08ee861422d7cdd08e602ae65",
+    "source_890_lower_certificate": "656c89d358b7b480ce396ff71bbf1095a2d86aa5f5da558e178b4f9b753ee68d",
+    "source_890_proof": "04e72db4d8d60643736aea2da85ccaa3b34fba7d95f5e90f47d90cbee45e7ab8",
     "source_937_certificate": "f6f2c95d24a4faea421140ea3f43222ddc740f06f9344d53109f3c3e2111e14e",
     "source_937_peer_review": "ee16675ec35d06cc7307a29d178651abf8461d541fd528152a88c65607f5a60e",
     "source_937_source_peer_review": "de810a5c6964a4310439ab68b06c28ee839b14b23e2ddba9bf05c02c4d0c9f87",
@@ -17654,12 +18419,12 @@
     "source_937_correction_own-pr-api": "8b2353782270ece79fa4fb7076eb3cdfb2b81d74b886092b231622e97e60eddc",
     "source_937_correction_own-merge-api": "4bc51b0b373a3c291a9d2893607f9c1658ea6ed535ef0304421818c0391fafc3",
     "source_937_selected_kappa_chronology": "d64d45a96dce3fec3e1b96238a42f28b977203db223cfc05cdd27b19abf4efcc",
-    "source_942_certificate": "6ec3fa19d62da5a064f9ea1c830c804c3a1402a91f3832b1afb4d4b29fe56e9c",
-    "source_942_peer_review": "3e2fadeff74de6a2a67161e17816ad932edc0df15d215b163bbbfc69de167b91",
-    "source_942_source_peer_review": "a602733aa1d2f113b025a0d7860f49f12bea9944a31f173a77cbcac5ccd053e1",
+    "source_942_certificate": "9bc1ae3623d6ee6759863f266acdad11f5720db3e049b4059a2e6e4138643667",
+    "source_942_peer_review": "0a945f050519311b15c92e2711efb4abff295313a8f8913cdd1d167cd42c11f4",
+    "source_942_source_peer_review": "bee63d06ce2eb6b190455898dff44f828cc2cce7f8fd403c7995ab3f4de915f5",
     "source_942_record_certificate": "799a37c800b6f9e17bf66e7cdc1f3042565806e872b7b505f40e75c344f74113",
-    "source_942_native_certificate": "adb07451f85e369e27610d9035deb2d45fb4013ccea4c00188fad2b480f542cf",
-    "source_942_proof": "dcbdbd61eab150dbaf97777e8aeb345ad10ae9f08ee861422d7cdd08e602ae65",
+    "source_942_lower_certificate": "b0e34f4e949eca0ee46c74fdd7264669b412601e37ce587cb1773e8ff9d98eaf",
+    "source_942_proof": "04e72db4d8d60643736aea2da85ccaa3b34fba7d95f5e90f47d90cbee45e7ab8",
     "source_962_certificate": "d19cd8cc76fe5fdc717b2c0643034b7eb99c1cd764ca0a03c0cc2a6537c61332",
     "source_962_peer_review": "d760b4a92f98e1e7e903883f6e884c94ca7592aa5bc558180d96e43bbd34e0e8",
     "source_962_source_peer_review": "552ed062f78dc4159602c7f9eded65dcccc45946645c64e6ff855458817fdfcb",
@@ -18258,7 +19023,7 @@
     "source_5400_proof": "1ef18798695160863fd7ca67a451de06cfa84a0a6c3e274a52551c567bdb4c55",
     "feasibility-interval-fluctuation": "51567f5415b451d6b0a2c6a6b04bf8de65c63be1a109cc38a4f4b96011fbf130",
     "feasibility-interval-fluctuation-peer-review": "15fc0b923aeaa15c452898cee5020fd2f6a82ab7906a7090bb47324fd4c74f9e",
-    "source_cost_coverage_ledger": "fdbdeb242e22960304830dc7b7ff40a80eb8f899b04c393adcab7a02862ee525",
+    "source_cost_coverage_ledger": "4f08ff5f4a90223320c6e6d709305f94de9dc348dda6d7a920a52e65c2f590ef",
     "pr18_chronology_pull": "cfdb5cfcf8f5a316f55e768a30c4dbdb6a2759d43f2efbb38b1b13405601803c",
     "pr18_chronology_source-commit": "9421163bcefbf0cf2fb7e673d4e4b36122d32af8cac4ae72389aebd121e3f5e0",
     "pr18_chronology_merge-commit": "9421163bcefbf0cf2fb7e673d4e4b36122d32af8cac4ae72389aebd121e3f5e0",
@@ -18275,9 +19040,9 @@
     "historical_candidates_unmerged": 340,
     "merged_historical_candidates_without_selected_kappa": 2,
     "entries_with_actual_crossover": 0,
-    "entries_with_conditional_upper": 183,
-    "entries_with_meaningful_lower": 42,
-    "entries_with_two_sided_bounds": 29
+    "entries_with_conditional_upper": 190,
+    "entries_with_meaningful_lower": 45,
+    "entries_with_two_sided_bounds": 32
   },
   "entries": [
     {
@@ -21351,20 +22116,39 @@
       "historical_leader_candidate": true,
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
-      "meaningful_lower_bound": null,
+      "meaningful_lower_bound": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 85,
+        "input_bits": "2^85",
+        "plot_triple_log": {
+          "exact_log2_integer": 85,
+          "expression": "log2(log2(85))"
+        },
+        "scope": "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "source": "data/operation-audit/pr147-finite-full-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own PR147 mandatory complete O(72,2) cover and actual producer binary additions, compared with the independently closed same-reference compact upper."
+      },
       "conditional_upper": {
         "input_bits": "2^(2^18014398509484968)",
         "log2log2_input_bits": "18014398509484968",
         "plot_triple_log": {
           "exact_log2log2_integer": "18014398509484968"
         },
-        "source": "data/operation-audit/pr147-finite-gate-refined-upper.json",
+        "source": "data/operation-audit/pr147-finite-full-cover-range.json",
         "model": "xag-straightline-v1",
         "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
         "all_positive_xor_tariffs": true,
-        "scope": "Corrected own PR147 finite-controller weaker branch with fully paid stopped-child reserve. Optional record preservation additionally retains original same-XAG realization; no quantified original tail, meaningful lower or actual crossing. The current numerical upper additionally uses the independently checked integral gate refinement."
+        "scope": [
+          "Original scalar/frame identities, completed-core sharing, ambient O(72,2) realization, uniform recursion, analytic precision/recovery and fixed-tape contracts remain original source assumptions. No full native replay or Lean proof is claimed.",
+          "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+          "Fixed real ADD word width at least two and the stipulated unreduced truncated addition subnetworks; full word and every physical coordinate remain present.",
+          "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+          "The explicit full-cover early circuit only. Its full source elementary charge is retained without dividing byW; corrected/refined rows fund the same full producer and complete field coefficient volume. Original-record/min-total hybrid branch is not in this lower family."
+        ]
       },
-      "cost_status": "conditional_finite_source_upper_only",
+      "cost_status": "conditional_own_source_range",
       "historical_streams": [
         "recovered_literal_highwater"
       ],
@@ -21418,6 +22202,16 @@
       "upper_only_finite_source": true,
       "native_coordinate_rank": 72,
       "early_effective_kappa": "1/5000",
+      "own_source_cost_extension": true,
+      "own_source_scope": [
+        "Original scalar/frame identities, completed-core sharing, ambient O(72,2) realization, uniform recursion, analytic precision/recovery and fixed-tape contracts remain original source assumptions. No full native replay or Lean proof is claimed.",
+        "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "Fixed real ADD word width at least two and the stipulated unreduced truncated addition subnetworks; full word and every physical coordinate remain present.",
+        "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "The explicit full-cover early circuit only. Its full source elementary charge is retained without dividing byW; corrected/refined rows fund the same full producer and complete field coefficient volume. Original-record/min-total hybrid branch is not in this lower family."
+      ],
+      "own_source_record_tail_quantified": false,
+      "own_source_certificate": "pr147-finite-full-cover-range.json",
       "source_audit": {
         "status": "closed_conditional_numeric_bound",
         "audit_completed": true,
@@ -23635,21 +24429,51 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr534-legacy-expected-finite-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": [
+          "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+          "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+          "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+          "Same repaired reference correctness and finite-kernel halting.",
+          "Own534 completed native all-input Gaussian/helper endpoints, exact required entry/output frames and absolute phases, normalised residual wrappers and identity on spectators are substantive retained interfaces. Scalar-only specialization and finite frame checks do not prove these operator identities.",
+          "The own all-size compiler, common-label/mutable-basis owned realisation, normalized completed-child height, restored-row/tape and analytic recovery contracts remain conditional exactly as qualified in the own README. The source bounded73-axis binary-affine/even-quadratic-Z4 finite phase grammar is required for the charged universal compiler tariff.",
+          "The fresh original source preparation, complete owner/controller audit with seven mutations and no-prior-invoice full recount were actually executed. No full original global verifier, all-edge phase engine or predecessor cold replay is claimed.",
+          "This is a newly counted direct Gaussian/Fermat XAG realization of the own selected complete complex construction. The original optional BIT supplier is neither consumed nor assigned an invented saving.",
+          "The preserved finite fallback density tax is not adjustable. Full stopped-child reserve u^(1000000*Q), per-coordinate40e direct tensor fallback and all seven actual operation rows are included by the independently closed finite component."
+        ]
+      },
+      "cost_status": "conditional_own_source_upper_only",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": [
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "Own534 completed native all-input Gaussian/helper endpoints, exact required entry/output frames and absolute phases, normalised residual wrappers and identity on spectators are substantive retained interfaces. Scalar-only specialization and finite frame checks do not prove these operator identities.",
+        "The own all-size compiler, common-label/mutable-basis owned realisation, normalized completed-child height, restored-row/tape and analytic recovery contracts remain conditional exactly as qualified in the own README. The source bounded73-axis binary-affine/even-quadratic-Z4 finite phase grammar is required for the charged universal compiler tariff.",
+        "The fresh original source preparation, complete owner/controller audit with seven mutations and no-prior-invoice full recount were actually executed. No full original global verifier, all-edge phase engine or predecessor cold replay is claimed.",
+        "This is a newly counted direct Gaussian/Fermat XAG realization of the own selected complete complex construction. The original optional BIT supplier is neither consumed nor assigned an invented saving.",
+        "The preserved finite fallback density tax is not adjustable. Full stopped-child reserve u^(1000000*Q), per-coordinate40e direct tensor fallback and all seven actual operation rows are included by the independently closed finite component."
+      ],
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr534-legacy-expected-finite-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 11,
-        "source_family": "source_interface_requires_individual_analysis",
-        "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/frame-sa504/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "Resolve complete selected-provider dispatch and actual program/canonical/orientation identity. 0 exact primary/archive pin matches and 0 derived-object pin matches were recovered; byte equality alone does not establish which provider executes or its operator/phase semantics.",
-          "Recompute the complete own productive/paid histogram from research/frame-sa504/EXPECTED.json#/ and actual call/owner windows, including every idle/spectator/owned field; the discovered JSON is a profile candidate, not a complete invoice proof.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Re-evaluate all whole integer cost rows with the exact own outer/saving candidate at research/frame-sa504/EXPECTED.json#/ after native/invoice selection. No numerical cutoff follows from these fields alone."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "individual-primary-interface-source/534-manifest.json",
@@ -25614,21 +26438,59 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr543-paired-selected-complex-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": [
+          "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+          "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+          "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+          "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+          "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+          "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+          "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+          "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+          "Same repaired reference correctness and finite-kernel halting.",
+          "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+          "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+          "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+          "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+        ]
+      },
+      "cost_status": "conditional_own_source_upper_only",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": [
+        "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+        "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+        "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+        "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+        "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+        "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+        "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+        "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+      ],
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr543-paired-selected-complex-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 6,
-        "source_family": "source_interface_requires_individual_analysis",
-        "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/e8-bit-r420/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "Resolve complete selected-provider dispatch and actual program/canonical/orientation identity. 0 exact primary/archive pin matches and 0 derived-object pin matches were recovered; byte equality alone does not establish which provider executes or its operator/phase semantics.",
-          "Recompute the complete own productive/paid histogram from research/e8-bit-r420/data/complex/pr535/EXPECTED.json#/ and actual call/owner windows, including every idle/spectator/owned field; the discovered JSON is a profile candidate, not a complete invoice proof.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Re-evaluate all whole integer cost rows with the exact own outer/saving candidate at research/e8-bit-r420/EXPECTED.json#/controls/pr493_r489_eleven after native/invoice selection. No numerical cutoff follows from these fields alone."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "individual-primary-interface-source/543-manifest.json",
@@ -25756,30 +26618,77 @@
       "created_at": "2026-10-12T03:32:14Z",
       "accepted_at": "2026-10-12T15:45:41Z",
       "acceptance_basis": "github_merged_at",
-      "kappa_decimal": "0.001584931111785787",
-      "kappa_fraction": "1584931111785787/1000000000000000000",
-      "kappa_status": "positive_source_quote",
-      "kappa_scope": "Author-stated conditional/numerical claim; acceptance must be read from source-bound reviews.",
+      "kappa_decimal": "0.001587467473762886",
+      "kappa_fraction": "793733736881443/500000000000000000",
+      "kappa_status": "authenticated_actual_merged_source_selection",
+      "kappa_scope": "The costed \u03ba comes from the explicitly selected source included at this merge. The original parser quote is retained and visibly distinguished. Own EXPECTED.kappa.pr535 and literal verifier select the complete primary composition. The frozen parser instead quoted own EXPECTED.pr535, explicitly the cited535 baseline. Both values are preserved; actual ownhead is eighth of43 merge parents.",
       "source_status": "incorporated",
       "historical_leader_candidate": false,
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr545-paired-selected-complex-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": [
+          "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+          "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+          "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+          "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+          "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+          "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+          "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+          "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+          "Same repaired reference correctness and finite-kernel halting.",
+          "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+          "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+          "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+          "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+        ]
+      },
+      "cost_status": "conditional_own_source_upper_only",
+      "frozen_kappa_metadata": {
+        "kappa_fraction": "1584931111785787/1000000000000000000",
+        "kappa_decimal": "0.001584931111785787",
+        "kappa_status": "positive_source_quote",
+        "kappa_scope": "Author-stated conditional/numerical claim; acceptance must be read from source-bound reviews."
+      },
+      "source_selected_kappa_correction": true,
+      "source_selected_kappa_correction_basis": "Own EXPECTED.kappa.pr535 and literal verifier select the complete primary composition. The frozen parser instead quoted own EXPECTED.pr535, explicitly the cited535 baseline. Both values are preserved; actual ownhead is eighth of43 merge parents.",
+      "source_kappa_correction_primary_receipt": "data/operation-audit/paired-complex-selection-source/545/chronology.json",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": [
+        "Own arbitrary-column local/frame/phase identities, absolute phases, all distinct live owners, full spectator/dirty-helper restoration.",
+        "Own all-size unequal-child normalized Lemma A, common-label/mutable-basis compiler, once-only padding, and restored-row stock interfaces.",
+        "Own precision/tape semantic completed-child guard C0=2^210000; completed exact Gaussian children have semantic norm one under their endpoint contract.",
+        "Parameterized direct Gaussian/fine-prime/finite-section/boundary/recovery analytic interfaces; no finite-field BIT-routing wrapper.",
+        "Same fixed XAG lowering and repaired unlimited optimized-GMP correctness/halting contracts as the prior source-specific certificates.",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "This NEW direct Gaussian/Fermat XAG realization executes the complete complex supplier explicitly named primary by the own paired construction. The changed own BIT circuit is wholly UNUSED: no claim is made to price it or to attribute the resulting runtime to its optimization.",
+        "Both actually cited535 source heads have the exact complete52item MANIFEST of the separately closed535 native/physical/invoice component. Every actual selected source payload is rechecked; this is full serialized source identity, not equality of kappa, a histogram or an old upper.",
+        "Required normalized Gaussian/native absolute-phase, entry/output frames, arbitrary-input helper/spectator restore, common-label/owned all-size compiler/row/tape and analytic contracts remain substantive explicit premises. No fresh original BIT/native-phase/global verifier run is claimed.",
+        "All inherited fallback density tax, per-coefficient40e direct fallback, full u^(1000000Q) stopped reserve, concrete-scale Schur and all actual seven operation rows are retained. The optional BIT argument/saving is absent from this reduced branch."
+      ],
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr545-paired-selected-complex-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 6,
-        "source_family": "source_interface_requires_individual_analysis",
-        "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/e8-punctured111-star/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "Resolve complete selected-provider dispatch and actual program/canonical/orientation identity. 0 exact primary/archive pin matches and 0 derived-object pin matches were recovered; byte equality alone does not establish which provider executes or its operator/phase semantics.",
-          "Recompute the complete own productive/paid histogram from research/e8-punctured111-star/data/complex/pr535/EXPECTED.json#/ and actual call/owner windows, including every idle/spectator/owned field; the discovered JSON is a profile candidate, not a complete invoice proof.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Re-evaluate all whole integer cost rows with the exact own outer/saving candidate at research/e8-punctured111-star/EXPECTED.json#/ after native/invoice selection. No numerical cutoff follows from these fields alone."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "individual-primary-interface-source/545-manifest.json",
@@ -33226,8 +34135,19 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr591-hyperplane-cold-finite-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known."
+      },
+      "cost_status": "conditional_own_source_upper_only",
       "historical_streams": [
         "current_chart_frontier",
         "reconstructed_highwater",
@@ -33530,15 +34450,18 @@
         }
       ],
       "historical_source": "data/operation-audit/record-cost-coverage/reconciled-record-candidates.json",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known.",
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr591-hyperplane-cold-finite-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 6,
-        "source_family": "selected_provider_controller",
-        "cost_obligations": [
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; jp8; required full program 1f151ba36d1487aac00a517f30aaaa82d850774ad4ca180edd4eb31ce6d87715; both orientations {\"backward\": \"c23404deb657ca641f969e7c86a7af139205242eab42ccdc19ecb031169f2f41\", \"forward\": \"940265d603be994ff8464e78aa834c5fdb8724ccd17959b07e85f7e95b073310\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "remaining-record-audit/artifacts/591/priority-manifest.json",
@@ -34302,17 +35225,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 12,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Recover/read a primary scope document or own producer entry point; currently authenticated primary paths are research/leech-lattice/MANIFEST.json, research/leech-lattice/verify.py, research/turyn-code-space/MANIFEST.json. A missing sample is not proof that the source lacks a construction.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/leech-lattice/MANIFEST.json, research/leech-lattice/verify.py, research/turyn-code-space/MANIFEST.json). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Recompute the complete own productive/paid histogram from research/leech-lattice/evidence/SCREEN.json#/turyn_cases/199 and actual call/owner windows, including every idle/spectator/owned field; the discovered JSON is a profile candidate, not a complete invoice proof.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -35559,8 +36478,19 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr615-hyperplane-cold-finite-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed."
+      },
+      "cost_status": "conditional_own_source_upper_only",
       "historical_streams": [
         "current_chart_frontier",
         "reconstructed_highwater",
@@ -35839,16 +36769,18 @@
         }
       ],
       "historical_source": "data/operation-audit/record-cost-coverage/reconciled-record-candidates.json",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": "New direct Gaussian realization of the exact own-selected native words and complete owner map, with a fresh physical invoice. The prior successful 1645-check native reconstruction is authenticated; the final source reviewer freshly checked uncached scalar/frame data and complete physical costs, and does not claim a new full native/operator/phase pipeline pass. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed.",
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr615-hyperplane-cold-finite-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 6,
-        "source_family": "selected_provider_controller",
-        "cost_obligations": [
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; atm3; required full program 110a2b0be1d6ab4cc3ba94d42b2a19db77b18a83b9ea040e9b9c6c317b462d5e; both orientations {\"backward\": \"d919bb0177619151a30535ed559a7afdccbc20485b8f375f09ec5ec27f93863a\", \"forward\": \"be3785205ed044d87dd1e25692cdc7eae7abfda9de8158e85fc9e174a827a890\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound.",
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; jp8; required full program de0a14b28cccb23dec7309eb02f4e42578bc3c08bd57c6d9db475a1fe7653a6f; both orientations {\"backward\": \"8bc69676179316c149ac023c01b8628ef96198945f0f17bc41e6a85d7eb853bb\", \"forward\": \"41d3f6c2c752a041f010f43443c262b2c5763d9f1c5dcaa4c858a1971c657623\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "remaining-record-audit/artifacts/615/priority-manifest.json",
@@ -36713,18 +37645,31 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr619-ceiling-refined-finite-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": "PR619 retains the PR615 native core and refines the output grid. Its own complete289-file manifest, literal selector and exact native/physical commitments are checked; a fresh direct Gaussian invoice and both runtime schedules are computed. The prior successful1645-check source615 byte recovery is used only where its actual RAW/canonical/programme/both-orientation objects match direct own619 commitments. No fresh619 native constructor, complete CLI or operator/phase pipeline pass is claimed. The final source reviewer independently checked own289API/blob bindings, the exact eight SPEC changes, uncached scalar/frame data and complete physical costs. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed."
+      },
+      "cost_status": "conditional_own_source_upper_only",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": "PR619 retains the PR615 native core and refines the output grid. Its own complete289-file manifest, literal selector and exact native/physical commitments are checked; a fresh direct Gaussian invoice and both runtime schedules are computed. The prior successful1645-check source615 byte recovery is used only where its actual RAW/canonical/programme/both-orientation objects match direct own619 commitments. No fresh619 native constructor, complete CLI or operator/phase pipeline pass is claimed. The final source reviewer independently checked own289API/blob bindings, the exact eight SPEC changes, uncached scalar/frame data and complete physical costs. Partial operator/absolute-phase, normalized-child, owned/common-label/all-size and analytic contracts remain explicit. No prior invoice or cutoff is transferred; no actual first crossing is known. The source descriptive entering count16608 differs from actual initial-frame roles15600; the source value is preserved and independently proved unused by work, stock or precision. No original global-verifier PASS is claimed.",
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr619-ceiling-refined-finite-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 8,
-        "source_family": "selected_provider_controller",
-        "cost_obligations": [
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; atm3; required full program 110a2b0be1d6ab4cc3ba94d42b2a19db77b18a83b9ea040e9b9c6c317b462d5e; both orientations {\"backward\": \"d919bb0177619151a30535ed559a7afdccbc20485b8f375f09ec5ec27f93863a\", \"forward\": \"be3785205ed044d87dd1e25692cdc7eae7abfda9de8158e85fc9e174a827a890\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound.",
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; jp8; required full program de0a14b28cccb23dec7309eb02f4e42578bc3c08bd57c6d9db475a1fe7653a6f; both orientations {\"backward\": \"8bc69676179316c149ac023c01b8628ef96198945f0f17bc41e6a85d7eb853bb\", \"forward\": \"41d3f6c2c752a041f010f43443c262b2c5763d9f1c5dcaa4c858a1971c657623\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "remaining-record-audit/artifacts/619/priority-manifest.json",
@@ -38729,14 +39674,27 @@
       "historical_leader_candidate": true,
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
-      "meaningful_lower_bound": null,
+      "meaningful_lower_bound": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
       "conditional_upper": {
         "input_bits": "2^(2^18014398509484968)",
         "log2log2_input_bits": "18014398509484968",
         "plot_triple_log": {
           "exact_log2log2_integer": "18014398509484968"
         },
-        "source": "data/operation-audit/pr890-finite-controller-early-upper.json",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-range.json",
         "model": "xag-straightline-v1",
         "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
         "all_positive_xor_tariffs": true,
@@ -38745,10 +39703,13 @@
           "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
           "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
           "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-          "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+          "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+          "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+          "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+          "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
         ]
       },
-      "cost_status": "conditional_own_source_upper_only",
+      "cost_status": "conditional_own_source_range",
       "historical_streams": [
         "current_chart_frontier",
         "reconstructed_highwater",
@@ -38926,10 +39887,13 @@
         "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
         "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
         "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
       ],
       "own_source_record_tail_quantified": true,
-      "own_source_certificate": "pr890-finite-controller-early-upper.json",
+      "own_source_certificate": "pr890-finite73-literal-cover-range.json",
       "source_audit": {
         "status": "closed_conditional_numeric_bound",
         "audit_completed": true,
@@ -39682,14 +40646,27 @@
       "historical_leader_candidate": true,
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
-      "meaningful_lower_bound": null,
+      "meaningful_lower_bound": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
       "conditional_upper": {
         "input_bits": "2^(2^18014398509484968)",
         "log2log2_input_bits": "18014398509484968",
         "plot_triple_log": {
           "exact_log2log2_integer": "18014398509484968"
         },
-        "source": "data/operation-audit/pr942-finite-controller-early-upper.json",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-range.json",
         "model": "xag-straightline-v1",
         "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
         "all_positive_xor_tariffs": true,
@@ -39698,10 +40675,13 @@
           "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
           "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
           "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-          "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+          "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+          "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+          "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+          "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
         ]
       },
-      "cost_status": "conditional_own_source_upper_only",
+      "cost_status": "conditional_own_source_range",
       "historical_streams": [
         "current_chart_frontier",
         "reconstructed_highwater",
@@ -39855,10 +40835,13 @@
         "Actual selected native scalar/frame columns were replayed; own whole-owner physical windows/charts, padded parent banks and complete numeric invoices were checked afresh. Original full phase engines are not claimed rerun.",
         "The numeric PLAN is a newly checked source-equivalent realization with identical selected program/owner/order/window/profile semantics. It does not claim historical parent-template or PLAN provenance-string byte identity.",
         "Completed exact Gaussian children have semantic norm one under the source endpoint interface; own finite literal inequalities fund C0=2^210000 and the full own 512/1024 payload charges.",
-        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions."
+        "Same direct Gaussian/fine-prime/finite-section/boundary/recovery analytic conditions, exact candidate-only Fermat helper, fixed XAG tariff and repaired unlimited optimized-GMP correctness/halting assumptions.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "Full same own counted source body and complete group E; own early and record verified domains both contain a nonempty native H stage above the full stopped base. No optional unrelated original-record hybrid is included."
       ],
       "own_source_record_tail_quantified": true,
-      "own_source_certificate": "pr942-finite-controller-early-upper.json",
+      "own_source_certificate": "pr942-finite73-literal-cover-range.json",
       "source_audit": {
         "status": "closed_conditional_numeric_bound",
         "audit_completed": true,
@@ -40484,17 +41467,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 7,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/universal-connector-boundary/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/universal-connector-boundary/CERTIFICATE.json, research/universal-connector-boundary/EXPECTED.json, research/universal-connector-boundary/README.md). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/universal-connector-boundary/CERTIFICATE.json, research/universal-connector-boundary/EXPECTED.json, research/universal-connector-boundary/README.md) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -42696,17 +43675,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 7,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/weighted-signed-connector-seed58/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/weighted-signed-connector-seed58/CERTIFICATE.json, research/weighted-signed-connector-seed58/EXPECTED.json, research/weighted-signed-connector-seed58/README.md). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/weighted-signed-connector-seed58/CERTIFICATE.json, research/weighted-signed-connector-seed58/EXPECTED.json, research/weighted-signed-connector-seed58/README.md) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -45259,17 +46234,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 5,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from autoresearch.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/complex-local-word-ceiling/verify.py, autoresearch.md, docs/research/agent-task-catalog.json). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/complex-local-word-ceiling/verify.py, autoresearch.md, docs/research/agent-task-catalog.json) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -47429,17 +48400,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 7,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/two-accumulator-saved-arms/PROOF.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/two-accumulator-saved-arms/PROOF.md, research/two-accumulator-saved-arms/README.md, research/two-accumulator-saved-arms/SOURCES.json). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/two-accumulator-saved-arms/PROOF.md, research/two-accumulator-saved-arms/README.md, research/two-accumulator-saved-arms/SOURCES.json) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -47929,17 +48896,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 7,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/complex-coverage-law-relief/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/complex-coverage-law-relief/README.md, research/complex-coverage-law-relief/SOURCES.json, research/complex-coverage-law-relief/verify.py). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/complex-coverage-law-relief/README.md, research/complex-coverage-law-relief/SOURCES.json, research/complex-coverage-law-relief/verify.py) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -48291,17 +49254,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 5,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/restoration-coalescing/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/restoration-coalescing/CERTIFICATE.json, research/restoration-coalescing/CLAIM.json, research/restoration-coalescing/README.md). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/restoration-coalescing/CERTIFICATE.json, research/restoration-coalescing/CLAIM.json, research/restoration-coalescing/README.md) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Re-evaluate all whole integer cost rows with the exact own outer/saving candidate at research/restoration-coalescing/SOURCE-PINS.json#/selected_result_at_base after native/invoice selection. No numerical cutoff follows from these fields alone."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -50961,18 +51920,51 @@
       "unflagged_kappa_entry": true,
       "actual_crossover": null,
       "meaningful_lower_bound": null,
-      "conditional_upper": null,
-      "cost_status": "not_costed",
+      "conditional_upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "log2log2_input_bits": "18014398509484968",
+        "plot_triple_log": {
+          "exact_log2log2_integer": "18014398509484968"
+        },
+        "source": "data/operation-audit/pr646-signed-root-K480-finite-early-upper.json",
+        "model": "xag-straightline-v1",
+        "baseline": "gmp-630-native-skylake-unbounded-exact-constants-v2",
+        "all_positive_xor_tariffs": true,
+        "scope": [
+          "Own full required physical entry/output-frame and absolute-phase operator-valued native endpoint, including normalized monomial wrappers and ascending typed helper paths; not inferred from scalar specialization or profiles",
+          "All unexpanded adapter/phase operations are bounded73-axis binary affine/even-quadratic Z4 monomial grammar, with no hidden arbitrary scalar coefficients or denominators; each full operation is charged the universal64*74^3 source tariff",
+          "Common-label/mutable-source/owned restore and all-size occupied-row interface",
+          "Fixed constructive group/compiler and direct analytic transfer contracts",
+          "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+          "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+          "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+          "Same repaired reference correctness and finite-kernel halting.",
+          "The exact own selected source core is realized by this new direct Gaussian/Fermat circuit; original optional BIT admission is neither assumed nor executed. Full partial initial/final Gaussian-subspace operator identities, tensor identity on spectators, required absolute phases and normalized completed-child interfaces remain explicit; scalar specialization or frame dimensions alone do not prove them. Actual canonical initial/final nesting and rank differences are checked, and actual nonzero initial frames, not width<9, determine entering counts."
+        ]
+      },
+      "cost_status": "conditional_own_source_upper_only",
+      "own_source_cost_extension": true,
+      "early_effective_kappa": "1/5000",
+      "own_source_scope": [
+        "Own full required physical entry/output-frame and absolute-phase operator-valued native endpoint, including normalized monomial wrappers and ascending typed helper paths; not inferred from scalar specialization or profiles",
+        "All unexpanded adapter/phase operations are bounded73-axis binary affine/even-quadratic Z4 monomial grammar, with no hidden arbitrary scalar coefficients or denominators; each full operation is charged the universal64*74^3 source tariff",
+        "Common-label/mutable-source/owned restore and all-size occupied-row interface",
+        "Fixed constructive group/compiler and direct analytic transfer contracts",
+        "Own authenticated rank73/v112/h9 complete native provider program/orientation bytes, full required entry/output-frame/absolute-phase/all-column/owned/whole-helper and bounded monomial grammar.",
+        "Own complete numeric physical owner/invoice/profile, positive outward-enclosed moment, halving73\u00b2>2rmax\u00b2, G<2^30000/E_literal<2^100000/C0<=2^210000, row<20161 and corrected full stopped stock.",
+        "Concrete normalized shifted Gaussian accretivity and finite-LDU/narrow row-gap/cyclic-border analytic interfaces; not a false general scale-free accretive claim.",
+        "Same repaired reference correctness and finite-kernel halting.",
+        "The exact own selected source core is realized by this new direct Gaussian/Fermat circuit; original optional BIT admission is neither assumed nor executed. Full partial initial/final Gaussian-subspace operator identities, tensor identity on spectators, required absolute phases and normalized completed-child interfaces remain explicit; scalar specialization or frame dimensions alone do not prove them. Actual canonical initial/final nesting and rank differences are checked, and actual nonzero initial frames, not width<9, determine entering counts."
+      ],
+      "own_source_record_tail_quantified": true,
+      "own_source_certificate": "pr646-signed-root-K480-finite-early-upper.json",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
-        "numeric_bound_completed": false,
+        "status": "closed_conditional_numeric_bound",
+        "audit_completed": true,
+        "numeric_bound_completed": true,
         "verified_artifact_count": 8,
-        "source_family": "selected_provider_controller",
-        "cost_obligations": [
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; ck; required full program 6a84f294cf8efbf5303e09c05211b195e60b06225d3452d58ecf0a0a4972c42d; both orientations {\"backward\": \"6a202cfddfde0ebc8601c72f1f244a19206496c2cd30e484efb0dd09f3a5263d\", \"forward\": \"e9257ecc85a8177138607c369736921cc64e3b90341d2ccc6c996e99d7080028\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound.",
-          "Source-specific frozen V10 discovery snapshot: actual_selected_full_program_bytes_missing; jp8; required full program f70efa2da58da29431c73e1fdb4586f445e758a4daa38db40f5b0206af042fd3; both orientations {\"backward\": \"4257b368ba2d80194cf98a0667039b545a59c6e72235c1f4d17732c606af80b5\", \"forward\": \"6627948c61767fd22953d42efbc81b433fed0a7147360ba1b192549fd6e01314\"}; Recover exact actual complete selected program bytes, by own immutable primary source or deterministic pinned constructor/recipe with mandatory complete semantic and orientation commitments. A matching profile, scalar saving or another provider does not fill this gap. Missing canonical catalogue may remain a separately stated endpoint premise only after the actual selected program and complete own physical/invoice are bound."
-        ],
+        "source_family": "source_bound_construction",
+        "cost_obligations": [],
         "source_manifest": [
           {
             "file": "remaining-record-audit/artifacts/646/priority-manifest.json",
@@ -51679,17 +52671,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 5,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/x4-fifth-joint-exchange-seed32/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/x4-fifth-joint-exchange-seed32/README.md, research/x4-fifth-joint-exchange-seed32/jx5.py, research/x4-fifth-joint-exchange-seed32/NOTICE.md). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/x4-fifth-joint-exchange-seed32/README.md, research/x4-fifth-joint-exchange-seed32/jx5.py, research/x4-fifth-joint-exchange-seed32/NOTICE.md) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -52214,17 +53202,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 6,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from research/exact-frame-toolkit/README.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (research/exact-frame-toolkit/MANIFEST.json, research/exact-frame-toolkit/README.md, research/exact-frame-toolkit/PORTABILITY.json). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (research/exact-frame-toolkit/MANIFEST.json, research/exact-frame-toolkit/README.md, research/exact-frame-toolkit/PORTABILITY.json) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -70605,17 +71589,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 2,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Adjudicate the actual own contribution/selected candidate from docs/research/agent-procedure.md; the literal scope excerpts in this report are unadjudicated, not a semantic exclusion.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (docs/research/agent-procedure.md, docs/research/task-startup-compatibility.md). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (docs/research/agent-procedure.md, docs/research/task-startup-compatibility.md) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {
@@ -70831,17 +71811,13 @@
       "conditional_upper": null,
       "cost_status": "not_costed",
       "source_audit": {
-        "status": "own_source_fetched_cost_obligations_open",
-        "audit_completed": false,
+        "status": "source_scope_completed_supporting_or_restricted_result",
+        "audit_completed": true,
         "numeric_bound_completed": false,
         "verified_artifact_count": 2,
-        "source_family": "source_interface_requires_individual_analysis",
+        "source_family": "supporting_evidence_or_tooling",
         "cost_obligations": [
-          "Recover/read a primary scope document or own producer entry point; currently authenticated primary paths are scripts/research_package.py, tests/test_research_onboarding.py. A missing sample is not proof that the source lacks a construction.",
-          "No explicit selected native semantic-program binding has been adjudicated from the current own primary set (scripts/research_package.py, tests/test_research_onboarding.py). Recover the actual emitter/selected word and public input/output-frame contract; do not import a later equal-kappa native.",
-          "Bind a complete physical and recursive invoice for the selected changes. Current primary candidates (scripts/research_package.py, tests/test_research_onboarding.py) have not yielded an adjudicated whole paid/idle/owner profile; local operation savings or baseline quotes cannot be promoted to a full multiplier cost.",
-          "No complete own work/height/precision/stock interface has been cost-bound by this inventory. Locate its exact inherited dependency bytes or derive it from the actual selected operations; the current source files are not automatically closed by an exponent claim.",
-          "Supply a complete own outer precision/analytic/recovery schedule and operation constants, or explicitly bind a source-correct inherited schedule, before a numerical integer cutoff can be derived."
+          "A numerical whole-multiplier comparison must separately identify an actual complete selected native/caller/owner/recursive work-height-stock interface and precision/analytic/outer realization. This source-scope disposition neither supplies nor transfers that bound, and does not extend a restricted negative result beyond its stated family."
         ],
         "source_manifest": [
           {

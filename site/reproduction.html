@@ -15,7 +15,7 @@
 <div class="eyebrow">SOURCE FILES · EXACT CHECKS</div>
 <h1>Reproduce the cost audit.</h1>
 <p class="repro-intro">Download the complete proof and source collection, then restore every file with the hash-checking Python tool. Identical source bytes are stored once to keep the download smaller. Every original path and its hash are retained. Archive parts are available from the public GitHub release without a ChatGPT login.</p>
-<p><a href="methodology.html">Read the model, assumptions and coverage guide ↗</a> · <a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-196-2026-10-24" target="_blank" rel="noopener">Open the complete GitHub release ↗</a></p>
+<p><a href="methodology.html">Read the model, assumptions and coverage guide ↗</a> · <a href="https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/tag/audit-2026-10-25-01" target="_blank" rel="noopener">Open the current GitHub release ↗</a></p>
 <div class="repro-required"><strong>Every ZIP part, the manifest and the restore tool are required.</strong> Save them together in one folder. You do not need to extract the ZIPs yourself.</div>
 <p><a class="repro-button" href="data/reproduction-package.json" download>Download manifest</a> <a class="repro-button" href="data/restore_reproduction.py" download>Download restore tool</a></p>
 <div class="repro-downloads" id="reproDownloads"></div>
@@ -42,7 +42,7 @@ python gaussian_only_selected_provider_bounds.py</pre></li>
   const h=document.createElement('h2');h.textContent='Source archive '+(i+1);
   const text=document.createElement('p');text.textContent='Exact source and proof objects. Keep this ZIP beside every other part.';
   let download='data/'+p.file;
-  if(p.download_url){const u=new URL(p.download_url);if(u.origin!=='https://github.com'||u.pathname!=='/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/'+p.file||u.search||u.hash)throw Error('An archive URL does not match the public release.');download=u.href;}
+  if(p.download_url){const u=new URL(p.download_url),base=u.pathname.slice(0,-p.file.length);if(u.origin!=='https://github.com'||!/^\/alejandrozu\/integer-multiplication-crossover-lab\/releases\/download\/audit-[0-9][0-9a-z-]*\/$/.test(base)||!u.pathname.endsWith('/'+p.file)||u.search||u.hash)throw Error('An archive URL does not match the public release.');download=u.href;}
   const a=document.createElement('a');a.className='repro-button';a.href=download;a.download=p.file;a.textContent='Download part '+(i+1);
   const hash=document.createElement('div');hash.className='repro-hash';hash.textContent=(p.bytes/1048576).toFixed(2)+' MiB · SHA256 '+p.sha256;
   card.append(eyebrow,h,text,a,hash);document.getElementById('reproDownloads').append(card);

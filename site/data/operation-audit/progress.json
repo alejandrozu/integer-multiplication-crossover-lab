@@ -130,7 +130,7 @@
     "script_sha256": "e3a7c6eec408998d6fa6bfe9da3e758b884db175029a7c7eb1dd08cdbf1b1418"
   },
   "actual_GMP_runtime_crossover_established": false,
-  "conditional_reference_circuit_upper_bounds": 366,
+  "conditional_reference_circuit_upper_bounds": 380,
   "actual_first_crossovers_determined": 0,
   "actual_GMP_comparison": "Conditional count bounds for a declared unbounded optimized-source circuit; no hardware crossover claimed.",
   "unbounded_optimized_GMP_comparison": {
@@ -8561,7 +8561,7 @@
     "plot_5413_lower_triple_log_approx": 55.09830248071379
   },
   "latest_literal_feasibility_certificate": "literal-feasibility-refinement-v5.json",
-  "conditional_source_bound_PR_upper_count": 183,
+  "conditional_source_bound_PR_upper_count": 190,
   "literal_family_sufficient_upper_by_PR": {
     "4359": "2^(2^27664107384514198908)",
     "4416": "2^(2^1620670401300092662248603276)",
@@ -8876,7 +8876,7 @@
     "native_coordinate_rank": 72,
     "scope": "Corrected own PR147 finite-controller weaker branch with fully paid stopped-child reserve. Optional record preservation additionally retains original same-XAG realization; no quantified original tail, meaningful lower or actual crossing. The current numerical upper additionally uses the independently checked integral gate refinement."
   },
-  "conditional_source_bound_two_sided_count": 29,
+  "conditional_source_bound_two_sided_count": 32,
   "own_source_cost_overlays": [
     {
       "pr": 2,
@@ -9271,6 +9271,32 @@
       "peer_review_file": "pr144-finite-controller-peer-review.json"
     },
     {
+      "pr": 147,
+      "source_commit": "29383a28d96b9880edbe59ed930f1da1dd6fdfa6",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968",
+        "source": "data/operation-audit/pr147-finite-full-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
+        "exact_individual_crossing": false
+      },
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 85,
+        "input_bits": "2^85",
+        "plot_triple_log": {
+          "exact_log2_integer": 85,
+          "expression": "log2(log2(85))"
+        },
+        "scope": "Declared explicit EARLY Gaussian unreduced complete finite-cover literal enhancement family: every active native word retains every group vertex and full field coordinate with paid ADD lowering and no pruning/aggregation/bypass; if no native word is used the output branch is exactly the same optimized GMP reference. All switching policies are included. The optional original-record/min-total hybrid and every other implementation are excluded; the early effective exponent is1/5000.",
+        "source": "data/operation-audit/pr147-finite-full-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own PR147 mandatory complete O(72,2) cover and actual producer binary additions, compared with the independently closed same-reference compact upper."
+      },
+      "peer_review_file": "pr147-finite-full-cover-range-peer-review.json"
+    },
+    {
       "pr": 149,
       "source_commit": "6aed8701e3e3102898c66b5dcfc28d3cfc264edc",
       "upper": {
@@ -9346,6 +9372,36 @@
       "peer_review_file": "pr523-punctured-gaussian-peer-review.json"
     },
     {
+      "pr": 534,
+      "source_commit": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr534-legacy-expected-finite-peer-review.json"
+    },
+    {
+      "pr": 543,
+      "source_commit": "2065fe4f72a914d907f1046603f5a36f17018535",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr543-paired-selected-complex-peer-review.json"
+    },
+    {
+      "pr": 545,
+      "source_commit": "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr545-paired-selected-complex-peer-review.json"
+    },
+    {
       "pr": 576,
       "source_commit": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
       "upper": {
@@ -9416,6 +9472,16 @@
       },
       "lower": null,
       "peer_review_file": "pr588-mixed-finite-controller-peer-review.json"
+    },
+    {
+      "pr": 591,
+      "source_commit": "f622547244bf6d895a571a7b035142ba66279806",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr591-hyperplane-cold-finite-peer-review.json"
     },
     {
       "pr": 592,
@@ -9548,6 +9614,16 @@
       "peer_review_file": "pr614-cold14-typed-finite-peer-review.json"
     },
     {
+      "pr": 615,
+      "source_commit": "bf8a49a34350599763cced8592db81dc62c2c1c0",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr615-hyperplane-cold-finite-peer-review.json"
+    },
+    {
       "pr": 616,
       "source_commit": "5611a9048e4388bb2f330520796379926084c69e",
       "upper": {
@@ -9585,6 +9661,16 @@
       },
       "lower": null,
       "peer_review_file": "pr618-cold14-typed-finite-peer-review.json"
+    },
+    {
+      "pr": 619,
+      "source_commit": "9879380b4e9fd922842a35cb3edefd712debfdac",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr619-ceiling-refined-finite-peer-review.json"
     },
     {
       "pr": 622,
@@ -9712,6 +9798,16 @@
       "peer_review_file": "pr644-k492-mixed-finite-peer-review.json"
     },
     {
+      "pr": 646,
+      "source_commit": "cdfe8273bb5054e0a837a3594309c6262e995b1f",
+      "upper": {
+        "input_bits": "2^(2^18014398509484968)",
+        "exact_log2log2_integer": "18014398509484968"
+      },
+      "lower": null,
+      "peer_review_file": "pr646-signed-root-K480-finite-peer-review.json"
+    },
+    {
       "pr": 654,
       "source_commit": "a935a545760946489bd6f26fe5349a10820316c2",
       "upper": {
@@ -9763,12 +9859,25 @@
       "upper": {
         "input_bits": "2^(2^18014398509484968)",
         "exact_log2log2_integer": "18014398509484968",
-        "source": "data/operation-audit/pr890-finite-controller-early-upper.json",
-        "scope": "Conditional sufficient eventual upper in the same fixed XAG/unlimited optimized-GMP model for every positive XOR tariff; own source-equivalent numeric realization.",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
         "exact_individual_crossing": false
       },
-      "lower": null,
-      "peer_review_file": "pr890-finite-controller-peer-review.json"
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr890-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
+      "peer_review_file": "pr890-finite73-literal-cover-range-peer-review.json"
     },
     {
       "pr": 937,
@@ -9786,12 +9895,25 @@
       "upper": {
         "input_bits": "2^(2^18014398509484968)",
         "exact_log2log2_integer": "18014398509484968",
-        "source": "data/operation-audit/pr942-finite-controller-early-upper.json",
-        "scope": "Conditional sufficient eventual upper in the same fixed XAG/unlimited optimized-GMP model for every positive XOR tariff; own source-equivalent numeric realization.",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-range.json",
+        "scope": "Existence of the bound counted literal early Gaussian schedule above its verified domain; this is not an upper for every switching policy.",
         "exact_individual_crossing": false
       },
-      "lower": null,
-      "peer_review_file": "pr942-finite-controller-peer-review.json"
+      "lower": {
+        "all_PR_implementations": false,
+        "exact_individual_crossing": false,
+        "exact_log2_integer": 94,
+        "input_bits": "2^94",
+        "plot_triple_log": {
+          "exact_log2_integer": 94,
+          "expression": "log2(log2(94))"
+        },
+        "scope": "Declared own literal complete O(73,2) early/record Gaussian enhancement family. Every active counted source body retains all cover vertices and the actual selected public ADD with no pruning, aggregation, quotienting or bypass; any no-native synthesis returns the identical optimized GMP reference. This is an added comparison-family policy and excludes other historical BIT/original hybrid or compressed implementations.",
+        "source": "data/operation-audit/pr942-finite73-literal-cover-lower.json",
+        "statistic": "necessary_no_strict_win_below_endpoint_for_declared_literal_family",
+        "source_explanation": "Own complete O(73,2) invocation prescription and surviving actual selected U8 ADD, with the independently closed same-reference1875 upper; no coefficient-coordinate multiplier."
+      },
+      "peer_review_file": "pr942-finite73-literal-cover-range-peer-review.json"
     },
     {
       "pr": 962,
@@ -11317,6 +11439,6 @@
       "peer_review_file": "pr5400-reviewed-selected-literal-peer-review.json"
     }
   ],
-  "conditional_source_bound_lower_count": 42,
-  "uncosted_source_entries": 399
+  "conditional_source_bound_lower_count": 45,
+  "uncosted_source_entries": 392
 }

@@ -1,0 +1,93 @@
+{
+  "schema": "own-source-version-primary-chronology/1",
+  "pr": 545,
+  "source_head": "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+  "own_head": "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+  "merged_at": "2026-10-12T15:45:41Z",
+  "merge_commit_sha": "1a580eafa09fb09a6a3c65d5ab1aab492cec3571",
+  "merge_parents": [
+    "7f6ccd7ed1e5ee7fba9599f44f9a6fe08f582d62",
+    "a1460516226555dd375d9adb82a8e1dcbfe1ca79",
+    "915ca69db7f98c70b97ce96e1fcc96818517584c",
+    "8725c162e4ffdbada8847e235ccdbcaedef87af9",
+    "fceff375b8308e793afbc684690341fab5affc39",
+    "2065fe4f72a914d907f1046603f5a36f17018535",
+    "4858bb38da10cd8a1cd25ef85e7c14f4e2b529dd",
+    "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+    "77833ffa1110c6645f5d0866ebf41510ee3d27a3",
+    "eecca20a24258cb6d9f698b1984a95029bac0a1c",
+    "66dbc2bffc1bfa8d50b3f9a2ac7ccba8fd9f6f36",
+    "a248674ccdf0ed32f3a122f594b54524c90e4654",
+    "c7337040822978f1611ce9d9d44e7bb96d887e23",
+    "e7faafc4fec401d24080e5b2df12f964f1cfe123",
+    "33c33af0b7697155be1ea708e08cbd3f0707d94c",
+    "c1c252e2838918f3de866b228f5a3f21cb9f4b2d",
+    "65a6bc19f820c8b1873f65a517bcf70cd6887223",
+    "24321d9347828751adabd86de4a4a7807207afac",
+    "a1e805c528884818ddf7d730024c1d8de9660f81",
+    "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+    "d858c0b2edcc704ef370b3c96dc51a75439b77b0",
+    "15246a063cac02653d702a80f79b36081e7f596a",
+    "210dfa4896e77a8fb5e22ca5a970b0fb0ac984a6",
+    "27070553cfbf094148a74170481738f8b747d82e",
+    "35925c7f36d06676c7e9d2a052826b0864a2dd9b",
+    "c18417b02b80594b2ca1c8c21185d28befafc935",
+    "7f452897d67282a76ada6df0162d34a751d5f3e6",
+    "71c99ac935a33bb7b59a1b4a7af8725a939b0b90",
+    "b7bdc5a8de18fcf418cfb9c7d83a2b1097a5e4a3",
+    "0c3a7d1b0d99dbc6a1cc5ec1675ddd74aa959586",
+    "f3e0af901f88f2fd3a213224ad3b59a16b5f4688",
+    "eac6f7e378ab622dac50a2fd4b7ef6eab014de44",
+    "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
+    "086bd33ff5c1ce46f3ff23298b8dc756a54414db",
+    "2aacc1f2edae76fc963699be5cfaf31bcf3ef56b",
+    "970d38a3862ee35064a827b671d196744ee2a928",
+    "1ba977f5b8376456dc1b2ca117195fdb4e1c39f5",
+    "747ec97129eb85b1e57bf73c934400fe08a8c6cd",
+    "89be768f0157f5a3d8e4db69cf1748768605eac9",
+    "e580557d85eb8b8a100361926252d120eb447a44",
+    "4846fee5b06af770e9b3a10c36200f673d656725",
+    "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
+    "6d0e53b66c29abd17981881a09eaff41ac862d85"
+  ],
+  "merge_parent_number": 8,
+  "source_committed_at": "2026-10-12T03:31:30Z",
+  "source_included_at_actual_merge": true,
+  "frozen_metadata_kappa": "1584931111785787/1000000000000000000",
+  "actual_own_selected_kappa": "793733736881443/500000000000000000",
+  "source_selected_kappa_correction": true,
+  "primary_receipts": [
+    {
+      "primary_url": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/pulls/545",
+      "file": "paired-complex-selection-source/545/chronology-pull.json",
+      "sha256": "fc87cd822f0e4659b8fd5243f1461b19295075296592ead79bcd67790b621da8",
+      "bytes": 24179
+    },
+    {
+      "primary_url": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/git/commits/376426f3b2b26ab430d10baf16bbd9ff42990a7c",
+      "file": "paired-complex-selection-source/545/chronology-source-git-commit.json",
+      "sha256": "d3d5953b68ffc75ae8c126fb6ac502daa47ad9c68556b3df66a6c99f824d4224",
+      "bytes": 1916
+    },
+    {
+      "primary_url": "https://api.github.com/repos/CrocSwap/integer-mult-bounds/git/commits/1a580eafa09fb09a6a3c65d5ab1aab492cec3571",
+      "file": "paired-complex-selection-source/545/chronology-merge-git-commit.json",
+      "sha256": "66ffc7915177a5cbc92a34b2930e33d4a5296ac8f4e03d6fb45be6d04b663000",
+      "bytes": 12937
+    }
+  ],
+  "source_sha256": {
+    "paired-complex-selection-source/545/chronology-pull.json": "fc87cd822f0e4659b8fd5243f1461b19295075296592ead79bcd67790b621da8",
+    "paired-complex-selection-source/545/chronology-source-git-commit.json": "d3d5953b68ffc75ae8c126fb6ac502daa47ad9c68556b3df66a6c99f824d4224",
+    "paired-complex-selection-source/545/chronology-merge-git-commit.json": "66ffc7915177a5cbc92a34b2930e33d4a5296ac8f4e03d6fb45be6d04b663000"
+  },
+  "checks": {
+    "actual_own_PR_head": true,
+    "actual_included_source_merge": true,
+    "source_committed_before_actual_merge": true,
+    "actual_selected_composition_vs_preserved_baseline": true
+  },
+  "checks_passed": 4,
+  "script_sha256": "c4b10f233f4bbd556c48334293daa214cca5ae1b02a159999b7036fe2b8b6e18",
+  "scope": "Own545 complete primary535 composition target from EXPECTED.kappa.pr535 differs from the historical parser quote of EXPECTED.pr535, which is explicitly the cited535 baseline. Preserve both. Source existed at actual merge; no backdating or new accepted-record truth is inferred."
+}

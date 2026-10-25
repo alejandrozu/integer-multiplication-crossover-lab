@@ -7,10 +7,10 @@
       "label": "Per-entry cost audit",
       "file": "operation-audit/remaining-record-audit/cost-coverage-ledger.json.gz",
       "original_file": "remaining-record-audit/cost-coverage-ledger.json",
-      "original_bytes": 10708872,
-      "original_sha256": "fdbdeb242e22960304830dc7b7ff40a80eb8f899b04c393adcab7a02862ee525",
-      "compressed_bytes": 1151522,
-      "compressed_sha256": "7d43a44e92d09cbc81101ceb713bf5d8dd0cb9b86eab015aa26f9b18d49f6083",
+      "original_bytes": 10708600,
+      "original_sha256": "4f08ff5f4a90223320c6e6d709305f94de9dc348dda6d7a920a52e65c2f590ef",
+      "compressed_bytes": 1150960,
+      "compressed_sha256": "63369a7e3ab889a5a37ddaf89991f5096d29b08d64c3072bc056db96d965eae3",
       "reproduction_member": "operation-audit/remaining-record-audit/cost-coverage-ledger.json"
     },
     {
@@ -29,10 +29,10 @@
       "label": "Complete source inventory",
       "file": "operation-audit/manifest.json.gz",
       "original_file": "manifest.json",
-      "original_bytes": 5144615,
-      "original_sha256": "4858279751122baa26a8f6340c0669b5700550d1c5684e9919dff2a75e210743",
-      "compressed_bytes": 1137548,
-      "compressed_sha256": "624fd5822e836d520bd83cf87f88d11b675731c119b7fdd0f3f415310ca54096",
+      "original_bytes": 5644786,
+      "original_sha256": "61781968e2dd78e57c46684813dae85f1b6b49663b65d9f99de8604a53085ddf",
+      "compressed_bytes": 1266711,
+      "compressed_sha256": "49d715b39272a173a155008396d5abc9260c26123da1ef518ccc3470f4169933",
       "reproduction_member": "operation-audit/manifest.json"
     },
     {
@@ -40,10 +40,10 @@
       "label": "Source discovery index",
       "file": "operation-audit/remaining-record-audit/cost-coverage-index.json.gz",
       "original_file": "remaining-record-audit/cost-coverage-index.json",
-      "original_bytes": 1736283,
-      "original_sha256": "d9d4214df981a1951a10f369a33370c61ee30187322f607e5d5b7337ba97dbfb",
-      "compressed_bytes": 154000,
-      "compressed_sha256": "259b92c03aa21b615854757838651634fdc17a01b743bee19e9c5393e2c21b87",
+      "original_bytes": 1715405,
+      "original_sha256": "435cd4d05bbdd1d8aecb9625ec82077212e1a71f5cc3d313b0ec225deec72f44",
+      "compressed_bytes": 154121,
+      "compressed_sha256": "ed9d7361df95d5f6daa697bb48896661f1bd0858935a0bdf14c52da18deca392",
       "reproduction_member": "operation-audit/remaining-record-audit/cost-coverage-index.json"
     },
     {
@@ -597,6 +597,28 @@
       "reproduction_member": "operation-audit/pr144-source-guard-supplement-peer-review.json"
     },
     {
+      "id": "proof:pr147-finite-full-cover-range-peer-review.json",
+      "label": "PR147 \u00b7 cost review",
+      "file": "operation-audit/pr147-finite-full-cover-range-peer-review.json.gz",
+      "original_file": "pr147-finite-full-cover-range-peer-review.json",
+      "original_bytes": 10507,
+      "original_sha256": "b49eea3b5b3bc6f12873a2a76549820ce894d02bd02396d9c4bf361c47133a49",
+      "compressed_bytes": 4891,
+      "compressed_sha256": "82d936a99dd69fdf62e43ff31e71965f4cab3781b0c151d496c6d6804b3c1a0a",
+      "reproduction_member": "operation-audit/pr147-finite-full-cover-range-peer-review.json"
+    },
+    {
+      "id": "proof:pr147-finite-full-cover-source-peer-review.json",
+      "label": "PR147 \u00b7 source review",
+      "file": "operation-audit/pr147-finite-full-cover-source-peer-review.json.gz",
+      "original_file": "pr147-finite-full-cover-source-peer-review.json",
+      "original_bytes": 13872,
+      "original_sha256": "aa0cba459675c43765712a2a69f1b15dfc8d6b6372688f44d00b9799579e42f6",
+      "compressed_bytes": 4857,
+      "compressed_sha256": "9f771b290f19634d926f78203ccff4c83d96252556bbfbaff9a63c8f85cf7756",
+      "reproduction_member": "operation-audit/pr147-finite-full-cover-source-peer-review.json"
+    },
+    {
       "id": "proof:pr149-finite-controller-peer-review.json",
       "label": "PR149 \u00b7 cost review",
       "file": "operation-audit/pr149-finite-controller-peer-review.json.gz",
@@ -771,6 +793,105 @@
       "compressed_bytes": 19391,
       "compressed_sha256": "a8bdc9a4d8242ce842819d43024ac6c917291d0364f43f063884cafdbe93e05a",
       "reproduction_member": "operation-audit/pr523-punctured-gaussian-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr534-legacy-expected-finite-native.json",
+      "label": "PR534 \u00b7 native parameters",
+      "file": "operation-audit/pr534-legacy-expected-finite-native.json.gz",
+      "original_file": "pr534-legacy-expected-finite-native.json",
+      "original_bytes": 43577,
+      "original_sha256": "82f59822ca2707f53999e4ad91169c76d0d3ea30f6078ab717622a6e5e1ec489",
+      "compressed_bytes": 11547,
+      "compressed_sha256": "507d8e53d09bdb7bb31381631f7a03382fc05703db85580da0bad00a74260e79",
+      "reproduction_member": "operation-audit/pr534-legacy-expected-finite-native.json"
+    },
+    {
+      "id": "proof:pr534-legacy-expected-finite-peer-review.json",
+      "label": "PR534 \u00b7 cost review",
+      "file": "operation-audit/pr534-legacy-expected-finite-peer-review.json.gz",
+      "original_file": "pr534-legacy-expected-finite-peer-review.json",
+      "original_bytes": 19685,
+      "original_sha256": "692908312888fb7538f6e740dd72e5f80e8a1f7c7518976f3de4b0b09974bbfb",
+      "compressed_bytes": 7873,
+      "compressed_sha256": "f62690cf42c6f216ad2a074722e932631005279fb1fedb5cc2a2f9de7fe2df3c",
+      "reproduction_member": "operation-audit/pr534-legacy-expected-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr534-legacy-expected-finite-source-peer-review.json",
+      "label": "PR534 \u00b7 source review",
+      "file": "operation-audit/pr534-legacy-expected-finite-source-peer-review.json.gz",
+      "original_file": "pr534-legacy-expected-finite-source-peer-review.json",
+      "original_bytes": 72300,
+      "original_sha256": "dac6eb6009de611ad3c4a9b363b94d6a09188b4b59ed7c16fbb48c3d8966d2d4",
+      "compressed_bytes": 11396,
+      "compressed_sha256": "a0cffbf322dbf768c947224f9ade40591b64a4b4382dc9cb9d030021f59f124a",
+      "reproduction_member": "operation-audit/pr534-legacy-expected-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr543-paired-selected-complex-native.json",
+      "label": "PR543 \u00b7 native parameters",
+      "file": "operation-audit/pr543-paired-selected-complex-native.json.gz",
+      "original_file": "pr543-paired-selected-complex-native.json",
+      "original_bytes": 33702,
+      "original_sha256": "8208acf0095789b2fd6cab4e7e30ffc692295f1e51277b910132f4add935a31a",
+      "compressed_bytes": 8955,
+      "compressed_sha256": "78c9a42d4b4e4818b0668fc16253eb2bffcef95583e3acef3399d21c045dcd35",
+      "reproduction_member": "operation-audit/pr543-paired-selected-complex-native.json"
+    },
+    {
+      "id": "proof:pr543-paired-selected-complex-peer-review.json",
+      "label": "PR543 \u00b7 cost review",
+      "file": "operation-audit/pr543-paired-selected-complex-peer-review.json.gz",
+      "original_file": "pr543-paired-selected-complex-peer-review.json",
+      "original_bytes": 18000,
+      "original_sha256": "b806c58bbae7b0edfb0b4951e214b86ca8890357dfa87f0aea6919e30d1192ae",
+      "compressed_bytes": 6896,
+      "compressed_sha256": "d936e3df666303d55264e9e942d553ce7ebebe20f18bbac3db70246f16a57b7d",
+      "reproduction_member": "operation-audit/pr543-paired-selected-complex-peer-review.json"
+    },
+    {
+      "id": "proof:pr543-paired-selected-complex-source-peer-review.json",
+      "label": "PR543 \u00b7 source review",
+      "file": "operation-audit/pr543-paired-selected-complex-source-peer-review.json.gz",
+      "original_file": "pr543-paired-selected-complex-source-peer-review.json",
+      "original_bytes": 68326,
+      "original_sha256": "b0c69f1cfc134aca982a8e79a15a5777e3e07cd7836c2d76b1cb826aead9baf5",
+      "compressed_bytes": 10156,
+      "compressed_sha256": "241d1454b1894d29cc6ae2d0fad20adeacc95f6de4c2da44c892eab0afb7aa60",
+      "reproduction_member": "operation-audit/pr543-paired-selected-complex-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr545-paired-selected-complex-native.json",
+      "label": "PR545 \u00b7 native parameters",
+      "file": "operation-audit/pr545-paired-selected-complex-native.json.gz",
+      "original_file": "pr545-paired-selected-complex-native.json",
+      "original_bytes": 40646,
+      "original_sha256": "de63c9303814e4608cd1bb31cb86c8d49e70c55d19cab758322144eeacfa6559",
+      "compressed_bytes": 9856,
+      "compressed_sha256": "e888bb52d804a9e023d3974b8449a21b067fc8d7ad2ab81e9a33c3902a73ac94",
+      "reproduction_member": "operation-audit/pr545-paired-selected-complex-native.json"
+    },
+    {
+      "id": "proof:pr545-paired-selected-complex-peer-review.json",
+      "label": "PR545 \u00b7 cost review",
+      "file": "operation-audit/pr545-paired-selected-complex-peer-review.json.gz",
+      "original_file": "pr545-paired-selected-complex-peer-review.json",
+      "original_bytes": 17878,
+      "original_sha256": "392e2f01def8b9c8630b14191e65c647e3f2befa1259f72978b45045e05d3ce5",
+      "compressed_bytes": 6892,
+      "compressed_sha256": "82bce01cfec1de97416d8bde78dec3580970f1ac25ef1bb488bea0972b55e69f",
+      "reproduction_member": "operation-audit/pr545-paired-selected-complex-peer-review.json"
+    },
+    {
+      "id": "proof:pr545-paired-selected-complex-source-peer-review.json",
+      "label": "PR545 \u00b7 source review",
+      "file": "operation-audit/pr545-paired-selected-complex-source-peer-review.json.gz",
+      "original_file": "pr545-paired-selected-complex-source-peer-review.json",
+      "original_bytes": 115964,
+      "original_sha256": "61dac7a68d072f23622503fddaf49aa193d629f6a71bd42b8b1a45d4319b5232",
+      "compressed_bytes": 12243,
+      "compressed_sha256": "89e9620ea5b323271e3f7b4a9f18bd20e68831dc64d39c50272e6a1b9702270c",
+      "reproduction_member": "operation-audit/pr545-paired-selected-complex-source-peer-review.json"
     },
     {
       "id": "proof:pr576-exact-mixed-finite-native.json",
@@ -969,6 +1090,39 @@
       "compressed_bytes": 2993,
       "compressed_sha256": "e59fabdb921ad9cedc5558aa6982ece806fe12697f9f8b8ce77ccda032897e41",
       "reproduction_member": "operation-audit/pr588-mixed-finite-controller-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr591-hyperplane-cold-finite-native.json",
+      "label": "PR591 \u00b7 native parameters",
+      "file": "operation-audit/pr591-hyperplane-cold-finite-native.json.gz",
+      "original_file": "pr591-hyperplane-cold-finite-native.json",
+      "original_bytes": 137799,
+      "original_sha256": "431e9b897d8a61a8d5e70071ca55976aa923a36c1244ff9e3b1dba7f2f97e26d",
+      "compressed_bytes": 22334,
+      "compressed_sha256": "1b6940e5e75179d6045e4aade16d49fd6785f56ea250097c39ab5ee9d18c25c4",
+      "reproduction_member": "operation-audit/pr591-hyperplane-cold-finite-native.json"
+    },
+    {
+      "id": "proof:pr591-hyperplane-cold-finite-peer-review.json",
+      "label": "PR591 \u00b7 cost review",
+      "file": "operation-audit/pr591-hyperplane-cold-finite-peer-review.json.gz",
+      "original_file": "pr591-hyperplane-cold-finite-peer-review.json",
+      "original_bytes": 73717,
+      "original_sha256": "5092819bb55a7bf158178b0cae96c98a696cf106e26025eb58147e251ace7fee",
+      "compressed_bytes": 22386,
+      "compressed_sha256": "647e11c20f39533dfd5ee461295e58245ee3a5e767215328d9fc9eb70b0ebbe1",
+      "reproduction_member": "operation-audit/pr591-hyperplane-cold-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr591-hyperplane-cold-finite-source-peer-review.json",
+      "label": "PR591 \u00b7 source review",
+      "file": "operation-audit/pr591-hyperplane-cold-finite-source-peer-review.json.gz",
+      "original_file": "pr591-hyperplane-cold-finite-source-peer-review.json",
+      "original_bytes": 131766,
+      "original_sha256": "270354f8208bc7796037c49c8a9b5bc02ef6d770fb76f6e3c10ff3ab5589d116",
+      "compressed_bytes": 36019,
+      "compressed_sha256": "79fcb150d18499b5c20fc571664ff3f5fdcb217d775b27f411cd4d15eda5d58e",
+      "reproduction_member": "operation-audit/pr591-hyperplane-cold-finite-source-peer-review.json"
     },
     {
       "id": "proof:pr592-dispatched-finite-controller-native.json",
@@ -1301,6 +1455,39 @@
       "reproduction_member": "operation-audit/pr614-cold14-typed-finite-source-peer-review.json"
     },
     {
+      "id": "proof:pr615-hyperplane-cold-finite-native.json",
+      "label": "PR615 \u00b7 native parameters",
+      "file": "operation-audit/pr615-hyperplane-cold-finite-native.json.gz",
+      "original_file": "pr615-hyperplane-cold-finite-native.json",
+      "original_bytes": 125361,
+      "original_sha256": "2e132bc658f69566829dbd8a2a7535c1dff7d12ac210cc5f522fefd7c93c4abb",
+      "compressed_bytes": 23376,
+      "compressed_sha256": "f0c2bbe45166362ac1039a77f16043b6abaabe72907ede55fb88447ff47259aa",
+      "reproduction_member": "operation-audit/pr615-hyperplane-cold-finite-native.json"
+    },
+    {
+      "id": "proof:pr615-hyperplane-cold-finite-peer-review.json",
+      "label": "PR615 \u00b7 cost review",
+      "file": "operation-audit/pr615-hyperplane-cold-finite-peer-review.json.gz",
+      "original_file": "pr615-hyperplane-cold-finite-peer-review.json",
+      "original_bytes": 73513,
+      "original_sha256": "17a9516ecdef5e948432e176502fad7a7a7815083a85ef471e4be7a68c1b8b3c",
+      "compressed_bytes": 22285,
+      "compressed_sha256": "173586fb560a054b146f0c61a0e415b55e0f38f9fe66ce52fe6e08a4da1001b3",
+      "reproduction_member": "operation-audit/pr615-hyperplane-cold-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr615-hyperplane-cold-finite-source-peer-review.json",
+      "label": "PR615 \u00b7 source review",
+      "file": "operation-audit/pr615-hyperplane-cold-finite-source-peer-review.json.gz",
+      "original_file": "pr615-hyperplane-cold-finite-source-peer-review.json",
+      "original_bytes": 131766,
+      "original_sha256": "1f0e338628a8c9e4fb7d43f00475384d6d0a96171f88e275ee78a82efe345623",
+      "compressed_bytes": 36020,
+      "compressed_sha256": "b0428046ae628f5f7ce9af539d12a21de08ee2c0a2764af2dd7a700c75554309",
+      "reproduction_member": "operation-audit/pr615-hyperplane-cold-finite-source-peer-review.json"
+    },
+    {
       "id": "proof:pr616-cold14-typed-finite-native.json",
       "label": "PR616 \u00b7 native parameters",
       "file": "operation-audit/pr616-cold14-typed-finite-native.json.gz",
@@ -1398,6 +1585,39 @@
       "compressed_bytes": 13227,
       "compressed_sha256": "e1d65e436cbd1762b4e9018293bfea4557de5c73c6b5405fbbbbe876cfa93e05",
       "reproduction_member": "operation-audit/pr618-cold14-typed-finite-source-peer-review.json"
+    },
+    {
+      "id": "proof:pr619-ceiling-refined-finite-native.json",
+      "label": "PR619 \u00b7 native parameters",
+      "file": "operation-audit/pr619-ceiling-refined-finite-native.json.gz",
+      "original_file": "pr619-ceiling-refined-finite-native.json",
+      "original_bytes": 173953,
+      "original_sha256": "ed80606dc80a3fc8ee56c616c6de6f5f3756a0179552996fb8b82fd390e3b39d",
+      "compressed_bytes": 38973,
+      "compressed_sha256": "f879132ad51a255c3edbf4cf60a3023ea4ffee0f935ec4acad41740adef21fc1",
+      "reproduction_member": "operation-audit/pr619-ceiling-refined-finite-native.json"
+    },
+    {
+      "id": "proof:pr619-ceiling-refined-finite-peer-review.json",
+      "label": "PR619 \u00b7 cost review",
+      "file": "operation-audit/pr619-ceiling-refined-finite-peer-review.json.gz",
+      "original_file": "pr619-ceiling-refined-finite-peer-review.json",
+      "original_bytes": 114412,
+      "original_sha256": "c17419c7f8b2a9abfd631104ae7212bd1f803bcb8b3741d085fa628ef8b76ef1",
+      "compressed_bytes": 37493,
+      "compressed_sha256": "9d43b120ddbf0853e5aa37d02ed59ade53c9f7f733a74d6b520dda0f3e99763a",
+      "reproduction_member": "operation-audit/pr619-ceiling-refined-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr619-ceiling-refined-finite-source-peer-review.json",
+      "label": "PR619 \u00b7 source review",
+      "file": "operation-audit/pr619-ceiling-refined-finite-source-peer-review.json.gz",
+      "original_file": "pr619-ceiling-refined-finite-source-peer-review.json",
+      "original_bytes": 101489,
+      "original_sha256": "24555ec123d3ac3f3e524a0c19a2643a8ec9aa6ad2a12f0d5e70d88f921128b5",
+      "compressed_bytes": 26937,
+      "compressed_sha256": "da7744895a69e10ab71f6d42839b6c6d164e54cd15eb7a0f07668cef098e2fe9",
+      "reproduction_member": "operation-audit/pr619-ceiling-refined-finite-source-peer-review.json"
     },
     {
       "id": "proof:pr622-dispatched-finite-controller-native.json",
@@ -1763,6 +1983,39 @@
       "reproduction_member": "operation-audit/pr644-k492-mixed-finite-source-peer-review.json"
     },
     {
+      "id": "proof:pr646-signed-root-K480-finite-native.json",
+      "label": "PR646 \u00b7 native parameters",
+      "file": "operation-audit/pr646-signed-root-K480-finite-native.json.gz",
+      "original_file": "pr646-signed-root-K480-finite-native.json",
+      "original_bytes": 103948,
+      "original_sha256": "1c10e71fe9dcbae45e761b11d58c449797ef4e6ac1baeb4b7648923e6cfa9489",
+      "compressed_bytes": 20345,
+      "compressed_sha256": "561ce19db5b0c0f2aab89b7c277bf69201b1d97affa2e8b36ef03dd03cb9d20c",
+      "reproduction_member": "operation-audit/pr646-signed-root-K480-finite-native.json"
+    },
+    {
+      "id": "proof:pr646-signed-root-K480-finite-peer-review.json",
+      "label": "PR646 \u00b7 cost review",
+      "file": "operation-audit/pr646-signed-root-K480-finite-peer-review.json.gz",
+      "original_file": "pr646-signed-root-K480-finite-peer-review.json",
+      "original_bytes": 56691,
+      "original_sha256": "7b375feda56a6d183d3e3a7a9df62702b745a81b9995d7b324d8fee8e1b698e7",
+      "compressed_bytes": 18068,
+      "compressed_sha256": "a06b37d292a284e60631a29726711fe2baad922af57b4ad6e2d207c73ef99730",
+      "reproduction_member": "operation-audit/pr646-signed-root-K480-finite-peer-review.json"
+    },
+    {
+      "id": "proof:pr646-signed-root-K480-finite-source-peer-review.json",
+      "label": "PR646 \u00b7 source review",
+      "file": "operation-audit/pr646-signed-root-K480-finite-source-peer-review.json.gz",
+      "original_file": "pr646-signed-root-K480-finite-source-peer-review.json",
+      "original_bytes": 124196,
+      "original_sha256": "fd25d2adb38d843d8ab55886b0d1dba7118797ce606515144ea523f2c2b65ad0",
+      "compressed_bytes": 31276,
+      "compressed_sha256": "d26bbf523dc3108eb1d980a8ca6ac415499c42e8d487a3dd0f9d301c82aa2837",
+      "reproduction_member": "operation-audit/pr646-signed-root-K480-finite-source-peer-review.json"
+    },
+    {
       "id": "proof:pr654-gaussian-only-finite-native.json",
       "label": "PR654 \u00b7 native parameters",
       "file": "operation-audit/pr654-gaussian-only-finite-native.json.gz",
@@ -1895,37 +2148,26 @@
       "reproduction_member": "operation-audit/pr870-u8-selected-finite-source-peer-review.json"
     },
     {
-      "id": "proof:pr890-finite-controller-native.json",
-      "label": "PR890 \u00b7 native parameters",
-      "file": "operation-audit/pr890-finite-controller-native.json.gz",
-      "original_file": "pr890-finite-controller-native.json",
-      "original_bytes": 18077,
-      "original_sha256": "36c630f984c4c0457df817ddcf24a549af1b348e8ba24bfa31c6cd2b8294f337",
-      "compressed_bytes": 7764,
-      "compressed_sha256": "ceaaec8b13a3eb1e05a55e37774f02bd674e461d90f5e13dae7c1467a8c11a48",
-      "reproduction_member": "operation-audit/pr890-finite-controller-native.json"
-    },
-    {
-      "id": "proof:pr890-finite-controller-peer-review.json",
+      "id": "proof:pr890-finite73-literal-cover-range-peer-review.json",
       "label": "PR890 \u00b7 cost review",
-      "file": "operation-audit/pr890-finite-controller-peer-review.json.gz",
-      "original_file": "pr890-finite-controller-peer-review.json",
-      "original_bytes": 3819,
-      "original_sha256": "481b72e967968509fa8af8b0cce1428850d82ee44fe431a455818f5ed2fff570",
-      "compressed_bytes": 1974,
-      "compressed_sha256": "0bbd83b6a592ab25c79a3857963fc744f05802de93685c9b0849bf5fa07df0e1",
-      "reproduction_member": "operation-audit/pr890-finite-controller-peer-review.json"
+      "file": "operation-audit/pr890-finite73-literal-cover-range-peer-review.json.gz",
+      "original_file": "pr890-finite73-literal-cover-range-peer-review.json",
+      "original_bytes": 50047,
+      "original_sha256": "7a1234fcb679245f0e47c277916cf8945dcf571a9ff16673210f2d4d71492f26",
+      "compressed_bytes": 18970,
+      "compressed_sha256": "ca566b7e61733a89259f8c6a01fbba8cd25db4b4b7f4733dc6b1131bc87c6636",
+      "reproduction_member": "operation-audit/pr890-finite73-literal-cover-range-peer-review.json"
     },
     {
-      "id": "proof:pr890-finite-controller-source-peer-review.json",
+      "id": "proof:pr890-finite73-literal-cover-source-peer-review.json",
       "label": "PR890 \u00b7 source review",
-      "file": "operation-audit/pr890-finite-controller-source-peer-review.json.gz",
-      "original_file": "pr890-finite-controller-source-peer-review.json",
-      "original_bytes": 11740,
-      "original_sha256": "589224c16be96401bca34fde8e2ed92b2b5414f9c017e046de96fb048b3c7b59",
-      "compressed_bytes": 3017,
-      "compressed_sha256": "fdd49b7354d888c5319c8d911cffcc9bd0a84963cdb5de2f5404c80bf3f99c9b",
-      "reproduction_member": "operation-audit/pr890-finite-controller-source-peer-review.json"
+      "file": "operation-audit/pr890-finite73-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr890-finite73-literal-cover-source-peer-review.json",
+      "original_bytes": 84708,
+      "original_sha256": "381be1d17392c825fec8870d9dbb7b41d893f2da7cd4106d94edc9bc710b57f2",
+      "compressed_bytes": 22424,
+      "compressed_sha256": "2900dfdef0ae70f6a579296afd00651cf29c812157f68c5eff5326f1ce378e86",
+      "reproduction_member": "operation-audit/pr890-finite73-literal-cover-source-peer-review.json"
     },
     {
       "id": "proof:pr937-historical-two-shear-gaussian-native.json",
@@ -1961,37 +2203,26 @@
       "reproduction_member": "operation-audit/pr937-historical-two-shear-gaussian-source-peer-review.json"
     },
     {
-      "id": "proof:pr942-finite-controller-native.json",
-      "label": "PR942 \u00b7 native parameters",
-      "file": "operation-audit/pr942-finite-controller-native.json.gz",
-      "original_file": "pr942-finite-controller-native.json",
-      "original_bytes": 18077,
-      "original_sha256": "adb07451f85e369e27610d9035deb2d45fb4013ccea4c00188fad2b480f542cf",
-      "compressed_bytes": 7777,
-      "compressed_sha256": "f22d071851ad814eddd9e48a1832f4307962f17dd510afd0fa3cb26ec53c8ff7",
-      "reproduction_member": "operation-audit/pr942-finite-controller-native.json"
-    },
-    {
-      "id": "proof:pr942-finite-controller-peer-review.json",
+      "id": "proof:pr942-finite73-literal-cover-range-peer-review.json",
       "label": "PR942 \u00b7 cost review",
-      "file": "operation-audit/pr942-finite-controller-peer-review.json.gz",
-      "original_file": "pr942-finite-controller-peer-review.json",
-      "original_bytes": 3819,
-      "original_sha256": "3e2fadeff74de6a2a67161e17816ad932edc0df15d215b163bbbfc69de167b91",
-      "compressed_bytes": 1973,
-      "compressed_sha256": "e8d42463c88f768959cb4b7d95a5ddb71ba1fbb3fa1ea41c511e41a8ec47ec8a",
-      "reproduction_member": "operation-audit/pr942-finite-controller-peer-review.json"
+      "file": "operation-audit/pr942-finite73-literal-cover-range-peer-review.json.gz",
+      "original_file": "pr942-finite73-literal-cover-range-peer-review.json",
+      "original_bytes": 50047,
+      "original_sha256": "0a945f050519311b15c92e2711efb4abff295313a8f8913cdd1d167cd42c11f4",
+      "compressed_bytes": 18968,
+      "compressed_sha256": "0e97110c1ea4f5ad6bcc3d7ddcb7296a8aa2a417c3bacb2185aab7fa3d6a815d",
+      "reproduction_member": "operation-audit/pr942-finite73-literal-cover-range-peer-review.json"
     },
     {
-      "id": "proof:pr942-finite-controller-source-peer-review.json",
+      "id": "proof:pr942-finite73-literal-cover-source-peer-review.json",
       "label": "PR942 \u00b7 source review",
-      "file": "operation-audit/pr942-finite-controller-source-peer-review.json.gz",
-      "original_file": "pr942-finite-controller-source-peer-review.json",
-      "original_bytes": 11740,
-      "original_sha256": "a602733aa1d2f113b025a0d7860f49f12bea9944a31f173a77cbcac5ccd053e1",
-      "compressed_bytes": 3012,
-      "compressed_sha256": "e777591f726f40879df8f2629128aba8a013be79ade001dc0779e7b45c740d22",
-      "reproduction_member": "operation-audit/pr942-finite-controller-source-peer-review.json"
+      "file": "operation-audit/pr942-finite73-literal-cover-source-peer-review.json.gz",
+      "original_file": "pr942-finite73-literal-cover-source-peer-review.json",
+      "original_bytes": 117749,
+      "original_sha256": "bee63d06ce2eb6b190455898dff44f828cc2cce7f8fd403c7995ab3f4de915f5",
+      "compressed_bytes": 25351,
+      "compressed_sha256": "2f3b274ff22ee3af2535828342fddac42362c5cf0a63322b0aea488cf0649b35",
+      "reproduction_member": "operation-audit/pr942-finite73-literal-cover-source-peer-review.json"
     },
     {
       "id": "proof:pr962-generated-U8-t37-finite-native.json",

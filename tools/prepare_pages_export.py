@@ -5,10 +5,10 @@ copies a workspace, Git checkout metadata or Site credentials.
 """
 from pathlib import Path
 from hashlib import sha256
-import argparse,json,shutil
+import argparse,json,re,shutil
 
 ROOT=Path(__file__).resolve().parents[1]
-RELEASE='https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/'
+RELEASE=re.compile(r'https://github\.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-[0-9][0-9a-z-]*/')
 FORBIDDEN_DIRS={'.git','.openai','node_modules','__pycache__','.cache'}
 FORBIDDEN_FILES={'.env','.env.local','.env.production','id_rsa','id_ed25519'}
 
@@ -27,7 +27,7 @@ def main():
     descriptor=json.loads((source/'data/reproduction-package.json').read_bytes())
     assert descriptor['schema']=='content-addressed-reproduction/1'
     for a in descriptor['archives']:
-        assert a['download_url']==RELEASE+a['file'],('Archive still requires a different/private hosting service',a['file'])
+        assert RELEASE.fullmatch(a['download_url'].removesuffix(a['file'])) and a['download_url'].endswith('/'+a['file']),('Archive still requires a different/private hosting service',a['file'])
     approved={};omitted=[]
     for p in sorted(source.rglob('*')):
         rel=p.relative_to(source)

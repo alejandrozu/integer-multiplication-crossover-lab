@@ -120,16 +120,41 @@
       "bytes": 4191554,
       "sha256": "e3143b911438cd4dffcd7cbe0288043752e8b01e956b3ac3b4f4c6ba4ebda6de",
       "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-196-2026-10-24/operation-audit-objects-62.zip"
+    },
+    {
+      "file": "operation-audit-objects-63.zip",
+      "bytes": 24601446,
+      "sha256": "0ab43afd053262346d0906803efd290da553163a4d39b5fcdd738a55537a3fa0",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-63.zip"
+    },
+    {
+      "file": "operation-audit-objects-64.zip",
+      "bytes": 11874224,
+      "sha256": "44f07559aece105221b7266a7d93fb1b42a8e56da3e8580c2036dde183dfc681",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-64.zip"
+    },
+    {
+      "file": "operation-audit-objects-65.zip",
+      "bytes": 4339209,
+      "sha256": "63b7f9b652cbdea8897d17b69d2b94dcaf3aae3eb6e8ac85890cbb4b7a7c748f",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-65.zip"
+    },
+    {
+      "file": "operation-audit-objects-66.zip",
+      "bytes": 4354576,
+      "sha256": "797b1de57cc653454e478f180698b0439b750a5ad52f84ae58ef02b90525b138",
+      "download_url": "https://github.com/alejandrozu/integer-multiplication-crossover-lab/releases/download/audit-2026-10-25-01/operation-audit-objects-66.zip"
     }
   ],
-  "manifest_archive": "operation-audit-objects-62.zip",
+  "manifest_archive": "operation-audit-objects-66.zip",
   "manifest_member": "REPRODUCTION-MANIFEST.json",
   "restore_script": "restore_reproduction.py",
   "restore_script_sha256": "4c15819e296fa8fed88af4746c5ec4f34d656ab8f717b2dfcef01ad2f200b94b",
-  "full_payload_members": 20096,
-  "unique_objects": 15366,
-  "full_payload_hash_map_sha256": "3170678854f0dd3ae1d11c35746e38fc776667a89d04eb65a8ac019ac9616f97",
-  "retained_unreferenced_objects": 20,
-  "scope": "Every current logical source byte is unchanged. ZIP containers are compacted; prior map/receipt bindings are retained in a separate verified capsule.",
-  "published_source_maps_member": "PUBLISHED-SOURCE-MAPS.json"
+  "full_payload_members": 23388,
+  "unique_objects": 16767,
+  "full_payload_hash_map_sha256": "0006f326832092d8b1778b47e485c5c37bcfb8acf0f8a1250036fb0d82ef290c",
+  "retained_unreferenced_objects": 38,
+  "scope": "Complete current source/proof reconstruction with immutable published archives and exact new source and browser additions. Every logical payload path is SHA256-bound; retained published source maps support explicit byte-identical replay inheritance. Transport changes no mathematical bound.",
+  "published_source_maps_member": "PUBLISHED-SOURCE-MAPS.json",
+  "current_release_tag": "audit-2026-10-25-01"
 }

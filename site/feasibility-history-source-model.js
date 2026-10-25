@@ -23,8 +23,10 @@
    }else if(p.conditional_upper!==null||b.conditional_upper!==null)throw Error('A lower-only extension cannot assert an upper');
    if(p.cost_status!==status)throw Error('Own-source status differs from its bounds');
    if(e.lower){
-    const lower=p.meaningful_lower_bound,coordinate=e.lower.plot_triple_log?.log2_of_integer;
-    if(!digest.test(e.lower_certificate_sha256)||!e.lower_certificate_file||!/^\d+$/.test(coordinate)||BigInt(coordinate)<=73n||e.lower.exact_individual_crossing!==false||e.lower.all_PR_implementations!==false||JSON.stringify(lower)!==JSON.stringify(e.lower)||lower.source!==`data/operation-audit/${e.lower_certificate_file}`)throw Error('Unrecognized own-source lower certificate');
+    const lower=p.meaningful_lower_bound,plot=e.lower.plot_triple_log,coordinate=plot?.log2_of_integer,smallExponent=plot?.exact_log2_integer;
+    const literalCover=coordinate===undefined&&Number.isSafeInteger(smallExponent)&&smallExponent>1&&e.lower.exact_log2_integer===smallExponent&&e.lower.input_bits===`2^${smallExponent}`&&plot.expression===`log2(log2(${smallExponent}))`&&e.lower.statistic==='necessary_no_strict_win_below_endpoint_for_declared_literal_family'&&e.necessary_lower_quantifier==='all_valid_literal_family_public_policies'&&e.upper_not_for_all_switching_policies===true;
+    const tower=/^\d+$/.test(coordinate)&&BigInt(coordinate)>73n&&smallExponent===undefined;
+    if(!digest.test(e.lower_certificate_sha256)||!e.lower_certificate_file||!(literalCover||tower)||e.lower.exact_individual_crossing!==false||e.lower.all_PR_implementations!==false||JSON.stringify(lower)!==JSON.stringify(e.lower)||lower.source!==`data/operation-audit/${e.lower_certificate_file}`)throw Error('Unrecognized own-source lower certificate');
    }else if(JSON.stringify(p.meaningful_lower_bound)!==JSON.stringify(b.meaningful_lower_bound))throw Error('An own-source upper does not imply a new lower');
    if(e.record_certificate_file&&(!digest.test(e.record_certificate_sha256)||!/^\d+$/.test(e.record_P)||BigInt(e.record_P)<BigInt(e.upper.exact_log2log2_integer)))throw Error('Missing own-source record-tail binding');
   }return true;
